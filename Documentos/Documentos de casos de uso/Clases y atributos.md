@@ -5,4 +5,4 @@
 - Reporte: justificante de no asistencia, fecha, tipo
 - Aplicación web: horas trabajadas, notificacion, 
 - Calendario: fechaInicio, fechaFin
-- Horario: día, fecha, hora
+- Horario: día, horaEntrada, horaSalida
