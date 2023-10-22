@@ -1,0 +1,53 @@
+@startuml
+
+Object Empleado {
+    nombre
+    apellido
+    identificador
+    email
+    tipoEmpleado
+}
+
+Object EquipoControlPresencia {
+    emailContacto
+}
+
+Object Fichaje {
+    fechaHoraEntrada
+    fechaHoraSalida
+}
+
+Object Reporte {
+    justificanteNoAsistencia
+    fecha
+    tipo
+}
+
+Object AplicacionWeb {
+    horasTrabajadas
+    notificacion
+}
+
+Object Calendario {
+    fechaInicio
+    fechaFin
+}
+
+Object Horario {
+    dia
+    horaEntrada
+    horaSalida
+}
+
+Empleado -d- Fichaje: Realiza-un
+Empleado -r- Reporte: Genera-un
+Empleado -d- Calendario: Contratado-durante
+AplicacionWeb -l- Empleado: Accede
+AplicacionWeb -d- Fichaje: Muestra
+Calendario -r- Horario: Contiene
+Fichaje -r- AplicacionWeb: Se-Registra-en
+EquipoControlPresencia -d- Fichaje: Verifica
+EquipoControlPresencia -d- AplicacionWeb: Gestiona
+EquipoControlPresencia -l- Reporte: Administra
+
+@enduml
