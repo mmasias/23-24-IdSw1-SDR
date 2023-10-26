@@ -1,0 +1,51 @@
+@startuml
+
+class "Horario de Grado" {
+}
+
+class "Horario de Profesor" {
+}
+
+class "Horario de Aula" {
+}
+
+"Horario de Grado" -- "Horario de Profesor" : Conexión
+"Horario de Grado" -- "Horario de Aula" : Conexión
+"Horario de Profesor" -- "Horario de Aula" : Conexión
+
+note as N1
+  Contiene las asignaturas
+  de cada carrera.
+end note
+
+note as N2
+  Contiene las asignaturas que
+  imparte cada profesor.
+end note
+
+note as N3
+  Indica qué clase hay en
+  cada aula.
+end note
+
+"Horario de Grado" .. N1
+"Horario de Profesor" .. N2
+"Horario de Aula" .. N3
+
+note bottom of "Horario de Grado"
+  Si hay conflicto:
+  - Notificar
+  - Bloquear cambio
+end note
+
+note bottom of "Horario de Profesor"
+  Un profesor no puede impartir
+  dos clases a la vez.
+end note
+
+note bottom of "Horario de Aula"
+  No puede haber una clase en la
+  misma hora en el mismo aula.
+end note
+
+@enduml
