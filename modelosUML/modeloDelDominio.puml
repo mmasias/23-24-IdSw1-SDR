@@ -1,76 +1,76 @@
 @startuml
 
 class Empleado {
-    - nombre
-    - apellido
-    - identificador
-    - email
-    - tipoEmpleado
+    + nombre
+    + apellido
+    + identificador
+    + email
+    + tipoEmpleado
 }
 
 class EquipoControlPresencia {
-    - emailContacto
+    + emailContacto
 }
 
 class Fichaje {
-    - Estado
-    - HoraEntrada
-    - HoraSalida
+    + Estado
+    + HoraEntrada
+    + HoraSalida
 }
 
 class AplicacionWeb {
-    - Empleado
-    - Administrador
-    - Fichaje
-    - Solicitud
-    - InformeSemanal
-    - Notificaciones
+    + Empleado
+    + Administrador
+    + Fichaje
+    + Solicitud
+    + InformeSemanal
+    + Notificaciones
 }
 
 class Periodo {
-    - fechaInicio
-    - fechaFin
-    - Horario
+    + fechaInicio
+    + fechaFin
+    + Horario
 }
 
 class Horario {
-    - JornadaSemanal
-    - JornadaDiaria
+    + JornadaSemanal
+    + JornadaDiaria
 }
 
 class Contrato {
-    - Condiciones
-    - TipoContrato
-    - Periodo
-    - Puesto
+    + Condiciones
+    + TipoContrato
+    + Periodo
+    + Puesto
 }
 
 class InformeSemanal {
-    - Empleado
-    - horasTrabajadas
-    - horasRestantes
-    - Solicitudes
+    + Empleado
+    + horasTrabajadas
+    + horasRestantes
+    + Solicitudes
 }
 
 class Solicitud {
-    - fecha
-    - tiempo
-    - estado
-    - motivo
-    - justificante
+    + fecha
+    + tiempo
+    + estado
+    + motivo
+    + justificante
 }
 
-Empleado "Tiene" -->  Contrato
-Empleado "Realiza" -->  Fichaje
-Empleado "Accede" -->  AplicacionWeb
-AplicacionWeb  --> "Permite crear" Solicitud
-AplicacionWeb "Genera" -->  InformeSemanal
-AplicacionWeb "Registra"-->  Fichaje
-Fichaje --> "Depende" Horario
-Contrato --> "Durante" Periodo
-Periodo "Tiene" -->  Horario
-EquipoControlPresencia "Administra" -->  Solicitud
-EquipoControlPresencia --> "Accede" AplicacionWeb
-EquipoControlPresencia --> "Gestiona" InformeSemanal
+Empleado "Tiene" --  Contrato
+Empleado "Realiza" --  Fichaje
+Empleado "Accede" --  AplicacionWeb
+AplicacionWeb  -- "Permite crear" Solicitud
+AplicacionWeb "Genera" --  InformeSemanal
+AplicacionWeb "Registra"--  Fichaje
+Fichaje -- "Depende" Horario
+Contrato -- "Durante" Periodo
+Periodo "Tiene" --  Horario
+EquipoControlPresencia "Administra" --  Solicitud
+EquipoControlPresencia -- "Accede" AplicacionWeb
+EquipoControlPresencia -- "Gestiona" InformeSemanal
 
 @enduml
