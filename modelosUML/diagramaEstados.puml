@@ -1,0 +1,77 @@
+@startuml
+title Diagrama de Estados - Proceso en Aplicación FISK
+
+class Inicio {
+    - Crear nuevo proyecto
+    - Abrir proyecto existente
+}
+
+class CreacionProyecto {
+    - Nombrar proyecto
+    - Describir proyecto
+    - Fecha de inicio
+}
+
+class SeleccionTipologia {
+    - Planos
+    - Bidimensional
+    - Tridimensional
+}
+
+class SeleccionMaterial {
+    - Introducir propiedades
+    - Usar material existente
+    - Importar material
+}
+
+class ConfiguracionAgresionTermica {
+    - Definir parámetros
+    - Usar configuración previa
+    - Diseñar agresión personalizada
+}
+
+class ConfirmacionDatos {
+    - Revisar y validar datos
+    - Corregir errores
+    - Confirmar para simulación
+}
+
+class SimulacionEnProgreso {
+    - Barra de progreso
+    - Esperar finalización
+    - Cancelar simulación
+}
+
+class ResultadosSimulacion {
+    - Ver gráfica de reacción
+    - Generar reporte
+    - Exportar datos
+}
+
+class GuardadoProyecto {
+    - Guardar cambios
+    - Exportar proyecto
+    - Cerrar proyecto
+}
+
+class Error {
+    - Mostrar detalles del error
+    - Corregir
+}
+
+Inicio --> CreacionProyecto : "Crear nuevo proyecto"
+Inicio --> SeleccionTipologia : "Abrir proyecto existente"
+CreacionProyecto --> SeleccionTipologia
+SeleccionTipologia --> SeleccionMaterial
+SeleccionMaterial --> ConfiguracionAgresionTermica
+ConfiguracionAgresionTermica --> ConfirmacionDatos
+ConfirmacionDatos --> SimulacionEnProgreso : "Datos Correctos"
+ConfirmacionDatos --> Error : "Datos Incorrectos"
+SimulacionEnProgreso --> ResultadosSimulacion : "Simulación Completa"
+SimulacionEnProgreso --> Error : "Error en Simulación"
+ResultadosSimulacion --> GuardadoProyecto
+Error --> SeleccionTipologia : "Corregir Tipología"
+Error --> SeleccionMaterial : "Corregir Material"
+Error --> ConfiguracionAgresionTermica : "Corregir Agresión Térmica"
+
+@enduml

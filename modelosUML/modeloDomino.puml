@@ -1,0 +1,83 @@
+@startuml
+title Modelo de Dominio Extendido - Aplicación FISK
+
+class Usuario {
+    - nombre: String
+    - registroDeAcciones: Log
+}
+
+class Proyecto {
+    - nombre: String
+    - descripcion: String
+    - fechaCreacion: Date
+    - simulaciones: List<Simulacion>
+}
+
+class Simulacion {
+    - tipologia: TipologiaElemento
+    - material: Material
+    - agresionTermica: AgresionTermica
+    - graficaReaccion: Grafica
+    - fechaSimulacion: Date
+}
+
+enum TipologiaElemento {
+    PLANOS,
+    BIDIMENSIONAL,
+    TRIDIMENSIONAL
+}
+
+class Material {
+    - nombre: String
+    - permeabilidadAgua: Double
+    - permeabilidadGas: Double
+    - conductorCalor: Double
+    - propiedadesExtra: Map<String, Double>
+}
+
+class AgresionTermica {
+    - temperatura: Double
+    - tiempoCalentamiento: Double
+    - humedadExterior: Double
+    - geolocalizacion: Location
+    - agresionPersonalizada: Map<String, Double>
+}
+
+class Grafica {
+    - datos: List<DataPoint>
+    - tipoGrafica: String
+}
+
+class DataPoint {
+    - valorX: Double
+    - valorY: Double
+}
+
+class Log {
+    - acciones: List<String>
+    - fechaHora: DateTime
+    - detalles: String
+}
+
+class Reporte {
+    - nombre: String
+    - tipo: String
+    - contenido: String
+    - formato: String
+}
+
+class Location {
+    - latitud: Double
+    - longitud: Double
+}
+
+Usuario -- Proyecto : "realiza >"
+Proyecto "1" o-- "*" Simulacion : "contiene >"
+Simulacion -- TipologiaElemento : "define >"
+Simulacion -- Material : "utiliza >"
+Simulacion -- AgresionTermica : "somete a >"
+Simulacion -- Grafica : "genera >"
+Simulacion o-- Reporte : "produce >"
+Usuario --> Log : "registra >"
+
+@enduml
