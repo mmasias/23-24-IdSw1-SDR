@@ -1,77 +1,73 @@
 @startuml
-title Diagrama de Estados - Proceso en Aplicación FISK
 
-class Inicio {
-    - Crear nuevo proyecto
-    - Abrir proyecto existente
+[*] --> Inicio
+
+state Inicio {
+    [*] --> NuevoProyecto
+    NuevoProyecto --> AbrirProyectoExistente : "Selecciona existente"
 }
 
-class CreacionProyecto {
-    - Nombrar proyecto
-    - Describir proyecto
-    - Fecha de inicio
+state CreacionProyecto {
+    [*] --> NombrarProyecto
+    NombrarProyecto --> DescribirProyecto : "Define nombre"
+    DescribirProyecto --> FechaInicio : "Agrega descripción"
+    FechaInicio --> SeleccionTipologia : "Establece fecha"
 }
 
-class SeleccionTipologia {
-    - Planos
-    - Bidimensional
-    - Tridimensional
+state SeleccionTipologia {
+    [*] --> Planos
+    Planos --> Bidimensional : "Selecciona bidimensional"
+    Planos --> Tridimensional : "Selecciona tridimensional"
+    Bidimensional --> SeleccionMaterial : "Finaliza selección"
+    Tridimensional --> SeleccionMaterial : "Finaliza selección"
 }
 
-class SeleccionMaterial {
-    - Introducir propiedades
-    - Usar material existente
-    - Importar material
+state SeleccionMaterial {
+    [*] --> IntroducirPropiedades
+    IntroducirPropiedades --> UsarMaterialExistente : "Selecciona existente"
+    UsarMaterialExistente --> ImportarMaterial : "Desea importar"
+    ImportarMaterial --> ConfiguracionAgresionTermica : "Finaliza importación"
 }
 
-class ConfiguracionAgresionTermica {
-    - Definir parámetros
-    - Usar configuración previa
-    - Diseñar agresión personalizada
+state ConfiguracionAgresionTermica {
+    [*] --> DefinirParametros
+    DefinirParametros --> UsarConfiguracionPrevia : "Selecciona configuración previa"
+    UsarConfiguracionPrevia --> DiseñarAgresionPersonalizada : "Diseñar agresión"
+    DiseñarAgresionPersonalizada --> ConfirmacionDatos : "Finaliza diseño"
 }
 
-class ConfirmacionDatos {
-    - Revisar y validar datos
-    - Corregir errores
-    - Confirmar para simulación
+state ConfirmacionDatos {
+    [*] --> RevisarValidar
+    RevisarValidar --> CorregirErrores : "Detecta error"
+    CorregirErrores --> ConfirmarSimulacion : "Corrige y valida"
+    ConfirmarSimulacion --> SimulacionEnProgreso : "Inicia simulación"
 }
 
-class SimulacionEnProgreso {
-    - Barra de progreso
-    - Esperar finalización
-    - Cancelar simulación
+state SimulacionEnProgreso {
+    [*] --> BarraProgreso
+    BarraProgreso --> EsperarFinalizacion : "Simulación en curso"
+    BarraProgreso --> CancelarSimulacion : "Usuario cancela"
+    CancelarSimulacion --> Error
+    EsperarFinalizacion --> ResultadosSimulacion : "Simulación completada"
 }
 
-class ResultadosSimulacion {
-    - Ver gráfica de reacción
-    - Generar reporte
-    - Exportar datos
+state ResultadosSimulacion {
+    [*] --> VerGraficaReaccion
+    VerGraficaReaccion --> GenerarReporte : "Solicita reporte"
+    GenerarReporte --> ExportarDatos : "Decide exportar"
+    ExportarDatos --> GuardadoProyecto : "Finaliza exportación"
 }
 
-class GuardadoProyecto {
-    - Guardar cambios
-    - Exportar proyecto
-    - Cerrar proyecto
+state GuardadoProyecto {
+    [*] --> GuardarCambios
+    GuardarCambios --> ExportarProyecto : "Desea exportar proyecto"
+    ExportarProyecto --> CerrarProyecto : "Termina exportación"
+    CerrarProyecto --> [*]
 }
 
-class Error {
-    - Mostrar detalles del error
-    - Corregir
-}
-
-Inicio --> CreacionProyecto : "Crear nuevo proyecto"
-Inicio --> SeleccionTipologia : "Abrir proyecto existente"
-CreacionProyecto --> SeleccionTipologia
-SeleccionTipologia --> SeleccionMaterial
-SeleccionMaterial --> ConfiguracionAgresionTermica
-ConfiguracionAgresionTermica --> ConfirmacionDatos
-ConfirmacionDatos --> SimulacionEnProgreso : "Datos Correctos"
-ConfirmacionDatos --> Error : "Datos Incorrectos"
-SimulacionEnProgreso --> ResultadosSimulacion : "Simulación Completa"
-SimulacionEnProgreso --> Error : "Error en Simulación"
-ResultadosSimulacion --> GuardadoProyecto
-Error --> SeleccionTipologia : "Corregir Tipología"
-Error --> SeleccionMaterial : "Corregir Material"
-Error --> ConfiguracionAgresionTermica : "Corregir Agresión Térmica"
-
-@enduml
+state Error {
+    [*] --> MostrarDetalles
+    MostrarDetalles --> Corregir : "Usuario corrige"
+    Corregir --> SeleccionTipologia : "Corrige tipología"
+    Corregir --> SeleccionMaterial : "Corrige material"
+    Corregir --> ConfiguracionAgresionTermica : "Corrige agresión térmica
