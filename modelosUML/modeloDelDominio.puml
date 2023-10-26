@@ -1,76 +1,38 @@
 @startuml
 
-class Empleado {
-    + nombre
-    + apellido
-    + identificador
-    + email
-    + tipoEmpleado
-}
+class Contrato {
 
-class EquipoControlPresencia {
-    + emailContacto
-}
-
-class Fichaje {
-    + Estado
-    + HoraEntrada
-    + HoraSalida
-}
-
-class AplicacionWeb {
-    + Empleado
-    + Administrador
-    + Fichaje
-    + Solicitud
-    + InformeSemanal
-    + Notificaciones
-}
-
-class Periodo {
-    + fechaInicio
-    + fechaFin
-    + Horario
 }
 
 class Horario {
-    + JornadaSemanal
-    + JornadaDiaria
+
 }
 
-class Contrato {
-    + Condiciones
-    + TipoContrato
-    + Periodo
-    + Puesto
+class Trabajadores {
+
 }
 
-class InformeSemanal {
-    + Empleado
-    + horasTrabajadas
-    + horasRestantes
-    + Solicitudes
+class LectorDeHuellas {
+
 }
 
-class Solicitud {
-    + fecha
-    + tiempo
-    + estado
-    + motivo
-    + justificante
+class Fichaje {
+
 }
 
-Empleado "Tiene" --  Contrato
-Empleado "Realiza" --  Fichaje
-Empleado "Accede" --  AplicacionWeb
-AplicacionWeb  -- "Permite crear" Solicitud
-AplicacionWeb "Genera" --  InformeSemanal
-AplicacionWeb "Registra"--  Fichaje
-Fichaje -- "Depende" Horario
-Contrato -- "Durante" Periodo
-Periodo "Tiene" --  Horario
-EquipoControlPresencia "Administra" --  Solicitud
-EquipoControlPresencia -- "Accede" AplicacionWeb
-EquipoControlPresencia -- "Gestiona" InformeSemanal
+class Informe {
+
+}
+
+class EquipoDeControl {
+
+}
+
+Contrato "Establece" -- Horario
+Trabajadores "Tiene" --  Contrato
+Trabajadores "Usa" -- LectorDeHuellas
+LectorDeHuellas "Para" -- Fichaje
+Fichaje "Se usa en un" -- Informe
+EquipoDeControl "Revisa" -- Informe
 
 @enduml
