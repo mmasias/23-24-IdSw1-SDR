@@ -1,0 +1,68 @@
+@startuml
+
+class Usuario {
+    -id: int
+    -nombreUsuario: String
+    -contrasena: String
+    +autenticar(): boolean
+    +cambiarContrasena(nuevaContrasena: String): void
+}
+
+class Docente {
+    -id: int
+    -nombre: String
+    -apellido: String
+    -asignaturas: List<Asignatura>
+    +crear(): void
+    +editar(): void
+    +obtenerPerfil(): Perfil
+}
+
+class Asignatura {
+    -id: int
+    -nombre: String
+    -descripcion: String
+}
+
+class Permiso {
+    -id: int
+    -accionesPermitidas: List<String>
+}
+
+class Baja {
+    -id: int
+    -tipo: String
+    -estado: boolean
+    +reincorporar(): void
+    +anularBaja(): void
+}
+
+class Notificacion {
+    -id: int
+    -mensaje: String
+    -destinatario: Docente
+    +enviarNotificacion(): void
+}
+
+class Configuracion {
+    -id: int
+    -opcionesConfiguracion: Map<String, String>
+    +modificarConfiguracion(clave: String, valor: String): void
+}
+
+class Migracion {
+    -id: int
+    -datosAMigrar: String
+    -estadoMigracion: boolean
+    +realizarMigracion(): void
+    +verificarEstado(): boolean
+}
+
+Usuario --|> Permiso
+Docente "1" *-- "0..*" Asignatura
+Docente *-- Baja
+Notificacion --> Docente
+Configuracion o-- Map<String, String>
+Migracion -- Configuracion : utiliza
+
+@enduml
