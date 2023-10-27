@@ -1,13 +1,3 @@
-# CORE DE GESTIÓN Y TiCKET
+# TiCKET
 
-[¿Sabes de que va el proyecto?](https://docs.google.com/document/d/1tl39Mc63dG-rrvzm6HefRJkQwja1MHEDdI8QwUgAqr0/edit?usp=sharing) En este repositorio se adjuntarán los diagramas para la funcionalidad de este proyecto 
-
-## Integrantes del equipo
-
-- Sergio Mayén
-- Eduardo Estrada
-- Diego Barraza
-- Gabriel Moises
-- Antonio Gavilanes
-- Ricardo Alfredo
-- Barbara Gonzalez
+TiCKET es una aplicación planteada para la gestión de errores obtenidas de la aplicación [CORE De Gestión Docentes](https://docs.google.com/document/d/1tl39Mc63dG-rrvzm6HefRJkQwja1MHEDdI8QwUgAqr0/edit?usp=sharing) lo cuál esta escuchará un error obtenido de *CORE* y se tomará el control y seguimiento del error. 
