@@ -1,0 +1,61 @@
+@startuml AlumniModel
+
+class ALUMNI {}
+
+class USUARIO {
+    - ID 
+    - Nombre 
+    - Apellido 
+    - Email 
+    - ubicacion 
+    - Fecha de Nacimiento 
+    - Trabaja 
+}
+
+class SUSCRIPCION {
+    - ID 
+    - Nombre 
+    - Precio 
+    - Descripción 
+}
+
+class SERVICIO {
+    - ID 
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN {
+    - Email
+    - Chat
+}
+
+class "ALQUILER DE INSTALACIONES" {
+    - Biblioteca
+    - Sala de ordenadores
+    - Pista de padel
+}
+
+class NEWSLETTER {
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+}
+
+ALUMNI -- USUARIO : tiene
+ALUMNI -- SUSCRIPCION : ofrece
+SUSCRIPCION -- SERVICIO : incluye
+
+SERVICIO <|-- "COMUNICACIÓN"
+SERVICIO <|-- "ALQUILER DE INSTALACIONES"
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+@enduml
