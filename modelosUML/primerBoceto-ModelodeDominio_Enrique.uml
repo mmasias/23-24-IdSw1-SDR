@@ -1,0 +1,30 @@
+@startuml
+class Alumni
+class alumnoEgresado
+class uneatlantico
+class usuarioAlumni{
++dominio@alumni
+-Membresia membresia
+}
+class exalumnoAlumni{
+
+}
+class Membresia{
+-coste
+-obtener privilegios()
+}
+class premium
+class empresa
+class platino
+class default
+
+Alumni-->usuarioAlumni
+usuarioAlumni->alumnoEgresado
+usuarioAlumni->Empresa
+uneatlantico-->exalumnoAlumni
+exalumnoAlumni==alumnoEgresado
+Membresia--|>premium
+Membresia--|>platino
+Membresia--|>empresa
+Membresia--|>default
+@enduml
