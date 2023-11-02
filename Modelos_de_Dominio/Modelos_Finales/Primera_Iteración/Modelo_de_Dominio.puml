@@ -1,7 +1,7 @@
 @startuml AlumniModel
 
-'!theme amiga
-skinparam backgroundColor transparent
+!theme amiga
+skinparam backgroundColor #0d111700
 skinparam defaultFontName Arial
 
 class ALUMNI {

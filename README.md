@@ -16,7 +16,7 @@
 ## Índice
 
  - [Modelos de Dominio](/Modelos_de_Dominio/Modelos_Finales)
-   - [Iteración Actual](/Modelos_de_Dominio/Modelos_Finales/Primera_Iteración/Modelo_de_Dominio.md)
+   - [Iteración Actual](/Modelos_de_Dominio/Modelos_Finales/Primera_Iteración/Readme.md)
    - [Iteraciones Individuales](/Modelos_de_Dominio/Modelos_Individuales/)
      - [Iteracion Actual](/Modelos_de_Dominio/Modelos_Individuales/Primera_Iteración/)
 
