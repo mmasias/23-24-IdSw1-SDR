@@ -1,4 +1,9 @@
 @startuml alumni
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
 class Alumni {
 }
 class Servicios {

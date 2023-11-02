@@ -1,4 +1,9 @@
 @startuml
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
 class Uneatlantico {
 }
 

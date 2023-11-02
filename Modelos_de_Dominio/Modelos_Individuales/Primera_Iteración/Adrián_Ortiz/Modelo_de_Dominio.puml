@@ -1,5 +1,8 @@
 @startuml
 
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
 
 ' Clases
 class Alumni_plataforma
