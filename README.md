@@ -1,4 +1,4 @@
-# Proyecto FISK ![FISK Logo](/ruta_a_logo.png)
+# Proyecto FISK ![FISK Logo](/propuestas/logo/3.png)
 
 ---
 
