@@ -1,10 +1,37 @@
 @startuml
-class Trabajadores{}
-class LectorDeHuellas{}
-class Fichaje{}
-class Informe{}
-class Horario{}
-class Contrato{}
+class Trabajadores{
+    - Nombre
+    - Apellidos
+    - Identificador
+    - Email
+    - TipoContrato
+}
+class LectorDeHuellas{
+    - InformacionHuella
+    - HoraUso
+}
+class Fichaje{
+    - Fecha
+    - HoraEntrada
+    - HoraSalida
+}
+class Informe{
+    - Fecha
+    - Fichajes
+    - Permisos
+    - Trabajador
+}
+class Horario{
+    - Dia
+    - HoraEntrada
+    - HoraSalida
+}
+class Contrato{
+    - Tipo
+    - Remuneracion
+    - Prestaciones
+    - Normas
+}
 
 Trabajadores -- Contrato : Tiene
 Trabajadores -- LectorDeHuellas : Usa
