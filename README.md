@@ -1,4 +1,4 @@
-# Proyecto FISK ![FISK Logo](/propuestas/logo/3.png)
+# Proyecto FISK <img src="/propuestas/logo/3.png" alt="FISK Logo" height="60">
 
 ---
 
@@ -10,9 +10,9 @@
 
 ## Recursos Clave
 
-- **Modelo de Dominio:** Puedes consultar el modelo de dominio de la aplicación FISK [aquí](/imagenes/modelosUML/).
+- **[Modelo de Dominio:](/imagenes/modelosUML/)** Puedes consultar el modelo de dominio de la aplicación FISK aqui.
 
-- **Reuniones:** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones. Puedes acceder a la carpeta de reuniones [aquí](/reuniones/).
+- **[Reuniones:](/reuniones/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
 
 ---
 
