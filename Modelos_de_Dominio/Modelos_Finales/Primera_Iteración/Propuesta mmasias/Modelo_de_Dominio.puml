@@ -1,33 +1,32 @@
 @startuml AlumniModel
 
 '!theme amiga
-skinparam backgroundColor transparent
 skinparam defaultFontName Arial
 
 class ALUMNI {
-   - plataforma
+   plataforma
 }
 
 class USUARIO {
-    - ID
-    - Nombre 
-    - Apellido 
-    - Email 
-    - ubicacion 
-    - Fecha de Nacimiento 
-    - Ocupación
-    - Carnet de Estudiante
+    ID
+    Nombre 
+    Apellido 
+    Email 
+    ubicacion 
+    Fecha de Nacimiento 
+    Ocupación
+    Carnet de Estudiante
 }
 
 class REQUISITO {
-    - titulación de FUNIBER
+    titulación de FUNIBER
 }
 
 class SUSCRIPCIÓN {
-    - Nombre 
-    - Precio 
-    - Método de Pago
-    - Frecuencia de Pago
+    Nombre 
+    Precio 
+    Método de Pago
+    Frecuencia de Pago
 }
 
 class SERVICIO {
@@ -36,8 +35,6 @@ class SERVICIO {
 }
 
 class COMUNICACIÓN {
-    - Email
-    - Chat
 }
 
 class "ALQUILER DE INSTALACIONES" {
@@ -65,9 +62,17 @@ SUSCRIPCIÓN -- SERVICIO : incluye
 USUARIO -- REQUISITO : cumple
 
 
-SERVICIO <|-- "COMUNICACIÓN"
+ALUMNI <|-- "COMUNICACIÓN"
 SERVICIO <|-- "ALQUILER DE INSTALACIONES"
 SERVICIO <|-- "NEWSLETTER"
 SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+USUARIO .. SUSCRIPCIÓN
+
+SERVICIO -- "COMUNICACIÓN": anuncia
+
+COMUNICACIÓN <|-d- Email
+COMUNICACIÓN <|-d- Chat
+COMUNICACIÓN <|-d- Teléfono
 
 @enduml
