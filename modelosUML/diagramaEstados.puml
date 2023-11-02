@@ -1,73 +1,34 @@
 @startuml
+title Diagrama de Estados - Aplicación FISK
 
-[*] --> Inicio
+[*] --> CreandoProyecto
+CreandoProyecto --> SeleccionandoTipologia : "Define Tipología"
+SeleccionandoTipologia --> ConfigurandoSimulacion
 
-state Inicio {
-    [*] --> NuevoProyecto
-    NuevoProyecto --> AbrirProyectoExistente : "Selecciona existente"
+state ConfigurandoSimulacion {
+    [*] --> DatosVacios
+    DatosVacios --> DatosCompletados : "Completa información"
+    DatosVacios --> ImportandoDatos : "Importa datos"
+    ImportandoDatos --> DatosCompletados : "Datos Importados"
+    DatosCompletados --> DatosIncorrectos : "Error en Datos"
+    DatosIncorrectos --> DatosVacios : "Corregir Datos"
+    DatosCompletados --> DatosValidados : "Valida Datos"
 }
 
-state CreacionProyecto {
-    [*] --> NombrarProyecto
-    NombrarProyecto --> DescribirProyecto : "Define nombre"
-    DescribirProyecto --> FechaInicio : "Agrega descripción"
-    FechaInicio --> SeleccionTipologia : "Establece fecha"
+ConfigurandoSimulacion --> DefiniendoAgresion : "Define Agresión Térmica"
+DefiniendoAgresion --> Simulando
+Simulando --> Resultados
+Resultados --> Guardando
+
+state Guardando {
+    [*] --> OpcionesGuardado
+    OpcionesGuardado --> GuardarProyecto : "Guarda Proyecto"
+    OpcionesGuardado --> ExportarProyecto : "Exporta Proyecto"
 }
 
-state SeleccionTipologia {
-    [*] --> Planos
-    Planos --> Bidimensional : "Selecciona bidimensional"
-    Planos --> Tridimensional : "Selecciona tridimensional"
-    Bidimensional --> SeleccionMaterial : "Finaliza selección"
-    Tridimensional --> SeleccionMaterial : "Finaliza selección"
-}
+GuardarProyecto --> ProyectoFinalizado
+ExportarProyecto --> ProyectoFinalizado
 
-state SeleccionMaterial {
-    [*] --> IntroducirPropiedades
-    IntroducirPropiedades --> UsarMaterialExistente : "Selecciona existente"
-    UsarMaterialExistente --> ImportarMaterial : "Desea importar"
-    ImportarMaterial --> ConfiguracionAgresionTermica : "Finaliza importación"
-}
+ProyectoFinalizado --> [*]
 
-state ConfiguracionAgresionTermica {
-    [*] --> DefinirParametros
-    DefinirParametros --> UsarConfiguracionPrevia : "Selecciona configuración previa"
-    UsarConfiguracionPrevia --> DiseñarAgresionPersonalizada : "Diseñar agresión"
-    DiseñarAgresionPersonalizada --> ConfirmacionDatos : "Finaliza diseño"
-}
-
-state ConfirmacionDatos {
-    [*] --> RevisarValidar
-    RevisarValidar --> CorregirErrores : "Detecta error"
-    CorregirErrores --> ConfirmarSimulacion : "Corrige y valida"
-    ConfirmarSimulacion --> SimulacionEnProgreso : "Inicia simulación"
-}
-
-state SimulacionEnProgreso {
-    [*] --> BarraProgreso
-    BarraProgreso --> EsperarFinalizacion : "Simulación en curso"
-    BarraProgreso --> CancelarSimulacion : "Usuario cancela"
-    CancelarSimulacion --> Error
-    EsperarFinalizacion --> ResultadosSimulacion : "Simulación completada"
-}
-
-state ResultadosSimulacion {
-    [*] --> VerGraficaReaccion
-    VerGraficaReaccion --> GenerarReporte : "Solicita reporte"
-    GenerarReporte --> ExportarDatos : "Decide exportar"
-    ExportarDatos --> GuardadoProyecto : "Finaliza exportación"
-}
-
-state GuardadoProyecto {
-    [*] --> GuardarCambios
-    GuardarCambios --> ExportarProyecto : "Desea exportar proyecto"
-    ExportarProyecto --> CerrarProyecto : "Termina exportación"
-    CerrarProyecto --> [*]
-}
-
-state Error {
-    [*] --> MostrarDetalles
-    MostrarDetalles --> Corregir : "Usuario corrige"
-    Corregir --> SeleccionTipologia : "Corrige tipología"
-    Corregir --> SeleccionMaterial : "Corrige material"
-    Corregir --> ConfiguracionAgresionTermica : "Corrige agresión térmica
+@enduml

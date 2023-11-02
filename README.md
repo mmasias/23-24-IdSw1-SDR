@@ -1,25 +1,31 @@
-# Sesiones de requisitado
+# Proyecto FISK
 
-Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de UNEATLANTICO.
+![Logo de FISK](/propuestas/logo/3.png)
 
-Se desarrolla, en un caso real, la disciplina de requisitado, que es la puerta de entrada al desarrollo de una solución basada en software. 
+---
 
-> Se ha demostrado, empírica y académicamente, que un porcentaje no menor de proyectos de software que fracasan lo hacen porque está mal llevada esta fase.
+## Descripción
 
-<div align=center>
+**FISK** es un proyecto de simulación y análisis térmico desarrollado por **Jorge Crespo** para ayudar en la evaluación del comportamiento de materiales y elementos frente a agresiones térmicas. Este repositorio contiene modelos, propuestas, registros de reuniones y otros recursos relacionados con el proyecto FISK.
 
-||
-|-|
-![](/imagenes/modelosUML/trabajoRepos.svg)
+---
 
-</div>
+## Recursos Clave
 
-## Algunas reglas
+- **Modelo de Dominio:** Puedes consultar el modelo de dominio de la aplicación FISK [aquí](/imagenes/modelosUML/).
 
-- Reuniones oficiales (en horas de clase)
-  - A estas debe asistir el 100% de los integrantes de los grupos.
-  - Si a las reuniones asiste menos del 80% del grupo, la reunión se cancela y el grupo se da por cerrado. La evaluación se realiza de la forma tradicional (examen parcial, examen final).
-- Reuniones extra: de acuerdo a lo pautado con el cliente.
-- Se recomienda utilizar el repo del coordinador del grupo y las herramientas de GitHub para gestionar las reuniones y comunicaciones con el cliente, haciendo racional uso de la trazabilidad.
-- Las imágenes, en la medida de lo posible en formato plantUML. 
-  - Todas las fuentes en la carpeta modelosUML y las imágenes exportadas, en formato svg.
+- **Reuniones:** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones. Puedes acceder a la carpeta de reuniones [aquí](/reuniones/).
+
+---
+
+Este repositorio es un recurso colaborativo para el desarrollo y la documentación de FISK.
+
+---
+
+### Equipo de Colaboradores:
+
+- Guzmán G. Riancho
+- Sergio Moro
+- Marcos de Blas
+- Rodrigo Villa
+- Federico Bolaños

@@ -1,5 +1,5 @@
 @startuml
-title Modelo de Dominio Extendido - Aplicación FISK
+title Modelo de Dominio - Aplicación FISK
 
 class Usuario {
     - nombre: String
@@ -79,5 +79,4 @@ Simulacion -- AgresionTermica : "somete a >"
 Simulacion -- Grafica : "genera >"
 Simulacion o-- Reporte : "produce >"
 Usuario --> Log : "registra >"
-
 @enduml
