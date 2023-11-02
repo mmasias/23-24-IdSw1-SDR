@@ -1,0 +1,34 @@
+@startuml
+title Diagrama de Estados - Aplicación FISK
+
+[*] --> CreandoProyecto
+CreandoProyecto --> SeleccionandoTipologia : "Define Tipología"
+SeleccionandoTipologia --> ConfigurandoSimulacion
+
+state ConfigurandoSimulacion {
+    [*] --> DatosVacios
+    DatosVacios --> DatosCompletados : "Completa información"
+    DatosVacios --> ImportandoDatos : "Importa datos"
+    ImportandoDatos --> DatosCompletados : "Datos Importados"
+    DatosCompletados --> DatosIncorrectos : "Error en Datos"
+    DatosIncorrectos --> DatosVacios : "Corregir Datos"
+    DatosCompletados --> DatosValidados : "Valida Datos"
+}
+
+ConfigurandoSimulacion --> DefiniendoAgresion : "Define Agresión Térmica"
+DefiniendoAgresion --> Simulando
+Simulando --> Resultados
+Resultados --> Guardando
+
+state Guardando {
+    [*] --> OpcionesGuardado
+    OpcionesGuardado --> GuardarProyecto : "Guarda Proyecto"
+    OpcionesGuardado --> ExportarProyecto : "Exporta Proyecto"
+}
+
+GuardarProyecto --> ProyectoFinalizado
+ExportarProyecto --> ProyectoFinalizado
+
+ProyectoFinalizado --> [*]
+
+@enduml
