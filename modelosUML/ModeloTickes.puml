@@ -11,7 +11,7 @@ USER_CLASS User {
   - password
   + login()
   + viewProfile()
-  + reportBug(description: String): Ticket
+  + reportBug(description): Ticket
   + viewTicketHistory(): Ticket[]
 }
 
@@ -20,7 +20,7 @@ TICKET_CLASS Ticket {
   - description: 
   - status: 
   + assignTo(admin: Admin)
-  + updateStatus(newStatus: String)
+  + updateStatus(newStatus)
   + getHistory(): 
 }
 
