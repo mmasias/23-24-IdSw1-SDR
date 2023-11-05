@@ -1,0 +1,39 @@
+@startuml
+
+title Modelo de Tickets
+
+!define USER_CLASS class
+!define TICKET_CLASS class
+!define ADMIN_CLASS class
+
+USER_CLASS User {
+  - username
+  - password
+  + login()
+  + viewProfile()
+  + reportBug(description: String): Ticket
+  + viewTicketHistory(): Ticket[]
+}
+
+TICKET_CLASS Ticket {
+  - ticketId: 
+  - description: 
+  - status: 
+  + assignTo(admin: Admin)
+  + updateStatus(newStatus: String)
+  + getHistory(): 
+}
+
+ADMIN_CLASS Admin {
+  - username
+  - password
+  + login()
+  + viewProfile()
+  + viewAllTickets(): Ticket[]
+  + assignTicket(ticket: Ticket, user: User)
+}
+
+User "1" -- "0..*" Ticket
+Admin "1" -- "0..*" Ticket
+
+@enduml
