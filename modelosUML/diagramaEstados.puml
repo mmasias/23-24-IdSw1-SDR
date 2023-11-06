@@ -8,13 +8,14 @@ state AccionEnemigo as " "
 
 state Turno <<choice>>
 
-AccionHeroe -r-> Turno : Ataca el héroe
+AccionHeroe -r-> Turno : Fichar
 
-Turno -r-> AccionEnemigo : [Está vivo el enemigo]
+Turno -r-> AccionEnemigo : [Salida de profesor]
 
-AccionEnemigo -l-> Turno : Ataca el enemigo
+AccionEnemigo -l-> Turno : Desfichar
 
-Turno -l-> AccionHeroe : [Está vivo el héroe]
+Turno -l-> AccionHeroe : [Entrada de profesor]
 
-Turno -d-> [*] : [Alguien ha muerto]
+Turno -d-> [*] : [Final de jornada laboral]
+
 @enduml
