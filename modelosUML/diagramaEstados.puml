@@ -1,20 +1,20 @@
 @startuml
 
-state AccionHeroe as " "
-state AccionEnemigo as " "
+state Fichar as " "
+state NoFichar as " "
 
-[*] --> AccionHeroe : inicio
+[*] --> Fichar : [Inicio de jornada laboral]
 
 
 state Turno <<choice>>
 
-AccionHeroe -r-> Turno : Fichar
+Fichar -r-> Turno : Fichar
 
-Turno -r-> AccionEnemigo : [Salida de profesor]
+Turno -r-> NoFichar : [Salida de profesor]
 
-AccionEnemigo -l-> Turno : Desfichar
+NoFichar -l-> Turno : Desfichar
 
-Turno -l-> AccionHeroe : [Entrada de profesor]
+Turno -l-> Fichar : [Entrada de profesor]
 
 Turno -d-> [*] : [Final de jornada laboral]
 
