@@ -1,0 +1,45 @@
+@startuml
+class Trabajadores{
+    + Nombre
+    + Apellidos
+    + Identificador
+    + Email
+    + TipoContrato
+}
+class LectorDeHuellas{
+    + InformacionPersona
+    + Huella
+    + HoraUso
+}
+class Fichaje{
+    + Fecha
+    + HoraEntrada
+    + HoraSalida
+}
+class Informe{
+    + Fecha
+    + Fichajes
+    + Permisos
+    + Trabajador
+}
+class Horario{
+    + Dia
+    + HoraEntrada
+    + HoraSalida
+}
+class Contrato{
+    + Tipo
+    + Remuneracion
+    + Prestaciones
+    + Normas
+}
+
+Trabajadores -- Contrato : Tiene
+Trabajadores -- LectorDeHuellas : Usa
+LectorDeHuellas -- Fichaje : Se usa para
+Fichaje -- Informe : Se describen en
+Informe .. Horario : Verifica que se cumpla
+Trabajadores -- Informe : Revisa
+Contrato -- Horario : Establece
+Contrato .. Fichaje : Define
+@enduml

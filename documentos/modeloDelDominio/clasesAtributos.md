@@ -16,4 +16,3 @@
 - Lector de Huellas: Información de la Huella, Hora de Uso
 - Fichaje: Fecha, Hora de Entrada, Hora de Salida
 - Informe: Fecha, Fichajes, Permisos
-
