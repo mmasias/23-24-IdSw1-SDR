@@ -39,7 +39,6 @@ Trabajadores -- LectorDeHuellas : Usa
 LectorDeHuellas -- Fichaje : Se usa para
 Fichaje -- Informe : Se describen en
 Informe .. Horario : Verifica que se cumpla
-Trabajadores -- Informe : Revisa
 Contrato -- Horario : Establece
 Contrato .. Fichaje : Define
 @enduml
