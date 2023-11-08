@@ -14,7 +14,7 @@
 
 - **[Modelo de Dominio:](/documentosMD/modeloDelDominio.md)** Puedes consultar el modelo de dominio de la aplicación FISK aqui.
 
-- **[Reuniones:](/reuniones/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
+- **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
 
 ---
 
