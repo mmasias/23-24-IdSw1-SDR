@@ -1,21 +1,21 @@
 @startuml
+state Trabajando
+state Comida
+state Fin_jornada
 
-state Fichar as " "
-state NoFichar as " "
-
-[*] --> Fichar : [Inicio de jornada laboral]
+[*] -->  Trabajando : Fichar
 
 
-state Turno <<choice>>
+state Decision <<choice>>
 
-Fichar -r-> Turno : Fichar
+Trabajando -r-> Decision 
 
-Turno -r-> NoFichar : [Salida de profesor]
+Decision -d-> Comida : Fichar
 
-NoFichar -l-> Turno : Desfichar
+Decision -r-> Fin_jornada : Fichar
 
-Turno -l-> Fichar : [Entrada de profesor]
+Fin_jornada -r-> [*]
 
-Turno -d-> [*] : [Final de jornada laboral]
+Comida -r-> Trabajando : Fichar
 
 @enduml
