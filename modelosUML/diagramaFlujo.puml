@@ -4,36 +4,30 @@ title Flujo de la Aplicación FISK
 start
 
 :Iniciar Aplicación;
-:Crear Nuevo Proyecto,\nAbrir Proyecto Existente\no Abrir Simulación Existente;
+:Crear Nuevo Proyecto\no Abrir Existente;
 if (Nuevo Proyecto) then (sí)
     :Configurar Nuevo Proyecto;
-elseif (Proyecto Existente) then (no)
-    :Seleccionar Proyecto Existente;
-else (Simulación Existente)
-    --> Revisar y Confirmar Datos;
-endif
-
-if (Nuevo Proyecto o Proyecto Existente) then (sí)
-    :Seleccionar Tipología;
-    :Configurar/Importar Material;
-    :Configurar Agresión Térmica;
-endif
-
-:Revisar y Confirmar Datos;
-if (¿Hay Errores en Tipología?) then (sí)
-    --> Seleccionar Tipología;
-elseif (¿Errores en Material?) then (sí)
-    --> Configurar/Importar Material;
-elseif (¿Errores en Agresión Térmica?) then (sí)
-    --> Configurar Agresión Térmica;
 else (no)
-    :Iniciar Simulación;
+    :Seleccionar Proyecto Existente;
 endif
 
-:Generar Resultados;
+:Seleccionar Tipología;
+:Configurar Material;
+:Configurar Agresión Térmica;
+:Revisar y Confirmar Datos;
+:Iniciar Simulación;
+
+if (¿Hay Errores?) then (sí)
+    :Mostrar Errores;
+    :Corregir Datos;
+    -> Revisar y Confirmar Datos;
+else (no)
+    :Generar Resultados;
+endif
+
 :Visualizar Gráficos y Datos;
 :Generar Reporte;
-:Exportar Datos/Reporte (Opcional);
+:Exportar Datos/Reporte;
 :Guardar Proyecto;
 stop
 
