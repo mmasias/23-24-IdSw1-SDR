@@ -18,10 +18,10 @@ Equipo del desarrollo:
 
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
-- [Modelo de Dominio](/modelosUML/)
-- [Diagramas de Clases](/)
-- [Diagramas de Estados](/)
-- [Diagramas de Objetos](/)
-- [Diagramas de Flujo](/)
-- [Actores y Casos de Uso](/)
+- [Modelo de Dominio](/documentos/modeloDelDominio/)
+  - [Diagramas de Clases](/documentos/modeloDelDominio/)
+  - [Diagramas de Estados](/documentos/modeloDelDominio/)
+  - [Diagramas de Objetos](/documentos/modeloDelDominio/)
+  - [Diagramas de Flujo](/documentos/modeloDelDominio/)
+- [Actores y Casos de Uso](/documentos/casosDeUso/)
 - [Prototipos](/)
