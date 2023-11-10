@@ -1,0 +1,21 @@
+@startuml
+state Trabajando
+state Comida
+state Fin_jornada
+
+[*] -->  Trabajando : Fichar
+
+
+state Decision <<choice>>
+
+Trabajando -r-> Decision 
+
+Decision -d-> Comida : Fichar
+
+Decision -r-> Fin_jornada : Fichar
+
+Fin_jornada -r-> [*]
+
+Comida -r-> Trabajando : Fichar
+
+@enduml

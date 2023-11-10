@@ -7,14 +7,13 @@
 - Lector de Huellas
 - Fichaje
 - Informe
-- Equipo de Control
+- Normas
 
 
 ## Atributos
-- Contrato: Tipo, Remuneración, Prestaciones
+- Contrato: Tipo
 - Horario: Dia, Hora de Entrada, Hora de Salida
-- Trabajadores: Nombre, Apellidos, Identificador, Email,  Tipo de Contrato
-- Lector de Huellas: Información de la Huella, Hora de Uso
+- Trabajadores: Nombre, Identificador
+- Lector de Huellas: Información de la Huella
 - Fichaje: Fecha y Hora de Entrada, Fecha y Hora de Salida
-- Informe: Fecha, Fichajes, Permisos
-- Equipo de Control: Supervisor
+- Informe: Fecha

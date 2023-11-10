@@ -1,1 +1,0 @@
-# Archivos del Modelo de Dominio
