@@ -19,9 +19,14 @@ Equipo del desarrollo:
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
 - [Modelo de Dominio](/documentos/modeloDelDominio/)
-  - [Diagramas de Clases](/documentos/modeloDelDominio/)
-  - [Diagramas de Estados](/documentos/modeloDelDominio/)
-  - [Diagramas de Objetos](/documentos/modeloDelDominio/)
-  - [Diagramas de Flujo](/documentos/modeloDelDominio/)
+  - Diagramas de Clases
+  - Diagramas de Estados
+  - Diagramas de Objetos
+  - Diagramas de Flujo
 - [Actores y Casos de Uso](/documentos/casosDeUso/)
-- [Prototipos](/)
+  - Diagrama de Casos de Uso
+  - Diagrama de Contexto
+  - Especificación de Casos de Uso
+- [Prototipos](/documentos/prototipos)
+  - Casos de Uso
+  - Diagrama de Contexto
