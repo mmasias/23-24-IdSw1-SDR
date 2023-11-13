@@ -1,5 +1,5 @@
 @startuml
-title Modelo de Dominio - Aplicación FISC
+title Modelo de Dominio - Aplicación FISK
 
 class Usuario {
     - nombre

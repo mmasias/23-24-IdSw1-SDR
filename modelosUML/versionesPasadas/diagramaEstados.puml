@@ -1,6 +1,6 @@
 @startuml
 
-title Diagrama de Estados - Aplicación FISC
+title Diagrama de Estados - Aplicación FISK
 
 [*] --> EligiendoCaracteristicas : Inicio de Sesion
 EligiendoCaracteristicas --> Simulacion : Inicia
