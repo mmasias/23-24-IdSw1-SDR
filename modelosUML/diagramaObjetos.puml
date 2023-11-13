@@ -1,5 +1,5 @@
 @startuml
-title Diagrama de Objetos - Simulación en Aplicación FISK
+title Diagrama de Objetos - Simulación en Aplicación FISC
 
 object usuario1 {
     nombre = "Jorge"
@@ -56,5 +56,6 @@ simulacion1 -down-> grafica1 : "genera >"
 simulacion1 -down-> reporte1 : "produce >"
 usuario1 -down-> log1 : "registra >"
 grafica1 -down-> dataPoint1 : "contiene >"
+proyecto1 -right-> log1 : "registra >"
 
 @enduml
