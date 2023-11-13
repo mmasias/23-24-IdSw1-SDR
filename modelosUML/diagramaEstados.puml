@@ -1,0 +1,11 @@
+@startuml
+
+title Diagrama de Estados - Aplicación FISC
+
+[*] --> EligiendoCaracteristicas : Inicio de Sesion
+EligiendoCaracteristicas --> Simulacion : Inicia
+Simulacion --> Reporte : Obtiene
+Reporte --> EligiendoCaracteristicas : Nuevo modelado
+Reporte --> [*] : Cierra Sesion
+
+@enduml

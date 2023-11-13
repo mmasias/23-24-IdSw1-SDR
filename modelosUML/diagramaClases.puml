@@ -1,0 +1,44 @@
+@startuml
+title Modelo de Dominio - Aplicación FISC
+
+class Usuario {
+    - nombre
+    - id
+}
+
+class Proyecto {
+    - nombre
+}
+
+class Simulacion {
+    - tipologiaElemento
+    - material
+    - localizacion
+    - agresionTermica
+    - graficaReaccion
+    - fechaSimulacion
+}
+
+class Grafica {
+    - datos
+    - tipoGrafica
+}
+
+class Log {
+    - acciones
+    - fechaHora
+    - detalles
+}
+
+class Reporte {
+    - contenido
+    - formato
+}
+
+Usuario -- Proyecto : "realiza >"
+Proyecto "1" o-- "*" Simulacion : "contiene >"
+Simulacion -- Grafica : "genera >"
+Simulacion o-- Reporte : "produce >"
+Usuario <-- Log : "registra"
+
+@enduml
