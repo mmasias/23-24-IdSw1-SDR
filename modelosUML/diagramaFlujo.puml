@@ -1,0 +1,40 @@
+@startuml
+title Flujo de la Aplicación FISC
+
+start
+
+:Iniciar Aplicación;
+:Crear Nuevo Proyecto\no Abrir Existente\no Importar Proyecto;
+
+if (Importar Proyecto) then (si)
+    :Seleccionar Proyecto;
+else (no)
+    if (Nuevo Proyecto) then (sí)
+        :Configurar Nuevo Proyecto;
+    else (no)
+        :Seleccionar Proyecto Existente;
+    endif
+
+    :Seleccionar Tipología;
+    :Configurar Material;
+    :Configurar Agresión Térmica;
+endif
+    :Revisar y Confirmar Datos;
+    :Iniciar Simulación;
+
+    if (¿Hay Errores?) then (sí)
+        :Mostrar Errores;
+        :Corregir Datos;
+        -> Revisar y Confirmar Datos;
+    else (no)
+        :Generar Resultados;
+    endif
+
+    :Visualizar Gráficos y Datos;
+    :Generar Reporte;
+    :Exportar Datos/Reporte;
+    :Guardar Proyecto;
+    stop
+
+
+@enduml
