@@ -1,0 +1,61 @@
+@startuml
+title Diagrama de Objetos - Simulación en Aplicación FISC
+
+object usuario1 {
+    nombre = "Jorge"
+}
+
+object proyecto1 {
+    nombre = "Proyecto X"
+    descripcion = "Simulación de material"
+    fechaCreacion = "2023-11-03"
+}
+
+object simulacion1 {
+    tipologia = BIDIMENSIONAL
+    fechaSimulacion = "2023-11-03"
+}
+
+object material1 {
+    nombre = "Concreto"
+    permeabilidadAgua = 0.01
+    conductorCalor = 1.5
+}
+
+object agresionTermica1 {
+    temperatura = 100
+    tiempoCalentamiento = 60
+    humedadExterior = 70
+}
+
+object grafica1 {
+    tipoGrafica = "Curva de Calor"
+}
+
+object dataPoint1 {
+    valorX = 10
+    valorY = 50
+}
+
+object log1 {
+    acciones = ["Login", "Creación Proyecto", "Inicio Simulación"]
+    fechaHora = "2023-11-03T10:00:00"
+}
+
+object reporte1 {
+    nombre = "Reporte Simulación X"
+    tipo = "Análisis Térmico"
+    formato = "PDF"
+}
+
+usuario1 -down-> proyecto1 : "realiza >"
+proyecto1 -down-> simulacion1 : "contiene >"
+simulacion1 -down-> material1 : "utiliza >"
+simulacion1 -down-> agresionTermica1 : "somete a >"
+simulacion1 -down-> grafica1 : "genera >"
+simulacion1 -down-> reporte1 : "produce >"
+usuario1 -down-> log1 : "registra >"
+grafica1 -down-> dataPoint1 : "contiene >"
+proyecto1 -right-> log1 : "registra >"
+
+@enduml
