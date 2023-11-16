@@ -12,29 +12,30 @@
 | 4. Añadir los atributos que satisfagan los requisitos de información. |          ![](/imagenes/modelosUML/modeloDelDominio/diagramaClases/mdd003.svg)           |
 | 5. Añadir relación de normas para fichar definidas por el horario.    |          ![](/imagenes/modelosUML/modeloDelDominio/mdd004.svg)           |
 
+
+![](/imagenes/modelosUML/modeloDelDominio/diagramaClases/diagramaClases.svg)
+- [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaClases.puml)
+
 </details>
 
 <details>
 <summary>Diagrama de Objetos</summary>
 
-  - Elemento 1
-- Elemento 2
-- Elemento 3
-
+![](/imagenes/modelosUML/modeloDelDominio/diagramaDeObjetos/DiagramadeObjetos.svg)
+- [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaObjetos.puml)
 </details>
 
 <details>
 <summary>Diagrama de Estados</summary>
 
-  - Elemento 1
-  - Elemento 2
-  - Elemento 3
+![](/imagenes/modelosUML/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
+- [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaEstados.puml)
 
 </details>
 
-<details>
+<!-- <details>
 <summary>Diagrama de Flujo</summary>
 - Elemento 1
 - Elemento 2
 - Elemento 3
-</details>
+</details> -->
