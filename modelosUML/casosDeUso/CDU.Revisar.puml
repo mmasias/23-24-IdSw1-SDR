@@ -1,13 +1,13 @@
 @startuml CDU-Revisar
 state Entrar
-state VerHorario
+state VerTiempo
 state Salirse
 
 [*] -->  Entrar 
 
-Entrar -r-> VerHorario : Llega a ver su horario
+Entrar -r-> VerTiempo : Llega a ver su horario
 
-VerHorario -d-> Salirse : Sale de la aplicacion
+VerTiempo -d-> Salirse : Sale de la aplicacion
 
 Salirse -r-> [*]
 

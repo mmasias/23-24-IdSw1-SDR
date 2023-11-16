@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="187px" preserveAspectRatio="none" style="width:226px;height:187px;background:#FFFFFF;" version="1.1" viewBox="0 0 226 187" width="226px" zoomAndPan="magnify"><defs/><g><!--MD5=[b0882d4598bd8a45fca5af13768a2863]
+entity Trabajador--><g id="elem_Trabajador"><ellipse cx="99" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M99,22 L99,49 M86,30 L112,30 M99,49 L86,64 M99,49 L112,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="64" y="80.0332">Trabajador</text></g><!--MD5=[85b816e3f1a48406340e5dc9dc3d2f74]
+entity Fichar--><g id="elem_Fichar"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="7" y="143.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="17" y="168.0332">Fichar</text></g><!--MD5=[7fe1dfe35277b22f1a448387e31d2688]
+entity Revisar Horario--><g id="elem_Revisar Horario"><rect fill="#F1F1F1" height="37.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="102" y="143.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="112" y="168.0332">Revisar Horario</text></g><!--MD5=[098834e8546d767dfd11387fef6e485a]
+link Trabajador to Fichar--><g id="link_Trabajador_Fichar"><path d="M78.53,83.8 C68.81,101.99 57.53,123.1 49.18,138.72 " fill="none" id="Trabajador-to-Fichar" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="46.68,143.38,54.4559,137.3356,49.0411,138.9726,47.4041,133.5578,46.68,143.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ad8d72a831d93a03e0eaac829e50f2af]
+link Trabajador to Revisar Horario--><g id="link_Trabajador_Revisar Horario"><path d="M119.47,83.8 C129.19,101.99 140.47,123.1 148.82,138.72 " fill="none" id="Trabajador-to-Revisar Horario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="151.32,143.38,150.5959,133.5578,148.9589,138.9726,143.5441,137.3356,151.32,143.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7633a1c1c413f151b1e7424e54ba62ff]
+@startuml DiagramaCasosDeUso
+
+Actor Trabajador
+
+rectangle Fichar
+rectangle "Revisar Horario"
+
+Trabajador - -> (Fichar)
+Trabajador - -> (Revisar Horario)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

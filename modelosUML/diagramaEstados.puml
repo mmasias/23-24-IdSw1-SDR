@@ -1,17 +1,13 @@
-@startuml
+@startuml DiagramaEstados
 state Trabajando
 state NoTrabajando
 
 [*] -->  NoTrabajando
-
 
 NoTrabajando -r-> Trabajando : Fichar
 
 Trabajando -d-> NoTrabajando : Fichar
 
 NoTrabajando -r-> [*]
-
-
-
 
 @enduml

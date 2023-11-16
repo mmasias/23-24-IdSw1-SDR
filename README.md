@@ -23,7 +23,7 @@ Equipo del desarrollo:
   - [Diagramas de Estados](/imagenes/modeloDelDominio/diagramaEstados/)
   - [Diagramas de Objetos](/imagenes/modeloDelDominio/diagramaDeObjetos/)
   - [Diagramas de Flujo](/imagenes/modeloDelDominio/diagramaFlujo/)
-- [Actores y Casos de Uso](/documentos/casosDeUso/)
+- [Actores y Casos de Uso](/documentos/casosDeUso/README.md)
   - Diagrama de Casos de Uso
   - Diagrama de Contexto
   - Especificación de Casos de Uso
