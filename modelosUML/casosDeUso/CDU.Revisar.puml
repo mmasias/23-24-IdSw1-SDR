@@ -1,0 +1,14 @@
+@startuml CDU-Revisar
+state Entrar
+state VerHorario
+state Salirse
+
+[*] -->  Entrar 
+
+Entrar -r-> VerHorario : Llega a ver su horario
+
+VerHorario -d-> Salirse : Sale de la aplicacion
+
+Salirse -r-> [*]
+
+@enduml
