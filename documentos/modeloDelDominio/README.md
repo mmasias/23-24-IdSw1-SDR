@@ -23,7 +23,6 @@
 
 ![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos001.svg)
 - [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos001.puml)
-</details>
 
 ![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos002.svg)
 - [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos002.puml)
