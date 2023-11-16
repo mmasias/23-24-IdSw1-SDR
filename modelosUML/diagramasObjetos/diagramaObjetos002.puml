@@ -1,0 +1,37 @@
+@startuml
+
+object "fichajeLunes : Fichaje" as FichajeLunes {
+    Trabajador: "Clara"
+    Fecha = "13/11/2023"
+    HoraEntrada = "9:00"
+    HoraSalida = "15:00"
+}
+object "fichajeMartes : Fichaje" as FichajeMartes {
+    Trabajador: "Clara"
+    Fecha = "14/11/2023"
+    HoraEntrada = "8:00"
+    HoraSalida = "15:00"
+}
+object "fichajeMiercoles : Fichaje" as FichajeMiercoles {
+    Trabajador: "Clara"
+    Fecha = "15/11/2023"
+    HoraEntrada = "9:00"
+    HoraSalida = "14:00"
+}
+object "InformeSemanal : Informe" as InformeSemanal {
+    Trabajador: "Clara"
+    HorasDia: "{
+        Lunes: "6",
+        Martes: "7",
+        Miercoles: "5"
+    }"
+    HorasSemana: "18"
+    HorarioCumplido: "No"
+
+}
+
+FichajeLunes -- InformeSemanal
+FichajeMartes -- InformeSemanal
+FichajeMiercoles -- InformeSemanal
+
+@enduml

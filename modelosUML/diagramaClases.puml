@@ -10,10 +10,11 @@ class Fichaje{
     + Hora
 }
 class Informe{
+    + Trabajador
     + Fecha
     + HorasDia
     + HorasSemana
-    +HorarioCumplido
+    + HorarioCumplido
 }
 class Horario{
     + Dia

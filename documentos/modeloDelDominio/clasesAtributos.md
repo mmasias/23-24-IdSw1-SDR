@@ -15,5 +15,5 @@
 - Horario: Dia, Hora de Entrada, Hora de Salida
 - Trabajadores: Nombre, Identificador
 - Lector de Huellas: Información de la Huella
-- Fichaje: Fecha y Hora de Entrada, Fecha y Hora de Salida
+- Fichaje: Fecha y Hora de Entrada, Fecha y Hora de Salida, Trabajador
 - Informe: Fecha
