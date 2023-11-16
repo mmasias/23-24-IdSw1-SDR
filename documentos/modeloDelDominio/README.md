@@ -31,7 +31,7 @@
 <details>
 <summary>Diagrama de Estados</summary>
 
-![](../../imagenes/modelosUML/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
+![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
 - [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaEstados.puml)
 
 </details>
