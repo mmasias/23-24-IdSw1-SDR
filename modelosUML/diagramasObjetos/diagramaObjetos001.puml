@@ -5,11 +5,6 @@ object "trabajador1 : Trabajadores" as trabajador1 {
     Identificador = "000"
 }
 
-object "trabajador2 : Trabajadores" as trabajador2 {
-    Nombre = "Masías"
-    Identificador = "001"
-}
-
 object "lectorHuellas : LectorDeHuellas" as lectorHuellas {
     Huella = "Datos huella"
 }
@@ -20,14 +15,7 @@ object "fichaje1 : Fichaje" as fichaje1 {
     HoraSalida = "14:00"
 }
 
-object "informe1 : Informe" as informe1 {
-    Fecha = "FechaInforme"
-    Fichajes = "Detalles fichajes"
-}
-
 trabajador1 -- lectorHuellas
-trabajador2 -- lectorHuellas
 lectorHuellas -- fichaje1
-fichaje1 -- informe1
 
 @enduml

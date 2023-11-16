@@ -1,0 +1,14 @@
+@startuml CDU-Fichar
+state LectorDeHuella
+state Fichaje
+state EstadoTrabajador
+
+[*] -->  LectorDeHuella: Usa
+
+LectorDeHuella -r-> Fichaje : Ficha
+
+Fichaje -d-> EstadoTrabajador : Cambia
+
+EstadoTrabajador -r-> [*]
+
+@enduml

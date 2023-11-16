@@ -1,21 +1,13 @@
-@startuml
+@startuml DiagramaEstados
 state Trabajando
-state Comida
-state Fin_jornada
+state NoTrabajando
 
-[*] -->  Trabajando : Fichar
+[*] -->  NoTrabajando
 
+NoTrabajando -r-> Trabajando : Fichar
 
-state Decision <<choice>>
+Trabajando -d-> NoTrabajando : Fichar
 
-Trabajando -r-> Decision 
-
-Decision -d-> Comida : Fichar
-
-Decision -r-> Fin_jornada : Fichar
-
-Fin_jornada -r-> [*]
-
-Comida -r-> Trabajando : Fichar
+NoTrabajando -r-> [*]
 
 @enduml

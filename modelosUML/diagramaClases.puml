@@ -1,21 +1,20 @@
 @startuml
-class Trabajadores{
-    + Nombre
-    + Identificador
+class Trabajador{
+   
 }
 class LectorDeHuellas{
     + Huella
 }
 class Fichaje{
     + Fecha
-    + HoraEntrada
-    + HoraSalida
+    + Hora
 }
 class Informe{
+    + Trabajador
     + Fecha
     + HorasDia
     + HorasSemana
-    +HorarioCumplido
+    + HorarioCumplido
 }
 class Horario{
     + Dia
@@ -29,13 +28,16 @@ class Normas{
 
 }
 
-Trabajadores -- Contrato : Tiene
-Trabajadores -- LectorDeHuellas : Usa
+Trabajador -- Contrato : Tiene
+Trabajador .. LectorDeHuellas : Usa
 LectorDeHuellas -- Fichaje : Se usa para
 Fichaje -- Informe : Se describen en
 Informe .. Horario : Verifica que se cumpla
 Contrato -- Normas : Establece
 Normas-- Horario : Regulan
 Normas.. Fichaje : Define
-Trabajadores -- Informe : Revisa
+Trabajador -- Informe : Revisa
+Trabajador -- Fichaje :Realiza
+
+
 @enduml

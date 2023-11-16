@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="271px" preserveAspectRatio="none" style="width:399px;height:271px;background:#FFFFFF;" version="1.1" viewBox="0 0 399 271" width="399px" zoomAndPan="magnify"><defs/><g><g id="Entrar"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="59" x="7" y="87"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="66" y1="114.6094" y2="114.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="17" y="106.5332">Entrar</text></g><g id="VerTiempo"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="89" x="226" y="87"/><line style="stroke:#181818;stroke-width:0.5;" x1="226" x2="315" y1="114.6094" y2="114.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="236" y="106.5332">VerTiempo</text></g><g id="Salirse"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="239" y="215"/><line style="stroke:#181818;stroke-width:0.5;" x1="239" x2="302" y1="242.6094" y2="242.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="249" y="234.5332">Salirse</text></g><ellipse cx="36.5" cy="16" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="347.5" cy="240" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="348" cy="240.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[6745a92173ba8a1edc14a618a5f10f79]
+link *start to Entrar--><g id="link_*start_Entrar"><path d="M36.5,26.01 C36.5,38.7 36.5,62.41 36.5,81.57 " fill="none" id="*start-to-Entrar" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="36.5,86.84,40.5,77.84,36.5,81.84,32.5,77.84,36.5,86.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4e4ebfb3c35dfc395d8aebd06c2b927c]
+link Entrar to VerTiempo--><g id="link_Entrar_VerTiempo"><path d="M66.14,112 C105.06,112 173.94,112 220.88,112 " fill="none" id="Entrar-to-VerTiempo" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="225.92,112,216.92,108,220.92,112,216.92,116,225.92,112" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="84.5" y="105.4951">Llega a ver su horario</text></g><!--MD5=[4a383507b2313b56d7b150f551ae608b]
+link VerTiempo to Salirse--><g id="link_VerTiempo_Salirse"><path d="M270.5,137.29 C270.5,157.95 270.5,187.67 270.5,209.65 " fill="none" id="VerTiempo-to-Salirse" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="270.5,214.78,274.5,205.78,270.5,209.78,266.5,205.78,270.5,214.78" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="271.5" y="181.4951">Sale de la aplicacion</text></g><!--MD5=[dd1d3735f8d7881d52141a6adcd1664a]
+link Salirse to *end--><g id="link_Salirse_*end"><path d="M302.08,240 C312.05,240 322.02,240 332,240 " fill="none" id="Salirse-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="337.21,240,328.21,236,332.21,240,328.21,244,337.21,240" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a5d27550432ed7e9bbef933879fb7f18]
+@startuml CDU-Revisar
+state Entrar
+state VerTiempo
+state Salirse
+
+[*] - ->  Entrar 
+
+Entrar -r-> VerTiempo : Llega a ver su horario
+
+VerTiempo -d-> Salirse : Sale de la aplicacion
+
+Salirse -r-> [*]
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

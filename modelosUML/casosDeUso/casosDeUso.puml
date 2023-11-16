@@ -1,0 +1,12 @@
+@startuml DiagramaCasosDeUso
+
+Actor Trabajador
+
+rectangle Fichar
+rectangle "Revisar Horario"
+
+Trabajador --> (Fichar)
+Trabajador --> (Revisar Horario)
+
+@enduml
+
