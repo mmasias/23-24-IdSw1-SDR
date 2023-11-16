@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+title Modelo del dominio Core
+ 
+core --> usuario : "es ocupado por"
+usuario --> asignacion : "permite acceder a"
+usuario --> baja : "permite acceder a"
+usuario --> migracion : "permite acceder a"
+usuario --> universidad : "permite acceder a"
+usuario --> permiso : "se le asigna"
+asignacion --> asignatura : "eleccion"
+
+class ticket
+
+@enduml
