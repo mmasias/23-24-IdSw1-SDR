@@ -1,0 +1,15 @@
+@startuml
+[*] -->  DetectarProblema 
+DetectarProblema -r-> Pendiente 
+Pendiente -r-> EnProceso
+Resuelto -r-> Cerrado
+EnProceso -r-> Resuelto
+EnProceso -r-> EnEspera
+EnEspera -r-> EnProceso
+
+
+Cerrado -r-> [*]
+
+
+
+@enduml
