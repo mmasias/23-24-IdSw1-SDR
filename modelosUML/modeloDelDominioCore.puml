@@ -1,0 +1,31 @@
+@startuml Modelo del dominio Core
+'https://plantuml.com/sequence-diagram
+title Modelo del dominio Core
+
+
+usuario -- dashboard
+admin -- dashboard
+admin -- docente 
+admin -- notificacion
+admin -- rol
+admin -- asignacion
+admin -- bajas
+admin -- configuracion
+class ticket
+
+docente -- crear 
+docente -- editar 
+docente -- filtrar
+docente -- buscar
+docente -- exportar
+docente -- perfil
+docente -- seguimiento
+
+asignacion --asignar 
+asignacion -- desasignar 
+
+bajas -- temporal
+bajas -- permanente
+bajas -- reincorporacion
+
+@enduml
