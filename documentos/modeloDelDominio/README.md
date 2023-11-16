@@ -21,8 +21,12 @@
 <details>
 <summary>Diagrama de Objetos</summary>
 
-![](/imagenes/modelosUML/modeloDelDominio/diagramaDeObjetos/DiagramadeObjetos.svg)
-- [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaObjetos.puml)
+![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos001.svg)
+- [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos001.puml)
+</details>
+
+![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos002.svg)
+- [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos002.puml)
 </details>
 
 <details>
