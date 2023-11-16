@@ -1,21 +1,17 @@
 @startuml
 state Trabajando
-state Comida
-state Fin_jornada
+state NoTrabajando
 
-[*] -->  Trabajando : Fichar
+[*] -->  NoTrabajando
 
 
-state Decision <<choice>>
+NoTrabajando -r-> Trabajando : Fichar
 
-Trabajando -r-> Decision 
+Trabajando -d-> NoTrabajando : Fichar
 
-Decision -d-> Comida : Fichar
+NoTrabajando -r-> [*]
 
-Decision -r-> Fin_jornada : Fichar
 
-Fin_jornada -r-> [*]
 
-Comida -r-> Trabajando : Fichar
 
 @enduml
