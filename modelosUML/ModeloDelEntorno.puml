@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+title Modelo del entorno
+
+class profesor
+funiber --> universidad 
+profesor --> asignatura 
+universidad --> profesor 
+universidad --> secretariaAcademica
+profesor --> core 
+secretariaAcademica --> core
+core --> ticket 
+
+@enduml
