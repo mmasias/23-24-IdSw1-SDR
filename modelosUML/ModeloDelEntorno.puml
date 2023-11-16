@@ -8,6 +8,7 @@ profesor --> asignatura
 universidad --> profesor 
 universidad --> secretariaAcademica
 profesor --> core 
-secretariaAcademica --> core 
+secretariaAcademica --> core
+core --> ticket 
 
 @enduml
