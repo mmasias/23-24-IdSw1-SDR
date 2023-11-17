@@ -1,0 +1,87 @@
+@startuml AlumniModel
+
+'!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
+class ALUMNI {
+   - plataforma
+}
+
+class REGISTER {
+    - Correo universidad
+    - Contraseña universidad
+}
+
+class "SERVICIOS GRATUITOS"{
+    -Noticias
+    -Ofertas de suscripcion
+}
+
+class SUSCRIPCIÓN {
+    - Nombre 
+    - Precio 
+    - Método de Pago
+    - Frecuencia de Pago
+    -Prestaciones
+}
+
+class SERVICIO {
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN {
+    - Email
+    - Chat
+    - Telefónica
+}
+
+class "ALQUILER DE INSTALACIONES" {
+    - Biblioteca
+    - Sala de ordenadores
+    - Instalaciones deportivas
+}
+
+class NEWSLETTER {
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+    - Horario
+}
+
+class "BASE DE DATOS UNETALANTICO VIRTUAL"{
+    - ID
+   - Nombre 
+   - Apellido 
+   - Email 
+   - Ubicación 
+   - Fecha de Nacimiento 
+   - Ocupación
+   - Carnet de Estudiante
+   - Promoción/es
+   - Grado/s estudiado/s
+   - Notas
+}
+
+REGISTER -- "BASE DE DATOS UNETALANTICO VIRTUAL"
+ALUMNI -- REGISTER : include
+ALUMNI .. SUSCRIPCIÓN  : extends
+REGISTER -- "SERVICIOS GRATUITOS" : include
+REGISTER -- SUSCRIPCIÓN : extends
+SUSCRIPCIÓN -- SERVICIO : include
+
+
+SERVICIO <|-- "COMUNICACIÓN"
+SERVICIO <|-- "ALQUILER DE INSTALACIONES"
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+@enduml
