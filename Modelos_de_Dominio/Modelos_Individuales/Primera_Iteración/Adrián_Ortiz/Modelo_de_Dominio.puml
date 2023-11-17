@@ -1,0 +1,68 @@
+@startuml
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
+' Clases
+class Alumni_plataforma
+class Alumni_usuario
+{
+  - alumniID: int
+  - nombre: string
+  - email: string
+  - fechaGraduacion: date
+  - fechaDiploma: date
+  - carnetID: int
+}
+class Universidad{
+  - gestionOfertasTrabajo: gestion
+  - gestionInformacionAlumni: gestion
+
+}
+class Suscripciones{
+  - modoPago: modoPago
+  - suscripcionTipo: suscripciones  
+  - serviciosAutorizados : servicios
+}
+class Servicios{
+  - acesoAInstalaciones: instalaciones[]
+  - acesoANewsLetters: bool
+  - ofertasTrabajos: ofertas[]
+  - informacionGeneralAlumni: informaciongeneral
+  - chat: chat
+}
+class Ofertas{
+  - empresaInteresada: empresa
+  - informacion: string
+}
+class Instalaciones{
+  - biblioteca: biblioteca
+  - laboratorioInformática: laboratorio
+  - laboratorioCiencia: laboratorio 
+  - salonActos: salonActos
+  - gimnasio: gimnasio
+}
+
+class formasRegistro{
+  - email: string
+  - carnetID: int
+  - nuevoAlumniID: int 
+}
+class Empresa{
+ 
+}
+' Relaciones
+Universidad --|> Alumni_plataforma: crea y administra
+Universidad --|> Alumni_usuario: pregunta (al inicio y fin de grado) si se quiere unir
+Alumni_plataforma --|> Alumni_usuario: tiene
+Alumni_usuario --|> formasRegistro: se registra en la plataforma con
+Alumni_usuario --|> Suscripciones: paga alguna
+Suscripciones --|> Servicios: ofrecen
+Servicios --|> Instalaciones: dan aceso
+Servicios --|> Ofertas: permiten publicar
+Empresa --|> Ofertas: publican
+Universidad --|> Ofertas: administran 
+
+
+@enduml

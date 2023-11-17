@@ -1,0 +1,62 @@
+@startuml alumni
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
+allowmixing
+class Grado {
+    + duracion: float
+}
+class Alumno {
+    + nombre:    String
+    + apellido1:    String
+    + apellido2:    String
+    + numeroDeAlumno:    int
+    + direccion:    String
+    + correoElectronico: String
+}
+class Curso1 {
+    + aceptaSuscribirse:    boolean
+}
+class Curso2 {
+    + aceptaSuscribirse:    boolean
+}
+class Curso3 {
+    + aceptaSuscribirse:    boolean
+}
+class Curso4 {
+    + aceptaSuscribirse:    boolean
+}
+class PAS {
+    + puesto: String
+    + nivelAcceso: int
+}
+class PID 
+class AlumnoEliminado
+class Prestaciones
+class Precio
+class Alumni
+class Herramientas
+
+Grado <|-- Alumno 
+Curso1 <|-- Grado 
+SeSuscribe <|-- Curso1
+Curso2 <|-- Curso1 : No se suscribe
+SeSuscribe <|-- Curso2
+Curso3 <|-- Curso2 : No se suscribe
+SeSuscribe <|-- Curso3
+Curso4 <|-- Curso3 : No se suscribe
+SeSuscribe <|-- Curso4
+NoSeSuscribe <|-- Curso4 : No se suscribe
+state SeSuscribe <<choice>>
+state NoSeSuscribe <<choice>> 
+AlumnoEliminado <|-- NoSeSuscribe 
+Prestaciones <|-- PID
+Precio <|-- Prestaciones 
+Alumni <|-- SeSuscribe
+PID <|-- Alumni
+PAS <|-- Alumni
+Herramientas <|-- PAS
+
+@enduml

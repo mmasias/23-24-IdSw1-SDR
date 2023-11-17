@@ -1,0 +1,32 @@
+@startuml alumni
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
+class Alumni {
+}
+class Servicios {
+}
+class Membresia {
+}
+class Pagos {
+}
+class Comunicaciones {
+}
+class Instalaciones {
+}
+class OfertasTrabajo {
+}
+class Empresas {
+}
+
+Alumni --> Membresia
+Membresia --> Pagos
+Membresia --> Servicios
+Servicios --> Comunicaciones
+Servicios --> Instalaciones
+Servicios --> OfertasTrabajo
+Empresas --> OfertasTrabajo
+
+@enduml

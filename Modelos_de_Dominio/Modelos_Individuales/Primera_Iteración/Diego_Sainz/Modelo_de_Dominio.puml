@@ -1,0 +1,69 @@
+@startuml
+
+!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+
+class Uneatlantico {
+}
+
+class Alumno {
+}
+
+class Alumni {
+  + Código único
+  + Carnet de estudiante
+  + Correo electrónico
+  + Trabajo
+  + Ubicación
+  + Intereses
+}
+
+
+class NivelesExclusividad {
+  + Básico
+  + Plata
+  + Oro
+}
+
+class Suscripcionesmultiregionales {
+  + Ubicación
+}
+
+Uneatlantico <-- Alumno
+
+Alumno <-- Alumni : Si Cumple Los Requisitos
+
+Alumno <-- Requisitos
+
+
+Alumni <-- NivelesExclusividad
+
+Alumni <-- Requisitos 
+
+Alumni <-- Servicios : Ofrece
+
+Alumni <-- Suscripcionesmultiregionales 
+
+Requisitos <-- Grado
+Requisitos <-- Postgrado
+Requisitos <-- CursosExperto
+Requisitos <-- Especialista
+
+ 
+
+Servicios <-- ServicioPostgrados
+Servicios <-- MasterFormativo
+Servicios <-- InstalacionesDeportivas
+Servicios <-- Biblioteca
+Servicios <-- Laboratorios
+Servicios <-- OfertasDeTrabajo
+
+
+
+NivelesExclusividad <-- Básico
+NivelesExclusividad <-- Plata
+NivelesExclusividad <-- Oro
+
+
+@enduml
