@@ -1,0 +1,92 @@
+@startuml
+!theme amiga
+skinparam defaultFontName Arial
+
+class ALUMNI {
+   plataforma
+}
+
+class USUARIO {
+   - ID
+   - Nombre 
+   - Apellido 
+   - Email 
+   - Ubicación 
+   - Fecha de Nacimiento 
+   - Ocupación
+   - Carnet de Estudiante
+   - Promoción/es
+   - Grado/s estudiado/s
+   
+}
+
+class UNIVERSIDAD{
+  - gestionOfertasTrabajo
+  - gestionInformacionAlumni
+
+}
+
+class REQUISITO {
+   - titulación de UNEAT
+}
+
+class SUSCRIPCIÓN {
+   - Nombre 
+   - Precio 
+   - Método de Pago
+   - Frecuencia de Pago
+}
+
+class SERVICIO {
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN {
+}
+
+class "ACCESO A INSTALACIONES" {
+    - Clases
+    - Biblioteca
+    - Sala de ordenadores
+    - Instalaciones deportivas
+}
+
+class NEWSLETTER {
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+}
+UNIVERSIDAD --|> ALUMNI: administra
+UNIVERSIDAD --|> "OFERTAS DE EMPLEO": administra
+ALUMNI --|> USUARIO : tiene
+ALUMNI <|-- USUARIO : se registra en
+COMUNICACIÓN <|-- USUARIO : se relacionan mediante
+SOCIAL <|-- USUARIO : Son notificados de eventos según su promoción
+ALUMNI -- SERVICIO : ofrece
+SUSCRIPCIÓN -- SERVICIO : ofrece (en menor o mayor medida)
+USUARIO -- REQUISITO : cumple
+
+
+ALUMNI <|-- "COMUNICACIÓN"
+SERVICIO <|-- "ACCESO A INSTALACIONES"
+"ACCESO A INSTALACIONES" .. BASESDATOSUNEAT : Usa datos para reserva 
+"COMUNICACIÓN" .. BASESDATOSUSUARIOSALUMNI : Usa datos para intercomunicar
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+"SOCIAL" --|> SERVICIO
+
+USUARIO .. SUSCRIPCIÓN : Se suscribe
+
+"COMUNICACIÓN" --|> SERVICIO
+COMUNICACIÓN <|-d- Email
+COMUNICACIÓN <|-d- Chat
+COMUNICACIÓN <|-d- Teléfono
+@enduml
