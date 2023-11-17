@@ -1,0 +1,103 @@
+@startuml AlumniModel
+
+'!theme amiga
+skinparam defaultFontName Arial
+
+class ALUMNI {
+   plataforma
+}
+
+class USUARIO {
+    ID
+    Nombre 
+    Apellido 
+    Email 
+    ubicacion 
+    Fecha de Nacimiento 
+    Ocupación
+    Carnet de Estudiante
+    Area Académica
+}
+
+class REQUISITO {
+    Titulación universitaria
+}
+
+class INSCRIPCIÓN{
+    Nombre
+}
+
+class ADMINISTRADOR{
+    ID
+    Nombre 
+    Apellido 
+    Email 
+    Zona de trabajo 
+    Fecha de Nacimiento 
+}  
+
+class SUSCRIPCIÓN {
+    Nombre 
+    Precio 
+    Método de Pago
+    Frecuencia de Pago
+}
+
+class SERVICIOS {
+    - Nombre 
+    - Descripción 
+}
+class "SERVICIO DE SUSCRIPCION"{
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN {
+    - Email
+    - Chat
+    - Telefono
+}
+
+class REPOSITORIO {
+    -ID
+    -NOMBRE
+    -CONTACTO
+}
+class "ACCESO A INSTALACIONES" {
+    - Biblioteca
+    - Sala de ordenadores
+    - Instalacioes deportivas
+}
+
+class NEWSLETTER {
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+}
+
+ALUMNI -- COMUNICACIÓN : se encarga de 
+COMUNICACIÓN -- ADMINISTRADOR 
+COMUNICACIÓN -- USUARIO
+ALUMNI -- INSCRIPCIÓN : tiene
+INSCRIPCIÓN -- SUSCRIPCIÓN : con pago es
+INSCRIPCIÓN -- SERVICIOS : tiene
+COMUNICACIÓN .. SERVICIOS : es un
+SERVICIOS -- "SERVICIO DE SUSCRIPCION" : incluye
+SUSCRIPCIÓN --"SERVICIO DE SUSCRIPCION" : tiene
+INSCRIPCIÓN .. USUARIO
+USUARIO -- REQUISITO : necesita
+USUARIO-- REPOSITORIO : forma parte de
+ADMINISTRADOR -- REPOSITORIO : administra
+REPOSITORIO -- ESTADÍSTICAS : se sacan
+SERVICIOS -- "NEWSLETTER"
+"SERVICIO DE SUSCRIPCION"--"ACCESO A INSTALACIONES"
+"SERVICIOS" -- "OFERTAS DE EMPLEO"
+
+@enduml
