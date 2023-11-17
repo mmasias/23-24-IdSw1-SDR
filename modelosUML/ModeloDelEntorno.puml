@@ -4,11 +4,12 @@ title Modelo del entorno
 
 class profesor
 funiber --> universidad 
-profesor --> asignatura 
 universidad --> profesor 
 universidad --> secretariaAcademica
-profesor --> core 
-secretariaAcademica --> core
-core --> ticket 
+profesor --> core : > utiliza
+secretariaAcademica --> core: > utiliza
+profesor -- ticket: > crea
+secretariaAcademica -- ticket: > crea
+core -- ticket : > registra\nsus errores en
 
 @enduml
