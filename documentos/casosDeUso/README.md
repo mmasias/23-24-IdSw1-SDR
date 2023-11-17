@@ -30,8 +30,8 @@
   - CRUD Usuario
 
 ## Priorización
-1. Revisión de tiempo
-2. Fichaje
+1. Fichaje
+2. Revisión de tiempo
 
 ## Detalles
 - Fichaje: Cuando los trabajadores se fichan usando el tomador de huellas
