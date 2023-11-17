@@ -1,12 +1,44 @@
-@startuml DiagramaCasosDeUso
+@startuml
 
-Actor Trabajador
+skin rose
 
-rectangle Fichar
-rectangle "Revisar Horario"
 
-Trabajador --> (Fichar)
-Trabajador --> (Revisar Horario)
+Usuario -up-|> Trabajador
+Administrador -up-|> Trabajador
+
+Trabajador --> (Escanea Lector de Huella / Crear registro)
+
+Administrador --> (Crear fichaje diario)
+Administrador --> (Leer fichaje diario)
+Administrador --> (Actualizar fichaje diario)
+Administrador --> (Eliminar fichaje diario)
+
+Administrador --> (Crear informe)
+Administrador --> (Leer informe)
+Administrador --> (Actualizar informe)
+Administrador --> (Eliminar informe)
+
+Administrador --> (Crear Usuario)
+Administrador --> (Leer Usuario)
+Administrador --> (Actualizar Usuario)
+Administrador --> (Eliminar Usuario)
+
+Usuario --> (Leer fichaje diario)
+Usuario --> (Leer informe dia)
+Usuario --> (Leer informe semana)
+Usuario --> (Leer informe mes)
 
 @enduml
 
+
+
+// @startuml DiagramaCasosDeUso
+// Actor Trabajador
+
+//rectangle Fichar
+//rectangle "Revisar Horario"
+
+//Trabajador --> (Fichar)
+//Trabajador --> (Revisar Horario)
+
+//@enduml

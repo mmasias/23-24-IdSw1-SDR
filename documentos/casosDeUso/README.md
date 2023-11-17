@@ -3,15 +3,35 @@
 ## Identificación
 
 ### Actores
-- Trabajadores
+- Trabajador
+- Usuario extiende Trabajador
+- Administrador extiende Usuario
+- Lector de Huellas
 
 ### Casos de Uso
-- Fichaje 
-- Revisión de tiempo
+- Lector de Huellas:
+  - CREATE Fichaje Diario
+  - READ Huella del Trabajador
+  - UPDATE Fichaje Diario
+ 
+- Trabajador:
+  - Escanear Lector de Huella
+
+- Usuario:
+  - READ Fichaje Diario
+  - READ Informe
+    - READ Dia
+    - READ Semana
+    - READ Mes
+
+- Administrador(Usuario):
+  - CRUD Fichaje Diario
+  - CRUD Informe
+  - CRUD Usuario
 
 ## Priorización
-1. Revisión de tiempo
-2. Fichaje
+1. Fichaje
+2. Revisión de tiempo
 
 ## Detalles
 - Fichaje: Cuando los trabajadores se fichan usando el tomador de huellas
@@ -25,6 +45,7 @@
 ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg)
 - [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml)
 </details>
+
 
 <details>
 <summary>Diagrama de Caso de Uso: Fichar</summary>
