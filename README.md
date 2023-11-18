@@ -22,6 +22,7 @@
 
  - [Sesiones](/Sesiones/)
    - [Sesión 19/10/2023](/Sesiones/19-10-2023/)
+   - [Sesión 07/11/2023](/Sesiones/07-11-2023/)
 
  ## Integrantes
 
