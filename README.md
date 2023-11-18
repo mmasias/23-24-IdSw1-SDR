@@ -16,9 +16,9 @@
 ## Índice
 
  - [Modelos de Dominio](/Modelos_de_Dominio/Modelos_Finales)
-   - [Iteración Actual](/Modelos_de_Dominio/Modelos_Finales/Primera_Iteración/Readme.md)
+   - [Iteración Actual](/Modelos_de_Dominio/Modelos_Finales/Segunda_Iteración/Readme.md)
    - [Iteraciones Individuales](/Modelos_de_Dominio/Modelos_Individuales/)
-     - [Iteracion Actual](/Modelos_de_Dominio/Modelos_Individuales/Primera_Iteración/)
+     - [Iteracion Actual](/Modelos_de_Dominio/Modelos_Individuales/Segunda_Iteración/)
 
  - [Sesiones](/Sesiones/)
    - [Sesión 19/10/2023](/Sesiones/19-10-2023/)
