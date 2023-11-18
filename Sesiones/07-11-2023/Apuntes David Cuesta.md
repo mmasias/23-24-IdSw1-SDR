@@ -1,6 +1,6 @@
 ## Cambios pedidos por el cliente
 
-- -Cambiar en el diagrama de clases a Funiber por UNEAT
+- Cambiar en el diagrama de clases a Funiber por UNEAT
 
 - Tener reflejado la doble consulta a la hora de darse de alta
 
