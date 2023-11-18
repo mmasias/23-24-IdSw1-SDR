@@ -1,0 +1,100 @@
+@startuml
+!theme plain
+
+class ALUMNI 
+{
+   - plataforma
+}
+
+
+class BaseDatos
+{
+ - Nombre
+ - Id
+ - Grado Cursado
+ - Empleabilidad
+}
+
+class PlataformasExternas
+
+
+class USUARIO 
+{
+    - ID
+    - Nombre 
+    - Apellido 
+    - Email 
+    - ubicacion 
+    - Fecha de Nacimiento 
+    - Ocupación
+    - Numero de Carne
+}
+
+class REQUISITO 
+{
+    - titulación de Uneatlantico
+}
+
+class SUSCRIPCIÓN 
+{
+    - Nombre 
+    - Precio 
+    - Método de Pago
+    - Frecuencia de Pago
+}
+
+class SERVICIO {
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN
+{
+    - Email
+    - Caracteristicas Sociales
+    - Chat
+    - Seguimiento de otros usuarios
+
+}
+
+class "ALQUILER DE INSTALACIONES" 
+{
+    - Biblioteca
+    - Sala de ordenadores
+    - Instalaciones Deportivas
+}
+
+class NEWSLETTER 
+{
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" 
+{
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+}
+
+ALUMNI -- USUARIO : tiene
+ALUMNI -- SUSCRIPCIÓN : ofrece
+SUSCRIPCIÓN -- SERVICIO : incluye
+USUARIO -- REQUISITO : cumple
+
+
+ALUMNI -- "COMUNICACIÓN"
+ALUMNI -- "NEWSLETTER"
+
+SERVICIO <|-- "ALQUILER DE INSTALACIONES"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+
+ALUMNI -left-> BaseDatos : Se comunica
+ALUMNI -right-> PlataformasExternas : Se comunica
+
+
+
+@enduml
