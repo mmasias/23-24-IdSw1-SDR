@@ -1,0 +1,107 @@
+@startuml AlumniModel
+
+'!theme amiga
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+hide circle
+
+class ALUMNI 
+{
+   plataforma
+}
+
+class "SERVICIO EXTERNO" {
+    Base de datos UNEAT
+    Reserva de Instalaciones
+}
+
+class USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+}
+
+class EGRESADO 
+{
+    ubicacion
+    Ocupación
+    Carnet de Estudiante
+}
+
+class ADMINISTRADOR 
+{
+    Zona de trabajo
+}
+
+class REQUISITO {
+    titulación de UNEAT
+}
+
+class ESTADISTICAS {
+    información de los egresados
+}
+
+class SUSCRIPCIÓN {
+    Nombre 
+    tipo
+}
+
+class "SUSCRIPCIÓN GRATUITA" {
+    Nombre 
+    tipo
+}
+
+class "SUSCRIPCIÓN PREMIUM" {
+    pago
+    método de pago
+}
+
+class SERVICIO {
+    Nombre 
+    Descripción 
+}
+
+class COMUNICACIÓN {
+    Email
+    Chat
+    Seguimiento
+}
+
+class INSTALACIONES {
+    Biblioteca
+    Sala de ordenadores
+    Instalaciones deportivas
+}
+
+class NEWSLETTER {
+    Noticias
+    Eventos
+    Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    Nombre de la empresa
+    Puesto de trabajo
+    Salario
+    Ubicación
+}
+
+ALUMNI -- USUARIO : tiene
+EGRESADO -- SUSCRIPCIÓN : se inscribe
+ALUMNI -- "SERVICIO EXTERNO" : se comunica
+SUSCRIPCIÓN -- SERVICIO : incluye
+EGRESADO -- REQUISITO : cumple
+ALUMNI -- ESTADISTICAS : realiza
+ADMINISTRADOR .. ESTADISTICAS : consulta
+USUARIO <|-- EGRESADO
+USUARIO <|-- ADMINISTRADOR
+
+SERVICIO <|-- "COMUNICACIÓN"
+SERVICIO <|-- "INSTALACIONES"
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+@enduml
