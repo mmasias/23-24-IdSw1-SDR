@@ -10,10 +10,9 @@ class ALUMNI
    plataforma
 }
 
-class "SERVICIO EXTERNO" {
-    Base de datos UNEAT
-    Reserva de Instalaciones
-}
+class "SERVICIO EXTERNO" {}
+
+class UNIVERSIDAD {}
 
 class USUARIO 
 {
@@ -36,53 +35,60 @@ class ADMINISTRADOR
     Zona de trabajo
 }
 
-class REQUISITO {
+class REQUISITO 
+{
     titulación de UNEAT
 }
 
-class ESTADISTICAS {
+class ESTADISTICAS 
+{
     información de los egresados
 }
 
-class SUSCRIPCIÓN {
+class SUSCRIPCIÓN 
+{
+    paquetes suscritos
+    servicios suscritos
+    precio total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    servicios incluidos
+    precio
+}
+
+class SERVICIO 
+{
     Nombre 
-    tipo
+    Descripción
+    precio
 }
 
-class "SUSCRIPCIÓN GRATUITA" {
-    Nombre 
-    tipo
-}
-
-class "SUSCRIPCIÓN PREMIUM" {
-    pago
-    método de pago
-}
-
-class SERVICIO {
-    Nombre 
-    Descripción 
-}
-
-class COMUNICACIÓN {
+class COMUNICACIÓN 
+{
     Email
     Chat
     Seguimiento
 }
 
-class INSTALACIONES {
+class INSTALACIONES 
+{
     Biblioteca
     Sala de ordenadores
     Instalaciones deportivas
 }
 
-class NEWSLETTER {
+class NEWSLETTER 
+{
     Noticias
     Eventos
-    Ofertas de empleo
 }
 
-class "OFERTAS DE EMPLEO" {
+class "OFERTAS DE EMPLEO" 
+{
     Nombre de la empresa
     Puesto de trabajo
     Salario
@@ -94,10 +100,13 @@ EGRESADO -- SUSCRIPCIÓN : se inscribe
 ALUMNI -- "SERVICIO EXTERNO" : se comunica
 SUSCRIPCIÓN -- SERVICIO : incluye
 EGRESADO -- REQUISITO : cumple
-ALUMNI -- ESTADISTICAS : realiza
+ALUMNI -- ESTADISTICAS : genera
 ADMINISTRADOR .. ESTADISTICAS : consulta
+SUSCRIPCIÓN -- PAQUETE : incluye
 USUARIO <|-- EGRESADO
 USUARIO <|-- ADMINISTRADOR
+UNIVERSIDAD -right- ALUMNI : se comunica
+ADMINISTRADOR -- SERVICIO : gestiona
 
 SERVICIO <|-- "COMUNICACIÓN"
 SERVICIO <|-- "INSTALACIONES"
