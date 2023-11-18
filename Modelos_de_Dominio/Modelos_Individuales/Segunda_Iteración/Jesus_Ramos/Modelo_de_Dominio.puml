@@ -1,0 +1,72 @@
+@startuml
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class ALUMNI {
+   - plataforma
+}
+
+class USUARIO {
+    - ID
+    - Nombre 
+    - Apellido 
+    - Email 
+    - ubicacion
+    - Ocupación
+    - Carnet de Estudiante
+}
+
+class REQUISITO {
+    - titulación de UNEATLANTICO
+}
+
+class SUSCRIPCIÓN {
+    - Nombre 
+    - Precio 
+    - Método de Pago
+    - Frecuencia de Pago
+}
+
+class SERVICIO {
+    - Nombre 
+    - Descripción 
+}
+
+class COMUNICACIÓN {
+    - Email
+    - Chat
+}
+
+class "ALQUILER DE INSTALACIONES" {
+    - Biblioteca
+    - Sala de ordenadores
+    - Pista de padel
+}
+
+class NEWSLETTER {
+    - Noticias
+    - Eventos
+    - Ofertas de empleo
+}
+
+class "OFERTAS DE EMPLEO" {
+    - Nombre de la empresa
+    - Puesto de trabajo
+    - Salario
+    - Ubicación
+}
+
+ALUMNI -- USUARIO : tiene
+USUARIO -- SUSCRIPCIÓN : se inscribe
+USUARIO .. "BASE DE DATOS UNEAT" : se relaciona
+SUSCRIPCIÓN -- SERVICIO : incluye
+USUARIO -- REQUISITO : cumple
+
+
+SERVICIO <|-- "COMUNICACIÓN"
+SERVICIO <|-- "ALQUILER DE INSTALACIONES"
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+@enduml
