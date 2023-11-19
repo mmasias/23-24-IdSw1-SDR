@@ -1,0 +1,14 @@
+@startuml
+
+title Suscripción en Servicios
+
+actor Egresado
+
+Egresado --> (Servicios): visualiza
+Egresado --> (Paquetes de servicios): visualiza
+(Servicios) -down-> (Suscripción) : se suscribe
+(Paquetes de servicios) -down-> (Suscripción) : se suscribe
+(Suscripción) -down-> (Pagos) : se realiza el pago
+(Pagos) -down-> (Base de datos) : se guarda
+(Suscripción) -down-> (Base de datos) : se guarda
+@enduml
