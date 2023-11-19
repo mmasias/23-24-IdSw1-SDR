@@ -1,0 +1,14 @@
+@startuml Cancelar_Suscripcion_Servicios
+
+title Cancelar Suscripción de Servicios
+
+actor Egresado
+
+Egresado --> (Servicios): visualiza
+Egresado --> (Paquetes de servicios): visualiza
+(Servicios) -down-> (Suscripción) : cancela suscripción
+(Paquetes de servicios) -down-> (Suscripción) : cancela suscripción
+(Suscripción) -down-> (Pagos) : se cancela pago
+(Pagos) -down-> (Base de datos) : se elimina
+(Suscripción) -down-> (Base de datos) : se elimina
+@enduml

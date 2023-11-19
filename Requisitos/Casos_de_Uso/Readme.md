@@ -1,12 +1,10 @@
 ## Casos de Uso
 - Egresado:
     - [Registro en plataforma](/Requisitos/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
-    - [Suscripción en Servicios](/Requisitos/Casos_de_Uso/Egresado/Suscripcion_servicios/Readme.md)
+    - [Suscripción en Servicios/Paquete](/Requisitos/Casos_de_Uso/Egresado/Suscripcion_servicios/Readme.md)
         - Listar servicios. 
         - Suscipción a servicio
-        - Suscripción a paquete de servicios.
-    - Desuscripción de un servicio.
-    - Desuscripción de un paquete de servicios.
+    - Cancelar suscripción de un servicio/Paquete.
 - Administrador:
     - CRUD servicio:
         - Crear servicio.
