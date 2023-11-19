@@ -1,0 +1,26 @@
+@startuml
+
+start
+
+:Leer huella;
+if (Huellas coinciden) then (Sí)
+  :Obtener trabajador;
+  if (Trabajador válido) then (Sí)
+    :Obtener fecha y hora;
+    :Registrar fichaje;
+    if (Horario cumplido) then (Sí)
+      :Generar informe;
+      :Mostrar mensaje "Fichaje exitoso";
+    else (No)
+      :Mostrar mensaje "Fichaje fuera de horario";
+    endif
+  else (No)
+    :Mostrar mensaje "Trabajador no válido";
+  endif
+else (No)
+  :Mostrar mensaje "Huellas no coinciden";
+endif
+
+stop
+
+@enduml
