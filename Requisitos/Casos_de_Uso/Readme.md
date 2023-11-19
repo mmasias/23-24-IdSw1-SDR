@@ -1,6 +1,6 @@
 ## Casos de Uso
 - Egresado:
-    - Registro en plataforma.
+    - [Registro en plataforma](/Egresado/Registro_en_Plataforma/Readme.md).
     - Suscipción a servicio.
     - Suscripción a paquete de servicios.
     - Desuscripción de un servicio.
