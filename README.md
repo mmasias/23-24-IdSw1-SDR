@@ -24,7 +24,9 @@
    - [Iteración actual](/Diagramas_de_Estado/Primera_Iteración/)
      - [Usuario](/Diagramas_de_Estado/Primera_Iteración/Usuario/Readme.md)
 
- - [Casos de uso](/Casos_de_uso/)
+ - [Requisitos](/Requisitos/)
+   - [Actores](/Requisitos/Actores/Readme.md)
+   - [Casos de Uso](/Requisitos/Casos_de_Uso/Readme.md)
 
  - [Sesiones](/Sesiones/)
    - [Sesión 19/10/2023](/Sesiones/19-10-2023/)
