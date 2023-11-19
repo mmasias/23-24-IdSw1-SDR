@@ -1,3 +1,20 @@
 ## Casos de Uso
- - Administradores de la plataforma
- - Egresados de uneatlantico
+- Egresado:
+    - Se registra en la plataforma.
+    - Se suscribe a un servicio.
+    - Se suscribe a un paquete de servicios.
+    - Se desuscribe de un servicio.
+    - Se desuscribe de un paquete de servicios.
+    - Lee un servicio. 
+- Administrador:
+    - CRUD servicio:
+        - Crea un servicio.
+        - Edita un servicio.
+        - Lee un servicio.
+        - Elimina un servicio.
+    - CRUD paquete de servicios.
+        - Crea un paquete de servicios.
+        - Edita un paquete de servicios.
+        - Lee un paquete de servicios.
+        - Elimina un paquete de servicios.
+    - Consulta estadísticas.
