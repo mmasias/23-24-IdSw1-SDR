@@ -1,12 +1,12 @@
 ## Administrador:
 - CRUD servicio:
-    - Crea un servicio.
-    - Edita un servicio.
-    - Lee un servicio.
-    - Elimina un servicio.
+    - Crear servicio.
+    - Editar servicio.
+    - Listar servicios.
+    - Eliminar servicio.
 - CRUD paquete de servicios.
-    - Crea un paquete de servicios.
-    - Edita un paquete de servicios.
-    - Lee un paquete de servicios.
-    - Elimina un paquete de servicios.
-- Consulta estadísticas.
+    - Crear paquete de servicios.
+    - Editar paquete de servicios.
+    - Listar paquetes de servicios.
+    - Eliminar paquete de servicios.
+- Consultar estadísticas.
