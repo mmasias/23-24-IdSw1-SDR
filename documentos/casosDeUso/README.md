@@ -34,8 +34,8 @@
 2. Revisión de tiempo
 
 ## Detalles
-- Fichaje: Cuando los trabajadores se fichan usando el tomador de huellas
-- Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día y cuanto les falta por acabar.
+- Fichaje: Cuando los trabajadores fichan usando el tomador de huellas
+- Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día, semana o mes y cuanto les falta para acabar.
 
 ## Diagrama 
 
