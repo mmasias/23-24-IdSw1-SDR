@@ -4,7 +4,9 @@
     - [Suscripción en Servicios/Paquete](/Requisitos/Casos_de_Uso/Egresado/Suscripcion_servicios/Readme.md)
         - Listar servicios. 
         - Suscipción a servicio
-    - Cancelar suscripción de un servicio/Paquete.
+    - [Cancelar suscripción de un servicio/Paquete](/Requisitos/Casos_de_Uso/Egresado/Cancelar_Suscripción_Servicios/Readme.md)
+        - Listar servicios. 
+        - Suscipción a servicio
 - Administrador:
     - CRUD servicio:
         - Crear servicio.
