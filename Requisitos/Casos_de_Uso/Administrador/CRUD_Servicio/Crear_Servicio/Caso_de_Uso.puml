@@ -1,0 +1,9 @@
+@startuml Create_Service
+
+title Crear Servicio
+
+actor Administrador
+
+Administrador --> (Crear Servicio)
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml Update_Service
+
+title Editar Servicio
+
+actor Administrador
+
+Administrador --> (Editar Servicio)
+
+@enduml

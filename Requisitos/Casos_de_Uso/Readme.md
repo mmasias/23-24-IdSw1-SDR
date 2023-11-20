@@ -2,17 +2,17 @@
 - Egresado:
     - [Registro en plataforma](/Requisitos/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
     - [Suscripción en Servicios/Paquete](/Requisitos/Casos_de_Uso/Egresado/Suscripcion_servicios/Readme.md)
-        - Listar servicios. 
+        - Listar servicios
         - Suscipción a servicio
     - [Cancelar suscripción de un servicio/Paquete](/Requisitos/Casos_de_Uso/Egresado/Cancelar_Suscripción_Servicios/Readme.md)
-        - Listar servicios. 
-        - Suscipción a servicio
+        - Listar servicios
+        - Cancelar Suscipción a servicio
 - Administrador:
-    - CRUD servicio:
-        - Crear servicio.
-        - Editar servicio.
-        - Listar servicios.
-        - Eliminar servicio.
+    - [CRUD servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Readme.md)
+        - [Crear servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
+        - [Editar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
+        - [Listar servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
+        - [Eliminar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
     - CRUD paquete de servicios.
         - Crear paquete de servicios.
         - Editar paquete de servicios.
