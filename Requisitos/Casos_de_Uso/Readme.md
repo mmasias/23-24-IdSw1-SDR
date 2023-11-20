@@ -13,9 +13,9 @@
         - [Editar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
         - [Listar servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
         - [Eliminar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
-    - CRUD paquete de servicios.
-        - Crear paquete de servicios.
-        - Editar paquete de servicios.
-        - Listar paquetes de servicios.
-        - Eliminar paquete de servicios.
-    - Consultar estadísticas.
+    - [CRUD paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Readme.md)
+        - [Crear paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Crear_Paquete/Readme.md)
+        - [Editar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Editar_Paquete/Readme.md)
+        - [Listar paquetes de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Listar_Paquete/Readme.md)
+        - [Eliminar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Eliminar_Paquete/Readme.md)
+    - Consultar estadísticas
