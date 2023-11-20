@@ -1,7 +1,9 @@
 @startuml AlumniModel
 
+title Modelo de Dominio
+
 '!theme amiga
-skinparam backgroundColor transparent
+skinparam backgroundColor white
 skinparam defaultFontName Arial
 hide circle
 
@@ -67,34 +69,6 @@ class SERVICIO
     precio
 }
 
-class COMUNICACIÓN 
-{
-    Email
-    Chat
-    Seguimiento
-}
-
-class INSTALACIONES 
-{
-    Biblioteca
-    Sala de ordenadores
-    Instalaciones deportivas
-}
-
-class NEWSLETTER 
-{
-    Noticias
-    Eventos
-}
-
-class "OFERTAS DE EMPLEO" 
-{
-    Nombre de la empresa
-    Puesto de trabajo
-    Salario
-    Ubicación
-}
-
 ALUMNI -- USUARIO : tiene
 EGRESADO -- SUSCRIPCIÓN : se inscribe
 ALUMNI -- "SERVICIO EXTERNO" : se comunica
@@ -108,9 +82,5 @@ USUARIO <|-- ADMINISTRADOR
 UNIVERSIDAD -right- ALUMNI : se comunica
 ADMINISTRADOR -- SERVICIO : gestiona
 
-SERVICIO <|-- "COMUNICACIÓN"
-SERVICIO <|-- "INSTALACIONES"
-SERVICIO <|-- "NEWSLETTER"
-SERVICIO <|-- "OFERTAS DE EMPLEO"
-
 @enduml
+
