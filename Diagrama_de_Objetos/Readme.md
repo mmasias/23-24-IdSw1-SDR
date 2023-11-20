@@ -1,3 +1,2 @@
-<div align="center">
-  <image src= "./Diagrama_de_Objetos.svg">
-</div>
+## Diagramas de Objetos
+> En esta carpeta se irán registrando las iteraciones realizadas para obtener el diagrama de objetos
