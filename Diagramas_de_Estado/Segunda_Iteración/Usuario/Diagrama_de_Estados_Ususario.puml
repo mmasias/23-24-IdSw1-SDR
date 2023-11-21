@@ -1,4 +1,5 @@
 [*] --> Usuario : se crea usuario
+State accion <<choice>>
 Usuario --> accion
 accion --> UsuarioEgresado : es egresado
 accion --> UsuarioAdministrador : es administador
@@ -14,6 +15,7 @@ Suscrito--> Egresado: se desinscribe
 state UsuarioAdministrador{
 [*]--> mirandoEstadísticas : llegan nuevos datos
 [*]-->gestionandoServico : se crea nuevo servicio
+[*]-->gestionandoPaquetes : se crea nuevo paquete
 }
 
 
