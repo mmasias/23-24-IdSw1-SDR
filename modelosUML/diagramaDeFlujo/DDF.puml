@@ -3,22 +3,23 @@
 start
 
 :Leer huella;
-if (Huellas coinciden) then (Sí)
+if (Registrada?) then (Sí)
   :Obtener trabajador;
-  if (Trabajador válido) then (Sí)
-    :Obtener fecha y hora;
-    :Registrar fichaje;
-    if (Horario cumplido) then (Sí)
-      :Generar informe;
-      :Mostrar mensaje "Fichaje exitoso";
-    else (No)
-      :Mostrar mensaje "Fichaje fuera de horario";
-    endif
+  :Obtener fecha y hora;
+  :Registrar fichaje;
+  while (Trabajando?) is (Sí)
+    :Contabilizar horas;
+  endwhile
+  if (Fuera de horario) then (Sí) 
+    :Registrar salida;
   else (No)
-    :Mostrar mensaje "Trabajador no válido";
+    :Esperar fichaje;
+  endif
+  if (Final de semana?) then (Sí)
+    :Generar informe;
   endif
 else (No)
-  :Mostrar mensaje "Huellas no coinciden";
+  :Error "Huella no registrada";
 endif
 
 stop
