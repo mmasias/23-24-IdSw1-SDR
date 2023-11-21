@@ -1,12 +1,16 @@
 ## Casos de Uso
 - Egresado:
     - [Registro en plataforma](/Requisitos/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
-    - [Suscripción en Servicios/Paquete](/Requisitos/Casos_de_Uso/Egresado/Suscripcion_servicios/Readme.md)
+    - [Suscripción en servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción/Readme.md)
         - Listar servicios
-        - Suscipción a servicio
-    - [Cancelar suscripción de un servicio/Paquete](/Requisitos/Casos_de_Uso/Egresado/Cancelar_Suscripción_Servicios/Readme.md)
-        - Listar servicios
-        - Cancelar Suscipción a servicio
+        - Suscripción servicio
+        - Editar suscripción servicio
+        - Eliminar suscripción servicio
+    - [Suscripción en paquete de servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción_Paquetes/Readme.md)
+        - Listar paquetes servicios
+        - Suscipción paquetes servicios
+        - Editar suscripción paquetes servicios
+        - Eliminar suscripción paquetes servicios
 - Administrador:
     - [CRUD servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Readme.md)
         - [Crear servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)

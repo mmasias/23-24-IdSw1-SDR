@@ -1,0 +1,16 @@
+@startuml CRUD_Suscription
+
+title CRUD Suscripción
+
+folder "CRUD Suscripción" {
+
+    actor Egresado
+
+    Egresado --> (Listar Servicios)
+    Egresado --> (Suscripción a Servicio)
+    Egresado --> (Editar Suscripción de Servicio)
+    Egresado --> (Eliminar Suscripción de Servicio)
+
+}
+
+@enduml

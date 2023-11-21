@@ -1,19 +1,11 @@
-@startuml registro_en_alumni
+@startuml Platform_Register
 
-title Registro en Alumni
-skinparam defaultFontName Arial
+title Registro en plataforma
 
 actor Egresado
 
-Egresado -> (Alumni): se registra
+Egresado --> (Registro en plataforma)
+(Registro en plataforma) --> (Suscipción a servicio) : <<include>>
+(Registro en plataforma) --> (Suscipción a paquete de servicios) : <<include>>
 
-(Alumni) -> (Alumni): valida datos
-(Alumni) -up-> (Alumni): envia correo de confirmacion
-(Alumni) -up-> (Base de datos): guarda datos
-(Alumni) -down-> (Suscripción): genera suscripción
-
-(Base de datos) -> (Base de datos uneat) : se relaciona
-
-(Suscripción) -> (Comunicación): añade el servicio
-(Suscripción) -down-> (Newsletter): añade el servicio 
 @enduml
