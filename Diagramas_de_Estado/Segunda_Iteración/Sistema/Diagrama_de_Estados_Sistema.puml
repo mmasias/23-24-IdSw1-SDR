@@ -1,0 +1,26 @@
+@startuml
+
+State accion <<choice>> 
+
+state IniciandoSistema{
+
+[*] --> SolicitandoDatosUNEAT : usuario se inscribe
+
+SolicitandoDatosUNEAT --> GeneraEstadísticas
+
+}
+
+state SistemaFuncional{
+
+GeneraEstadísticas --> ApartadoSocial : comunica usuarios con
+
+GeneraEstadísticas --> accion : usuario se suscribe
+
+accion --> EnvíaNewsLetter : SI
+
+accion --> [*] : NO
+
+EnvíaNewsLetter --> EnvíaNewsLetter : llega nueva newsletter
+
+}
+@enduml
