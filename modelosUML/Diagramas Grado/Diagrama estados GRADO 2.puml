@@ -1,0 +1,77 @@
+@startuml
+[*] --> InicioHorariosGrado
+
+InicioHorariosGrado --> ElegirAñoGrado: Revisar año del grado
+
+ElegirAñoGrado --> PrimerYSegundoAño : Primer y Segundo Año
+ElegirAñoGrado --> TercerAño : Tercer Año
+ElegirAñoGrado --> CuartoAño : Cuarto Año
+
+state PrimerYSegundoAño {
+    state RevisarSemestres {
+        [*] --> RevisarSemestre 
+        RevisarSemestre --> PrimerSemestre : Semestre Verificado
+        RevisarSemestre --> SegundoSemestre : Semestre Verificado
+        PrimerSemestre --> AsignarAsignaturasPrimerSegundo 
+        SegundoSemestre --> AsignarAsignaturasPrimerSegundo
+        AsignarAsignaturasPrimerSegundo --> GuardarCambios
+        GuardarCambios --> [*] : Cambios Guardados
+    }
+
+    state AsignarAsignaturasPrimerSegundo {
+        Asignatura1 --> Asignatura2 : Asignatura 1 asignada
+        Asignatura2 --> Asignatura3 : Asignatura 2 asignada
+        Asignatura3 --> Asignatura4 : Asignatura 3 asignada
+        Asignatura4 --> Asignatura5 : Asignatura 4 asignada
+    }
+}
+
+state TercerAño {
+    state RevisarSemestresTercero {
+        [*] --> RevisarSemestreTercero
+        RevisarSemestreTercero --> PrimerSemestreTercero : Semestre Verificado
+        RevisarSemestreTercero --> SegundoSemestreTercero : Semestre Verificado
+        PrimerSemestreTercero --> AsignarAsignaturasTercero
+        SegundoSemestreTercero --> AsignarAsignaturasTercero
+        AsignarAsignaturasTercero--> GuardarCambiosTercero
+        GuardarCambiosTercero --> [*] : Cambios Guardados 
+    }
+
+    state AsignarAsignaturasTercero {
+        Asignatura1Tercero --> Asignatura2Tercero : Asignatura 1 asignada
+        Asignatura2Tercero --> Asignatura3Tercero : Asignatura 2 asignada
+        Asignatura3Tercero --> Asignatura4Tercero : Asignatura 3 asignada
+        Asignatura4Tercero --> OptativaTercero : Asignatura 4 asignada
+    }
+}
+
+state CuartoAño {
+    state RevisarSemestresCuarto {
+        [*] --> RevisarSemestreCuarto
+        RevisarSemestreCuarto --> PrimerSemestreCuarto : Semestre Verificado
+        RevisarSemestreCuarto --> SegundoSemestreCuarto : Semestre Verificado
+        PrimerSemestreCuarto --> AsignarAsignaturasCuartoPrimerSemestre
+        SegundoSemestreCuarto --> AsignarAsignaturasCuartoSegundoSemestre
+        AsignarAsignaturasCuartoPrimerSemestre --> GuardarCambiosCuarto
+        AsignarAsignaturasCuartoSegundoSemestre --> GuardarCambiosCuarto
+        GuardarCambiosCuarto --> RevisarSemestresCuarto
+    }
+
+    state AsignarAsignaturasCuartoPrimerSemestre {
+        Asignatura1Cuarto --> Asignatura2Cuarto : Asignatura 1 asignada
+        Asignatura2Cuarto --> Asignatura3Cuarto : Asignatura 2 asignada
+        Asignatura3Cuarto --> Asignatura4Cuarto : Asignatura 3 asignada
+        Asignatura4Cuarto --> OptativaCuarto : Asignatura 4 asignada
+    }
+
+    state AsignarAsignaturasCuartoSegundoSemestre {
+        Asignatura1CuartoSegundo --> Asignatura2CuartoSegundo : Asignatura 1 asignada
+        Asignatura2CuartoSegundo --> Asignatura3CuartoSegundo : Asignatura 2 asignada
+        Asignatura3CuartoSegundo --> OptativaCuartoSegundo : Asignatura 3 asignada
+    }
+}
+
+CuartoAño --> HorarioGradoCompleto : Cuarto Año completado
+HorarioGradoCompleto --> [*]
+
+@enduml
