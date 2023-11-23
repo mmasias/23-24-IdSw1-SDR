@@ -1,22 +1,40 @@
 @startuml
 
-object "fichajeLunes : Fichaje" as FichajeLunes {
+object "fichajeLunes : Fichaje" as FichajeLunes1 {
     Trabajador: "Clara"
     Fecha = "13/11/2023"
     HoraEntrada = "9:00"
-    HoraSalida = "15:00"
+    HoraSalida = "14:00"
 }
-object "fichajeMartes : Fichaje" as FichajeMartes {
+object "fichajeLunes : Fichaje" as FichajeLunes2 {
+    Trabajador: "Clara"
+    Fecha = "13/11/2023"
+    HoraEntrada = 14:30"
+    HoraSalida = "15:30"
+}
+object "fichajeMartes : Fichaje" as FichajeMartes1 {
     Trabajador: "Clara"
     Fecha = "14/11/2023"
     HoraEntrada = "8:00"
-    HoraSalida = "15:00"
+    HoraSalida = "13:00"
 }
-object "fichajeMiercoles : Fichaje" as FichajeMiercoles {
+object "fichajeMartes : Fichaje" as FichajeMartes2 {
+    Trabajador: "Clara"
+    Fecha = "14/11/2023"
+    HoraEntrada = 13:30"
+    HoraSalida = "15:30"
+}
+object "fichajeMiercoles : Fichaje" as FichajeMiercoles1 {
     Trabajador: "Clara"
     Fecha = "15/11/2023"
     HoraEntrada = "9:00"
     HoraSalida = "14:00"
+}
+object "fichajeMiercoles : Fichaje" as FichajeMiercoles2 {
+    Trabajador: "Clara"
+    Fecha = "15/11/2023"
+    HoraEntrada = "13:30"
+    HoraSalida = "14:30"
 }
 object "InformeSemanal : Informe" as InformeSemanal {
     Trabajador: "Clara"
@@ -30,8 +48,11 @@ object "InformeSemanal : Informe" as InformeSemanal {
 
 }
 
-FichajeLunes -- InformeSemanal
-FichajeMartes -- InformeSemanal
-FichajeMiercoles -- InformeSemanal
+FichajeLunes1 -- InformeSemanal
+FichajeMartes1 -- InformeSemanal
+FichajeMiercoles1 -- InformeSemanal
+FichajeLunes2 -- InformeSemanal
+FichajeMartes2 -- InformeSemanal
+FichajeMiercoles2 -- InformeSemanal
 
 @enduml

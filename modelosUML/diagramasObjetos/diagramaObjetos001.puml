@@ -12,7 +12,6 @@ object "lectorHuellas : LectorDeHuellas" as lectorHuellas {
 object "fichaje1 : Fichaje" as fichaje1 {
     Fecha = "9/11/2023"
     HoraEntrada = "8:00"
-    HoraSalida = "14:00"
 }
 
 trabajador1 -- lectorHuellas
