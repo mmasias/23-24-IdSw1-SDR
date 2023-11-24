@@ -33,13 +33,16 @@
 
 |Descripción|Diagrama|Enlace PUML|  
 |--|--|--|
-| Se encuentra dos estados, si está trabajando o no | ![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg) | [Codigo PUML](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/develop/modelosUML/diagramaEstados.puml) |
+| Se encuentra dos estados, si está trabajando o no | ![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg) | [Codigo PUML](../../modelosUML/diagramaEstados.puml) |
 
 </details>
 
-<!-- <details>
+<details>
 <summary>Diagrama de Flujo</summary>
-- Elemento 1
-- Elemento 2
-- Elemento 3
-</details> -->
+
+|Descripción|Diagrama|Enlace PUML|  
+|--|--|--|
+|| ![](../../imagenes/modeloDelDominio/diagramaFlujo/diagramaFlujo.svg)| [Codigo PUML](../../modelosUML/diagramaFlujo.puml)|
+
+</details>
+
