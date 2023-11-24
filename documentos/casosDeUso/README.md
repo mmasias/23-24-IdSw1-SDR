@@ -42,21 +42,24 @@
 <details>
 <summary>Diagrama de Casos de Uso</summary>
 
-![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg)
-- [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml)
+|Diagrama|Enlace PUML|  
+|--|--|
+| ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
 </details>
 
 
 <details>
 <summary>Diagrama de Caso de Uso: Fichar</summary>
-
-![](../../imagenes/casosDeUso/CDU-Fichar.svg)
-- [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml)
+  
+|Diagrama|Enlace PUML|  
+|--|--|
+| ![](../../imagenes/casosDeUso/CDU-Fichar.svg) | [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml) |
 </details>
 
 <details>
 <summary>Diagrama de Caso de Uso: Revisar</summary>
-
-![](../../imagenes/casosDeUso/CDU-Revisar.svg)
-- [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml)
+  
+|Diagrama|Enlace PUML|  
+|--|--|
+| ![](../../imagenes/casosDeUso/CDU-Revisar.svg) | [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml) |
 </details>
