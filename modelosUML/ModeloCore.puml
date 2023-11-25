@@ -1,0 +1,100 @@
+@startuml
+
+class CORE {
+  - moduloLogin: ModuloLogin
+  - moduloDashboard: ModuloDashboard
+  - moduloDocentes: ModuloDocentes
+  - moduloPermisos: ModuloPermisos
+  - moduloAsignaciones: ModuloAsignaciones
+  - moduloBajas: ModuloBajas
+  - moduloNotificaciones: ModuloNotificaciones
+  - moduloConfiguraciones: ModuloConfiguraciones
+  - moduloMigraciones: ModuloMigraciones
+  + getInstance(): CORE 
+  + iniciarAplicacion(): void
+}
+
+class ModuloLogin {
+  - usuario: String
+  - contraseña: String
+  + autenticar(): boolean
+}
+
+class ModuloDashboard {
+  - modulos: List<Modulo>
+  + mostrarModulos(): void
+}
+
+class Modulo {
+  - nombre: String
+  - descripcion: String
+  + mostrar(): void
+}
+
+class ModuloDocentes {
+  - listaDocentes: List<Docente>
+  + crearDocente(): void
+  + editarDocente(idDocente: String): void
+  + buscarDocentes(criterio: String): List<Docente>
+  + exportarDocentes(): void
+  + verPerfilDocente(idDocente: String): void
+  + seguimientoDocente(idDocente: String): void
+}
+
+class ModuloPermisos {
+  - accionesUsuarios: Map<Usuario, List<Accion>>
+  + verAccionesUsuario(usuario: Usuario): List<Accion>
+}
+
+class ModuloAsignaciones {
+  - asignaturasAsignadas: Map<Docente, List<Asignatura>>
+  + asignarAsignatura(docente: Docente, asignatura: Asignatura): void
+  + desasignarAsignatura(docente: Docente, asignatura: Asignatura): void
+}
+
+class ModuloBajas {
+  - bajasTemporales: List<BajaTemporal>
+  - bajasPermanentes: List<BajaPermanente>
+  + solicitarBaja(tipo: TipoBaja): void
+  + cancelarBaja(baja: Baja): void
+}
+
+class ModuloNotificaciones {
+  - notificaciones: List<Notificacion>
+  + enviarNotificacion(docente: Docente, mensaje: String): void
+}
+
+class ModuloConfiguraciones {
+  - ajustesAdmin: Map<String, String>
+  + configurarAjuste(clave: String, valor: String): void
+}
+
+class ModuloMigraciones {
+  - respaldoDatos: RespaldoDatos
+  + migrarDatos(nuevaVersion: String): void
+}
+
+CORE --> ModuloLogin: <<contiene>>
+CORE --> ModuloDashboard: <<contiene>>
+CORE --> ModuloDocentes: <<contiene>>
+CORE --> ModuloPermisos: <<contiene>>
+CORE --> ModuloAsignaciones: <<contiene>>
+CORE --> ModuloBajas: <<contiene>>
+CORE --> ModuloNotificaciones: <<contiene>>
+CORE --> ModuloConfiguraciones: <<contiene>>
+CORE --> ModuloMigraciones: <<contiene>>
+
+ModuloDashboard --> Modulo: <<contiene>>
+ModuloDocentes --> Docente: <<contiene>>
+ModuloPermisos --> Usuario: <<contiene>>
+ModuloPermisos --> Accion: <<contiene>>
+ModuloAsignaciones --> Docente: <<contiene>>
+ModuloAsignaciones --> Asignatura: <<contiene>>
+ModuloBajas --> Baja: <<contiene>>
+ModuloBajas --> TipoBaja: <<contiene>>
+ModuloNotificaciones --> Docente: <<contiene>>
+ModuloNotificaciones --> Notificacion: <<contiene>>
+ModuloConfiguraciones --> Modulo: <<contiene>>
+ModuloMigraciones --> RespaldoDatos: <<contiene>>
+
+@enduml

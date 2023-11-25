@@ -1,33 +1,26 @@
 
-@startuml Modelo del dominio Ticket
-'https://plantuml.com/sequence-diagram
-title Modelo del dominio Ticket
+@startuml
+object "docente" as usuario
+object "reporte" as ticket
+object "modulo" as error
+object "prioridad" as etiqueta
+object "fecha" as fecha
+object "arreglo" as proyecto
+object "pendiente" as estado
+object "desarrolador" as responsable
+object "registro" as historial
+object "informe" as informe
 
-
-
-class error 
-class estado
-class etiqueta
-class fecha
-class responsable
-class rol 
-class informe 
-class historial
-class proyecto 
-
-
-usuario -- ticket
-ticket *-- error
-usuario *-- rol
-error *-- etiqueta
-error *-- proyecto
-proyecto *-- estado
-proyecto -- responsable
-error *-- fecha
-proyecto *-- historial
+usuario -- ticket: > genera
+ticket *-- error: > de
+error *-- etiqueta: > con
+error *-- fecha: > con
+error *-- proyecto: > pasa a
+proyecto *-- estado: > pasa a
+proyecto -- responsable: > tiene
+proyecto *-- historial: > genera
 
 historial -d- informe : > permite generar
-
 
 
 @enduml
