@@ -1,0 +1,27 @@
+
+@startuml
+title diagrama de objetos ticket
+object "docente" as usuario
+object "reporte" as ticket
+object "modulo" as error
+object "prioridad" as etiqueta
+object "fecha" as fecha
+object "arreglo" as proyecto
+object "pendiente" as estado
+object "desarrolador" as responsable
+object "registro" as historial
+object "informe" as informe
+
+usuario -- ticket: > genera
+ticket *-- error: > de
+error *-- etiqueta: > con
+error *-- fecha: > con
+error *-- proyecto: > pasa a
+proyecto *-- estado: > pasa a
+proyecto -- responsable: > tiene
+proyecto *-- historial: > genera
+
+historial -d- informe : > permite generar
+
+
+@enduml
