@@ -5,6 +5,6 @@ profesor --> core : > utiliza
 secretariaAcademica --> core: > utiliza
 profesor -- ticket: > crea
 secretariaAcademica -- ticket: > crea
-core -- ticket : > registra\nsus errores en
+core .. ticket : > registra\nsus errores en
 
 @enduml
