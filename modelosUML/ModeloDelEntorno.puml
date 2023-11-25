@@ -1,11 +1,6 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 title Modelo del entorno
-
-class profesor
-funiber --> universidad 
-universidad --> profesor 
-universidad --> secretariaAcademica
 profesor --> core : > utiliza
 secretariaAcademica --> core: > utiliza
 profesor -- ticket: > crea
