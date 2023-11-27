@@ -40,5 +40,6 @@ Proyecto "1" o-- "*" Simulacion : "contiene >"
 Simulacion -- Grafica : "genera >"
 Simulacion o-- Reporte : "produce >"
 Usuario <-- Log : "registra"
+Proyecto <-- Log : "registra"
 
 @enduml
