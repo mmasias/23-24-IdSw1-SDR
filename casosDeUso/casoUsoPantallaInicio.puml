@@ -1,0 +1,16 @@
+@startuml
+
+title Caso de Uso - Pantalla Inicio FISC
+
+left to right direction
+
+actor Usuario as user
+
+rectangle "FISC" {
+    user --> "Iniciar Sesión con Usuario y Contraseña" : "Accede a"
+    user --> "Registrarse" : "Accede a"
+    user --> "Recuperar Contraseña" : "Accede a"
+    user --> "Recordar Usuario" : "Accede a"
+}
+
+@enduml

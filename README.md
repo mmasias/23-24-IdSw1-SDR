@@ -1,4 +1,4 @@
-# <img src="/propuestas/logo/3.png" alt="FISC Logo" height="60"> - Proyecto FISC
+# <img src="/propuestas/logo/Modelos pasados/3.png" alt="FISC Logo" height="60"> - Proyecto FISC
 
 ---
 
