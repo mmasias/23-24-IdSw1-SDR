@@ -1,0 +1,23 @@
+@startuml CRUD_Services_Package
+
+title CRUD Paquete de Servicios
+
+folder "CRUD Paquete de Servicios" {
+
+    actor Administrador
+
+    Administrador --> (Crear Paquete)
+    (Crear Paquete) --> (Listar Servicios) : <<include>>
+
+    Administrador --> (Listar Paquete)
+
+    Administrador --> (Editar Paquete)
+    (Editar Paquete) --> (Listar Servicios) : <<include>>
+
+    Administrador --> (Eliminar Paquete)
+    (Eliminar Paquete) --> (Listar Servicios) : <<include>>
+    (Eliminar Paquete) --> (Cancelar Suscripciones) : <<include>>
+
+}
+
+@enduml

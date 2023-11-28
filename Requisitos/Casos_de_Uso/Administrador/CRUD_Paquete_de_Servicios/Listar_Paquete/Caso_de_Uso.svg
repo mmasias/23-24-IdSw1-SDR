@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:214px;height:226px;background:#FFFFFF;" version="1.1" viewBox="0 0 214 226" width="214px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="196" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="186" x="10" y="24.9659">Listar Paquete de Servicios</text><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="109.9963" cy="54.0679" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M109.9963,62.0679 L109.9963,89.0679 M96.9963,70.0679 L122.9963,70.0679 M109.9963,89.0679 L96.9963,104.0679 M109.9963,89.0679 L122.9963,104.0679 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="61.4963" y="120.5339">Administrador</text></g><g id="elem_Listar Paquete"><ellipse cx="110" cy="202.5186" fill="#F1F1F1" rx="77.4037" ry="17.8807" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="59" y="207.2516">Listar Paquete</text></g><!--MD5=[7a2bf7fd7722348faae9965f407bcb34]
+link Administrador to Listar Paquete--><g id="link_Administrador_Listar Paquete"><path d="M109.9963,124.8579 C109.9963,142.5079 109.9963,162.8179 109.9963,178.0879 " fill="none" id="Administrador-to-Listar Paquete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="109.9963,182.7979,113.9963,173.7979,109.9963,177.7979,105.9963,173.7979,109.9963,182.7979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b91eac5c69f293e6fd3caa9520672c3a]
+@startuml Read_Services_Package
+
+title Listar Paquete de Servicios
+
+actor Administrador
+
+Administrador - -> (Listar Paquete)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

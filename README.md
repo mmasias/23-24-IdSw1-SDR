@@ -21,6 +21,14 @@
    - [Iteraciones Individuales](/Modelos_de_Dominio/Modelos_Individuales/)
      - [Iteracion Actual](/Modelos_de_Dominio/Modelos_Individuales/Segunda_Iteración/)
 
+ - [Diagramas de estado](/Diagramas_de_Estado/)
+   - [Iteración actual](/Diagramas_de_Estado/Primera_Iteración/)
+     - [Usuario](/Diagramas_de_Estado/Primera_Iteración/Usuario/Readme.md)
+
+ - [Requisitos](/Requisitos/)
+   - [Actores](/Requisitos/Actores/Readme.md)
+   - [Casos de Uso](/Requisitos/Casos_de_Uso/Readme.md)
+
  - [Sesiones](/Sesiones/)
    - [Sesión 19/10/2023](/Sesiones/19-10-2023/)
    - [Sesión 07/11/2023](/Sesiones/07-11-2023/)

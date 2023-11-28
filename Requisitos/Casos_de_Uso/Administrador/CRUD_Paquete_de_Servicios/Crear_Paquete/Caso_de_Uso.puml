@@ -1,0 +1,10 @@
+@startuml Create_Services_Package
+
+title Crear Paquete de Servicios
+
+actor Administrador
+
+Administrador --> (Crear Paquete)
+(Crear Paquete) --> (Listar Servicios) : <<include>>
+
+@enduml

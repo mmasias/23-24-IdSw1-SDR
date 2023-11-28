@@ -1,0 +1,17 @@
+@startuml CRUD_Service
+
+title CRUD Servicios
+
+folder "CRUD Servicio" {
+
+    actor Administrador
+
+    Administrador --> (Crear Servicio)
+    Administrador --> (Listar Servicio)
+    Administrador --> (Editar Servicio)
+    Administrador --> (Eliminar Servicio)
+    (Eliminar Servicio) --> (Cancelar Suscripciones) : <<include>>
+
+}
+
+@enduml

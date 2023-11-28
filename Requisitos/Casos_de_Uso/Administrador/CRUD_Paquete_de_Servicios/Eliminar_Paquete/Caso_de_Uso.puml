@@ -1,0 +1,11 @@
+@startuml Delete_Services_Package
+
+title Eliminar Paquete de Servicios
+
+actor Administrador
+
+Administrador --> (Eliminar Paquete)
+(Eliminar Paquete) --> (Listar Servicios) : <<include>>
+(Eliminar Paquete) --> (Cancelar Suscripciones) : <<include>>
+
+@enduml
