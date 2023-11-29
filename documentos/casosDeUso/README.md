@@ -47,6 +47,14 @@
 | ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
 </details>
 
+<details>
+<summary>Diagrama de Contexto</summary>
+
+|Diagrama|Enlace PUML|  
+|--|--|
+| ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
+</details>
+
 
 <details>
 <summary>Diagrama de Caso de Uso: Fichar</summary>
