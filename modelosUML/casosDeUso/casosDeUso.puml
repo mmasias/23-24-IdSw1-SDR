@@ -29,16 +29,3 @@ Usuario --> (Leer informe semana)
 Usuario --> (Leer informe mes)
 
 @enduml
-
-
-
-// @startuml DiagramaCasosDeUso
-// Actor Trabajador
-
-//rectangle Fichar
-//rectangle "Revisar Horario"
-
-//Trabajador --> (Fichar)
-//Trabajador --> (Revisar Horario)
-
-//@enduml

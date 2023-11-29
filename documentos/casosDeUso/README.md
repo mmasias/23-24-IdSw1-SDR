@@ -6,16 +6,13 @@
 - Trabajador
 - Usuario extiende Trabajador
 - Administrador extiende Usuario
-- Lector de Huellas
+
+No pondria el lector de huellas como actor porque nosotros atacaremos al lector de huella, no al reves
 
 ### Casos de Uso
-- Lector de Huellas:
-  - CREATE Fichaje Diario
-  - READ Huella del Trabajador
-  - UPDATE Fichaje Diario
  
 - Trabajador:
-  - Escanear Lector de Huella
+  - Crear fichaje
 
 - Usuario:
   - READ Fichaje Diario
@@ -25,8 +22,8 @@
     - READ Mes
 
 - Administrador(Usuario):
-  - CRUD Fichaje Diario
-  - CRUD Informe
+  - READ Fichaje Diario
+  - READ Informe
   - CRUD Usuario
 
 ## Priorización
@@ -34,40 +31,5 @@
 2. Revisión de tiempo
 
 ## Detalles
-- Fichaje: Cuando los trabajadores fichan usando el tomador de huellas
+- Fichaje: Cuando se extrae del Lector de huellas los registros
 - Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día, semana o mes y cuanto les falta para acabar.
-
-## Diagrama 
-
-<details>
-<summary>Diagrama de Casos de Uso</summary>
-
-|Diagrama|Enlace PUML|  
-|--|--|
-| ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
-</details>
-
-<details>
-<summary>Diagrama de Contexto</summary>
-
-|Diagrama|Enlace PUML|  
-|--|--|
-| ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
-</details>
-
-
-<details>
-<summary>Diagrama de Caso de Uso: Fichar</summary>
-  
-|Diagrama|Enlace PUML|  
-|--|--|
-| ![](../../imagenes/casosDeUso/CDU-Fichar.svg) | [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml) |
-</details>
-
-<details>
-<summary>Diagrama de Caso de Uso: Revisar</summary>
-  
-|Diagrama|Enlace PUML|  
-|--|--|
-| ![](../../imagenes/casosDeUso/CDU-Revisar.svg) | [Codigo PUML](../../modelosUML/casosDeUso/CDU.Fichar.puml) |
-</details>
