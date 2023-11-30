@@ -7,8 +7,6 @@
 - Usuario extiende Trabajador
 - Administrador extiende Usuario
 
-No pondria el lector de huellas como actor porque nosotros atacaremos al lector de huella, no al reves
-
 ### Casos de Uso
  
 - Trabajador:
@@ -24,6 +22,7 @@ No pondria el lector de huellas como actor porque nosotros atacaremos al lector 
 - Administrador(Usuario):
   - READ Fichaje Diario
   - READ Informe
+  - UPDATE Informe
   - CRUD Usuario
 
 ## Priorización
