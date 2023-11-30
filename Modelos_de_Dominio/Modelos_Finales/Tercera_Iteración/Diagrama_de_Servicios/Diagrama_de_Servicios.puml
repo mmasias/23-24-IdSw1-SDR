@@ -1,0 +1,50 @@
+@startuml AlumniModel
+
+title Servicios de Alumni
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+}
+
+class COMUNICACIÓN 
+{
+    Email
+    Chat
+    Seguimiento
+}
+
+class INSTALACIONES 
+{
+    Biblioteca
+    Sala de ordenadores
+    Instalaciones deportivas
+}
+
+class NEWSLETTER 
+{
+    Noticias
+    Eventos
+}
+
+class "OFERTAS DE EMPLEO" 
+{
+    Nombre de la empresa
+    Puesto de trabajo
+    Salario
+    Ubicación
+}
+
+SERVICIO <|-- "COMUNICACIÓN"
+SERVICIO <|-- "INSTALACIONES"
+SERVICIO <|-- "NEWSLETTER"
+SERVICIO <|-- "OFERTAS DE EMPLEO"
+
+@enduml
