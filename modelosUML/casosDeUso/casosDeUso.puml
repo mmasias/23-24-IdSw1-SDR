@@ -13,6 +13,7 @@ Usuario --> (Leer informe semana)
 Usuario --> (Leer informe mes)
 
 Administrador --> (Leer fichaje diario)
+Administrador --> (Editar fichaje diario)
 
 Administrador --> (Leer informe)
 
