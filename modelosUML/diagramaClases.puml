@@ -9,13 +9,10 @@ class Fichaje{
     + Fecha
     + Hora
 }
+
 class Informe{
-    + Trabajador
-    + Fecha
-    + HorasDia
-    + HorasSemana
-    + HorarioCumplido
 }
+
 class Horario{
     + Dia
     + HoraEntrada
