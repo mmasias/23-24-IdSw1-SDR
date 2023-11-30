@@ -5,21 +5,23 @@ skin rose
 Usuario -up-|> Trabajador
 Administrador -up-|> Usuario
 
-Trabajador --> (Escanea Lector de Huella / Crear registro)
+Trabajador --> (Crear registro)
 
-Usuario --> (Leer fichaje diario)
-Usuario --> (Leer informe dia)
-Usuario --> (Leer informe semana)
-Usuario --> (Leer informe mes)
+Usuario --> (Ver fichaje diario)
+Usuario --> (Ver informe)
 
-Administrador --> (Leer fichaje diario)
+Administrador --> (Ver fichaje diario)
 Administrador --> (Editar fichaje diario)
 
-Administrador --> (Leer informe)
+Administrador --> (Ver informe)
 
-Administrador --> (Crear Usuario)
-Administrador --> (Leer Usuario)
-Administrador --> (Actualizar Usuario)
-Administrador --> (Eliminar Usuario)
+Administrador --> (Crear Usuarios)
+Administrador --> (Ver Usuarios)
+Administrador --> (Editar Usuarios)
+Administrador --> (Eliminar Usuarios)
+
+(Ver informe) --> (Dia)
+(Ver informe) --> (Semana)
+(Ver informe) --> (Mes)
 
 @enduml
