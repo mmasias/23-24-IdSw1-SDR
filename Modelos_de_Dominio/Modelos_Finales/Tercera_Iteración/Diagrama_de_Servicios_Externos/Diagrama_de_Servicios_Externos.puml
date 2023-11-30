@@ -1,0 +1,41 @@
+@startuml AlumniExternalServices
+
+title Servicios externos
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+abstract "SERVICIO EXTERNO" 
+{ 
+}
+
+class UNIVERSIDAD 
+{
+    Bases de Datos
+}
+
+class LINKEDIN
+{
+    Perfil
+}
+
+class FACEBOOK
+{
+}
+
+class "X (TWITTER)"
+{
+}
+
+class GOOGLE
+{
+}
+
+"SERVICIO EXTERNO" <|-- UNIVERSIDAD
+"SERVICIO EXTERNO" <|-- LINKEDIN
+"SERVICIO EXTERNO" <|-- FACEBOOK
+"SERVICIO EXTERNO" <|-- "X (TWITTER)"
+"SERVICIO EXTERNO" <|-- GOOGLE
+
+@enduml

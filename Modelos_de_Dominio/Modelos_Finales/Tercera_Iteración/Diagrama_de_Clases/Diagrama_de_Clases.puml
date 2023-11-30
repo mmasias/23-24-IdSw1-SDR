@@ -1,0 +1,95 @@
+@startuml AumniClasses
+
+title Diagrama de Clases
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+class ALUMNI 
+{
+   Plataforma
+}
+
+abstract "SERVICIO EXTERNO" {}
+
+abstract USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+}
+
+class EGRESADO 
+{
+    Ubicacion
+    Ocupación
+    Carnet de Estudiante
+}
+
+class ADMINISTRADOR 
+{
+    Zona de trabajo
+}
+
+class REQUISITO 
+{
+    Titulación de UNEAT
+}
+
+class ESTADISTICA 
+{
+    Registro de Actividad
+    Registro de Nacionalidad
+    Registro de Ocupación
+    Registro de Ubicación
+    Registro de Titulación
+
+}
+
+class SUSCRIPCIÓN 
+{
+    Paquetes Suscritos
+    Servicios Suscritos
+    Precio Total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    Servicios incluidos
+    Precio
+}
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+    tipo de servicio
+}
+
+abstract "HERRAMIENTA DE GESTIÓN" 
+{
+    Crear
+    Listar
+    Editar
+    Eliminar
+}
+
+ALUMNI -- USUARIO : tiene
+ALUMNI - ESTADISTICA : genera
+SUSCRIPCIÓN -up- ALUMNI : tiene
+ALUMNI -left- "SERVICIO EXTERNO" : se comunica
+SUSCRIPCIÓN -- SERVICIO : incluye
+EGRESADO -- REQUISITO : cumple
+SUSCRIPCIÓN -- PAQUETE : incluye
+USUARIO <|-- EGRESADO
+USUARIO <|-- ADMINISTRADOR
+"HERRAMIENTA DE GESTIÓN" -up- ADMINISTRADOR : utiliza
+
+@enduml
+

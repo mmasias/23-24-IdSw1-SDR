@@ -1,0 +1,38 @@
+@startuml AumniToolManagement
+
+title Diagrama de Herramientas de Gestión
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+abstract "HERRAMIENTA DE GESTIÓN" 
+{
+    Crear
+    Listar
+    Editar
+    Eliminar
+}
+
+class "GESTOR DE SERVICIO"
+{
+}
+
+class "GESTOR DE USUARIO"
+{
+}
+
+class "GESTOR DE PAQUETE"
+{
+}
+
+class "GESTOR DE ESTADÍSTICA"
+{
+}
+
+"HERRAMIENTA DE GESTIÓN" <|-- "GESTOR DE PAQUETE" 
+"HERRAMIENTA DE GESTIÓN" <|-- "GESTOR DE SERVICIO" 
+"HERRAMIENTA DE GESTIÓN" <|-- "GESTOR DE USUARIO" 
+"HERRAMIENTA DE GESTIÓN" <|-- "GESTOR DE ESTADÍSTICA"
+
+@enduml

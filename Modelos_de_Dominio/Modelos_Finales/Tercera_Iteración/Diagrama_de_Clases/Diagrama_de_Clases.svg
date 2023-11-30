@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="826px" preserveAspectRatio="none" style="width:724px;height:826px;background:#FFFFFF;" version="1.1" viewBox="0 0 724 826" width="724px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="145" x="282.75" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="287.75" y="24.9659">Diagrama de Clases</text><!--MD5=[86a46607765088d6bc16607347922e0b]
+class ALUMNI--><g id="elem_ALUMNI"><rect codeLine="8" fill="#F1F1F1" height="67.0679" id="ALUMNI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="370" y="85.1979"/><ellipse cx="385" cy="101.1979" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M384.4688,108.1198 Q382.7188,108.1198 381.5781,107.3854 Q380.4531,106.6354 379.8906,105.2917 Q379.3438,103.9323 379.3438,102.1354 Q379.3438,100.1042 380,98.651 Q380.6563,97.1979 381.9375,96.4167 Q383.2188,95.6354 385.0938,95.6354 Q385.9844,95.6354 386.6563,95.8229 Q387.3281,95.9948 388.0156,96.3385 L387.2031,98.3542 Q386.5781,98.0417 386.0313,97.9167 Q385.5,97.7917 385.0156,97.7917 Q383.8438,97.7917 383.1406,98.3229 Q382.4375,98.8542 382.1406,99.8073 Q381.8438,100.7604 381.8438,102.026 Q381.8438,104.0417 382.5625,105.0104 Q383.2813,105.9635 384.875,105.9635 Q385.4688,105.9635 386.0938,105.8073 Q386.7188,105.651 387.5469,105.276 L387.5469,107.4948 Q386.8125,107.8073 386.0156,107.9635 Q385.2344,108.1198 384.4688,108.1198 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="399" y="106.6299">ALUMNI</text><line style="stroke:#181818;stroke-width:0.5;" x1="371" x2="456" y1="117.1979" y2="117.1979"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="73" x="376" y="136.1639">Plataforma</text><line style="stroke:#181818;stroke-width:0.5;" x1="371" x2="456" y1="144.2658" y2="144.2658"/></g><!--MD5=[d487106a069dbf8887c3866d5775fb0b]
+class SERVICIO EXTERNO--><g id="elem_SERVICIO EXTERNO"><rect codeLine="13" fill="#F1F1F1" height="48" id="SERVICIO EXTERNO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="109.5" y="94.7379"/><ellipse cx="124.5" cy="110.7379" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M119.6719,116.4879 L123.0156,104.3004 L126.1563,104.3004 L129.5313,116.4879 L127.0625,116.4879 L126.3281,113.4723 L122.8125,113.4723 L122.0625,116.4879 L119.6719,116.4879 Z M124.0781,108.441 L123.3281,111.441 L125.8438,111.441 L125.125,108.441 Q124.9844,107.8629 124.8594,107.316 Q124.7344,106.7535 124.5938,106.1754 Q124.4844,106.7535 124.3438,107.316 Q124.2031,107.8629 124.0781,108.441 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="118" x="138.5" y="116.1699">SERVICIO EXTERNO</text><line style="stroke:#181818;stroke-width:0.5;" x1="110.5" x2="258.5" y1="126.7379" y2="126.7379"/><line style="stroke:#181818;stroke-width:0.5;" x1="110.5" x2="258.5" y1="134.7379" y2="134.7379"/></g><!--MD5=[9fb774ed7ae05b667c8401cd383f5fbb]
+class USUARIO--><g id="elem_USUARIO"><rect codeLine="15" fill="#F1F1F1" height="143.3396" id="USUARIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="234" y="269.4079"/><ellipse cx="278.25" cy="285.4079" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M273.4219,291.1579 L276.7656,278.9704 L279.9063,278.9704 L283.2813,291.1579 L280.8125,291.1579 L280.0781,288.1423 L276.5625,288.1423 L275.8125,291.1579 L273.4219,291.1579 Z M277.8281,283.111 L277.0781,286.111 L279.5938,286.111 L278.875,283.111 Q278.7344,282.5329 278.6094,281.986 Q278.4844,281.4235 278.3438,280.8454 Q278.2344,281.4235 278.0938,281.986 Q277.9531,282.5329 277.8281,283.111 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="56" x="298.75" y="290.8399">USUARIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="386" y1="301.4079" y2="301.4079"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="15" x="240" y="320.3739">ID</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="240" y="339.4418">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="240" y="358.5097">Apellido</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="141" x="240" y="377.5776">Fecha de Nacimiento</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="37" x="240" y="396.6455">Email</text><line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="386" y1="404.7475" y2="404.7475"/></g><!--MD5=[2ab7582ab6c49ef72aa094ce2439025d]
+class EGRESADO--><g id="elem_EGRESADO"><rect codeLine="24" fill="#F1F1F1" height="105.2038" id="EGRESADO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="234.5" y="501.2779"/><ellipse cx="271.55" cy="517.2779" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M271.0188,524.1998 Q269.2688,524.1998 268.1281,523.4654 Q267.0031,522.7154 266.4406,521.3717 Q265.8938,520.0123 265.8938,518.2154 Q265.8938,516.1842 266.55,514.731 Q267.2063,513.2779 268.4875,512.4967 Q269.7688,511.7154 271.6438,511.7154 Q272.5344,511.7154 273.2063,511.9029 Q273.8781,512.0748 274.5656,512.4185 L273.7531,514.4342 Q273.1281,514.1217 272.5813,513.9967 Q272.05,513.8717 271.5656,513.8717 Q270.3938,513.8717 269.6906,514.4029 Q268.9875,514.9342 268.6906,515.8873 Q268.3938,516.8404 268.3938,518.106 Q268.3938,520.1217 269.1125,521.0904 Q269.8313,522.0435 271.425,522.0435 Q272.0188,522.0435 272.6438,521.8873 Q273.2688,521.731 274.0969,521.356 L274.0969,523.5748 Q273.3625,523.8873 272.5656,524.0435 Q271.7844,524.1998 271.0188,524.1998 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="73" x="290.45" y="522.7099">EGRESADO</text><line style="stroke:#181818;stroke-width:0.5;" x1="235.5" x2="387.5" y1="533.2779" y2="533.2779"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="66" x="240.5" y="552.2439">Ubicacion</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="72" x="240.5" y="571.3118">Ocupación</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="142" x="240.5" y="590.3797">Carnet de Estudiante</text><line style="stroke:#181818;stroke-width:0.5;" x1="235.5" x2="387.5" y1="598.4817" y2="598.4817"/></g><!--MD5=[4c1736d2acf393d1932c4bd71ed8c52b]
+class ADMINISTRADOR--><g id="elem_ADMINISTRADOR"><rect codeLine="31" fill="#F1F1F1" height="67.0679" id="ADMINISTRADOR" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="149" x="39" y="520.3479"/><ellipse cx="54" cy="536.3479" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M53.4688,543.2698 Q51.7188,543.2698 50.5781,542.5354 Q49.4531,541.7854 48.8906,540.4417 Q48.3438,539.0823 48.3438,537.2854 Q48.3438,535.2542 49,533.801 Q49.6563,532.3479 50.9375,531.5667 Q52.2188,530.7854 54.0938,530.7854 Q54.9844,530.7854 55.6563,530.9729 Q56.3281,531.1448 57.0156,531.4885 L56.2031,533.5042 Q55.5781,533.1917 55.0313,533.0667 Q54.5,532.9417 54.0156,532.9417 Q52.8438,532.9417 52.1406,533.4729 Q51.4375,534.0042 51.1406,534.9573 Q50.8438,535.9104 50.8438,537.176 Q50.8438,539.1917 51.5625,540.1604 Q52.2813,541.1135 53.875,541.1135 Q54.4688,541.1135 55.0938,540.9573 Q55.7188,540.801 56.5469,540.426 L56.5469,542.6448 Q55.8125,542.9573 55.0156,543.1135 Q54.2344,543.2698 53.4688,543.2698 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="117" x="68" y="541.7799">ADMINISTRADOR</text><line style="stroke:#181818;stroke-width:0.5;" x1="40" x2="187" y1="552.3479" y2="552.3479"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="106" x="45" y="571.3139">Zona de trabajo</text><line style="stroke:#181818;stroke-width:0.5;" x1="40" x2="187" y1="579.4158" y2="579.4158"/></g><!--MD5=[a63780b95c376d0ca261608ab8f4ee8f]
+class REQUISITO--><g id="elem_REQUISITO"><rect codeLine="36" fill="#F1F1F1" height="67.0679" id="REQUISITO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="149" x="243" y="723.6179"/><ellipse cx="276.9" cy="739.6179" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M276.3688,746.5398 Q274.6188,746.5398 273.4781,745.8054 Q272.3531,745.0554 271.7906,743.7117 Q271.2438,742.3523 271.2438,740.5554 Q271.2438,738.5242 271.9,737.071 Q272.5563,735.6179 273.8375,734.8367 Q275.1188,734.0554 276.9938,734.0554 Q277.8844,734.0554 278.5563,734.2429 Q279.2281,734.4148 279.9156,734.7585 L279.1031,736.7742 Q278.4781,736.4617 277.9313,736.3367 Q277.4,736.2117 276.9156,736.2117 Q275.7438,736.2117 275.0406,736.7429 Q274.3375,737.2742 274.0406,738.2273 Q273.7438,739.1804 273.7438,740.446 Q273.7438,742.4617 274.4625,743.4304 Q275.1813,744.3835 276.775,744.3835 Q277.3688,744.3835 277.9938,744.2273 Q278.6188,744.071 279.4469,743.696 L279.4469,745.9148 Q278.7125,746.2273 277.9156,746.3835 Q277.1344,746.5398 276.3688,746.5398 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="75" x="295.1" y="745.0499">REQUISITO</text><line style="stroke:#181818;stroke-width:0.5;" x1="244" x2="391" y1="755.6179" y2="755.6179"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="137" x="249" y="774.5839">Titulación de UNEAT</text><line style="stroke:#181818;stroke-width:0.5;" x1="244" x2="391" y1="782.6858" y2="782.6858"/></g><!--MD5=[4fba4a15a69a30bd8d74d766c660e0fd]
+class ESTADISTICA--><g id="elem_ESTADISTICA"><rect codeLine="41" fill="#F1F1F1" height="143.3396" id="ESTADISTICA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="535.5" y="47.0679"/><ellipse cx="578.85" cy="63.0679" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M578.3188,69.9898 Q576.5688,69.9898 575.4281,69.2554 Q574.3031,68.5054 573.7406,67.1617 Q573.1938,65.8023 573.1938,64.0054 Q573.1938,61.9742 573.85,60.521 Q574.5063,59.0679 575.7875,58.2867 Q577.0688,57.5054 578.9438,57.5054 Q579.8344,57.5054 580.5063,57.6929 Q581.1781,57.8648 581.8656,58.2085 L581.0531,60.2242 Q580.4281,59.9117 579.8813,59.7867 Q579.35,59.6617 578.8656,59.6617 Q577.6938,59.6617 576.9906,60.1929 Q576.2875,60.7242 575.9906,61.6773 Q575.6938,62.6304 575.6938,63.896 Q575.6938,65.9117 576.4125,66.8804 Q577.1313,67.8335 578.725,67.8335 Q579.3188,67.8335 579.9438,67.6773 Q580.5688,67.521 581.3969,67.146 L581.3969,69.3648 Q580.6625,69.6773 579.8656,69.8335 Q579.0844,69.9898 578.3188,69.9898 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="87" x="599.15" y="68.4999">ESTADISTICA</text><line style="stroke:#181818;stroke-width:0.5;" x1="536.5" x2="716.5" y1="79.0679" y2="79.0679"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="143" x="541.5" y="98.0339">Registro de Actividad</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="170" x="541.5" y="117.1018">Registro de Nacionalidad</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="153" x="541.5" y="136.1697">Registro de Ocupación</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="147" x="541.5" y="155.2376">Registro de Ubicación</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="147" x="541.5" y="174.3055">Registro de Titulación</text><line style="stroke:#181818;stroke-width:0.5;" x1="536.5" x2="716.5" y1="182.4075" y2="182.4075"/></g><!--MD5=[19899f9ca578ac9ce8c1dbc8b9bc3638]
+class SUSCRIPCIÓN--><g id="elem_SUSCRIPCIÓN"><rect codeLine="51" fill="#F1F1F1" height="105.2038" id="SUSCRIPCIÓN" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="422" y="288.4779"/><ellipse cx="443.3" cy="304.4779" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M442.7688,311.3998 Q441.0188,311.3998 439.8781,310.6654 Q438.7531,309.9154 438.1906,308.5717 Q437.6438,307.2123 437.6438,305.4154 Q437.6438,303.3842 438.3,301.931 Q438.9563,300.4779 440.2375,299.6967 Q441.5188,298.9154 443.3938,298.9154 Q444.2844,298.9154 444.9563,299.1029 Q445.6281,299.2748 446.3156,299.6185 L445.5031,301.6342 Q444.8781,301.3217 444.3313,301.1967 Q443.8,301.0717 443.3156,301.0717 Q442.1438,301.0717 441.4406,301.6029 Q440.7375,302.1342 440.4406,303.0873 Q440.1438,304.0404 440.1438,305.306 Q440.1438,307.3217 440.8625,308.2904 Q441.5813,309.2435 443.175,309.2435 Q443.7688,309.2435 444.3938,309.0873 Q445.0188,308.931 445.8469,308.556 L445.8469,310.7748 Q445.1125,311.0873 444.3156,311.2435 Q443.5344,311.3998 442.7688,311.3998 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="93" x="458.7" y="309.9099">SUSCRIPCIÓN</text><line style="stroke:#181818;stroke-width:0.5;" x1="423" x2="560" y1="320.4779" y2="320.4779"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="127" x="428" y="339.4439">Paquetes Suscritos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="124" x="428" y="358.5118">Servicios Suscritos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="78" x="428" y="377.5797">Precio Total</text><line style="stroke:#181818;stroke-width:0.5;" x1="423" x2="560" y1="385.6817" y2="385.6817"/></g><!--MD5=[400228ae5d671c1e1fdff589fc59b7ba]
+class PAQUETE--><g id="elem_PAQUETE"><rect codeLine="58" fill="#F1F1F1" height="124.2717" id="PAQUETE" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="423.5" y="491.7479"/><ellipse cx="457.4" cy="507.7479" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M456.8688,514.6698 Q455.1188,514.6698 453.9781,513.9354 Q452.8531,513.1854 452.2906,511.8417 Q451.7438,510.4823 451.7438,508.6854 Q451.7438,506.6542 452.4,505.201 Q453.0563,503.7479 454.3375,502.9667 Q455.6188,502.1854 457.4938,502.1854 Q458.3844,502.1854 459.0563,502.3729 Q459.7281,502.5448 460.4156,502.8885 L459.6031,504.9042 Q458.9781,504.5917 458.4313,504.4667 Q457.9,504.3417 457.4156,504.3417 Q456.2438,504.3417 455.5406,504.8729 Q454.8375,505.4042 454.5406,506.3573 Q454.2438,507.3104 454.2438,508.576 Q454.2438,510.5917 454.9625,511.5604 Q455.6813,512.5135 457.275,512.5135 Q457.8688,512.5135 458.4938,512.3573 Q459.1188,512.201 459.9469,511.826 L459.9469,514.0448 Q459.2125,514.3573 458.4156,514.5135 Q457.6344,514.6698 456.8688,514.6698 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="62" x="475.6" y="513.1799">PAQUETE</text><line style="stroke:#181818;stroke-width:0.5;" x1="424.5" x2="558.5" y1="523.7479" y2="523.7479"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="429.5" y="542.7139">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="79" x="429.5" y="561.7818">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="124" x="429.5" y="580.8497">Servicios incluidos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="41" x="429.5" y="599.9176">Precio</text><line style="stroke:#181818;stroke-width:0.5;" x1="424.5" x2="558.5" y1="608.0196" y2="608.0196"/></g><!--MD5=[30a145389985b39b0bce1272ac991c13]
+class SERVICIO--><g id="elem_SERVICIO"><rect codeLine="66" fill="#F1F1F1" height="124.2717" id="SERVICIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="594.5" y="491.7479"/><ellipse cx="620.3" cy="507.7479" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M615.4719,513.4979 L618.8156,501.3104 L621.9563,501.3104 L625.3313,513.4979 L622.8625,513.4979 L622.1281,510.4823 L618.6125,510.4823 L617.8625,513.4979 L615.4719,513.4979 Z M619.8781,505.451 L619.1281,508.451 L621.6438,508.451 L620.925,505.451 Q620.7844,504.8729 620.6594,504.326 Q620.5344,503.7635 620.3938,503.1854 Q620.2844,503.7635 620.1438,504.326 Q620.0031,504.8729 619.8781,505.451 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="58" x="636.7" y="513.1799">SERVICIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="595.5" x2="707.5" y1="523.7479" y2="523.7479"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="600.5" y="542.7139">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="79" x="600.5" y="561.7818">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="42" x="600.5" y="580.8497">precio</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="102" x="600.5" y="599.9176">tipo de servicio</text><line style="stroke:#181818;stroke-width:0.5;" x1="595.5" x2="707.5" y1="608.0196" y2="608.0196"/></g><!--MD5=[44840bd34cdbd15f071b6d4cc7756401]
+class HERRAMIENTA DE GESTIÓN--><g id="elem_HERRAMIENTA DE GESTIÓN"><rect codeLine="74" fill="#F1F1F1" height="124.2717" id="HERRAMIENTA DE GESTIÓN" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="7" y="695.0179"/><ellipse cx="22" cy="711.0179" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M17.1719,716.7679 L20.5156,704.5804 L23.6563,704.5804 L27.0313,716.7679 L24.5625,716.7679 L23.8281,713.7523 L20.3125,713.7523 L19.5625,716.7679 L17.1719,716.7679 Z M21.5781,708.721 L20.8281,711.721 L23.3438,711.721 L22.625,708.721 Q22.4844,708.1429 22.3594,707.596 Q22.2344,707.0335 22.0938,706.4554 Q21.9844,707.0335 21.8438,707.596 Q21.7031,708.1429 21.5781,708.721 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="169" x="36" y="716.4499">HERRAMIENTA DE GESTIÓN</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="207" y1="727.0179" y2="727.0179"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="37" x="13" y="745.9839">Crear</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="37" x="13" y="765.0518">Listar</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="40" x="13" y="784.1197">Editar</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="56" x="13" y="803.1876">Eliminar</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="207" y1="811.2896" y2="811.2896"/></g><!--MD5=[cd9d7b4beac7efb04da1046c0c93b951]
+link ALUMNI to USUARIO--><g id="link_ALUMNI_USUARIO"><path codeLine="82" d="M398.08,152.7179 C383.77,183.3379 361.99,229.9279 343.73,268.9879 " fill="none" id="ALUMNI-USUARIO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="30" x="366.5" y="235.3049">tiene</text></g><!--MD5=[9365370cc971b884a8e805df918b3a71]
+link ALUMNI to ESTADISTICA--><g id="link_ALUMNI_ESTADISTICA"><path codeLine="83" d="M457.38,118.7379 C479.91,118.7379 508.23,118.7379 535.23,118.7379 " fill="none" id="ALUMNI-ESTADISTICA" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="42" x="475.25" y="111.6349">genera</text></g><!--MD5=[625d6457cff7940fcaddac1811ce25ea]
+link ALUMNI to SUSCRIPCIÓN--><g id="link_ALUMNI_SUSCRIPCIÓN"><path codeLine="84" d="M425.18,152.7179 C437.84,188.4979 458.23,246.0979 473.06,287.9979 " fill="none" id="ALUMNI-SUSCRIPCIÓN" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="30" x="456.5" y="235.3049">tiene</text></g><!--MD5=[f50313c6997b57110d5dab24447c9118]
+link SERVICIO EXTERNO to ALUMNI--><g id="link_SERVICIO EXTERNO_ALUMNI"><path codeLine="85" d="M259.8,118.7379 C296.17,118.7379 338.54,118.7379 369.58,118.7379 " fill="none" id="SERVICIO EXTERNO-ALUMNI" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="74" x="277.75" y="111.6349">se comunica</text></g><!--MD5=[7a78beded7e279d7942fce86d4482847]
+link SUSCRIPCIÓN to SERVICIO--><g id="link_SUSCRIPCIÓN_SERVICIO"><path codeLine="86" d="M530.85,393.9179 C553.24,423.4179 581.42,460.5479 604.91,491.4979 " fill="none" id="SUSCRIPCIÓN-SERVICIO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="42" x="581.5" y="457.6449">incluye</text></g><!--MD5=[dddc89fd371c160f93cf11b7ec7e78d6]
+link EGRESADO to REQUISITO--><g id="link_EGRESADO_REQUISITO"><path codeLine="87" d="M313.05,606.9779 C314.15,643.6679 315.58,691.6779 316.52,723.1879 " fill="none" id="EGRESADO-REQUISITO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="44" x="316.5" y="660.9149">cumple</text></g><!--MD5=[0ae76caab6403afd96ace9cd4635e9a5]
+link SUSCRIPCIÓN to PAQUETE--><g id="link_SUSCRIPCIÓN_PAQUETE"><path codeLine="88" d="M491.5,393.9179 C491.5,423.4179 491.5,460.5479 491.5,491.4979 " fill="none" id="SUSCRIPCIÓN-PAQUETE" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="42" x="492.5" y="457.6449">incluye</text></g><!--MD5=[db839ad93d3aba4fedf50576859f9ea2]
+reverse link USUARIO to EGRESADO--><g id="link_USUARIO_EGRESADO"><path codeLine="89" d="M310.94,434.6179 C311.05,457.4079 311.16,481.0179 311.25,501.0879 " fill="none" id="USUARIO-backto-EGRESADO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="303.94,434.6979,310.84,414.6679,317.94,434.6279,303.94,434.6979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[85e57e957508214e429ff6fec829f4bc]
+reverse link USUARIO to ADMINISTRADOR--><g id="link_USUARIO_ADMINISTRADOR"><path codeLine="90" d="M229.56,428.6779 C199.53,460.8279 167.23,495.3779 144.36,519.8579 " fill="none" id="USUARIO-backto-ADMINISTRADOR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="224.28,424.0879,243.05,414.2579,234.5,433.6479,224.28,424.0879" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[16a7e57b5a87cdaae8b926fd45f2709d]
+link ADMINISTRADOR to HERRAMIENTA DE GESTIÓN--><g id="link_ADMINISTRADOR_HERRAMIENTA DE GESTIÓN"><path codeLine="91" d="M112.52,587.6679 C111.66,616.5179 110.39,659.2979 109.34,694.5279 " fill="none" id="ADMINISTRADOR-HERRAMIENTA DE GESTIÓN" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="35" x="112.5" y="660.9149">utiliza</text></g><!--MD5=[28cccac77d5e67f3821d3479620f2dea]
+@startuml AumniClasses
+
+title Diagrama de Clases
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+class ALUMNI 
+{
+   Plataforma
+}
+
+abstract "SERVICIO EXTERNO" {}
+
+abstract USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+}
+
+class EGRESADO 
+{
+    Ubicacion
+    Ocupación
+    Carnet de Estudiante
+}
+
+class ADMINISTRADOR 
+{
+    Zona de trabajo
+}
+
+class REQUISITO 
+{
+    Titulación de UNEAT
+}
+
+class ESTADISTICA 
+{
+    Registro de Actividad
+    Registro de Nacionalidad
+    Registro de Ocupación
+    Registro de Ubicación
+    Registro de Titulación
+
+}
+
+class SUSCRIPCIÓN 
+{
+    Paquetes Suscritos
+    Servicios Suscritos
+    Precio Total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    Servicios incluidos
+    Precio
+}
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+    tipo de servicio
+}
+
+abstract "HERRAMIENTA DE GESTIÓN" 
+{
+    Crear
+    Listar
+    Editar
+    Eliminar
+}
+
+ALUMNI - - USUARIO : tiene
+ALUMNI - ESTADISTICA : genera
+SUSCRIPCIÓN -up- ALUMNI : tiene
+ALUMNI -left- "SERVICIO EXTERNO" : se comunica
+SUSCRIPCIÓN - - SERVICIO : incluye
+EGRESADO - - REQUISITO : cumple
+SUSCRIPCIÓN - - PAQUETE : incluye
+USUARIO <|- - EGRESADO
+USUARIO <|- - ADMINISTRADOR
+"HERRAMIENTA DE GESTIÓN" -up- ADMINISTRADOR : utiliza
+
+@enduml
+
+@startuml AumniClasses
+
+title Diagrama de Clases
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+class ALUMNI 
+{
+   Plataforma
+}
+
+abstract "SERVICIO EXTERNO" {}
+
+abstract USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+}
+
+class EGRESADO 
+{
+    Ubicacion
+    Ocupación
+    Carnet de Estudiante
+}
+
+class ADMINISTRADOR 
+{
+    Zona de trabajo
+}
+
+class REQUISITO 
+{
+    Titulación de UNEAT
+}
+
+class ESTADISTICA 
+{
+    Registro de Actividad
+    Registro de Nacionalidad
+    Registro de Ocupación
+    Registro de Ubicación
+    Registro de Titulación
+
+}
+
+class SUSCRIPCIÓN 
+{
+    Paquetes Suscritos
+    Servicios Suscritos
+    Precio Total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    Servicios incluidos
+    Precio
+}
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+    tipo de servicio
+}
+
+abstract "HERRAMIENTA DE GESTIÓN" 
+{
+    Crear
+    Listar
+    Editar
+    Eliminar
+}
+
+ALUMNI - - USUARIO : tiene
+ALUMNI - ESTADISTICA : genera
+SUSCRIPCIÓN -up- ALUMNI : tiene
+ALUMNI -left- "SERVICIO EXTERNO" : se comunica
+SUSCRIPCIÓN - - SERVICIO : incluye
+EGRESADO - - REQUISITO : cumple
+SUSCRIPCIÓN - - PAQUETE : incluye
+USUARIO <|- - EGRESADO
+USUARIO <|- - ADMINISTRADOR
+"HERRAMIENTA DE GESTIÓN" -up- ADMINISTRADOR : utiliza
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
