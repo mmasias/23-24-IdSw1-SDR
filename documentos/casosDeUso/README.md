@@ -21,8 +21,8 @@
 
 - Administrador(Usuario):
   - READ Fichaje Diario
+  - UPDATE Fichaje Diario
   - READ Informe
-  - UPDATE Informe
   - CRUD Usuario
 
 ## Priorización
