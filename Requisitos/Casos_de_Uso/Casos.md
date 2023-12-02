@@ -6,6 +6,8 @@
   - Actualización de Datos de la cuenta
   - Suscripción a Servicio
   - Suscripción a Paquete de Servicios
+  - Cancelación de Suscripción a Servicio
+  - Cancelación de Suscripción a Paquete de Servicios
   - Servicios
     - Comunicación
       - Chat
