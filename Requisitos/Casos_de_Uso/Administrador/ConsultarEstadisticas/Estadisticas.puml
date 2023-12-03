@@ -1,0 +1,8 @@
+[*] --> Inicializado : Iniciar recopilación de datos
+Inicializado --> Recopilando : Recopilando datos
+Recopilando --> Procesando : Datos recopilados
+Procesando --> Generadas : Estadísticas generadas
+Generadas --> [*] : Fin del proceso
+
+Recopilando --> Error_Recopilación : Error en la recopilación
+Procesando --> Error_Procesamiento : Error en el procesamiento
