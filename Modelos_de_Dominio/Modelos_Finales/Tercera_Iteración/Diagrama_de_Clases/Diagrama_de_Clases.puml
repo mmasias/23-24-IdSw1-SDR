@@ -72,14 +72,6 @@ abstract SERVICIO
     tipo de servicio
 }
 
-abstract "HERRAMIENTA DE GESTIÓN" 
-{
-    Crear
-    Listar
-    Editar
-    Eliminar
-}
-
 ALUMNI -- USUARIO : tiene
 ALUMNI - ESTADISTICA : genera
 SUSCRIPCIÓN -up- ALUMNI : tiene
@@ -91,7 +83,6 @@ EGRESADO - SUSCRIPCIÓN : se inscribe
 PAQUETE - SERVICIO : incluye
 USUARIO <|-- EGRESADO
 USUARIO <|-- ADMINISTRADOR
-"HERRAMIENTA DE GESTIÓN" -up- ADMINISTRADOR : utiliza
 
 @enduml
 
