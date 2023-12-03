@@ -41,12 +41,6 @@ class REQUISITO
 
 class ESTADISTICA 
 {
-    Registro de Actividad
-    Registro de Nacionalidad
-    Registro de Ocupación
-    Registro de Ubicación
-    Registro de Titulación
-
 }
 
 class SUSCRIPCIÓN 
@@ -79,10 +73,10 @@ ALUMNI -left- "SERVICIO EXTERNO" : se comunica
 SUSCRIPCIÓN -- SERVICIO : incluye
 EGRESADO -- REQUISITO : cumple
 SUSCRIPCIÓN -- PAQUETE : incluye
-EGRESADO - SUSCRIPCIÓN : se inscribe
 PAQUETE - SERVICIO : incluye
 USUARIO <|-- EGRESADO
-USUARIO <|-- ADMINISTRADOR
+USUARIO <|-left- ADMINISTRADOR
+ADMINISTRADOR -up- ALUMNI : administra
 
 @enduml
 
