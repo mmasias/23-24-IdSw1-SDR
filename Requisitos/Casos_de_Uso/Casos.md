@@ -14,6 +14,7 @@
         - Ver mensajes
         - Enviar mensajes
     - Instalaciones
+      - listar instalaciones
       - Ver disponibilidad
       - Reservar instalación
       - Cancelar reserva
@@ -54,7 +55,7 @@
       - Editar oferta
       - Eliminar oferta
       - Crear oferta
-      - Enviar oferta a empresa
+      - Enviar Postulación a empresa
   - Gestion Paquete de Servicios
     - Crear Paquete de Servicios
     - Editar Paquete de Servicios
