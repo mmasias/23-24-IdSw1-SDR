@@ -1,0 +1,26 @@
+@startuml Diagrama_de_Objetos-Servicio_Externo
+
+title Diagrama de Objetos - Servicio Externo
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+"ALUMNI: PLATAFORMA" -- "UNIVERSIDAD: SERVICIO EXTERNO" : Proporciona
+"ALUMNI: PLATAFORMA" -- "AMAZÓN : SERVICIO EXTERNO" : Ofrece oferta
+"ALUMNI: PLATAFORMA" - "PACO : ADMINISTRADOR" 
+note right: Gestiona la oferta de Amazon \ny la incluye al servicio Ofertas \nde Empleo \nGestiona los datos proporcio-\nnados por la universidad
+
+class "PACO : ADMINISTRADOR"{
+    Nombre: Paco
+}
+
+class "AMAZÓN : SERVICIO EXTERNO"{
+    Oferta de trabajo
+}
+class "UNIVERSIDAD: SERVICIO EXTERNO"{
+    Base de datos
+}
+@enduml
+
