@@ -6,9 +6,9 @@ title Diagrama de Clases
 skinparam backgroundColor white
 skinparam defaultFontName Arial
 
-class ALUMNI 
+class PLATAFORMA 
 {
-   Plataforma
+   Alumni
 }
 
 abstract "SERVICIO EXTERNO" {}
@@ -66,17 +66,17 @@ abstract SERVICIO
     tipo de servicio
 }
 
-ALUMNI -- USUARIO : tiene
-ALUMNI - ESTADISTICA : genera
-SUSCRIPCIÓN -up- ALUMNI : tiene
-ALUMNI -left- "SERVICIO EXTERNO" : se comunica
+PLATAFORMA -- USUARIO : tiene
+PLATAFORMA - ESTADISTICA : genera
+SUSCRIPCIÓN -up- PLATAFORMA : tiene
+PLATAFORMA -left- "SERVICIO EXTERNO" : se comunica
 SUSCRIPCIÓN -- SERVICIO : incluye
 EGRESADO -- REQUISITO : cumple
 SUSCRIPCIÓN -- PAQUETE : incluye
 PAQUETE - SERVICIO : incluye
 USUARIO <|-- EGRESADO
 USUARIO <|-left- ADMINISTRADOR
-ADMINISTRADOR -up- ALUMNI : administra
+ADMINISTRADOR -up- PLATAFORMA : administra
 
 @enduml
 
