@@ -1,0 +1,33 @@
+@startuml Diagrama_de_Objetos-Servicio_Instalaciones
+
+title Diagrama de Objetos - Reserva de Instalaciones
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class "INSTALACIONES : SERVICIO"  
+{
+    Nombre: "Cancha de Futbol"
+    Ubicación: "Calle 13 # 100-00"
+    horario: "Lunes a Viernes 8:00 am - 5:00 pm"
+    disponibilidad: "Disponible"
+}
+
+class "BEN : EGRESADO"
+{
+    
+}
+
+class "PACO : ADMINISTRADOR" 
+{
+    
+}
+
+"INSTALACIONES : SERVICIO" -- "BEN : EGRESADO" : Reserva
+note left: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que deberia tener un \negresado  
+"INSTALACIONES : SERVICIO" -- "PACO : ADMINISTRADOR" : " Se gestiona por"
+note right: Es capaz de editar el servicio\nañadiendo o quitando horario, \nubicación, disponibilidad, etc.
+@enduml
+
