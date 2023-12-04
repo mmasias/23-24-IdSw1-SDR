@@ -1,0 +1,12 @@
+@startuml
+start
+:Usuario se registra;
+:La información del formulario llega al sistema;
+:El sistema actualiza las estadísticas;
+:El administrador revisa las estadísticas;
+if (¿Usuario actualiza su información) then (si)
+:El sistema actualiza estadisticas;
+stop
+else (no)
+stop
+@enduml

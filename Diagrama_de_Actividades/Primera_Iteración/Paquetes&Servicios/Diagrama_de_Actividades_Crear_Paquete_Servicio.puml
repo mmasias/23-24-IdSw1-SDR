@@ -1,0 +1,12 @@
+@startuml
+start
+:Administrador quiere crear paquete/servicio;
+:Administrador usa las herramientas del administrador;
+:Se dicen las características del paquete/servico;
+:Se crea el paquete/servicio;
+If (¿Se quiere actualizar paquete?) then (si)
+:Se actualiza con las herramientas;
+stop
+else (no)
+stop
+@enduml

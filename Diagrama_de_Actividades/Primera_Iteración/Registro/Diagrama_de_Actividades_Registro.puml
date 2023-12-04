@@ -1,0 +1,20 @@
+@startuml
+start
+: Es ajeno al sistema;
+if (¿Quiere formar parte de Alumni?) then (si)
+:El usuario se identifica;
+if (¿El usuario cumple los requisitos?) then (si)
+:El sistema envia el formulario;
+:La persona rellena el formulario;
+:Se genera usuario;
+:Usuario forma parte de Alumni;
+stop
+else (no)
+:Tiene que cumplir los requisitos;
+stop
+endif
+
+else (no)
+:No forma parte de Alumni;
+stop
+@enduml
