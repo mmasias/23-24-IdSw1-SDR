@@ -16,7 +16,7 @@
 
 - **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
 
-- **[Diseños de Interfaz](/diseños/):** Mira cómo la interfaz de usuario de FISC toma forma, con diseños y prototipos interactivos.
+- **[Diseños de Interfaz](/diseñoInterfaz/):** Mira cómo la interfaz de usuario de FISC toma forma, con diseños y prototipos interactivos.
 
 - **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
 
