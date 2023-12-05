@@ -1,6 +1,7 @@
 @startuml
 
 skin rose
+left to right direction
 
 Usuario -up-|> Trabajador
 Administrador -up-|> Usuario
@@ -19,9 +20,5 @@ Administrador --> (Crear Usuarios)
 Administrador --> (Ver Usuarios)
 Administrador --> (Editar Usuarios)
 Administrador --> (Eliminar Usuarios)
-
-(Ver informe) --> (Dia)
-(Ver informe) --> (Semana)
-(Ver informe) --> (Mes)
 
 @enduml
