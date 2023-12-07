@@ -1,0 +1,150 @@
+@startuml
+
+title Caso de Uso - FISC
+
+left to right direction
+
+actor Usuario_registrado as user
+actor Usuario_no_registrado as user1
+actor Usuario_con_sesion as user2
+actor Usuario_simu_new as user3
+actor Usuario_proye_new as user4
+actor Usuario_proye as user5
+actor Usuario_espera as user6
+actor Usuario_resporte as user7
+actor Usuario_abrir as user8
+actor Usuario_proyects as user9 
+
+
+rectangle "FISC Inicio Sesion" {
+    usecase "Iniciar Sesión con Usuario y Contraseña" as login
+    usecase "Registrarse" as registro
+    usecase "Recuperar Contraseña" as recuperar
+    usecase "Recordar Usuario" as recordar
+}
+
+user --> login : "Accede a"
+user1 --> registro : "Accede a"
+user --> recuperar : "Accede a"
+user --> recordar : "Accede a"
+login --> user1 : "Pagina principal"
+
+rectangle "FISC Pestaña Nueva Simulacion" {
+  usecase "Proyecto nuevo" as nuevap
+  usecase "Abrir proyecto existente" as abrirexistente
+  usecase "Exportar proyecto" as exportar
+  usecase "Examinar" as examinar
+  usecase "Aceptar" as ok
+
+}
+
+user3 --> nuevap : "Selecciona"
+user3 --> abrirexistente : "Selecciona"
+user3 --> exportar : "Selecciona"
+user3 --> examinar : "Accede a"
+user3 --> ok : "Click"
+ok --> user4 : "Pestaña proyecto nuevo"
+
+rectangle "FISC Pestaña Abrir Simulacion" {
+  usecase "Existente" as existente
+  usecase "Exportar simulacion" as exportarexistente
+  usecase "Examinar" as examinarabrir
+  usecase "Aceptar" as ok3
+
+}
+
+user8 --> existente : "Selecciona"
+user8 --> exportarexistente : "Selecciona"
+user8 --> examinarabrir : "Accede a"
+user8 --> ok3 : "Click"
+ok --> user7 : "Pestaña proyecto nuevo"
+
+rectangle "FISC Pestaña Nuevo Proyecto" {
+  usecase "Parametros en blanco" as parametrosblanco
+  usecase "Exportar parametrizacion" as exportarpara
+  usecase "Examinar" as examinar2
+  usecase "Aceptar" as ok2
+
+}
+
+user4 --> parametrosblanco : "Selecciona"
+user4 --> abrirexistente : "Selecciona"
+user4 --> exportarpara : "Selecciona"
+user4 --> examinar2 : "Accede a"
+user4 --> ok2 : "Click"
+ok2 --> user5 : "Pagina proyecto nuevo"
+
+rectangle "FISC Pagina Nuevo Proyecto" {
+  usecase "Guardar proyecto" as guardar
+  usecase "Iniciar" as iniciar
+  usecase "Parametros" as parametros
+
+
+}
+
+user5 --> guardar : "Selecciona"
+user4 --> iniciar : "Selecciona"
+user4 --> parametros : "Ingresa"
+iniciar --> user6 : "Pestaña de carga"
+
+
+rectangle "FISC Pestaña de carga" {
+  usecase "Ver reporte" as vereporte
+  usecase "Log" as log
+}
+
+user6 --> vereporte : "Accede a"
+user6 --> log : "Visualiza/controla"
+vereporte --> user7 : "Pestaña de carga"
+
+rectangle "FISC Pagina Reporte" {
+  usecase "Exportar" as exportareporte
+  usecase "Imprimir" as imprimir
+  usecase "1º Simulacion" as elegirsimu
+}
+
+user7 --> exportareporte : "Selecciona"
+user7 --> imprimir : "Selecciona"
+user7 --> elegirsimu : "Selecciona"
+
+rectangle "FISC Pagina Proyectos" {
+  usecase "Importar proyectos" as importar
+  usecase "Nuevo proyecto" as newproyect
+  usecase "Abrir proyecto" as openproyect
+  usecase "Exportar" as exportarproyect
+  usecase "Mas" as mas
+
+}
+  user9 --> importar : "Accede a"
+  user9 --> newproyect : "Accede a"
+  user9 --> openproyect : "Accede a"
+  user9 --> exportarproyect : "Accede a"
+  user9 --> mas : "Visualiza mas proyectos"
+  newproyect --> user3 : "Abre pestaña"
+  openproyect --> user7 : "Abre pestaña"
+ 
+
+
+
+
+
+
+
+rectangle "FISC Principal" {
+  usecase "Simulacion nueva" as nueva
+  usecase "Abrir simulacion" as abrir
+  usecase "Ver historial simulaciones" as historial
+  usecase "Ver reporte" as reportes
+  usecase "Ver todos los proyectos" as proyect
+
+}
+  user2 --> nueva : "Accede a"
+  user2 --> abrir : "Accede a"
+  user2 --> historial : "Accede a"
+  user2 --> reportes : "Accede a"
+  user2 --> proyect : "Accede a"
+  nueva --> user3 : "Abre pestaña"
+  abrir --> user8 : "Abre pestaña"
+  proyect --> user9 : "Accede a"
+
+@enduml
