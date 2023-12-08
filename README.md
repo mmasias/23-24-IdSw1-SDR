@@ -28,7 +28,7 @@ También diseñado para la gestión eficiente de espacios físicos, en este caso
 Todos los cambios realizados en el sistema se guardan de manera segura y eficiente, asegurando que la información del horario esté actualizada y sea accesible para el administrador de horarios.
 
 
-### Enlaces ➡️
+## Enlace➡️
 
 
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
