@@ -1,0 +1,27 @@
+@startuml
+
+skin rose
+
+Usuario -up-|> Trabajador
+Administrador -up-|> Usuario
+
+Trabajador --> (Crear registro)
+
+Usuario --> (Ver fichaje diario)
+Usuario --> (Ver informe)
+
+Administrador --> (Ver fichaje diario)
+Administrador --> (Editar fichaje diario)
+
+Administrador --> (Ver informe)
+
+Administrador --> (Crear Usuarios)
+Administrador --> (Ver Usuarios)
+Administrador --> (Editar Usuarios)
+Administrador --> (Eliminar Usuarios)
+
+(Ver informe) --> (Dia)
+(Ver informe) --> (Semana)
+(Ver informe) --> (Mes)
+
+@enduml

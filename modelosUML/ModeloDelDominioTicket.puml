@@ -2,8 +2,6 @@
 'https://plantuml.com/sequence-diagram
 title Modelo del dominio Ticket
 
-
-
 class error 
 class estado
 class etiqueta
@@ -26,7 +24,5 @@ error *-- fecha
 proyecto *-- historial
 
 historial -d- informe : > permite generar
-
-
 
 @enduml
