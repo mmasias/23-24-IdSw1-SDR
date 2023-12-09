@@ -2,7 +2,11 @@
 'https://plantuml.com/sequence-diagram
 title Modelo del dominio Core
 
+class admin
+class ticket
+class usuario
 
+rectangle Sistema {
 usuario -- dashboard
 admin -- dashboard
 admin -- docente 
@@ -27,5 +31,6 @@ asignacion -- desasignar
 bajas -- temporal
 bajas -- permanente
 bajas -- reincorporacion
+}
 
 @enduml
