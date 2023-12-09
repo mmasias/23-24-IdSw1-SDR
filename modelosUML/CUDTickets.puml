@@ -1,0 +1,36 @@
+@startuml
+
+left to right direction
+
+actor Administrador as Admin
+actor "Jefe de Proyecto" as JefeProyecto
+actor Desarrollador as Dev
+actor Cliente as Client
+
+rectangle "Sistema de Gestión de Tickets" {
+    Admin -- (Crear Ticket)
+    JefeProyecto -- (Crear Ticket)
+    Dev -- (Crear Ticket)
+    Client -- (Crear Ticket)
+    
+    (Crear Ticket) --> (Gestión de Estados)
+    (Crear Ticket) --> (Chat de Seguimiento)
+    (Crear Ticket) --> (Información del Ticket)
+    (Gestión de Estados) --> (Cerrar Ticket) : <<Solo Admin>>
+    (Chat de Seguimiento) --> (Agregar Usuarios)
+    (Información del Ticket) --> (Registro de Fechas)
+    (Información del Ticket) --> (Asignar Responsable)
+    (Información del Ticket) --> (Descripción del Error)
+    
+    (Estadísticas y Reportes) --> (Estado Actual)
+    (Estadísticas y Reportes) --> (Tickets Creados/Solucionados)
+    (Estadísticas y Reportes) --> (Responsables de Resolución)
+    (Estadísticas y Reportes) --> (Tickets Resueltos por Periodo)
+    
+    (Acceso al Historial) --> (Registro de Actividad)
+    (Registro de Actividad) --> (Notificaciones Específicas) : <<Solo Admin>>
+    (Función de Búsqueda)
+    
+    
+}
+@enduml
