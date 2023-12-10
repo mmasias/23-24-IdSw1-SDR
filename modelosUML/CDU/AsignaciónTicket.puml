@@ -1,0 +1,20 @@
+@startuml
+
+top to bottom direction
+
+actor Administrador as Admin
+actor "Jefe de Proyecto" as JefeProyecto
+actor Desarrollador as Dev
+actor Cliente as Usuario
+
+rectangle AsignaciónTicket{
+Usuario -r- (Ticket): > genera
+Admin -d- JefeProyecto: > Asigna
+Admin -u- (corrección de error): > Valida
+(Ticket) -- Admin: < Recibe
+(Ticket) .. JefeProyecto: < Recibe
+JefeProyecto -- Dev: > Asigna
+Dev -- (corrección de error): > Realiza
+}
+
+@enduml

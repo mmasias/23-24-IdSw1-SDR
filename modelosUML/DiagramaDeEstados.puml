@@ -12,9 +12,7 @@ Resuelto -r-> EsperandoValidacion
 EsperandoValidacion -r-> Cerrado
 EsperandoValidacion -r-> EnProceso
 
-
 Cerrado -r-> [*]
-
 
 
 @enduml
