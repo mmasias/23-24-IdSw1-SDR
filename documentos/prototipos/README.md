@@ -12,9 +12,10 @@
 <details>
 <summary>Ver Informe</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verInforme.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInforme.puml) |
+|  |
+| -- |
+| ![](../../imagenes/prototipos/informe/generarInforme.png) |
+| ![](../../imagenes/prototipos/informe/informeDescargado.png) |
 
 </details>
 

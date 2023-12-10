@@ -29,9 +29,6 @@
 1. Fichaje
 2. Revisión de tiempo
 
-## Detalles
-- Fichaje: Cuando se extrae del Lector de huellas los registros
-- Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día, semana o mes y cuanto les falta para acabar.
 
 <details>
 <summary>Casos de uso</summary>
@@ -39,6 +36,28 @@
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
+
+</details>
+
+## Detalles
+- Fichaje: Cuando se extrae del Lector de huellas los registros
+- Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día, semana o mes y cuanto les falta para acabar.
+
+<details>
+<summary>Ver Fichaje</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
+
+</details>
+
+<details>
+<summary>Ver Informe</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verInforme.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInforme.puml) |
 
 </details>
 
