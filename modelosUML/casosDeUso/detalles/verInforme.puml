@@ -1,29 +1,22 @@
-@startuml
+@startuml descripción CDU informe
 
 skin rose
 
-  :dashboardAbierto;
-  :informeAbierto;
+  :DASHBOARD_ABIERTO;
+  :INFORME;
   
-  start
 partition "ver informe" {
-
-  switch(tipo de informe)
-    case(informeDia)
+  start
+  switch(TIPO INFORME)
+    case(DIA)
      :Seleccionar dia;
-    case(informeSemana)
+    case(SEMANA)
      :Seleccionar semana;
-    case(informeMes)
+    case(MES)
      :Seleccionar mes;
   endswitch
 
   :mostrarInforme;
+  stop
 }
-
-partition "Generar informe" {
-
-  :descargarInforme;
-}
-stop
-
 @enduml
