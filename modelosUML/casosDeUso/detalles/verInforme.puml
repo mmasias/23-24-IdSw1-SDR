@@ -1,0 +1,29 @@
+@startuml
+
+skin rose
+
+  :dashboardAbierto;
+  :informeAbierto;
+  
+  start
+partition "ver informe" {
+
+  switch(tipo de informe)
+    case(informeDia)
+     :Seleccionar dia;
+    case(informeSemana)
+     :Seleccionar semana;
+    case(informeMes)
+     :Seleccionar mes;
+  endswitch
+
+  :mostrarInforme;
+}
+
+partition "Generar informe" {
+
+  :descargarInforme;
+}
+stop
+
+@enduml
