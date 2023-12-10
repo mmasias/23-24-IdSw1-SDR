@@ -6,19 +6,19 @@ left to right direction
 Usuario -up-|> Trabajador
 Administrador -up-|> Usuario
 
-Trabajador --> (Crear registro)
+Trabajador --> (crearRegistro)
 
-Usuario --> (Ver fichaje diario)
-Usuario --> (Ver informe)
+Usuario --> (verFichajeDiario)
+Usuario --> (verInforme)
 
-Administrador --> (Ver fichaje diario)
-Administrador --> (Editar fichaje diario)
+Administrador --> (verFichajeDiario)
+Administrador --> (editarFichajeDiario)
 
-Administrador --> (Ver informe)
+Administrador --> (verInforme)
 
-Administrador --> (Crear Usuarios)
-Administrador --> (Ver Usuarios)
-Administrador --> (Editar Usuarios)
-Administrador --> (Eliminar Usuarios)
+Administrador --> (crearUsuarios)
+Administrador --> (verUsuarios)
+Administrador --> (editarUsuarios)
+Administrador --> (eliminarUsuarios)
 
 @enduml
