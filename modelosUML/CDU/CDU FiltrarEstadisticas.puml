@@ -1,0 +1,16 @@
+@startuml
+
+left to right direction
+
+actor Administrador as Admin
+
+rectangle "Estadisticas Ticket" {
+    Admin -- ( Estadísticas Personalizadas):> Consulta
+    
+    ( Estadísticas Personalizadas) -- (Estadisticas de proyecto) :> Crea
+    ( Estadísticas Personalizadas) -- (Informe Gráfico):> Genera
+    ( Estadísticas Personalizadas) -- (Datos):> Exporta
+    ( Estadísticas Personalizadas) -- (Estado Actual):> Visualiza
+}
+
+@enduml
