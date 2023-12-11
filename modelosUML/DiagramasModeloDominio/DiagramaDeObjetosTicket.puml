@@ -1,6 +1,7 @@
-
 @startuml
+
 title diagrama de objetos ticket
+
 object "docente" as usuario
 object "reporte" as ticket
 object "modulo" as error
@@ -22,6 +23,5 @@ proyecto -- responsable: > tiene
 proyecto *-- historial: > genera
 
 historial -d- informe : > permite generar
-
 
 @enduml

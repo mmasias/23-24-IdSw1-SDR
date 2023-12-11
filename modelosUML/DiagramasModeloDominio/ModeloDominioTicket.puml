@@ -17,11 +17,11 @@ usuario -- ticket
 ticket *-- error
 usuario *-- rol
 error *-- etiqueta
-error *-- proyecto
-proyecto *-- estado
-proyecto -- responsable
+ticket .. proyecto
+ticket *-- estado
+ticket *-- responsable
 error *-- fecha
-proyecto *-- historial
+ticket *-- historial
 
 historial -d- informe : > permite generar
 

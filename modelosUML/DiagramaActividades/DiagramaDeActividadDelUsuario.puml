@@ -1,7 +1,9 @@
 @startuml
+
 start
 :Usuario utiliza el Core;
 if (Hubo errores?) then (sí)
   :Docente crea un Ticket;
   stop
+  
 @enduml
