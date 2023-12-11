@@ -1,0 +1,16 @@
+@startuml
+skin rose
+
+:DASHBOARD_ABIERTO;
+:CREAR_USUARIO;
+
+partition "Ingresar detalles del nuevo usuario" {
+  start
+  :Introducir nombre de Usuario;
+  :Introducir datos personales;
+  :Introducir credenciales;
+  :confirmarCreacionUsuario;
+  stop
+}
+
+@enduml
