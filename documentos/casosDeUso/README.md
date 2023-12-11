@@ -62,10 +62,11 @@
 </details>
 
 <details>
-<summary>Eliminar usuarios (admin)</summary>
+<summary>Eliminar usuario (admin)</summary>
 
 |  |  |
 | -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/CDU-EliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
 
 </details>
 
