@@ -68,28 +68,33 @@
 | -- | -- |
 
 </details>
+
+<details>
 <summary>Crear usuario (admin)</summary>
 
 |  |  |
 | -- | -- |
 
 </details>
+
+<details>
 <summary>Editar fichaje diario (admin)</summary>
 
 |  |  |
 | -- | -- |
 
 </details>
-</details>
+
+<details>
 <summary>Ver usuario (admin)</summary>
 
 |  |  |
 | -- | -- |
 
 </details>
-</details>
+
+<details>
 <summary>Editar usuario (admin)</summary>
-aaa
 |  |  |
 | -- | -- |
 
