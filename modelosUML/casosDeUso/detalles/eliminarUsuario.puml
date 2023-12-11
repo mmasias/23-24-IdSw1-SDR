@@ -1,0 +1,14 @@
+@startuml
+skin rose
+
+:DASHBOARD_ABIERTO;
+:ELIMINAR_USUARIO;
+
+partition "Seleccionar usuario a eliminar" {
+  start
+  :Introducir nombre de Usuario;
+  :confirmarEliminarUsuario;
+  stop
+}
+
+@enduml
