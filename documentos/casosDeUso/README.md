@@ -75,6 +75,7 @@
 
 |  |  |
 | -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/EliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
 
 </details>
 
