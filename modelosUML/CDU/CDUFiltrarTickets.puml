@@ -1,12 +1,15 @@
 @startuml
 title "Filtrado de Tickets"
+skinparam linetype ortho
+left to right direction
+
 actor Administrador
 actor Cliente
 actor "Jefe de Proyecto" as JefeProyecto
 actor "Desarrollador de Software" as Desarrollador
 
 rectangle "Filtros" {
-  (FiltrarPalabra)
+  (FiltrarTitulo)
   (FiltrarEstado)
   (FiltrarPrioridad)
   (FiltrarFecha)
@@ -29,34 +32,35 @@ rectangle "Prioridades" {
   (Critica)
 }
 
-note right of Administrador: Configura y accede a todas las opciones de filtrado
+note top of Administrador: Configura y accede a todas las opciones de filtrado
 
-Administrador -[#FF0000]-> FiltrarPalabra
-Administrador -[#FF0000]-> FiltrarEstado
+Administrador -[#FF0000]left-> FiltrarTitulo
+Administrador -[#FF0000]left-> FiltrarEstado
 Administrador -[#FF0000]-> FiltrarPrioridad
 Administrador -[#FF0000]-> FiltrarFecha
 Administrador -[#FF0000]-> FiltrarCreador
-Administrador -[#FF0000]-> FiltrarProyecto
+Administrador -[#FF0000]left-> FiltrarProyecto
 
-note right of Cliente: Filtra tickets por palabra, estado, prioridad y fecha
+note top of Cliente: Filtra tickets por palabra, estado, prioridad y fecha
 
-Cliente -[#1E90FF]-> FiltrarPalabra
+Cliente -[#1E90FF]-> FiltrarTitulo
 Cliente -[#1E90FF]-> FiltrarEstado
 Cliente -[#1E90FF]-> FiltrarPrioridad
 Cliente -[#1E90FF]-> FiltrarFecha
 
-note right of JefeProyecto: Filtra tickets según necesidades del proyecto
+note top of JefeProyecto: Filtra tickets según necesidades del proyecto
 
 JefeProyecto -[#FFA500]-> FiltrarEstado
+JefeProyecto -[#FFA500]-> FiltrarTitulo
 JefeProyecto -[#FFA500]-> FiltrarPrioridad
 JefeProyecto -[#FFA500]-> FiltrarFecha
 JefeProyecto -[#FFA500]-> FiltrarCreador
-JefeProyecto -[#FFA500]-> FiltrarProyecto
+JefeProyecto -[#FFA500]left-> FiltrarProyecto
 
-note right of Desarrollador: Filtra tickets para tareas de desarrollo
+note top of Desarrollador: Filtra tickets para tareas de desarrollo
 
-Desarrollador -[#008000]-> FiltrarEstado
-Desarrollador -[#008000]-> FiltrarPalabra
+Desarrollador -[#008000]left-> FiltrarEstado
+Desarrollador -[#008000]-> FiltrarTitulo
 Desarrollador -[#008000]-> FiltrarPrioridad
 Desarrollador -[#008000]-> FiltrarFecha
 Desarrollador -[#008000]-> FiltrarCreador
