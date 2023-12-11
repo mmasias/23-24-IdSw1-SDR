@@ -98,6 +98,7 @@
 
 <details>
 <summary>Editar usuario (admin)</summary>
+ 
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/detalles/editarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/editarUsuario.puml) |
