@@ -84,6 +84,7 @@
 
 |  |  |
 | -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/modificarFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichaje.puml) |
 
 </details>
 
