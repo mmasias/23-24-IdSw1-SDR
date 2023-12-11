@@ -66,7 +66,7 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/CDU-EliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
+| ![](../../imagenes/casosDeUso/detalles/EliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
 
 </details>
 
