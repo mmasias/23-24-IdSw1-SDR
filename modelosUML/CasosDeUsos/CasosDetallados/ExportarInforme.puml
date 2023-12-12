@@ -1,0 +1,10 @@
+@startuml
+
+state GuardarHistorial
+state GenerarInforme
+state ExtraerHistorial
+[*] -->GuardarHistorial
+GuardarHistorial--> ExtraerHistorial
+ExtraerHistorial-->GenerarInforme
+GenerarInforme--> [*]
+@enduml

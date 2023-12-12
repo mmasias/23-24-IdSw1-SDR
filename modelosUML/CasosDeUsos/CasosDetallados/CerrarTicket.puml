@@ -1,0 +1,12 @@
+@startuml CDU-CerrarTicket
+
+(*) --> ValidarError
+if "¿Cumple requisito?" then
+-r-> [Si] CerrarTicket
+else
+-->[No] DevolverTicket
+endif 
+CerrarTicket --> (*)
+
+
+@enduml
