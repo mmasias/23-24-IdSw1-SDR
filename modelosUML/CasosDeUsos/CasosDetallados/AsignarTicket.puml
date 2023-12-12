@@ -1,0 +1,14 @@
+@startuml CDU-AsignarTicket
+state RecibirTicket
+state ValidarError
+state Priorizar
+
+[*] -->  RecibirTicket 
+
+RecibirTicket -r-> ValidarError : Llega a ver su horario
+
+ValidarError -d-> Priorizar : Sale de la aplicacion
+
+Priorizar -r-> [*]
+
+@enduml
