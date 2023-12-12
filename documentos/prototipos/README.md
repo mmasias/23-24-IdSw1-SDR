@@ -22,8 +22,8 @@
 <details>
 <summary> Ver Fichaje Diario </summary>
 
-| -- |
-| ![](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png)|
+
+![](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png)
 
 </details>
 
