@@ -1,0 +1,23 @@
+@startuml
+
+left to right direction
+
+actor "Jefe de Proyecto" as JefeProyecto
+actor Administrador as Admin
+actor Usuario as Usuario
+
+rectangle SistemaTicket{
+    Usuario -l- (Crear Ticket)
+    Admin -l-> Usuario
+    Admin -l-> JefeProyecto
+    Admin -- (Consultar Estado del Ticket)
+    Admin -- (Consultar Historial)
+    Admin -- (Exportar Informe)
+    Admin -- (Administrar Roles)
+    Admin -- (Cerrar Ticket)
+    JefeProyecto -l-> Usuario
+    JefeProyecto -- (Asignar Ticket)
+    JefeProyecto -- (Ver Ticket)
+}
+
+@enduml
