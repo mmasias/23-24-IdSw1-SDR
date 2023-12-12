@@ -2,7 +2,6 @@
 'https://plantuml.com/sequence-diagram
 title Modelo del dominio Ticket
 
-class error 
 class estado
 class etiqueta
 class fecha
@@ -12,15 +11,13 @@ class informe
 class historial
 class proyecto 
 
-
 usuario -- ticket
-ticket *-- error
 usuario *-- rol
-error *-- etiqueta
+ticket *-- etiqueta
 ticket .. proyecto
 ticket *-- estado
 ticket *-- responsable
-error *-- fecha
+ticket *-- fecha
 ticket *-- historial
 
 historial -d- informe : > permite generar
