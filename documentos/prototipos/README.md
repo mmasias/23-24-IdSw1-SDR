@@ -31,7 +31,7 @@
 <summary> Ver Usuarios </summary>
 |  |
 | -- |
-| ![](../../imagenes/prototipos/Usuarios/VerUsuario.bmpr) |
+| ![](../../imagenes/prototipos/Usuarios/VerUsuario.png) |
 
 </details>
 
