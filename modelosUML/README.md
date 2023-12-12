@@ -9,7 +9,7 @@ Bienvenido a la carpeta de Modelos UML para el proyecto. Aquí encontrarás una 
 
 
 - [Inicio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main)
-- [Modelos UML - Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes/modelosUML)
+- [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
 - [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
 - [Logo](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes/Logo)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
