@@ -27,6 +27,13 @@
 
 </details>
 
+<details>
+<summary> Ver Usuarios </summary>
+|  |
+| -- |
+| ![](../../imagenes/prototipos/Usuarios/VerUsuario.bmpr) |
+
+</details>
 
 <details>
 <summary>Diagrama de contexto con Prototipos</summary>
