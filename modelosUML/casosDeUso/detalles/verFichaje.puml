@@ -1,34 +1,28 @@
-@startuml
-left to right direction
-skinparam packageStyle rectangle
+@startuml Caso de Uso: Ver Fichaje
+skinparam backgroundColor #EEEBDC
+skinparam defaultFontName Arial
+skinparam defaultFontSize 14
+skinparam monochrome true
 
+title Caso de Uso: Ver Fichaje
 
-rectangle OPENED_DASHBOARD {
-
-}
-
-
-rectangle FICHAJE {
-    getFichaje --> Inicio
-    Inicio --> Tiempo : calculateTime
-    Inicio --> NumeroFichajes : getTotalFichajes
-    Tiempo --> ViewTiempo : showTime
-    ViewTiempo --> Inicio
-    
-
-}
-
-rectangle INFORME {
-
-}
-rectangle EXIT {
-
-}
-
-OPENED_DASHBOARD -> FICHAJE: getFichaje
-FICHAJE -> INFORME : verInforme
-FICHAJE -> EXIT : logOut
-
-
+start
+:DASHBOARD ABIERTO;
+if (¿Usuario es Admin?) then (sí)
+    :ADMIN SELECCIONA USUARIO;
+else (no)
+    : VER FICHAJE PROPIO;
+endif
+-> El sistema muestra el fichaje diario;
+:VER FICHAJE DIARIO;
+-> El sistema muestra horas de fichaje;
+:                            ;
+-> El sistema calcula horas trabajadas;
+:                            ;
+-> El sistema calcula horas restantes para la jornada;
+:                            ;
+-> Usuario/Admin revisa la información;
+:                            ;
+stop
 
 @enduml
