@@ -8,7 +8,7 @@ Esta carpeta contiene las sesiones de apuntes relacionadas con nuestro proyecto.
 
 ## Enlace➡️
 
-- [inicio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main)
+- [Inicio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main)
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
 - [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
 - [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
