@@ -8,10 +8,6 @@
 - Administrador extiende Usuario
 
 ### Casos de Uso
- 
-- Trabajador:
-  - Crear fichaje
-
 - Usuario:
   - READ Fichaje Diario
   - READ Informe
@@ -48,7 +44,7 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
 
 </details>
 
