@@ -1,0 +1,30 @@
+@startuml
+
+left to right direction
+
+
+rectangle "Gestion de usuarios con roles" {
+
+actor Administrador as Admin
+actor "Jefe de Proyecto" as Jefe
+actor Desarrollador as Desarrollador
+actor Cliente as Cliente
+
+    Admin -- (Crean Ticket)
+    Admin -- (Acceso a todos los proyectos)
+    Jefe -- (Crean Ticket)
+    Jefe -- (Acceso a algún proyecto)
+    Jefe -- (puede dar de alta a clientes y a desarroladores)
+    Desarrollador -- (Crean Ticket)
+    Cliente -- (Crean Ticket)
+    
+    (Crean Ticket) --> (Gestión de Estados)
+    (Crean Ticket) --> (Información del Ticket)
+    (Gestión de Estados) --> (Cerrar Ticket) : <<Solo Admin>>
+    (Información del Ticket) --> (Asignar Responsable)
+    (Acceso a algún proyecto) --> (se lo da el Admin)
+
+    
+    
+}
+@enduml
