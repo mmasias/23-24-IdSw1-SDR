@@ -1,13 +1,19 @@
 @startuml CDU-AsignarTicket
-state RecibirTicket
-state ValidarError
-state PriorizarEtiqueta
-    [*] -->  RecibirTicket
 
+(*) -->  RecibirTicket
     RecibirTicket -r-> PriorizarEtiqueta
-
     PriorizarEtiqueta -r-> ValidarError
-
-    ValidarError -u-> [*]
+        if "¿Existe Error?"then
+        -r->[Si] ValidarPrioridad
+            if "¿Etiqueta Correcta?"then
+            -->[Si] AsignarResponsable
+            else
+            -->[No] ModificarPrioridad
+            endif
+        else
+        -l->[No] CerrarEtiqueta
+        endif
+    ModificarPrioridad -r-> AsignarResponsable
+    AsignarResponsable --> (*)
 
 @enduml
