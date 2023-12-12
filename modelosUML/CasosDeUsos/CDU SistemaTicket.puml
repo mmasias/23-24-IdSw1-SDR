@@ -8,16 +8,16 @@ actor Usuario as Usuario
 
 rectangle SistemaTicket{
     Usuario -l- (Crear Ticket)
-    Admin -l-> Usuario
-    Admin -l-> JefeProyecto
-    Admin -- (Consultar Estado del Ticket)
-    Admin -- (Consultar Historial)
-    Admin -- (Exportar Informe)
-    Admin -- (Administrar Roles)
-    Admin -- (Cerrar Ticket)
     JefeProyecto -l-> Usuario
     JefeProyecto -- (Asignar Ticket)
     JefeProyecto -- (Ver Ticket)
+    JefeProyecto -- (FiltrarTicket)
+    Admin -l-> Usuario
+    Admin -l-> JefeProyecto
+    Admin -- (Consultar Historial)
+    Admin -- (Exportar Informe)
+    Admin -- (Cerrar Ticket)
+    Admin -- (Consultar Estado del Ticket)
 }
 
 @enduml
