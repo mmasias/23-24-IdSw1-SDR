@@ -1,0 +1,23 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+actor Administrador as Admin
+
+rectangle "Administrar Roles" {
+  Admin --> (Crear Rol)
+  Admin --> (Modificar Rol)
+  Admin --> (Eliminar Rol)
+}
+usecase (Crear Rol) {
+  Admin --> (Introducir detalles del nuevo rol)
+}
+
+usecase (Modificar Rol) {
+  Admin --> (Modificar detalles de un rol existente)
+}
+
+usecase (Eliminar Rol) {
+  Admin --> (Seleccionar y eliminar un rol existente)
+}
+@enduml
