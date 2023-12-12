@@ -19,6 +19,14 @@
 
 </details>
 
+<details>
+<summary> Ver Fichaje Diario </summary>
+|  |
+| -- |
+| ![](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png) |
+
+</details>
+
 
 <details>
 <summary>Diagrama de contexto con Prototipos</summary>
