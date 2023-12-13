@@ -1,25 +1,31 @@
-# Sesiones de requisitado
 
-Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de UNEATLANTICO.
 
-Se desarrolla, en un caso real, la disciplina de requisitado, que es la puerta de entrada al desarrollo de una solución basada en software. 
+---
 
-> Se ha demostrado, empírica y académicamente, que un porcentaje no menor de proyectos de software que fracasan lo hacen porque está mal llevada esta fase.
+# TimeGuardian: Sistema de Gestión de Horarios Centralizado
 
-<div align=center>
+TimeGuardian es una herramienta diseñada para el cliente encargado de facilitar la organización y asignación de horarios de la universidad, para estudiantes, profesores y aulas. Este sistema centralizado permite al administrador de horarios: visualizar, elegir y asignar asignaturas o clases en un calendario interactivo, proporcionando una experiencia de usuario intuitiva y eficiente en la gestión del tiempo.🗓️
 
-||
-|-|
-![](/imagenes/modelosUML/trabajoRepos.svg)
+## Características Principales✏️
 
-</div>
+### Horario de Grado🕝
+El administrador de horarios puede visualizar las asignaturas ofrecidas para cada carrera y organizar el horario académico de los estudiantes. La función de arrastrar y soltar facilita la planificación y ajuste de las asignaturas en el calendario.
 
-## Algunas reglas
+- **Detección de Conflictos**: TimeGuardian identifica automáticamente conflictos de horario y notifica al administrador, evitando la sobreposición de clases y garantizando una planificación eficaz.
 
-- Reuniones oficiales (en horas de clase)
-  - A estas debe asistir el 100% de los integrantes de los grupos.
-  - Si a las reuniones asiste menos del 80% del grupo, la reunión se cancela y el grupo se da por cerrado. La evaluación se realiza de la forma tradicional (examen parcial, examen final).
-- Reuniones extra: de acuerdo a lo pautado con el cliente.
-- Se recomienda utilizar el repo del coordinador del grupo y las herramientas de GitHub para gestionar las reuniones y comunicaciones con el cliente, haciendo racional uso de la trazabilidad.
-- Las imágenes, en la medida de lo posible en formato plantUML. 
-  - Todas las fuentes en la carpeta modelosUML y las imágenes exportadas, en formato svg.
+### Horario de Profesor👨‍🏫
+El administrador de horarios tiene la capacidad de gestionar las asignaturas que imparten los profesores. Puede organizar su horario semanal utilizando también la función de arrastrar y soltar, optimizando su tiempo y responsabilidades académicas.
+
+- **Detección de Conflictos**: Cualquier conflicto de horario se notifica de inmediato, asegurando la coherencia y evitando la asignación de dos clases al mismo tiempo.
+
+### Horario de Aula🏫
+También diseñado para la gestión eficiente de espacios físicos, en este caso, las aulas, esta función permite al administrador de horarios visualizar y organizar qué clases se imparten en cada aula.
+
+- **Detección de Conflictos**: En caso de doble reserva de aula, TimeGuardian notifica al administrador para evitar conflictos y asegurar el uso óptimo de los espacios disponibles.
+- **Notificación de Cambios Aislados**: Si se realiza un cambio de aula sin afectar otros elementos del horario, el sistema notificará sobre este cambio aislado.
+
+## Guardado de Cambios🔐
+Todos los cambios realizados en el sistema se guardan de manera segura y eficiente, asegurando que la información del horario esté actualizada y sea accesible para el administrador de horarios.
+
+---
+
