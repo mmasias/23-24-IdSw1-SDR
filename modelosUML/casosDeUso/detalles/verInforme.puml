@@ -1,22 +1,18 @@
 @startuml descripción CDU informe
 
 skin rose
-
-  :DASHBOARD_ABIERTO;
+title Caso de Uso: Ver Informe
+start
+  repeat :DASHBOARD_ABIERTO;
+  -> El sistema da la opción de ver un informe;
   :INFORME;
-  
-partition "ver informe" {
-  start
-  switch(TIPO INFORME)
-    case(DIA)
-     :Seleccionar dia;
-    case(SEMANA)
-     :Seleccionar semana;
-    case(MES)
-     :Seleccionar mes;
-  endswitch
-
-  :mostrarInforme;
+  backward:                  ;
+  -> El usuario puede volver a la vista inicial;
+  repeat while (¿Deseas ver informe?) is (no)
+    -> El usuario elige el tipo de informe;
+    :                 ;
+    -> El sistema le muestra el informe elegido por el usuario;
+    :MOSTRAR_INFORME;
   stop
-}
+
 @enduml
