@@ -1,8 +1,5 @@
 @startuml Caso de Uso: Ver Fichaje
-skinparam backgroundColor #EEEBDC
-skinparam defaultFontName Arial
-skinparam defaultFontSize 14
-skinparam monochrome true
+skin rose
 
 title Caso de Uso: Ver Fichaje
 
