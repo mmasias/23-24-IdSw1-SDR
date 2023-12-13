@@ -1,14 +1,19 @@
 @startuml
 skin rose
+title Caso de Uso: Eliminar un Usuario
 
+start
 :DASHBOARD_ABIERTO;
+-> El sistema da la opción de ver los usuarios;
+repeat :USUARIOS;
+-> El sistema da la opción de eliminar a un usuario;
 :ELIMINAR_USUARIO;
-
-partition "Seleccionar usuario a eliminar" {
-  start
-  :Introducir nombre de Usuario;
+backward:                  ;
+-> Introducir nombre de Usuario;
+:                      ;
+-> El usuario puede volver a la vista inicial de usuarios;
+repeat while (¿Deseas eliminar este usuario?) is (no)
   :confirmarEliminarUsuario;
-  stop
-}
+stop
 
 @enduml
