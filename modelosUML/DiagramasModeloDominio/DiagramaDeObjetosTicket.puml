@@ -1,26 +1,26 @@
 @startuml
 
-title diagrama de objetos ticket
+title Diagrama de Objetos Ticket
 
-object "docente" as usuario
-object "reporte" as ticket
-object "modulo" as error
-object "prioridad" as etiqueta
-object "fecha" as fecha
-object "arreglo" as proyecto
-object "pendiente" as estado
-object "desarrolador" as responsable
-object "registro" as historial
-object "informe" as informe
+object "Cliente" as usuario
+object "Error" as ticket
+object "Modulo" as error
+object "Prioridad" as etiqueta
+object "Fecha" as fecha
+object "Proyecto" as proyecto
+object "Pendiente" as estado
+object "Desarrolador" as responsable
+object "Registro" as historial
+object "Informe" as informe
 
-usuario -- ticket: > genera
+usuario -- ticket: > reporta
 ticket *-- error: > de
-error *-- etiqueta: > con
-error *-- fecha: > con
-error *-- proyecto: > pasa a
-proyecto *-- estado: > pasa a
-proyecto -- responsable: > tiene
-proyecto *-- historial: > genera
+ticket *-- etiqueta: > con
+ticket *-- fecha: > con
+ticket *-- estado: > pasa a
+ticket *-- responsable: > tiene
+ticket *-- historial: > genera
+ticket .. proyecto: > tiene
 
 historial -d- informe : > permite generar
 
