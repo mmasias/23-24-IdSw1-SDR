@@ -45,6 +45,9 @@
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/detalles/verFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichajeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdmin.puml) |
+
+
 
 </details>
 
