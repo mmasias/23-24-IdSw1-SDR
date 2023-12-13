@@ -73,7 +73,7 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/EliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
+| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
 
 </details>
 
