@@ -11,13 +11,16 @@ rectangle SistemaTicket{
     JefeProyecto -l-> Usuario
     JefeProyecto -- (Asignar Ticket)
     JefeProyecto -- (Ver Ticket)
-    JefeProyecto -- (FiltrarTicket)
+    (Ver Ticket) .. (Filtrar Ticket) : <<extends>>
+    (Filtrar Ticket) .. (Filtrar Fecha) : <<extends>>
+    (Filtrar Ticket) .. (Filtrar Prioridad) : <<extends>>
+    (Filtrar Ticket) .. (Filtrar Responsable) : <<extends>>
+    (Filtrar Ticket) .. (Filtrar Estado) : <<extends>>
     Admin -l-> Usuario
     Admin -l-> JefeProyecto
     Admin -- (Consultar Historial)
-    Admin -- (Exportar Informe)
+    (Consultar Historial) .. (Exportar Informe) : <<extends>>
     Admin -- (Cerrar Ticket)
-    Admin -- (Consultar Estado del Ticket)
 }
 
 @enduml
