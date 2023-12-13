@@ -1,0 +1,25 @@
+@startuml Diagrama Contexto
+
+[*] -->  Inicial
+
+Inicial -d-> DASHBOARD_ABIERTO : login/registrarse
+
+DASHBOARD_ABIERTO --> FICHAJE_ACTUAL
+DASHBOARD_ABIERTO --> INFORME
+
+DASHBOARD_ABIERTO <-- FICHAJE_ACTUAL
+DASHBOARD_ABIERTO <-- INFORME
+
+INFORME --> DIARIO
+INFORME --> SEMANAL
+INFORME --> MENSUAL
+
+INFORME <-- DIARIO
+INFORME <-- SEMANAL
+INFORME <-- MENSUAL
+
+DASHBOARD_ABIERTO --> [*] : logout
+FICHAJE_ACTUAL --> [*] : logout
+INFORME --> [*] : logout
+
+@enduml

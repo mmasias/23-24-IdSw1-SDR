@@ -1,0 +1,26 @@
+@startuml
+skin rose
+
+
+title Caso de Uso: Ver Fichaje Admin
+start
+:DASHBOARD ABIERTO;
+-> el admin mira la lista de usuarios;
+:VER USUARIOS;
+-> el admin selecciona usuario;
+:SELECCIONAR USUARIO;
+-> el admin revisa el fichaje del usuario;
+:VER FICHAJE;
+-> El sistema muestra horas de fichaje;
+:                            ;
+-> El sistema calcula horas trabajadas;
+:                            ;
+-> El sistema calcula horas restantes para la jornada;
+:                            ;
+-> Usuario/Admin revisa la información;
+
+stop
+
+
+
+@enduml

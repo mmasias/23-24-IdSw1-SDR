@@ -1,0 +1,22 @@
+@startuml
+skin rose
+
+:DASHBOARD_ABIERTO;
+:EDITAR_USUARIO;
+
+partition "Seleccionar usuario a editar" {
+  start
+  :Buscar Usuario por nombre;
+  :Seleccionar Usuario;
+  
+}
+
+partition "Editar detalles del usuario" {
+  :Modificar nombre de Usuario;
+  :Modificar datos personales;
+  :Modificar credenciales;
+  :confirmarEdicionUsuario;
+  stop
+}
+
+@enduml

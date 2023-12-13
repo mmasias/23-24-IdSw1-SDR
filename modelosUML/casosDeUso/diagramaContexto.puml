@@ -1,4 +1,7 @@
-@startuml
+@startuml Diagrama Contexto
+
+skin rose
+title Diagrama de contexto
 
 [*] -->  Inicial
 

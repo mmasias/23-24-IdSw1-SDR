@@ -1,0 +1,21 @@
+@startuml
+skin rose
+
+  start
+:DASHBOARD_ABIERTO;
+-> El sistema da la opción de ver los usuarios;
+repeat :USUARIOS
+-> El sistema da la opción de crear los usuarios;
+:CREAR_USUARIO;
+-> Ingresar detalles del nuevo usuario
+  :                     ;
+  ->Introducir nombre de Usuario;
+  :                     ;
+  ->Introducir datos personales;
+  :                     ;
+  ->Introducir credenciales;
+repeat while (¿Deseas crear este usuario?) is (no)
+  :confirmarCreacionUsuario;
+  stop
+
+@enduml

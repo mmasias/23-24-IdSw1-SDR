@@ -1,27 +1,22 @@
-@startuml
+@startuml Diagrama de CDU
 
 skin rose
+left to right direction
+title Casos de Uso
 
-Usuario -up-|> Trabajador
 Administrador -up-|> Usuario
 
-Trabajador --> (Crear registro)
+Usuario --> (verFichajeDiario)
+Usuario --> (verInforme)
 
-Usuario --> (Ver fichaje diario)
-Usuario --> (Ver informe)
+Administrador --> (verFichajeDiario)
+Administrador --> (editarFichajeDiario)
 
-Administrador --> (Ver fichaje diario)
-Administrador --> (Editar fichaje diario)
+Administrador --> (verInforme)
 
-Administrador --> (Ver informe)
-
-Administrador --> (Crear Usuarios)
-Administrador --> (Ver Usuarios)
-Administrador --> (Editar Usuarios)
-Administrador --> (Eliminar Usuarios)
-
-(Ver informe) --> (Dia)
-(Ver informe) --> (Semana)
-(Ver informe) --> (Mes)
+Administrador --> (crearUsuarios)
+Administrador --> (verUsuarios)
+Administrador --> (editarUsuarios)
+Administrador --> (eliminarUsuarios)
 
 @enduml
