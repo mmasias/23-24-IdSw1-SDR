@@ -2,11 +2,9 @@
 
 skin rose
 left to right direction
+title Casos de Uso
 
-Usuario -up-|> Trabajador
 Administrador -up-|> Usuario
-
-Trabajador --> (crearRegistro)
 
 Usuario --> (verFichajeDiario)
 Usuario --> (verInforme)

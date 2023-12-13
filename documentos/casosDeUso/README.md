@@ -3,8 +3,7 @@
 ## Identificación
 
 ### Actores
-- Trabajador
-- Usuario extiende Trabajador
+- Usuario
 - Administrador extiende Usuario
 
 ### Casos de Uso
