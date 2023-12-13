@@ -29,9 +29,10 @@
 
 <details>
 <summary> Ver Usuarios </summary>
+
 |  |
 | -- |
-| ![](../../imagenes/prototipos/Usuarios/VerUsuario.png) |
+| ![](../../imagenes/prototipos/usuarios/VerUsuario.png) |
 
 </details>
 
