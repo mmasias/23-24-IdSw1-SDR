@@ -1,5 +1,8 @@
 @startuml Diagrama Contexto
 
+skin rose
+title Diagrama de contexto
+
 [*] -->  Inicial
 
 Inicial -d-> DASHBOARD_ABIERTO : login/registrarse
