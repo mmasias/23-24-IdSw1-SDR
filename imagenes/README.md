@@ -13,5 +13,7 @@
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
 - [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
+- [Bases](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Bases)
+- [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
 
 ---

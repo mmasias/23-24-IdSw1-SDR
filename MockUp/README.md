@@ -13,5 +13,7 @@ En esta carpeta encontrarás una variedad de MockUps para el proyecto Time Guard
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
 - [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
+- [Bases](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Bases)
+- [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
 
 ---
