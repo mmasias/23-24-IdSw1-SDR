@@ -27,5 +27,13 @@ También diseñado para la gestión eficiente de espacios físicos, en este caso
 ## Guardado de Cambios🔐
 Todos los cambios realizados en el sistema se guardan de manera segura y eficiente, asegurando que la información del horario esté actualizada y sea accesible para el administrador de horarios.
 
----
 
+## Enlace➡️
+
+
+- [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
+- [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
+- [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
+- [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
+
+---
