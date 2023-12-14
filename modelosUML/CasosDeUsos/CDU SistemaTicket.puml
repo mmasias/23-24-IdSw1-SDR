@@ -17,15 +17,15 @@ rectangle SistemaTicket{
     JefeProyecto -l-> Usuario
     JefeProyecto -- (Asignar Ticket)
     JefeProyecto -- (Buscar Ticket)
-    (Buscar Ticket) .. (Filtrar Fecha) : <<extends>>
-    (Buscar Ticket) .. (Filtrar Prioridad) : <<extends>>
-    (Buscar Ticket) .. (Filtrar Responsable) : <<extends>>
-    (Buscar Ticket) .. (Filtrar Estado) : <<extends>>
-    (Buscar Ticket) .. (Filtrar Proyecto) : <<extends>>
+    (Buscar Ticket) ..> (Filtrar Fecha) :<<extends>>
+    (Buscar Ticket) ..> (Filtrar Prioridad) : <<extends>>
+    (Buscar Ticket) ..>  (Filtrar Responsable) : <<extends>>
+    (Buscar Ticket) ..> (Filtrar Estado) : <<extends>>
+    (Buscar Ticket) ..>  (Filtrar Proyecto) : <<extends>>
     Admin -l-> Usuario
     Admin -l-> JefeProyecto
     Admin -- (Consultar Historial)
-    (Consultar Historial) .. (Exportar Informe) : <<extends>>
+    (Consultar Historial) ..> (Exportar Informe) : <<extends>>
     Admin -- (Cerrar Ticket)
 }
 
