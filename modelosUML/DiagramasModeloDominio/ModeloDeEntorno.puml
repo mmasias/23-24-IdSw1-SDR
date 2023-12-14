@@ -1,10 +1,8 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 title Modelo del entorno
-profesor --> core : > utiliza
-secretariaAcademica --> core: > utiliza
-profesor -- ticket: > crea
-secretariaAcademica -- ticket: > crea
+usuario --> core : > utiliza
+usuario -- ticket: > crea
 core .. ticket : > registra\nsus errores en
 
 @enduml

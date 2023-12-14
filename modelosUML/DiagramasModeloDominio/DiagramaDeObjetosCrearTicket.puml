@@ -1,0 +1,18 @@
+@startuml
+
+title Diagrama de Objetos Crear Ticket
+
+object "usuario1 : usuario" as usuario{
+    nombre:"Barbara"
+    contraseña:"1234"
+    correo:"barbara@alumnos.com"
+
+}
+object "ticket1 : ticket" as ticket{
+    etiqueta:"Critica"
+    fecha:"12/12/2020-12:00PM"
+    estado:"Pendiente"
+}
+usuario-- ticket: > crea
+
+@enduml
