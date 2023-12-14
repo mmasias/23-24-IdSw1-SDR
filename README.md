@@ -11,7 +11,6 @@ Cliente: _Clara Arnaiz_
   - Diagramas de Clases
   - Diagramas de Estados
   - Diagramas de Objetos
-  - Diagramas de Flujo
 - [Actores y Casos de Uso](/documentos/casosDeUso/README.md)
   - Diagrama de Casos de Uso
   - Diagrama de Contexto

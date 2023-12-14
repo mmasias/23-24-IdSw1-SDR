@@ -37,12 +37,3 @@
 
 </details>
 
-<details>
-<summary>Diagrama de Flujo</summary>
-
-|Descripción|Diagrama|Enlace PUML|  
-|--|--|--|
-|| ![](../../imagenes/modeloDelDominio/diagramaFlujo/diagramaFlujo.svg)| [Codigo PUML](../../modelosUML/diagramaFlujo.puml)|
-
-</details>
-
