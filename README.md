@@ -36,4 +36,5 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 - [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 
+
 ---
