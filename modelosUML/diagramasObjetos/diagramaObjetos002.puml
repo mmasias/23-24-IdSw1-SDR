@@ -1,4 +1,4 @@
-@startuml
+@startuml Creación de un informe semanal
 
 object "fichajeLunes : Fichaje" as FichajeLunes1 {
     Trabajador: "Clara"

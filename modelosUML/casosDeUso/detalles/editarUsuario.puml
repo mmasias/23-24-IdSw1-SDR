@@ -1,4 +1,4 @@
-@startuml
+@startuml Editar informacion de un usuario
 skin rose
 
 :DASHBOARD_ABIERTO;

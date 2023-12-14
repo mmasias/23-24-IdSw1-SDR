@@ -1,16 +1,22 @@
-@startuml
+@startuml Diagrama de clases
 class Trabajador{
-   
+    + Identificador
 }
 class LectorDeHuellas{
     + Huella
 }
 class Fichaje{
+    + Trabajador
     + Fecha
-    + Hora
+    + HoraEntrada
+    + HoraSalida
 }
 
 class Informe{
+    + Trabajador
+    + HorasPorDia
+    + HorasSemanales
+    + HorarioCumplido
 }
 
 class Horario{

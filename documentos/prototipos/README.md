@@ -37,6 +37,30 @@
 </details>
 
 <details>
+<summary>Crear Usuarios</summary>
+
+</details>
+
+<details>
+<summary>Editar Usuarios</summary>
+
+![](../../imagenes/prototipos/usuarios/editarUsuario.png)
+</details>
+
+<details>
+<summary>Eliminar Usuarios</summary>
+
+### Vista
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png)
+
+### Formulario
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios2.png)
+
+### Confirmación
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png)
+</details>
+
+<details>
 <summary>Diagrama de contexto con Prototipos</summary>
 
 |  |  |

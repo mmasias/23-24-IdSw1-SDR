@@ -1,4 +1,4 @@
-@startuml
+@startuml Registro de un fichaje
 
 object "trabajador1 : Trabajadores" as trabajador1 {
     Nombre = "Clara"

@@ -4,17 +4,17 @@
 
 ### Actores
 - Usuario
-- Administrador extiende Usuario
+- Administrador (extiende de Usuario)
 
 ### Casos de Uso
-- Usuario:
+#### Usuario:
   - READ Fichaje Diario
-  - READ Informe
+  - Informe
     - READ Dia
     - READ Semana
     - READ Mes
 
-- Administrador(Usuario):
+- Administrador (Usuario):
   - READ Fichaje Diario
   - UPDATE Fichaje Diario
   - READ Informe

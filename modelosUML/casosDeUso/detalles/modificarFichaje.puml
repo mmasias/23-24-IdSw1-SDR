@@ -1,4 +1,4 @@
-@startuml
+@startuml Modificar un fichaje
 skin rose
 
 :DASHBOARD_ABIERTO;
