@@ -2,9 +2,8 @@
 
 ---
 
-## MockUp de Time Guardian 🕒
-
-En esta carpeta encontrarás una variedad de MockUps para el proyecto Time Guardian. Cada uno de estos diseños representa una visión única y creativa del proyecto. 
+## Casos de Uso 📝
+Bienvenidos a la carpeta de Casos de Uso. Aquí encontrarás todos los diagramas, descripciones y escenarios relacionados con los casos de uso de nuestro proyecto.
 
 
 ## Enlace➡️
@@ -12,9 +11,10 @@ En esta carpeta encontrarás una variedad de MockUps para el proyecto Time Guard
 - [Inicio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main)
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
 - [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
+- [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
-- [Bases](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Bases)
 - [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
-- [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Casos%20de%20Uso)
+
+
 
 ---

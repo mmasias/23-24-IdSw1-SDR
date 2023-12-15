@@ -37,6 +37,7 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 - [Bases](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Bases)
 - [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
+- [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Casos%20de%20Uso)
 
 
 ---
