@@ -27,7 +27,6 @@ user --> login : "Accede a"
 user1 --> registro : "Accede a"
 user --> recuperar : "Accede a"
 user --> recordar : "Accede a"
-login --> user1 : "Pagina principal"
 
 rectangle "FISC Pestaña Nueva Simulacion" {
   usecase "Proyecto nuevo" as nuevap
@@ -35,7 +34,6 @@ rectangle "FISC Pestaña Nueva Simulacion" {
   usecase "Exportar proyecto" as exportar
   usecase "Examinar" as examinar
   usecase "Aceptar" as ok
-
 }
 
 user3 --> nuevap : "Selecciona"
