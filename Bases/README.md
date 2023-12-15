@@ -15,6 +15,7 @@ Bienvenidos a la carpeta de Bases de Datos del proyecto. Aquí encontrarás todo
 - [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 - [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
+- [Casos de uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Casos%20de%20Uso)
 
 
 ---
