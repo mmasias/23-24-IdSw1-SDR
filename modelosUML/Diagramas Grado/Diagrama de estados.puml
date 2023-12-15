@@ -1,0 +1,9 @@
+@startuml
+[*] --> GradosNoRecibidos: Inicio del proceso
+GradosNoRecibidos --> TodosLosGradosRecibidos : Detectar grados faltantes
+TodosLosGradosRecibidos --> AsignandoGradosADocente: Comenzar asignación
+AsignandoGradosADocente --> GradosNoAsignados: Identificar grados pendientes
+AsignandoGradosADocente --> AsignandoGradosADocente : Completar asignación
+AsignandoGradosADocente --> GradosAsignadosADocente
+GradosAsignadosADocente --> [*]: Proceso finalizado
+@enduml
