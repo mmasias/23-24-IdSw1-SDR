@@ -27,7 +27,6 @@ user --> login : "Accede a"
 user1 --> registro : "Accede a"
 user --> recuperar : "Accede a"
 user --> recordar : "Accede a"
-user1 --> login : "Pagina principal"
 login --> user2 : "Inicia Sesión"
 
 rectangle "FISC Pestaña Nueva Simulacion" {
