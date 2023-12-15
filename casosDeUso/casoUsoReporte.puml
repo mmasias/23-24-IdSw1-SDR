@@ -1,0 +1,19 @@
+@startuml
+
+title Caso de Uso Reporte - FISC
+
+left to right direction
+
+actor Usuario as user7
+
+rectangle "FISC Pagina Reporte" {
+  usecase "Exportar" as exportareporte
+  usecase "Imprimir" as imprimir
+  usecase "Guardar" as guardar
+}
+
+user7 --> exportareporte : "Selecciona"
+user7 --> imprimir : "Selecciona"
+user7 --> guardar : "Selecciona"
+
+@enduml
