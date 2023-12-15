@@ -1,6 +1,6 @@
 @startuml
 
-title Diagrama de Objetos - Simulación en Aplicación FISC
+title Diagrama de Objetos del Estado Generando Reporte - Simulación en Aplicación FISC
 
 object "usuario1 : Usuario" as usuario1 {
     nombre = "Jorge"
