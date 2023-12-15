@@ -1,5 +1,5 @@
 @startuml
-title Flujo de la Aplicación FISC
+title Diagrama de Contexto de la Aplicación FISC
 
 start
 
@@ -11,13 +11,14 @@ if (Importar Proyecto) then (si)
 else (no)
     if (Nuevo Proyecto) then (sí)
         :Configurar Nuevo Proyecto;
+:Seleccionar Tipología;
+    :Configurar Material;
+    :Configurar Agresión Térmica;
     else (no)
         :Seleccionar Proyecto Existente;
     endif
 
-    :Seleccionar Tipología;
-    :Configurar Material;
-    :Configurar Agresión Térmica;
+    
 endif
     :Revisar y Confirmar Datos;
     :Iniciar Simulación;
@@ -25,11 +26,11 @@ endif
     if (¿Hay Errores?) then (sí)
         :Mostrar Errores;
         :Corregir Datos;
-        -> Revisar y Confirmar Datos;
+        :Revisar y Confirmar Datos;  
+        :Iniciar Simulación;
     else (no)
-        :Generar Resultados;
     endif
-
+    :Generar Resultados;
     :Visualizar Gráficos y Datos;
     :Generar Reporte;
     :Exportar Datos/Reporte;
