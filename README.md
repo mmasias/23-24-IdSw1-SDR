@@ -14,9 +14,9 @@
 
 - **[Modelo de Dominio:](/documentosMD/modeloDelDominio.md)** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
 
-- **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
+- **[Casos de Uso](/casosDeUso/):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
 
-- **[Diseños de Interfaz](/diseñoInterfaz/):** Mira cómo la interfaz de usuario de FISC toma forma, con diseños y prototipos interactivos.
+- **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
 
 - **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
 

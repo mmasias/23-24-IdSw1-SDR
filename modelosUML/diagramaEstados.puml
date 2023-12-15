@@ -8,4 +8,7 @@ Simulacion --> Reporte : Obtiene
 Reporte --> EligiendoCaracteristicas : Nuevo modelado
 Reporte --> [*] : Cierra Sesion
 
+EligiendoCaracteristicas --> EligiendoCaracteristicas
+Simulacion --> EligiendoCaracteristicas : Error
+
 @enduml
