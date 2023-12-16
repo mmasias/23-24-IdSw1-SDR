@@ -1,0 +1,28 @@
+@startuml
+class Docente {
+     +nombre
+     +apellido
+     
+
+}
+
+class Asignatura {
+    +nombre
+    +id
+    +grado
+
+}
+
+class GestorAsignaciones {
+
+    +asignarAsignaturaDocente
+    +verificarAsignaciones
+}
+
+
+
+
+Asignatura --> Docente   : asignado a >
+GestorAsignaciones --> Docente : gestiona >
+GestorAsignaciones--> Asignatura : gestiona >
+@enduml
