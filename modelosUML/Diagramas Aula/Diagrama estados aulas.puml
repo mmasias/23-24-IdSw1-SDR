@@ -1,0 +1,11 @@
+@startuml
+[*] --> AulasNoRecibidas: Inicio del proceso
+AulasNoRecibidas --> AulasRecibidas: Recepción de aulas
+AulasRecibidas --> VerificacionAulas: Comenzar asignación
+VerificacionAulas -->AsignandoAulas  : Verificar Disponibilidad
+AsignandoAulas --> AsignandoAulas 
+AsignandoAulas --> TodasLasAulasAsignadas: Aulas no disponibles, todas asignadas
+AsignandoAulas --> AulasNoAsignadas: Aulas Disponibles
+AulasNoAsignadas--> TodasLasAulasAsignadas: Completar todas las asignaciones
+TodasLasAulasAsignadas --> [*]
+@enduml
