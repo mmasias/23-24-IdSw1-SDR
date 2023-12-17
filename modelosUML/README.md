@@ -7,10 +7,9 @@ Bienvenido a la carpeta de Modelos UML para el proyecto. Aquí encontrarás una 
 
 ---
 
-<figure>
-    <img src="imagenes/modelosUML/Diagramas%20Generales/Diagrama%20de%20estados.svg" alt="Diagrama de Estados" style="width:100%">
-    <figcaption><b>Figura 1:</b> Diagrama PlantUML.</figcaption>
-</figure>
+|Diagrama de estados|
+|-|-|-|
+![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/modelosUML/Diagramas%20Generales/Diagrama%20de%20estados.svg)
 
 ## Enlace➡️
 
