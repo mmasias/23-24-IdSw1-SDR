@@ -7,8 +7,7 @@ Bienvenido a la carpeta de Modelos UML para el proyecto. Aquí encontrarás una 
 
 ---
 
-|Diagrama de estados|
-|-|-|-|
+|Diagrama de estados|-|-|
 ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/modelosUML/Diagramas%20Generales/Diagrama%20de%20estados.svg)
 
 ## Enlace➡️
