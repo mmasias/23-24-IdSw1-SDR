@@ -11,27 +11,57 @@
 
 ## Descripción
 
-> Es una plataforma que se encarga de conectar a estudiantes egresados de las universidades de la red FUNIBER con empresas y ofrecer servicios adicionales.
+Es una plataforma que se encarga de conectar a estudiantes egresados de las universidades de la red Uneatlantico con empresas, ademas de ofrecer servicios.
 
-## Índice
+## Modelo de Dominio
+  En este apartado se encuentra la esctructura de Alumni, una plataforma en la que se concentran servicios para los estudiantes egresados. Para estructurar la plataforma se han realizado una serie de diagramas que explican el funcionamiento de la misma. Estos son los siguientes:
 
- - [Modelos de Dominio](/Modelos_de_Dominio/Modelos_Finales)
-   - [Iteración Actual](/Modelos_de_Dominio/Modelos_Finales/Segunda_Iteración/Modelo_de_Dominio/Readme.md)
-     - [Diagrama de Servicios](/Modelos_de_Dominio/Modelos_Finales/Segunda_Iteración/Diagrama_de_Servicios/Readme.md) 
-   - [Iteraciones Individuales](/Modelos_de_Dominio/Modelos_Individuales/)
-     - [Iteracion Actual](/Modelos_de_Dominio/Modelos_Individuales/Segunda_Iteración/)
+  <details>
+    <summary>Diagramas de Clases</summary>
+      <h4 align="center">Diagrama de Clases</h4>
+      <div align="center">
+        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Clases.svg" align="center">
+      </div>
+      <h4 align="center">Diagrama de Servicios Externos</h4>
+      <div align="center">
+        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Servicios_Externos.svg" align="center">
+      </div>
+      <h4 align="center">Diagrama de Servicios</h4>
+      <div align="center">
+        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Servicios.svg" align="center">
+      </div>
+  </details>
 
- - [Diagramas de estado](/Diagramas_de_Estado/)
-   - [Iteración actual](/Diagramas_de_Estado/Primera_Iteración/)
-     - [Usuario](/Diagramas_de_Estado/Primera_Iteración/Usuario/Readme.md)
+  <details>
+    <summary>Diagrama de Estados</summary>
+    <div align="center">
+      <image src="./Imágenes/Modelo de Dominio Extendido.png" align="center">
+    </div>
+  </details>
 
- - [Requisitos](/Requisitos/)
-   - [Actores](/Requisitos/Actores/Readme.md)
-   - [Casos de Uso](/Requisitos/Casos_de_Uso/Readme.md)
+  <details>
+    <summary>Diagrama de Objetos</summary>
+    <div align="center">
+      <image src="./Imágenes/Modelo de Dominio Extendido.png" align="center">
+    </div>
+  </details>
 
- - [Sesiones](/Sesiones/)
-   - [Sesión 19/10/2023](/Sesiones/19-10-2023/)
-   - [Sesión 07/11/2023](/Sesiones/07-11-2023/)
+## Casos de Uso
+  En este apartado estan los actores y casos de Uso de Alumni, utilizados para detallar el funcionamiento de la plataforma. Estos son los siguientes:
+
+  <details>
+    <summary>Actores</summary>
+    <div align="center">
+      <image src="./Imágenes/Actores.png" align="center">
+  </div>
+  </details>
+
+  <details>
+    <summary>Casos de Uso</summary>
+    <div align="center">
+      <image src="./Imágenes/Casos de Uso.png" align="center">
+  </div>
+  </details>
 
  ## Integrantes
 
