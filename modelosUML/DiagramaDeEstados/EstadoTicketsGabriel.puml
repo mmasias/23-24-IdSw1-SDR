@@ -1,0 +1,22 @@
+@startuml
+
+[*] --> CrearTicket
+
+state CrearTicket {
+  [*] --> Nuevo
+  Nuevo --> Pendiente : "Crear ticket"
+  Pendiente --> EnProceso : "Validación exitosa"
+  Pendiente --> Cerrado : "Cierre directo"
+  Pendiente --> EnEspera : "En espera de más información"
+  EnProceso --> Resuelto : "Resuelto"
+  EnProceso --> EnProceso : "En proceso"
+  EnProceso --> EnEspera : "En espera de más información"
+  EnEspera --> EnProceso : "Información proporcionada"
+  Resuelto --> EsperandoValidacion : "Esperando validación"
+  EsperandoValidacion --> Cerrado : "Validación exitosa"
+  EsperandoValidacion --> EnProceso : "Rechazo de validación"
+  EsperandoValidacion --> EnEspera : "En espera de más información"
+  Cerrado --> [*] : "Cierre finalizado"
+}
+
+@enduml
