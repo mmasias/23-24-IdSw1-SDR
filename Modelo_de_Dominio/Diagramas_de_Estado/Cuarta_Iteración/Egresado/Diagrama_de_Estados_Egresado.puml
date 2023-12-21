@@ -17,15 +17,12 @@ RellenandoFormulario --> UsuarioAlumni : Formulario enviado
 }
 RegistrandoseEnAlumni --> Alumni
 state Alumni{
-[*]-->Egresado
-Egresado --> Suscrito : se suscribe
-Egresado --> SuscritoPaquete : se suscribe a un paquete
-SuscritoPaquete--> Egresado: se desuscribe a un paquete
-Egresado --> RealizandoPago : se suscribe a un paquete de pago
-RealizandoPago --> SuscripcionPago : se suscribe
-SuscripcionPago -->RealizandoPago : se desuscribe
-Suscrito -->Egresado : se desuscribe
-RealizandoPago --> Egresado : deja de pagar
-Egresado -->[*]:se da de baja
+[*]-->NoSuscrito
+NoSuscrito--> Suscrito : se suscribe a un servicio
+Suscrito --> Suscrito : se suscribe a otro servicio
+NoSuscrito--> RealizandoPago : se suscribe a un paquete de pago
+Suscrito -->NoSuscrito: se desuscribe
+RealizandoPago --> NoSuscrito: deja de pagar
+NoSuscrito-->DadoDeBaja:se da de baja
 }
 @enduml
