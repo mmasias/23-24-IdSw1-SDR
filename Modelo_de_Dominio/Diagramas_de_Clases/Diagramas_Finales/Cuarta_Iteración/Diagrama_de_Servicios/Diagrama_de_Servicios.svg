@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="337px" preserveAspectRatio="none" style="width:675px;height:337px;background:#FFFFFF;" version="1.1" viewBox="0 0 675 337" width="675px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="146" x="257.5" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="262.5" y="24.9659">Servicios de Alumni</text><!--MD5=[30a145389985b39b0bce1272ac991c13]
+class SERVICIO--><g id="elem_SERVICIO"><rect codeLine="9" fill="#F1F1F1" height="102.2717" id="SERVICIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91" x="288" y="47.0679"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="63" x="302" y="67.0339">SERVICIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="289" x2="378" y1="76.1358" y2="76.1358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="294" y="95.1018">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="79" x="294" y="114.1697">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="42" x="294" y="133.2376">precio</text><line style="stroke:#181818;stroke-width:0.5;" x1="289" x2="378" y1="141.3396" y2="141.3396"/></g><!--MD5=[47077f945d59e6f3403f02c3421ace20]
+class COMUNICACIÓN--><g id="elem_COMUNICACIÓN"><rect codeLine="16" fill="#F1F1F1" height="102.2717" id="COMUNICACIÓN" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="7" y="218.8679"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="113" x="10" y="238.8339">COMUNICACIÓN</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="125" y1="247.9358" y2="247.9358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="37" x="13" y="266.9018">Email</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="31" x="13" y="285.9697">Chat</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="85" x="13" y="305.0376">Seguimiento</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="125" y1="313.1396" y2="313.1396"/></g><!--MD5=[48505422c03f555df6ba4b5977c5d640]
+class INSTALACIONES--><g id="elem_INSTALACIONES"><rect codeLine="23" fill="#F1F1F1" height="102.2717" id="INSTALACIONES" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="160.5" y="218.8679"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="109" x="194" y="238.8339">INSTALACIONES</text><line style="stroke:#181818;stroke-width:0.5;" x1="161.5" x2="335.5" y1="247.9358" y2="247.9358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="66" x="166.5" y="266.9018">Biblioteca</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="139" x="166.5" y="285.9697">Sala de ordenadores</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="164" x="166.5" y="305.0376">Instalaciones deportivas</text><line style="stroke:#181818;stroke-width:0.5;" x1="161.5" x2="335.5" y1="313.1396" y2="313.1396"/></g><!--MD5=[6750979e80429437d6fa463c6f206655]
+class NEWSLETTER--><g id="elem_NEWSLETTER"><rect codeLine="30" fill="#F1F1F1" height="83.2038" id="NEWSLETTER" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="371.5" y="228.4079"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="88" x="374.5" y="248.3739">NEWSLETTER</text><line style="stroke:#181818;stroke-width:0.5;" x1="372.5" x2="464.5" y1="257.4758" y2="257.4758"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="54" x="377.5" y="276.4418">Noticias</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="52" x="377.5" y="295.5097">Eventos</text><line style="stroke:#181818;stroke-width:0.5;" x1="372.5" x2="464.5" y1="303.6117" y2="303.6117"/></g><!--MD5=[0fe3946baf08576b1ff49b2fa5551d2f]
+class OFERTAS DE EMPLEO--><g id="elem_OFERTAS DE EMPLEO"><rect codeLine="36" fill="#F1F1F1" height="121.3396" id="OFERTAS DE EMPLEO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="167" x="501" y="209.3379"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="141" x="514" y="229.3039">OFERTAS DE EMPLEO</text><line style="stroke:#181818;stroke-width:0.5;" x1="502" x2="667" y1="238.4058" y2="238.4058"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="155" x="507" y="257.3718">Nombre de la empresa</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="118" x="507" y="276.4397">Puesto de trabajo</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="46" x="507" y="295.5076">Salario</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="66" x="507" y="314.5755">Ubicación</text><line style="stroke:#181818;stroke-width:0.5;" x1="502" x2="667" y1="322.6775" y2="322.6775"/></g><!--MD5=[00133b0a76c559816949c3688f6392e2]
+reverse link SERVICIO to COMUNICACIÓN--><g id="link_SERVICIO_COMUNICACIÓN"><path codeLine="44" d="M268.75,133.8979 C231.39,154.6179 183.95,182.1179 143.5,209.3379 C137.89,213.1179 132.15,217.1679 126.46,221.3179 " fill="none" id="SERVICIO-backto-COMUNICACIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="265.32,127.7979,286.22,124.3079,272.06,140.0679,265.32,127.7979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5a4691a87c648f897393de61f09c428]
+reverse link SERVICIO to INSTALACIONES--><g id="link_SERVICIO_INSTALACIONES"><path codeLine="45" d="M298.71,168.6979 C290.38,185.3479 281.63,202.8179 273.82,218.4179 " fill="none" id="SERVICIO-backto-INSTALACIONES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="292.34,165.7979,307.55,151.0479,304.86,172.0579,292.34,165.7979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cddf0998890ff4ad4806747582ed889d]
+reverse link SERVICIO to NEWSLETTER--><g id="link_SERVICIO_NEWSLETTER"><path codeLine="46" d="M368.38,168.8779 C378.46,189.0179 389.14,210.3479 398.03,228.1179 " fill="none" id="SERVICIO-backto-NEWSLETTER" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="362.14,172.0579,359.45,151.0479,374.66,165.7979,362.14,172.0579" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[63888408fb33a512658dcb2f0c03b322]
+reverse link SERVICIO to OFERTAS DE EMPLEO--><g id="link_SERVICIO_OFERTAS DE EMPLEO"><path codeLine="47" d="M396.89,142.0879 C428.39,163.3979 466.86,189.4179 500.74,212.3479 " fill="none" id="SERVICIO-backto-OFERTAS DE EMPLEO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="393.14,147.9979,380.5,130.9979,400.99,136.4079,393.14,147.9979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dec1000b9df0bf17adba002523439e18]
+@startuml AlumniModel
+
+title Servicios de Alumni
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+}
+
+class COMUNICACIÓN 
+{
+    Email
+    Chat
+    Seguimiento
+}
+
+class INSTALACIONES 
+{
+    Biblioteca
+    Sala de ordenadores
+    Instalaciones deportivas
+}
+
+class NEWSLETTER 
+{
+    Noticias
+    Eventos
+}
+
+class "OFERTAS DE EMPLEO" 
+{
+    Nombre de la empresa
+    Puesto de trabajo
+    Salario
+    Ubicación
+}
+
+SERVICIO <|- - "COMUNICACIÓN"
+SERVICIO <|- - "INSTALACIONES"
+SERVICIO <|- - "NEWSLETTER"
+SERVICIO <|- - "OFERTAS DE EMPLEO"
+
+@enduml
+
+@startuml AlumniModel
+
+title Servicios de Alumni
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class SERVICIO 
+{
+    Nombre 
+    Descripción
+    precio
+}
+
+class COMUNICACIÓN 
+{
+    Email
+    Chat
+    Seguimiento
+}
+
+class INSTALACIONES 
+{
+    Biblioteca
+    Sala de ordenadores
+    Instalaciones deportivas
+}
+
+class NEWSLETTER 
+{
+    Noticias
+    Eventos
+}
+
+class "OFERTAS DE EMPLEO" 
+{
+    Nombre de la empresa
+    Puesto de trabajo
+    Salario
+    Ubicación
+}
+
+SERVICIO <|- - "COMUNICACIÓN"
+SERVICIO <|- - "INSTALACIONES"
+SERVICIO <|- - "NEWSLETTER"
+SERVICIO <|- - "OFERTAS DE EMPLEO"
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
