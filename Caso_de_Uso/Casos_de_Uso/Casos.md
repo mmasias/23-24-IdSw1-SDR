@@ -4,30 +4,17 @@
   - Registro en Plataforma
   - Cancelación de Cuenta
   - Actualización de Datos de la cuenta
-  - Suscripción a Servicio
-  - Suscripción a Paquete de Servicios
-  - Cancelación de Suscripción a Servicio
-  - Cancelación de Suscripción a Paquete de Servicios
-  - Servicios
+  - Suscripción a Servicio / Paquete de Servicios
+  - Cancelación de Suscripción a Servicio / Paquete de Servicios
+  - Listar Servicios / Paquete de Servicios Disponibles
+  - Servicios Internos
     - Comunicación
       - Chat
+        - Listar Chats
         - Ver mensajes
         - Enviar mensajes
-    - Instalaciones
-      - listar instalaciones
-      - Ver disponibilidad
-      - Reservar instalación
-      - Cancelar reserva
-    - Newsletter
-      - Listar categorías(noticias, eventos, etc)
-      - Suscribirse a categoría
-      - Cancelar suscripción a categoría
-    - Ofertas de Empleo
-      - Listar ofertas
-      - Postularse a oferta
-      - Cancelar postulación
 - Administrador
-  - Gestion de Servicios
+  - Gestion de Servicios internos
     - Comunicación
       - Chat
         - Ver mensajes
@@ -35,27 +22,6 @@
       - Email
         - Enviar email
         - Ver emails enviados
-    - Instalaciones
-      - Añadir instalación
-      - Editar instalación
-      - Eliminar instalación
-      - Listar instalaciones
-      - Ver disponibilidad
-      - Reservar instalación
-      - Cancelar reserva
-    - Newsletter
-      - Listar categorías(noticias, eventos, etc)
-      - Editar categoría
-      - Eliminar categoría
-      - Crear categoría
-      - Enviar newsletter
-      - Ver newsletter enviados
-    - Ofertas de Empleo
-      - Listar ofertas
-      - Editar oferta
-      - Eliminar oferta
-      - Crear oferta
-      - Enviar Postulación a empresa
   - Gestion Paquete de Servicios
     - Crear Paquete de Servicios
     - Editar Paquete de Servicios
@@ -67,3 +33,7 @@
     - Eliminar Egresado
     - Crear Egresado
   - Consultar estadísticas
+
+- Servicios Externos
+  - enviar petición
+  - recibir respuesta
