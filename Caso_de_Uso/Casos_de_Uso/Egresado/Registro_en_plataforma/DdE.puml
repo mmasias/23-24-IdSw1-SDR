@@ -5,13 +5,10 @@ top to bottom direction
 [*] --> NoRegistrado : Inicio
 
 state NoRegistrado {
-  [*] --> ValidandoConfirmación : Egresado introduce sus datos
-  note on link
-        **Se validará con la BD de Uneatlantico**
-        **para enlazar e identificar al egresado**
-  end note
-  ValidandoConfirmación --> Registrado : Encontrado en BD Uneatlantico
-  ValidandoConfirmación --> NoRegistrado : Egresado no encontrado
+  state Procesando <<choice>>
+  [*] --> Procesando : Egresado introduce sus datos
+  Procesando --> Registrado : Encontrado en BD Uneatlantico
+  Procesando --> NoRegistrado : Egresado no encontrado
 }
 
 state Registrado {

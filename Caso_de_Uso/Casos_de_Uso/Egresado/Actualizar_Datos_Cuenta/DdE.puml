@@ -1,0 +1,10 @@
+@startuml
+skinparam defaultFontName Arial
+top to bottom direction
+
+[*] --> ActualizarDatosCuenta: Datos actualizados
+state ComprobarDatos <<choice>>
+ActualizarDatosCuenta --> ComprobarDatos: Se comprueban los datos
+ComprobarDatos --> DatosActualizados
+ComprobarDatos --> DatosNoActualizados
+@enduml

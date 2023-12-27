@@ -1,0 +1,13 @@
+@startuml
+skinparam defaultFontName Arial
+top to bottom direction
+
+[*] --> CancelaciónSolicitada: Inicio
+
+state CancelaciónSolicitada{
+  state ComprobarRequisitos <<choice>>
+  [*] --> ComprobarRequisitos : Si se cumplen los requisitos se procede a la eliminación de la cuenta
+  ComprobarRequisitos --> UsuarioEliminado: Se procede a la eliminación de los datos
+  ComprobarRequisitos --> UsuarioBloqueado: Se procede al bloqueo del usuario pero no se borran los datos
+}
+@enduml

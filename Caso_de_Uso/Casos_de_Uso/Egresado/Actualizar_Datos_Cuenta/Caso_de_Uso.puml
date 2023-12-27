@@ -1,0 +1,9 @@
+@startuml Platform_Register
+left to right direction
+title Actualización de Datos de la cuenta
+
+actor Egresado
+
+Egresado --> (Actualización de Datos de la cuenta)
+
+@enduml

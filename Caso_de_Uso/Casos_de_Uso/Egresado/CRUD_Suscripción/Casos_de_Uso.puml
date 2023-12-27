@@ -1,16 +1,15 @@
 @startuml CRUD_Suscription
+left to right direction
 
 title CRUD Suscripción
 
 folder "CRUD Suscripción" {
-
     actor Egresado
 
-    Egresado --> (Listar Servicios)
-    Egresado --> (Suscripción a Servicio)
-    Egresado --> (Editar Suscripción de Servicio)
-    Egresado --> (Eliminar Suscripción de Servicio)
-
+    Egresado --> (Listar Servicios/Paquetes)
+    Egresado --> (Suscripción a Servicio/Paquete)
+    Egresado --> (Editar Suscripción de Servicio/Paquete)
+    Egresado --> (Eliminar Suscripción de Servicio/Paquete)
 }
 
 @enduml
