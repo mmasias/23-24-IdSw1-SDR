@@ -17,6 +17,7 @@
   - Gestion de Servicios internos
     - Comunicación
       - Chat
+        - Listar Chats
         - Ver mensajes
         - Enviar mensajes
       - Email
@@ -35,5 +36,4 @@
   - Consultar estadísticas
 
 - Servicios Externos
-  - enviar petición
-  - recibir respuesta
+  - Realziar Petición
