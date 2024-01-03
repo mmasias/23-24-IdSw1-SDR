@@ -95,6 +95,7 @@
 
 |  |  |
 | -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
 
 </details>
 
