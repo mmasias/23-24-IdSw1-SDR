@@ -1,0 +1,21 @@
+@startuml ver_usuario
+skin rose
+
+  start
+:DASHBOARD_ABIERTO;
+-> El sistema muestra la opción de gestionar usuarios;
+-> Seleccionar opción "Ver Usuarios";
+:LISTA_USUARIOS;
+repeat :SELECCIONAR_USUARIO
+  -> El sistema muestra el perfil completo del usuario;
+  :VISUALIZAR_PERFIL;     
+  
+  -> Mostrardatos personales;
+  :                     ;
+  -> Mostrar si sigue contratado;
+  :                     ;
+  -> Opción para editar o eliminar usuario;
+repeat while (¿Deseas ver otro usuario?) is (no)
+  stop
+
+@enduml
