@@ -1,4 +1,4 @@
-@startuml
+@startuml Eliminar usuario
 skin rose
 title Caso de Uso: Eliminar un Usuario
 

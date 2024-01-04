@@ -4,17 +4,17 @@
 
 ### Actores
 - Usuario
-- Administrador extiende Usuario
+- Administrador (extiende de Usuario)
 
 ### Casos de Uso
-- Usuario:
+#### Usuario:
   - READ Fichaje Diario
-  - READ Informe
+  - Informe
     - READ Dia
     - READ Semana
     - READ Mes
 
-- Administrador(Usuario):
+- Administrador (Usuario):
   - READ Fichaje Diario
   - UPDATE Fichaje Diario
   - READ Informe
@@ -56,6 +56,7 @@
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/detalles/verInforme.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInforme.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verInformeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml) |
 
 </details>
 
@@ -82,7 +83,10 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/modificarFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichaje.puml) |
+| ![](../../imagenes/casosDeUso/detalles/modificarFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichaje.puml) | 
+| ![](../../imagenes/casosDeUso/detalles/modificarFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichajeV2.puml) | 
+
+
 
 </details>
 
@@ -91,6 +95,7 @@
 
 |  |  |
 | -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
 
 </details>
 

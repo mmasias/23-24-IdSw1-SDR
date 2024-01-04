@@ -1,13 +1,13 @@
 @startuml DiagramaEstados
-state Trabajando
-state NoTrabajando
+
+hide empty description
 
 [*] -->  NoTrabajando
 
-NoTrabajando -r-> Trabajando : Fichar
+NoTrabajando -down-> Trabajando : Fichar
 
-Trabajando -d-> NoTrabajando : Fichar
+Trabajando -up-> NoTrabajando : Fichar
 
-NoTrabajando -r-> [*]
+NoTrabajando -down-> [*]
 
 @enduml

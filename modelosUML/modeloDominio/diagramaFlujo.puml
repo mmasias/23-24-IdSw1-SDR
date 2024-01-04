@@ -1,21 +1,16 @@
-@startuml
+@startuml Diagrama de flujo
 
 start
-
+:Fichar;
 :Leer huella;
 if (Registrada?) then (Sí)
   :Obtener trabajador;
   :Obtener fecha y hora;
   :Registrar fichaje;
-  while (Trabajando?) is (Sí)
-    :Contabilizar horas;
-  endwhile
-  if (Fuera de horario) then (Sí) 
+  if (vuelve a Fichar?) then (Sí) 
     :Registrar salida;
-  else (No)
-    :Esperar fichaje;
   endif
-  if (Final de semana?) then (Sí)
+  if (Fuera de horario?) then (Sí)
     :Generar informe;
   endif
 else (No)

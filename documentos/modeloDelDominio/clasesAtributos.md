@@ -1,19 +1,19 @@
 # Clases y Atributos
 
 ## Clases
+- Trabajador
 - Contrato
-- Horario
-- Trabajadores
 - Lector de Huellas
+- Normas
 - Fichaje
 - Informe
-- Normas
+- Horario
 
 
 ## Atributos
+- Trabajador: Nombre, Identificador
 - Contrato: Tipo
-- Horario: Dia, Hora de Entrada, Hora de Salida
-- Trabajadores: Nombre, Identificador
-- Lector de Huellas: Información de la Huella
-- Fichaje: Fecha y Hora de Entrada, Fecha y Hora de Salida, Trabajador
-- Informe: Fecha
+- Lector de Huellas: Huella
+- Fichaje: Trabajador, Fecha, HoraEntrada, HoraSalida
+- Horario: Dia, HoraEntrada, HoraSalida
+- Informe: Trabajador, HorasPorDia, HorasSemanales, HorarioCumplido

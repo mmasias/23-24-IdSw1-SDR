@@ -12,10 +12,12 @@
 <details>
 <summary>Ver Informe</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/informe/generarInforme.png) |
-| ![](../../imagenes/prototipos/informe/informeDescargado.png) |
+| | |
+| -- | -- |
+| Seleccion de tipo de informe | ![](../../imagenes/prototipos/informe/seleccion.png) |
+| Informe Diario | ![](../../imagenes/prototipos/informe/diario.png) |
+| Informe Semanal | ![](../../imagenes/prototipos/informe/semanal.png) |
+| Informe Mensual | ![](../../imagenes/prototipos/informe/mensual.png) |
 
 </details>
 
@@ -34,6 +36,30 @@
 | -- |
 | ![](../../imagenes/prototipos/usuarios/VerUsuario.png) |
 
+</details>
+
+<details>
+<summary>Crear Usuarios</summary>
+
+</details>
+
+<details>
+<summary>Editar Usuarios</summary>
+
+![](../../imagenes/prototipos/usuarios/editarUsuario.png)
+</details>
+
+<details>
+<summary>Eliminar Usuarios</summary>
+
+### Vista
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png)
+
+### Formulario
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios2.png)
+
+### Confirmación
+![](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png)
 </details>
 
 <details>
