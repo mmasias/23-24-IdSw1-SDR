@@ -12,10 +12,12 @@
 <details>
 <summary>Ver Informe</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/informe/generarInforme.png) |
-| ![](../../imagenes/prototipos/informe/informeDescargado.png) |
+| | |
+| -- | -- |
+| Seleccion de tipo de informe | ![](../../imagenes/prototipos/informe/seleccion.png) |
+| Informe Diario | ![](../../imagenes/prototipos/informe/diario.png) |
+| Informe Semanal | ![](../../imagenes/prototipos/informe/semanal.png) |
+| Informe Mensual | ![](../../imagenes/prototipos/informe/mensual.png) |
 
 </details>
 
