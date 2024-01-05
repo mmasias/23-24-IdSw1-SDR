@@ -1,21 +1,34 @@
-@startuml ver_usuario
+@startuml
 skin rose
+title Caso de Uso: Leer Usuario
 
-  start
-:DASHBOARD_ABIERTO;
--> El sistema muestra la opción de gestionar usuarios;
--> Seleccionar opción "Ver Usuarios";
-:LISTA_USUARIOS;
-repeat :SELECCIONAR_USUARIO
-  -> El sistema muestra el perfil completo del usuario;
-  :VISUALIZAR_PERFIL;     
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> verUsuarios
+
+state verUsuarios {
+  [*] -[#blue]-> seleccionarUsuario
+  state "Seleccionar usuario para ver" as seleccionarUsuario
+  seleccionarUsuario -[#blue]-> visualizarPerfil
+  state "Visualizar perfil del usuario" as visualizarPerfil
+  visualizarPerfil -[#blue]-> [*]
+  note on link: Muestra datos personales y tipo de contrato
   
-  -> Mostrardatos personales;
-  :                     ;
-  -> Mostrar si sigue contratado;
-  :                     ;
-  -> Opción para editar o eliminar usuario;
-repeat while (¿Deseas ver otro usuario?) is (no)
-  stop
+  seleccionarUsuario -[#red]-> [*]
+  note on link: El usuario cancela la visualización
+}
+
+note left of visualizarPerfil
+  El sistema permite:
+  ° Mostrar datos personales
+  ° Mostrar tipo de contrato
+  ° Opción para editar, eliminar o añadir usuario
+end note
+
+note left of seleccionarUsuario
+  El sistema requiere:
+  ° Buscar Usuario por nombre
+  ° Seleccionar Usuario de la lista
+end note
 
 @enduml
