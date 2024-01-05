@@ -36,7 +36,7 @@
 | -- |
 | ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
 
-Seleccionar un usuario:
+Opciones tras seleccionar un usuario:
 
 |  |
 | -- |
