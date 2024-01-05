@@ -34,7 +34,7 @@
 
 |  |
 | -- |
-| ![](../../imagenes/prototipos/usuarios/VerUsuario.png) |
+| ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
 
 </details>
 
