@@ -36,6 +36,12 @@
 | -- |
 | ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
 
+Seleccionar un usuario:
+
+|  |
+| -- |
+| ![](../../imagenes/prototipos/usuarios/EditarEliminarUsuarios(defaultAdmin).png) |
+
 </details>
 
 <details>
