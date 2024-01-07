@@ -6,7 +6,7 @@ top to bottom direction
 
 state CancelaciónSolicitada{
   state ComprobarRequisitos <<choice>>
-  [*] --> ComprobarRequisitos : Se valida al cuenta a cancelar
+  [*] --> ComprobarRequisitos : Se valida la cuenta a cancelar
   ComprobarRequisitos --> UsuarioEliminado: Los datos se han validado correctamente
   ComprobarRequisitos --> UsuarioBloqueado: La cuenta a cancelar a incumplido los terminos de uso
 }
