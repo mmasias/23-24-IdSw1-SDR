@@ -1,0 +1,16 @@
+@startuml
+
+title Listar Servicios / Paquetes de servicios
+
+top to bottom direction
+
+[*] --> FiltrarServiciosYPaquetes : Solicitud de Listado
+state ComprobarDatos <<choice>>
+FiltrarServiciosYPaquetes --> ComprobarDatos : Validación del Filtro
+ComprobarDatos --> MostrarServiciosYPaquetes : Datos Filtrados
+ComprobarDatos --> MostrarError : Datos Enviados Incorrectos
+MostrarError --> [*] : El filtro no es válido
+
+MostrarServiciosYPaquetes --> [*]
+
+@enduml
