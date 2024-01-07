@@ -1,26 +1,39 @@
 # Casos de Uso
 
-- Egresado:
-  - [Registro en plataforma](/Requisitos/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
-  - [Suscripción en servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción/Readme.md)
-    - Listar servicios
-    - Suscripción servicio
-    - Editar suscripción servicio
-    - Eliminar suscripción servicio
-  - [Suscripción en paquete de servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción_Paquetes/Readme.md)
-    - Listar paquetes servicios
-    - Suscipción paquetes servicios
-    - Editar suscripción paquetes servicios
-    - Eliminar suscripción paquetes servicios
-- Administrador:
-  - [CRUD servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Readme.md)
-    - [Crear servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
-    - [Editar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
-    - [Listar servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
-    - [Eliminar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
-  - [CRUD paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Readme.md)
-    - [Crear paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Crear_Paquete/Readme.md)
-    - [Editar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Editar_Paquete/Readme.md)
-    - [Listar paquetes de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Listar_Paquete/Readme.md)
-    - [Eliminar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Eliminar_Paquete/Readme.md)
+- Egresado
+  - Registro en Plataforma
+  - Cancelación de Cuenta
+  - Actualización de Datos de la cuenta
+  - Suscripción a Servicio / Paquete de Servicios
+  - Cancelación de Suscripción a Servicio / Paquete de Servicios
+  - Listar Servicios / Paquete de Servicios Disponibles
+  - Servicios Internos
+    - Comunicación
+      - Chat
+        - Listar Chats
+        - Ver mensajes
+        - Enviar mensajes
+- Administrador
+  - Gestion de Servicios internos
+    - Comunicación
+      - Chat
+        - Listar Chats
+        - Ver mensajes
+        - Enviar mensajes
+      - Email
+        - Enviar email
+        - Ver emails enviados
+  - Gestion Paquete de Servicios
+    - Crear Paquete de Servicios
+    - Editar Paquete de Servicios
+    - Listar Paquetes de Servicios
+    - Eliminar Paquete de Servicios
+  - Gestión de Egresados
+    - Listar Egresados
+    - Editar Egresado
+    - Eliminar Egresado
+    - Crear Egresado
   - Consultar estadísticas
+
+- Servicios Externos
+  - Realziar Petición
