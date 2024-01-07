@@ -2,12 +2,12 @@
 skinparam defaultFontName Arial
 top to bottom direction
 
-[*] --> CancelaciónSolicitada: Inicio
+[*] --> CancelaciónSolicitada: Solicitud de cancelación de cuenta
 
 state CancelaciónSolicitada{
   state ComprobarRequisitos <<choice>>
-  [*] --> ComprobarRequisitos : Si se cumplen los requisitos se procede a la eliminación de la cuenta
-  ComprobarRequisitos --> UsuarioEliminado: Se procede a la eliminación de los datos
-  ComprobarRequisitos --> UsuarioBloqueado: Se procede al bloqueo del usuario pero no se borran los datos
+  [*] --> ComprobarRequisitos : Se valida al cuenta a cancelar
+  ComprobarRequisitos --> UsuarioEliminado: Los datos se han validado correctamente
+  ComprobarRequisitos --> UsuarioBloqueado: La cuenta a cancelar a incumplido los terminos de uso
 }
 @enduml

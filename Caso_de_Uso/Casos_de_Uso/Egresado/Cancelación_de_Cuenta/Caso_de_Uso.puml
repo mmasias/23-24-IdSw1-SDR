@@ -1,9 +1,0 @@
-@startuml Platform_Register
-left to right direction
-title Cancelación de cuenta
-
-actor Egresado
-
-Egresado --> (Cancelación de cuenta)
-
-@enduml
