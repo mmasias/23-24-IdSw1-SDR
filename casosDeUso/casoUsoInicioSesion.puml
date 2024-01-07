@@ -1,0 +1,22 @@
+@startuml
+
+title Caso de Uso Inicio de Sesion - FISC
+
+left to right direction
+
+actor Usuario_registrado as user
+actor Usuario_no_registrado as user1
+
+rectangle "FISC Inicio Sesion" {
+    usecase "Iniciar Sesión con Usuario y Contraseña" as login
+    usecase "Registrarse" as registro
+    usecase "Recuperar Contraseña" as recuperar
+    usecase "Recordar Usuario" as recordar
+}
+
+user --> login : "Accede a"
+user1 --> registro : "Accede a"
+user --> recuperar : "Accede a"
+user --> recordar : "Accede a"
+
+@enduml
