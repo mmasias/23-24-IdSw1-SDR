@@ -83,7 +83,6 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/modificarFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichaje.puml) | 
 | ![](../../imagenes/casosDeUso/detalles/modificarFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichajeV2.puml) | 
 
 
