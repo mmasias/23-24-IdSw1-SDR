@@ -10,14 +10,6 @@
 
 </details>
 
-<details>
-<summary>Ver Fichaje</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
-
-</details>
 
 <details>
 <summary>Ver Informe</summary>
