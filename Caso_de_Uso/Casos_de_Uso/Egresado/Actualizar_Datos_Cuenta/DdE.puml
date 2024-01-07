@@ -2,9 +2,9 @@
 skinparam defaultFontName Arial
 top to bottom direction
 
-[*] --> ActualizarDatosCuenta: Datos actualizados
+[*] --> ActualizarDatosCuenta: Datos a actualizar
 state ComprobarDatos <<choice>>
-ActualizarDatosCuenta --> ComprobarDatos: Se comprueban los datos
+ActualizarDatosCuenta --> ComprobarDatos: Se comprueban los cambios
 ComprobarDatos --> DatosActualizados
 ComprobarDatos --> DatosNoActualizados
 @enduml
