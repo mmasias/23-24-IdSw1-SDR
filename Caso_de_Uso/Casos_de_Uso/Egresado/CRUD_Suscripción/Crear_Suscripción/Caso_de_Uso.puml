@@ -1,0 +1,20 @@
+@startuml
+
+title Crear Suscripción
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+[*] --> ValidarSolicitud : Solicitud de Suscripción
+state ComprobarDatos <<choice>>
+ValidarSolicitud --> ComprobarDatos : Validación de Datos
+ComprobarDatos --> CrearSuscripción : Suscripción Gratuita
+ComprobarDatos --> RealizarPago : Suscripción Premium
+ComprobarDatos --> MostrarError : Datos Enviados Incorrectos
+MostrarError --> [*] : Se indican los datos incorrectos
+RealizarPago --> CrearSuscripción : Pago realzado
+
+CrearSuscripción --> [*] : Suscripción Creada
+
+
+@enduml
