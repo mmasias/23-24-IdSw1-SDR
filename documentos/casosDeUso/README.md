@@ -114,3 +114,11 @@
 | ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
 
 </details>
+
+<summary>Diagrama de contexto (usuario)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
+
+</details>
