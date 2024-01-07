@@ -3,7 +3,8 @@
 - Egresado
   - Registro en Plataforma
   - Cancelación de Cuenta
-  - Actualización de Datos de la cuenta
+  - Actualización de Datos de la Cuenta
+  - Listar Datos de la Cuenta
   - Suscripción a Servicio / Paquete de Servicios
   - Editar Suscripción a Servicio / Paquete de Servicios
   - Cancelación de Suscripción a Servicio / Paquete de Servicios
