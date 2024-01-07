@@ -43,8 +43,8 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
-| ![](../../imagenes/casosDeUso/detalles/verFichajeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdmin.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichajeAdminV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdminV2.puml) |
 
 
 
