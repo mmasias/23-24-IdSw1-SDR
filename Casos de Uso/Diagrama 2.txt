@@ -1,0 +1,6 @@
+@startuml
+left to right direction
+actor "Sistema TimeGuardian" as A
+usecase "Detección de conflictos de horario" as UC1
+A --> UC1 : Detecta y notifica conflictos
+@enduml

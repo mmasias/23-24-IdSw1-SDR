@@ -2,16 +2,16 @@
 
 ---
 
-# Imágenes 🌟
+## MockUp de Time Guardian 🕒
 
-¡Bienvenido a la carpeta de imágenes! Aquí encontrarás todas las imágenes relacionadas con nuestro proyecto, incluyendo los modelos UML, los casos de uso y el logo del proyecto. Estas imágenes son esenciales para visualizar conceptos y presentar nuestra identidad visual. 
+En esta carpeta encontrarás una variedad de MockUps para el proyecto Time Guardian. Cada uno de estos diseños representa una visión única y creativa del proyecto. 
 
 
 ## Enlace➡️
 
 - [Inicio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main)
 - [Modelos UML](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/modelosUML)
-- [MockUp](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/MockUp)
+- [Imagenes](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 - [Bases](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Bases)
 - [Presentaciones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)

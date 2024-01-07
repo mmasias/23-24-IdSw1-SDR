@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+actor "Sistema TimeGuardian" as A
+usecase "Notificación de cambios aislados" as UC2
+usecase "Identificar cambio aislado" as UC2_1
+usecase "Notificar al administrador" as UC2_2
+
+A --> UC2 : Realiza
+UC2 --> UC2_1 : Incluye
+UC2 --> UC2_2 : Incluye
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+
+class Docente {
+    - nombre
+    - idDocente
+    + revisarAsignaturas()
+    + verificarDisponibilidadHoraria()
+}
+
+class Asignatura {
+    - nombre
+    - codigo
+    - horario
+}
+
+class Horario {
+    - dia
+    - horaInicio
+    - horaFin
+    + esHorarioLibre()
+}
+
+class GestorHorarios {
+    + asignarHorarioDocente()
+    + verificarHorarioDocente()
+}
+
+Docente  -->  Asignatura : imparte
+Docente  --> Horario : tiene
+GestorHorarios --> Docente : gestiona
+
+@enduml
