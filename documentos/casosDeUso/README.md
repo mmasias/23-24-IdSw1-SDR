@@ -107,7 +107,7 @@
 </details>
 
 <details>
-<summary>Diagrama de contexto</summary>
+<summary>Diagrama de contexto (admin)</summary>
 
 |  |  |
 | -- | -- |
