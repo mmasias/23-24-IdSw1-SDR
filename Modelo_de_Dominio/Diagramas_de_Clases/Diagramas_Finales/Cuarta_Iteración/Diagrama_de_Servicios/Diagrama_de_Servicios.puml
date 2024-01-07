@@ -7,44 +7,20 @@ skinparam backgroundColor white
 skinparam defaultFontName Arial
 hide circle
 
-class SERVICIO 
+abstract SERVICIO 
 {
     Nombre 
     Descripción
-    precio
+    Precio
+    Tipo de Servicio
 }
 
 class COMUNICACIÓN 
 {
     Email
     Chat
-    Seguimiento
-}
-
-class INSTALACIONES 
-{
-    Biblioteca
-    Sala de ordenadores
-    Instalaciones deportivas
-}
-
-class NEWSLETTER 
-{
-    Noticias
-    Eventos
-}
-
-class "OFERTAS DE EMPLEO" 
-{
-    Nombre de la empresa
-    Puesto de trabajo
-    Salario
-    Ubicación
 }
 
 SERVICIO <|-- "COMUNICACIÓN"
-SERVICIO <|-- "INSTALACIONES"
-SERVICIO <|-- "NEWSLETTER"
-SERVICIO <|-- "OFERTAS DE EMPLEO"
 
 @enduml

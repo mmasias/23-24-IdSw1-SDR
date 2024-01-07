@@ -5,6 +5,7 @@ title Servicios externos
 '!theme amiga
 skinparam backgroundColor white
 skinparam defaultFontName Arial
+hide circle
 
 abstract "SERVICIO EXTERNO" 
 { 
@@ -20,22 +21,32 @@ class LINKEDIN
     Perfil
 }
 
-class FACEBOOK
+class INSTALACIONES 
 {
+    Biblioteca
+    Sala de Ordenadores
+    Instalaciones Deportivas
 }
 
-class "X (TWITTER)"
+class NEWSLETTER 
 {
+    Noticias
+    Eventos
 }
 
-class GOOGLE
+class "OFERTAS DE EMPLEO" 
 {
+    Nombre de la Empresa
+    Puesto de Trabajo
+    Descripción
+    Salario
+    Ubicación
 }
 
 "SERVICIO EXTERNO" <|-- UNIVERSIDAD
 "SERVICIO EXTERNO" <|-- LINKEDIN
-"SERVICIO EXTERNO" <|-- FACEBOOK
-"SERVICIO EXTERNO" <|-- "X (TWITTER)"
-"SERVICIO EXTERNO" <|-- GOOGLE
+"SERVICIO EXTERNO" <|-- INSTALACIONES
+"SERVICIO EXTERNO" <|-- NEWSLETTER
+"SERVICIO EXTERNO" <|-- "OFERTAS DE EMPLEO"
 
 @enduml
