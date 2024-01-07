@@ -111,6 +111,6 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto.puml) |
+| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
 
 </details>
