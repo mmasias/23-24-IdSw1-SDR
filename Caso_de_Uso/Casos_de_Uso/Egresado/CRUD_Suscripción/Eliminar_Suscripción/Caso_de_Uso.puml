@@ -1,0 +1,20 @@
+@startuml
+
+title Eliminar Suscripción
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+[*] --> ValidarSolicitud : Solicitud de Eliminación
+state ComprobarDatos <<choice>>
+ValidarSolicitud --> ComprobarDatos : Validación de Datos
+ComprobarDatos --> EliminarSuscripción : Suscripción Gratuita
+ComprobarDatos --> DarDeBaja : Suscripción Premium
+ComprobarDatos --> MostrarError : Datos Enviados Incorrectos
+MostrarError --> [*] : Se indican los datos incorrectos
+DarDeBaja --> EliminarSuscripción : Se da de baja la suscripción
+
+EliminarSuscripción --> [*] : Suscripción Creada
+
+
+@enduml
