@@ -1,9 +1,0 @@
-@startuml Platform_Register
-left to right direction
-title Registro en plataforma
-
-actor Egresado
-
-Egresado --> (Registro en plataforma)
-
-@enduml
