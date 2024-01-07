@@ -6,22 +6,13 @@
   - Actualización de Datos de la Cuenta
   - Listar Datos de la Cuenta
   - Suscripción a Servicio / Paquete de Servicios
-  - Editar Suscripción a Servicio / Paquete de Servicios
+  - Editar Suscripción a Paquete de Servicios
   - Cancelación de Suscripción a Servicio / Paquete de Servicios
-  - Listar Servicios / Paquete de Servicios Disponibles
-  - Servicios Internos
-    - Comunicación
-      - Chat
-        - Listar Chats
-        - Ver mensajes
-        - Enviar mensajes
+  - Listar Servicios / Paquete de Servicios
+ 
 - Administrador
   - Gestion de Servicios internos
     - Comunicación
-      - Chat
-        - Listar Chats
-        - Ver mensajes
-        - Enviar mensajes
       - Email
         - Enviar email
         - Ver emails enviados
@@ -39,3 +30,10 @@
 
 - Servicios Externos
   - Realziar Petición
+
+- Servicios Internos
+  - Comunicación
+    - Chat
+      - Listar Chats
+      - Ver mensajes
+      - Enviar mensajes
