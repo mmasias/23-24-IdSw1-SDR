@@ -5,6 +5,7 @@
   - Cancelación de Cuenta
   - Actualización de Datos de la cuenta
   - Suscripción a Servicio / Paquete de Servicios
+  - Editar Suscripción a Servicio / Paquete de Servicios
   - Cancelación de Suscripción a Servicio / Paquete de Servicios
   - Listar Servicios / Paquete de Servicios Disponibles
   - Servicios Internos
