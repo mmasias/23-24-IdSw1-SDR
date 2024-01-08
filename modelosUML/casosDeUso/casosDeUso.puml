@@ -9,11 +9,6 @@ Administrador -up-|> Usuario
 Usuario --> (verFichajeDiario)
 Usuario --> (verInforme)
 
-Administrador --> (verFichajeDiario)
-Administrador --> (editarFichajeDiario)
-
-Administrador --> (verInforme)
-
 Administrador --> (crearUsuarios)
 Administrador --> (verUsuarios)
 Administrador --> (editarUsuarios)
