@@ -1,12 +1,11 @@
+@startuml
+
+Title Estados del Servicio
 
 [*] --> ServicioActivo : se crea un servicio
 ServicioActivo--> ServicioInactivo : se desactiva un servicio
 ServicioInactivo--> ServicioActivo : se reactiva un servicio
 ServicioActivo-->Paquete :se añade el servicio a un paquete
 Paquete --> ServicioActivo : se elimina el servicio del paquete
-ServicioActivo --> UsuarioSuscrito : un usuario se suscribe al servicio
-Paquete --> UsuarioSuscrito : un usuario se desuscribe del servicio
-UsuarioSuscrito --> Paquete : un usuario se suscribe al paquete
-UsuarioSuscrito --> ServicioActivo : un usuario se suscribe del paquete
 
 @enduml
