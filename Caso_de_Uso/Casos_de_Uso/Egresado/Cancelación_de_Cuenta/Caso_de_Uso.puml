@@ -1,13 +1,49 @@
 @startuml
 skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
 top to bottom direction
 
-[*] --> CancelaciónSolicitada: Solicitud de cancelación de cuenta
+hide empty description
 
-state CancelaciónSolicitada{
+DASHBOARD_ABIERTO -down-> CancelaciónDeCuenta
+note on link
+<b>Usuario solicita</b>
+Cancelar su cuenta
+end note
+
+state CancelaciónDeCuenta{
+  state 1 as " "
+  state 2 as " "
   state ComprobarRequisitos <<choice>>
-  [*] --> ComprobarRequisitos : Se valida la cuenta a cancelar
-  ComprobarRequisitos --> UsuarioEliminado: Los datos se han validado correctamente
-  ComprobarRequisitos --> UsuarioBloqueado: La cuenta a cancelar a incumplido los terminos de uso
+  [*] --> 1
+  1 --> 2
+  note on link
+  <b>Sistema solicita</b>
+  Confirmar la contraseña
+  end note
+  2 --> ComprobarRequisitos
+  note on link
+  <b>Usuario introduce</b>
+  Contraseña
+  end note
+  ComprobarRequisitos -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en datos enviados
+  end note
+  ComprobarRequisitos --> UsuarioEliminado
+  ComprobarRequisitos --> UsuarioBloqueado
+  UsuarioEliminado --> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de confirmación
+  end note
+  UsuarioBloqueado --> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Usuario bloqueado al incumplir los términos de uso
+  end note
 }
 @enduml
