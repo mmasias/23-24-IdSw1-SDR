@@ -21,10 +21,10 @@
     - Listar Paquetes de Servicios
     - Eliminar Paquete de Servicios
   - Gestión de Egresados
-    - Listar Egresados
-    - Editar Egresado
+    - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
+    - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
     - Eliminar Egresado
-    - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresado/Crear_Egresado/Readme.md)
+    - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Crear_Egresado/Readme.md)
   - Consultar estadísticas
 
 - Tiempo
