@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="291px" preserveAspectRatio="none" style="width:167px;height:291px;background:#FFFFFF;" version="1.1" viewBox="0 0 167 291" width="167px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.0986" id="_title" style="stroke:none;stroke-width:1.0;" width="149" x="5" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="10" y="23.3608">Servicios de Alumni</text><!--MD5=[30a145389985b39b0bce1272ac991c13]
+class SERVICIO--><g id="elem_SERVICIO"><rect codeLine="9" fill="#F1F1F1" height="106.4932" id="SERVICIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="29.5" y="44.0986"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="66" x="53.5" y="62.4595">SERVICIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="30.5" x2="142.5" y1="70.1973" y2="70.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="35.5" y="87.5581">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="74" x="35.5" y="103.6567">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="40" x="35.5" y="119.7554">Precio</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="102" x="35.5" y="135.854">Tipo de Servicio</text><line style="stroke:#181818;stroke-width:0.5;" x1="30.5" x2="142.5" y1="142.5918" y2="142.5918"/></g><!--MD5=[47077f945d59e6f3403f02c3421ace20]
+class COMUNICACIÓN--><g id="elem_COMUNICACIÓN"><rect codeLine="17" fill="#F1F1F1" height="74.2959" id="COMUNICACIÓN" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="111" x="31" y="210.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="105" x="34" y="228.4595">COMUNICACIÓN</text><line style="stroke:#181818;stroke-width:0.5;" x1="32" x2="141" y1="236.1973" y2="236.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="34" x="37" y="253.5581">Email</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="30" x="37" y="269.6567">Chat</text><line style="stroke:#181818;stroke-width:0.5;" x1="32" x2="141" y1="276.3945" y2="276.3945"/></g><!--MD5=[00133b0a76c559816949c3688f6392e2]
+reverse link SERVICIO to COMUNICACIÓN--><g id="link_SERVICIO_COMUNICACIÓN"><path codeLine="23" d="M86.5,170.5986 C86.5,184.1786 86.5,197.8186 86.5,209.7086 " fill="none" id="SERVICIO-backto-COMUNICACIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="79.5,170.2786,86.5,150.2786,93.5,170.2786,79.5,170.2786" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2b9a42e72bfa3b97c3be422ce1c01f04]
+@startuml AlumniModel
+
+title Servicios de Alumni
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    Precio
+    Tipo de Servicio
+}
+
+class COMUNICACIÓN 
+{
+    Email
+    Chat
+}
+
+SERVICIO <|- - "COMUNICACIÓN"
+
+@enduml
+
+@startuml AlumniModel
+
+title Servicios de Alumni
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    Precio
+    Tipo de Servicio
+}
+
+class COMUNICACIÓN 
+{
+    Email
+    Chat
+}
+
+SERVICIO <|- - "COMUNICACIÓN"
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

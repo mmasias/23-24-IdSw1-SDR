@@ -1,0 +1,52 @@
+@startuml AlumniExternalServices
+
+title Servicios externos
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+abstract "SERVICIO EXTERNO" 
+{ 
+}
+
+class UNIVERSIDAD 
+{
+    Bases de Datos
+}
+
+class LINKEDIN
+{
+    Perfil
+}
+
+class INSTALACIONES 
+{
+    Biblioteca
+    Sala de Ordenadores
+    Instalaciones Deportivas
+}
+
+class NEWSLETTER 
+{
+    Noticias
+    Eventos
+}
+
+class "OFERTAS DE EMPLEO" 
+{
+    Nombre de la Empresa
+    Puesto de Trabajo
+    Descripción
+    Salario
+    Ubicación
+}
+
+"SERVICIO EXTERNO" <|-- UNIVERSIDAD
+"SERVICIO EXTERNO" <|-- LINKEDIN
+"SERVICIO EXTERNO" <|-- INSTALACIONES
+"SERVICIO EXTERNO" <|-- NEWSLETTER
+"SERVICIO EXTERNO" <|-- "OFERTAS DE EMPLEO"
+
+@enduml
