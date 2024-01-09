@@ -24,15 +24,20 @@
     - Listar Egresados
     - Editar Egresado
     - Eliminar Egresado
-    - Crear Egresado
+    - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresado/Crear_Egresado/Readme.md)
   - Consultar estadísticas
+
+- Tiempo
+  - Eliminar Suscripción a Servicio / Paquete de Servicios
 
 - Servicios Externos
   - Realziar Petición
 
 - Servicios Internos
   - Comunicación
+    - Listar
     - Chat
       - Listar Chats
+      - Eliminar Chats
       - Ver mensajes
       - Enviar mensajes
