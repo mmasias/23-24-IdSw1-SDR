@@ -1,5 +1,7 @@
 @startuml
 
+title Registro en Plataforma
+
 skinparam {
     NoteBackgroundColor #whiteSmoke
     ArrowColor #green
