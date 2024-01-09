@@ -23,7 +23,7 @@
   - Gestión de Egresados
     - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
     - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
-    - Eliminar Egresado
+    - [Eliminar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Eliminar_Egresado/Readme.md)
     - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Crear_Egresado/Readme.md)
   - Consultar estadísticas
 
