@@ -7,13 +7,13 @@ Se desarrolla, en un caso real, la disciplina de requisitado, que es la puerta d
 <div align=center>
 
 | |Grupo|Estadísticas|
-|-|-|-|-|
+|-|-|:-:|
 1|[FISC](https://github.com/guzmangrianchoUNEAT/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/guzmangrianchoUNEAT/23-24-IdSw1-SDR/graphs/contributors)
-2|[Control de asistencia](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/graphs/contributors)]
-3|[Booking UNEAT](https://github.com/pablarce/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/pablarce/23-24-IdSw1-SDR/graphs/contributors)]
-4|[TiCKET](https://github.com/MRSergio21/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/MRSergio21/23-24-IdSw1-SDR/graphs/contributors)]
-5|[TimeGuardian](https://github.com/hugofresno20/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/hugofresno20/23-24-IdSw1-SDR/graphs/contributors)]
-6|[Alumni](https://github.com/jramsgz/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/jramsgz/23-24-IdSw1-SDR/graphs/contributors)]
+2|[Control de asistencia](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/graphs/contributors)
+3|[Booking UNEAT](https://github.com/pablarce/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/pablarce/23-24-IdSw1-SDR/graphs/contributors)
+4|[TiCKET](https://github.com/MRSergio21/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/MRSergio21/23-24-IdSw1-SDR/graphs/contributors)
+5|[TimeGuardian](https://github.com/hugofresno20/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/hugofresno20/23-24-IdSw1-SDR/graphs/contributors)
+6|[Alumni](https://github.com/jramsgz/23-24-IdSw1-SDR/README.md)|[👁️📒](https://github.com/jramsgz/23-24-IdSw1-SDR/graphs/contributors)
 
 </div>
 
