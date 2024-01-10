@@ -21,7 +21,7 @@ state CancelaciónDeCuenta{
   [*] --> 1
   1 --> 2
   note on link
-  <b>Sistema solicita</b>
+  <b>Sistema muestra</b>
   Confirmar la contraseña
   end note
   2 --> ComprobarRequisitos
@@ -34,17 +34,11 @@ state CancelaciónDeCuenta{
   <b>Sistema muestra</b>
   Mensaje de error en datos enviados
   end note
-  ComprobarRequisitos --> UsuarioEliminado
-  ComprobarRequisitos --> UsuarioBloqueado
-  UsuarioEliminado --> [*]
+  ComprobarRequisitos -down-> UsuarioDeshabilitado
+  UsuarioDeshabilitado --> [*]
   note on link
   <b>Sistema muestra</b>
   Mensaje de confirmación
-  end note
-  UsuarioBloqueado --> [*]
-  note on link
-  <b>Sistema muestra</b>
-  Usuario bloqueado al incumplir los términos de uso
   end note
 }
 @enduml
