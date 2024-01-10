@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="709px" preserveAspectRatio="none" style="width:490px;height:709px;background:#FFFFFF;" version="1.1" viewBox="0 0 490 709" width="490px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="137" x="166.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="171.5" y="24.5332">Eliminar Egresado</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="215" y="45.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="220" y="71.3379">INITIAL</text><path d="M19.5,197.6094 L464.5,197.6094 A12.5,12.5 0 0 1 477,210.1094 L477,225.2188 L7,225.2188 L7,210.1094 A12.5,12.5 0 0 1 19.5,197.6094 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="505.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="470" x="7" y="197.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="477" y1="225.2188" y2="225.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="186.5" y="217.1426">EliminarEgresado</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="110" y="293.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="133" y="318.9473"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="427.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="452.9473"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="126,561.2188,138,573.2188,126,585.2188,114,573.2188,126,561.2188" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="135" cy="246.2188" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="126" cy="683.2188" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="126.5" cy="683.7188" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[f95b17fc43db3a5db8e3764589440ed7]
+link *start*EliminarEgresado to 2--><g id="link_*start*EliminarEgresado_2"><path d="M135,256.2588 C135,264.4088 135,276.7788 135,287.8188 " fill="none" id="*start*EliminarEgresado-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="135,293.1088,139,284.1088,135,288.1088,131,284.1088,135,293.1088" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M109.88,326.9488 C88.76,337.6588 62,351.2188 62,351.2188 C62,351.2188 53.94,393.7688 48.6,421.9188 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="47.64,426.9988,53.2415,418.8979,48.5683,422.0857,45.3806,417.4126,47.64,426.9988" style="stroke:#008000;stroke-width:1.0;"/><path d="M67,356.2188 L67,398.2188 L207,398.2188 L207,366.2188 L197,356.2188 L67,356.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M197,356.2188 L197,366.2188 L207,366.2188 L197,356.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="73" y="374.7139">Sistema Permite</text><ellipse cx="78.5" cy="386.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="86" y="391.0654">Eliminar Egresado</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M36.84,467.4588 C32.58,478.9088 28,491.2188 28,491.2188 C28,491.2188 28,543.2188 28,543.2188 C28,543.2188 85.41,560.2088 112.35,568.1788 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="117.3,569.6488,109.8149,563.2477,112.5077,568.2225,107.5329,570.9153,117.3,569.6488" style="stroke:#008000;stroke-width:1.0;"/><path d="M33,496.2188 L33,538.2188 L207,538.2188 L207,506.2188 L197,496.2188 L33,496.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M197,496.2188 L197,506.2188 L207,506.2188 L197,496.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="153" x="39" y="514.7139">Administrador Introduce</text><ellipse cx="44.5" cy="526.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="52" y="531.0654">Verificiación de solicitud</text></g><!--MD5=[bd9a9800bb618613588cadd16671ac66]
+link 4 to *end*EliminarEgresado--><g id="link_4_*end*EliminarEgresado"><path d="M126,585.3688 C126,605.1488 126,646.3088 126,668.0587 " fill="none" id="4-to-*end*EliminarEgresado" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="126,673.1388,130,664.1388,126,668.1388,122,664.1388,126,673.1388" style="stroke:#008000;stroke-width:1.0;"/><path d="M131,608.2188 L131,650.2188 L311,650.2188 L311,618.2188 L301,608.2188 L131,608.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M301,608.2188 L301,618.2188 L311,618.2188 L301,608.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="137" y="626.7139">Sistema Muestra</text><ellipse cx="142.5" cy="638.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="150" y="643.0654">Mensaje de Confirmación</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M134.25,569.4388 C155.77,562.1788 212,543.2188 212,543.2188 C212,543.2188 212,351.2188 212,351.2188 C212,351.2188 186.44,338.9388 164.77,328.5188 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="160.21,326.3388,166.5866,333.8447,164.7158,328.5061,170.0544,326.6353,160.21,326.3388" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M217,426.2188 L217,468.2188 L468,468.2188 L468,436.2188 L458,426.2188 L217,426.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M458,426.2188 L458,436.2188 L468,436.2188 L458,426.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="223" y="444.7139">Sistema Muestra</text><ellipse cx="228.5" cy="456.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="236" y="461.0654">Mensaje de error al eliminar egresado</text></g><!--MD5=[cbdbdbee1210daca33268f4e9a40ad83]
+link startState to EliminarEgresado--><g id="link_startState_EliminarEgresado"><path d="M242,85.8694 C242,108.0694 242,147.2994 242,192.0094 " fill="none" id="startState-to-EliminarEgresado" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="242,197.1994,246,188.1994,242,192.1994,238,188.1994,242,197.1994" style="stroke:#008000;stroke-width:1.0;"/><path d="M247,120.6094 L247,162.6094 L409,162.6094 L409,130.6094 L399,120.6094 L247,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M399,120.6094 L399,130.6094 L409,130.6094 L399,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="141" x="253" y="139.1045">Administrador Solicita</text><ellipse cx="258.5" cy="150.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="266" y="155.4561">Eliminar Egresado</text></g><!--MD5=[c0d3989eef66e4d024a42e10ae38549c]
+@startuml
+
+title Eliminar Egresado
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "INITIAL"
+
+startState - -> EliminarEgresado
+note on link
+    <b>Administrador Solicita</b>
+    * Eliminar Egresado
+end note
+
+state EliminarEgresado {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Eliminar Egresado
+end note
+
+3 -down-> 4
+note on link
+<b>Administrador Introduce</b>
+* Verificiación de solicitud
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de Confirmación
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error al eliminar egresado
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,44 @@
+@startuml
+
+title Listar datos de la cuenta
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "INITIAL"
+
+startState --> ListarDatosCuenta
+note on link
+    <b>Usuario Solicita</b>
+    * Listar datos de la cuenta
+end note
+
+state ListarDatosCuenta {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Datos de la cuenta
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar datos de la cuenta
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar datos de la cuenta
+    end note
+
+
+}
+
+@enduml

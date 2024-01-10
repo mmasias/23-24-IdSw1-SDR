@@ -1,6 +1,6 @@
 @startuml
 
-title Actualizar datos de la cuenta
+title Crear Egresado
 
 skinparam {
     NoteBackgroundColor #whiteSmoke
@@ -13,13 +13,13 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> ActualizarDatosCuenta
+startState --> CrearEgresado
 note on link
-    <b>Usuario Solicita</b>
-    * Actualizar datos de la cuenta
+    <b>Administrador Solicita</b>
+    * Crear Usuario Egresado
 end note
 
-state ActualizarDatosCuenta {
+state CrearEgresado {
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -36,13 +36,11 @@ note on link
 * Contraseña
 * Ubicación
 * Ocupación
-<b>Sistema Permite</b>
-* Actualizar datos de la cuenta
 end note
 
 3 -down-> 4
 note on link
-<b>Usuario introduce</b>
+<b>Amdinistrador Introduce</b>
 * Nombre
 * Apellido
 * Fecha de nacimiento
@@ -55,7 +53,7 @@ end note
 4 -down-> [*]
 note on link
 <b>Sistema Muestra</b>
-* Cambios realizados
+* Egresado Creado
 end note
 
 4 -[#red]-> 2
