@@ -27,7 +27,7 @@ state 4 <<choice>>
 note on link
 <b>Sistema Solicita</b>
 * Identficador del servicio o paquete de servicios
-* Datos de pago?
+* Datos de pago
 <b>Sistema Permite</b>
 * Suscribirse al servicio o paquete de servicios
 end note
@@ -35,7 +35,8 @@ end note
 3 -down-> 4
 note on link
 <b>Usuario introduce</b>
-* ...
+* Identficador del servicio o paquete de servicios
+* Datos de pago
 end note
 
 4 -down-> [*]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="736px" preserveAspectRatio="none" style="width:663px;height:736px;background:#FFFFFF;" version="1.1" viewBox="0 0 663 736" width="663px" zoomAndPan="magnify"><defs/><g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="301.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="306.5" y="32.7285">INITIAL</text><path d="M19.5,159 L637.5,159 A12.5,12.5 0 0 1 650,171.5 L650,186.6094 L7,186.6094 L7,171.5 A12.5,12.5 0 0 1 19.5,159 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="571.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="643" x="7" y="159"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="650" y1="186.6094" y2="186.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="274" y="178.5332">CrearSuscripcion</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="182" y="254.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="205" y="280.3379"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="437.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="463.3379"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="207,588.6094,219,600.6094,207,612.6094,195,600.6094,207,588.6094" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="207" cy="207.6094" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="207" cy="710.6094" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="207.5" cy="711.1094" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[e3e8e192347ef11fbe682aff685a03e5]
+link *start*CrearSuscripcion to 2--><g id="link_*start*CrearSuscripcion_2"><path d="M207,217.6494 C207,225.7994 207,238.1694 207,249.2094 " fill="none" id="*start*CrearSuscripcion-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="207,254.4994,211,245.4994,207,249.4994,203,245.4994,207,254.4994" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M181.69,281.3894 C136.12,291.7994 45,312.6094 45,312.6094 C45,312.6094 44.45,391.4294 44.17,432.4394 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="44.13,437.4894,48.1814,428.5124,44.1586,432.4895,40.1815,428.4667,44.13,437.4894" style="stroke:#008000;stroke-width:1.0;"/><path d="M50,317.6094 L50,408.6094 L351,408.6094 L351,327.6094 L341,317.6094 L50,317.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M341,317.6094 L341,327.6094 L351,327.6094 L341,317.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="56" y="336.1045">Sistema Solicita</text><ellipse cx="61.5" cy="347.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="69" y="352.4561">Identficador del servicio o paquete de servicios</text><ellipse cx="61.5" cy="364.1641" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="69" y="368.8076">Datos de pago</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="56" y="385.1592">Sistema Permite</text><ellipse cx="61.5" cy="396.8672" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="259" x="69" y="401.5107">Suscribirse al servicio o paquete de servicios</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M44.17,477.8594 C44.46,509.8894 45,570.6094 45,570.6094 C45,570.6094 152.6,589.8694 192.41,596.9994 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="197.35,597.8794,189.2022,592.3464,192.4293,596.9925,187.7832,600.2196,197.35,597.8794" style="stroke:#008000;stroke-width:1.0;"/><path d="M50,506.6094 L50,565.6094 L351,565.6094 L351,516.6094 L341,506.6094 L50,506.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M341,506.6094 L341,516.6094 L351,516.6094 L341,506.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="112" x="56" y="525.1045">Usuario introduce</text><ellipse cx="61.5" cy="536.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="69" y="541.4561">Identficador del servicio o paquete de servicios</text><ellipse cx="61.5" cy="553.1641" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="69" y="557.8076">Datos de pago</text></g><!--MD5=[71a2730d43c7f43bbbf5a5ec33a06838]
+link 4 to *end*CrearSuscripcion--><g id="link_4_*end*CrearSuscripcion"><path d="M207,612.7594 C207,632.5394 207,673.6994 207,695.4494 " fill="none" id="4-to-*end*CrearSuscripcion" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="207,700.5294,211,691.5294,207,695.5294,203,691.5294,207,700.5294" style="stroke:#008000;stroke-width:1.0;"/><path d="M212,635.6094 L212,677.6094 L427,677.6094 L427,645.6094 L417,635.6094 L212,635.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M417,635.6094 L417,645.6094 L427,645.6094 L417,635.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="218" y="654.1045">Sistema Muestra</text><ellipse cx="223.5" cy="665.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="231" y="670.4561">Suscripción realizada con éxito</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M216.32,597.7994 C248.94,591.4494 356,570.6094 356,570.6094 C356,570.6094 356,312.6094 356,312.6094 C356,312.6094 280.7,293.9094 237.16,283.0994 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="232.28,281.8894,240.0579,287.9312,237.1341,283.0886,241.9767,280.1648,232.28,281.8894" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M361,436.6094 L361,478.6094 L641,478.6094 L641,446.6094 L631,436.6094 L361,436.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M631,436.6094 L631,446.6094 L641,446.6094 L631,436.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="367" y="455.1045">Sistema Muestra</text><ellipse cx="372.5" cy="466.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="246" x="380" y="471.4561">Mensaje de error en los datos introducidos</text></g><!--MD5=[dec24e00a66c45d68346aa4e188b1537]
+link startState to CrearSuscripcion--><g id="link_startState_CrearSuscripcion"><path d="M328.5,47.23 C328.5,69.31 328.5,108.37 328.5,153.64 " fill="none" id="startState-to-CrearSuscripcion" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="328.5,158.9,332.5,149.9,328.5,153.9,324.5,149.9,328.5,158.9" style="stroke:#008000;stroke-width:1.0;"/><path d="M333.5,82 L333.5,124 L628.5,124 L628.5,92 L618.5,82 L333.5,82 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M618.5,82 L618.5,92 L628.5,92 L618.5,82 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="100" x="339.5" y="100.4951">Usuario Solicita</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="274" x="339.5" y="116.8467">Suscribirse a un servicio o paquete de servicios</text></g><!--MD5=[a42eba4b56c7deb9276da033b5522a89]
+@startuml
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "INITIAL"
+
+startState - -> CrearSuscripcion
+note on link
+    <b>Usuario Solicita</b>
+    Suscribirse a un servicio o paquete de servicios
+end note
+
+state CrearSuscripcion {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Identficador del servicio o paquete de servicios
+* Datos de pago
+<b>Sistema Permite</b>
+* Suscribirse al servicio o paquete de servicios
+end note
+
+3 -down-> 4
+note on link
+<b>Usuario introduce</b>
+* Identficador del servicio o paquete de servicios
+* Datos de pago
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Suscripción realizada con éxito
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error en los datos introducidos
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
