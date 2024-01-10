@@ -23,7 +23,7 @@
   - Consultar estadísticas
 
 - Tiempo
-  - Eliminar Suscripción a Servicio / Paquete de Servicios
+  - [Eliminar Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Tiempo/Eliminar_Suscripciones/Readme.md)
 
 - Servicios Externos
   - Realziar Petición
