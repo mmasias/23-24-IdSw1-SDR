@@ -1,6 +1,6 @@
-[*] --> RegistrandoDatos: se crea administrador
+@startuml
+[*] --> UsuarioAdministrador: se crea administrador
 
-RegistrandoDatos-->UsuarioAdministrador :se han registrado los datos
 
 
 state UsuarioAdministrador{
