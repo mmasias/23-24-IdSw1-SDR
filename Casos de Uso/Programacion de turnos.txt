@@ -1,0 +1,13 @@
+@startuml
+title Programación de Turnos de Trabajo
+
+state "HorarioNoCreado" as HorarioNoCreado
+state "Creando" as Creando
+state "HorarioFinalizado" as HorarioFinalizado
+
+[*] --> HorarioNoCreado
+HorarioNoCreado --> Creando : Asignar Empleados a los Diferentes Turnos
+Creando --> HorarioFinalizado : Todos los Turnos Están Cubiertos y sin Conflictos
+HorarioFinalizado --> [*] : Finalizar Programación
+
+@enduml
