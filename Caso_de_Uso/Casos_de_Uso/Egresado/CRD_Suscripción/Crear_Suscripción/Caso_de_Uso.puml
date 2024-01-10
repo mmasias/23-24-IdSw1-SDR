@@ -1,20 +1,55 @@
 @startuml
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
 
-title Crear Suscripción
+hide empty description
 
-skinparam defaultFontName Arial
-top to bottom direction
+state startState as "INITIAL"
 
-[*] --> ValidarSolicitud : Solicitud de Suscripción
-state ComprobarDatos <<choice>>
-ValidarSolicitud --> ComprobarDatos : Validación de Datos
-ComprobarDatos --> CrearSuscripción : Suscripción Gratuita
-ComprobarDatos --> RealizarPago : Suscripción Premium
-ComprobarDatos --> MostrarError : Datos Enviados Incorrectos
-MostrarError --> [*] : Se indican los datos incorrectos
-RealizarPago --> CrearSuscripción : Pago realzado
+startState --> CrearSuscripcion
+note on link
+    <b>Usuario Solicita</b>
+    Suscribirse a un servicio o paquete de servicios
+end note
 
-CrearSuscripción --> [*] : Suscripción Creada
+state CrearSuscripcion {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
 
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Identficador del servicio o paquete de servicios
+* Datos de pago?
+<b>Sistema Permite</b>
+* Suscribirse al servicio o paquete de servicios
+end note
+
+3 -down-> 4
+note on link
+<b>Usuario introduce</b>
+* ...
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Suscripción realizada con éxito
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error en los datos introducidos
+end note
+
+}
 
 @enduml

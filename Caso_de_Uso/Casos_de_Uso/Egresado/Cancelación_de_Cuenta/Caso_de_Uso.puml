@@ -6,6 +6,7 @@ skinparam Linetype polyline
 top to bottom direction
 
 hide empty description
+title Cancelación de cuenta
 
 DASHBOARD_ABIERTO -down-> CancelaciónDeCuenta
 note on link
