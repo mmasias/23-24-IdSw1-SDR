@@ -1,0 +1,24 @@
+DIAGRAMAS DE AULAS
+
+ - Diagrama de Clases AULA I (ANTIGUO): 1. Inicio del Recuento de Aulas 2. Verificación de Disponibilidad de Aulas 3. Asignación de Aulas 4. Gestión de Información de Aulas
+ - Diagrama Estados Aulas 2 (ANTIGUO): 1. Verificar Disponibilidad 2. Notificar Conflicto de Aula 3.Clasificar Aulas 4. Recuento y Clasificación de Aulas con Ordenadores
+ - Diagrama Estados Aulas NUEVO: 1. Verificación de Aulas 2. Asignación de Aulas 3. Manejo de Aulas No Asignadas 4. Inicio del Proceso de Gestión de Aulas
+
+DIAGRAMAS DOCENTES
+
+ - Diagrama estados Docente (NUEVO): 1. Inicio del Proceso de Asignación de Docentes 2. Asignación de Docentes a Asignaturas 3. Manejo de Docentes No Asignados 4. Finalización del Proceso de Asignación
+ - Diagrama clases Docente (NUEVO): 1. Asignación de Asignaturas a Docentes 2. Verificación de Asignaciones de Asignaturas 3. Gestión de Información del Docente 4. Administración de Asignaturas
+
+DIAGRAMAS GENERALES
+
+ - Diagrama de Actividad 1 (ANTIGUO): 1. Acceso al Sistema de Horarios 2. Organización de Horarios de Asignaturas 3. Manejo de Conflictos de Horario 4. Finalización y Confirmación del Horario
+ - Diagrama de Clases General II: 1. Revisión de Asignaturas por Docente 2. Verificación de Disponibilidad Horaria del Docente 3. Gestión de Asignaturas 4. Organización y Gestión de Horarios
+ - Diagrama de estados: 1. Selección de Pantalla y Visualización de Horarios 2. Organización de Asignaturas en el Horario 3. Verificación de Conflictos en el Horario 4. Finalización y Confirmación del Horario
+ - Diagrama de Objetos GENERAL: 1. Creación de Horarios por Gestor de Horarios 2. Asignación de Asignaturas a Docentes 3. Gestión de Asignaturas 4. Gestión de Información de Docentes
+
+DIAGRAMAS GRADO
+
+ - Diagramas de Clases GRADO I: 1. Elección de Año en el Grado 2. Asignación de Asignaturas a un Plan de Estudios 3. Obtención de Asignaturas por Año 4. Gestión de Información de Grados  
+ - Diagrama de Estados Grado 1: 1. Revisión de Trimestres en un grado 2. Revisión de Asignaturas por Trimestre 3. Inicio y Organización de Horarios de Grado 4. Gestión de Cambios en el Plan de Estudios de Grado
+ - Diagrama de Estados Grado 2: 1. Inicio de Organización de Horarios de Grado 2. Elección de Año y Revisión de Semestres en el Grado 3. Revisión de Asignaturas por Semestre 4. Asignación de Asignaturas a Semestres en Años Específicos
+ - Diagrama de estados: 1. Inicio del Proceso de Asignación de Grados a Docentes 2. Asignación de Grados a Docentes 3. Manejo de Grados No Asignados 4. Finalización del Proceso de Asignación de Grados
