@@ -10,11 +10,6 @@
   - [Listar Servicios / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Egresado/CRD_Suscripción/Listar_Suscripción/Readme.md)
 
 - Administrador
-  - Gestion de Servicios internos
-    - Comunicación
-      - Email
-        - Enviar email
-        - Ver emails enviados
   - Gestion Paquete de Servicios
     - Crear Paquete de Servicios
     - Editar Paquete de Servicios
@@ -32,12 +27,3 @@
 
 - Servicios Externos
   - Realziar Petición
-
-- Servicios Internos
-  - Comunicación
-    - Listar
-    - Chat
-      - Listar Chats
-      - Eliminar Chats
-      - Ver mensajes
-      - Enviar mensajes
