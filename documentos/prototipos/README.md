@@ -78,3 +78,12 @@ Opciones tras seleccionar un usuario:
 | ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFliujoUsuario.png) |
 
 </details>
+
+<details>
+<summary>Diagrama de flujo prototipos (usuario)</summary>
+
+|  |
+| -- |
+| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFliujoAdmin.png) |
+
+</details>
