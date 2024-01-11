@@ -71,10 +71,10 @@ Opciones tras seleccionar un usuario:
 </details>
 
 <details>
-<summary>Diagrama de contexto con Prototipos</summary>
+<summary>Diagrama de flujo prototipos (usuario)</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/prototipos/) | [Codigo PUML](../../modelosUML/prototipos/contexto.puml) |
+|  |
+| -- |
+| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFliujoUsuario.png) |
 
 </details>
