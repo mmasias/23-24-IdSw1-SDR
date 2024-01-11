@@ -84,6 +84,6 @@ Opciones tras seleccionar un usuario:
 
 |  |
 | -- |
-| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFliujoAdmin.png) |
+| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png) |
 
 </details>
