@@ -31,7 +31,7 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 ## Enlace➡️
 
 
-- [Modelo de dominio](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/imagenes/modelosUML/ArchivosMd)
+- [Modelo de dominio](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/README.md)
 - [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Casos%20de%20Uso)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 - [Presentacion](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
