@@ -1,4 +1,6 @@
 @startuml
+title Diagrama de Objetos - Time Guardian
+
 object "gestorDeHorarios : David" as gestorDeHorarios {
     rol = "Crear Horario"
 }
