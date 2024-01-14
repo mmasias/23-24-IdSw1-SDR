@@ -1,0 +1,17 @@
+@startuml
+title Verificación de Asignaciones
+
+actor GestorAsignaciones
+entity Asignatura
+entity Docente
+
+GestorAsignaciones --|> Asignatura: verificarAsignaciones()
+
+note right of Asignatura
+  El GestorAsignaciones revisa
+  todas las asignaturas y se asegura
+  de que cada una ha sido asignada
+  a un docente.
+end note
+
+@enduml
