@@ -1,7 +1,0 @@
-@startuml
-[*] --> HorarioNoCreado: Iniciar
-HorarioNoCreado--> Creando
-Creando -->Creando
-Creando --> HorarioFinalizado
-HorarioFinalizado--> [*]: Finalizar
-@enduml
