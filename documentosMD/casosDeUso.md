@@ -26,19 +26,10 @@
 </details>
 
 <details>
-<summary>Eliminar usuario (admin)</summary>
+<summary>Ver Reporte</summary>
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
-
-</details>
-
-<details>
-<summary>Crear usuario (admin)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
+| ![](../imagenes/casosDeUso/casoUsoReporte.svg) | [Codigo PUML](../casosDeUso/casoUsoReporte.puml) |
 
 </details>
