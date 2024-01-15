@@ -2,7 +2,7 @@
 
 ---
 
-## Descripción
+## Descripción📝
 
 **FISC** es un proyecto de simulación y análisis térmico desarrollado por **Jorge Crespo** para ayudar en la evaluación del comportamiento del hormigón frente a agresiones térmicas. Este repositorio contiene modelos, propuestas, registros de reuniones y otros recursos relacionados con el proyecto FISC.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## Recursos Clave
+## Recursos Clave🔑
 
 - **[Modelo de Dominio:](/documentosMD/modeloDelDominio.md)** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
 
@@ -22,7 +22,7 @@
 
 ---
 
-### Equipo de Colaboradores:
+## Equipo de Colaboradores👩‍💻
 
 - Guzmán G. Riancho
 - Sergio Moro
