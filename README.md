@@ -14,7 +14,7 @@
 
 - **[Modelo de Dominio:](/documentosMD/modeloDelDominio.md)** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
 
-- **[Casos de Uso](/casosDeUso/):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
+- **[Casos de Uso](/documentosMD/casosDeUso.md):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
 
 - **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
 
