@@ -49,6 +49,7 @@ Opciones tras seleccionar un usuario:
 <details>
 <summary>Crear Usuarios</summary>
 
+![](../../imagenes/prototipos/usuarios/crearUsuario.png)
 </details>
 
 <details>
