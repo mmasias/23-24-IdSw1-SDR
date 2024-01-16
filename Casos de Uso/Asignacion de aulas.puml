@@ -2,10 +2,5 @@
 actor "Gestor de Horarios" as A
 usecase "Asignación de Aulas" as UC1
 A --> UC1 : Asigna Aulas
-note right of UC1
-  El gestor selecciona las aulas disponibles
-  y asigna cada aula a una asignatura específica,
-  asegurándose de que la disponibilidad del aula
-  coincida con los horarios planificados para esa asignatura.
-end note
+
 @enduml

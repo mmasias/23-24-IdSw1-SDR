@@ -2,11 +2,5 @@
 actor "Gestor de Horarios" as A
 usecase "Creación del Horario" as UC3
 A --> UC3 : Crea Horario
-note right of UC3
-  Con las asignaturas, docentes y aulas ya definidos,
-  el gestor procede a crear el horario final. Se asegura
-  que no haya conflictos entre los horarios, las aulas
-  estén disponibles y los docentes puedan impartir clases
-  en esos tiempos específicos.
-end note
+
 @enduml
