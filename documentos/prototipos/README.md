@@ -41,6 +41,7 @@
 <details>
 <summary>Crear Usuarios</summary>
 
+![](../../imagenes/prototipos/usuarios/crearUsuario.png)
 </details>
 
 <details>
