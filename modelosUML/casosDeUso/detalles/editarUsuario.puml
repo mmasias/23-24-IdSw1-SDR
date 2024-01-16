@@ -1,22 +1,36 @@
-@startuml Editar informacion de un usuario
+@startuml
 skin rose
+title Caso de Uso: Editar Usuario
 
-:DASHBOARD_ABIERTO;
-:EDITAR_USUARIO;
+state DASHBOARD_ABIERTO
 
-partition "Seleccionar usuario a editar" {
-  start
-  :Buscar Usuario por nombre;
-  :Seleccionar Usuario;
+DASHBOARD_ABIERTO --> editarUsuario
+
+state editarUsuario {
+  [*] -[#blue]-> seleccionarUsuario
+  state "Seleccionar usuario a editar" as seleccionarUsuario
+  seleccionarUsuario -[#blue]-> modificarDetallesUsuario
+  state "Modificar detalles del usuario" as modificarDetallesUsuario
+  modificarDetallesUsuario -[#blue]-> [*]
+  note on link: El administrador confirma la edición
   
+  seleccionarUsuario -[#red]-> [*]
+  note on link: El administrador cancela la edición
 }
 
-partition "Editar detalles del usuario" {
-  :Modificar nombre de Usuario;
-  :Modificar datos personales;
-  :Modificar credenciales;
-  :confirmarEdicionUsuario;
-  stop
-}
+note left of modificarDetallesUsuario
+  El sistema permite:
+  ° Modificar nombre de Usuario
+  ° Modificar datos personales
+  ° Modificar tipo de contrato
+  ° Modificar credenciales
+  ° Confirmar edición
+end note
+
+note left of seleccionarUsuario
+  El sistema requiere:
+  ° Buscar Usuario por nombre
+  ° Seleccionar Usuario de la lista
+end note
 
 @enduml

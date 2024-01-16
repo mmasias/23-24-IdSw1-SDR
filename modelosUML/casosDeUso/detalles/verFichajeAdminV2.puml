@@ -1,0 +1,31 @@
+@startuml
+skin rose
+title Caso de Uso: Ver Fichaje Admin
+state DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO --> verFichajeAdmin
+
+state verFichajeAdmin {
+    [*] -[#blue]-> seleccionarUsuario
+    state " " as seleccionarUsuario
+    seleccionarUsuario -[#blue]-> mostrarFichaje
+    state " " as mostrarFichaje
+    mostrarFichaje -[#blue]-> [*]
+
+    seleccionarUsuario -[#red]-> [*]
+    note on link: El usuario cancela la visualización
+
+}
+
+note left of seleccionarUsuario
+    El sistema requiere:
+    - Buscar usuario por nombre
+    - Seleccionar usuario de la lista
+end note
+
+note left of mostrarFichaje
+    El sistema permite:
+    - Revisar los fichajes del usuario.
+    - Editar los fichajes del usuario.
+end note
+
+@enduml

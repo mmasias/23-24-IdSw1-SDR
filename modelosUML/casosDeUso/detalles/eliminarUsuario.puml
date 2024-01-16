@@ -1,19 +1,33 @@
-@startuml Eliminar usuario
+@startuml
 skin rose
-title Caso de Uso: Eliminar un Usuario
+title Caso de Uso: Eliminar Usuario
 
-start
-:DASHBOARD_ABIERTO;
--> El sistema da la opción de ver los usuarios;
-repeat :USUARIOS;
--> El sistema da la opción de eliminar a un usuario;
-:ELIMINAR_USUARIO;
-backward:                  ;
--> Introducir nombre de Usuario;
-:                      ;
--> El usuario puede volver a la vista inicial de usuarios;
-repeat while (¿Deseas eliminar este usuario?) is (no)
-  :confirmarEliminarUsuario;
-stop
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> eliminarUsuario
+
+state eliminarUsuario {
+  [*] -[#blue]-> seleccionarUsuario
+  state "Seleccionar usuario para eliminar" as seleccionarUsuario
+  seleccionarUsuario -[#blue]-> confirmarEliminarUsuario
+  state "Confirmar eliminación del usuario" as confirmarEliminarUsuario
+  confirmarEliminarUsuario -[#blue]-> [*]
+  note on link: El administrador confirma la eliminación
+  
+  seleccionarUsuario -[#red]-> [*]
+  note on link: El administrador cancela la eliminación
+}
+
+note left of confirmarEliminarUsuario
+  El sistema permite:
+  ° Confirmar eliminación del usuario
+  ° Mostrar ventana con la lista de usuarios eliminados
+end note
+
+note left of seleccionarUsuario
+  El sistema requiere:
+  ° Buscar Usuario por nombre
+  ° Seleccionar Usuario de la lista
+end note
 
 @enduml

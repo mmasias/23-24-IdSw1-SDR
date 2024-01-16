@@ -1,0 +1,26 @@
+@startuml
+
+skin rose
+title Caso de Uso: Ver Fichaje
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> verFichaje
+
+state verFichaje {
+[*] -[#blue]-> mostrarFichaje
+state " " as mostrarFichaje
+mostrarFichaje -[#blue]-> [*]
+
+mostrarFichaje -[#red]-> [*]
+note on link: El usuario cancela el ver fichaje
+}
+
+note left of mostrarFichaje
+    El sistema permite:
+    - Visualizar las horas totales trabajadas
+    - Visualizar las horas restantes de la jornada laboral
+    - Visualizar el número total de fichajes diarios
+    - Descargar el informe
+end note
+
+@enduml

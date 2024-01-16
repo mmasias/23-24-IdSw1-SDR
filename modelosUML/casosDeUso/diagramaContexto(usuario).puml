@@ -1,19 +1,20 @@
+
+
 @startuml Diagrama Contexto
 
 skin rose
-title Diagrama de contexto
+title Diagrama de contexto (usuario)
 
 [*] -->  Inicial
 
-note "Se accede al dashboard mediante login o registro" as N1
-Inicial --> N1
-N1 -down-> DASHBOARD_ABIERTO
+Inicial -down-> DASHBOARD_ABIERTO: login
 
 DASHBOARD_ABIERTO --> FICHAJE_ACTUAL
 DASHBOARD_ABIERTO --> INFORME
 
 DASHBOARD_ABIERTO <-- FICHAJE_ACTUAL
 DASHBOARD_ABIERTO <-- INFORME
+
 INFORME --> DIARIO
 INFORME --> SEMANAL
 INFORME --> MENSUAL
@@ -22,12 +23,8 @@ INFORME <-- DIARIO
 INFORME <-- SEMANAL
 INFORME <-- MENSUAL
 
-note "Deslogueo del usuario" as N2
-
-DASHBOARD_ABIERTO --> N2
-FICHAJE_ACTUAL --> N2
-INFORME --> N2
-
-N2 --> [*]
+DASHBOARD_ABIERTO --> [*] : logout
+FICHAJE_ACTUAL --> [*] : logout
+INFORME --> [*] : logout
 
 @enduml

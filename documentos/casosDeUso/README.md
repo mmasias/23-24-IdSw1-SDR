@@ -43,8 +43,8 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
-| ![](../../imagenes/casosDeUso/detalles/verFichajeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdmin.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
+| ![](../../imagenes/casosDeUso/detalles/verFichajeAdminV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdminV2.puml) |
 
 
 
@@ -55,7 +55,6 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verInforme.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInforme.puml) |
 | ![](../../imagenes/casosDeUso/detalles/verInformeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml) |
 
 </details>
@@ -83,7 +82,6 @@
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/modificarFichaje.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichaje.puml) | 
 | ![](../../imagenes/casosDeUso/detalles/modificarFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichajeV2.puml) | 
 
 
@@ -109,10 +107,18 @@
 </details>
 
 <details>
-<summary>Diagrama de contexto</summary>
+<summary>Diagrama de contexto (admin)</summary>
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaContexto.svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto.puml) |
+| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
+
+</details>
+
+<summary>Diagrama de contexto (usuario)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
 
 </details>

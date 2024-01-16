@@ -1,13 +1,15 @@
 # Prototipos
 
 <details>
-<summary>Ver Fichaje</summary>
+<summary>login</summary>
 
-|  |  |
+| | |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichaje.puml) |
+|  | ![](../../imagenes/prototipos/login/login.png) |
+
 
 </details>
+
 
 <details>
 <summary>Ver Informe</summary>
@@ -34,7 +36,13 @@
 
 |  |
 | -- |
-| ![](../../imagenes/prototipos/usuarios/VerUsuario.png) |
+| ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
+
+Opciones tras seleccionar un usuario:
+
+|  |
+| -- |
+| ![](../../imagenes/prototipos/usuarios/EditarEliminarUsuarios(defaultAdmin).png) |
 
 </details>
 
@@ -64,10 +72,19 @@
 </details>
 
 <details>
-<summary>Diagrama de contexto con Prototipos</summary>
+<summary>Diagrama de flujo prototipos (usuario)</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/prototipos/) | [Codigo PUML](../../modelosUML/prototipos/contexto.puml) |
+|  |
+| -- |
+| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png) |
+
+</details>
+
+<details>
+<summary>Diagrama de flujo prototipos (admin)</summary>
+
+|  |
+| -- |
+| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png) |
 
 </details>
