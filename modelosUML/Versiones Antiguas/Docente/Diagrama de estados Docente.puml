@@ -1,0 +1,8 @@
+@startuml
+[*] --> DocentesNoRecibidos: Inicio del proceso
+DocentesNoRecibidos--> AsignandoDocentesAsignatura: Comenzar asignación
+AsignandoDocentesAsignatura -->AsignandoDocentesAsignatura
+AsignandoDocentesAsignatura--> TodosDocentesAsignados: Completar asignación
+AsignandoDocentesAsignatura --> DocentesNoAsignados
+TodosDocentesAsignados--> [*]: Proceso finalizado
+@enduml
