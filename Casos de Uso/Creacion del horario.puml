@@ -2,5 +2,4 @@
 actor "Gestor de Horarios" as A
 usecase "Creación del Horario" as UC3
 A --> UC3 : Crea Horario
-
 @enduml
