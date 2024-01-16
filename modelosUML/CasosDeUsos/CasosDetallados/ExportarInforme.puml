@@ -1,10 +1,27 @@
 @startuml
+skin rose
 
-state GuardarHistorial
-state GenerarInforme
-state ExtraerHistorial
-[*] -->GuardarHistorial
-GuardarHistorial--> ExtraerHistorial
-ExtraerHistorial-->GenerarInforme
-GenerarInforme--> [*]
+state "Guardar Historial" as GuardarHistorial {
+  [*] --> Guardando : Iniciar Guardado
+  Guardando --> Guardado : Guardado Exitoso
+  Guardado --> [*] : Fin del Guardado
+}
+
+state "Extraer Historial" as ExtraerHistorial {
+  [*] --> Extrayendo : Iniciar Extracción
+  Extrayendo --> Extraido : Extracción Exitosa
+  Extraido --> [*] : Fin de la Extracción
+}
+
+state "Generar Informe" as GenerarInforme {
+  [*] --> Generando : Iniciar Generación
+  Generando --> Generado : Generación Exitosa
+  Generado --> [*] : Fin de la Generación
+}
+
+[*] --> GuardarHistorial : Iniciar Proceso
+
+GuardarHistorial --> ExtraerHistorial : Continuar
+ExtraerHistorial --> GenerarInforme : Continuar
+GenerarInforme --> [*] : Fin del Proceso
 @enduml
