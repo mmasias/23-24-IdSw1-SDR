@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+actor Usuario
+
+rectangle "Sistema de Gestión de Horarios" {
+  Usuario --> (Gestionar Horario)
+  (Gestionar Horario) .> (Crear Horario) : << includes >>
+  (Crear Horario) -- (Validar Información del Horario) : << extends >>
+  (Gestionar Horario) .> (Editar Horario) : << includes >>
+  (Editar Horario)
+  (Gestionar Horario) .> (Finalizar Horario) : << includes >>
+}
+
+@enduml
