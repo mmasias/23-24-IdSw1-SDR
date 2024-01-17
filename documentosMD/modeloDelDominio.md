@@ -3,7 +3,7 @@
 |                 Diagrama de clases                 |                 Diagrama de Estados                  |
 | :------------------------------------------------: | :--------------------------------------------------: |
 | ![Clases](/imagenes/modelosUML/diagramaClases.svg) | ![Estados](/imagenes/modelosUML/diagramaEstados.svg) |
-|      [Código](/modelosUML/modeloDomino.puml)       |      [Código](/modelosUML/diagramaEstados.puml)      |
+|      [Código](/modelosUML/diagramaClases.puml)     |      [Código](/modelosUML/diagramaEstados.puml)      |
 
 |                 Diagrama de Objetos                 |
 | :-------------------------------------------------: |

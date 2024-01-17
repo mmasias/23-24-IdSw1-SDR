@@ -1,0 +1,15 @@
+@startuml
+title Caso de Uso LOG - FISC
+
+left to right direction
+
+actor Usuario_registrado as user
+
+
+rectangle "Log acceso cualquier pantalla" {
+    usecase "LOG" as log
+
+}
+
+user --> log: "Accede a"
+@enduml

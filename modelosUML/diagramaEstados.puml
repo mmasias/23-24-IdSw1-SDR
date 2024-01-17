@@ -1,11 +1,14 @@
 @startuml
 
-title Diagrama de Estados - Aplicación FISK
+title Diagrama de Estados - Aplicación FISC
 
 [*] --> EligiendoCaracteristicas : Inicio de Sesion
 EligiendoCaracteristicas --> Simulacion : Inicia
 Simulacion --> Reporte : Obtiene
 Reporte --> EligiendoCaracteristicas : Nuevo modelado
 Reporte --> [*] : Cierra Sesion
+
+EligiendoCaracteristicas --> EligiendoCaracteristicas
+Simulacion --> EligiendoCaracteristicas : Error
 
 @enduml
