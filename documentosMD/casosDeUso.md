@@ -7,29 +7,20 @@
 
 ## Detalles
 
-<details>
-<summary>Inicio Sesión</summary>
+### Inicio Sesión
 
 |  |  |
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoInicioSesion.svg) | [Codigo PUML](../casosDeUso/casoUsoInicioSesion.puml) |
 
-</details>
-
-<details>
-<summary>Ver Informe</summary>
+### Ver Informe
 
 |  |  |
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoPaginaProyectos.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaProyectos.puml) |
 
-</details>
-
-<details>
-<summary>Ver Reporte</summary>
+### Ver Reporte
 
 |  |  |
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoReporte.svg) | [Codigo PUML](../casosDeUso/casoUsoReporte.puml) |
-
-</details>
