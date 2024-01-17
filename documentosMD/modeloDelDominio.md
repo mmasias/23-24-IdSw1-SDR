@@ -1,5 +1,12 @@
 # Modelo del dominio
 
+## Diagrama de clases
+
+| ![Clases](/imagenes/modelosUML/diagramaClases.svg) | 
+|      [Código](/modelosUML/diagramaClases.puml)     |
+
+## Lo demas
+
 |                 Diagrama de clases                 |                 Diagrama de Estados                  |
 | :------------------------------------------------: | :--------------------------------------------------: |
 | ![Clases](/imagenes/modelosUML/diagramaClases.svg) | ![Estados](/imagenes/modelosUML/diagramaEstados.svg) |
