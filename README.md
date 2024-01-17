@@ -20,7 +20,7 @@
 
 - **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
 
-- **[Informe Final](/archivosPdf/Reporte%20FISC.pdf):** Informa final de proyecto.
+- **[Informe Final](/archivosPdf/Reporte%20FISC.pdf):** Informa final del proyecto.
 
 ---
 
