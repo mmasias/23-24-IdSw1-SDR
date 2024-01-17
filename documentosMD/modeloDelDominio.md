@@ -2,6 +2,8 @@
 
 ## Diagrama de clases
 
+|                                                    |
+| :------------------------------------------------: |
 | ![Clases](/imagenes/modelosUML/diagramaClases.svg) | 
 |      [Código](/modelosUML/diagramaClases.puml)     |
 
