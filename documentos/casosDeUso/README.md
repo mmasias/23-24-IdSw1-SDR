@@ -51,6 +51,7 @@
 </details>
 
 <details>
+
 <summary>Ver Informe</summary>
 
 |  |  |
@@ -60,6 +61,17 @@
 </details>
 
 <details>
+
+<summary>Ver Informe (admin)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml) |
+
+</details>
+
+<details>
+
 <summary>Eliminar usuario (admin)</summary>
 
 |  |  |
