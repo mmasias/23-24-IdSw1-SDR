@@ -6,7 +6,7 @@ left to right direction
 actor Usuario as user
 
 
-rectangle "Log acceso cualquier pantalla" {
+rectangle "FISC LOG" {
     usecase "LOG" as log
 
 }
