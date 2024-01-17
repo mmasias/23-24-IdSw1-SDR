@@ -4,7 +4,7 @@ skin rose
 left to right direction
 title Casos de Uso
 
-Administrador -up-|> Usuario
+
 
 Usuario --> (verFichajeDiario)
 Usuario --> (verInforme)
@@ -13,5 +13,6 @@ Administrador --> (crearUsuarios)
 Administrador --> (verUsuarios)
 Administrador --> (editarUsuarios)
 Administrador --> (eliminarUsuarios)
+Administrador --> (verInforme)
 
 @enduml
