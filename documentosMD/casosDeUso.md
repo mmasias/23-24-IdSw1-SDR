@@ -33,7 +33,7 @@ El usuario puede asignar un nombre y descripción al nuevo proyecto con opciones
 
 ### - Página Proyecto
 
-Ofrece opciones para acceder al log, volver a la página de proyectos, crear nuevas simulaciones, ver simulaciones recientes
+Ofrece opciones para acceder al log, volver a la página de proyectos, crear nuevas simulaciones y ver simulaciones recientes
 
 |  |  |
 | -- | -- |
