@@ -10,10 +10,12 @@ rectangle "FISC Pagina Reporte" {
   usecase "Exportar" as exportareporte
   usecase "Imprimir" as imprimir
   usecase "Guardar" as guardar
+  usecase "Repetir/Editar simulacion" as same
 }
 
 user7 --> exportareporte : "Selecciona"
 user7 --> imprimir : "Selecciona"
 user7 --> guardar : "Selecciona"
+user7 --> same : "Selecciona"
 
 @enduml
