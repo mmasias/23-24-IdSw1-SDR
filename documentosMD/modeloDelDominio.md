@@ -10,7 +10,7 @@ El diagrama de clases muestra las entidades clave de la aplicación FISC y sus i
 
 ## - Diagrama de Estados
 
-Este diagrama de estados ilustra una instancia especifíca del proceso de **'Generando Reporte'** en la aplicación FISC
+El diagrama de estados ilustra los diferentes estados y transiciones en la aplicación FISC
 
  | ![Estados](/imagenes/modelosUML/diagramaEstados.svg) |
  |  :-------------------------------------------------: |
@@ -18,7 +18,7 @@ Este diagrama de estados ilustra una instancia especifíca del proceso de **'Gen
 
 ## - Diagrama de Objetos
 
-El diagrama de objetos ilustra los diferentes estados y transiciones en la aplicación FISC
+Este diagrama de objetos ilustra una instancia específica del proceso de **'Generando Reporte'** en la aplicación FISC
 
 | ![Clases](/imagenes/modelosUML/diagramaObjetos.svg) |
 | :-------------------------------------------------: |
