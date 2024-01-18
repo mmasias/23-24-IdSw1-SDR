@@ -7,9 +7,8 @@ En el primer componente, presentamos el **Diagrama de Clases** para entender las
 <details>
 <summary>Diagrama de Clases</summary>
 
-| Diagrama | Enlace PUML |
-|-|-|
-| ![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg) | [Codigo PUML](../../modelosUML/diagramaClases.puml) |
+![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
+- [Codigo PUML](../../modelosUML/diagramaClases.puml)
 
 </details>
 
@@ -32,9 +31,8 @@ El tercer componente, el **Diagrama de Estados**, muestra las transiciones entre
 <details>
 <summary>Diagrama de Estados</summary>
 
-|Diagrama|Enlace PUML|  
-|--|--|
-| ![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg) | [Codigo PUML](../../modelosUML/diagramaEstados.puml) |
+![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
+- [Codigo PUML](../../modelosUML/diagramaEstados.puml)
 
 </details>
 
