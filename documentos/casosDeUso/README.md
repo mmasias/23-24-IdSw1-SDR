@@ -1,42 +1,28 @@
 # Casos de Uso
 
-## Identificación
+Se han identificado 2 actores y 6 casos de uso, los hemos clasificado por cada actor.
 
-### Actores
-- Usuario
-- Administrador (extiende de Usuario)
+## Usuario
+- verFichajeDiario
+- verInforme
 
-### Casos de Uso
-#### Usuario:
-  - READ Fichaje Diario
-  - Informe
-    - READ Dia
-    - READ Semana
-    - READ Mes
-
-- Administrador (Usuario):
-  - READ Fichaje Diario
-  - UPDATE Fichaje Diario
-  - READ Informe
-  - CRUD Usuario
-
-## Priorización
-1. Fichaje
-2. Revisión de tiempo
+## Administrador
+- verUsuarios
+- editarUsuario
+- añadirUsuario
+- eliminarUsuario
+- verInforme
 
 
-<details>
-<summary>Casos de uso</summary>
+![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg)
+- [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml)
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg) | [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml) |
 
-</details>
+Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la revision del tiempo.
 
-## Detalles
-- Fichaje: Cuando se extrae del Lector de huellas los registros
-- Revisión de tiempo: Cuando los trabajadores revisan cuanto tiempo han trabajado en un día, semana o mes y cuanto les falta para acabar.
+## Detalles de los casos de uso
+
+### Usuario
 
 <details>
 <summary>Ver Fichaje</summary>
@@ -45,8 +31,6 @@
 | -- | -- |
 | ![](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
 | ![](../../imagenes/casosDeUso/detalles/verFichajeAdminV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdminV2.puml) |
-
-
 
 </details>
 
@@ -60,45 +44,8 @@
 
 </details>
 
-<details>
 
-<summary>Ver Informe (admin)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml) |
-
-</details>
-
-<details>
-
-<summary>Eliminar usuario (admin)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
-
-</details>
-
-<details>
-<summary>Crear usuario (admin)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
-
-</details>
-
-<details>
-<summary>Editar fichaje diario (admin)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/modificarFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/modificarFichajeV2.puml) | 
-
-
-
-</details>
+### Administrador
 
 <details>
 <summary>Ver usuario (admin)</summary>
@@ -119,18 +66,55 @@
 </details>
 
 <details>
-<summary>Diagrama de contexto (admin)</summary>
+<summary>Añadir usuario (admin)</summary>
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
+| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
 
 </details>
 
-<summary>Diagrama de contexto (usuario)</summary>
+<details>
+
+<summary>Eliminar usuario (admin)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
+
+</details>
+
+<details>
+
+<summary>Ver Informe (admin)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml) |
+
+</details>
+
+
+
+### Diagrama de Contexto
+
+A continuación tenemos dos diagramas de contexto, donde podemos ver de manera general lo que nuestro sistema permite realizar y la trazabilidad que hay entre ellos. 
+
+<details>
+
+<summary>Diagrama de contexto (Usuario)</summary>
 
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
+
+</details>
+
+<details>
+<summary>Diagrama de contexto (Administrador)</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
 
 </details>
