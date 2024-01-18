@@ -1,0 +1,52 @@
+@startuml
+title Modelo de Dominio - Time Guardian
+
+class GestorDeHorarios {
+    - horarios
+}
+
+class Docente {
+    - nombre
+    - apellido
+}
+
+class Asignatura {
+    - nombre
+    - id
+}
+
+class Aula {
+    - numero
+}
+
+class Horario {
+    - dia
+    - asignatura
+    - aula
+    - horaInicio
+    - horaFin
+}
+
+class AsignacionDocenteAsignatura {
+    - docente
+    - asignatura
+}
+
+class AsignacionAula {
+    - asignatura
+    - aula
+}
+
+GestorDeHorarios "1" --> "*" Docente : "recibe >"
+GestorDeHorarios "1" --> "*" Asignatura : "recibe >"
+GestorDeHorarios "1" --> "*" Aula : "recibe >"
+
+GestorDeHorarios "1" o-- "*" AsignacionDocenteAsignatura : "asigna >"
+AsignacionDocenteAsignatura "1" o-- "*" AsignacionAula : "asigna >"
+AsignacionAula "1" o-- "*" Horario : "asigna >"
+
+Docente <-- AsignacionDocenteAsignatura : "participa >"
+Asignatura <-- AsignacionDocenteAsignatura : "participa >"
+Asignatura <-- AsignacionAula : "utiliza >"
+Aula <-- AsignacionAula : "utiliza >"
+@enduml
