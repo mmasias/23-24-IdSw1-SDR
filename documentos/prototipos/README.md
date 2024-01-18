@@ -1,5 +1,8 @@
 # Prototipos
 
+En este apartado se presentan los prototipos de las interfaces de usuario con la información que se detalla en los diagramas de especificación de caso de uso vistos anteriormente, teniendo en cuenta que se muestran los aspectos más importantes de ellos.
+
+## Vistas específica
 <details>
 <summary>login</summary>
 
@@ -71,8 +74,12 @@ Opciones tras seleccionar un usuario:
 ![](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png)
 </details>
 
+
+## SiteMap
+A continuación se reflejará el mapa de estas vistas por actores.
+
 <details>
-<summary>Diagrama de flujo prototipos (usuario)</summary>
+<summary>Usuario</summary>
 
 |  |
 | -- |
@@ -81,7 +88,7 @@ Opciones tras seleccionar un usuario:
 </details>
 
 <details>
-<summary>Diagrama de flujo prototipos (admin)</summary>
+<summary>Administrador</summary>
 
 |  |
 | -- |

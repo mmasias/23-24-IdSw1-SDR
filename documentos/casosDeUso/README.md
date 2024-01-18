@@ -20,6 +20,7 @@ Se han identificado 2 actores y 6 casos de uso, los hemos clasificado por cada a
 
 Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la revision del tiempo.
 
+
 ## Detalles de los casos de uso
 
 ### Usuario
@@ -44,11 +45,12 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 </details>
 
+----
 
 ### Administrador
 
 <details>
-<summary>Ver usuario (admin)</summary>
+<summary>Ver usuario</summary>
 
 |  |  |
 | -- | -- |
@@ -57,7 +59,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 </details>
 
 <details>
-<summary>Editar usuario (admin)</summary>
+<summary>Editar usuario</summary>
  
 |  |  |
 | -- | -- |
@@ -66,7 +68,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 </details>
 
 <details>
-<summary>Añadir usuario (admin)</summary>
+<summary>Añadir usuario</summary>
 
 |  |  |
 | -- | -- |
@@ -76,7 +78,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 <details>
 
-<summary>Eliminar usuario (admin)</summary>
+<summary>Eliminar usuario</summary>
 
 |  |  |
 | -- | -- |
@@ -86,7 +88,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 <details>
 
-<summary>Ver Informe (admin)</summary>
+<summary>Ver Informe</summary>
 
 |  |  |
 | -- | -- |
@@ -94,7 +96,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 </details>
 
-
+----
 
 ### Diagrama de Contexto
 

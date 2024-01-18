@@ -3,7 +3,7 @@ Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeni
 
 ## Proyecto **_Control de Asistencia_**
 
-Cliente: _Clara Arnaiz_
+Cliente: _Clara Arnaiz / Salvador Alfaro_
 
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
@@ -15,6 +15,6 @@ Cliente: _Clara Arnaiz_
   - Diagrama de Casos de Uso
   - Diagrama de Contexto
   - Especificación de Casos de Uso
-- [Prototipos](/documentos/prototipos)
-  - Casos de Uso
-  - Diagrama de Contexto
+- [Prototipos de interfaz de usuario](/documentos/prototipos)
+  - Vistas específicas
+  - SiteMap
