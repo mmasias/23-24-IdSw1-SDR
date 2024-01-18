@@ -7,12 +7,8 @@ entity Docente
 
 GestorAsignaciones --|> Asignatura: asignarAsignaturaDocente()
 Asignatura --> Docente: asignado a
+<<<<<<< HEAD
 
-note right of Asignatura
-  Ejemplo:
-  GestorAsignaciones asigna
-  la asignatura "Matemáticas"
-  al docente "Juan Pérez"
-end note
-
+=======
+>>>>>>> fernando.william
 @enduml
