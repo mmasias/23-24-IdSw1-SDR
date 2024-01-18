@@ -10,38 +10,39 @@ DASHBOARD_ABIERTO --> verInforme
 state verInforme {
   [*] -[#blue]-> seleccionarUsuario
   state " " as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> inicioInforme
+  seleccionarUsuario -[#blue]-> tipoInforme
   seleccionarUsuario -[#red]-> [*]
-  state " " as inicioInforme
-  inicioInforme -[#blue]-> mostrarInforme
+  state " " as tipoInforme
+  tipoInforme -[#blue]-> mostrarInforme
   state " " as mostrarInforme
+  mostrarInforme -up[#red]-> tipoInforme
   mostrarInforme  -[#blue]-> [*]
-  inicioInforme -[#red]-> [*]
-  note on link: El usuario cancela el ver informe
+  tipoInforme -[#red]-> [*]
+  note on link: El admin cancela el ver informe
 }
 note left of mostrarInforme
   El sistema permite:
-  ° Confirmar descargar el informe
-  ° Volver a atrás
-  ° Cancelar la busqueda
+  ° Descargar el informe
+  ° Cerrar el informe
+  ° Repetir la busqueda
   El sistema muestra si existe el informe
 end note
 
-note left of inicioInforme
+note left of tipoInforme
   El sistema requiere:
   ° Tipo de informe
   ° Rango de fechas
   El sistema permite
-  ° Facilitar al cliente la busqueda
+  ° Facilitar la busqueda del informe
   ° Cancelar la busqueda
 end note
 
 note right of seleccionarUsuario
- El sistema requiere:
- ° Nombre del usuario
- El sistema permite:
- ° Facilitar la busqueda del usuario
- ° Cancelar la busqueda
+  El sistema requiere:
+  ° Seleccionar usuario
+  El sistema permite:
+  ° Facilitar la busqueda del usuario
+  ° Cancelar la busqueda
 end note
 
 @enduml
