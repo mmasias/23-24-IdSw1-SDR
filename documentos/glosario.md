@@ -39,5 +39,4 @@
    - Influencia: Afecta a las normas y horarios aplicables a cada trabajador.
 
 10. **Normas**: 
-   - Descripción: Reglas o directrices que rigen los horarios y procesos de fichaje.
-   - Ámbito: Aplicables a la asistencia de los trabajadores.
+    Descripción: Reglas o directrices que rigen los horarios y procesos de fichaje.Ámbito: Aplicables a la asistencia de los trabajadores.
