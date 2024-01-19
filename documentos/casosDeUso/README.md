@@ -10,7 +10,7 @@ Se han identificado 2 actores y 6 casos de uso, los hemos clasificado por cada a
 - verUsuarios
 - editarUsuario
 - añadirUsuario
-- eliminarUsuario
+- bajaDeUsuario
 - verInforme
 
 
@@ -77,7 +77,7 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 <details>
 
-<summary>Eliminar usuario</summary>
+<summary>Baja de usuarios</summary>
 
 |  |  |
 | -- | -- |
