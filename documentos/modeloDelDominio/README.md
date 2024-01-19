@@ -8,7 +8,7 @@ En el primer componente, presentamos el **Diagrama de Clases** para entender las
 <summary>Diagrama de Clases</summary>
 
 ![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
-- [Codigo PUML](../../modelosUML/diagramaClases.puml)
+- [Codigo PUML](../../modelosUML/modeloDominio/diagramaClases.puml)
 
 </details>
 
