@@ -31,7 +31,6 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 |  |  |
 | -- | -- |
 | ![](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
-| ![](../../imagenes/casosDeUso/detalles/verFichajeAdminV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeAdminV2.puml) |
 
 </details>
 
