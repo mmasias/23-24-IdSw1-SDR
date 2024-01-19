@@ -62,7 +62,7 @@ Opciones tras seleccionar un usuario:
 </details>
 
 <details>
-<summary>Eliminar Usuarios</summary>
+<summary>Baja de Usuarios</summary>
 
 ### Vista
 ![](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png)
