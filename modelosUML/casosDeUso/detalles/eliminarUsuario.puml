@@ -1,18 +1,18 @@
 @startuml
 skin rose
-title Caso de Uso: Eliminar Usuario
+title Caso de Uso: Baja de Usuarios
 
 state DASHBOARD_ABIERTO
 
-DASHBOARD_ABIERTO --> eliminarUsuario
+DASHBOARD_ABIERTO --> bajaDeUsuario
 
-state eliminarUsuario {
+state bajaDeUsuario {
   [*] -[#blue]-> seleccionarUsuario
-  state "Seleccionar usuario para eliminar" as seleccionarUsuario
+  state "Seleccionar usuario para dar de baja en el sistema" as seleccionarUsuario
   seleccionarUsuario -[#blue]-> confirmarEliminarUsuario
-  state "Confirmar eliminación del usuario" as confirmarEliminarUsuario
+  state "Confirmar la baja del usuario" as confirmarEliminarUsuario
   confirmarEliminarUsuario -[#blue]-> [*]
-  note on link: El administrador confirma la eliminación
+  note on link: El administrador confirma la baja del usuario
   
   seleccionarUsuario -[#red]-> [*]
   note on link: El administrador cancela la eliminación
@@ -20,8 +20,8 @@ state eliminarUsuario {
 
 note left of confirmarEliminarUsuario
   El sistema permite:
-  ° Confirmar eliminación del usuario
-  ° Mostrar ventana con la lista de usuarios eliminados
+  ° Confirmar la baja del usuario
+  ° Mostrar ventana con la lista de usuarios dados de baja
 end note
 
 note left of seleccionarUsuario
