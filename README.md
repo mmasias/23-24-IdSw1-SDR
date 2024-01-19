@@ -7,6 +7,7 @@ Cliente: _Clara Arnaiz / Salvador Alfaro_
 
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
+- [Glosario](/documentos/)
 - [Modelo de Dominio](/documentos/modeloDelDominio/)
   - Diagramas de Clases
   - Diagramas de Estados
