@@ -2,6 +2,7 @@
 
 object "trabajador1 : Trabajadores" as trabajador1 {
     Nombre = "Clara"
+    Apellido = "Arnaiz"
     Identificador = "000"
 }
 
