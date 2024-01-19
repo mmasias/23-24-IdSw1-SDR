@@ -32,7 +32,7 @@ El tercer componente, el **Diagrama de Estados**, muestra las transiciones entre
 <summary>Diagrama de Estados</summary>
 
 ![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
-- [Codigo PUML](../../modelosUML/diagramaEstados.puml)
+- [Codigo PUML](../../modelosUML/modeloDominio/diagramaEstados.puml)
 
 </details>
 
