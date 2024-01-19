@@ -23,6 +23,26 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 ## Detalles de los casos de uso
 
+### Login y logout
+<details>
+<summary>Login</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/login.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/login.puml) |
+
+</details>
+
+<details>
+
+<summary>Logout</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/logout.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/logout.puml) |
+
+</details>
+
 ### Usuario
 
 <details>
