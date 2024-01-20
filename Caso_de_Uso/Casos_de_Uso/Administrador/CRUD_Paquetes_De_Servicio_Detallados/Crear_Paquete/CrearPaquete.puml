@@ -32,6 +32,9 @@ note on link
 * Nombre
 * Servicios Incluidos
 * Precio
+* Descripcion
+<b>Sistema Permite</b>
+* Crear Paquete de Servicios
 end note
 
 3 -down-> 4
@@ -39,7 +42,8 @@ note on link
 <b>Amdinistrador Introduce</b>
 * Nombre
 * Servicios Incluidos
-* Precio 
+* Precio
+* Descripcion
 end note
 
 4 -down-> [*]

@@ -34,7 +34,7 @@ end note
 3 -down-> 4
 note on link
 <b>Amdinistrador Introduce</b>
-* Verificacion de Solicitud
+* Nombre del Paquete
 end note
 
 4 -down-> [*]
