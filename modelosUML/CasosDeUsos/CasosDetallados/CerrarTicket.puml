@@ -1,30 +1,13 @@
 @startuml
+
 skin rose
-title Caso de Uso: Cerrar Ticket
-
-state DASHBOARD_ABIERTO
-
-DASHBOARD_ABIERTO --> cerrarTicket
-
-state cerrarTicket {
-  [*] -[#blue]-> seleccionarTicket
-  state "Seleccionar ticket " as seleccionarTicket
-  seleccionarTicket -[#blue]-> confirmarCerrarTicket
-  state "Confirmar cierre del ticket" as confirmarCerrarTicket
-  confirmarCerrarTicket -[#blue]-> [*]
-  note on link: El administrador confirma el cierre del ticket
-  
+:Dashboard Abierto;
+partition "Cerrar ticket" {
+  start
+  :seleccionar Ticket;
+  :confirmarCerrarTicket;
+ 
 }
+stop
 
-note left of confirmarCerrarTicket
-  El sistema permite:
-  ° Confirmar el cierre del ticket
-  ° Mostrar mensaje de confirmación
-end note
-
-note left of seleccionarTicket
-  El sistema requiere:
-  ° Buscar ticket por estados o prioridad 
-  ° Seleccionar ticket de la lista
-end note
 @enduml
