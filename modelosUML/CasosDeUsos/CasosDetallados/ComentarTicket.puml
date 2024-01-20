@@ -1,0 +1,11 @@
+@startuml CDU ComentarTicket
+skin rose
+:Dashboard Abierto;
+:Seleccionar Ticket;
+partition "Comentar Ticket" {
+  start 
+    :Escribir proceso;
+    :Enviar comentario;
+}
+stop
+@enduml

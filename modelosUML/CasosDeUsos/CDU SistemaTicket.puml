@@ -10,7 +10,6 @@ actor Desarrollador as Dev
 rectangle SistemaTicket{
     Dev -l-> Usuario
     Dev -- (Comentar Ticket)
-    Dev -- (Resolver Ticket)
     Usuario -l- (Crear Ticket)
     Usuario -- (Ver Ticket)
     JefeProyecto -l-> Usuario
