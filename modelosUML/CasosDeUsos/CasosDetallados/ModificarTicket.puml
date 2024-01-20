@@ -1,0 +1,13 @@
+@startuml CDU ModificarTicket
+skin rose
+:Dashboard Abierto;
+:Ver lista de tickets;
+ :Seleccionar ticket;
+
+partition "Modificar Ticket" {
+  start 
+      :Editar el ticket;
+        :Guardar cambios;
+}
+stop
+@enduml

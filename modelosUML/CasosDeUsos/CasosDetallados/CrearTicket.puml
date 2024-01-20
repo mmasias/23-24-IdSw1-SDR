@@ -1,19 +1,11 @@
-@startuml CrearTicket
-state DetectarError
-state CrearTicket
-state DetallarError
-state AsignarPrioridad
-state EnviarTicket
-
-left to right direction
-
-[*] --> DetectarError
-DetectarError -r-> CrearTicket
-CrearTicket-r-> DetallarError
-DetallarError-r-> AsignarPrioridad
-AsignarPrioridad -r-> EnviarTicket
-EnviarTicket --> [*]
-
-
-
+@startuml CDU CrearTicket
+skin rose
+:Dashboard Abierto;
+partition "Crear Ticket" {
+  start 
+      :Detallar el error; 
+      :Determinar una prioridad;
+      :Generar Ticket;
+}
+stop
 @enduml
