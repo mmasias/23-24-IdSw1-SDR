@@ -18,13 +18,13 @@
   - Gestión de Servicios
     - [Crear Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
     - [Editar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
-    - [Eliminar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
     - [Listar Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
+    - [Eliminar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
   - Gestión de Egresados
-    - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
-    - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
-    - [Eliminar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Eliminar_Egresado/Readme.md)
     - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Crear_Egresado/Readme.md)
+    - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
+    - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
+    - [Eliminar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Eliminar_Egresado/Readme.md)
   - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Administrador/ConsultarEstadisticas/Readme.md)
 
 - Tiempo

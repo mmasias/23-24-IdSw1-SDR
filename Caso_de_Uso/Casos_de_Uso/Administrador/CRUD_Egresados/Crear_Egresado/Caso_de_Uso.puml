@@ -36,6 +36,8 @@ note on link
 * Contraseña
 * Ubicación
 * Ocupación
+<b>Sistema Permite</b>
+* Crear Egresado
 end note
 
 3 -down-> 4
