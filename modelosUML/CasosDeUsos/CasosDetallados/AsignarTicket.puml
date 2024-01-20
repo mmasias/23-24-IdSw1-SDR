@@ -1,19 +1,12 @@
-@startuml CDU-AsignarTicket
-
-(*) -->  RecibirTicket
-    RecibirTicket -r-> PriorizarEtiqueta
-    PriorizarEtiqueta -r-> ValidarError
-        if "¿Existe Error?"then
-        -r->[Si] ValidarPrioridad
-            if "¿Etiqueta Correcta?"then
-            -->[Si] AsignarResponsable
-            else
-            -->[No] ModificarPrioridad
-            endif
-        else
-        -l->[No] CerrarEtiqueta
-        endif
-    ModificarPrioridad -r-> AsignarResponsable
-    AsignarResponsable --> (*)
-
+@startuml CDU AsignarTicket
+skin rose
+:Dashboard Abierto;
+:Ver Lista de Tickets;
+:Validar Prioridad;
+partition "Asignar Ticket" {
+  start
+    :Ver Desarrolladores disponibles;
+    :Asignar Responsable;
+}
+stop
 @enduml

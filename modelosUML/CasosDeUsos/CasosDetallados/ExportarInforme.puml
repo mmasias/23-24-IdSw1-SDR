@@ -1,27 +1,13 @@
 @startuml
 skin rose
-
-state "Guardar Historial" as GuardarHistorial {
-  [*] --> Guardando : Iniciar Guardado
-  Guardando --> Guardado : Guardado Exitoso
-  Guardado --> [*] : Fin del Guardado
+:Dashboard Abierto;
+:Visualizar Historial; 
+partition "Exportar Informe" {
+  start
+  :Guardar Historial;
+  :Extraer Historial;
+  :Generar PDF;
 }
+stop
 
-state "Extraer Historial" as ExtraerHistorial {
-  [*] --> Extrayendo : Iniciar Extracción
-  Extrayendo --> Extraido : Extracción Exitosa
-  Extraido --> [*] : Fin de la Extracción
-}
-
-state "Generar Informe" as GenerarInforme {
-  [*] --> Generando : Iniciar Generación
-  Generando --> Generado : Generación Exitosa
-  Generado --> [*] : Fin de la Generación
-}
-
-[*] --> GuardarHistorial : Iniciar Proceso
-
-GuardarHistorial --> ExtraerHistorial : Continuar
-ExtraerHistorial --> GenerarInforme : Continuar
-GenerarInforme --> [*] : Fin del Proceso
 @enduml

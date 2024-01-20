@@ -1,0 +1,12 @@
+@startuml CDU FiltrarTicket
+skin rose
+:Dashboard Abierto;
+:Ver Lista de Tickets;
+partition "Buscar ticket" {
+  start
+  :Filtrar Ticket;
+  :Seleccionar Ticket;
+}
+:Visualizar Ticket;
+    stop
+@enduml

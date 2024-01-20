@@ -9,19 +9,19 @@ actor Desarrollador as Dev
 
 rectangle SistemaTicket{
     Dev -l-> Usuario
-    Dev -- (Buscar Ticket)
     Dev -- (Comentar Ticket)
-    Dev -- (Solventar Ticket)
+    Dev -- (Resolver Ticket)
     Usuario -l- (Crear Ticket)
     Usuario -- (Ver Ticket)
     JefeProyecto -l-> Usuario
     JefeProyecto -- (Asignar Ticket)
-    JefeProyecto -- (Buscar Ticket)
-    (Buscar Ticket) ..> (Filtrar Fecha) :<<extends>>
-    (Buscar Ticket) ..> (Filtrar Prioridad) : <<extends>>
-    (Buscar Ticket) ..>  (Filtrar Responsable) : <<extends>>
-    (Buscar Ticket) ..> (Filtrar Estado) : <<extends>>
-    (Buscar Ticket) ..>  (Filtrar Proyecto) : <<extends>>
+    JefeProyecto -- (Modificar Ticket)
+    (Ver Ticket) ..> (Filtrar Ticket) :<<extends>>
+    (Filtrar Ticket) ..> (Filtrar Fecha) :<<extends>>
+    (Filtrar Ticket) ..> (Filtrar Prioridad) : <<extends>>
+    (Filtrar Ticket) ..>  (Filtrar Responsable) : <<extends>>
+    (Filtrar Ticket) ..> (Filtrar Estado) : <<extends>>
+    (Filtrar Ticket) ..>  (Filtrar Proyecto) : <<extends>>
     Admin -l-> Usuario
     Admin -l-> JefeProyecto
     Admin -- (Consultar Historial)
