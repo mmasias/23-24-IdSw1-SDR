@@ -1,6 +1,6 @@
 @startuml
 
-title Listar Egresados
+title Listar Servicios
 
 skinparam {
     NoteBackgroundColor #whiteSmoke
@@ -13,29 +13,29 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> ListarEgresados
+startState --> ListarServicios
 note on link
     <b>Administrador Solicita</b>
-    * Listar Egresados en Alumni
+    * Listar Servicios
 end note
 
-state ListarEgresados {
+state ListarServicios {
     state 2 as " "
     [*] --> [*] 
     note on link
         <b>Sistema Muestra</b>
-        * Egresados en Alumni
+        * Servicios en Alumni
     end note
 
     [*] -[#red]-> 2
     note on link
-        Error al listar Egresados en Alumni
+        Error al listar Servicios en Alumni
     end note
 
     2 -[#red]-> [*]
     note on link
         <b>Sistema Muestra</b>
-        * Error al listar Egresados en Alumni
+        * Error al listar Servicios en Alumni
     end note
 
 

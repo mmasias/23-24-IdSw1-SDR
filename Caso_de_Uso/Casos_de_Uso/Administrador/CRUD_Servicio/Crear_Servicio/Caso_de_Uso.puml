@@ -33,6 +33,8 @@ note on link
 * Precio
 * Url del Servicio
 * Descripcion
+<b>Sistema Permite</b>
+* Crear Servicio
 end note
 
 3 -down-> 4

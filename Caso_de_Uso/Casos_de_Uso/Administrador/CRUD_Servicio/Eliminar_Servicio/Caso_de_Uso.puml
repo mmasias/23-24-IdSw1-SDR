@@ -35,7 +35,7 @@ end note
 3 -down-> 4
 note on link
 <b>Administrador Introduce</b>
-* Verificiación de solicitud
+* Nombre del Servicio
 end note
 
 4 -down-> [*]

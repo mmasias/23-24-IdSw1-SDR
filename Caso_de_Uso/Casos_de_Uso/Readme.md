@@ -13,8 +13,13 @@
   - Gestion Paquete de Servicios
     - [Crear Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Crear_Paquete/Readme.md)
     - [Editar Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Editar_Paquete/Readme.md)
-    - Listar Paquetes de Servicios
+    - [Listar Paquetes de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Listar_Paquetes/Readme.md)
     - [Eliminar Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Eliminar_Paquete/Readme.md)
+  - Gestión de Servicios
+    - [Crear Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
+    - [Editar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
+    - [Eliminar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
+    - [Listar Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
   - Gestión de Egresados
     - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
     - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
