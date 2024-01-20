@@ -29,6 +29,7 @@ state 4 <<choice>>
 2 -down-> 3
 note on link
 <b>Sistema Solicita</b>
+* Foto de perfil
 * Nombre
 * Apellido
 * Fecha de nacimiento
@@ -43,6 +44,7 @@ end note
 3 -down-> 4
 note on link
 <b>Usuario introduce</b>
+* Foto de perfil
 * Nombre
 * Apellido
 * Fecha de nacimiento
