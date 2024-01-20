@@ -1,12 +1,13 @@
-@startuml CDU-CerrarTicket
+@startuml
 
-(*) --> ValidarError
-if "¿Cumple requisito?" then
--r-> [Si] CerrarTicket
-else
--->[No] DevolverTicket
-endif 
-CerrarTicket --> (*)
-
+skin rose
+:Dashboard Abierto;
+partition "Cerrar ticket" {
+  start
+  :seleccionar Ticket;
+  :confirmarCerrarTicket;
+ 
+}
+stop
 
 @enduml
