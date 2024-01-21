@@ -1,38 +1,52 @@
 # Modelo del Dominio
 
-Los objetos principales de nuestro dominio incluyen al trabajador, el lector de huellas, el fichaje, el informe, el contrato, las normas y el horario. A continuación podemos dividir el modelo dominio en diferentes diagramas.
+Este documento describe los objetos principales de nuestro dominio, que incluyen: trabajador, lector de huellas, fichaje, informe, contrato, normas y horario. Se divide en varios componentes, cada uno presentando un aspecto diferente del modelo de dominio.
 
-En el primer componente, presentamos el **Diagrama de Clases** para entender las entidades del sistema y sus relaciones.
+## Índice
+1. [Diagrama de Clases](#diagrama-de-clases)
+2. [Diagrama de Objetos](#diagrama-de-objetos)
+3. [Diagrama de Estados](#diagrama-de-estados)
+
+## Diagrama de Clases
+El Diagrama de Clases ayuda a comprender las entidades del sistema y sus relaciones.
 
 <details>
-<summary>Diagrama de Clases</summary>
+<summary>Ver Diagrama de Clases</summary>
 
-![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
-- [Codigo PUML](../../modelosUML/modeloDominio/diagramaClases.puml)
+![Diagrama de Clases](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
+- [Código PUML](../../modelosUML/modeloDominio/diagramaClases.puml)
 
 </details>
 
 -----
-En el segundo componente, el **Diagrama de Objetos**, mostramos situaciones específicas de interacción entre objetos. Dos ejemplos clave son el fichaje diario y la creación de un informe semanal.
+
+## Diagrama de Objetos
+El Diagrama de Objetos ilustra situaciones específicas de interacción entre objetos, como el fichaje diario y la creación de un informe semanal.
 
 <details>
-<summary>Diagrama de Objetos</summary>
+<summary>Ver Diagramas de Objetos</summary>
 
-|Descripción|Diagrama|Enlace PUML|  
-|--|--|--|
-| Diagrama referido al crear un fichaje en el dia. | ![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos001.svg) | [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos001.puml) |
-| Diagrama referido al crear el informe semanal | ![](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos002.svg) | [Codigo PUML](../../modelosUML/diagramasObjetos/diagramaObjetos002.puml) |
-              
+### Fichaje Diario
+| Descripción | Diagrama | Enlace PUML |
+| :---: | :---: | :---: |
+| Creación de un fichaje diario | ![Diagrama de Objetos - Fichaje](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos001.svg) | [Código PUML](../../modelosUML/diagramasObjetos/diagramaObjetos001.puml) |
+
+### Informe Semanal
+| Descripción | Diagrama | Enlace PUML |
+| :---: | :---: | :---: |
+| Creación de un informe semanal | ![Diagrama de Objetos - Informe](../../imagenes/modeloDelDominio/diagramaDeObjetos/diagramaDeObjetos002.svg) | [Código PUML](../../modelosUML/diagramasObjetos/diagramaObjetos002.puml) |
+
 </details>
 
 ----
-El tercer componente, el **Diagrama de Estados**, muestra las transiciones entre los estados fundamentales de un trabajador: trabajando y no trabajando.
+
+## Diagrama de Estados
+El Diagrama de Estados muestra las transiciones entre los estados fundamentales de un trabajador: trabajando y no trabajando.
 
 <details>
-<summary>Diagrama de Estados</summary>
+<summary>Ver Diagrama de Estados</summary>
 
-![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
-- [Codigo PUML](../../modelosUML/modeloDominio/diagramaEstados.puml)
+![Diagrama de Estados](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
+- [Código PUML](../../modelosUML/modeloDominio/diagramaEstados.puml)
 
 </details>
-

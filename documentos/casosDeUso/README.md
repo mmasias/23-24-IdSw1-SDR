@@ -1,80 +1,79 @@
-# Casos de Uso
+# Documentación de Casos de Uso
 
-Se han identificado 2 actores y 6 casos de uso, los hemos clasificado por cada actor.
+Este documento presenta los casos de uso identificados para nuestro proyecto, clasificados por actores y detallados con diagramas y códigos correspondientes. Nuestro enfoque principal es la gestión de fichajes y el seguimiento del tiempo.
 
-## Usuario
-- verFichajeDiario
-- verInforme
+## Índice
+1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
+2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
+3. [Diagramas de Contexto](#diagramas-de-contexto)
 
-## Administrador
-- verUsuarios
-- editarUsuario
-- añadirUsuario
-- bajaDeUsuario
-- verInforme
+## Actores y Casos de Uso
 
+### Actores Identificados
+- **Usuario**
+- **Administrador**
 
-![](../../imagenes/casosDeUso/diagramaCasosDeUso.svg)
-- [Codigo PUML](../../modelosUML/casosDeUso/casosDeUso.puml)
+### Casos de Uso por Actor
+#### Usuario
+- Ver Fichaje Diario
+- Ver Informe
 
+#### Administrador
+- Ver Usuarios
+- Editar Usuario
+- Añadir Usuario
+- Dar de Baja a Usuario
+- Ver Informe
 
-Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la revision del tiempo.
+#### Diagrama General de Casos de Uso
+![Diagrama de Casos de Uso](../../imagenes/casosDeUso/diagramaCasosDeUso.svg)  
+[Código PUML](../../modelosUML/casosDeUso/casosDeUso.puml)
 
+---
 
-## Detalles de los casos de uso
+## Detalles de los Casos de Uso
 
-### Login y logout
+### Login y Logout
 <details>
-<summary>Login</summary>
+<summary>Detalle de Login</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/login.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/login.puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Login](../../imagenes/casosDeUso/detalles/login.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/login.puml) |
 </details>
 
 <details>
+<summary>Detalle de Logout</summary>
 
-<summary>Logout</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/logout.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/logout.puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Logout](../../imagenes/casosDeUso/detalles/logout.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/logout.puml) |
 </details>
 
-### Usuario
-
+### Casos de Uso para Usuario
 <details>
 <summary>Ver Fichaje</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Ver Fichaje](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
 </details>
 
 <details>
-
 <summary>Ver Informe</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verInformeV2.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Ver Informe](../../imagenes/casosDeUso/detalles/verInformeV2.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml) |
 </details>
 
-----
-
-### Administrador
-
+### Casos de Uso para Administrador
 <details>
-<summary>Ver usuario</summary>
+<summary>Ver Usuario</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Ver Usuario](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
 </details>
 
 <details>
@@ -115,27 +114,27 @@ Nuestra priorización en este proyecto es el fichaje,  y la posibilidad de la re
 
 </details>
 
-----
+---
 
-### Diagrama de Contexto
+## Diagramas de Contexto
+Los siguientes diagramas ofrecen una visión general de las interacciones y la trazabilidad en nuestro sistema.
 
-A continuación tenemos dos diagramas de contexto, donde podemos ver de manera general lo que nuestro sistema permite realizar y la trazabilidad que hay entre ellos. 
-
+### Usuario
 <details>
+<summary>Diagrama de Contexto para Usuario</summary>
 
-<summary>Diagrama de contexto (Usuario)</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Contexto Usuario](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Código PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
 </details>
 
+### Administrador
 <details>
-<summary>Diagrama de contexto (Administrador)</summary>
+<summary>Diagrama de Contexto para Administrador</summary>
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Codigo PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
-
+| Visualización | Código |
+| :---: | :---: |
+| ![Contexto Administrador](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Código PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
 </details>
+
+---
