@@ -24,23 +24,23 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 <details>
 <summary>Ver Informe</summary>
 
-- Selección
-  ![Selección Informe](../../imagenes/prototipos/informe/seleccion.png)
-- Informe Diario
-  ![Informe Diario](../../imagenes/prototipos/informe/diario.png)
-- Informe Semanal
-  ![Informe Semanal](../../imagenes/prototipos/informe/semanal.png)
-- Informe Mensual
-  ![Informe Mensual](../../imagenes/prototipos/informe/mensual.png)
+| Tipo de Informe | Imagen |
+| --- | --- |
+| Selección | ![Selección Informe](../../imagenes/prototipos/informe/seleccion.png) |
+| Informe Diario | ![Informe Diario](../../imagenes/prototipos/informe/diario.png) |
+| Informe Semanal | ![Informe Semanal](../../imagenes/prototipos/informe/semanal.png) |
+| Informe Mensual | ![Informe Mensual](../../imagenes/prototipos/informe/mensual.png) |
+
 </details>
 
 <details>
 <summary>Ver Usuarios</summary>
 
-- Vista Principal
-  ![Ver Usuarios](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png)
-- Opciones de Usuario
-  ![Opciones de Usuario](../../imagenes/prototipos/usuarios/editarDarDeBajaUsuarios(defaultAdmin).png)
+| Vista | Imagen |
+| --- | --- |
+| Vista Principal | ![Ver Usuarios](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
+| Opciones de Usuario | ![Opciones de Usuario](../../imagenes/prototipos/usuarios/editarDarDeBajaUsuarios(defaultAdmin).png) |
+
 </details>
 
 <details>
@@ -58,12 +58,12 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 <details>
 <summary>Baja de Usuarios</summary>
 
-- Vista
-  ![Vista Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png)
-- Formulario
-  ![Formulario Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios2.png)
-- Confirmación
-  ![Confirmación Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png)
+| Paso | Imagen |
+| --- | --- |
+| Vista | ![Vista Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png) |
+| Formulario | ![Formulario Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios2.png) |
+| Confirmación | ![Confirmación Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png) |
+
 </details>
 
 ## SiteMap por Actores
