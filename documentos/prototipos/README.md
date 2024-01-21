@@ -37,15 +37,12 @@ En este apartado se presentan los prototipos de las interfaces de usuario con la
 <details>
 <summary> Ver Usuarios </summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
+
+![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png)
 
 Opciones tras seleccionar un usuario:
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/usuarios/EditarEliminarUsuarios(defaultAdmin).png) |
+![](../../imagenes/prototipos/usuarios/editarDarDeBajaUsuarios(defaultAdmin).png)
 
 </details>
 
