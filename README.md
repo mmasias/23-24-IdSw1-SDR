@@ -13,7 +13,7 @@ Este repositorio contiene toda la documentación y recursos necesarios para el d
 A continuación, se detalla la estructura y los enlaces a las distintas
 
 ## Contenido del Repositorio:
-- [Información del Cliente](/informaciónDelCliente/)
+- [Información del Cliente](/informaciónDelCliente/README.md)
 - [Glosario](/documentos/glosario.md)
 - [Modelo de Dominio](/documentos/modeloDelDominio/README.md)
   - Diagramas de Clases
