@@ -6,6 +6,8 @@ title Diagrama de Clases
 skinparam backgroundColor white
 skinparam defaultFontName Arial
 
+hide empty members
+
 class PLATAFORMA 
 {
    Alumni
@@ -31,7 +33,6 @@ class EGRESADO
 
 class ADMINISTRADOR 
 {
-    Zona de trabajo
 }
 
 class REQUISITO 
