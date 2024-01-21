@@ -1,6 +1,6 @@
 @startuml
 
-title Actualizar datos de la cuenta
+title Crear Administrador
 
 skinparam {
     NoteBackgroundColor #whiteSmoke
@@ -13,13 +13,13 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> ActualizarDatosCuenta
+startState --> CrearAdministrador
 note on link
-    <b>Usuario Solicita</b>
-    * Actualizar datos de la cuenta
+    <b>Administrador Solicita</b>
+    * Crear Usuario Administrador
 end note
 
-state ActualizarDatosCuenta {
+state CrearAdministrador {
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -29,35 +29,29 @@ state 4 <<choice>>
 2 -down-> 3
 note on link
 <b>Sistema Solicita</b>
-* Foto de perfil
 * Nombre
 * Apellido
 * Fecha de nacimiento
 * Email
 * Contraseña
-* Ubicación
-* Ocupación
 <b>Sistema Permite</b>
-* Actualizar datos de la cuenta
+* Crear Administrador
 end note
 
 3 -down-> 4
 note on link
-<b>Usuario introduce</b>
-* Foto de perfil
+<b>Amdinistrador Introduce</b>
 * Nombre
 * Apellido
 * Fecha de nacimiento
 * Email
 * Contraseña
-* Ubicación
-* Ocupación
 end note
 
 4 -down-> [*]
 note on link
 <b>Sistema Muestra</b>
-* Cambios realizados
+* Administrador Creado
 end note
 
 4 -[#red]-> 2

@@ -1,6 +1,6 @@
 @startuml
 
-title Listar datos de la cuenta
+title Listar datos del Usuario
 
 skinparam {
     NoteBackgroundColor #whiteSmoke
@@ -13,29 +13,29 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> ListarDatosCuenta
+startState --> ListarDatosUsuario
 note on link
     <b>Usuario Solicita</b>
-    * Listar datos de la cuenta
+    * Listar datos del Usuario
 end note
 
-state ListarDatosCuenta {
+state ListarDatosUsuario {
     state 2 as " "
     [*] --> [*] 
     note on link
         <b>Sistema Muestra</b>
-        * Datos de la cuenta
+        * Datos del Usuario
     end note
 
     [*] -[#red]-> 2
     note on link
-        Error al listar datos de la cuenta
+        Error al listar datos del Usuario
     end note
 
     2 -[#red]-> [*]
     note on link
         <b>Sistema Muestra</b>
-        * Error al listar datos de la cuenta
+        * Error al listar datos del Usuario
     end note
 
 
