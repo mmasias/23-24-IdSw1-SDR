@@ -1,3 +1,3 @@
 <div align="center">
-  <image src= "./estadisticas.svg">
+  <image src= "./ConsultarEstadisticas.svg">
 </div>

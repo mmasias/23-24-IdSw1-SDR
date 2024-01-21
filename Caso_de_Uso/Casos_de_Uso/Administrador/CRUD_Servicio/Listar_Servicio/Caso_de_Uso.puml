@@ -1,9 +1,44 @@
-@startuml Read_Service
+@startuml
 
-title Listar Servicio
+title Listar Servicios
 
-actor Administrador
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
 
-Administrador --> (Listar Servicio)
+hide empty description
+
+state startState as "INITIAL"
+
+startState --> ListarServicios
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Servicios
+end note
+
+state ListarServicios {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Servicios en Alumni
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar Servicios en Alumni
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Servicios en Alumni
+    end note
+
+
+}
 
 @enduml

@@ -1,0 +1,44 @@
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Cancelación de cuenta
+
+DASHBOARD_ABIERTO -down-> CancelaciónDeCuenta
+note on link
+<b>Usuario solicita</b>
+Cancelar su cuenta
+end note
+
+state CancelaciónDeCuenta{
+  state 1 as " "
+  state 2 as " "
+  state ComprobarRequisitos <<choice>>
+  [*] --> 1
+  1 --> 2
+  note on link
+  <b>Sistema muestra</b>
+  Confirmar la contraseña
+  end note
+  2 --> ComprobarRequisitos
+  note on link
+  <b>Usuario introduce</b>
+  Contraseña
+  end note
+  ComprobarRequisitos -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en datos enviados
+  end note
+  ComprobarRequisitos -down-> UsuarioDeshabilitado
+  UsuarioDeshabilitado --> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de confirmación
+  end note
+}
+@enduml

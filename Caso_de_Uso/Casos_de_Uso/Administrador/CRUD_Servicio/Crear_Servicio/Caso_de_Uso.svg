@@ -1,13 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="225px" preserveAspectRatio="none" style="width:164px;height:225px;background:#FFFFFF;" version="1.1" viewBox="0 0 164 225" width="164px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="105" x="22.8836" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="27.8836" y="24.9659">Crear Servicio</text><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
-entity Administrador--><g id="elem_Administrador"><ellipse cx="82.38" cy="54.0679" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M82.38,62.0679 L82.38,89.0679 M69.38,70.0679 L95.38,70.0679 M82.38,89.0679 L69.38,104.0679 M82.38,89.0679 L95.38,104.0679 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="33.88" y="120.5339">Administrador</text></g><g id="elem_Crear Servicio"><ellipse cx="82.3836" cy="202.3046" fill="#F1F1F1" rx="76.3836" ry="17.6767" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="32.8836" y="207.0376">Crear Servicio</text></g><!--MD5=[c3c47cad40e5695174e0e50470e08c10]
-link Administrador to Crear Servicio--><g id="link_Administrador_Crear Servicio"><path d="M82.38,125.1079 C82.38,142.6979 82.38,162.8879 82.38,178.0579 " fill="none" id="Administrador-to-Crear Servicio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="82.38,182.7179,86.38,173.7179,82.38,177.7179,78.38,173.7179,82.38,182.7179" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cc30b4a7de15e5833817ca99312064a5]
-@startuml Create_Service
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="868px" preserveAspectRatio="none" style="width:528px;height:868px;background:#FFFFFF;" version="1.1" viewBox="0 0 528 868" width="528px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="105" x="201.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="206.5" y="24.9659">Crear Servicio</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="231" y="47.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="236" y="72.4999">INITIAL</text><path d="M19.5,202.0679 L502.5,202.0679 A12.5,12.5 0 0 1 515,214.5679 L515,231.1358 L7,231.1358 L7,214.5679 A12.5,12.5 0 0 1 19.5,202.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="660.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="508" x="7" y="202.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="515" y1="231.1358" y2="231.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="216.5" y="222.0339">CrearServicio</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="111" y="299.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="134" y="324.5678"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="20" y="525.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="43" y="551.0678"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="122,717.1358,134,729.1358,122,741.1358,110,729.1358,122,717.1358" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="136" cy="252.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="122" cy="842.1358" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="122.5" cy="842.6358" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[a050b501c77f4ccec412c3767b12b010]
+link *start*CrearServicio to 2--><g id="link_*start*CrearServicio_2"><path d="M136,262.4458 C136,270.2358 136,281.7358 136,292.2658 " fill="none" id="*start*CrearServicio-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="136,297.1458,140,288.1458,136,292.1458,132,288.1458,136,297.1458" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M110.78,335.1858 C93.62,345.4258 74,357.1358 74,357.1358 C74,357.1358 56.9,467.7058 48.96,519.0258 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="48.23,523.7758,53.5466,515.4853,48.9871,518.8335,45.6388,514.2739,48.23,523.7758" style="stroke:#008000;stroke-width:1.0;"/><path d="M79,362.1358 L79,495.1358 L208,495.1358 L208,372.1358 L198,362.1358 L79,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M198,362.1358 L198,372.1358 L208,372.1358 L198,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="85" y="381.0328">Sistema Solicita</text><ellipse cx="90.5" cy="395.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="97" y="398.7389">Nombre</text><ellipse cx="90.5" cy="412.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="97" y="416.4449">Precio</text><ellipse cx="90.5" cy="430.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="97" y="434.1509">Url del Servicio</text><ellipse cx="90.5" cy="448.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="97" y="451.8569">Descripcion</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="108" x="85" y="469.5629">Sistema Permite</text><ellipse cx="90.5" cy="483.5779" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="97" y="487.2689">Crear Servicio</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M33.24,566.0258 C25.96,578.0158 18,591.1358 18,591.1358 C18,591.1358 18,699.1358 18,699.1358 C18,699.1358 78.49,716.0058 107.2,724.0058 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="111.68,725.2558,104.0856,718.9848,106.8638,723.9125,101.9362,726.6907,111.68,725.2558" style="stroke:#008000;stroke-width:1.0;"/><path d="M23,596.1358 L23,694.1358 L208,694.1358 L208,606.1358 L198,596.1358 L23,596.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M198,596.1358 L198,606.1358 L208,606.1358 L198,596.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="164" x="29" y="615.0328">Amdinistrador Introduce</text><ellipse cx="34.5" cy="629.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="41" y="632.7389">Nombre</text><ellipse cx="34.5" cy="646.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="41" y="650.4449">Precio</text><ellipse cx="34.5" cy="664.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="41" y="668.1509">Url del Servicio</text><ellipse cx="34.5" cy="682.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="41" y="685.8569">Descripcion</text></g><!--MD5=[5500eccd0fb5408858dd8b8d7812debb]
+link 4 to *end*CrearServicio--><g id="link_4_*end*CrearServicio"><path d="M122,741.5958 C122,761.5758 122,802.8058 122,825.4258 " fill="none" id="4-to-*end*CrearServicio" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="122,830.2958,126,821.2958,122,825.2958,118,821.2958,122,830.2958" style="stroke:#008000;stroke-width:1.0;"/><path d="M127,764.1358 L127,809.1358 L258,809.1358 L258,774.1358 L248,764.1358 L127,764.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M248,764.1358 L248,774.1358 L258,774.1358 L248,764.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="133" y="783.0328">Sistema Muestra</text><ellipse cx="138.5" cy="797.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="145" y="800.7389">Servicio Creado</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M130.73,725.3558 C153.5,718.0958 213,699.1358 213,699.1358 C213,699.1358 213,357.1358 213,357.1358 C213,357.1358 188.28,345.2558 166.86,334.9658 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="162.58,332.9058,168.9667,340.4032,167.0887,335.0672,172.4248,333.1892,162.58,332.9058" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M218,523.1358 L218,568.1358 L506,568.1358 L506,533.1358 L496,523.1358 L218,523.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M496,523.1358 L496,533.1358 L506,533.1358 L496,523.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="224" y="542.0328">Sistema Muestra</text><ellipse cx="229.5" cy="556.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="236" y="559.7389">Mensaje de error en los datos introducidos</text></g><!--MD5=[ee1e8b007dbffad1cdba0307dabd443e]
+link startState to CrearServicio--><g id="link_startState_CrearServicio"><path d="M261,87.3779 C261,109.5679 261,148.9879 261,195.4779 " fill="none" id="startState-to-CrearServicio" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="261,200.2679,265,191.2679,261,195.2679,257,191.2679,261,200.2679" style="stroke:#008000;stroke-width:1.0;"/><path d="M266,122.0679 L266,167.0679 L433,167.0679 L433,132.0679 L423,122.0679 L266,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M423,122.0679 L423,132.0679 L433,132.0679 L423,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="146" x="272" y="140.9649">Administrador Solicita</text><ellipse cx="277.5" cy="154.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="284" y="158.6709">Crear Servicio</text></g><!--MD5=[6ed7a3e742ded0294579fd16cf9d6e8f]
+@startuml
 
 title Crear Servicio
 
-actor Administrador
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
 
-Administrador - -> (Crear Servicio)
+hide empty description
+
+state startState as "INITIAL"
+
+startState - -> CrearServicio
+note on link
+    <b>Administrador Solicita</b>
+    * Crear Servicio
+end note
+
+state CrearServicio {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Nombre
+* Precio
+* Url del Servicio
+* Descripcion
+<b>Sistema Permite</b>
+* Crear Servicio
+end note
+
+3 -down-> 4
+note on link
+<b>Amdinistrador Introduce</b>
+* Nombre
+* Precio
+* Url del Servicio
+* Descripcion
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Servicio Creado
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error en los datos introducidos
+end note
+
+}
 
 @enduml
 

@@ -1,26 +1,34 @@
 # Casos de Uso
 
-- Egresado:
-  - [Registro en plataforma](/Requisitos/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
-  - [Suscripción en servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción/Readme.md)
-    - Listar servicios
-    - Suscripción servicio
-    - Editar suscripción servicio
-    - Eliminar suscripción servicio
-  - [Suscripción en paquete de servicios](/Requisitos/Casos_de_Uso/Egresado/CRUD_Suscripción_Paquetes/Readme.md)
-    - Listar paquetes servicios
-    - Suscipción paquetes servicios
-    - Editar suscripción paquetes servicios
-    - Eliminar suscripción paquetes servicios
-- Administrador:
-  - [CRUD servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Readme.md)
-    - [Crear servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
-    - [Editar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
-    - [Listar servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
-    - [Eliminar servicio](/Requisitos/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
-  - [CRUD paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Readme.md)
-    - [Crear paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Crear_Paquete/Readme.md)
-    - [Editar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Editar_Paquete/Readme.md)
-    - [Listar paquetes de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Listar_Paquete/Readme.md)
-    - [Eliminar paquete de servicios](/Requisitos/Casos_de_Uso/Administrador/CRUD_Paquete_de_Servicios/Eliminar_Paquete/Readme.md)
-  - Consultar estadísticas
+- Egresado
+  - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
+  - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Egresado/Cancelación_de_Cuenta/Readme.md)
+  - [Actualización de Datos de la Cuenta](/Caso_de_Uso/Casos_de_Uso/Egresado/Actualizar_Datos_Cuenta/Readme.md)
+  - [Listar Datos de la Cuenta](/Caso_de_Uso/Casos_de_Uso/Egresado/Listar_Datos_Cuenta/Readme.md)
+  - [Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Egresado/CRD_Suscripción/Crear_Suscripción/Readme.md)
+  - [Cancelación de Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Egresado/CRD_Suscripción/Eliminar_Suscripción/Readme.md)
+  - [Listar Servicios / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Egresado/CRD_Suscripción/Listar_Suscripción/Readme.md)
+
+- Administrador
+  - Gestion Paquete de Servicios
+    - [Crear Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Crear_Paquete/Readme.md)
+    - [Editar Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Editar_Paquete/Readme.md)
+    - [Listar Paquetes de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Listar_Paquetes/Readme.md)
+    - [Eliminar Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Paquetes_De_Servicio_Detallados/Eliminar_Paquete/Readme.md)
+  - Gestión de Servicios
+    - [Crear Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Crear_Servicio/Readme.md)
+    - [Editar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Editar_Servicio/Readme.md)
+    - [Listar Servicios](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Listar_Servicio/Readme.md)
+    - [Eliminar Servicio](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Servicio/Eliminar_Servicio/Readme.md)
+  - Gestión de Egresados
+    - [Crear Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Crear_Egresado/Readme.md)
+    - [Editar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Editar_Egresado/Readme.md)
+    - [Listar Egresados](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Listar_Egresado/Readme.md)
+    - [Eliminar Egresado](/Caso_de_Uso/Casos_de_Uso/Administrador/CRUD_Egresados/Eliminar_Egresado/Readme.md)
+  - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Administrador/ConsultarEstadisticas/Readme.md)
+
+- Tiempo
+  - [Eliminar Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Tiempo/Eliminar_Suscripciones/Readme.md)
+
+- Servicios Externos
+  - [Realizar Petición](/Caso_de_Uso/Casos_de_Uso/Servicios_Externos/Realizar_Peticion/Readme.md)
