@@ -4,25 +4,10 @@ En este apartado se presentan los prototipos de las interfaces de usuario con la
 
 ## Vistas específica
 <details>
-<summary>login</summary>
+<summary>Login</summary>
 
-| | |
-| -- | -- |
-|  | ![](../../imagenes/prototipos/login/login.png) |
+![](../../imagenes/prototipos/login/login.png)
 
-
-</details>
-
-
-<details>
-<summary>Ver Informe</summary>
-
-| | |
-| -- | -- |
-| Seleccion de tipo de informe | ![](../../imagenes/prototipos/informe/seleccion.png) |
-| Informe Diario | ![](../../imagenes/prototipos/informe/diario.png) |
-| Informe Semanal | ![](../../imagenes/prototipos/informe/semanal.png) |
-| Informe Mensual | ![](../../imagenes/prototipos/informe/mensual.png) |
 
 </details>
 
@@ -31,6 +16,16 @@ En este apartado se presentan los prototipos de las interfaces de usuario con la
 
 
 ![](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png)
+
+</details>
+
+<details>
+<summary>Ver Informe</summary>
+
+![](../../imagenes/prototipos/informe/seleccion.png)
+![](../../imagenes/prototipos/informe/diario.png)
+![](../../imagenes/prototipos/informe/semanal.png)
+![](../../imagenes/prototipos/informe/mensual.png)
 
 </details>
 
@@ -78,17 +73,13 @@ A continuación se reflejará el mapa de estas vistas por actores.
 <details>
 <summary>Usuario</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png) |
+![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png)
 
 </details>
 
 <details>
 <summary>Administrador</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png) |
+![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png)
 
 </details>
