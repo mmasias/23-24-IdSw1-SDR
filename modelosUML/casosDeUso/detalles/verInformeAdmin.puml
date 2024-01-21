@@ -1,0 +1,48 @@
+@startuml descripción CDU informe
+
+skin rose
+title Caso de Uso: Ver Informe admin
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> verInforme
+
+state verInforme {
+  [*] -[#blue]-> seleccionarUsuario
+  state " " as seleccionarUsuario
+  seleccionarUsuario -[#blue]-> tipoInforme
+  seleccionarUsuario -[#red]-> [*]
+  state " " as tipoInforme
+  tipoInforme -[#blue]-> mostrarInforme
+  state " " as mostrarInforme
+  mostrarInforme -up[#red]-> tipoInforme
+  mostrarInforme  -[#blue]-> [*]
+  tipoInforme -[#red]-> [*]
+  note on link: El admin cancela el ver informe
+}
+note left of mostrarInforme
+  El sistema permite:
+  ° Descargar el informe
+  ° Cerrar el informe
+  ° Repetir la busqueda
+  El sistema muestra si existe el informe
+end note
+
+note left of tipoInforme
+  El sistema requiere:
+  ° Tipo de informe
+  ° Rango de fechas
+  El sistema permite
+  ° Facilitar la busqueda del informe
+  ° Cancelar la busqueda
+end note
+
+note right of seleccionarUsuario
+  El sistema requiere:
+  ° Seleccionar usuario
+  El sistema permite:
+  ° Facilitar la busqueda del usuario
+  ° Cancelar la busqueda
+end note
+
+@enduml

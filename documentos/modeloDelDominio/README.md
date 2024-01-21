@@ -1,22 +1,19 @@
 # Modelo del Dominio
 
+Los objetos principales de nuestro dominio incluyen al trabajador, el lector de huellas, el fichaje, el informe, el contrato, las normas y el horario. A continuación podemos dividir el modelo dominio en diferentes diagramas.
+
+En el primer componente, presentamos el **Diagrama de Clases** para entender las entidades del sistema y sus relaciones.
 
 <details>
 <summary>Diagrama de Clases</summary>
 
-
-  | Paso                                                                  |                         Detalle                         |
-| --------------------------------------------------------------------- | :-----------------------------------------------------: |
-| 1. Listar las clases conceptuales candidatas.                         | trabajadores, lector de huellas, fichaje, contrato, informe, horario, normas |
-| 2. Representarlas en el modelo de dominio de partida.                 |          ![](../../imagenes/modeloDelDominio/diagramaClases/mdd001.svg)           |
-| 3. Añadir las asociaciones necesarias para registrar las relaciones.  |          ![](../../imagenes/modeloDelDominio/diagramaClases/mdd002.svg)           |
-| 4. Añadir los atributos que satisfagan los requisitos de información. |          ![](../../imagenes/modeloDelDominio/diagramaClases/mdd003.svg)           |
-| 5. Añadir relación de normas para fichar definidas por el horario.    |          ![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)           |
-
-![](../../imagenes/modeloDelDominio/diagramaClases/diagramaClases.svg)
-- [Codigo PUML](../../modelosUML/diagramaClases.puml)
+![](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
+- [Codigo PUML](../../modelosUML/modeloDominio/diagramaClases.puml)
 
 </details>
+
+-----
+En el segundo componente, el **Diagrama de Objetos**, mostramos situaciones específicas de interacción entre objetos. Dos ejemplos clave son el fichaje diario y la creación de un informe semanal.
 
 <details>
 <summary>Diagrama de Objetos</summary>
@@ -28,12 +25,14 @@
               
 </details>
 
+----
+El tercer componente, el **Diagrama de Estados**, muestra las transiciones entre los estados fundamentales de un trabajador: trabajando y no trabajando.
+
 <details>
 <summary>Diagrama de Estados</summary>
 
-|Descripción|Diagrama|Enlace PUML|  
-|--|--|--|
-| Se encuentra dos estados, si está trabajando o no | ![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg) | [Codigo PUML](../../modelosUML/diagramaEstados.puml) |
+![](../../imagenes/modeloDelDominio/diagramaEstados/diagramaEstados.svg)
+- [Codigo PUML](../../modelosUML/modeloDominio/diagramaEstados.puml)
 
 </details>
 

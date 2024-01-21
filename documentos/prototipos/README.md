@@ -1,25 +1,13 @@
 # Prototipos
 
+En este apartado se presentan los prototipos de las interfaces de usuario con la información que se detalla en los diagramas de especificación de caso de uso vistos anteriormente, teniendo en cuenta que se muestran los aspectos más importantes de ellos.
+
+## Vistas específica
 <details>
-<summary>login</summary>
+<summary>Login</summary>
 
-| | |
-| -- | -- |
-|  | ![](../../imagenes/prototipos/login/login.png) |
+![](../../imagenes/prototipos/login/login.png)
 
-
-</details>
-
-
-<details>
-<summary>Ver Informe</summary>
-
-| | |
-| -- | -- |
-| Seleccion de tipo de informe | ![](../../imagenes/prototipos/informe/seleccion.png) |
-| Informe Diario | ![](../../imagenes/prototipos/informe/diario.png) |
-| Informe Semanal | ![](../../imagenes/prototipos/informe/semanal.png) |
-| Informe Mensual | ![](../../imagenes/prototipos/informe/mensual.png) |
 
 </details>
 
@@ -32,17 +20,24 @@
 </details>
 
 <details>
+<summary>Ver Informe</summary>
+
+![](../../imagenes/prototipos/informe/seleccion.png)
+![](../../imagenes/prototipos/informe/diario.png)
+![](../../imagenes/prototipos/informe/semanal.png)
+![](../../imagenes/prototipos/informe/mensual.png)
+
+</details>
+
+<details>
 <summary> Ver Usuarios </summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
+
+![](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png)
 
 Opciones tras seleccionar un usuario:
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/usuarios/EditarEliminarUsuarios(defaultAdmin).png) |
+![](../../imagenes/prototipos/usuarios/editarDarDeBajaUsuarios(defaultAdmin).png)
 
 </details>
 
@@ -59,7 +54,7 @@ Opciones tras seleccionar un usuario:
 </details>
 
 <details>
-<summary>Eliminar Usuarios</summary>
+<summary>Baja de Usuarios</summary>
 
 ### Vista
 ![](../../imagenes/prototipos/usuarios/eliminarUsuarios1.png)
@@ -71,20 +66,20 @@ Opciones tras seleccionar un usuario:
 ![](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png)
 </details>
 
-<details>
-<summary>Diagrama de flujo prototipos (usuario)</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png) |
+## SiteMap
+A continuación se reflejará el mapa de estas vistas por actores.
+
+<details>
+<summary>Usuario</summary>
+
+![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png)
 
 </details>
 
 <details>
-<summary>Diagrama de flujo prototipos (admin)</summary>
+<summary>Administrador</summary>
 
-|  |
-| -- |
-| ![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png) |
+![](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png)
 
 </details>
