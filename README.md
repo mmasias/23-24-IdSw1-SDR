@@ -8,7 +8,7 @@ Cliente: _Clara Arnaiz / Salvador Alfaro_
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
 - [Glosario](/documentos/glosario.md)
-- [Modelo de Dominio](/documentos/modeloDelDominio/)
+- [Modelo de Dominio](/documentos/modeloDelDominio/README.md)
   - Diagramas de Clases
   - Diagramas de Estados
   - Diagramas de Objetos
@@ -17,6 +17,6 @@ Cliente: _Clara Arnaiz / Salvador Alfaro_
   - Diagrama de Casos de Uso
   - Diagrama de Contexto
   - Especificación de Casos de Uso
-- [Prototipos de interfaz de usuario](/documentos/prototipos)
+- [Prototipos de interfaz de usuario](/documentos/prototipos/README.md)
   - Vistas específicas
   - SiteMap
