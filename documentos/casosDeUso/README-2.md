@@ -76,7 +76,43 @@ Este documento presenta los casos de uso identificados para nuestro proyecto, cl
 | ![Ver Usuario](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
 </details>
 
-<!-- Repetir para cada caso de uso del Administrador -->
+<details>
+<summary>Editar usuario</summary>
+ 
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/editarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/editarUsuario.puml) |
+
+</details>
+
+<details>
+<summary>Añadir usuario</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
+
+</details>
+
+<details>
+
+<summary>Baja de usuarios</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
+
+</details>
+
+<details>
+
+<summary>Ver Informe</summary>
+
+|  |  |
+| -- | -- |
+| ![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml) |
+
+</details>
 
 ---
 
