@@ -1,9 +1,16 @@
-# Sesiones de requisitado
-Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de UNEATLANTICO.
+# Sesiones de Requisitado
 
-## Proyecto **_Control de Asistencia_**
+Bienvenidos al repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de la Universidad Europea del Atlántico.
 
-Cliente: _Clara Arnaiz / Salvador Alfaro_
+## Proyecto: **Control de Asistencia**
+
+Cliente: **Clara Arnaiz / Salvador Alfaro**
+
+Este repositorio contiene toda la documentación y recursos necesarios para el desarrollo del proyecto.
+
+## Contenido del Repositorio
+
+A continuación, se detalla la estructura y los enlaces a las distintas
 
 ## Contenido del Repositorio:
 - [Información del Cliente](/informaciónDelCliente/)
