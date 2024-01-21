@@ -19,7 +19,6 @@ A continuación, se detalla la estructura y los enlaces a las distintas
   - Diagramas de Clases
   - Diagramas de Estados
   - Diagramas de Objetos
-  - Glosario
 - [Actores y Casos de Uso](/documentos/casosDeUso/README.md)
   - Diagrama de Casos de Uso
   - Diagrama de Contexto
