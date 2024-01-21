@@ -1,23 +1,15 @@
-[*] --> RegistrandoDatos: se crea administrador
+@startuml
+[*] --> UsuarioAdministrador: se crea administrador
 
-RegistrandoDatos-->UsuarioAdministrador :se han registrado los datos
 
 
 state UsuarioAdministrador{
-UsandoHerramienta--> Estadísticas
-state Estadísticas{
-[*]-->GestionandoEstadísticas
-State accion <<choice>>
-GestionandoEstadísticas -->accion:se registra un nuevo Egresado
-accion-->[*]:no
-accion -->ActualizandoEstadísticas :si
-ActualizandoEstadísticas-->GestionandoEstadísticas : el sistema actualiza las estadísticas
-
-
-} 
-[*]-->UsandoHerramienta : necesita gestionar Alumni
-UsandoHerramienta-->gestionandoServicio : se crea nuevo servicio
-UsandoHerramienta-->gestionandoPaquetes : se crea nuevo paquete
+Activo-->GestionandoEstadísticas
+[*]-->Activo: necesita gestionar Alumni
+Activo-->gestionandoServicio 
+Activo-->gestionandoPaquetes 
+Activo --> Inactivo
+Inactivo --> Activo
 }
 
 
