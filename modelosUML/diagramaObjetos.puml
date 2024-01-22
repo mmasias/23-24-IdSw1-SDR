@@ -11,6 +11,7 @@ object "proyecto1 : Proyecto" as proyecto1 {
     nombre = "Proyecto X"
 }
 
+<<<<<<< HEAD
 object "simulacion1 : Simulacion" as simulacion1 {
     tipologiaElemento = "BIDIMENSIONAL"
     material = material1
@@ -24,6 +25,21 @@ object "grafica1 : Grafica" as grafica1 {
     tipoGrafica = "Curva de Calor"
 }
 
+=======
+object "simulación1 : Simulación" as simulación1 {
+    tipologíaElemento = "BIDIMENSIONAL"
+    material = material1
+    agresiónTérmica = agresiónTérmica1
+    gráficaReacción = gráfica1
+    fechaSimulación = "2023-11-03"
+}
+
+object "gráfica1 : Gráfica" as gráfica1 {
+    datos = "x, y"
+    tipoGráfica = "Curva de Calor"
+}
+
+>>>>>>> e462d08af71da1e405c905014c29403300dabe8f
 object "log1 : Log" as log1 {
     acciones = ["Login", "Creación Proyecto", "Inicio Simulación"]
     fechaHora = "2023-11-03T10:00:00"
@@ -35,9 +51,15 @@ object "reporte1 : Reporte" as reporte1 {
 }
 
 usuario1 - proyecto1 : "realiza >"
+<<<<<<< HEAD
 proyecto1 -- simulacion1 : "contiene >"
 simulacion1 -- grafica1 : "genera >"
 simulacion1 -- reporte1 : "produce >"
+=======
+proyecto1 -- simulación1 : "contiene >"
+simulación1 -- gráfica1 : "genera >"
+simulación1 -- reporte1 : "produce >"
+>>>>>>> e462d08af71da1e405c905014c29403300dabe8f
 log1 -- usuario1: "registra >"
 log1 -- proyecto1 : "registra >"
 

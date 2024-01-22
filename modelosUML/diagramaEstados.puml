@@ -2,11 +2,14 @@
 
 title Diagrama de Estados - Aplicación FISC
 
-[*] --> EligiendoCaracteristicas : Inicio de Sesion
-EligiendoCaracteristicas --> Simulacion : Inicia
-Simulacion --> Reporte : Obtiene
-Reporte --> EligiendoCaracteristicas : Nuevo modelado
-Reporte --> [*] : Cierra Sesion
+[*] --> EligiendoCaracterísticas : Inicio de Sesión
+EligiendoCaracterísticas --> Simulación : Inicia
+Simulación --> Reporte : Obtiene
+Reporte --> EligiendoCaracterísticas : Nuevo modelado
+Reporte --> [*] : Cierra Sesión
+
+EligiendoCaracterísticas --> EligiendoCaracterísticas
+Simulación --> EligiendoCaracterísticas : Error
 
 EligiendoCaracteristicas --> EligiendoCaracteristicas
 Simulacion --> EligiendoCaracteristicas : Error

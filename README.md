@@ -16,7 +16,15 @@
 
 - **[Casos de Uso](/documentosMD/casosDeUso.md):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
 
+<<<<<<< HEAD
 - **[Reuniones:](/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
+=======
+- **[Reuniones:](/archivosPdf/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
+
+- **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
+
+- **[Informe Final](/archivosPdf/Reporte_FISC.pdf):** Informe final del proyecto.
+>>>>>>> e462d08af71da1e405c905014c29403300dabe8f
 
 - **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
 

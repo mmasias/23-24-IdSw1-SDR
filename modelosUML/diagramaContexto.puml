@@ -1,0 +1,37 @@
+@startuml
+[*] --> Inicial
+
+Inicial -d-> FISC : Login
+Inicial -d-> Registrando_Usuario : Crear Usuario
+
+Registrando_Usuario -d-> Inicial
+
+State FISC {
+Project_List -d-> Project_Dashboard: Abrir Proyecto \nImportar Proyecto
+Project_List -d-> Configuración_de_Proyecto: Crear Proyecto \nEditar Proyecto
+Project_List -d-> Project_List: Borrar Proyecto \nExportar Proyecto
+
+Configuración_de_Proyecto -d-> Project_Dashboard: Aceptar
+Configuración_de_Proyecto -d-> Project_List
+
+Project_Dashboard -d-> Project_List: Ver Simulación
+Project_Dashboard -d-> Reporte_Abierto: Ver Simulación
+Project_Dashboard -d-> Configuración_de_Simulación: Nueva simulación \nEditar simulación \nImportar simulación 
+Project_Dashboard ---> Project_Dashboard: Borrar Simulación \nExportar Simulación
+
+Configuración_de_Simulación -d-> Project_Dashboard
+Configuración_de_Simulación -d-> Configuración_de_Simulación: Editar Parámetros
+Configuración_de_Simulación -d-> Simulando: Iniciar Simulación
+
+Simulando ---> Configuración_de_Simulación: Cancelar Simulación
+Simulando ---> Simulando: VES
+Simulando ---> Reporte_Abierto: VES
+
+Reporte_Abierto -d-> Reporte_Abierto: Exportar Reporte
+Reporte_Abierto -d-> Project_Dashboard
+}
+
+Log ---> Log: Exportar Log
+FISC -d-> Log: Abrir Log
+FISC --> [*]: Log Out
+@enduml
