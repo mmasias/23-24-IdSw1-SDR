@@ -1,4 +1,4 @@
-@startuml AumniClasses
+@startuml Diagrama_de_Clases
 
 title Diagrama de Clases
 
@@ -27,9 +27,11 @@ abstract USUARIO
 
 class EGRESADO 
 {
-    Ubicacion
+    Direccion
     Ocupación
     Carnet de Estudiante
+    Numero
+    Dni
 }
 
 class ADMINISTRADOR 
