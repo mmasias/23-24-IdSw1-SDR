@@ -1,14 +1,21 @@
 # Casos de Uso
 
-## Identificación
+##Índice
+1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
+2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
+3. [Diagramas de Contexto](#diagramas-de-contexto)
+
+## Actores y Casos de Uso
 
 ### Actores
+
+- Usuario_no_registrado
 - Usuario
 - Tiempo
 
-## Detalles
+### Casos de uso
 
-### - Inicio Sesión
+#### - Inicio Sesión
 
 Los usuarios pueden registrarse o iniciar sesión. Incluye una opción para recuperar la cuenta en caso de olvido de datos y para recordar usuario
 
@@ -16,7 +23,7 @@ Los usuarios pueden registrarse o iniciar sesión. Incluye una opción para recu
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoInicioSesion.svg) | [Codigo PUML](../casosDeUso/casoUsoInicioSesion.puml) |
 
-### - Página Proyectos
+#### - Página Proyectos
 
 Permite al usuario crear, importar, exportar o abrir proyectos, y ofrece un acceso directo al log de la aplicación
 
@@ -24,7 +31,7 @@ Permite al usuario crear, importar, exportar o abrir proyectos, y ofrece un acce
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoPaginaProyectos.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaProyectos.puml) |
 
-### - Nuevo Proyecto
+#### - Nuevo Proyecto
 
 El usuario puede asignar un nombre y descripción al nuevo proyecto con opciones de cancelar la creación del proyecto y crearlo
 
@@ -32,7 +39,7 @@ El usuario puede asignar un nombre y descripción al nuevo proyecto con opciones
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoNuevoProyecto.svg) | [Codigo PUML](../casosDeUso/casoUsoNuevoProyecto.puml) |
 
-### - Página Proyecto
+#### - Página Proyecto
 
 Ofrece opciones para acceder al log, volver a la página de proyectos, crear nuevas simulaciones y ver simulaciones recientes
 
@@ -40,7 +47,7 @@ Ofrece opciones para acceder al log, volver a la página de proyectos, crear nue
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoPaginaProyecto.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaProyecto.puml) |
 
-### - Simulación
+#### - Simulación
 
 El usuario introduce los datos de la probeta y elige entre simulación bidimensional o tridimensional, con la opción de importar parámetros adicionales
 
@@ -48,7 +55,7 @@ El usuario introduce los datos de la probeta y elige entre simulación bidimensi
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoSimulacion.svg) | [Codigo PUML](../casosDeUso/casoUsoSimulacion.puml) |
 
-### - Pantalla Carga
+#### - Pantalla Carga
 
 Tiempo real del proceso de simulación, con opción de cancelar a mitad de camino
 
@@ -56,7 +63,7 @@ Tiempo real del proceso de simulación, con opción de cancelar a mitad de camin
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoPantallaCarga.svg) | [Codigo PUML](../casosDeUso/casoUsoPantallaCarga.puml) |
 
-### - Ver Reporte
+#### - Ver Reporte
 
 Opciones para guardar, exportar, imprimir el reporte, o repetir la simulación editando los datos
 
@@ -64,10 +71,25 @@ Opciones para guardar, exportar, imprimir el reporte, o repetir la simulación e
 | -- | -- |
 | ![](../imagenes/casosDeUso/casoUsoReporte.svg) | [Codigo PUML](../casosDeUso/casoUsoReporte.puml) |
 
-### - Log
+#### - Log
 
 Accesible desde cualquier pantalla, muestra el registro detallado de las acciones realizadas en la aplicación
 
 |  |  |
 | -- | -- |
 | ![](../imagenes/casosDeUso/CasoUsoLog.svg) | [Codigo PUML](../casosDeUso/casoUsoLog.puml) |
+
+---
+
+## Detalles de los Casos de Uso
+
+#### - Detalle Caso Uso Inicial
+
+|  |  |
+| -- | -- |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoInicial.svg) | [Codigo PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoInicial.puml) |
+
+---
+
+## Diagramas de Contexto
+
