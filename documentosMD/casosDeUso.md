@@ -1,6 +1,6 @@
 # Casos de Uso
 
-##Índice
+## Índice
 1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
 2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
 3. [Diagramas de Contexto](#diagramas-de-contexto)
@@ -93,3 +93,6 @@ Accesible desde cualquier pantalla, muestra el registro detallado de las accione
 
 ## Diagramas de Contexto
 
+|  |  |
+| -- | -- |
+| ![](../imagenes/casosDeUso/diagramaContextoE.svg) | [Codigo PUML](../casosDeUso/diagramaContexto.puml) |
