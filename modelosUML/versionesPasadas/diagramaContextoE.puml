@@ -4,7 +4,7 @@
 Inicial -d-> FISC : Login
 Inicial -d-> Registrando_Usuario : Crear Usuario
 
-Registrando_Usuario -d-> Inicial: Registrar Usuario
+Registrando_Usuario -d-> Inicial: Aceptar
 Registrando_Usuario ---> Registrando_Usuario: Editar Parámetros
 
 State FISC {
