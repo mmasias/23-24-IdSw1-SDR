@@ -1,10 +1,6 @@
 @startuml
-<<<<<<< HEAD
-title Modelo de Dominio - Aplicación FISC
-=======
 
 title Diagrama de Clases - Aplicación FISC
->>>>>>> e462d08af71da1e405c905014c29403300dabe8f
 
 class Usuario {
     - nombre
@@ -24,11 +20,6 @@ class Simulación {
     - fechaSimulación
 }
 
-class Gráfica {
-    - datos
-    - tipoGráfica
-}
-
 class Log {
     - acciones
     - fechaHora
@@ -36,24 +27,15 @@ class Log {
 }
 
 class Reporte {
-    - contenido
+    - resultados
     - formato
+    - gráficas
 }
 
-<<<<<<< HEAD
-Usuario -- Proyecto : "realiza >"
-Proyecto "1" o-- "*" Simulacion : "contiene >"
-Simulacion -- Grafica : "genera >"
-Simulacion o-- Reporte : "produce >"
-Usuario <-- Log : "registra"
-Proyecto <-- Log : "registra"
-=======
 Usuario -- Proyecto : "realiza"
 Proyecto  -- Simulación : "contiene"
-Simulación -- Gráfica : "genera"
 Simulación -- Reporte : "produce"
 Usuario -- Log : "registra"
 Proyecto -- Log : "registra"
->>>>>>> e462d08af71da1e405c905014c29403300dabe8f
 
 @enduml
