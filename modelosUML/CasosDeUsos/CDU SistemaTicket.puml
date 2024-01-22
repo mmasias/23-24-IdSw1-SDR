@@ -16,15 +16,10 @@ rectangle SistemaTicket{
     JefeProyecto -- (Asignar Ticket)
     JefeProyecto -- (Modificar Ticket)
     (Ver Ticket) ..> (Filtrar Ticket) :<<extends>>
-    (Filtrar Ticket) ..> (Filtrar Fecha) :<<extends>>
-    (Filtrar Ticket) ..> (Filtrar Prioridad) : <<extends>>
-    (Filtrar Ticket) ..>  (Filtrar Responsable) : <<extends>>
-    (Filtrar Ticket) ..> (Filtrar Estado) : <<extends>>
-    (Filtrar Ticket) ..>  (Filtrar Proyecto) : <<extends>>
     Admin -l-> Usuario
     Admin -l-> JefeProyecto
     Admin -- (Consultar Historial)
-    (Consultar Historial) ..> (Exportar Informe) : <<extends>>
+    Admin -- (Exportar Informe)
     Admin -- (Cerrar Ticket)
 }
 
