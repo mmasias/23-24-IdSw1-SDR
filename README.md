@@ -26,3 +26,4 @@ A continuación, se detalla la estructura y los enlaces a las distintas
 - [Prototipos de interfaz de usuario](/documentos/prototipos/README.md)
   - Vistas específicas
   - SiteMap
+- [Backlog](/documentos/backlog.md)
