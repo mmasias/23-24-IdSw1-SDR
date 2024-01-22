@@ -3,13 +3,14 @@ title Caso de Uso LOG - FISC
 
 left to right direction
 
-actor Usuario_registrado as user
+actor Usuario as user
 
 
 rectangle "Log acceso cualquier pantalla" {
-    usecase "LOG" as log
-
+    usecase "Abrir Log" as log
+    usecase "Exportar Log" as exlog
 }
 
-user --> log: "Accede a"
+user --> log
+user --> exlog
 @enduml
