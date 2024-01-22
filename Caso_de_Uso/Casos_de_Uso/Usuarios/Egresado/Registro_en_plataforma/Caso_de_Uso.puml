@@ -1,5 +1,4 @@
 @startuml
-
 title Registro en Plataforma
 
 skinparam {
@@ -32,13 +31,15 @@ state RegistroEnPlataforma {
   [*] --> 2
   note on link
     <b>Sistema Solicita</b>
-    * Carnet de Estudiante
+    * Carnet de Estudiante 
+    * DNI/NIF/NIE
   end note
 
   2 --> 3
   note on link
     <b>Usuario Introduce</b>
     * Carnet de Estudiante
+    * DNI/NIF/NIE
   end note
 
   3 -[#red]-> 5
@@ -66,8 +67,9 @@ state RegistroEnPlataforma {
     * Apellido
     * Fecha de nacimiento
     * Email
+    * Teléfono
     * Contraseña
-    * Ubicación
+    * Dirección
     * Ocupación
   end note
 
@@ -78,8 +80,9 @@ state RegistroEnPlataforma {
     * Apellido
     * Fecha de nacimiento
     * Email
+    * Teléfono
     * Contraseña
-    * Ubicación
+    * Dirección
     * Ocupación
   end note
 
@@ -101,5 +104,4 @@ state RegistroEnPlataforma {
   end note
 
 }
-
 @enduml
