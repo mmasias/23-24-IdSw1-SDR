@@ -1,5 +1,4 @@
 @startuml
-
 title Actualizar datos del Usuario
 
 skinparam {
@@ -36,7 +35,8 @@ note on link
 * Email
 * Contraseña
 * <b>Usuario Egresado</b>
-    - Ubicación
+    - Dirección
+    - Télefono
     - Ocupación
 <b>Sistema Permite</b>
 * Actualizar datos del Usuario
@@ -50,9 +50,11 @@ note on link
 * Apellido
 * Fecha de nacimiento
 * Email
+* Telefono
 * Contraseña
 * <b>Usuario Egresado</b>
-    - Ubicación
+    - Dirección
+    - Télefono
     - Ocupación
 end note
 
@@ -69,5 +71,4 @@ note on link
 end note
 
 }
-
 @enduml
