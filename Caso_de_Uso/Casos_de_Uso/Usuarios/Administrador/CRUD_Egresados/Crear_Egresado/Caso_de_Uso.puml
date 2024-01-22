@@ -1,5 +1,4 @@
 @startuml
-
 title Crear Egresado
 
 skinparam {
@@ -33,8 +32,9 @@ note on link
 * Apellido
 * Fecha de nacimiento
 * Email
+* Teléfono
 * Contraseña
-* Ubicación
+* Dirección
 * Ocupación
 <b>Sistema Permite</b>
 * Crear Egresado
@@ -47,8 +47,9 @@ note on link
 * Apellido
 * Fecha de nacimiento
 * Email
+* Teléfono
 * Contraseña
-* Ubicación
+* Dirección
 * Ocupación
 end note
 
@@ -65,5 +66,4 @@ note on link
 end note
 
 }
-
 @enduml
