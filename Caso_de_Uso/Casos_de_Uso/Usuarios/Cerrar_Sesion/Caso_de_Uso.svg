@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="528px" preserveAspectRatio="none" style="width:625px;height:528px;background:#FFFFFF;" version="1.1" viewBox="0 0 625 528" width="625px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="102" x="254.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="259.5" y="24.9659">Cerrar Sesión</text><!--MD5=[9fc44f151d4731ca98f8f6aecc50f89f]
+cluster CerrarSesion--><g id="cluster_CerrarSesion"><path d="M19.5,47.0679 L354.5,47.0679 A12.5,12.5 0 0 1 367,59.5679 L367,76.1358 L7,76.1358 L7,59.5679 A12.5,12.5 0 0 1 19.5,47.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="475" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="360" x="7" y="47.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="367" y1="76.1358" y2="76.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="143.5" y="66.0339">CerrarSesion</text></g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="41" y="174.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="64" y="199.4999"> </text><g id="elem_3"><polygon fill="#F1F1F1" points="66,347.0679,78,359.0679,66,371.0679,54,359.0679,66,347.0679" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="66" cy="103.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="66" cy="488.0679" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="66.5" cy="488.5679" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="477" y="468.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="482" y="493.4999">INICIO</text><!--MD5=[dd7a726a5009eefa372e12e68ac6b38b]
+link startState to CerrarSesion--><g id="link_startState_CerrarSesion"><path d="M497.57,467.5779 C482.835,428.9229 448.6825,339.3329 417.9725,258.7717 C402.6175,218.491 388.1231,180.4676 377.3469,152.1968 C374.6528,145.1291 372.1911,138.671 370.0065,132.9395 C369.4603,131.5066 368.9315,130.1191 368.4206,128.7789 C368.1652,128.1088 367.9143,127.4505 367.668,126.8043 C367.5448,126.4812 367.4228,126.161 367.3019,125.844 " fill="none" id="startState-to-CerrarSesion" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="367.3019,125.844,366.7697,135.6784,369.0828,130.5161,374.2451,132.8291,367.3019,125.844" style="stroke:#008000;stroke-width:1.0;"/><path d="M443,258.0679 L443,303.0679 L618,303.0679 L618,268.0679 L608,258.0679 L443,258.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M608,258.0679 L608,268.0679 L618,268.0679 L608,258.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="449" y="276.9649">Usuario Solicita</text><ellipse cx="454.5" cy="290.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="461" y="294.6709">Cerrar Sesión en Alumni</text></g><!--MD5=[dbc57216324f42bbd23897dc7727cab3]
+link *start*CerrarSesion to 2--><g id="link_*start*CerrarSesion_2"><path d="M66,113.2579 C66,125.9179 66,149.2079 66,167.3779 " fill="none" id="*start*CerrarSesion-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="66,172.2979,70,163.2979,66,167.2979,62,163.2979,66,172.2979" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M66,214.4079 C66,246.2379 66,309.2179 66,340.1179 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="66,345.0379,70,336.0379,66,340.0379,62,336.0379,66,345.0379" style="stroke:#008000;stroke-width:1.0;"/><path d="M71,249.0679 L71,312.0679 L330,312.0679 L330,259.0679 L320,249.0679 L71,249.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M320,249.0679 L320,259.0679 L330,259.0679 L320,249.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="108" x="77" y="267.9649">Sistema Permite</text><ellipse cx="82.5" cy="281.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="89" y="285.6709">Cerrar Sesion</text><ellipse cx="82.5" cy="299.686" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="89" y="303.377">Cancelar y volver a la pantalla anterior</text></g><!--MD5=[6531fcd616ecfc6ecd734a5f908844b7]
+link 3 to *end*CerrarSesion--><g id="link_3_*end*CerrarSesion"><path d="M65.21,370.8379 C64.32,382.9879 63,401.0679 63,401.0679 C63,401.0679 63,438.0679 63,438.0679 C63,438.0679 64.17,457.1079 65.04,471.4479 " fill="none" id="3-to-*end*CerrarSesion" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="65.33,476.1079,68.7559,466.8741,65.0154,471.1178,60.7717,467.3774,65.33,476.1079" style="stroke:#008000;stroke-width:1.0;"/><path d="M68,406.0679 L68,433.0679 L294,433.0679 L294,416.0679 L284,406.0679 L68,406.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M284,406.0679 L284,416.0679 L294,416.0679 L284,406.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="205" x="74" y="424.9649">Usuario Confirma Cerrar Sesion</text></g><!--MD5=[c520ecfcb559ed573f9e547393b46adb]
+link 3 to startState--><g id="link_3_startState"><path d="M75.88,361.7779 C120.74,369.5379 303,401.0679 303,401.0679 C303,401.0679 339,438.0679 339,438.0679 C339,438.0679 422.21,462.6279 470.8,476.9779 " fill="none" id="3-to-startState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="475.39,478.3279,467.8926,471.9413,470.595,476.9109,465.6254,479.6133,475.39,478.3279" style="stroke:#008000;stroke-width:1.0;"/><path d="M344,406.0679 L344,433.0679 L561,433.0679 L561,416.0679 L551,406.0679 L344,406.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M551,406.0679 L551,416.0679 L561,416.0679 L551,406.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="196" x="350" y="424.9649">Usuario Cancela Cerrar Sesion</text></g><!--MD5=[0e16508c525fe64e3e892711da1257e3]
+@startuml
+
+title Cerrar Sesión
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "INICIO"
+
+startState - -> CerrarSesion
+note on link
+    <b>Usuario Solicita</b>
+    * Cerrar Sesión en Alumni
+end note
+
+state CerrarSesion {
+state 2 as " "
+state 3 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Cerrar Sesion
+* Cancelar y volver a la pantalla anterior
+end note
+
+3 -down-> [*]
+note on link
+<b>Usuario Confirma Cerrar Sesion</b>
+end note
+
+3 -down-> startState
+note on link
+<b>Usuario Cancela Cerrar Sesion</b>
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
