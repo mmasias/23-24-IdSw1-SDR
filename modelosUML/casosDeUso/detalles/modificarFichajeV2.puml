@@ -1,0 +1,40 @@
+@startuml
+skin rose
+title Caso de Uso: Modificar Fichaje en Dashboard
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> modificarFichaje
+
+state modificarFichaje {
+  [*] -[#blue]-> seleccionarFichaje
+  state "Seleccionar fichaje a modificar" as seleccionarFichaje
+  seleccionarFichaje -[#blue]-> modificarDetallesFichaje
+  state "Modificar detalles del fichaje" as modificarDetallesFichaje
+  modificarDetallesFichaje  -[#blue]-> [*]
+  note on link: El usuario guarda los cambios
+  
+  
+  seleccionarFichaje -[#red]-> [*]
+  note on link: El usuario cancela la modificación
+  
+   
+}
+
+note left of modificarDetallesFichaje
+  El sistema permite:
+  ° Modificar Fecha y Hora
+  ° Guardar fichaje modificado
+  ° Volver a atrás
+  ° Cancelar la modificación
+end note
+
+note left of seleccionarFichaje
+  El sistema requiere:
+  ° Seleccionar Usuario
+  ° Seleccionar Fecha y Hora
+  ° Facilitar al cliente la búsqueda
+  ° Cancelar la búsqueda
+end note
+
+@enduml

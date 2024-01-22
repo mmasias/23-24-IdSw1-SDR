@@ -1,0 +1,46 @@
+@startuml Diagrama de clases
+class Trabajador{
+    + Identificador
+}
+class LectorDeHuellas{
+    + Huella
+}
+class Fichaje{
+    + Trabajador
+    + Fecha
+    + HoraEntrada
+    + HoraSalida
+}
+
+class Informe{
+    + Trabajador
+    + HorasPorDia
+    + HorasSemanales
+    + HorarioCumplido
+}
+
+class Horario{
+    + Dia
+    + HoraEntrada
+    + HoraSalida
+}
+class Contrato{
+    + Tipo
+}
+class Normas{
+
+}
+
+Trabajador -- Contrato : Tiene
+Trabajador .. LectorDeHuellas : Usa
+LectorDeHuellas -- Fichaje : Se usa para
+Fichaje -- Informe : Se describen en
+Informe .. Horario : Verifica que se cumpla
+Contrato -- Normas : Establece
+Normas-- Horario : Regulan
+Normas.. Fichaje : Define
+Trabajador -- Informe : Revisa
+Trabajador -- Fichaje :Realiza
+
+
+@enduml

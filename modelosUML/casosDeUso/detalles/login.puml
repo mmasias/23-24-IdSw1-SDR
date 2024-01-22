@@ -1,0 +1,29 @@
+@startuml
+
+skin rose
+title Caso de Uso: Iniciar Sesión
+
+state INICIO as "INICIO"
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+
+INICIO --> iniciar_sesión : el usuario solicita
+
+state iniciar_sesión {
+  [*] -[#blue]-> formularioLogin : Usuario elige iniciar sesión
+  formularioLogin -[#blue]-> validación : Ingresar credenciales
+  validación -[#blue]-> DASHBOARD_ABIERTO : Credenciales correctas
+  validación -[#red]-> formularioLogin : Credenciales incorrectas
+}
+
+note left of formularioLogin
+  El sistema requiere:
+  - Ingresar nombre de usuario
+  - Ingresar contraseña
+end note
+
+note left of validación
+  El sistema valida:
+  - Autenticidad de las credenciales
+end note
+
+@enduml

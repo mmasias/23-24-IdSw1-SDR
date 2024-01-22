@@ -1,0 +1,18 @@
+@startuml descripción CDU informe
+
+skin rose
+title Caso de Uso: Ver Informe
+start
+  repeat :DASHBOARD_ABIERTO;
+  -> El sistema da la opción de ver un informe;
+  :INFORME;
+  backward:                  ;
+  -> El usuario puede volver a la vista inicial;
+  repeat while (¿Deseas ver informe?) is (no)
+    -> El usuario elige el tipo de informe;
+    :                 ;
+    -> El sistema le muestra el informe elegido por el usuario;
+    :MOSTRAR_INFORME;
+  stop
+
+@enduml

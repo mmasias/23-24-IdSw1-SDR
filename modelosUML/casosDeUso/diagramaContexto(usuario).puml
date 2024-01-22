@@ -1,0 +1,29 @@
+
+@startuml Diagrama Contexto
+
+skin rose
+title Diagrama de contexto (usuario)
+
+[*] -->  Inicial
+
+Inicial -down-> DASHBOARD_ABIERTO: login
+
+DASHBOARD_ABIERTO --> FICHAJE_ACTUAL
+DASHBOARD_ABIERTO --> INFORME
+
+DASHBOARD_ABIERTO <-- FICHAJE_ACTUAL : verFichaje
+DASHBOARD_ABIERTO <-- INFORME : verInforme
+
+INFORME --> DIARIO
+INFORME --> SEMANAL
+INFORME --> MENSUAL
+
+INFORME <-- DIARIO
+INFORME <-- SEMANAL
+INFORME <-- MENSUAL
+
+DASHBOARD_ABIERTO --> [*] : logout
+FICHAJE_ACTUAL --> [*] : logout
+INFORME --> [*] : logout
+
+@enduml

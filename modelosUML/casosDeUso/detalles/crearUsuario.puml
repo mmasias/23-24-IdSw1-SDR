@@ -1,0 +1,36 @@
+@startuml
+skin rose
+title Caso de Uso: Crear Usuario
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> crearUsuario
+
+state crearUsuario {
+  [*] -[#blue]-> seleccionarOpcionCrear
+  state "Seleccionar opción 'Crear Usuario'" as seleccionarOpcionCrear
+  seleccionarOpcionCrear -[#blue]-> ingresarDetallesUsuario
+  state "Ingresar detalles del nuevo usuario" as ingresarDetallesUsuario
+  ingresarDetallesUsuario -[#blue]-> confirmarCreacionUsuario
+  state "Confirmar creación del usuario" as confirmarCreacionUsuario
+  confirmarCreacionUsuario -[#blue]-> [*]
+  note on link: El usuario confirma la creación
+  
+  ingresarDetallesUsuario -[#red]-> [*]
+  note on link: El usuario cancela la creación
+}
+
+note left of ingresarDetallesUsuario
+  El sistema permite:
+  ° Introducir nombre de Usuario
+  ° Introducir datos personales
+  ° Introducir credenciales
+  ° Introducir tipo de contrato
+end note
+
+note left of seleccionarOpcionCrear
+  El sistema requiere:
+  ° Seleccionar la opción 'Crear Usuario' en la lista de usuarios
+end note
+
+@enduml

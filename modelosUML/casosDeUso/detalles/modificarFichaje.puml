@@ -1,0 +1,19 @@
+@startuml Modificar un fichaje
+skin rose
+
+:DASHBOARD_ABIERTO;
+:MODIFICAR_FICHAJE_ADMIN;
+
+partition "Seleccionar fichaje a modificar" {
+  start
+  :Seleccionar Usuario;
+  :Seleccionar Fecha y Hora;
+}
+
+partition "Modificar detalles del fichaje" {
+  :Modificar Fecha y Hora;
+  :guardarFichajeModificado;
+ stop
+}
+
+@enduml

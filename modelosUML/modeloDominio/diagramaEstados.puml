@@ -1,0 +1,13 @@
+@startuml DiagramaEstados
+
+hide empty description
+
+[*] -->  NoTrabajando
+
+NoTrabajando -down-> Trabajando : Fichar
+
+Trabajando -up-> NoTrabajando : Fichar
+
+NoTrabajando -down-> [*]
+
+@enduml

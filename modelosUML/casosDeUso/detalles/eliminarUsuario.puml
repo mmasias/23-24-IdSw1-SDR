@@ -1,0 +1,33 @@
+@startuml
+skin rose
+title Caso de Uso: Baja de Usuarios
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> bajaDeUsuario
+
+state bajaDeUsuario {
+  [*] -[#blue]-> seleccionarUsuario
+  state "Seleccionar usuario para dar de baja en el sistema" as seleccionarUsuario
+  seleccionarUsuario -[#blue]-> confirmarEliminarUsuario
+  state "Confirmar la baja del usuario" as confirmarEliminarUsuario
+  confirmarEliminarUsuario -[#blue]-> [*]
+  note on link: El administrador confirma la baja del usuario
+  
+  seleccionarUsuario -[#red]-> [*]
+  note on link: El administrador cancela la eliminación
+}
+
+note left of confirmarEliminarUsuario
+  El sistema permite:
+  ° Confirmar la baja del usuario
+  ° Mostrar ventana con la lista de usuarios dados de baja
+end note
+
+note left of seleccionarUsuario
+  El sistema requiere:
+  ° Buscar Usuario por nombre
+  ° Seleccionar Usuario de la lista
+end note
+
+@enduml

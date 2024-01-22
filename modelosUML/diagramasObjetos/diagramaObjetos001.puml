@@ -1,0 +1,21 @@
+@startuml Registro de un fichaje
+
+object "trabajador1 : Trabajadores" as trabajador1 {
+    Nombre = "Clara"
+    Apellido = "Arnaiz"
+    Identificador = "000"
+}
+
+object "lectorHuellas : LectorDeHuellas" as lectorHuellas {
+    Huella = "Datos huella"
+}
+
+object "fichaje1 : Fichaje" as fichaje1 {
+    Fecha = "9/11/2023"
+    HoraEntrada = "8:00"
+}
+
+trabajador1 -- lectorHuellas
+lectorHuellas -- fichaje1
+
+@enduml

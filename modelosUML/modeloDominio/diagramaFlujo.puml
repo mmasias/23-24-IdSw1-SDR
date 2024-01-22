@@ -1,0 +1,22 @@
+@startuml Diagrama de flujo
+
+start
+:Fichar;
+:Leer huella;
+if (Registrada?) then (Sí)
+  :Obtener trabajador;
+  :Obtener fecha y hora;
+  :Registrar fichaje;
+  if (vuelve a Fichar?) then (Sí) 
+    :Registrar salida;
+  endif
+  if (Fuera de horario?) then (Sí)
+    :Generar informe;
+  endif
+else (No)
+  :Error "Huella no registrada";
+endif
+
+stop
+
+@enduml
