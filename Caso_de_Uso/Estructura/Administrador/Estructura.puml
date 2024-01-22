@@ -1,0 +1,46 @@
+@startuml Estructura
+
+title Estructura de los Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "CRUD Servicios" as CRUDServicios {
+    Administrador --> (Crear Servicio)
+    Administrador --> (Listar Servicios)
+    Administrador --> (Editar Servicio)
+    Administrador --> (Eliminar Servicio)
+}
+
+folder "CRUD Egresados" as CRUDEgresados {
+    Administrador --> (Crear Egresado)
+    Administrador --> (Listar Egresado)
+    Administrador --> (Editar Egresado)
+    Administrador --> (Eliminar Egresado)
+    Administrador --> (Consultar Estadisticas)
+}
+
+folder "CRUD Paquetes" as CRUDPaquetes {
+    Administrador --> (Crear Paquete)
+    Administrador --> (Listar Paquete)
+    Administrador --> (Editar Paquete)
+    Administrador --> (Eliminar Paquete)
+}
+
+Administrador --> (Realizar Petición)
+(Realizar Petición) --> (Consultar Estadisticas) : <<include>>
+(Eliminar Egresado) --> (Cancelación de Cuenta) : <<include>>
+(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+(Eliminar Paquete) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+(Editar Paquete) --> (Listar Servicios) : <<include>>
+(Crear Paquete) --> (Listar Servicios) : <<include>>
+(Eliminar Servicio) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+
+@enduml

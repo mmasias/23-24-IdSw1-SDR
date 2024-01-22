@@ -1,0 +1,26 @@
+@startuml Estructura
+
+title Estructura de los Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+Egresado --> (Registro en Plataforma)
+Egresado --> (Cancelación de Cuenta)
+Egresado --> (Actualización de Datos de la Cuenta)
+Egresado --> (Listar Datos de la Cuenta)
+Egresado --> (Suscripción a Servicio / Paquete de Servicios)
+Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+Egresado --> (Listar Servicios / Paquetes de Servicios)
+Egresado --> (Realizar Petición)
+
+(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+
+@enduml

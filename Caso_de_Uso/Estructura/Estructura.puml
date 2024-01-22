@@ -1,0 +1,62 @@
+@startuml Estructura
+
+title Estructura de los Casos de Uso
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+actor Administrador
+actor Tiempo
+
+folder "CRUD Servicios" as CRUDServicios {
+    Administrador --> (Crear Servicio)
+    Administrador --> (Listar Servicios)
+    Administrador --> (Editar Servicio)
+    Administrador --> (Eliminar Servicio)
+}
+
+folder "CRUD Egresados" as CRUDEgresados {
+    Administrador --> (Crear Egresado)
+    Administrador --> (Listar Egresado)
+    Administrador --> (Editar Egresado)
+    Administrador --> (Eliminar Egresado)
+    Administrador --> (Consultar Estadisticas)
+}
+
+folder "CRUD Paquetes" as CRUDPaquetes {
+    Administrador --> (Crear Paquete)
+    Administrador --> (Listar Paquete)
+    Administrador --> (Editar Paquete)
+    Administrador --> (Eliminar Paquete)
+}
+
+Administrador --> (Realizar Petición)
+Administrador --> (Consultar Estadisticas)
+
+Egresado --> (Registro en Plataforma)
+Egresado --> (Cancelación de Cuenta)
+Egresado --> (Actualización de Datos de la Cuenta)
+Egresado --> (Listar Datos de la Cuenta)
+Egresado --> (Suscripción a Servicio / Paquete de Servicios)
+Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+Egresado --> (Listar Servicios / Paquetes de Servicios)
+Egresado --> (Realizar Petición)
+
+Tiempo --> (Eliminar Suscripción a Servicio / Paquete de Servicios)
+
+(Realizar Petición) --> (Consultar_Estadisticas) : <<include>>
+(Eliminar Egresado) --> (Cancelación de Cuenta) : <<include>>
+(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+(Eliminar Paquete) --> (Listar Servicios) : <<include>>
+(Eliminar Paquete) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+(Editar Paquete) --> (Listar Servicios) : <<include>>
+(Crear Paquete) --> (Listar Servicios) : <<include>>
+(Eliminar Servicio) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+
+@enduml

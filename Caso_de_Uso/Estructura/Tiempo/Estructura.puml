@@ -1,0 +1,17 @@
+@startuml Estructura
+
+title Estructura de los Casos de Uso(Tiempo)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Tiempo
+
+Tiempo --> (Eliminar Suscripción a Servicio / Paquete de Servicios)
+
+@enduml
