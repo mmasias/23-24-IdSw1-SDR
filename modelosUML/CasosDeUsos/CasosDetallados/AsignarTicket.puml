@@ -1,12 +1,42 @@
-@startuml CDU AsignarTicket
+@startuml
 skin rose
-:Dashboard Abierto;
-:Ver Lista de Tickets;
-:Validar Prioridad;
-partition "Asignar Ticket" {
-  start
-    :Ver Desarrolladores disponibles;
-    :Asignar Responsable;
+title Caso de Uso: Asignar Ticket
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> verTicket
+note on link: **El usuario** solicita ver ticket
+state verTicket {
+
+
+  state AsignarTicket {
+    [*] -[#blue]-> seleccionarOpcionVer
+    state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+    seleccionarOpcionVer -[#blue]-> ingresarVerTicket
+    state "Verifica lista de desarrolladores" as ingresarVerTicket
+    ingresarVerTicket -[#blue]-> confirmarAsignacion
+    state "Confirmación de asignación" as confirmarAsignacion
+    confirmarAsignacion -[#blue]-> [*]
+    note on link: **El usuario** confirma la asignación
+    
+    confirmarAsignacion -[#red]-> [*]
+    note on link: **El usuario** cancela la asignación
+  }
 }
-stop
+
+note left of seleccionarOpcionVer
+  **El sistema muestra**: 
+  ° El ticket seleccionado
+end note
+
+note left of ingresarVerTicket
+  **El sistema muestra**: 
+  ° Lista de desarrolladores
+end note
+
+note left of ingresarVerTicket
+  **El usuario selecciona**: 
+  ° Desarrollador 
+end note
+
 @enduml
