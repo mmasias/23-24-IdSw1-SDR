@@ -1,13 +1,54 @@
 @startuml
-
 skin rose
-:Dashboard Abierto;
-partition "Cerrar ticket" {
-  start
-  :seleccionar Ticket;
-  :confirmarCerrarTicket;
- 
+title Caso de Uso: Asignar Ticket
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> verTicket
+note on link: **El usuario** solicita ver ticket
+state verTicket {
+ [*] -[#blue]-> verlistadoTickets
+ state "Ver listado de tickets" as verlistadoTickets
+verlistadoTickets -[#blue]-> seleccionarOpcionVer
+state "Ver listado de tickets" as CerrarTicket
+note on link : **El usuario** selecciona un ticket
+ state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+    seleccionarOpcionVer -[#blue]-> CerrarTicket
+   note on link: **El usuario** requiere cerrar ticket
+   state CerrarTicket {
+    state "Cambiar estado a cerrado" as ingresarVerTicket
+    ingresarVerTicket -[#blue]-> confirmarAsignacion
+    state "Confirmar cierre de ticket" as confirmarAsignacion
+    confirmarAsignacion -[#blue]-> [*]
+    note on link: **El usuario** confirma el cierre
+    
+    confirmarAsignacion -[#red]-> [*]
+    note on link: **El usuario** cancela el cierre
+    
+  }
 }
-stop
+note left of verlistadoTickets
+ **El usuario** filtra por estado resuelto
+end note
+
+note left of verlistadoTickets
+  **El sistema muestra**: 
+  ° Lista de tickets
+end note
+
+note left of seleccionarOpcionVer
+  **El sistema muestra**: 
+  ° El ticket seleccionado
+end note
+
+note left of ingresarVerTicket
+  **El sistema muestra**: 
+  ° Lista de estado cerrado
+end note
+
+note left of ingresarVerTicket
+  **El usuario selecciona**: 
+  ° Estado cerrado
+end note
 
 @enduml

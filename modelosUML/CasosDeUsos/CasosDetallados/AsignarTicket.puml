@@ -7,12 +7,15 @@ state DASHBOARD_ABIERTO
 DASHBOARD_ABIERTO --> verTicket
 note on link: **El usuario** solicita ver ticket
 state verTicket {
-
-
-  state AsignarTicket {
-    [*] -[#blue]-> seleccionarOpcionVer
-    state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
-    seleccionarOpcionVer -[#blue]-> ingresarVerTicket
+ [*] -[#blue]-> verlistadoTickets
+ state "Ver listado de tickets" as verlistadoTickets
+verlistadoTickets -[#blue]-> seleccionarOpcionVer
+state "Ver listado de tickets" as AsignarTicket
+note on link : **El usuario** selecciona un ticket
+ state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+    seleccionarOpcionVer -[#blue]-> AsignarTicket
+   note on link: **El usuario** solicita asignar responsable
+   state AsignarTicket {
     state "Verifica lista de desarrolladores" as ingresarVerTicket
     ingresarVerTicket -[#blue]-> confirmarAsignacion
     state "Confirmación de asignación" as confirmarAsignacion
@@ -21,8 +24,13 @@ state verTicket {
     
     confirmarAsignacion -[#red]-> [*]
     note on link: **El usuario** cancela la asignación
+    
   }
 }
+note left of verlistadoTickets
+  **El sistema muestra**: 
+  ° Lista de tickets
+end note
 
 note left of seleccionarOpcionVer
   **El sistema muestra**: 
