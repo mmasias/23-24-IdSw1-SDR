@@ -30,7 +30,7 @@
 
 - Servicio Externo:
 
-*Plataformas externas con la que se comunica Alumni (plataforma) para ofrecer determinados servicios.*
+*Plataformas externas con la que se comunica Alumni (plataforma) para ofrecer determinadas prestaciones.*
 
 - Cuenta:
 
