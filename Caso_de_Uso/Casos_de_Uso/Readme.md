@@ -3,6 +3,8 @@
 - Usuarios
   - [Actualización de Datos del Usuario](/Caso_de_Uso/Casos_de_Uso/Usuarios/Actualizar_Datos_Usuario/Readme.md)
   - [Listar Datos del Usuario](/Caso_de_Uso/Casos_de_Uso/Usuarios/Listar_Datos_Usuario/Readme.md)
+  - [Iniciar Sesion](/Caso_de_Uso/Casos_de_Uso/Usuarios/Iniciar_Sesion/Readme.md)
+  - [Cerrar Sesion](/Caso_de_Uso/Casos_de_Uso/Usuarios/Cerrar_Sesion/Readme.md)
   - Egresado
     - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Egresado/Registro_en_plataforma/Readme.md)
     - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Egresado/Cancelación_de_Cuenta/Readme.md)
