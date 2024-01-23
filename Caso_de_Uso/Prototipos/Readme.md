@@ -303,6 +303,20 @@
 <details>
     <summary>Plantilla Base para Servicios Externos</summary>
       <div align="center">
-        <image src="./Pantallas/Plantilla_Base_Servicios_Externos.png" align="center">
+        <image src="./Pantallas/General/Plantilla_Base_Servicios_Externos.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Toast correcto</summary>
+      <div align="center">
+        <image src="./Pantallas/General/Toast_Succesfull.svg" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Toast incorrecto</summary>
+      <div align="center">
+        <image src="./Pantallas/General/Toast_Error.svg" align="center">
       </div>
   </details>
