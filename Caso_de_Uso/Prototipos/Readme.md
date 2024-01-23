@@ -4,7 +4,7 @@
   <details>
     <summary>Crear Administrador</summary>
       <div align="center">
-        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png" align="center">
+        <image src="./Pantallas/Administradores/Crear_Administrador.png" align="center">
       </div>
   </details>
 
