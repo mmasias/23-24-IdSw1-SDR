@@ -2,6 +2,7 @@
 - Pantallas
     - [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
         - [Crear Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png)
+          ![](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png)
         - [Editar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png)
         - [Eliminar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png)
         - [Listar Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png)
