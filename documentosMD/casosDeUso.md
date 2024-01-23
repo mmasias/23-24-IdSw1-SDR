@@ -29,15 +29,7 @@ Permite al usuario crear, importar, exportar o abrir proyectos, y ofrece un acce
 
 |  |  |
 | -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaUsuario.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaUsuario.puml) |
-
-#### - Nuevo Proyecto
-
-El usuario puede asignar un nombre y descripción al nuevo proyecto con opciones de cancelar la creación del proyecto y crearlo
-
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoNuevoProyecto.svg) | [Codigo PUML](../casosDeUso/casoUsoNuevoProyecto.puml) |
+| ![](../imagenes/casosDeUso/casoUsoPaginaPrincipal.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaPricipal.puml) |
 
 #### - Página Proyecto
 
@@ -95,4 +87,4 @@ Accesible desde cualquier pantalla, muestra el registro detallado de las accione
 
 |  |  |
 | -- | -- |
-| ![](../imagenes/casosDeUso/diagramaContextoE.svg) | [Codigo PUML](../casosDeUso/diagramaContexto.puml) |
+| ![](../imagenes/casosDeUso/diagramaDeContexto.svg) | [Codigo PUML](../casosDeUso/diagramaContexto.puml) |

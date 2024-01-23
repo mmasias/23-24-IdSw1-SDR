@@ -6,7 +6,7 @@ left to right direction
 
 actor Usuario as user
 
-rectangle "FISC Pagina Usuario" {
+rectangle "FISC Pagina Principal" {
   usecase "Importar proyectos" as importar
   usecase "Nuevo proyecto" as newproyect
   usecase "Abrir proyecto" as openproyect
