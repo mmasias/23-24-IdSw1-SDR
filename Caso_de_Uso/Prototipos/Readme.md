@@ -204,6 +204,13 @@
   </details>
 
   <details>
+    <summary>Error de Login</summary>
+      <div align="center">
+        <image src="./Pantallas/Login_Registro/Login_Error.svg" align="center">
+      </div>
+  </details>
+
+  <details>
     <summary>Registro Plataforma</summary>
       <div align="center">
         <image src="./Pantallas/Login_Registro/Registro_Plataforma.png" align="center">
@@ -250,7 +257,7 @@
   <details>
     <summary>Editar Paquete</summary>
       <div align="center">
-        <image src="./Pantallas/Paquetes/Editar_Paquete.png" align="center">
+        <image src="./Pantallas/Paquetes/Editar_Paquete.svg" align="center">
       </div>
   </details>
 
