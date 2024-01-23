@@ -13,7 +13,9 @@ class PLATAFORMA
    Alumni
 }
 
-abstract "SERVICIO EXTERNO"
+abstract "SERVICIO EXTERNO"{
+    Url
+}
 
 abstract USUARIO 
 {
@@ -67,7 +69,6 @@ abstract SERVICIO
     Nombre 
     Descripción
     Precio
-    Tipo de servicio
 }
 
 PLATAFORMA -- USUARIO : tiene
