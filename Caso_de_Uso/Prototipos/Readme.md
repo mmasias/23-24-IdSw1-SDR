@@ -1,6 +1,6 @@
 # Prototipos
 
-- [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
+## [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
 
 <details>
     <summary>Crear Administrador</summary>
