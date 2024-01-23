@@ -1,0 +1,22 @@
+@startuml
+
+title Caso de Uso Pagina Usuario - FISC
+
+left to right direction
+
+actor Usuario as user
+
+rectangle "FISC Pagina Usuario" {
+  usecase "Importar proyectos" as importar
+  usecase "Nuevo proyecto" as newproyect
+  usecase "Abrir proyecto" as openproyect
+  usecase "Exportar" as exportarproyect
+
+}
+
+  user --> importar : ""
+  user --> newproyect : ""
+  user --> openproyect : ""
+  user --> exportarproyect : ""
+
+@enduml

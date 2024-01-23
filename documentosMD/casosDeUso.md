@@ -21,15 +21,15 @@ Los usuarios pueden registrarse o iniciar sesión. Incluye una opción para recu
 
 |  |  |
 | -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoInicioSesion.svg) | [Codigo PUML](../casosDeUso/casoUsoInicioSesion.puml) |
+| ![](../imagenes/casosDeUso/casoUsoInicioSesión.svg) | [Codigo PUML](../casosDeUso/casoUsoInicioSesión.puml) |
 
-#### - Página Proyectos
+#### - Página Usuario
 
 Permite al usuario crear, importar, exportar o abrir proyectos, y ofrece un acceso directo al log de la aplicación
 
 |  |  |
 | -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaProyectos.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaProyectos.puml) |
+| ![](../imagenes/casosDeUso/casoUsoPaginaUsuario.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaUsuario.puml) |
 
 #### - Nuevo Proyecto
 
