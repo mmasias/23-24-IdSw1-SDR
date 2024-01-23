@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="527px" preserveAspectRatio="none" style="width:1002px;height:527px;background:#FFFFFF;" version="1.1" viewBox="0 0 1002 527" width="1002px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.0986" id="_title" style="stroke:none;stroke-width:1.0;" width="334" x="327.25" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="324" x="332.25" y="23.1318">Diagrama de Objetos - Ejemplo de Suscripción</text><!--MD5=[4b3c37d9c00161272944f82183045a82]
+class Suscripción--><g id="elem_Suscripción"><rect codeLine="7" fill="#F1F1F1" height="90.3945" id="Suscripción" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="250" x="495" y="146.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="73" x="583.5" y="164.2305">Suscripción</text><line style="stroke:#181818;stroke-width:0.5;" x1="496" x2="744" y1="172.1973" y2="172.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="108" x="501" y="189.3291">Precio Total: 10€</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="238" x="501" y="205.4277">Paquetes Suscritos: Paquete Deporte</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="157" x="501" y="221.5264">Servicios Suscritos: Chat</text><line style="stroke:#181818;stroke-width:0.5;" x1="496" x2="744" y1="228.4932" y2="228.4932"/></g><!--MD5=[75d7ccfc433e196bd3461f18640f1f58]
+class Chat:Servicio--><g id="elem_Chat:Servicio"><rect codeLine="14" fill="#F1F1F1" height="74.2959" id="Chat:Servicio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="349" x="646.5" y="304.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="84" x="779" y="322.2305">Chat:Servicio</text><line style="stroke:#181818;stroke-width:0.5;" x1="647.5" x2="994.5" y1="330.1973" y2="330.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="337" x="652.5" y="347.3291">Descripción: Chat para comunicarse con otros alumni</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="86" x="652.5" y="363.4277">Precio: Gratis</text><line style="stroke:#181818;stroke-width:0.5;" x1="647.5" x2="994.5" y1="370.3945" y2="370.3945"/></g><!--MD5=[4421238bf9c09fd28f5c87765b3471ac]
+class Paquete Deporte:Paquete--><g id="elem_Paquete Deporte:Paquete"><rect codeLine="21" fill="#F1F1F1" height="90.3945" id="Paquete Deporte:Paquete" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="384" x="227" y="296.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="165" x="336.5" y="314.2305">Paquete Deporte:Paquete</text><line style="stroke:#181818;stroke-width:0.5;" x1="228" x2="610" y1="322.1973" y2="322.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="238" x="233" y="339.3291">Descripción:Paquete para deportistas</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="372" x="233" y="355.4277">Servicios Incluidos: Reserva Pista y NewsLetter de Deporte</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="72" x="233" y="371.5264">Precio: 10€</text><line style="stroke:#181818;stroke-width:0.5;" x1="228" x2="610" y1="378.4932" y2="378.4932"/></g><!--MD5=[34d8cc9ff13b2c63f264c17d61d82569]
+class Reserva Pista:Servicio--><g id="elem_Reserva Pista:Servicio"><rect codeLine="28" fill="#F1F1F1" height="74.2959" id="Reserva Pista:Servicio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="340" x="72" y="446.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="142" x="171" y="464.2305">Reserva Pista:Servicio</text><line style="stroke:#181818;stroke-width:0.5;" x1="73" x2="411" y1="472.1973" y2="472.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="328" x="78" y="489.3291">Descripción: Permite Reservar las pistas de deporte</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="64" x="78" y="505.4277">Precio: 8€</text><line style="stroke:#181818;stroke-width:0.5;" x1="73" x2="411" y1="512.3945" y2="512.3945"/></g><!--MD5=[d1e33b616979e0a22f4110e63a416dcb]
+class NewsLetter de Deporte:Servicio--><g id="elem_NewsLetter de Deporte:Servicio"><rect codeLine="33" fill="#F1F1F1" height="74.2959" id="NewsLetter de Deporte:Servicio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="299" x="447.5" y="446.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="199" x="497.5" y="464.2305">NewsLetter de Deporte:Servicio</text><line style="stroke:#181818;stroke-width:0.5;" x1="448.5" x2="745.5" y1="472.1973" y2="472.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="287" x="453.5" y="489.3291">Descripción: Obtenga las noticias del deporte</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="64" x="453.5" y="505.4277">Precio: 4€</text><line style="stroke:#181818;stroke-width:0.5;" x1="448.5" x2="745.5" y1="512.3945" y2="512.3945"/></g><!--MD5=[2a92158e941c46185f31bfc61ad043d8]
+class Alumni--><g id="elem_Alumni"><rect fill="#F1F1F1" height="42.0986" id="Alumni" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="596" y="44.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="42" x="599" y="62.2305">Alumni</text><line style="stroke:#181818;stroke-width:0.5;" x1="597" x2="643" y1="70.1973" y2="70.1973"/><line style="stroke:#181818;stroke-width:0.5;" x1="597" x2="643" y1="78.1973" y2="78.1973"/></g><g id="elem_GMN10"><path d="M6,313.5986 L6,368.4448 A0,0 0 0 0 6,368.4448 L192,368.4448 A0,0 0 0 0 192,368.4448 L192,345.0986 L226.69,341.0986 L192,337.0986 L192,323.5986 L182,313.5986 L6,313.5986 A0,0 0 0 0 6,313.5986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M182,313.5986 L182,323.5986 L192,323.5986 L182,313.5986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="161" x="12" y="330.7925">El precio del paquete puede</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="142" x="12" y="345.7412">ser inferior que todos los</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="123" x="12" y="360.6899">paquetes que incluya</text></g><!--MD5=[54cfe4b54c5e2a59b3240583dbcb4758]
+link Alumni to Suscripción--><g id="link_Alumni_Suscripción"><path codeLine="39" d="M620,86.2986 C620,102.4286 620,125.6186 620,145.9886 " fill="none" id="Alumni-Suscripción" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4aebf775ddfc6a5b2a64ef8ec478aa0e]
+link Suscripción to Paquete Deporte:Paquete--><g id="link_Suscripción_Paquete Deporte:Paquete"><path codeLine="40" d="M560.24,236.0986 C534.55,255.0186 504.58,277.0786 478.88,296.0086 " fill="none" id="Suscripción-Paquete Deporte:Paquete" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[81072f74b41ddd06cd0bf65fd43ca63a]
+link Paquete Deporte:Paquete to NewsLetter de Deporte:Servicio--><g id="link_Paquete Deporte:Paquete_NewsLetter de Deporte:Servicio"><path codeLine="43" d="M475.32,386.3986 C499.76,405.6186 528.03,427.8486 551.16,446.0486 " fill="none" id="Paquete Deporte:Paquete-NewsLetter de Deporte:Servicio" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5de54352151dd3030a5fa094ed21c638]
+link Paquete Deporte:Paquete to Reserva Pista:Servicio--><g id="link_Paquete Deporte:Paquete_Reserva Pista:Servicio"><path codeLine="44" d="M363,386.3986 C338.69,405.6186 310.58,427.8486 287.58,446.0486 " fill="none" id="Paquete Deporte:Paquete-Reserva Pista:Servicio" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[04856fe4ce0bae84a483030283a13144]
+link Suscripción to Chat:Servicio--><g id="link_Suscripción_Chat:Servicio"><path codeLine="45" d="M679.76,236.0986 C709.16,257.7486 744.15,283.5086 771.94,303.9786 " fill="none" id="Suscripción-Chat:Servicio" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8a998a215554f4289d287d7d93f690b0]
+@startuml Diagrama_de_Objetos-Servicio_Externo
+title Diagrama de Objetos - Ejemplo de Suscripción
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class Suscripción
+{
+Precio Total: 10€
+Paquetes Suscritos: Paquete Deporte
+Servicios Suscritos: Chat
+}
+
+class "Chat:Servicio"
+{
+Descripción: Chat para comunicarse con otros alumni
+Precio: Gratis
+}
+
+
+class "Paquete Deporte:Paquete"
+{
+Descripción:Paquete para deportistas
+Servicios Incluidos: Reserva Pista y NewsLetter de Deporte
+Precio: 10€
+}
+
+class "Reserva Pista:Servicio"
+{
+Descripción: Permite Reservar las pistas de deporte
+Precio: 8€
+}
+class "NewsLetter de Deporte:Servicio"
+{
+Descripción: Obtenga las noticias del deporte
+Precio: 4€
+}
+
+Alumni - - "Suscripción"
+Suscripción - - "Paquete Deporte:Paquete"
+note left: El precio del paquete puede \nser inferior que todos los \npaquetes que incluya
+
+"Paquete Deporte:Paquete"- -"NewsLetter de Deporte:Servicio"
+"Paquete Deporte:Paquete"- -"Reserva Pista:Servicio"
+Suscripción- -"Chat:Servicio"
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

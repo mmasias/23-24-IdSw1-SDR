@@ -7,7 +7,7 @@ hide circle
 
 class Suscripción
 {
-Precio: 10€
+Precio Total: 10€
 Paquetes Suscritos: Paquete Deporte
 Servicios Suscritos: Chat
 }
@@ -38,7 +38,8 @@ Precio: 4€
 }
 
 Alumni -- "Suscripción"
-Suscripción--"Paquete Deporte:Paquete"
+Suscripción -- "Paquete Deporte:Paquete"
+note left: El precio del paquete puede \nser inferior que todos los \npaquetes que incluya
 
 "Paquete Deporte:Paquete"--"NewsLetter de Deporte:Servicio"
 "Paquete Deporte:Paquete"--"Reserva Pista:Servicio"
