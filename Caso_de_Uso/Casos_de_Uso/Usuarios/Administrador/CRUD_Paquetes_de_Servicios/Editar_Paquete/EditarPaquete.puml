@@ -31,7 +31,7 @@ note on link
 * Nombre
 * Servicios Incluidos
 * Precio
-* Descripcion
+* Descripción
 <b>Sistema Permite</b>
 * Actualizar datos de Paquete de Servicios
 end note
@@ -42,7 +42,7 @@ note on link
 * Nombre
 * Servicios Incluidos
 * Precio
-* Descripcion
+* Descripción
 end note
 
 4 -down-> [*]
