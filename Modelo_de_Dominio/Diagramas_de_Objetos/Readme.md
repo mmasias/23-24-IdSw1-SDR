@@ -9,6 +9,7 @@
         <image src="./Reserva_Instalaciones/Diagrama_de_Objetos-Servicio_Externo.svg" align="center">
       </div>
   </details>
+            
 ### Diagrama de Suscripciones
 
 <details>
