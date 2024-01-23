@@ -4,19 +4,23 @@ title Caso de Uso: Asignar Ticket
 
 state DASHBOARD_ABIERTO
 
-DASHBOARD_ABIERTO --> verTicket
+DASHBOARD_ABIERTO --> VerTicket
 note on link: **El usuario** solicita ver ticket
-state verTicket {
- [*] -[#blue]-> verlistadoTickets
- state "Ver listado de tickets" as verlistadoTickets
-verlistadoTickets -[#blue]-> seleccionarOpcionVer
-state "Ver listado de tickets" as AsignarTicket
-note on link : **El usuario** selecciona un ticket
- state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
-    seleccionarOpcionVer -[#blue]-> AsignarTicket
-   note on link: **El usuario** solicita asignar responsable
-   state AsignarTicket {
-    state "Verifica lista de desarrolladores" as ingresarVerTicket
+
+state VerTicket {
+
+  [*] -[#blue]-> verlistadoTickets
+  state "Ver listado de tickets" as verlistadoTickets
+  verlistadoTickets -[#blue]-> seleccionarOpcionVer
+  state "Ver listado de tickets" as AsignarTicket
+  note on link : **El usuario** selecciona un ticket
+  state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+  seleccionarOpcionVer -[#blue]-> AsignarTicket
+  note on link: **El usuario** solicita asignar responsable
+
+  state AsignarTicket {
+
+    state "Asignar Responsable" as ingresarVerTicket
     ingresarVerTicket -[#blue]-> confirmarAsignacion
     state "Confirmación de asignación" as confirmarAsignacion
     confirmarAsignacion -[#blue]-> [*]
@@ -27,6 +31,7 @@ note on link : **El usuario** selecciona un ticket
     
   }
 }
+
 note left of verlistadoTickets
   **El sistema muestra**: 
   ° Lista de tickets

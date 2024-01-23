@@ -16,4 +16,4 @@ TiCKET es una aplicación planteada para la gestión de errores obtenidas de la 
 
 - [Diagrama de Actividades](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)
 
-- [Casos De Usos](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)
+- [Caso De Uso](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)

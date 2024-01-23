@@ -5,25 +5,27 @@ title Modelo del dominio Ticket
 class usuario{ 
     +usuario
     +contraseña
-    +correo
-    
-   
+    +correo  
 }
+
 class rol{ 
     +tipo
- }
+}
 
- class ticket{
+class ticket{
     +etiqueta
     +fecha
     +estado 
-    }
+}
+
 class historial{ 
     +fecha
- }
- class informe{ 
+}
+
+class informe{ 
     +descripcion
- }
+}
+
 class proyecto
 
 usuario *-- rol
