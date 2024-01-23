@@ -1,14 +1,33 @@
 # Prototipos
 - Pantallas
     - [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
-          <details>
-        <summary></summary>
-        ![](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png)
-        </details>
-        
-        - [Editar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png)
-        - [Eliminar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png)
-        - [Listar Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png)
+                <details>
+    <summary>Crear Administrador</summary>
+      <div align="center">
+        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Editar Administrador</summary>
+      <div align="center">
+        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Eliminar Administrador</summary>
+      <div align="center">
+        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Listar Administradores</summary>
+      <div align="center">
+        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png" align="center">
+      </div>
+  </details>
     - [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
         - [Cerrar Sesión de Administrador](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión%20_Administrador.png)
         - [Cerrar Sesión de Egresado](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión_Egresado.png)
