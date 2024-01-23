@@ -30,7 +30,7 @@
       </div>
   </details>
 
-    <details>
+<details>
     <summary>Listar Servicios / Paquete de Servicios</summary>
       <div align="center">
         <image src="./Usuarios/Egresado/CRD_Suscripción/Listar_Suscripción/Caso_de_Uso.svg" align="center">
