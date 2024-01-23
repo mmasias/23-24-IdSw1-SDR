@@ -1,0 +1,29 @@
+@startuml Contexto
+title Contexto Egresado
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] --> INICIAR_SESIÓN
+[*] --> REGISTRAR_EGRESADO
+INICIAR_SESIÓN --> INICIO : Iniciar Sesión
+REGISTRAR_EGRESADO --> INICIO : Registrar Egresado
+
+INICIO -> EXPLORAR_SERVICIOS
+INICIO <- EXPLORAR_SERVICIOS
+INICIO -> CONFIGURACIÓN
+INICIO <- CONFIGURACIÓN
+INICIO -> SERVICIOS
+INICIO <- SERVICIOS
+
+CONFIGURACIÓN -> [*] : Cerrar Sesión
+EXPLORAR_SERVICIOS -> [*] : Cerrar Sesión
+SERVICIOS -> [*] : Cerrar Sesión
+INICIO --> [*] : Cerar Sesión
+
+@enduml

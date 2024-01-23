@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="134px" preserveAspectRatio="none" style="width:510px;height:134px;background:#FFFFFF;" version="1.1" viewBox="0 0 510 134" width="510px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="285" x="105.543" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="275" x="110.543" y="24.9659">Estructura de los Casos de Uso(Tiempo)</text><!--MD5=[19417cf465ec7225b3cd53ff9a44384c]
+entity Tiempo--><g id="elem_Tiempo"><ellipse cx="31" cy="56.2479" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M31,64.2479 L31,91.2479 M18,72.2479 L44,72.2479 M31,91.2479 L18,106.2479 M31,91.2479 L44,106.2479 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="6" y="122.7139">Tiempo</text></g><g id="elem_Eliminar Suscripción a Servicio / Paquete de Servicios"><ellipse cx="310.043" cy="87.2765" fill="#F1F1F1" rx="194.043" ry="41.2086" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="358" x="131.043" y="90.7085">Eliminar Suscripción a Servicio / Paquete de Servicios</text></g><!--MD5=[002d1e4aed05dc3a430bb46214b4b5a2]
+link Tiempo to Eliminar Suscripción a Servicio / Paquete de Servicios--><g id="link_Tiempo_Eliminar Suscripción a Servicio / Paquete de Servicios"><path d="M56.1,87.2779 C69.82,87.2779 88.43,87.2779 109.38,87.2779 " fill="none" id="Tiempo-to-Eliminar Suscripción a Servicio / Paquete de Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="114.14,87.2779,105.14,83.2779,109.14,87.2779,105.14,91.2779,114.14,87.2779" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[50546672a40a17aa22d0e290d781b9bb]
+@startuml Estructura
+
+title Estructura de los Casos de Uso(Tiempo)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Tiempo
+
+Tiempo - -> (Eliminar Suscripción a Servicio / Paquete de Servicios)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
