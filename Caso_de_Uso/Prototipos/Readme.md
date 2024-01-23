@@ -32,7 +32,7 @@
 
 - [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
 
-     <details>
+  <details>
     <summary>Cerrar Sesión de Administrador</summary>
       <div align="center">
         <image src="./Pantallas/Cerrar_Sesion/Cerrar_Sesión%20_Administrador.png" align="center">
