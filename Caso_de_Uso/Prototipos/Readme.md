@@ -298,10 +298,10 @@
       </div>
   </details>
 
-## Plantilla Base para Servicios Externos
+## General
 
 <details>
-    <summary>Plantilla</summary>
+    <summary>Plantilla Base para Servicios Externos</summary>
       <div align="center">
         <image src="./Pantallas/Plantilla_Base_Servicios_Externos.png" align="center">
       </div>
