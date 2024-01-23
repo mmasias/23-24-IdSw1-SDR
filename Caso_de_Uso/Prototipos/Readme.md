@@ -30,7 +30,7 @@
       </div>
   </details>
 
-- [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
+## [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
 
   <details>
     <summary>Cerrar Sesión de Administrador</summary>
@@ -46,7 +46,7 @@
       </div>
   </details>
     
-- [Configuración de Cuenta](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta)
+## [Configuración de Cuenta](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta)
 
 <details>
     <summary>Cambiar Contraseña de Administrador</summary>
@@ -83,7 +83,7 @@
       </div>
   </details>
 
-- [Egresados](/Caso_de_Uso/Prototipos/Pantallas/Egresados)
+## [Egresados](/Caso_de_Uso/Prototipos/Pantallas/Egresados)
 
 <details>
     <summary>Crear Egresados</summary>
@@ -113,7 +113,7 @@
       </div>
   </details>
 
-- [Explorar Servicios](/Caso_de_Uso/Prototipos/Pantallas/Explorar_Servicios)
+## [Explorar Servicios](/Caso_de_Uso/Prototipos/Pantallas/Explorar_Servicios)
 
 <details>
     <summary>Explorar Servicios</summary>
@@ -143,7 +143,7 @@
       </div>
   </details>
 
-- [Inicio](/Caso_de_Uso/Prototipos/Pantallas/Inicio)
+## [Inicio](/Caso_de_Uso/Prototipos/Pantallas/Inicio)
 
 <details>
     <summary>Cancelar Suscripción</summary>
@@ -194,7 +194,7 @@
       </div>
   </details>
    
-- [Login Registro](/Caso_de_Uso/Prototipos/Pantallas/Login_Registro)
+## [Login Registro](/Caso_de_Uso/Prototipos/Pantallas/Login_Registro)
 
 <details>
     <summary>Login</summary>
@@ -238,7 +238,7 @@
       </div>
   </details>
 
-- [Paquetes](/Caso_de_Uso/Prototipos/Pantallas/Paquetes)
+## [Paquetes](/Caso_de_Uso/Prototipos/Pantallas/Paquetes)
 
 <details>
     <summary>Crear Paquete</summary>
@@ -268,7 +268,7 @@
       </div>
   </details>
    
-- [Servicios](/Caso_de_Uso/Prototipos/Pantallas/Servicios)
+## [Servicios](/Caso_de_Uso/Prototipos/Pantallas/Servicios)
 
 <details>
     <summary>Crear Servicio</summary>
@@ -298,7 +298,7 @@
       </div>
   </details>
 
-- Plantilla Base para Servicios Externos
+## Plantilla Base para Servicios Externos
 
 <details>
     <summary>Plantilla</summary>
