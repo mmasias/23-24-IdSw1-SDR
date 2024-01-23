@@ -11,7 +11,7 @@ skinparam {
 
 hide empty description
 
-state startState as "INITIAL"
+state startState as "GESTIÓN_SERVICIOS"
 
 startState --> EditarServicio
 note on link

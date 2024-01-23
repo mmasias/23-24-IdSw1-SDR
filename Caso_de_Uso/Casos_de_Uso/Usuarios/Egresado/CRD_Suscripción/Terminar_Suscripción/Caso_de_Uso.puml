@@ -11,7 +11,7 @@ title Terminar Suscripción
 skinparam defaultFontName Arial
 top to bottom direction
 
-DASHBOARD_ABIERTO -down-> TerminarSuscripción
+INICIO -down-> TerminarSuscripción
 note on link
 <b>Usuario solicita</b>
 Terminar una suscripción
