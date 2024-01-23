@@ -6,6 +6,7 @@
         <summary></summary>
         ![](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png)
         </details>
+        
         - [Editar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png)
         - [Eliminar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png)
         - [Listar Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png)
