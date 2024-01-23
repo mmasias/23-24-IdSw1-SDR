@@ -1,6 +1,6 @@
 # Diagramas de Contexto
 
-## Diagramas de Contexto del Administrador
+## [Diagramas de Contexto del Administrador](/Caso_de_Uso/Contexto/Administrador/)
 
 <details>
     <summary>General</summary>
@@ -58,7 +58,7 @@
         </div>
 </details>
 
-## Diagramas de Contexto del Egresado
+## [Diagramas de Contexto del Egresado](/Caso_de_Uso/Contexto/Egresado/)
 
 <details>
     <summary>General</summary>
