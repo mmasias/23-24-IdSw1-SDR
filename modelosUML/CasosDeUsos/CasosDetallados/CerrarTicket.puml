@@ -4,12 +4,13 @@ title Caso de Uso: Cerrar Ticket
 
 state DASHBOARD_ABIERTO
 state VER_TICKET
-state FILTRAR_TICKET
+state FILTRAR_TICKETS
 
-DASHBOARD_ABIERTO --> VER_TICKET
-VER_TICKET --> FILTRAR_TICKET
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 note on link: *El usuario* solicita filtrar por estado en resuelto
-FILTRAR_TICKET --> CerrarTicket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: *El usuario* solicita ver un ticket resuelto
+VER_TICKET --> CerrarTicket
 
 state CerrarTicket {
 
@@ -25,14 +26,10 @@ state CerrarTicket {
     
 }
 
-note left of ingresarVerTicket
-  *El sistema muestra*: 
-  ° Lista de estado cerrado
-end note
 
 note left of ingresarVerTicket
   *El usuario solicita*: 
-  ° ver por estado cerrado
+  ° cambiar el estado a cerrado
 end note
 
 @enduml

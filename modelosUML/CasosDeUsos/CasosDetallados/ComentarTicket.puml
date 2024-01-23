@@ -1,11 +1,35 @@
-@startuml CDU ComentarTicket
+@startuml
 skin rose
-:Dashboard Abierto;
-:Seleccionar Ticket;
-partition "Comentar Ticket" {
-  start 
-    :Escribir proceso;
-    :Enviar comentario;
+title Caso de Uso: Comentar Ticket
+
+state DASHBOARD_ABIERTO
+state VER_TICKET
+state FILTRAR_TICKETS
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: *El usuario* solicita filtrar por propiedad de ticket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: *El usuario* solicita ver un ticket
+VER_TICKET --> ComentarTicket
+
+state ComentarTicket {
+
+  [*] -[#blue]-> comentarTicket
+  state "Hacer comentario a un ticket" as comentarTicket
+  comentarTicket -[#blue]-> confirmarComentario
+  state "Confirmar comentario a un ticket" as confirmarComentario
+  confirmarComentario -[#blue]-> [*]
+  note on link: *El usuario* solicita comentar un ticket
+    
+  confirmarComentario -[#red]-> [*]
+  note on link: *El usuario* solicita cancelar la operación
+    
 }
-stop
+
+
+note left of comentarTicket
+  *El usuario solicita*: 
+  ° comentar un ticket
+end note
+
 @enduml
