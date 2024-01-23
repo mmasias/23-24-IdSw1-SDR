@@ -28,6 +28,7 @@ INICIO -> SERVICIOS
 INICIO <- SERVICIOS
 
 INICIO --> [*] : Cerar Sesión
+SERVICIOS --> [*] : Cerar Sesión
 GESTIÓN_EGRESADOS --> [*] : Cerar Sesión
 ADMINISTRADORES --> [*] : Cerar Sesión
 GESTIÓN_SERVICIOS --> [*] : Cerar Sesión
