@@ -53,14 +53,14 @@
       <div align="center">
         <image src="./Pantallas/Configuracion_Cuenta/Cambiar_Contraseña_Admin.png" align="center">
       </div>
-  </details>
+</details>
 
-  <details>
+<details>
     <summary>Cambiar Contraseña de Egresado</summary>
       <div align="center">
         <image src="./Pantallas/Configuracion_Cuenta/Cambiar_Contraseña_Egresado.png" align="center">
       </div>
-  </details>
+</details>
 
   <details>
     <summary>Cancelar Cuenta de Egresado</summary>
