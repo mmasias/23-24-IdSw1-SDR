@@ -14,6 +14,33 @@ actor Egresado
 actor Administrador
 actor Tiempo
 
+Tiempo --> (Eliminar Suscripción a Servicio / Paquete de Servicios)
+
+Administrador --> (Consultar Estadisticas)
+
+folder "Manejo de Usuario" as cuentas {
+    Egresado --> (Actualización de Datos del Usuario)
+    Egresado --> (Cancelación de Cuenta)
+    Egresado --> (Listar Datos del Usuario)
+    Administrador --> (Actualización de Datos del Usuario)
+    Administrador --> (Listar Datos del Usuario)
+}
+
+folder "Ingreso a Plataforma" as ingreso {
+    Egresado --> (Registro en Plataforma)
+    Egresado --> (Iniciar Sesión)
+    Administrador --> (Iniciar Sesión)
+    Egresado --> (Cerrar Sesión)
+    Administrador --> (Cerrar Sesión)
+}
+
+folder "CRD Suscripciones" as CRDSuscripciones {
+    Egresado --> (Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Listar Servicios / Paquetes de Servicios)
+    Administrador --> (Listar Servicios / Paquetes de Servicios)
+}
+
 folder "CRUD Servicios" as CRUDServicios {
     Administrador --> (Crear Servicio)
     Administrador --> (Listar Servicios)
@@ -26,7 +53,6 @@ folder "CRUD Egresados" as CRUDEgresados {
     Administrador --> (Listar Egresado)
     Administrador --> (Editar Egresado)
     Administrador --> (Eliminar Egresado)
-    Administrador --> (Consultar Estadisticas)
 }
 
 folder "CRUD Paquetes" as CRUDPaquetes {
@@ -36,27 +62,23 @@ folder "CRUD Paquetes" as CRUDPaquetes {
     Administrador --> (Eliminar Paquete)
 }
 
-Administrador --> (Realizar Petición)
-Administrador --> (Consultar Estadisticas)
+folder "CRUD Administradores" as CRUDAdministradores {
+    Administrador --> (Crear Administrador)
+    Administrador --> (Listar Administrador)
+    Administrador --> (Editar Administrador)
+    Administrador --> (Eliminar Administrador)
+}
 
-Egresado --> (Registro en Plataforma)
-Egresado --> (Cancelación de Cuenta)
-Egresado --> (Actualización de Datos de la Cuenta)
-Egresado --> (Listar Datos de la Cuenta)
-Egresado --> (Suscripción a Servicio / Paquete de Servicios)
-Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
-Egresado --> (Listar Servicios / Paquetes de Servicios)
+Administrador --> (Realizar Petición)
 Egresado --> (Realizar Petición)
 
-Tiempo --> (Eliminar Suscripción a Servicio / Paquete de Servicios)
-
-(Realizar Petición) --> (Consultar_Estadisticas) : <<include>>
-(Eliminar Egresado) --> (Cancelación de Cuenta) : <<include>>
-(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
-(Eliminar Paquete) --> (Listar Servicios) : <<include>>
-(Eliminar Paquete) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
-(Editar Paquete) --> (Listar Servicios) : <<include>>
-(Crear Paquete) --> (Listar Servicios) : <<include>>
-(Eliminar Servicio) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+'(Consultar Estadisticas) --> (Realizar Petición) : <<include>>
+'(Eliminar Egresado) --> (Cancelación de Cuenta) : <<include>>
+'(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+'(Eliminar Paquete) --> (Listar Servicios) : <<include>>
+'(Eliminar Paquete) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+'(Editar Paquete) --> (Listar Servicios) : <<include>>
+'(Crear Paquete) --> (Listar Servicios) : <<include>>
+'(Eliminar Servicio) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
 
 @enduml

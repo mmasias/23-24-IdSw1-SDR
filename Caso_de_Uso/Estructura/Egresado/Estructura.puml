@@ -12,15 +12,24 @@ left to right direction
 
 actor Egresado
 
-Egresado --> (Registro en Plataforma)
-Egresado --> (Cancelación de Cuenta)
-Egresado --> (Actualización de Datos de la Cuenta)
-Egresado --> (Listar Datos de la Cuenta)
-Egresado --> (Suscripción a Servicio / Paquete de Servicios)
-Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
-Egresado --> (Listar Servicios / Paquetes de Servicios)
-Egresado --> (Realizar Petición)
+folder "Manejo de Usuario" as cuentas {
+    Egresado --> (Actualización de Datos del Usuario)
+    Egresado --> (Cancelación de Cuenta)
+    Egresado --> (Listar Datos del Usuario)
+}
 
-(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
+folder "Ingreso a Plataforma" as ingreso {
+    Egresado --> (Registro en Plataforma)
+    Egresado --> (Iniciar Sesión)
+    Egresado --> (Cerrar Sesión)
+}
+
+folder "CRD Suscripciones" as CRDSuscripciones {
+    Egresado --> (Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Listar Servicios / Paquetes de Servicios)
+}
+
+Egresado --> (Realizar Petición)
 
 @enduml
