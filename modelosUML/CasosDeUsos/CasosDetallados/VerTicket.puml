@@ -1,29 +1,23 @@
 @startuml
 skin rose
-title Caso de Uso: Ver Ticket Ticket
+title Caso de Uso: Ver Ticket
 
 state DASHBOARD_ABIERTO
+state FILTRAR_TICKET
 
-DASHBOARD_ABIERTO --> VerTicket
-note on link: **El usuario** solicita ver ticket
+DASHBOARD_ABIERTO --> FILTRAR_TICKET
+FILTRAR_TICKET --> VerTicket
 
 state VerTicket {
 
-  [*] -[#blue]-> verlistadoTickets
-  state "Ver listado de tickets" as verlistadoTickets
-  verlistadoTickets -[#blue]-> seleccionarOpcionVer
-  note on link : **El usuario** solicita seleccionar un ticket
+  [*] -[#blue]-> seleccionarOpcionVer
+  note on link : *El usuario* solicita seleccionar un ticket
   state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
   seleccionarOpcionVer -[#blue]-> [*]
 }
 
-note left of verlistadoTickets
-  **El sistema muestra**: 
-  ° Lista de tickets
-end note
-
 note left of seleccionarOpcionVer
-  **El sistema muestra**: 
+  *El sistema muestra*: 
   ° El ticket seleccionado
 end note
 
