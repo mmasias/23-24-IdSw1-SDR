@@ -13,13 +13,13 @@ hide empty description
 
 state INICIO
 
-[*] --> IniciarSesion
+[*] --> IniciarSesión
 note on link
     <b>Usuario Solicita</b>
     * Iniciar Sesión en Alumni
 end note
 
-state IniciarSesion {
+state IniciarSesión {
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -32,7 +32,7 @@ note on link
 * Email
 * Contraseña
 <b>Sistema Permite</b>
-* Iniciar Sesion en Alumni
+* Iniciar Sesión en Alumni
 end note
 
 3 -down-> 4

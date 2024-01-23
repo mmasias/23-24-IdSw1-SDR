@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:713px;height:332px;background:#FFFFFF;" version="1.1" viewBox="0 0 713 332" width="713px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.0986" id="_title" style="stroke:none;stroke-width:1.0;" width="347" x="176.25" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="337" x="181.25" y="23.1318">Diagrama de Objetos - Reserva de Instalaciones</text><!--MD5=[71fc036bc9f9b1de301f7e2e771faca4]
+class INSTALACIONES : SERVICIO--><g id="elem_INSTALACIONES : SERVICIO"><rect codeLine="7" fill="#F1F1F1" height="106.4932" id="INSTALACIONES : SERVICIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="298" x="408.5" y="44.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="183" x="466" y="62.2305">INSTALACIONES : SERVICIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="409.5" x2="705.5" y1="70.1973" y2="70.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="180" x="414.5" y="87.3291">Nombre: "Cancha de Fútbol"</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="192" x="414.5" y="103.4277">Ubicación: "Calle 13 # 100-00"</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="286" x="414.5" y="119.5264">Horario: "Lunes a Viernes 8:00 am - 5:00 pm"</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="172" x="414.5" y="135.625">Disponibilidad: "Disponible"</text><line style="stroke:#181818;stroke-width:0.5;" x1="409.5" x2="705.5" y1="142.5918" y2="142.5918"/></g><!--MD5=[820ebf79c3c3caa03e5117c647d0dc96]
+class PACO : ADMINISTRADOR--><g id="elem_PACO : ADMINISTRADOR"><rect codeLine="15" fill="#F1F1F1" height="42.0986" id="PACO : ADMINISTRADOR" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="379.5" y="255.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="164" x="382.5" y="273.2305">PACO : ADMINISTRADOR</text><line style="stroke:#181818;stroke-width:0.5;" x1="380.5" x2="548.5" y1="281.1973" y2="281.1973"/><line style="stroke:#181818;stroke-width:0.5;" x1="380.5" x2="548.5" y1="289.1973" y2="289.1973"/></g><!--MD5=[323ba90a26c4e524b04170f873ba0060]
+class BEN : EGRESADO--><g id="elem_BEN : EGRESADO"><rect codeLine="19" fill="#F1F1F1" height="42.0986" id="BEN : EGRESADO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="7" y="255.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="117" x="10" y="273.2305">BEN : EGRESADO</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="281.1973" y2="281.1973"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="289.1973" y2="289.1973"/></g><!--MD5=[86a46607765088d6bc16607347922e0b]
+class ALUMNI--><g id="elem_ALUMNI"><rect fill="#F1F1F1" height="42.0986" id="ALUMNI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="55" x="318" y="76.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="321" y="94.2305">ALUMNI</text><line style="stroke:#181818;stroke-width:0.5;" x1="319" x2="372" y1="102.1973" y2="102.1973"/><line style="stroke:#181818;stroke-width:0.5;" x1="319" x2="372" y1="110.1973" y2="110.1973"/></g><g id="elem_GMN8"><path d="M74.5,69.5986 L74.5,124.4448 A0,0 0 0 0 74.5,124.4448 L282.5,124.4448 A0,0 0 0 0 282.5,124.4448 L282.5,101.0986 L317.96,97.0986 L282.5,93.0986 L282.5,79.5986 L272.5,69.5986 L74.5,69.5986 A0,0 0 0 0 74.5,69.5986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M272.5,69.5986 L272.5,79.5986 L282.5,79.5986 L272.5,69.5986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="156" x="80.5" y="86.7925">La plataforma se comunica</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="161" x="80.5" y="101.7412">con el servicio y pasa todos</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="187" x="80.5" y="116.6899">los datos necesarios del usuario</text></g><g id="elem_GMN13"><path d="M165,226.0986 L165,272.0986 L130.26,276.0986 L165,280.0986 L165,325.791 A0,0 0 0 0 165,325.791 L344,325.791 A0,0 0 0 0 344,325.791 L344,236.0986 L334,226.0986 L165,226.0986 A0,0 0 0 0 165,226.0986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M334,226.0986 L334,236.0986 L344,236.0986 L334,226.0986 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="141" x="171" y="243.2925">Es el que usa el servicio</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="154" x="171" y="258.2412">para reservar la instalación</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="4" x="171" y="273.1899"> </text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="145" x="171" y="288.1387">Se da por echo todos los</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="154" x="171" y="303.0874">datos que debería tener un</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="53" x="171" y="318.0361">egresado</text></g><!--MD5=[2e31bd475ae9ddbed99093d2c976a1d3]
+link ALUMNI to INSTALACIONES : SERVICIO--><g id="link_ALUMNI_INSTALACIONES : SERVICIO"><path codeLine="24" d="M373.24,97.0986 C384.88,97.0986 396.51,97.0986 408.15,97.0986 " fill="none" id="ALUMNI-INSTALACIONES : SERVICIO" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4f3d015bcff37c58db386308aa62b8c2]
+link ALUMNI to PACO : ADMINISTRADOR--><g id="link_ALUMNI_PACO : ADMINISTRADOR"><path codeLine="26" d="M359.15,118.3986 C382.11,152.5486 428.16,221.0486 451.01,255.0286 " fill="none" id="ALUMNI-PACO : ADMINISTRADOR" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[04e2bb442b4e7bab52f124b62a631f30]
+link ALUMNI to BEN : EGRESADO--><g id="link_ALUMNI_BEN : EGRESADO"><path codeLine="27" d="M330.67,118.3086 C322.33,128.7086 311.26,141.0686 299.5,150.0986 C239.61,196.1186 213.44,189.2686 147.5,226.0986 C131.44,235.0686 114.01,245.7686 99.63,254.8786 " fill="none" id="ALUMNI-BEN : EGRESADO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="56" x="251.5" y="193.2925">comunica</text></g><!--MD5=[ba43ba7a062d72911cff7368f2ad32ba]
+@startuml Diagrama_de_Objetos-Servicio_Externo
+title Diagrama de Objetos - Reserva de Instalaciones
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class "INSTALACIONES : SERVICIO"  
+{
+    Nombre: "Cancha de Fútbol"
+    Ubicación: "Calle 13 # 100-00"
+    Horario: "Lunes a Viernes 8:00 am - 5:00 pm"
+    Disponibilidad: "Disponible"
+}
+
+class "PACO : ADMINISTRADOR" 
+{
+    
+}
+class "BEN : EGRESADO"
+{
+    
+}
+
+"INSTALACIONES : SERVICIO" -left- "ALUMNI"
+note left: La plataforma se comunica \ncon el servicio y pasa todos \nlos datos necesarios del usuario
+"ALUMNI" - - "PACO : ADMINISTRADOR"
+"ALUMNI" - - "BEN : EGRESADO" : comunica
+note right: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que debería tener un \negresado  
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

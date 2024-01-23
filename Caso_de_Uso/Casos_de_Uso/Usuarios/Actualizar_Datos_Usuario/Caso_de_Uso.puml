@@ -36,7 +36,7 @@ note on link
 * Contraseña
 * <b>Usuario Egresado</b>
     - Dirección
-    - Télefono
+    - Teléfono
     - Ocupación
 <b>Sistema Permite</b>
 * Actualizar datos del Usuario
@@ -50,11 +50,10 @@ note on link
 * Apellido
 * Fecha de nacimiento
 * Email
-* Telefono
 * Contraseña
 * <b>Usuario Egresado</b>
     - Dirección
-    - Télefono
+    - Teléfono
     - Ocupación
 end note
 

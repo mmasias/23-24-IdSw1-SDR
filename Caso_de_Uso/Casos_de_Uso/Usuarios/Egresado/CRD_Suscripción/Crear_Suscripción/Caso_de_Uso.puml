@@ -10,13 +10,13 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> CrearSuscripcion
+startState --> CrearSuscripción
 note on link
     <b>Usuario Solicita</b>
     Suscribirse a un servicio o paquete de servicios
 end note
 
-state CrearSuscripcion {
+state CrearSuscripción {
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -26,7 +26,7 @@ state 4 <<choice>>
 2 -down-> 3
 note on link
 <b>Sistema Solicita</b>
-* Identficador del servicio o paquete de servicios
+* Identificador del servicio o paquete de servicios
 * Datos de pago
 <b>Sistema Permite</b>
 * Suscribirse al servicio o paquete de servicios

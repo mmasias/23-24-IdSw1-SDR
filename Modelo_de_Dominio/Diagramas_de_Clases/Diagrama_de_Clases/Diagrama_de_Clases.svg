@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="648px" preserveAspectRatio="none" style="width:696px;height:648px;background:#FFFFFF;" version="1.1" viewBox="0 0 696 648" width="696px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.0986" id="_title" style="stroke:none;stroke-width:1.0;" width="148" x="267.25" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="138" x="272.25" y="23.1318">Diagrama de Clases</text><!--MD5=[afbc64ec85fee769d333cf1533205623]
+class PLATAFORMA--><g id="elem_PLATAFORMA"><rect codeLine="10" fill="#F1F1F1" height="56.0986" id="PLATAFORMA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="264" y="44.0986"/><ellipse cx="279" cy="60.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M281.7656,55.9736 Q281.9219,55.7549 282.1094,55.6455 Q282.2969,55.5361 282.5156,55.5361 Q282.8906,55.5361 283.125,55.8018 Q283.3594,56.0518 283.3594,56.6611 L283.3594,58.1143 Q283.3594,58.7236 283.125,58.9893 Q282.8906,59.2549 282.5156,59.2549 Q282.1719,59.2549 281.9688,59.0518 Q281.7656,58.8643 281.6563,58.3486 Q281.6094,57.9893 281.4219,57.8018 Q281.0938,57.4268 280.4844,57.208 Q279.875,56.9893 279.25,56.9893 Q278.4844,56.9893 277.8438,57.3174 Q277.2188,57.6455 276.7188,58.3955 Q276.2344,59.1455 276.2344,60.1768 L276.2344,61.2705 Q276.2344,62.5049 277.125,63.333 Q278.0156,64.1455 279.6094,64.1455 Q280.5469,64.1455 281.2031,63.8955 Q281.5938,63.7393 282.0156,63.3018 Q282.2813,63.0361 282.4219,62.958 Q282.5781,62.8799 282.7813,62.8799 Q283.1094,62.8799 283.3594,63.1455 Q283.625,63.3955 283.625,63.7393 Q283.625,64.083 283.2813,64.4893 Q282.7813,65.0674 281.9844,65.3955 Q280.9063,65.8486 279.6094,65.8486 Q278.0938,65.8486 276.8906,65.2236 Q275.9063,64.7236 275.2188,63.6611 Q274.5313,62.583 274.5313,61.3018 L274.5313,60.1455 Q274.5313,58.8174 275.1406,57.6768 Q275.7656,56.5205 276.8594,55.9111 Q277.9531,55.2861 279.1875,55.2861 Q279.9219,55.2861 280.5625,55.458 Q281.2188,55.6143 281.7656,55.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="94" x="293" y="65.1812">PLATAFORMA</text><line style="stroke:#181818;stroke-width:0.5;" x1="265" x2="389" y1="76.0986" y2="76.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="42" x="270" y="93.2305">Alumni</text></g><!--MD5=[d487106a069dbf8887c3866d5775fb0b]
+class SERVICIO EXTERNO--><g id="elem_SERVICIO EXTERNO"><rect codeLine="15" fill="#F1F1F1" height="32" id="SERVICIO EXTERNO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="520.5" y="56.0986"/><ellipse cx="535.5" cy="72.0986" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M537.6875,73.8643 L533.5469,73.8643 L533.125,74.8955 L533.5469,74.8955 Q534.1563,74.8955 534.4219,75.1299 Q534.6875,75.3643 534.6875,75.7549 Q534.6875,76.1299 534.4219,76.3643 Q534.1563,76.5986 533.5469,76.5986 L531.25,76.5986 Q530.6406,76.5986 530.3906,76.3643 Q530.125,76.1299 530.125,75.7393 Q530.125,75.3643 530.4063,75.1299 Q530.6719,74.8799 531.2969,74.8955 L533.9688,68.2393 L532.8594,68.2393 Q532.25,68.2393 531.9844,68.0049 Q531.7188,67.7705 531.7188,67.3799 Q531.7188,67.0049 531.9844,66.7705 Q532.25,66.5361 532.8594,66.5361 L536.5313,66.5361 L539.9219,74.8955 Q540.5156,74.8955 540.7031,75.0361 Q541.0938,75.3018 541.0938,75.7549 Q541.0938,76.1299 540.8281,76.3643 Q540.5781,76.5986 539.9688,76.5986 L537.6719,76.5986 Q537.0625,76.5986 536.7969,76.3643 Q536.5313,76.1299 536.5313,75.7393 Q536.5313,75.3643 536.7969,75.1299 Q537.0625,74.8955 537.6719,74.8955 L538.0938,74.8955 L537.6875,73.8643 Z M536.9688,72.1611 L535.6094,68.7861 L534.2344,72.1611 L536.9688,72.1611 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="137" x="549.5" y="77.1812">SERVICIO EXTERNO</text></g><!--MD5=[9fb774ed7ae05b667c8401cd383f5fbb]
+class USUARIO--><g id="elem_USUARIO"><rect codeLine="17" fill="#F1F1F1" height="136.5918" id="USUARIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="73.5" y="176.0986"/><ellipse cx="111" cy="192.0986" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M113.1875,193.8643 L109.0469,193.8643 L108.625,194.8955 L109.0469,194.8955 Q109.6563,194.8955 109.9219,195.1299 Q110.1875,195.3643 110.1875,195.7549 Q110.1875,196.1299 109.9219,196.3643 Q109.6563,196.5986 109.0469,196.5986 L106.75,196.5986 Q106.1406,196.5986 105.8906,196.3643 Q105.625,196.1299 105.625,195.7393 Q105.625,195.3643 105.9063,195.1299 Q106.1719,194.8799 106.7969,194.8955 L109.4688,188.2393 L108.3594,188.2393 Q107.75,188.2393 107.4844,188.0049 Q107.2188,187.7705 107.2188,187.3799 Q107.2188,187.0049 107.4844,186.7705 Q107.75,186.5361 108.3594,186.5361 L112.0313,186.5361 L115.4219,194.8955 Q116.0156,194.8955 116.2031,195.0361 Q116.5938,195.3018 116.5938,195.7549 Q116.5938,196.1299 116.3281,196.3643 Q116.0781,196.5986 115.4688,196.5986 L113.1719,196.5986 Q112.5625,196.5986 112.2969,196.3643 Q112.0313,196.1299 112.0313,195.7393 Q112.0313,195.3643 112.2969,195.1299 Q112.5625,194.8955 113.1719,194.8955 L113.5938,194.8955 L113.1875,193.8643 Z M112.4688,192.1611 L111.1094,188.7861 L109.7344,192.1611 L112.4688,192.1611 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="130" y="197.1812">USUARIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="74.5" x2="217.5" y1="208.0986" y2="208.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="13" x="79.5" y="225.2305">ID</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="79.5" y="241.3291">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="50" x="79.5" y="257.4277">Apellido</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="133" x="79.5" y="273.5264">Fecha de Nacimiento</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="34" x="79.5" y="289.625">Email</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="85" x="79.5" y="305.7236">Foto de Perfil</text></g><!--MD5=[2ab7582ab6c49ef72aa094ce2439025d]
+class EGRESADO--><g id="elem_EGRESADO"><rect codeLine="27" fill="#F1F1F1" height="120.4932" id="EGRESADO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="146" x="7" y="389.0986"/><ellipse cx="38.2" cy="405.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M40.9656,400.9736 Q41.1219,400.7549 41.3094,400.6455 Q41.4969,400.5361 41.7156,400.5361 Q42.0906,400.5361 42.325,400.8018 Q42.5594,401.0518 42.5594,401.6611 L42.5594,403.1143 Q42.5594,403.7236 42.325,403.9893 Q42.0906,404.2549 41.7156,404.2549 Q41.3719,404.2549 41.1688,404.0518 Q40.9656,403.8643 40.8563,403.3486 Q40.8094,402.9893 40.6219,402.8018 Q40.2938,402.4268 39.6844,402.208 Q39.075,401.9893 38.45,401.9893 Q37.6844,401.9893 37.0438,402.3174 Q36.4188,402.6455 35.9188,403.3955 Q35.4344,404.1455 35.4344,405.1768 L35.4344,406.2705 Q35.4344,407.5049 36.325,408.333 Q37.2156,409.1455 38.8094,409.1455 Q39.7469,409.1455 40.4031,408.8955 Q40.7938,408.7393 41.2156,408.3018 Q41.4813,408.0361 41.6219,407.958 Q41.7781,407.8799 41.9813,407.8799 Q42.3094,407.8799 42.5594,408.1455 Q42.825,408.3955 42.825,408.7393 Q42.825,409.083 42.4813,409.4893 Q41.9813,410.0674 41.1844,410.3955 Q40.1063,410.8486 38.8094,410.8486 Q37.2938,410.8486 36.0906,410.2236 Q35.1063,409.7236 34.4188,408.6611 Q33.7313,407.583 33.7313,406.3018 L33.7313,405.1455 Q33.7313,403.8174 34.3406,402.6768 Q34.9656,401.5205 36.0594,400.9111 Q37.1531,400.2861 38.3875,400.2861 Q39.1219,400.2861 39.7625,400.458 Q40.4188,400.6143 40.9656,400.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="78" x="55.8" y="410.1812">EGRESADO</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="152" y1="421.0986" y2="421.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="59" x="13" y="438.2305">Dirección</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="68" x="13" y="454.3291">Ocupación</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="134" x="13" y="470.4277">Carnet de Estudiante</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="13" y="486.5264">Numero</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="21" x="13" y="502.625">Dni</text></g><!--MD5=[4c1736d2acf393d1932c4bd71ed8c52b]
+class ADMINISTRADOR--><g id="elem_ADMINISTRADOR"><rect codeLine="36" fill="#F1F1F1" height="32" id="ADMINISTRADOR" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="188.5" y="433.0986"/><ellipse cx="203.5" cy="449.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M206.2656,444.9736 Q206.4219,444.7549 206.6094,444.6455 Q206.7969,444.5361 207.0156,444.5361 Q207.3906,444.5361 207.625,444.8018 Q207.8594,445.0518 207.8594,445.6611 L207.8594,447.1143 Q207.8594,447.7236 207.625,447.9893 Q207.3906,448.2549 207.0156,448.2549 Q206.6719,448.2549 206.4688,448.0518 Q206.2656,447.8643 206.1563,447.3486 Q206.1094,446.9893 205.9219,446.8018 Q205.5938,446.4268 204.9844,446.208 Q204.375,445.9893 203.75,445.9893 Q202.9844,445.9893 202.3438,446.3174 Q201.7188,446.6455 201.2188,447.3955 Q200.7344,448.1455 200.7344,449.1768 L200.7344,450.2705 Q200.7344,451.5049 201.625,452.333 Q202.5156,453.1455 204.1094,453.1455 Q205.0469,453.1455 205.7031,452.8955 Q206.0938,452.7393 206.5156,452.3018 Q206.7813,452.0361 206.9219,451.958 Q207.0781,451.8799 207.2813,451.8799 Q207.6094,451.8799 207.8594,452.1455 Q208.125,452.3955 208.125,452.7393 Q208.125,453.083 207.7813,453.4893 Q207.2813,454.0674 206.4844,454.3955 Q205.4063,454.8486 204.1094,454.8486 Q202.5938,454.8486 201.3906,454.2236 Q200.4063,453.7236 199.7188,452.6611 Q199.0313,451.583 199.0313,450.3018 L199.0313,449.1455 Q199.0313,447.8174 199.6406,446.6768 Q200.2656,445.5205 201.3594,444.9111 Q202.4531,444.2861 203.6875,444.2861 Q204.4219,444.2861 205.0625,444.458 Q205.7188,444.6143 206.2656,444.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="113" x="217.5" y="454.1812">ADMINISTRADOR</text></g><!--MD5=[a63780b95c376d0ca261608ab8f4ee8f]
+class REQUISITO--><g id="elem_REQUISITO"><rect codeLine="40" fill="#F1F1F1" height="56.0986" id="REQUISITO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="9" y="585.0986"/><ellipse cx="40.2" cy="601.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M42.9656,596.9736 Q43.1219,596.7549 43.3094,596.6455 Q43.4969,596.5361 43.7156,596.5361 Q44.0906,596.5361 44.325,596.8018 Q44.5594,597.0518 44.5594,597.6611 L44.5594,599.1143 Q44.5594,599.7236 44.325,599.9893 Q44.0906,600.2549 43.7156,600.2549 Q43.3719,600.2549 43.1688,600.0518 Q42.9656,599.8643 42.8563,599.3486 Q42.8094,598.9893 42.6219,598.8018 Q42.2938,598.4268 41.6844,598.208 Q41.075,597.9893 40.45,597.9893 Q39.6844,597.9893 39.0438,598.3174 Q38.4188,598.6455 37.9188,599.3955 Q37.4344,600.1455 37.4344,601.1768 L37.4344,602.2705 Q37.4344,603.5049 38.325,604.333 Q39.2156,605.1455 40.8094,605.1455 Q41.7469,605.1455 42.4031,604.8955 Q42.7938,604.7393 43.2156,604.3018 Q43.4813,604.0361 43.6219,603.958 Q43.7781,603.8799 43.9813,603.8799 Q44.3094,603.8799 44.5594,604.1455 Q44.825,604.3955 44.825,604.7393 Q44.825,605.083 44.4813,605.4893 Q43.9813,606.0674 43.1844,606.3955 Q42.1063,606.8486 40.8094,606.8486 Q39.2938,606.8486 38.0906,606.2236 Q37.1063,605.7236 36.4188,604.6611 Q35.7313,603.583 35.7313,602.3018 L35.7313,601.1455 Q35.7313,599.8174 36.3406,598.6768 Q36.9656,597.5205 38.0594,596.9111 Q39.1531,596.2861 40.3875,596.2861 Q41.1219,596.2861 41.7625,596.458 Q42.4188,596.6143 42.9656,596.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="74" x="57.8" y="606.1812">REQUISITO</text><line style="stroke:#181818;stroke-width:0.5;" x1="10" x2="150" y1="617.0986" y2="617.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="130" x="15" y="634.2305">Titulación de UNEAT</text></g><!--MD5=[74b041da4ecd736662521052a6a63a95]
+class ESTADÍSTICA--><g id="elem_ESTADÍSTICA"><rect codeLine="45" fill="#F1F1F1" height="32" id="ESTADÍSTICA" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="67.5" y="56.0986"/><ellipse cx="82.5" cy="72.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M85.2656,67.9736 Q85.4219,67.7549 85.6094,67.6455 Q85.7969,67.5361 86.0156,67.5361 Q86.3906,67.5361 86.625,67.8018 Q86.8594,68.0518 86.8594,68.6611 L86.8594,70.1143 Q86.8594,70.7236 86.625,70.9893 Q86.3906,71.2549 86.0156,71.2549 Q85.6719,71.2549 85.4688,71.0518 Q85.2656,70.8643 85.1563,70.3486 Q85.1094,69.9893 84.9219,69.8018 Q84.5938,69.4268 83.9844,69.208 Q83.375,68.9893 82.75,68.9893 Q81.9844,68.9893 81.3438,69.3174 Q80.7188,69.6455 80.2188,70.3955 Q79.7344,71.1455 79.7344,72.1768 L79.7344,73.2705 Q79.7344,74.5049 80.625,75.333 Q81.5156,76.1455 83.1094,76.1455 Q84.0469,76.1455 84.7031,75.8955 Q85.0938,75.7393 85.5156,75.3018 Q85.7813,75.0361 85.9219,74.958 Q86.0781,74.8799 86.2813,74.8799 Q86.6094,74.8799 86.8594,75.1455 Q87.125,75.3955 87.125,75.7393 Q87.125,76.083 86.7813,76.4893 Q86.2813,77.0674 85.4844,77.3955 Q84.4063,77.8486 83.1094,77.8486 Q81.5938,77.8486 80.3906,77.2236 Q79.4063,76.7236 78.7188,75.6611 Q78.0313,74.583 78.0313,73.3018 L78.0313,72.1455 Q78.0313,70.8174 78.6406,69.6768 Q79.2656,68.5205 80.3594,67.9111 Q81.4531,67.2861 82.6875,67.2861 Q83.4219,67.2861 84.0625,67.458 Q84.7188,67.6143 85.2656,67.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="89" x="96.5" y="77.1812">ESTADÍSTICA</text></g><!--MD5=[19899f9ca578ac9ce8c1dbc8b9bc3638]
+class SUSCRIPCIÓN--><g id="elem_SUSCRIPCIÓN"><rect codeLine="49" fill="#F1F1F1" height="88.2959" id="SUSCRIPCIÓN" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="386" y="200.5986"/><ellipse cx="405.5" cy="216.5986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M408.2656,212.4736 Q408.4219,212.2549 408.6094,212.1455 Q408.7969,212.0361 409.0156,212.0361 Q409.3906,212.0361 409.625,212.3018 Q409.8594,212.5518 409.8594,213.1611 L409.8594,214.6143 Q409.8594,215.2236 409.625,215.4893 Q409.3906,215.7549 409.0156,215.7549 Q408.6719,215.7549 408.4688,215.5518 Q408.2656,215.3643 408.1563,214.8486 Q408.1094,214.4893 407.9219,214.3018 Q407.5938,213.9268 406.9844,213.708 Q406.375,213.4893 405.75,213.4893 Q404.9844,213.4893 404.3438,213.8174 Q403.7188,214.1455 403.2188,214.8955 Q402.7344,215.6455 402.7344,216.6768 L402.7344,217.7705 Q402.7344,219.0049 403.625,219.833 Q404.5156,220.6455 406.1094,220.6455 Q407.0469,220.6455 407.7031,220.3955 Q408.0938,220.2393 408.5156,219.8018 Q408.7813,219.5361 408.9219,219.458 Q409.0781,219.3799 409.2813,219.3799 Q409.6094,219.3799 409.8594,219.6455 Q410.125,219.8955 410.125,220.2393 Q410.125,220.583 409.7813,220.9893 Q409.2813,221.5674 408.4844,221.8955 Q407.4063,222.3486 406.1094,222.3486 Q404.5938,222.3486 403.3906,221.7236 Q402.4063,221.2236 401.7188,220.1611 Q401.0313,219.083 401.0313,217.8018 L401.0313,216.6455 Q401.0313,215.3174 401.6406,214.1768 Q402.2656,213.0205 403.3594,212.4111 Q404.4531,211.7861 405.6875,211.7861 Q406.4219,211.7861 407.0625,211.958 Q407.7188,212.1143 408.2656,212.4736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="92" x="420.5" y="221.6812">SUSCRIPCIÓN</text><line style="stroke:#181818;stroke-width:0.5;" x1="387" x2="519" y1="232.5986" y2="232.5986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="122" x="392" y="249.7305">Paquetes Suscritos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="119" x="392" y="265.8291">Servicios Suscritos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="76" x="392" y="281.9277">Precio Total</text></g><!--MD5=[400228ae5d671c1e1fdff589fc59b7ba]
+class PAQUETE--><g id="elem_PAQUETE"><rect codeLine="56" fill="#F1F1F1" height="104.3945" id="PAQUETE" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="369" y="397.0986"/><ellipse cx="397.95" cy="413.0986" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M400.7156,408.9736 Q400.8719,408.7549 401.0594,408.6455 Q401.2469,408.5361 401.4656,408.5361 Q401.8406,408.5361 402.075,408.8018 Q402.3094,409.0518 402.3094,409.6611 L402.3094,411.1143 Q402.3094,411.7236 402.075,411.9893 Q401.8406,412.2549 401.4656,412.2549 Q401.1219,412.2549 400.9188,412.0518 Q400.7156,411.8643 400.6063,411.3486 Q400.5594,410.9893 400.3719,410.8018 Q400.0438,410.4268 399.4344,410.208 Q398.825,409.9893 398.2,409.9893 Q397.4344,409.9893 396.7938,410.3174 Q396.1688,410.6455 395.6688,411.3955 Q395.1844,412.1455 395.1844,413.1768 L395.1844,414.2705 Q395.1844,415.5049 396.075,416.333 Q396.9656,417.1455 398.5594,417.1455 Q399.4969,417.1455 400.1531,416.8955 Q400.5438,416.7393 400.9656,416.3018 Q401.2313,416.0361 401.3719,415.958 Q401.5281,415.8799 401.7313,415.8799 Q402.0594,415.8799 402.3094,416.1455 Q402.575,416.3955 402.575,416.7393 Q402.575,417.083 402.2313,417.4893 Q401.7313,418.0674 400.9344,418.3955 Q399.8563,418.8486 398.5594,418.8486 Q397.0438,418.8486 395.8406,418.2236 Q394.8563,417.7236 394.1688,416.6611 Q393.4813,415.583 393.4813,414.3018 L393.4813,413.1455 Q393.4813,411.8174 394.0906,410.6768 Q394.7156,409.5205 395.8094,408.9111 Q396.9031,408.2861 398.1375,408.2861 Q398.8719,408.2861 399.5125,408.458 Q400.1688,408.6143 400.7156,408.9736 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="65" x="415.05" y="418.1812">PAQUETE</text><line style="stroke:#181818;stroke-width:0.5;" x1="370" x2="496" y1="429.0986" y2="429.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="375" y="446.2305">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="74" x="375" y="462.3291">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="116" x="375" y="478.4277">Servicios incluidos</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="40" x="375" y="494.5264">Precio</text></g><!--MD5=[30a145389985b39b0bce1272ac991c13]
+class SERVICIO--><g id="elem_SERVICIO"><rect codeLine="64" fill="#F1F1F1" height="104.3945" id="SERVICIO" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="575" y="397.0986"/><ellipse cx="596.3" cy="413.0986" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M598.4875,414.8643 L594.3469,414.8643 L593.925,415.8955 L594.3469,415.8955 Q594.9563,415.8955 595.2219,416.1299 Q595.4875,416.3643 595.4875,416.7549 Q595.4875,417.1299 595.2219,417.3643 Q594.9563,417.5986 594.3469,417.5986 L592.05,417.5986 Q591.4406,417.5986 591.1906,417.3643 Q590.925,417.1299 590.925,416.7393 Q590.925,416.3643 591.2063,416.1299 Q591.4719,415.8799 592.0969,415.8955 L594.7688,409.2393 L593.6594,409.2393 Q593.05,409.2393 592.7844,409.0049 Q592.5188,408.7705 592.5188,408.3799 Q592.5188,408.0049 592.7844,407.7705 Q593.05,407.5361 593.6594,407.5361 L597.3313,407.5361 L600.7219,415.8955 Q601.3156,415.8955 601.5031,416.0361 Q601.8938,416.3018 601.8938,416.7549 Q601.8938,417.1299 601.6281,417.3643 Q601.3781,417.5986 600.7688,417.5986 L598.4719,417.5986 Q597.8625,417.5986 597.5969,417.3643 Q597.3313,417.1299 597.3313,416.7393 Q597.3313,416.3643 597.5969,416.1299 Q597.8625,415.8955 598.4719,415.8955 L598.8938,415.8955 L598.4875,414.8643 Z M597.7688,413.1611 L596.4094,409.7861 L595.0344,413.1611 L597.7688,413.1611 Z " fill="#000000"/><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="66" x="611.7" y="418.1812">SERVICIO</text><line style="stroke:#181818;stroke-width:0.5;" x1="576" x2="686" y1="429.0986" y2="429.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="49" x="581" y="446.2305">Nombre</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="74" x="581" y="462.3291">Descripción</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="40" x="581" y="478.4277">Precio</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="100" x="581" y="494.5264">Tipo de servicio</text></g><!--MD5=[aee84f5e9adb0dacda05fef5b14305a9]
+link PLATAFORMA to USUARIO--><g id="link_PLATAFORMA_USUARIO"><path codeLine="72" d="M274.35,100.3286 C260.18,108.8786 245.36,119.0186 233,130.0986 C218.03,143.5286 203.82,159.8186 191.39,175.8186 " fill="none" id="PLATAFORMA-USUARIO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="28" x="234" y="143.2925">tiene</text></g><!--MD5=[89ad5bb0ea6180de54309ce0f8a6bd65]
+link ESTADÍSTICA to PLATAFORMA--><g id="link_ESTADÍSTICA_PLATAFORMA"><path codeLine="73" d="M188.52,72.0986 C212.3,72.0986 239.62,72.0986 263.67,72.0986 " fill="none" id="ESTADÍSTICA-PLATAFORMA" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="39" x="206.75" y="66.2925">genera</text></g><!--MD5=[0ac78335b74149db01d155f83d2f6f8a]
+link PLATAFORMA to SERVICIO EXTERNO--><g id="link_PLATAFORMA_SERVICIO EXTERNO"><path codeLine="74" d="M390.08,72.0986 C428.61,72.0986 478.36,72.0986 520.29,72.0986 " fill="none" id="PLATAFORMA-SERVICIO EXTERNO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="74" x="418.25" y="66.2925">se comunica</text></g><!--MD5=[7073acf3b9b6d3a2af23efe4bf029300]
+reverse link SERVICIO EXTERNO to SERVICIO--><g id="link_SERVICIO EXTERNO_SERVICIO"><path codeLine="75" d="M607.44,108.3386 C612.06,174.9886 622.1,319.7186 627.46,397.0186 " fill="none" id="SERVICIO EXTERNO-backto-SERVICIO" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="600.45,108.6986,606.05,88.2586,614.42,107.7286,600.45,108.6986" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5bd0185b5c810bbfd8214df6d4a3435e]
+link PLATAFORMA to SUSCRIPCIÓN--><g id="link_PLATAFORMA_SUSCRIPCIÓN"><path codeLine="76" d="M346.97,100.1186 C366.88,127.0686 397.79,168.8886 421.1,200.4386 " fill="none" id="PLATAFORMA-SUSCRIPCIÓN" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="28" x="380" y="143.2925">tiene</text></g><!--MD5=[7a78beded7e279d7942fce86d4482847]
+link SUSCRIPCIÓN to SERVICIO--><g id="link_SUSCRIPCIÓN_SERVICIO"><path codeLine="77" d="M491.19,289.0386 C518.97,320.6486 556.69,363.5686 585.95,396.8486 " fill="none" id="SUSCRIPCIÓN-SERVICIO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="41" x="553" y="356.2925">incluye</text></g><!--MD5=[dddc89fd371c160f93cf11b7ec7e78d6]
+link EGRESADO to REQUISITO--><g id="link_EGRESADO_REQUISITO"><path codeLine="78" d="M80,509.4986 C80,535.3286 80,564.3186 80,584.8686 " fill="none" id="EGRESADO-REQUISITO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="42" x="81" y="552.2925">cumple</text></g><!--MD5=[0ae76caab6403afd96ace9cd4635e9a5]
+link SUSCRIPCIÓN to PAQUETE--><g id="link_SUSCRIPCIÓN_PAQUETE"><path codeLine="79" d="M448.71,289.0386 C445.59,320.6486 441.35,363.5686 438.06,396.8486 " fill="none" id="SUSCRIPCIÓN-PAQUETE" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="41" x="444" y="356.2925">incluye</text></g><!--MD5=[b7918388a681f58c4ca22ddee4ca86c3]
+link PAQUETE to SERVICIO--><g id="link_PAQUETE_SERVICIO"><path codeLine="80" d="M497.01,449.0986 C522.09,449.0986 550.62,449.0986 574.88,449.0986 " fill="none" id="PAQUETE-SERVICIO" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="41" x="515.5" y="443.2925">incluye</text></g><!--MD5=[db839ad93d3aba4fedf50576859f9ea2]
+reverse link USUARIO to EGRESADO--><g id="link_USUARIO_EGRESADO"><path codeLine="81" d="M117.7,332.4286 C111.49,351.4886 105.04,371.2586 99.28,388.9386 " fill="none" id="USUARIO-backto-EGRESADO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="111.08,330.1586,123.93,313.3086,124.39,334.4986,111.08,330.1586" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[85e57e957508214e429ff6fec829f4bc]
+reverse link USUARIO to ADMINISTRADOR--><g id="link_USUARIO_ADMINISTRADOR"><path codeLine="82" d="M194.35,330.7486 C216.29,369.3586 240.04,411.1886 252.41,432.9686 " fill="none" id="USUARIO-backto-ADMINISTRADOR" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="188.24,334.1586,184.45,313.3086,200.42,327.2486,188.24,334.1586" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a6613485fba98ffe85dc90fc5392f614]
+link PLATAFORMA to ADMINISTRADOR--><g id="link_PLATAFORMA_ADMINISTRADOR"><path codeLine="83" d="M321.2,100.1486 C316.82,120.8986 310.77,150.2586 306,176.0986 C287.97,273.7686 269.6,391.8086 263.29,433.0286 " fill="none" id="PLATAFORMA-ADMINISTRADOR" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="60" x="307" y="249.7925">administra</text></g><!--MD5=[d59f4c7f79670fde171f701218af6088]
+@startuml Diagrama_de_Clases
+
+title Diagrama de Clases
+
+'!theme amiga
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+hide empty members
+
+class PLATAFORMA 
+{
+   Alumni
+}
+
+abstract "SERVICIO EXTERNO"
+
+abstract USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+    Foto de Perfil
+}
+
+class EGRESADO 
+{
+    Dirección
+    Ocupación
+    Carnet de Estudiante
+    Numero
+    Dni
+}
+
+class ADMINISTRADOR 
+{
+}
+
+class REQUISITO 
+{
+    Titulación de UNEAT
+}
+
+class ESTADÍSTICA 
+{
+}
+
+class SUSCRIPCIÓN 
+{
+    Paquetes Suscritos
+    Servicios Suscritos
+    Precio Total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    Servicios incluidos
+    Precio
+}
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    Precio
+    Tipo de servicio
+}
+
+PLATAFORMA - - USUARIO : tiene
+PLATAFORMA -left ESTADÍSTICA : genera
+PLATAFORMA -right- "SERVICIO EXTERNO" : se comunica
+SERVICIO .up..|> "SERVICIO EXTERNO"
+SUSCRIPCIÓN -up- PLATAFORMA : tiene
+SUSCRIPCIÓN - - SERVICIO : incluye
+EGRESADO - - REQUISITO : cumple
+SUSCRIPCIÓN - - PAQUETE : incluye
+PAQUETE - SERVICIO : incluye
+USUARIO <|- - EGRESADO
+USUARIO <|- - ADMINISTRADOR
+ADMINISTRADOR -up- PLATAFORMA : administra
+
+@enduml
+
+@startuml Diagrama_de_Clases
+
+title Diagrama de Clases
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+
+hide empty members
+
+class PLATAFORMA 
+{
+   Alumni
+}
+
+abstract "SERVICIO EXTERNO"
+
+abstract USUARIO 
+{
+    ID
+    Nombre 
+    Apellido
+    Fecha de Nacimiento
+    Email
+    Foto de Perfil
+}
+
+class EGRESADO 
+{
+    Dirección
+    Ocupación
+    Carnet de Estudiante
+    Numero
+    Dni
+}
+
+class ADMINISTRADOR 
+{
+}
+
+class REQUISITO 
+{
+    Titulación de UNEAT
+}
+
+class ESTADÍSTICA 
+{
+}
+
+class SUSCRIPCIÓN 
+{
+    Paquetes Suscritos
+    Servicios Suscritos
+    Precio Total
+}
+
+class PAQUETE
+{
+    Nombre
+    Descripción
+    Servicios incluidos
+    Precio
+}
+
+abstract SERVICIO 
+{
+    Nombre 
+    Descripción
+    Precio
+    Tipo de servicio
+}
+
+PLATAFORMA - - USUARIO : tiene
+PLATAFORMA -left ESTADÍSTICA : genera
+PLATAFORMA -right- "SERVICIO EXTERNO" : se comunica
+SERVICIO .up..|> "SERVICIO EXTERNO"
+SUSCRIPCIÓN -up- PLATAFORMA : tiene
+SUSCRIPCIÓN - - SERVICIO : incluye
+EGRESADO - - REQUISITO : cumple
+SUSCRIPCIÓN - - PAQUETE : incluye
+PAQUETE - SERVICIO : incluye
+USUARIO <|- - EGRESADO
+USUARIO <|- - ADMINISTRADOR
+ADMINISTRADOR -up- PLATAFORMA : administra
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
