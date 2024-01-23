@@ -7,18 +7,13 @@ skinparam stateBorderColor #c90000
 skinparam linetype bold
 skinparam arrowThickness 1
 
-[*] --> Inicial
+[*] --> Inicio
 
-Inicial -d-> FISC 
+Inicio -d-> FISC 
 note on link
   Login
 end note
-Inicial -d-> Registrando_Usuario
-note on link
-  Crear Usuario
-end note
-
-Registrando_Usuario -d-> Inicial
+Inicio -d-> Inicio
 note on link
   Registrar Usuario
 end note
@@ -30,9 +25,6 @@ PáginaPrincipal -d-> PáginaProyecto
 note on link
   Abrir Proyecto 
   Importar Proyecto
-end note 
-PáginaPrincipal -d-> PáginaProyecto
-note on link
   Nuevo Proyecto 
 end note 
 PáginaPrincipal -d-> PáginaPrincipal
@@ -40,12 +32,9 @@ note on link
   Exportar Proyecto
 end note 
 
-PáginaProyecto -d-> Configuración_de_Simulación
+PáginaProyecto -d-> ConfiguraciónDeSimulación
 note on link
   Abrir Simulación
-end note 
-PáginaProyecto -d-> Configuración_de_Simulación
-note on link
   Nueva Simulación
 end note 
 PáginaProyecto ---> Reporte
@@ -53,16 +42,16 @@ note on link
   Ver Reporte
 end note 
 
-Configuración_de_Simulación -d-> Simulando
+ConfiguraciónDeSimulación -d-> Simulando
 note on link
   Iniciar Simulación
 end note 
-Configuración_de_Simulación -d-> Configuración_de_Simulación
+ConfiguraciónDeSimulación -d-> ConfiguraciónDeSimulación
 note on link
   Importar Simulación
 end note  
 
-Simulando ---> Configuración_de_Simulación
+Simulando ---> ConfiguraciónDeSimulación
 note on link
   Cancelar Simulación
 end note 
@@ -84,7 +73,7 @@ Reporte -d-> PáginaProyecto
 note on link
   Guardar
 end note 
-Reporte -d-> Configuración_de_Simulación
+Reporte -d-> ConfiguraciónDeSimulación
 note on link
   Editar Simulación
 end note 
