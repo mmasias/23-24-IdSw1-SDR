@@ -30,6 +30,13 @@
       </div>
   </details>
 
+    <details>
+    <summary>Listar Servicios / Paquete de Servicios</summary>
+      <div align="center">
+        <image src="./Usuarios/Egresado/CRD_Suscripción/Listar_Suscripción/Caso_de_Uso.svg" align="center">
+      </div>
+  </details>
+
 ### [Egresado](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado)
 
   <details>
@@ -57,13 +64,6 @@
     <summary>Cancelación de Suscripción a Servicio / Paquete de Servicios</summary>
       <div align="center">
         <image src="./Usuarios/Egresado/CRD_Suscripción/Terminar_Suscripción/Caso_de_Uso.svg" align="center">
-      </div>
-  </details>
-
-  <details>
-    <summary>Listar Servicios / Paquete de Servicios</summary>
-      <div align="center">
-        <image src="./Usuarios/Egresado/CRD_Suscripción/Listar_Suscripción/Caso_de_Uso.svg" align="center">
       </div>
   </details>
 
