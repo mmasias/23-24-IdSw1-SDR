@@ -93,13 +93,6 @@
   </details>
 
   <details>
-    <summary>Editar Egresados</summary>
-      <div align="center">
-        <image src="./Pantallas/Egresados/Editar_Egresados.png" align="center">
-      </div>
-  </details>
-
-  <details>
     <summary>Eliminar Egresados</summary>
       <div align="center">
         <image src="./Pantallas/Egresados/Eliminar_Egresado.png" align="center">
