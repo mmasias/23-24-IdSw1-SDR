@@ -20,6 +20,7 @@ end note
 state TerminarSuscripción{
   state 1 as " "
   state 2 as " "
+  state 3 <<choice>>
   [*] --> 1
   1 --> 2
   note on link
@@ -28,17 +29,17 @@ state TerminarSuscripción{
   a un servicio o paquete de servicios, se
   informa de la fecha de terminación
   end note
-  2 --> SuscripcionTerminada
+  2 --> 3
   note on link
   <b>Usuario introduce</b>
   Confimación de la terminación de la suscripción
   end note
-  SuscripcionTerminada -[#red]-> 1
+  3 -[#red]-> 1
   note on link
   <b>Sistema muestra</b>
   Mensaje de error en caso de no poder terminar la suscripción
   end note
-  SuscripcionTerminada --> [*]
+  3 --> [*]
   note on link
   <b>Sistema muestra</b>
   Mensaje de confirmación

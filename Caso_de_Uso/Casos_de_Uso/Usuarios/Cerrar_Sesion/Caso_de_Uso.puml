@@ -13,13 +13,13 @@ hide empty description
 
 state startState as "INICIO"
 
-startState --> CerrarSesion
+startState --> CerrarSesión
 note on link
     <b>Usuario Solicita</b>
     * Cerrar Sesión en Alumni
 end note
 
-state CerrarSesion {
+state CerrarSesión {
 state 2 as " "
 state 3 <<choice>>
 
@@ -28,18 +28,18 @@ state 3 <<choice>>
 2 -down-> 3
 note on link
 <b>Sistema Permite</b>
-* Cerrar Sesion
+* Cerrar Sesión
 * Cancelar y volver a la pantalla anterior
 end note
 
 3 -down-> [*]
 note on link
-<b>Usuario Confirma Cerrar Sesion</b>
+<b>Usuario Confirma Cerrar Sesión</b>
 end note
 
 3 -down-> startState
 note on link
-<b>Usuario Cancela Cerrar Sesion</b>
+<b>Usuario Cancela Cerrar Sesión</b>
 end note
 
 }
