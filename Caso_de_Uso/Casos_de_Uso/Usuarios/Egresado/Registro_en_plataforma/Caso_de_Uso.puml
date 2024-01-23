@@ -10,14 +10,14 @@ skinparam {
 
 hide empty description
 
-state startState as "INITIAL"
 
-startState --> RegistroEnPlataforma
+
+[*] --> RegistroEnPlataforma
 note on link
     <b>Ajeno al Sistema Solicita</b>
     * Registro en Plataforma
 end note
-
+S
 state RegistroEnPlataforma {
   state 2 as " "
   state 3 <<choice>>

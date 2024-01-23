@@ -8,7 +8,7 @@ top to bottom direction
 hide empty description
 title Cancelación de cuenta
 
-DASHBOARD_ABIERTO -down-> CancelaciónDeCuenta
+CONFIGURACIÓN -down-> CancelaciónDeCuenta
 note on link
 <b>Usuario solicita</b>
 Cancelar su cuenta
