@@ -35,7 +35,7 @@
       - [Listar Administradores](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Administradores/Listar_Administrador/Readme.md)
       - [Eliminar Administrador](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Administradores/Eliminar_Administrador/Readme.md)
 
-    - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/ConsultarEstadisticas/Readme.md)
+    - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/Readme.md)
 
 - Tiempo
   - [Eliminar Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Tiempo/Eliminar_Suscripciones/Readme.md)
