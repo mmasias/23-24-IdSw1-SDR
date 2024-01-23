@@ -1,4 +1,4 @@
-@startuml Diagrama_de_Objetos-Servicio_Externo
+@startuml Diagrama_de_Objetos_Suscripción
 title Diagrama de Objetos - Ejemplo de Suscripción
 
 skinparam backgroundColor white
@@ -39,7 +39,7 @@ Precio: 4€
 
 Alumni -- "Suscripción"
 Suscripción -- "Paquete Deporte:Paquete"
-note left: El precio del paquete puede \nser inferior que todos los \npaquetes que incluya
+note left: El precio del paquete puede \nser inferior que todos los \nservicios que incluya
 
 "Paquete Deporte:Paquete"--"NewsLetter de Deporte:Servicio"
 "Paquete Deporte:Paquete"--"Reserva Pista:Servicio"
