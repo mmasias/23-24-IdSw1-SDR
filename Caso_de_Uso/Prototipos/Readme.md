@@ -1,7 +1,7 @@
 # Prototipos
 - Pantallas
     - [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
-  <details>
+        <details>
     <summary>Crear Administrador</summary>
       <div align="center">
         <image src="./Pantallas/Administradores/Crear_Administrador.png" align="center">
@@ -11,26 +11,40 @@
   <details>
     <summary>Editar Administrador</summary>
       <div align="center">
-        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png" align="center">
+        <image src="./Pantallas/Administradores/Editar_Administrador.png" align="center">
       </div>
   </details>
 
   <details>
     <summary>Eliminar Administrador</summary>
       <div align="center">
-        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png" align="center">
+        <image src="./Pantallas/Administradores/Eliminar_Administrador.png" align="center">
       </div>
   </details>
 
   <details>
     <summary>Listar Administradores</summary>
       <div align="center">
-        <image src="./Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png" align="center">
+        <image src="./Pantallas/Administradores/Listar_Administradores.png" align="center">
       </div>
   </details>
+
     - [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
-        - [Cerrar Sesión de Administrador](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión%20_Administrador.png)
-        - [Cerrar Sesión de Egresado](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión_Egresado.png)
+
+     <details>
+    <summary>Cerrar Sesión de Administrador</summary>
+      <div align="center">
+        <image src="./Pantallas/Cerrar_Sesion/Cerrar_Sesión%20_Administrador.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Cerrar Sesión de Egresado</summary>
+      <div align="center">
+        <image src="./Pantallas/Cerrar_Sesion/Cerrar_Sesión_Egresado.png" align="center">
+      </div>
+  </details>
+            
     - [Configuración de Cuenta](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta)
         - [Cambiar Contraseña de Administrador](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta/Cambiar_Contraseña_Admin.png)
         - [Cambiar Contraseña de Egresado](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta/Cambiar_Contraseña_Egresado.png)
