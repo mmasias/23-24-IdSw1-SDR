@@ -19,7 +19,7 @@ class "BEN : EGRESADO"
     
 }
 
-"INSTALACIONES : SERVICIO" -left- "ALUMNI"
+"INSTALACIONES : SERVICIO EXTERNO" -left- "ALUMNI"
 note left: La plataforma se comunica \ncon el servicio y pasa todos \nlos datos necesarios del egresado \npara iniciar sesion del egresado \nen el servicio
 "ALUMNI" -- "BEN : EGRESADO" : comunica
 note right: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que debería tener un \negresado  
