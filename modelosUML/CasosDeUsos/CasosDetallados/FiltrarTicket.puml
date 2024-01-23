@@ -1,12 +1,34 @@
-@startuml CDU FiltrarTicket
+ @startuml
 skin rose
-:Dashboard Abierto;
-:Ver Lista de Tickets;
-partition "Buscar ticket" {
-  start
-  :Filtrar Ticket;
-  :Seleccionar Ticket;
+title Caso de Uso: Filtrar Ticket
+
+state DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO --> FiltrarTicket
+
+state FiltrarTicket {
+
+  [*] -[#blue]-> verlistadoTickets
+  state "Ver listado de tickets" as verlistadoTickets
+  verlistadoTickets -[#blue]-> confirmarFiltrado
+  state "Filtrar ticket" as confirmarFiltrado
+  confirmarFiltrado -[#blue]-> [*]
+    
 }
-:Visualizar Ticket;
-    stop
+
+note left of confirmarFiltrado
+  *El sistema permite*:
+  ° Filtrar por estado
+  ° Filtrar por titulo
+  ° Filtrar por prioridad
+  ° Filtrar por fecha
+  ° Filtrar por responsable
+  *El sistema muestra*: 
+  ° Lista de tickets filtrados
+end note
+
+note right of confirmarFiltrado
+  *El usuario introduce*:
+  ° Propiedad de ticket para filtrar
+end note
+
 @enduml
