@@ -1,0 +1,30 @@
+@startuml
+skin rose
+title Caso de Uso: Ver Ticket Ticket
+
+state DASHBOARD_ABIERTO
+
+DASHBOARD_ABIERTO --> VerTicket
+note on link: **El usuario** solicita ver ticket
+
+state VerTicket {
+
+  [*] -[#blue]-> verlistadoTickets
+  state "Ver listado de tickets" as verlistadoTickets
+  verlistadoTickets -[#blue]-> seleccionarOpcionVer
+  note on link : **El usuario** solicita seleccionar un ticket
+  state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+  seleccionarOpcionVer -[#blue]-> [*]
+}
+
+note left of verlistadoTickets
+  **El sistema muestra**: 
+  ° Lista de tickets
+end note
+
+note left of seleccionarOpcionVer
+  **El sistema muestra**: 
+  ° El ticket seleccionado
+end note
+
+@enduml

@@ -3,44 +3,25 @@ skin rose
 title Caso de Uso: Asignar Ticket
 
 state DASHBOARD_ABIERTO
+state VER_TICKET
 
-DASHBOARD_ABIERTO --> VerTicket
-note on link: **El usuario** solicita ver ticket
+DASHBOARD_ABIERTO --> VER_TICKET
+VER_TICKET --> AsignarTicket
 
-state VerTicket {
+state AsignarTicket {
 
-  [*] -[#blue]-> verlistadoTickets
-  state "Ver listado de tickets" as verlistadoTickets
-  verlistadoTickets -[#blue]-> seleccionarOpcionVer
-  state "Ver listado de tickets" as AsignarTicket
-  note on link : **El usuario** selecciona un ticket
-  state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
-  seleccionarOpcionVer -[#blue]-> AsignarTicket
+  [*] -[#blue]-> ingresarVerTicket
   note on link: **El usuario** solicita asignar responsable
-
-  state AsignarTicket {
-
-    state "Asignar Responsable" as ingresarVerTicket
-    ingresarVerTicket -[#blue]-> confirmarAsignacion
-    state "Confirmación de asignación" as confirmarAsignacion
-    confirmarAsignacion -[#blue]-> [*]
-    note on link: **El usuario** confirma la asignación
+  state "Asignar Responsable" as ingresarVerTicket
+  ingresarVerTicket -[#blue]-> confirmarAsignacion
+  state "Confirmación de asignación" as confirmarAsignacion
+  confirmarAsignacion -[#blue]-> [*]
+  note on link: **El usuario** solicita la asignación
     
-    confirmarAsignacion -[#red]-> [*]
-    note on link: **El usuario** cancela la asignación
+  confirmarAsignacion -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar la asignación
     
-  }
 }
-
-note left of verlistadoTickets
-  **El sistema muestra**: 
-  ° Lista de tickets
-end note
-
-note left of seleccionarOpcionVer
-  **El sistema muestra**: 
-  ° El ticket seleccionado
-end note
 
 note left of ingresarVerTicket
   **El sistema muestra**: 
@@ -48,8 +29,8 @@ note left of ingresarVerTicket
 end note
 
 note left of ingresarVerTicket
-  **El usuario selecciona**: 
-  ° Desarrollador 
+  **El usuario solicita**: 
+  ° Seleccionar desarrollador 
 end note
 
 @enduml
