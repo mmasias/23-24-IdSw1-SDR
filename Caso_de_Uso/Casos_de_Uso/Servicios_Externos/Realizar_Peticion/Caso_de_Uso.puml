@@ -12,13 +12,13 @@ title Realizar Petición
 
 state startState as "INITIAL"
 
-startState --> RealziarPetición
+startState --> RealizarPetición
 note on link
     <b>Usuario Solicita</b>
     Interactuar con un servicio externo
 end note
 
-state RealziarPetición {
+state RealizarPetición {
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -28,7 +28,7 @@ state 4 <<choice>>
 2 -down-> 3
 note on link
 <b>Sistema Solicita</b>
-* Identificar el tipo de Ususario
+* Identificar el tipo de Usuario
 * Datos de la Petición
 <b>Sistema Permite</b>
 * Interactuar con el servicio externo
@@ -37,7 +37,7 @@ end note
 3 -down-> 4
 note on link
 <b>Usuario introduce</b>
-* Identificar el tipo de Ususario
+* Identificar el tipo de Usuario
 * Datos de la Petición
 end note
 
