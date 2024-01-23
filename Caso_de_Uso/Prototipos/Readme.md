@@ -109,7 +109,7 @@
   <details>
     <summary>Listar Egresados</summary>
       <div align="center">
-        <image src="./Pantallas/Egresados/Listar_Egresado.png)" align="center">
+        <image src="./Pantallas/Egresados/Listar_Egresado.png" align="center">
       </div>
   </details>
 
