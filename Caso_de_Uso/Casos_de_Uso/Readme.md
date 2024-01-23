@@ -72,7 +72,7 @@
 <details>
     <summary>Consultar estadísticas</summary>
       <div align="center">
-        <image src="./Usuarios/Administrador/Consultar_Estadisticas/Caso_de_Uso.svg" align="center">
+        <image src="./Usuarios/Administrador/Consultar_Estadisticas/ConsultarEstadisticas.svg" align="center">
       </div>
   </details>
 
@@ -81,28 +81,28 @@
   <details>
     <summary>Crear Paquete de Servicios</summary>
       <div align="center">
-        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Crear_Paquete/Caso_de_Uso.svg" align="center">
+        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Crear_Paquete/CrearPaquete.svg" align="center">
       </div>
   </details>
 
 <details>
     <summary>Editar Paquete de Servicios</summary>
       <div align="center">
-        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Editar_Paquete/Caso_de_Uso.svg" align="center">
+        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Editar_Paquete/EditarPaquete.svg" align="center">
       </div>
   </details>
 
 <details>
     <summary>Listar Paquetes de Servicios</summary>
       <div align="center">
-        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Listar_Paquetes/Caso_de_Uso.svg" align="center">
+        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Listar_Paquetes/ListarPaquetesDeServicios.svg" align="center">
       </div>
   </details>
 
 <details>
     <summary>Eliminar Paquete de Servicios</summary>
       <div align="center">
-        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Listar_Paquetes/Caso_de_Uso.svg" align="center">
+        <image src="./Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Eliminar_Paquete/EliminarPaquete.svg" align="center">
       </div>
   </details>
 
