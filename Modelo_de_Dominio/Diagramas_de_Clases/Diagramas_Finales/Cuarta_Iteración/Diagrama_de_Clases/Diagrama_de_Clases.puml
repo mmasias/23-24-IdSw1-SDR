@@ -27,7 +27,7 @@ abstract USUARIO
 
 class EGRESADO 
 {
-    Direccion
+    Dirección
     Ocupación
     Carnet de Estudiante
     Numero
@@ -43,7 +43,7 @@ class REQUISITO
     Titulación de UNEAT
 }
 
-class ESTADISTICA 
+class ESTADÍSTICA 
 {
 }
 
@@ -66,12 +66,12 @@ abstract SERVICIO
 {
     Nombre 
     Descripción
-    precio
-    tipo de servicio
+    Precio
+    Tipo de servicio
 }
 
 PLATAFORMA -- USUARIO : tiene
-PLATAFORMA -left ESTADISTICA : genera
+PLATAFORMA -left ESTADÍSTICA : genera
 PLATAFORMA -right- "SERVICIO EXTERNO" : se comunica
 SERVICIO .up..|> "SERVICIO EXTERNO"
 SUSCRIPCIÓN -up- PLATAFORMA : tiene

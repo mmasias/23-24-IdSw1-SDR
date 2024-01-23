@@ -12,13 +12,13 @@ hide empty description
 
 state startState as "INITIAL"
 
-startState --> ConsultarEstadisticas
+startState --> Consultar_Estadisticas
 note on link
     <b>Administrador Solicita</b>
     * Consultar Estadisticas
 end note
 
-state ConsultarEstadisticas{
+state Consultar_Estadisticas{
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -32,7 +32,7 @@ note on link
 * Fecha de inicio
 * Fecha de fin
 <b>Sistema Permite</b>
-* Actualizar datos de la cuenta
+* Consultar estadisticas
 end note
 
 3 -down-> 4

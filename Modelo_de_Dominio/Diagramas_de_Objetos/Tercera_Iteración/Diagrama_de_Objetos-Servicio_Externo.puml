@@ -1,17 +1,16 @@
 @startuml Diagrama_de_Objetos-Servicio_Externo
 title Diagrama de Objetos - Reserva de Instalaciones
 
-'!theme amiga
 skinparam backgroundColor white
 skinparam defaultFontName Arial
 hide circle
 
 class "INSTALACIONES : SERVICIO"  
 {
-    Nombre: "Cancha de Futbol"
+    Nombre: "Cancha de Fútbol"
     Ubicación: "Calle 13 # 100-00"
-    horario: "Lunes a Viernes 8:00 am - 5:00 pm"
-    disponibilidad: "Disponible"
+    Horario: "Lunes a Viernes 8:00 am - 5:00 pm"
+    Disponibilidad: "Disponible"
 }
 
 class "PACO : ADMINISTRADOR" 
@@ -27,6 +26,6 @@ class "BEN : EGRESADO"
 note left: La plataforma se comunica \ncon el servicio y pasa todos \nlos datos necesarios del usuario
 "ALUMNI" -- "PACO : ADMINISTRADOR"
 "ALUMNI" -- "BEN : EGRESADO" : comunica
-note right: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que deberia tener un \negresado  
+note right: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que debería tener un \negresado  
 @enduml
 
