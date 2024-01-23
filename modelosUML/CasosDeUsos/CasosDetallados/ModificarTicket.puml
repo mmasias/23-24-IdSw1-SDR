@@ -14,22 +14,31 @@ VER_TICKET --> ModificarTicket
 
 state ModificarTicket {
 
-  [*] -[#blue]-> comentarTicket
-  state "" as comentarTicket
-  comentarTicket -[#blue]-> confirmarComentario
-  state "Confirmar comentario a un ticket" as confirmarComentario
-  confirmarComentario -[#blue]-> [*]
-  note on link: **El usuario** solicita comentar un ticket
-    
-  confirmarComentario -[#red]-> [*]
-  note on link: **El usuario** solicita cancelar la operación
+  [*] -[#blue]-> modificarTicket
+  note on link: **El usuario** solicita modificar un ticket
+  state "Modificar propiedades del ticket" as modificarTicket
+  modificarTicket -[#blue]-> confirmarCambios
+  state "Confirmar cambios del ticket" as confirmarCambios
+  confirmarCambios -[#blue]-> [*]
+  note on link: **El usuario** solicita cambiar un ticket
+  confirmarCambios -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar el cambio
     
 }
 
 
-note left of comentarTicket
-  **El sistema**permite: 
-  ° comentar un ticket
+note left of modificarTicket
+  **El sistema** permite modificar: 
+  ° Estado
+  ° Prioridad
+  ° Titulo
+  ° Descripción
+  ° Responsable
+  ° Archivos Adjuntos
+end note
+
+note right of modificarTicket
+  **El usuario** introduce los datos a modificar
 end note
 
 @enduml
