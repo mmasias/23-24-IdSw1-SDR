@@ -11,57 +11,32 @@
 
 ## Descripción
 
-Es una plataforma que se encarga de conectar a estudiantes egresados de las universidades de la red Uneatlantico con empresas, ademas de ofrecer servicios.
+Es una plataforma que se encarga de conectar a estudiantes egresados de la red Uneatlantico con la universidad por medio de servicios que concentra la plataforma.
 
 ## Modelo de Dominio
-  En este apartado se encuentra la esctructura de Alumni, una plataforma en la que se concentran servicios para los estudiantes egresados. Para estructurar la plataforma se han realizado una serie de diagramas que explican el funcionamiento de la misma. Estos son los siguientes:
+  En este apartado se encuentra la esctructura de Alumni. Para describirla, se establecen una serie de objetos que se relacionan entre sí, para que el sistema funcione correctamente. 
+  
+  Las relaciones y el funcionamiento de estos se encuentran descritos en los siguientes diagramas:
 
-  <details>
-    <summary>Diagramas de Clases</summary>
-      <h4 align="center">Diagrama de Clases</h4>
-      <div align="center">
-        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Clases.svg" align="center">
-      </div>
-      <h4 align="center">Diagrama de Servicios Externos</h4>
-      <div align="center">
-        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Servicios_Externos.svg" align="center">
-      </div>
-      <h4 align="center">Diagrama de Servicios</h4>
-      <div align="center">
-        <image src="./Imágenes/Modelo_de_Dominio/Diagramas_de_Clases/Diagrama_de_Servicios.svg" align="center">
-      </div>
-  </details>
+  - [Diagramas de Clases](/Modelo_de_Dominio/Diagramas_de_Clases/)
+  - [Diagramas de Estados](/Modelo_de_Dominio/Diagramas_de_Estado/)
+  - [Diagaramas de Objetos](/Modelo_de_Dominio/Diagramas_de_Objetos/)
 
-  <details>
-    <summary>Diagrama de Estados</summary>
-    <div align="center">
-      <image src="./Imágenes/Modelo de Dominio Extendido.png" align="center">
-    </div>
-  </details>
+## Casos de Uso y Actores
 
-  <details>
-    <summary>Diagrama de Objetos</summary>
-    <div align="center">
-      <image src="./Imágenes/Modelo de Dominio Extendido.png" align="center">
-    </div>
-  </details>
+  Aquí se encuentran los casos de uso detallado mediantes diagramas de estados. Estos estan repartidos entre los actores del sistema. Los casos de uso y actores se encuentran descritos en los siguientes diagramas:
 
-## Casos de Uso
-  En este apartado estan los actores y casos de Uso de Alumni, utilizados para detallar el funcionamiento de la plataforma. Estos son los siguientes:
+  - [Diagramas de Actores](/Caso_de_Uso/Actores/)
+  - [Diagramas de Casos de Uso](/Caso_de_Uso/Casos_de_Uso/)
 
-  <details>
-    <summary>Actores</summary>
-    <div align="center">
-      <image src="./Imágenes/Actores.png" align="center">
-  </div>
-  </details>
+## Estructura del Proyecto y Prototipos
 
-  <details>
-    <summary>Casos de Uso</summary>
-    <div align="center">
-      <image src="./Imágenes/Casos de Uso.png" align="center">
-  </div>
-  </details>
+  Los casos de uso se encuentran estructurados por actores, de tal forma que solo se muestran los casos de uso que le corresponden a cada actor. A su vez, cada caso de uso se encuentra relacionado con los prototipos que lo implementan. Tanto la estructura, como los prototipos se encuentran en los siguientes enlaces:
+
+  - [Estructura del Proyecto](/Caso_de_Uso/Estructura/)
+  - [Diagrama de Contexto](/Caso_de_Uso/Contexto/)
+  - [Prototipos](/Caso_de_Uso/Prototipos/)
+
 
  ## Integrantes
 
