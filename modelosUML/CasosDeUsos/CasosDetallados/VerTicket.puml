@@ -11,13 +11,13 @@ FILTRAR_TICKET --> VerTicket
 state VerTicket {
 
   [*] -[#blue]-> seleccionarOpcionVer
-  note on link : *El usuario* solicita seleccionar un ticket
+  note on link : **El usuario** solicita seleccionar un ticket
   state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
   seleccionarOpcionVer -[#blue]-> [*]
 }
 
 note left of seleccionarOpcionVer
-  *El sistema muestra*: 
+  **El sistema muestra**: 
   ° El ticket seleccionado
 end note
 

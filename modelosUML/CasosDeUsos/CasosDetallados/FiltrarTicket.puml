@@ -16,7 +16,7 @@ state FiltrarTicket {
 }
 
 note left of confirmarFiltrado
-  *El sistema permite*:
+  **El sistema permite**:
   ° Filtrar por estado
   ° Filtrar por titulo
   ° Filtrar por prioridad
@@ -27,7 +27,7 @@ note left of confirmarFiltrado
 end note
 
 note right of confirmarFiltrado
-  *El usuario introduce*:
+  **El usuario introduce**:
   ° Propiedad de ticket para filtrar
 end note
 
