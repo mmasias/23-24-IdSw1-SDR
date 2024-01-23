@@ -92,7 +92,7 @@
       </div>
   </details>
 
-  <details>
+<details>
     <summary>Editar Egresados</summary>
       <div align="center">
         <image src="./Pantallas/Egresados/Editar_Egresados.png" align="center">
@@ -204,6 +204,13 @@
   </details>
 
   <details>
+    <summary>Error de Login</summary>
+      <div align="center">
+        <image src="./Pantallas/Login_Registro/Login_Error.svg" align="center">
+      </div>
+  </details>
+
+  <details>
     <summary>Registro Plataforma</summary>
       <div align="center">
         <image src="./Pantallas/Login_Registro/Registro_Plataforma.png" align="center">
@@ -250,7 +257,7 @@
   <details>
     <summary>Editar Paquete</summary>
       <div align="center">
-        <image src="./Pantallas/Paquetes/Editar_Paquete.png" align="center">
+        <image src="./Pantallas/Paquetes/Editar_Paquete.svg" align="center">
       </div>
   </details>
 
@@ -298,11 +305,25 @@
       </div>
   </details>
 
-## Plantilla Base para Servicios Externos
+## General
 
 <details>
-    <summary>Plantilla</summary>
+    <summary>Plantilla Base para Servicios Externos</summary>
       <div align="center">
-        <image src="./Pantallas/Plantilla_Base_Servicios_Externos.png" align="center">
+        <image src="./Pantallas/General/Plantilla_Base_Servicios_Externos.png" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Toast correcto</summary>
+      <div align="center">
+        <image src="./Pantallas/General/Toast_Succesfull.svg" align="center">
+      </div>
+  </details>
+
+  <details>
+    <summary>Toast incorrecto</summary>
+      <div align="center">
+        <image src="./Pantallas/General/Toast_Error.svg" align="center">
       </div>
   </details>
