@@ -7,10 +7,9 @@ actor Usuario as user
 
 
 rectangle "Log acceso cualquier pantalla" {
-    usecase "Abrir Log" as log
-    usecase "Exportar Log" as exlog
+    usecase "Imprimir" as log
 }
 
 user --> log
-user --> exlog
+
 @enduml

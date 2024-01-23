@@ -10,11 +10,9 @@ rectangle "FISC Página Proyecto" {
   usecase "Nueva simulación" as nueva
   usecase "Abrir simulación" as abrir
   usecase "Ver reporte" as reportes
-  usecase "Volver a todos los proyectos" as proyect
 }
-  user2 --> nueva : "Accede a"
-  user2 --> abrir : "Accede a"
-  user2 --> reportes : "Accede a"
-  user2 --> proyect : "Accede a"
+  user2 --> nueva : ""
+  user2 --> abrir : ""
+  user2 --> reportes : ""
 
 @enduml
