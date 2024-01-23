@@ -1,6 +1,7 @@
 # Prototipos
 - Pantallas
     - [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
+      
         <details>
     <summary>Crear Administrador</summary>
       <div align="center">
