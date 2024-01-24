@@ -1,23 +1,46 @@
-@startuml
+@startuml Diagrama de Contexto (Administrador)
+
 skin rose
-title Diagrama de Contexto (Filtrado de Tickets)
+skinparam note{
+  BackgroundColor white
+}
+title Diagrama de Contexto (Administrador)
 
-[*] --> Inicial
+[*] -->  Inicial
 
-Inicial -d-> DASHBOARD_ABIERTO : login
+Inicial -d-> DASHBOARD_ABIERTO
+note on link: login
 
-DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+DASHBOARD_ABIERTO --> LISTA_TICKETS
+note on link: filtrarTickets
 
-FILTRAR_TICKETS <-- FILTRAR_POR_PALABRA_CLAVE
-FILTRAR_TICKETS <-- FILTRAR_POR_ESTADO
-FILTRAR_TICKETS <-- FILTRAR_POR_PRIORIDAD
-FILTRAR_TICKETS <-- FILTRAR_POR_FECHA
+LISTA_TICKETS --> TICKET
+TICKET --> LISTA_TICKETS
+note on link: verTicket
 
-FILTRAR_TICKETS --> FILTRAR_POR_PALABRA_CLAVE
-FILTRAR_TICKETS --> FILTRAR_POR_ESTADO
-FILTRAR_TICKETS --> FILTRAR_POR_PRIORIDAD
-FILTRAR_TICKETS --> FILTRAR_POR_FECHA
+VER_USUARIOS <-- AÑADIR_USUARIO
+VER_USUARIOS <-- EDITAR_USUARIO
+VER_USUARIOS <-- BAJAS_USUARIOS
+
+VER_USUARIOS --> AÑADIR_USUARIO : añadirUsuario
+VER_USUARIOS --> EDITAR_USUARIO : editarUsuario 
+VER_USUARIOS --> BAJAS_USUARIOS : bajaDeUsuario
+
+DASHBOARD_ABIERTO --> INFORME : verInforme
+DASHBOARD_ABIERTO <-- INFORME
+
+INFORME --> DIARIO
+INFORME --> SEMANAL
+INFORME --> MENSUAL
+
+INFORME <-- DIARIO
+INFORME <-- SEMANAL
+INFORME <-- MENSUAL
+
 
 DASHBOARD_ABIERTO --> [*] : logout
-FILTRAR_TICKETS --> [*] : logout
+VER_USUARIOS --> [*] : logout
+INFORME --> [*] : logout
+
+
 @enduml
