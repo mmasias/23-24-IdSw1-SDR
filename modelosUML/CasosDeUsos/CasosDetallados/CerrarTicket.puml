@@ -7,9 +7,9 @@ state VER_TICKET
 state FILTRAR_TICKETS
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
-note on link: **El usuario** solicita filtrar por estado en resuelto
+note on link: **El usuario solicita** filtrar por estado resuelto
 FILTRAR_TICKETS --> VER_TICKET
-note on link: **El usuario** solicita ver un ticket resuelto
+note on link: **El usuario solicita** ver un ticket resuelto
 VER_TICKET --> CerrarTicket
 
 state CerrarTicket {
@@ -26,10 +26,14 @@ state CerrarTicket {
     
 }
 
+note left of ingresarVerTicket
+  **El sistema muestra**: 
+  ° Lista de estados
+end note
 
 note left of ingresarVerTicket
   **El usuario solicita**: 
-  ° cambiar el estado a cerrado
+  ° Cambiar el estado a cerrado
 end note
 
 @enduml

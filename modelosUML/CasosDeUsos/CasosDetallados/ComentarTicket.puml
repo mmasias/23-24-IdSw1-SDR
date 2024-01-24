@@ -7,9 +7,9 @@ state VER_TICKET
 state FILTRAR_TICKETS
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
-note on link: **El usuario** solicita filtrar por propiedad de ticket
+note on link: **El usuario solicita** filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
-note on link: **El usuario** solicita ver un ticket
+note on link: **El usuario solicita** ver un ticket
 VER_TICKET --> ComentarTicket
 
 state ComentarTicket {
@@ -19,17 +19,21 @@ state ComentarTicket {
   comentarTicket -[#blue]-> confirmarComentario
   state "Confirmar comentario a un ticket" as confirmarComentario
   confirmarComentario -[#blue]-> [*]
-  note on link: **El usuario** solicita comentar un ticket
+  note on link: **El usuario solicita** comentar un ticket
     
   confirmarComentario -[#red]-> [*]
   note on link: **El usuario** solicita cancelar la operación
     
 }
 
+note left of comentarTicket
+  **El sistema muestra**: 
+  ° Campo de texto para comentar
+end note
 
 note left of comentarTicket
-  **El usuario solicita**: 
-  ° comentar un ticket
+  **El usuario introduce**: 
+  ° Un comentario
 end note
 
 @enduml

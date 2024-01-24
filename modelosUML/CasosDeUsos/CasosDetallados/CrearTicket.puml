@@ -15,10 +15,10 @@ state CrearTicket {
   ingresarDetallesTicket -[#blue]-> confirmarCreacionTicket
   state "Confirmar creación del ticket" as confirmarCreacionTicket
   confirmarCreacionTicket -[#blue]-> [*]
-  note on link: **El usuario** confirma la creación
+  note on link: **El usuario solicita** confirmar la creación
   
   ingresarDetallesTicket -[#red]-> [*]
-  note on link: **El usuario** cancela la creación
+  note on link: **El usuario solicita** cancelar la creación
 }
 
 note left of ingresarDetallesTicket
@@ -33,7 +33,7 @@ note left of ingresarDetallesTicket
 end note
 
 note right of ingresarDetallesTicket
-  **El usuario proporciona**: 
+  **El usuario introduce**: 
   ° La información del formulario
 end note
 

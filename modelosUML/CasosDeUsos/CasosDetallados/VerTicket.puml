@@ -3,10 +3,10 @@ skin rose
 title Caso de Uso: Ver Ticket
 
 state DASHBOARD_ABIERTO
-state FILTRAR_TICKET
+state FILTRAR_TICKETS
 
-DASHBOARD_ABIERTO --> FILTRAR_TICKET
-FILTRAR_TICKET --> VerTicket
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+FILTRAR_TICKETS --> VerTicket
 
 state VerTicket {
 
