@@ -11,16 +11,23 @@ rectangle SistemaTicket{
     Dev -l-> Usuario
     Dev -- (Comentar Ticket)
     Usuario -l- (Crear Ticket)
-    Usuario -- (Ver Ticket)
+    Usuario -- (Filtrar Tickets)
     JefeProyecto -l-> Usuario
     JefeProyecto -- (Asignar Ticket)
     JefeProyecto -- (Modificar Ticket)
-    (Ver Ticket) ..> (Filtrar Ticket) :<<extends>>
     Admin -l-> Usuario
     Admin -l-> JefeProyecto
     Admin -- (Consultar Historial)
     Admin -- (Exportar Informe)
     Admin -- (Cerrar Ticket)
+
+    (Filtrar Tickets) <.. (Ver Ticket) :<<include>>
+    (Comentar Ticket) ..> (Ver Ticket) :<<include>>
+    (Modificar Ticket) ..> (Ver Ticket) :<<include>>
+    (Asignar Ticket) ..> (Ver Ticket) :<<include>>
+    (Cerrar Ticket) ..> (Ver Ticket) :<<include>>
+
+
 }
 
 @enduml
