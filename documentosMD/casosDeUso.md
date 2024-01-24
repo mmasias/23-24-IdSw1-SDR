@@ -1,6 +1,7 @@
 # Casos de Uso
 
 ## Índice
+
 1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
 2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
 3. [Diagramas de Contexto](#diagramas-de-contexto)
@@ -19,57 +20,65 @@
 
 Los usuarios pueden registrarse o iniciar sesión. Incluye una opción para recuperar la cuenta en caso de olvido de datos y para recordar usuario
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoInicioSesión.svg) | [Codigo PUML](../casosDeUso/casoUsoInicioSesión.puml) |
+|                                               |                                                 |
+| --------------------------------------------- | ----------------------------------------------- |
+| ![](../imagenes/casosDeUso/casoUsoInicio.svg) | [Código PUML](../casosDeUso/casoUsoInicio.puml) |
 
-#### - Página Usuario
+#### - Página Principal
 
-Permite al usuario crear, importar, exportar o abrir proyectos, y ofrece un acceso directo al log de la aplicación
+Permite al usuario crear, importar, exportar o abrir proyectos.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaPrincipal.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaPricipal.puml) |
+|                                                        |                                                          |
+| ------------------------------------------------------ | -------------------------------------------------------- |
+| ![](../imagenes/casosDeUso/casoUsoPaginaPrincipal.svg) | [Código PUML](../casosDeUso/casoUsoPaginaPrincipal.puml) |
 
 #### - Página Proyecto
 
-Ofrece opciones para acceder al log, volver a la página de proyectos, crear nuevas simulaciones y ver simulaciones recientes
+Ofrece opciones para abrir o crear nuevas simulaciones y ver reportes de simulaciones existentes.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaProyecto.svg) | [Codigo PUML](../casosDeUso/casoUsoPaginaProyecto.puml) |
+|                                                       |                                                         |
+| ----------------------------------------------------- | ------------------------------------------------------- |
+| ![](../imagenes/casosDeUso/casoUsoPaginaProyecto.svg) | [Código PUML](../casosDeUso/casoUsoPaginaProyecto.puml) |
 
-#### - Simulación
+#### - Configuración de Simulación
 
-El usuario introduce los datos de la probeta y elige entre simulación bidimensional o tridimensional, con la opción de importar parámetros adicionales
+Permite importar configuraciones de simulación y empezar una nueva simulación.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoSimulacion.svg) | [Codigo PUML](../casosDeUso/casoUsoSimulacion.puml) |
+|                                                                  |                                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/casoUsoConfiguracionDeSimulacion.svg) | [Código PUML](../casosDeUso/casoUsoConfiguracionDeSimulacion.puml) |
 
-#### - Pantalla Carga
+#### - Simulando
 
-Tiempo real del proceso de simulación, con opción de cancelar a mitad de camino
+Muestra el estado de la simulación en curso con la opción de cancelar.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoPantallaCarga.svg) | [Codigo PUML](../casosDeUso/casoUsoPantallaCarga.puml) |
+|                                                  |                                                    |
+| ------------------------------------------------ | -------------------------------------------------- |
+| ![](../imagenes/casosDeUso/casoUsoSimulando.svg) | [Código PUML](../casosDeUso/casoUsoSimulando.puml) |
 
-#### - Ver Reporte
+#### - Reporte
 
-Opciones para guardar, exportar, imprimir el reporte, o repetir la simulación editando los datos
+Permite editar simulaciones, exportar, imprimir y guardar reportes.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/casoUsoReporte.svg) | [Codigo PUML](../casosDeUso/casoUsoReporte.puml) |
+|                                                |                                                  |
+| ---------------------------------------------- | ------------------------------------------------ |
+| ![](../imagenes/casosDeUso/casoUsoReporte.svg) | [Código PUML](../casosDeUso/casoUsoReporte.puml) |
 
 #### - Log
 
-Accesible desde cualquier pantalla, muestra el registro detallado de las acciones realizadas en la aplicación
+Accesible desde cualquier pantalla, muestra el registro detallado de las acciones realizadas en la aplicación.
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/CasoUsoLog.svg) | [Codigo PUML](../casosDeUso/casoUsoLog.puml) |
+|                                            |                                              |
+| ------------------------------------------ | -------------------------------------------- |
+| ![](../imagenes/casosDeUso/CasoUsoLog.svg) | [Código PUML](../casosDeUso/casoUsoLog.puml) |
+
+#### - General
+
+Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
+
+|                                                |                                                  |
+| ---------------------------------------------- | ------------------------------------------------ |
+| ![](../imagenes/casosDeUso/casoUsoGeneral.svg) | [Código PUML](../casosDeUso/casoUsoGeneral.puml) |
 
 ---
 
@@ -77,14 +86,14 @@ Accesible desde cualquier pantalla, muestra el registro detallado de las accione
 
 #### - Detalle Caso Uso Inicial
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoInicial.svg) | [Codigo PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoInicial.puml) |
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoInicial.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoInicial.puml) |
 
 ---
 
 ## Diagramas de Contexto
 
-|  |  |
-| -- | -- |
-| ![](../imagenes/casosDeUso/diagramaDeContexto.svg) | [Codigo PUML](../casosDeUso/diagramaContexto.puml) |
+|                                                    |                                                    |
+| -------------------------------------------------- | -------------------------------------------------- |
+| ![](../imagenes/casosDeUso/diagramaDeContexto.svg) | [Código PUML](../casosDeUso/diagramaContexto.puml) |
