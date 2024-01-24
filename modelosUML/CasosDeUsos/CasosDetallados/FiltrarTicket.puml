@@ -3,9 +3,9 @@ skin rose
 title Caso de Uso: Filtrar Ticket
 
 state DASHBOARD_ABIERTO
-DASHBOARD_ABIERTO --> FiltrarTicket
+DASHBOARD_ABIERTO --> FILTRAR_TICKET
 
-state FiltrarTicket {
+state FILTRAR_TICKET {
 
   [*] -[#blue]-> verlistadoTickets
   state "Ver listado de tickets" as verlistadoTickets
