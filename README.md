@@ -4,8 +4,7 @@ TiCKET es una aplicación planteada para la gestión de errores obtenidas de la 
 
 # Documentación 📫
 
-- [Diagrama de Estado](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)
+## Diagramas UML
+-  [Diagramas De Modelo Del Dominio](/modelosUML/DiagramasModeloDominio/README.md)
 
-- [Diagrama de Actividades](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)
-
-- [Caso De Uso](https://github.com/MRSergio21/IdSw1-CORE_TiCKET/tree/develop/modelosUML)
+- [Caso De Uso](/modelosUML/CasosDeUsos/README.md)
