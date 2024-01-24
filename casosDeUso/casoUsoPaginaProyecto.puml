@@ -1,18 +1,19 @@
 @startuml
 
-title Caso de Uso Página Proyecto - FISC
+title Caso de Uso Pagina Proyecto - FISC
 
 left to right direction
 
-actor Usuario as user2
+actor Usuario as user
 
-rectangle "FISC Página Proyecto" {
-  usecase "Nueva simulación" as nueva
-  usecase "Abrir simulación" as abrir
-  usecase "Ver reporte" as reportes
+rectangle "FISC Pagina Proyecto" {
+    usecase "Abrir Simulacion" as abrirSimulacion
+    usecase "Nueva Simulacion" as nuevaSimulacion
+    usecase "Ver Reporte" as verReporte
 }
-  user2 --> nueva : ""
-  user2 --> abrir : ""
-  user2 --> reportes : ""
+
+user --> abrirSimulacion : ""
+user --> nuevaSimulacion : ""
+user --> verReporte : ""
 
 @enduml

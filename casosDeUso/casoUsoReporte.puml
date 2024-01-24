@@ -1,0 +1,21 @@
+@startuml
+
+title Caso de Uso Reporte - FISC
+
+left to right direction
+
+actor Usuario as user
+
+rectangle "FISC Reporte" {
+    usecase "Editar Simulacion" as editarSimulacion
+    usecase "Exportar Reporte" as exportarReporte
+    usecase "Imprimir Reporte" as imprimirReporte
+    usecase "Guardar" as guardar
+}
+
+user --> editarSimulacion : ""
+user --> exportarReporte : ""
+user --> imprimirReporte : ""
+user --> guardar : ""
+
+@enduml

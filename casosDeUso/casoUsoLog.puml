@@ -1,15 +1,15 @@
 @startuml
-title Caso de Uso LOG - FISC
+
+title Caso de Uso Log - FISC
 
 left to right direction
 
 actor Usuario as user
 
-
-rectangle "Log acceso cualquier pantalla" {
-    usecase "Imprimir" as log
+rectangle "FISC Log" {
+    usecase "Imprimir Log" as imprimirLog
 }
 
-user --> log
+user --> imprimirLog : ""
 
 @enduml
