@@ -4,7 +4,7 @@ skinparam noteBorderColor #c90000
 skinparam arrowColor #218c00
 skinparam stateBackgroundColor #faf4b4
 skinparam stateBorderColor #c90000
-skinparam linetype bold
+skinparam linetype polyline
 skinparam arrowThickness 1
 
 [*] --> Inicio
