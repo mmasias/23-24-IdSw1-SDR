@@ -1,0 +1,50 @@
+@startuml
+skin rose
+title Caso de Uso: Exportar Informe estadistico
+
+state DASHBOARD_ABIERTO
+
+
+DASHBOARD_ABIERTO --> ExportarInforme
+
+state ExportarInforme {
+
+  [*] -[#blue]-> elegirInforme
+  state "Seleccionar tipo de informe" as elegirInforme
+  elegirInforme -[#blue]-> visualizarInforme
+  state "Visualizar informe" as visualizarInforme
+  visualizarInforme -[#blue]-> confirmarExportacion
+  note on link: **El usuario** solicita exportar el informe
+  state "Confirmar exportacion del informe" as confirmarExportacion
+  confirmarExportacion -[#blue]-> [*]
+  note on link: **El usuario** solicita confirmar la exportacion
+  confirmarExportacion -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar la exportacion
+    
+}
+
+
+note left of elegirInforme
+  **El sistema** muestra: 
+  ° Informe por estado
+  ° Informe por responsable
+  ° Informe por prioridad
+  ° Informe por fecha
+end note
+
+note right of elegirInforme
+  **El usuario** introduce:
+  ° Tipo de informe
+  
+end note
+ 
+note left of visualizarInforme
+  **El sistema** muestra: 
+  ° Datos estadisticos
+  ° Graficos 
+  **El sistema** permite:
+  ° Exportar informe
+end note
+
+
+@enduml

@@ -1,0 +1,39 @@
+ @startuml
+skin rose
+title Caso de Uso: Filtrar Tickets
+
+state DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO --> FiltrarTickets
+
+state FiltrarTickets {
+
+  [*] -[#blue]-> verlistadoTickets
+  state "Ver listado de tickets" as verlistadoTickets
+  verlistadoTickets -[#blue]-> confirmarFiltrado
+  state "Aplicar filtro" as confirmarFiltrado
+  confirmarFiltrado -[#blue]-> listadoFiltrado
+  state "Ver listado de tickets filtrados" as listadoFiltrado
+  listadoFiltrado -[#blue]-> [*]
+    
+}
+
+note left of confirmarFiltrado
+  **El sistema permite**:
+  ° Filtrar por estado
+  ° Filtrar por titulo
+  ° Filtrar por prioridad
+  ° Filtrar por fecha
+  ° Filtrar por responsable
+end note
+
+note left of listadoFiltrado
+  **El sistema muestra**: 
+  ° Lista de tickets filtrados
+end note
+
+note right of confirmarFiltrado
+  **El usuario introduce**:
+  ° Propiedad de ticket para filtrar
+end note
+
+@enduml

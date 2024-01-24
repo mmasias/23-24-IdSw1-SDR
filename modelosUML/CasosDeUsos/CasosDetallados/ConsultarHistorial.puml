@@ -1,0 +1,27 @@
+@startuml
+skin rose
+title Caso de Uso: Consultar_Historial
+
+state DASHBOARD_ABIERTO
+
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: *El usuario solicita* filtrar por propiedad de ticket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: *El usuario solicita* ver un ticket
+VER_TICKET --> Consultar_Historial
+
+state Consultar_Historial {
+  [*] -[#blue]-> visualizarHistorial
+  note on link: *El usuario solicita* visualizar historial
+  state "Visualizar Historial" as visualizarHistorial
+  visualizarHistorial -[#blue]-> [*]
+}
+
+note right of visualizarHistorial
+  *El sistema muestra*
+  Todos los cambios que ha sufrido el ticket
+end note
+
+
+@enduml

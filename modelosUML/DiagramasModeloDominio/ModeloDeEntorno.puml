@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+title Modelo del entorno
+usuario --> core : > utiliza
+usuario -- ticket: > crea
+core .. ticket : > registra\nsus errores en
+
+@enduml
