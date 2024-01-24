@@ -63,3 +63,5 @@ A continuación, se muestra el caso de uso con sus diagramas detallados, que son
 | Imagen | Código |
 |--------|--------|
 |![Imagen](/imagenes/modelosUML/CDUExportarInforme.svg)|[Código UML](/modelosUML/CasosDeUsos/CasosDetallados/ExportarInformeEstadistico.puml)|
+
+[Regresar](/README.md)
