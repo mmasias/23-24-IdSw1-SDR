@@ -1,5 +1,6 @@
-## Diagramas de estados
-[Diagrama de Estados de Administrador](/Modelo_de_Dominio/Diagramas_de_Estado/Administrador/)
+# Diagramas de estados
+
+## [Diagrama de Estados de Administrador](/Modelo_de_Dominio/Diagramas_de_Estado/Administrador/)
 
 Partimos por crear un administrador. Una vez creado, necesita administrar la plataforma, para ello el administrador
 puede gestionar paquetes y servicios y consultar estadísticas.
@@ -10,7 +11,7 @@ puede gestionar paquetes y servicios y consultar estadísticas.
 </div>
 
 
-[Diagrama de Estados de Egresado](/Modelo_de_Dominio/Diagramas_de_Estado/Egresado/)
+## [Diagrama de Estados de Egresado](/Modelo_de_Dominio/Diagramas_de_Estado/Egresado/)
 
 Lo primero que hace el egresado, es registrarse en la plataforma, para ello se comprueban si cumple los requisitos,
 en caso afirmativo, el egresado rellena un formulario con sus datos y, una vez enviado dicho formulario, pasa a ser un usuario de la
@@ -25,7 +26,7 @@ El usuario tambien puede darse de baja si asi lo desea.
 </div>
 
 
-[Diagrama de Estados de Servicios](/Modelo_de_Dominio/Diagramas_de_Estado/Servicios/)
+## [Diagrama de Estados de Servicios](/Modelo_de_Dominio/Diagramas_de_Estado/Servicios/)
 
 
 Una vez creado un servicio, este pasa a estar activo. Estando activo, el servicio se puede añadir o quitar de un paquete. Si se 
