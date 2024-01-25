@@ -1,0 +1,26 @@
+@startuml Contexto
+title Contexto Administrador
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] --> INICIAR_SESIÓN
+INICIAR_SESIÓN --> INICIO : Iniciar Sesión
+
+INICIO -> EXPLORAR_SERVICIOS
+INICIO <- EXPLORAR_SERVICIOS
+
+EXPLORAR_SERVICIOS -> LISTAR_SERVICIOS_PAQUETES
+EXPLORAR_SERVICIOS <- LISTAR_SERVICIOS_PAQUETES
+EXPLORAR_SERVICIOS -> REALIZAR_PETICION
+EXPLORAR_SERVICIOS <- REALIZAR_PETICION
+
+INICIO --> [*] : Cerar Sesión
+EXPLORAR_SERVICIOS --> [*] : Cerar Sesión
+
+@enduml

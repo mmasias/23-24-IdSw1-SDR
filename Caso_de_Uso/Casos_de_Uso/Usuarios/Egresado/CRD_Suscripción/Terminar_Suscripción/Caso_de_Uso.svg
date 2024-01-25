@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="721px" preserveAspectRatio="none" style="width:737px;height:721px;background:#FFFFFF;" version="1.1" viewBox="0 0 737 721" width="737px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.0986" id="_title" style="stroke:none;stroke-width:1.0;" width="159" x="279" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="284" y="23.1318">Terminar Suscripción</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="340.5" y="44.0986"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="39" x="346" y="69.1812">INICIO</text><path d="M19.5,193.0986 L711.5,193.0986 A12.5,12.5 0 0 1 724,205.5986 L724,219.1973 L7,219.1973 L7,205.5986 A12.5,12.5 0 0 1 19.5,193.0986 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="522.0986" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="717" x="7" y="193.0986"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="724" y1="219.1973" y2="219.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="130" x="300.5" y="211.2305">TerminarSuscripción</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="172" y="287.1973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="4" x="195" y="312.2798"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="446.6973"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="471.7798"> </text><g id="elem_3"><polygon fill="#F1F1F1" points="188,576.1973,200,588.1973,188,600.1973,176,588.1973,188,576.1973" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="197" cy="240.1973" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="188" cy="695.1973" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="188.5" cy="695.6973" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[732c1cffbf517d10194c4bfe9f25b361]
+link *start*TerminarSuscripción to 1--><g id="link_*start*TerminarSuscripción_1"><path d="M197,250.2373 C197,258.3873 197,270.7573 197,281.7973 " fill="none" id="*start*TerminarSuscripción-to-1" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="197,287.0873,201,278.0873,197,282.0873,193,278.0873,197,287.0873" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[0ba0d8a0fd0e641c23f69743a446dfe6]
+link 1 to 2--><g id="link_1_2"><path d="M171.92,315.0673 C132.88,325.7673 62,345.1973 62,345.1973 C62,345.1973 52.85,406.4573 47.6,441.6173 " fill="none" id="1-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="46.85,446.6073,52.1432,438.3017,47.5931,441.6628,44.232,437.1127,46.85,446.6073" style="stroke:#008000;stroke-width:1.0;"/><path d="M67,350.1973 L67,419.1973 L330,419.1973 L330,360.1973 L320,350.1973 L67,350.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M320,350.1973 L320,360.1973 L330,360.1973 L320,350.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="100" x="73" y="367.3911">Sistema solicita</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="242" x="73" y="382.3398">Confirmar la terminación de la suscripción</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="227" x="73" y="397.2886">a un servicio o paquete de servicios, se</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="198" x="73" y="412.2373">informa de la fecha de terminación</text></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M36.56,486.9873 C32.38,497.8273 28,509.1973 28,509.1973 C28,509.1973 28,558.1973 28,558.1973 C28,558.1973 133.4,577.2973 173.11,584.4973 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="178.47,585.4673,170.3222,579.9343,173.5493,584.5804,168.9032,587.8075,178.47,585.4673" style="stroke:#008000;stroke-width:1.0;"/><path d="M33,514.1973 L33,553.1973 L330,553.1973 L330,524.1973 L320,514.1973 L33,514.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M320,514.1973 L320,524.1973 L330,524.1973 L320,514.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="112" x="39" y="531.3911">Usuario introduce</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="276" x="39" y="546.3398">Confimación de la terminación de la suscripción</text></g><!--MD5=[4d444cbccd26e31ce172b5718b51e4cd]
+link 3 to 1--><g id="link_3_1"><path d="M197.2,585.3873 C229.38,579.0373 335,558.1973 335,558.1973 C335,558.1973 335,345.1973 335,345.1973 C335,345.1973 268.28,327.3073 227.62,316.4073 " fill="none" id="3-to-1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="222.31,314.9873,229.9777,321.1683,227.1416,316.2738,232.0362,313.4377,222.31,314.9873" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M340,447.1973 L340,486.1973 L715,486.1973 L715,457.1973 L705,447.1973 L340,447.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M705,447.1973 L705,457.1973 L715,457.1973 L705,447.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="106" x="346" y="464.3911">Sistema muestra</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="354" x="346" y="479.3398">Mensaje de error en caso de no poder terminar la suscripción</text></g><!--MD5=[24648aa2c05fff2ef7abb44279d351dd]
+link 3 to *end*TerminarSuscripción--><g id="link_3_*end*TerminarSuscripción"><path d="M188,600.4373 C188,619.6673 188,658.8573 188,679.9673 " fill="none" id="3-to-*end*TerminarSuscripción" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="188,685.1673,192,676.1673,188,680.1673,184,676.1673,188,685.1673" style="stroke:#008000;stroke-width:1.0;"/><path d="M193,623.1973 L193,662.1973 L358,662.1973 L358,633.1973 L348,623.1973 L193,623.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M348,623.1973 L348,633.1973 L358,633.1973 L348,623.1973 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="106" x="199" y="640.3911">Sistema muestra</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="144" x="199" y="655.3398">Mensaje de confirmación</text></g><!--MD5=[98884263a900060f3c0432658acd279a]
+link INICIO to TerminarSuscripción--><g id="link_INICIO_TerminarSuscripción"><path d="M365.5,84.3386 C365.5,106.0586 365.5,144.0986 365.5,187.7386 " fill="none" id="INICIO-to-TerminarSuscripción" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="365.5,192.8086,369.5,183.8086,365.5,187.8086,361.5,183.8086,365.5,192.8086" style="stroke:#008000;stroke-width:1.0;"/><path d="M370.5,119.0986 L370.5,158.0986 L536.5,158.0986 L536.5,129.0986 L526.5,119.0986 L370.5,119.0986 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M526.5,119.0986 L526.5,129.0986 L536.5,129.0986 L526.5,119.0986 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="97" x="376.5" y="136.2925">Usuario solicita</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="145" x="376.5" y="151.2412">Terminar una suscripción</text></g><!--MD5=[af49f9a49154e6aee0ab4e337712e1c2]
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Terminar Suscripción
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+INICIO -down-> TerminarSuscripción
+note on link
+<b>Usuario solicita</b>
+Terminar una suscripción
+end note
+
+state TerminarSuscripción{
+  state 1 as " "
+  state 2 as " "
+  state 3 <<choice>>
+  [*] - -> 1
+  1 - -> 2
+  note on link
+  <b>Sistema solicita</b>
+  Confirmar la terminación de la suscripción
+  a un servicio o paquete de servicios, se
+  informa de la fecha de terminación
+  end note
+  2 - -> 3
+  note on link
+  <b>Usuario introduce</b>
+  Confimación de la terminación de la suscripción
+  end note
+  3 -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en caso de no poder terminar la suscripción
+  end note
+  3 - -> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de confirmación
+  end note
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

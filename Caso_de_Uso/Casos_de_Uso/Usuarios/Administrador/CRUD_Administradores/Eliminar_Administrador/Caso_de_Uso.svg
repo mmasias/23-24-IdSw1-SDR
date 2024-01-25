@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="709px" preserveAspectRatio="none" style="width:530px;height:709px;background:#FFFFFF;" version="1.1" viewBox="0 0 530 709" width="530px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="168" x="171" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="158" x="176" y="24.5332">Eliminar Administrador</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="191.5" y="45.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="196.5" y="71.3379">ADMINISTRADORES</text><path d="M19.5,197.6094 L504.5,197.6094 A12.5,12.5 0 0 1 517,210.1094 L517,225.2188 L7,225.2188 L7,210.1094 A12.5,12.5 0 0 1 19.5,197.6094 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="505.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="510" x="7" y="197.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="517" y1="225.2188" y2="225.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="193.5" y="217.1426">EliminarAdministrador</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="117" y="293.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="140" y="318.9473"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="427.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="452.9473"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="139,561.2188,151,573.2188,139,585.2188,127,573.2188,139,561.2188" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="142" cy="246.2188" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="139" cy="683.2188" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="139.5" cy="683.7188" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[0483152ead3095bcd26c34edd6193d37]
+link *start*EliminarAdministrador to 2--><g id="link_*start*EliminarAdministrador_2"><path d="M142,256.2588 C142,264.4088 142,276.7788 142,287.8188 " fill="none" id="*start*EliminarAdministrador-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="142,293.1088,146,284.1088,142,288.1088,138,284.1088,142,293.1088" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M116.86,324.3288 C89.62,335.2888 50,351.2188 50,351.2188 C50,351.2188 47.31,393.7688 45.53,421.9188 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="45.21,426.9988,49.7915,418.2804,45.5379,422.0095,41.8088,417.7558,45.21,426.9988" style="stroke:#008000;stroke-width:1.0;"/><path d="M55,356.2188 L55,398.2188 L220,398.2188 L220,366.2188 L210,356.2188 L55,356.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M210,356.2188 L210,366.2188 L220,366.2188 L210,356.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="61" y="374.7139">Sistema Permite</text><ellipse cx="66.5" cy="386.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="131" x="74" y="391.0654">Eliminar Administrador</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M42.66,467.4588 C41.86,478.9088 41,491.2188 41,491.2188 C41,491.2188 41,543.2188 41,543.2188 C41,543.2188 98.41,560.2088 125.35,568.1788 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="130.3,569.6488,122.8149,563.2477,125.5077,568.2225,120.5329,570.9153,130.3,569.6488" style="stroke:#008000;stroke-width:1.0;"/><path d="M46,496.2188 L46,538.2188 L220,538.2188 L220,506.2188 L210,496.2188 L46,496.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M210,496.2188 L210,506.2188 L220,506.2188 L210,496.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="153" x="52" y="514.7139">Administrador Introduce</text><ellipse cx="57.5" cy="526.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="65" y="531.0654">Email del Administrador</text></g><!--MD5=[2b52753d8ab4002b1bbdccfd91a30dde]
+link 4 to *end*EliminarAdministrador--><g id="link_4_*end*EliminarAdministrador"><path d="M139,585.3688 C139,605.1488 139,646.3088 139,668.0587 " fill="none" id="4-to-*end*EliminarAdministrador" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="139,673.1388,143,664.1388,139,668.1388,135,664.1388,139,673.1388" style="stroke:#008000;stroke-width:1.0;"/><path d="M144,608.2188 L144,650.2188 L324,650.2188 L324,618.2188 L314,608.2188 L144,608.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M314,608.2188 L314,618.2188 L324,618.2188 L314,608.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="150" y="626.7139">Sistema Muestra</text><ellipse cx="155.5" cy="638.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="163" y="643.0654">Mensaje de Confirmación</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M147.25,569.4388 C168.77,562.1788 225,543.2188 225,543.2188 C225,543.2188 225,351.2188 225,351.2188 C225,351.2188 195.79,338.1988 172.02,327.5988 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="167.35,325.5188,173.954,332.8254,171.9202,327.5468,177.1989,325.513,167.35,325.5188" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M230,426.2188 L230,468.2188 L508,468.2188 L508,436.2188 L498,426.2188 L230,426.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M498,426.2188 L498,436.2188 L508,436.2188 L498,426.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="236" y="444.7139">Sistema Muestra</text><ellipse cx="241.5" cy="456.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="249" y="461.0654">Mensaje de error al eliminar Administrador</text></g><!--MD5=[02eaa9ca8b054fb37c8d16f5a9b644e9]
+link startState to EliminarAdministrador--><g id="link_startState_EliminarAdministrador"><path d="M262,85.8694 C262,108.0694 262,147.2994 262,192.0094 " fill="none" id="startState-to-EliminarAdministrador" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="262,197.1994,266,188.1994,262,192.1994,258,188.1994,262,197.1994" style="stroke:#008000;stroke-width:1.0;"/><path d="M267,120.6094 L267,162.6094 L432,162.6094 L432,130.6094 L422,120.6094 L267,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M422,120.6094 L422,130.6094 L432,130.6094 L422,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="141" x="273" y="139.1045">Administrador Solicita</text><ellipse cx="278.5" cy="150.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="131" x="286" y="155.4561">Eliminar Administrador</text></g><!--MD5=[91c8431f003f566764a2c79f933fdd59]
+@startuml
+
+title Eliminar Administrador
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "ADMINISTRADORES"
+
+startState - -> EliminarAdministrador
+note on link
+    <b>Administrador Solicita</b>
+    * Eliminar Administrador
+end note
+
+state EliminarAdministrador {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Eliminar Administrador
+end note
+
+3 -down-> 4
+note on link
+<b>Administrador Introduce</b>
+* Email del Administrador
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de Confirmación
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error al eliminar Administrador
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

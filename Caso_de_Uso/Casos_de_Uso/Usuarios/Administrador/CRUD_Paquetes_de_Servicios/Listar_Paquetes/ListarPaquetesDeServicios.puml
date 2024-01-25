@@ -1,0 +1,42 @@
+@startuml
+title Listar Paquetes de Servicios
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "GESTIÓN_PAQUETES"
+
+startState --> ListarPaquetesDeServicios
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Paquetes de Servicios
+end note
+
+state ListarPaquetesDeServicios {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Paquetes de Servicios
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar paquetes de Servicios
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Paquetes de Servicios
+    end note
+
+
+}
+@enduml

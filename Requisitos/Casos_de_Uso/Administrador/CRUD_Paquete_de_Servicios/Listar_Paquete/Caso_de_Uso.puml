@@ -1,9 +1,0 @@
-@startuml Read_Services_Package
-
-title Listar Paquete de Servicios
-
-actor Administrador
-
-Administrador --> (Listar Paquete)
-
-@enduml

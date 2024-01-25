@@ -1,0 +1,29 @@
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Eliminar Suscripciones
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+DIA_DE_FACTURACIÓN -down-> EliminarSuscripciones
+note on link
+<b>Tiempo solicita</b>
+Eliminar suscripciones terminadas
+end note
+
+state EliminarSuscripciones{
+[*] --> [*]
+  note on link
+  <b>Sistema permite</b>
+  Eliminar las suscripciones terminadas
+  de los egresados
+  end note
+}
+
+@enduml

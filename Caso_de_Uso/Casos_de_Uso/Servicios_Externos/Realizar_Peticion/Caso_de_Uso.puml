@@ -1,0 +1,58 @@
+@startuml
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+title Realizar Petición
+
+state startState as "INITIAL"
+
+startState --> RealizarPetición
+note on link
+    <b>Usuario Solicita</b>
+    Interactuar con un servicio externo
+end note
+
+state RealizarPetición {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Identificar el tipo de Usuario
+* Datos de la Petición
+<b>Sistema Permite</b>
+* Interactuar con el servicio externo
+end note
+
+3 -down-> 4
+note on link
+<b>Usuario introduce</b>
+* Identificar el tipo de Usuario
+* Datos de la Petición
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Respuesta del Servicio Externo
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Error al realizar la petición
+end note
+
+}
+
+@enduml

@@ -1,0 +1,55 @@
+@startuml
+
+title Eliminar Egresado
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "GESTIÓN_EGRESADOS"
+
+startState --> EliminarEgresado
+note on link
+    <b>Administrador Solicita</b>
+    * Eliminar Egresado
+end note
+
+state EliminarEgresado {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Eliminar Egresado
+end note
+
+3 -down-> 4
+note on link
+<b>Administrador Introduce</b>
+* Email del egresado
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de Confirmación
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error al eliminar egresado
+end note
+
+}
+
+@enduml

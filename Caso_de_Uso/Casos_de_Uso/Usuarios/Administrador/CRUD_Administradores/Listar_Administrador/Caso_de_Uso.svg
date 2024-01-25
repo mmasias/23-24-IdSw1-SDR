@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="504px" preserveAspectRatio="none" style="width:537px;height:504px;background:#FFFFFF;" version="1.1" viewBox="0 0 537 504" width="537px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="168" x="174.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="158" x="179.5" y="24.5332">Listar Administradores</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="195" y="45.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="200" y="71.3379">ADMINISTRADORES</text><path d="M19.5,197.6094 L511.5,197.6094 A12.5,12.5 0 0 1 524,210.1094 L524,225.2188 L7,225.2188 L7,210.1094 A12.5,12.5 0 0 1 19.5,197.6094 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="300.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="517" x="7" y="197.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="524" y1="225.2188" y2="225.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="197" y="217.1426">ListarAdministradores</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="334.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="359.9473"> </text><ellipse cx="188" cy="246.2188" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="187" cy="478.2188" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="187.5" cy="478.7188" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[e341c12daea76a0b99f36065a65d2f1b]
+link *start*ListarAdministradores to *end*ListarAdministradores--><g id="link_*start*ListarAdministradores_*end*ListarAdministradores"><path d="M197.92,249.2488 C228.62,255.5288 320,274.2188 320,274.2188 C320,274.2188 320,450.2188 320,450.2188 C320,450.2188 236.26,467.2188 201.67,474.2388 " fill="none" id="*start*ListarAdministradores-to-*end*ListarAdministradores" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="196.57,475.2788,206.1821,477.4253,201.4718,474.2927,204.6044,469.5824,196.57,475.2788" style="stroke:#008000;stroke-width:1.0;"/><path d="M325,333.2188 L325,375.2188 L515,375.2188 L515,343.2188 L505,333.2188 L325,333.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M505,333.2188 L505,343.2188 L515,343.2188 L505,333.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="331" y="351.7139">Sistema Muestra</text><ellipse cx="336.5" cy="363.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="344" y="368.0654">Administradores en Alumni</text></g><!--MD5=[3a939f8fa06ea20bda37e6a81279c8f9]
+link *start*ListarAdministradores to 2--><g id="link_*start*ListarAdministradores_2"><path d="M178.43,249.1588 C147.94,255.3488 55,274.2188 55,274.2188 C55,274.2188 50.61,305.7587 47.37,328.9888 " fill="none" id="*start*ListarAdministradores-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="46.66,334.0988,51.8791,325.7465,47.3591,329.1479,43.9577,324.6279,46.66,334.0988" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M60,279.2188 L60,305.2188 L315,305.2188 L315,289.2188 L305,279.2188 L60,279.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M305,279.2188 L305,289.2188 L315,289.2188 L305,279.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="66" y="297.7139">Error al listar Administradores en Alumni</text></g><!--MD5=[42dd75b5ba7828bcb7a4aeefa979dad7]
+link 2 to *end*ListarAdministradores--><g id="link_2_*end*ListarAdministradores"><path d="M43.11,374.4588 C42.57,385.9088 42,398.2188 42,398.2188 C42,398.2188 42,450.2188 42,450.2188 C42,450.2188 134.91,467.5188 171.99,474.4188 " fill="none" id="2-to-*end*ListarAdministradores" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="177.03,475.3588,168.9135,469.7801,172.1143,474.4442,167.4502,477.6451,177.03,475.3588" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M47,403.2188 L47,445.2188 L315,445.2188 L315,413.2188 L305,403.2188 L47,403.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M305,403.2188 L305,413.2188 L315,413.2188 L305,403.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="53" y="421.7139">Sistema Muestra</text><ellipse cx="58.5" cy="433.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="66" y="438.0654">Error al listar Administradores en Alumni</text></g><!--MD5=[6c01a7d1cc6fffb2d17bbad59680e47e]
+link startState to ListarAdministradores--><g id="link_startState_ListarAdministradores"><path d="M265.5,85.8894 C265.5,108.8994 265.5,149.6594 265.5,192.2194 " fill="none" id="startState-to-ListarAdministradores" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="265.5,197.4194,269.5,188.4194,265.5,192.4194,261.5,188.4194,265.5,197.4194" style="stroke:#008000;stroke-width:1.0;"/><path d="M270.5,120.6094 L270.5,162.6094 L496.5,162.6094 L496.5,130.6094 L486.5,120.6094 L270.5,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M486.5,120.6094 L486.5,130.6094 L496.5,130.6094 L486.5,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="141" x="276.5" y="139.1045">Administrador Solicita</text><ellipse cx="282" cy="150.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="289.5" y="155.4561">Listar Administradores en Alumni</text></g><!--MD5=[60210bbe3131014a75d8eb1b421a4fd0]
+@startuml
+
+title Listar Administradores
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "ADMINISTRADORES"
+
+startState - -> ListarAdministradores 
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Administradores en Alumni
+end note
+
+state ListarAdministradores {
+    state 2 as " "
+    [*] - -> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Administradores en Alumni
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar Administradores en Alumni
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Administradores en Alumni
+    end note
+
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="391px" preserveAspectRatio="none" style="width:716px;height:391px;background:#FFFFFF;" version="1.1" viewBox="0 0 716 391" width="716px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="179" x="261.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="266.75" y="24.9659">Contexto Administrador</text><ellipse cx="67" cy="56.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="7" y="127.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="12" y="152.4999">INICIAR_SESIÓN</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="39" y="246.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="44" y="271.4999">INICIO</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="130" y="246.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="135" y="271.4999">EXPLORAR_SERVICIOS</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="209" x="501.5" y="246.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="506.5" y="271.4999">LISTAR_SERVICIOS_PAQUETES</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="321.5" y="246.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="326.5" y="271.4999">REALIZAR_PETICION</text><ellipse cx="137" cy="375.0679" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="137.5" cy="375.5679" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[fffa5c9a6c2a3d9bbcf62492fefaaec1]
+link *start to INICIAR_SESIÓN--><g id="link_*start_INICIAR_SESIÓN"><path d="M67,66.2579 C67,78.9179 67,102.2079 67,120.3779 " fill="none" id="*start-to-INICIAR_SESIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="67,125.2979,71,116.2979,67,120.2979,63,116.2979,67,125.2979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[66837f7cee128dc6ca7363ed13e0752f]
+link INICIAR_SESIÓN to INICIO--><g id="link_INICIAR_SESIÓN_INICIO"><path d="M67,167.3879 C67,187.0379 67,217.5879 67,239.2879 " fill="none" id="INICIAR_SESIÓN-to-INICIO" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="67,244.2079,71,235.2079,67,239.2079,63,235.2079,67,244.2079" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="68" y="211.9649">Iniciar Sesión</text></g><!--MD5=[cca3090e76786349203404ad2fa77f79]
+link INICIO to EXPLORAR_SERVICIOS--><g id="link_INICIO_EXPLORAR_SERVICIOS"><path d="M95.42,278.1679 C105.32,282.3779 114,286.0679 114,286.0679 C114,286.0679 117.79,286.0679 123.22,286.0679 " fill="none" id="INICIO-to-EXPLORAR_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.14,286.0679,119.14,282.0679,123.14,286.0679,119.14,290.0679,128.14,286.0679" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[847b408c021b00de83bcc586619bdd73]
+reverse link INICIO to EXPLORAR_SERVICIOS--><g id="link_INICIO_EXPLORAR_SERVICIOS"><path d="M101.24,251.4979 C108.49,248.4079 114,246.0679 114,246.0679 C114,246.0679 121.03,246.0679 129.65,246.0679 " fill="none" id="INICIO-backto-EXPLORAR_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="96.82,253.3779,106.6676,253.5351,101.4209,251.4204,103.5356,246.1737,96.82,253.3779" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[587b4a2cc691686f37c51a60e6e06e4b]
+link EXPLORAR_SERVICIOS to LISTAR_SERVICIOS_PAQUETES--><g id="link_EXPLORAR_SERVICIOS_LISTAR_SERVICIOS_PAQUETES"><path d="M255.54,245.6079 C284.38,233.1979 315.67,219.7379 315.67,219.7379 C315.67,219.7379 472.33,219.7379 472.33,219.7379 C472.33,219.7379 507.04,231.7679 541.09,243.5679 " fill="none" id="EXPLORAR_SERVICIOS-to-LISTAR_SERVICIOS_PAQUETES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="545.55,245.1179,538.3494,238.3985,540.824,243.4853,535.7372,245.96,545.55,245.1179" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6f9c0a608dd1f796110e1368c11b6afe]
+reverse link EXPLORAR_SERVICIOS to LISTAR_SERVICIOS_PAQUETES--><g id="link_EXPLORAR_SERVICIOS_LISTAR_SERVICIOS_PAQUETES"><path d="M247.04,242.2879 C281.85,221.0979 327.33,193.3979 327.33,193.3979 C327.33,193.3979 460.67,193.3979 460.67,193.3979 C460.67,193.3979 522.14,224.1379 565.13,245.6279 " fill="none" id="EXPLORAR_SERVICIOS-backto-LISTAR_SERVICIOS_PAQUETES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="242.85,244.8479,252.6176,243.5852,247.121,242.2482,248.458,236.7516,242.85,244.8479" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fbc4e3e5ec8280d261d86e32d5633505]
+link EXPLORAR_SERVICIOS to REALIZAR_PETICION--><g id="link_EXPLORAR_SERVICIOS_REALIZAR_PETICION"><path d="M286.29,286.0679 C295.1,286.0679 305.96,286.0679 314.89,286.0679 " fill="none" id="EXPLORAR_SERVICIOS-to-REALIZAR_PETICION" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="319.76,286.0679,310.76,282.0679,314.76,286.0679,310.76,290.0679,319.76,286.0679" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa42376ea5581f55321beff3a99dfdc9]
+reverse link EXPLORAR_SERVICIOS to REALIZAR_PETICION--><g id="link_EXPLORAR_SERVICIOS_REALIZAR_PETICION"><path d="M292.8,246.0679 C302.54,246.0679 313.44,246.0679 321.28,246.0679 " fill="none" id="EXPLORAR_SERVICIOS-backto-REALIZAR_PETICION" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="287.8,246.0679,296.8,250.0679,292.8,246.0679,296.8,242.0679,287.8,246.0679" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0876ba8a88d8bbcf732e506fae106d5c]
+link INICIO to *end--><g id="link_INICIO_*end"><path d="M71.26,286.3679 C75.69,306.4779 82,335.0679 82,335.0679 C82,335.0679 108.02,353.5179 124.27,365.0379 " fill="none" id="INICIO-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.12,367.7679,123.0763,359.3085,124.036,364.8834,118.4611,365.843,128.12,367.7679" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="83" y="330.9649">Cerar Sesión</text></g><!--MD5=[c6e8d97373a6e0272a3c575f2d7d2fa1]
+link EXPLORAR_SERVICIOS to *end--><g id="link_EXPLORAR_SERVICIOS_*end"><path d="M195.31,286.1979 C180.99,307.7679 158.1,342.2679 145.69,360.9779 " fill="none" id="EXPLORAR_SERVICIOS-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="143.03,364.9879,151.3422,359.7051,145.7969,360.8233,144.6787,355.278,143.03,364.9879" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="176" y="330.9649">Cerar Sesión</text></g><!--MD5=[ffbc14cca5341d48464647f3335bcc68]
+@startuml Contexto
+title Contexto Administrador
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] - -> INICIAR_SESIÓN
+INICIAR_SESIÓN - -> INICIO : Iniciar Sesión
+
+INICIO -> EXPLORAR_SERVICIOS
+INICIO <- EXPLORAR_SERVICIOS
+
+EXPLORAR_SERVICIOS -> LISTAR_SERVICIOS_PAQUETES
+EXPLORAR_SERVICIOS <- LISTAR_SERVICIOS_PAQUETES
+EXPLORAR_SERVICIOS -> REALIZAR_PETICION
+EXPLORAR_SERVICIOS <- REALIZAR_PETICION
+
+INICIO - -> [*] : Cerar Sesión
+EXPLORAR_SERVICIOS - -> [*] : Cerar Sesión
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

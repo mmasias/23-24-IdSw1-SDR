@@ -1,0 +1,44 @@
+@startuml
+
+title Listar Servicios
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "GESTIÓN_SERVICIOS"
+
+startState --> ListarServicios
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Servicios
+end note
+
+state ListarServicios {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Servicios en Alumni
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar Servicios en Alumni
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Servicios en Alumni
+    end note
+
+
+}
+
+@enduml

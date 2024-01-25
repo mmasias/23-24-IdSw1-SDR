@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="504px" preserveAspectRatio="none" style="width:473px;height:504px;background:#FFFFFF;" version="1.1" viewBox="0 0 473 504" width="473px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="128" x="162.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="118" x="167.5" y="24.5332">Listar Egresados</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="150.5" y="45.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="155.5" y="71.3379">GESTIÓN_EGRESADOS</text><path d="M19.5,197.6094 L447.5,197.6094 A12.5,12.5 0 0 1 460,210.1094 L460,225.2188 L7,225.2188 L7,210.1094 A12.5,12.5 0 0 1 19.5,197.6094 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="300.6094" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="453" x="7" y="197.6094"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="460" y1="225.2188" y2="225.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="182" y="217.1426">ListarEgresados</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="334.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="359.9473"> </text><ellipse cx="172" cy="246.2188" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="171" cy="478.2188" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="171.5" cy="478.7188" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[72234770a483799a4b1225a56b22039d]
+link *start*ListarEgresados to *end*ListarEgresados--><g id="link_*start*ListarEgresados_*end*ListarEgresados"><path d="M181.49,249.4288 C209.2,255.8788 288,274.2188 288,274.2188 C288,274.2188 288,450.2188 288,450.2188 C288,450.2188 216.97,466.6088 185.6,473.8488 " fill="none" id="*start*ListarEgresados-to-*end*ListarEgresados" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="180.57,475.0087,190.2406,476.8743,185.441,473.8803,188.435,469.0807,180.57,475.0087" style="stroke:#008000;stroke-width:1.0;"/><path d="M293,333.2188 L293,375.2188 L451,375.2188 L451,343.2188 L441,333.2188 L293,333.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M441,333.2188 L441,343.2188 L451,343.2188 L441,333.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="299" y="351.7139">Sistema Muestra</text><ellipse cx="304.5" cy="363.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="312" y="368.0654">Egresados en Alumni</text></g><!--MD5=[39ba1664b5852e4305aa27931ca238fd]
+link *start*ListarEgresados to 2--><g id="link_*start*ListarEgresados_2"><path d="M162.43,249.4288 C134.48,255.8788 55,274.2188 55,274.2188 C55,274.2188 50.61,305.7587 47.37,328.9888 " fill="none" id="*start*ListarEgresados-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="46.66,334.0988,51.8791,325.7465,47.3591,329.1479,43.9577,324.6279,46.66,334.0988" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M60,279.2188 L60,305.2188 L283,305.2188 L283,289.2188 L273,279.2188 L60,279.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M273,279.2188 L273,289.2188 L283,289.2188 L273,279.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="66" y="297.7139">Error al listar Egresados en Alumni</text></g><!--MD5=[39f08986d8cc03ff41f37d0af69248bf]
+link 2 to *end*ListarEgresados--><g id="link_2_*end*ListarEgresados"><path d="M43.11,374.4588 C42.57,385.9088 42,398.2188 42,398.2188 C42,398.2188 42,450.2188 42,450.2188 C42,450.2188 122.46,467.0588 156.29,474.1387 " fill="none" id="2-to-*end*ListarEgresados" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="161.3,475.1888,153.3137,469.4251,156.4066,474.1616,151.6702,477.2545,161.3,475.1888" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M47,403.2188 L47,445.2188 L283,445.2188 L283,413.2188 L273,403.2188 L47,403.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M273,403.2188 L273,413.2188 L283,413.2188 L273,403.2188 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="105" x="53" y="421.7139">Sistema Muestra</text><ellipse cx="58.5" cy="433.4219" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="202" x="66" y="438.0654">Error al listar Egresados en Alumni</text></g><!--MD5=[41bdef23e6d285ba0ec3546c9dce1fcb]
+link startState to ListarEgresados--><g id="link_startState_ListarEgresados"><path d="M233.5,85.8894 C233.5,108.8994 233.5,149.6594 233.5,192.2194 " fill="none" id="startState-to-ListarEgresados" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="233.5,197.4194,237.5,188.4194,233.5,192.4194,229.5,188.4194,233.5,197.4194" style="stroke:#008000;stroke-width:1.0;"/><path d="M238.5,120.6094 L238.5,162.6094 L432.5,162.6094 L432.5,130.6094 L422.5,120.6094 L238.5,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M422.5,120.6094 L422.5,130.6094 L432.5,130.6094 L422.5,120.6094 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="141" x="244.5" y="139.1045">Administrador Solicita</text><ellipse cx="250" cy="150.8125" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="257.5" y="155.4561">Listar Egresados en Alumni</text></g><!--MD5=[609d06f7e9be7bda2c4b7b87aae18730]
+@startuml
+
+title Listar Egresados
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "GESTIÓN_EGRESADOS"
+
+startState - -> ListarEgresados
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Egresados en Alumni
+end note
+
+state ListarEgresados {
+    state 2 as " "
+    [*] - -> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Egresados en Alumni
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar Egresados en Alumni
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Egresados en Alumni
+    end note
+
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>

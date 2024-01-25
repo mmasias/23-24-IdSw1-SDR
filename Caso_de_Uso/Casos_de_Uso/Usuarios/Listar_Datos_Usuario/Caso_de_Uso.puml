@@ -1,0 +1,44 @@
+@startuml
+
+title Listar datos del Usuario
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "CONFIGURCION"
+
+startState --> ListarDatosUsuario
+note on link
+    <b>Usuario Solicita</b>
+    * Listar datos del Usuario
+end note
+
+state ListarDatosUsuario {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Datos del Usuario
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar datos del Usuario
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar datos del Usuario
+    end note
+
+
+}
+
+@enduml
