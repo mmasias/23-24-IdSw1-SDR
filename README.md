@@ -22,29 +22,21 @@ Es una plataforma que se encarga de conectar a estudiantes egresados de la red U
   - [Diagramas de Estados](/Modelo_de_Dominio/Diagramas_de_Estado/)
   - [Diagaramas de Objetos](/Modelo_de_Dominio/Diagramas_de_Objetos/)
 
-## Casos de Uso y Actores
+## Casos de Uso
 
-  Aquí se encuentran los casos de uso detallado mediantes diagramas de estados. Estos estan repartidos entre los actores del sistema. Los casos de uso y actores se encuentran descritos en los siguientes diagramas:
+  Aquí se encuentran los casos de uso detallado mediantes diagramas de estados. Estos estan repartidos entre los actores del sistema. Los casos de uso se encuentran estructurados por actores, de tal forma que solo se muestran los casos de uso que le corresponden a cada actor. A su vez, cada caso de uso se encuentra relacionado con los prototipos que lo implementan. 
+  
+  Todo esto se encuentra descrito en los siguientes diagramas:
 
   - [Diagramas de Actores](/Caso_de_Uso/Actores/)
   - [Diagramas de Casos de Uso](/Caso_de_Uso/Casos_de_Uso/)
-
-## Estructura del Proyecto y Prototipos
-
-  Los casos de uso se encuentran estructurados por actores, de tal forma que solo se muestran los casos de uso que le corresponden a cada actor. A su vez, cada caso de uso se encuentra relacionado con los prototipos que lo implementan. Tanto la estructura, como los prototipos se encuentran en los siguientes enlaces:
-
   - [Estructura del Proyecto](/Caso_de_Uso/Estructura/)
   - [Diagrama de Contexto](/Caso_de_Uso/Contexto/)
   - [Prototipos](/Caso_de_Uso/Prototipos/)
 
 
- ## Integrantes
+ ## Glosario
+  En este apartado se encuentra el glosario de términos que se han utilizado en el proyecto. Estos se encuentran descritos en el siguiente enlace:
 
-- Jesús Ramos
-- Enrique Torralbo
-- David Cuesta
-- Juan Toca
-- Diego Sainz
-- Pablo Ruiz
-- Adrian Ortiz
+  - [Glosario](/Glosario/)
 
