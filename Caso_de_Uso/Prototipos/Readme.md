@@ -3,12 +3,16 @@
 - [Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores)
   
     -[Crear Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Crear_Administrador.png)
+  
     -[Editar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Editar_Administrador.png)
+  
     -[Eliminar Administrador](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Eliminar_Administrador.png)
+  
     -[Listar Administradores](/Caso_de_Uso/Prototipos/Pantallas/Administradores/Listar_Administradores.png)
 - [Cerrar Sesión](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion)
   
     -[Cerrar Sesión de Administrador](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión%20_Administrador.png)
+  
     -[Cerrar Sesión de Egresado](/Caso_de_Uso/Prototipos/Pantallas/Cerrar_Sesion/Cerrar_Sesión_Egresado.png)
 - [Configuración de Cuenta](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta)
     - [Cambiar Contraseña de Administrador](/Caso_de_Uso/Prototipos/Pantallas/Configuracion_Cuenta/Cambiar_Contraseña_Admin.png)
