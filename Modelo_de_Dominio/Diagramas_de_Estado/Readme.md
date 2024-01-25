@@ -36,4 +36,3 @@ quiere dar de baja un servicio se puede puede poner inactivo. Estando inactivo e
 <div align="center">
   <image src="./Servicios/Diagrama_de_Estados_Servicios.svg" align="center">
 </div>
-
