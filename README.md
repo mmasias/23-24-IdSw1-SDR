@@ -9,6 +9,9 @@ TiCKET es una aplicación planteada para la gestión de errores obtenidas de la 
 
 - [Caso De Uso](/modelosUML/CasosDeUsos/README.md)
 
+## Prototipo de interfaz de usuario
+- [Imagenes y flujo de la interfaz de usuario](/interfaces/README.md)
+
 ## Glosario utilizado en el entorno de Ticket 📑
 
 ### Palabras Clave
