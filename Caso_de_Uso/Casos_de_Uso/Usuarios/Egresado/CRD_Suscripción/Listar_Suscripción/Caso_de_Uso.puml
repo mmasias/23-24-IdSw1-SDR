@@ -11,7 +11,7 @@ title Listar Servicios / Paquetes de servicios
 skinparam defaultFontName Arial
 top to bottom direction
 
-DASHBOARD_ABIERTO -down-> ListarServiciosYPaquetes
+EXPLORAR_SERVICIOS -down-> ListarServiciosYPaquetes
 note on link
 <b>Usuario solicita</b>
 Listar servicios y/o paquetes de servicios
