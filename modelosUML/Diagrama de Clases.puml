@@ -37,16 +37,16 @@ class AsignacionAula {
     - aula
 }
 
-GestorDeHorarios "1" --> "*" Docente : "recibe >"
-GestorDeHorarios "1" --> "*" Asignatura : "recibe >"
-GestorDeHorarios "1" --> "*" Aula : "recibe >"
+GestorDeHorarios  --  Docente 
+GestorDeHorarios  --  Asignatura 
+GestorDeHorarios  -- Aula 
 
-GestorDeHorarios "1" o-- "*" AsignacionDocenteAsignatura : "asigna >"
-AsignacionDocenteAsignatura "1" o-- "*" AsignacionAula : "asigna >"
-AsignacionAula "1" o-- "*" Horario : "asigna >"
+GestorDeHorarios -- AsignacionDocenteAsignatura 
+AsignacionDocenteAsignatura --  AsignacionAula 
+AsignacionAula --  Horario  
 
-Docente <-- AsignacionDocenteAsignatura : "participa >"
-Asignatura <-- AsignacionDocenteAsignatura : "participa >"
-Asignatura <-- AsignacionAula : "utiliza >"
-Aula <-- AsignacionAula : "utiliza >"
+Docente -- AsignacionDocenteAsignatura 
+Asignatura -- AsignacionDocenteAsignatura 
+Asignatura -- AsignacionAula 
+Aula -- AsignacionAula 
 @enduml
