@@ -1,0 +1,16 @@
+@startuml
+
+  (*) --> Usuario Crea Ticket
+      --> Administrador Recibe Ticket
+      --> Administrador Asigna Responsable
+      --> Responsable da Seguimiento al Ticket
+      --> Responsable Soluciona Error
+      --> Administrador Valida la Solución
+      if "¿Solucion Validada?" then
+        -->[Si] Administrador Cierra Ticket
+        --> (*)
+        else
+        -->[No] Responsable da Seguimiento al Ticket
+      endif
+
+@enduml

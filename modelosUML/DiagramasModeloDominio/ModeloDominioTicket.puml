@@ -33,6 +33,6 @@ usuario -- ticket
 ticket .. proyecto
 ticket *-- historial
 
-historial -d- informe : > permite generar
+ticket -d- informe : > permite generar
 
 @enduml

@@ -1,0 +1,60 @@
+@startuml Diagrama de Contexto (Administrador)
+
+skin rose
+skinparam note{
+  BackgroundColor white
+}
+title Diagrama de Contexto (Administrador)
+
+[*] -->  Inicial
+
+Inicial -d-> DASHBOARD_ABIERTO
+note on link: login
+
+DASHBOARD_ABIERTO -l-> CREACION_TICKET
+CREACION_TICKET -r-> DASHBOARD_ABIERTO
+note on link: crearTicket
+
+DASHBOARD_ABIERTO -d-> LISTA_TICKETS
+LISTA_TICKETS -u-> DASHBOARD_ABIERTO 
+note on link: filtrarTicket
+
+DASHBOARD_ABIERTO -r-> INFORME_ESTADISTICO
+INFORME_ESTADISTICO -l-> DASHBOARD_ABIERTO
+note on link: exportarInforme
+
+LISTA_TICKETS -d-> TICKET
+TICKET -u-> LISTA_TICKETS
+note on link: verTicket
+
+TICKET -l-> ASIGNACIONES_TICKETS
+ASIGNACIONES_TICKETS -r-> TICKET
+note on link: asignarTicket
+
+TICKET --> CHAT_ABIERTO
+CHAT_ABIERTO --> TICKET
+note on link: comentarTicket
+
+TICKET -d-> HISTORIAL
+HISTORIAL -u-> TICKET
+note on link: consultarHistorial
+
+TICKET --> EDITOR_TICKET
+EDITOR_TICKET --> TICKET
+note on link: modificarTicket
+
+TICKET -r-> ESTADOS_TICKET
+ESTADOS_TICKET -l-> TICKET
+note on link: cerrarTicket
+
+DASHBOARD_ABIERTO -d-> [*]
+
+CREACION_TICKET --> [*]
+
+LISTA_TICKETS -r-> [*]
+
+INFORME_ESTADISTICO --> [*]
+note on link: logout
+
+
+@enduml
