@@ -1,29 +1,25 @@
 # Estructura de los Casos de Uso
 
-<details>
-    <summary>Estructura General</summary>
-      <div align="center">
-        <image src= "./General/Estructura.svg">
-      </div>
-</details>
+## [Estructura General](./General)
 
-<details>
-  <summary>Estructura del Administrador</summary>
-    <div align="center">
-      <image src= "./Administrador/Estructura.svg">
-    </div>
-</details>
+<div align="center">
+  <image src= "./General/Estructura.svg">
+</div>
 
-<details>
-  <summary>Estructura del Egresado</summary>
-  <div align="center">
-    <image src= "./Egresado/Estructura.svg">
-  </div>
-</details>
+## [Estructura del Administrador](./Administrador)
 
-<details>
-  <summary>Estructura del Tiempo</summary>
-  <div align="center">
-    <image src= "./Tiempo/Estructura.svg">
-  </div>
-</details>
+<div align="center">
+  <image src= "./Administrador/Estructura.svg">
+</div>
+
+## [Estructura del Egresado](./Egresado)
+
+<div align="center">
+  <image src= "./Egresado/Estructura.svg">
+</div>
+
+## [Estructura del Tiempo](./Tiempo)
+
+<div align="center">
+  <image src= "./Tiempo/Estructura.svg">
+</div>
