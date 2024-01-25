@@ -6,6 +6,7 @@ title Servicios externos
 skinparam backgroundColor white
 skinparam defaultFontName Arial
 hide circle
+hide empty members
 
 abstract "SERVICIO EXTERNO" 
 { 
@@ -16,7 +17,7 @@ class UNIVERSIDAD
     Bases de Datos
 }
 
-class LINKEDIN
+class "RED SOCIAL"
 {
     Perfil
 }
@@ -50,7 +51,7 @@ class COMUNICACIÓN
 }
 
 "SERVICIO EXTERNO" <|-- UNIVERSIDAD
-"SERVICIO EXTERNO" <|-- LINKEDIN
+"SERVICIO EXTERNO" <|-- "RED SOCIAL"
 "SERVICIO EXTERNO" <|-- INSTALACIONES
 "SERVICIO EXTERNO" <|-- NEWSLETTER
 "SERVICIO EXTERNO" <|-- "OFERTAS DE EMPLEO"
