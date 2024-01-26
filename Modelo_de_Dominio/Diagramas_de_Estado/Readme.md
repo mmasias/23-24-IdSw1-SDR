@@ -30,7 +30,7 @@ El usuario tambien puede darse de baja si asi lo desea.
 
 
 Una vez creado un servicio, este pasa a estar activo. Estando activo, el servicio se puede añadir o quitar de un paquete. Si se 
-quiere dar de baja un servicio se puede puede poner inactivo. Estando inactivo el servicio puede reactivarse.
+quiere dar de baja un servicio se puede eliminar.
 
 
 <div align="center">
