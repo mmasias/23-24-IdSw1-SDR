@@ -1,34 +1,34 @@
 @startuml
 skin rose
-title Caso de Uso: Leer Usuario
+title Caso de Uso: Ver Usuario
 
-state DASHBOARD_ABIERTO
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state LeerUsuarios as "Ver Usuarios"
+state SeleccionarUsuario <<choice>>
+state VisualizarPerfil as " "
 
-DASHBOARD_ABIERTO --> verUsuarios
 
-state verUsuarios {
-  [*] -[#blue]-> seleccionarUsuario
-  state "Seleccionar usuario para ver" as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> visualizarPerfil
-  state "Visualizar perfil del usuario" as visualizarPerfil
-  visualizarPerfil -[#blue]-> [*]
-  note on link: Muestra datos personales y tipo de contrato
-  
-  seleccionarUsuario -[#red]-> [*]
-  note on link: El usuario cancela la visualización
-}
+[*] --> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -[#blue]-> LeerUsuarios : El administrador solicita ver Usuarios
+LeerUsuarios -[#blue]-> SeleccionarUsuario : El sistema presenta lista de usuarios
+SeleccionarUsuario -[#blue]-> VisualizarPerfil : [Usuario seleccionado]
+VisualizarPerfil -[#blue]-> DASHBOARD_ABIERTO : El sistema muestra perfil del usuario
+SeleccionarUsuario -[#red]-> DASHBOARD_ABIERTO : [Visualización cancelada]
 
-note left of visualizarPerfil
-  El usuario selecciona si:
-  ° Mostrar datos personales
-  ° Mostrar tipo de contrato
-  ° Editar, eliminar o añadir usuario
+note right of VisualizarPerfil
+  El sistema muestra:
+  - Datos personales del usuario
+  - Tipos de contrato del usuario
+  - Opciones para editar, eliminar o añadir usuario
 end note
 
-note left of seleccionarUsuario
-  El Usuario:
-  ° Busca un Usuario por nombre
-  ° Selecciona un Usuario directamente de la lista
+note left of SeleccionarUsuario
+  El sistema permite:
+  - Introducir el nombre de usuario
+  - Seleccionar usuario de la lista
+  - Cancelar búsqueda
 end note
+
+
 
 @enduml
