@@ -1,55 +1,32 @@
-@startuml descripción CDU informe
-
+@startuml
 skin rose
-title Caso de Uso: Ver Informe admin
+title Caso de Uso: Ver Informe (Admin)
 
-state DASHBOARD_ABIERTO
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state ListaUsuarios as "Ver Usuario"
+state SeleccionarUsuario <<choice>>
+state TipoInforme <<choice>>
+state MostrarInforme as "Mostrar Informe"
 
-DASHBOARD_ABIERTO --> verInforme
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> ListaUsuarios : El sistema muestra lista de usuarios
+ListaUsuarios -d[#blue]-> SeleccionarUsuario : El sistema permite solicitar un usuario
+SeleccionarUsuario -r[#blue]-> TipoInforme : [Usuario seleccionado]
+TipoInforme -d[#blue]-> MostrarInforme : El admin introduce Tipo de informe y rango
+SeleccionarUsuario -l[#red]-> DASHBOARD_ABIERTO : [Selección cancelada]
+TipoInforme -l[#red]-> DASHBOARD_ABIERTO : [Selección de informe cancelada]
+MostrarInforme -d[#blue]-> DASHBOARD_ABIERTO : El admin cierra informe
 
-state verInforme {
-  [*] -[#blue]-> seleccionarUsuario
-  state " " as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> tipoInforme
-  note on link: El admin selecciona el usuario
-  seleccionarUsuario -[#red]-> [*]
-  note on link: El admin cancela la busqueda
-
-  state " " as tipoInforme
-  tipoInforme -[#red]-> [*]
-  note on link: El admin cancela el ver informe
-  tipoInforme -[#blue]-> mostrarInforme
-  note on link: El admin selecciona tipo de informe y rango de fechas
-
-  state " " as mostrarInforme
-  mostrarInforme  -[#blue]-> [*]
-  note on link: El admin cierra el informe
-  mostrarInforme -[#blue]-> tipoInforme 
-  note on link: El admin repite la busqueda
-}
-
-note left of seleccionarUsuario
-  El sistema solicita:
-  ° Seleccionar usuario
+note right of TipoInforme
   El sistema permite:
-  ° Realizar la busqueda del usuario
-  ° Cancelar la busqueda
+  - Introducir tipo de informe
+  - Introducir rango de fechas
 end note
 
-note bottom of mostrarInforme
-  El sistema permite:
-  ° Descargar el informe
-  ° Cerrar el informe
-  ° Repetir la busqueda
-  El sistema muestra si existe el informe
+note right of MostrarInforme
+  El sistema:
+  - Presenta el informe
+  - Permite solicitar dejar de ver el informe
 end note
 
-note left of tipoInforme
-  El sistema solicita:
-  ° Seleccionar Tipo de informe
-  ° Seleccionar Rango de fechas
-  El sistema permite:
-  ° Realizar la busqueda del informe
-  ° Cancelar la busqueda
-end note
 @enduml
