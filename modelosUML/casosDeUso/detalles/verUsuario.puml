@@ -19,16 +19,16 @@ state verUsuarios {
 }
 
 note left of visualizarPerfil
-  El sistema permite:
+  El usuario selecciona si:
   ° Mostrar datos personales
   ° Mostrar tipo de contrato
-  ° Opción para editar, eliminar o añadir usuario
+  ° Editar, eliminar o añadir usuario
 end note
 
 note left of seleccionarUsuario
-  El sistema requiere:
-  ° Buscar Usuario por nombre
-  ° Seleccionar Usuario de la lista
+  El Usuario:
+  ° Busca un Usuario por nombre
+  ° Selecciona un Usuario directamente de la lista
 end note
 
 @enduml
