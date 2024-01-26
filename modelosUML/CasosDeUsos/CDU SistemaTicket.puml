@@ -2,32 +2,24 @@
 
 left to right direction
 
+actor Usuario as Usuario
 actor "Jefe de Proyecto" as JefeProyecto
 actor Administrador as Admin
-actor Usuario as Usuario
 actor Desarrollador as Dev
 
-rectangle SistemaTicket{
-    Dev -l-> Usuario
-    Dev -- (Comentar Ticket)
-    Usuario -l- (Crear Ticket)
-    Usuario -- (Filtrar Tickets)
-    JefeProyecto -l-> Usuario
-    JefeProyecto -- (Asignar Ticket)
-    JefeProyecto -- (Modificar Ticket)
-    Admin -l-> Usuario
-    Admin -l-> JefeProyecto
+rectangle SistemaTicket {
+   Usuario -- (Ver Ticket)
+     Dev -- (Comentar Ticket)
+    Usuario -- (Crear Ticket)
+     Usuario -- (Filtrar Tickets)
+     JefeProyecto -- (Asignar Ticket)
+     JefeProyecto -- (Modificar Ticket)
     Admin -- (Consultar Historial)
-    Admin -- (Exportar Informe)
+     Admin -- (Exportar Informe)
     Admin -- (Cerrar Ticket)
-
-    (Filtrar Tickets) <.. (Ver Ticket) :<<include>>
-    (Comentar Ticket) ..> (Ver Ticket) :<<include>>
-    (Modificar Ticket) ..> (Ver Ticket) :<<include>>
-    (Asignar Ticket) ..> (Ver Ticket) :<<include>>
-    (Cerrar Ticket) ..> (Ver Ticket) :<<include>>
-
-
+Dev --|> Usuario
+JefeProyecto --|> Usuario
+Admin --|> JefeProyecto
 }
 
 @enduml
