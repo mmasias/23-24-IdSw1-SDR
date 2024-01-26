@@ -3,7 +3,7 @@
 ## [Diagrama de Estados de Administrador](/Modelo_de_Dominio/Diagramas_de_Estado/Administrador/)
 
 Partimos por crear un administrador. Una vez creado, necesita administrar la plataforma, para ello el administrador
-puede gestionar paquetes y servicios y consultar estadísticas.
+puede gestionar paquetes y servicios.
 
 
 <div align="center">
