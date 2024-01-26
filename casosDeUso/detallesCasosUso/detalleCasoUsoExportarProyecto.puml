@@ -1,0 +1,50 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Exportar Proyecto - FISC
+
+
+PÁGINA_PRINCIPAL -[#green]-> exportar_proyecto 
+note on link
+  **Usuario solicita:**
+  - Exportar proyecto
+end note
+
+state exportar_proyecto {
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema requiere:**
+      - Proyecto
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Usuario Selecciona:**
+    - Proyecto
+  end note
+  3 -[#red]-> 1
+  note on link
+    [Proyecto está vacío]
+  end note
+  3 -[#green]-> [*]
+}
+
+exportar_proyecto -[#green]-> :exportar_proyecto
+
+:exportar_proyecto -[#green]-> PAGINA_PRINCIPAL
+
+@enduml
