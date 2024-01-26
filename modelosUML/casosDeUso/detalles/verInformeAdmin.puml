@@ -6,7 +6,7 @@ state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
 state ListaUsuarios as "Ver Usuario"
 state SeleccionarUsuario <<choice>>
 state TipoInforme <<choice>>
-state MostrarInforme as "Mostrar Informe"
+state MostrarInforme as "Ver Informe"
 
 [*] -d-> DASHBOARD_ABIERTO
 DASHBOARD_ABIERTO -d[#blue]-> ListaUsuarios : El sistema muestra lista de usuarios
