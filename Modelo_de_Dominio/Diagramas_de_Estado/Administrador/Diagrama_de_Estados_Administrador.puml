@@ -4,9 +4,10 @@
 
 
 state UsuarioAdministrador{
-Activo-->GestionandoEstadísticas
+Activo-->GestionandoAdministradores
+Activo-->GestionandoEgresados
 [*]-->Activo: necesita gestionar Alumni
-Activo-->gestionandoServicio 
+Activo-->gestionandoServicio
 Activo-->gestionandoPaquetes 
 Activo --> Inactivo
 Inactivo --> Activo
