@@ -41,7 +41,7 @@
     - [Validar Plataforma Incorrecto](/Caso_de_Uso/Prototipos/Pantallas/Login_Registro/Validar_Plataforma_Incorrecto.png)
 - [Paquetes](/Caso_de_Uso/Prototipos/Pantallas/Paquetes)
     - [Crear Paquete](/Caso_de_Uso/Prototipos/Pantallas/Paquetes/Crear_Paquete.png)
-    - [Editar Paquete](/Caso_de_Uso/Prototipos/Pantallas/Paquetes/Editar_Paquete.png)
+    - [Editar Paquete](/Caso_de_Uso/Prototipos/Pantallas/Paquetes/Editar_Paquete.svg)
     - [Eliminar Paquete](/Caso_de_Uso/Prototipos/Pantallas/Paquetes/Eliminar_Paquete.png)
     - [Listar Paquetes](/Caso_de_Uso/Prototipos/Pantallas/Paquetes/Listar_Paquetes.png)
 - [Servicios](/Caso_de_Uso/Prototipos/Pantallas/Servicios)
