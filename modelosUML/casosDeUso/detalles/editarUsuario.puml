@@ -2,35 +2,36 @@
 skin rose
 title Caso de Uso: Editar Usuario
 
-state DASHBOARD_ABIERTO
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state ListaUsuarios as "Lista de Usuarios"
+state SeleccionarUsuario <<choice>>
+state ModificarDetallesUsuario as "Modificar Detalles del Usuario"
+state ConfirmarCambios <<choice>>
 
-DASHBOARD_ABIERTO --> editarUsuario
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> ListaUsuarios : El sistema muestra la lista de Usuarios
+ListaUsuarios -d[#blue]-> SeleccionarUsuario : El administrador introduce usuario
+SeleccionarUsuario -r[#blue]-> ModificarDetallesUsuario : [Usuario seleccionado]
+ModificarDetallesUsuario -d[#blue]-> ConfirmarCambios : El usuario introduce cambios
+ConfirmarCambios -r[#blue]-> DASHBOARD_ABIERTO : [Cambios confirmados]
+ConfirmarCambios -l[#red]-> ModificarDetallesUsuario : [Edición cancelada]
+SeleccionarUsuario -l[#red]-> DASHBOARD_ABIERTO : [Edición cancelada]
 
-state editarUsuario {
-  [*] -[#blue]-> seleccionarUsuario
-  state "Seleccionar usuario a editar" as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> modificarDetallesUsuario
-  state "Modificar detalles del usuario" as modificarDetallesUsuario
-  modificarDetallesUsuario -[#blue]-> [*]
-  note on link: El administrador confirma la edición
-  
-  seleccionarUsuario -[#red]-> [*]
-  note on link: El administrador cancela la edición
-}
-
-note left of modificarDetallesUsuario
+note right of ModificarDetallesUsuario
   El sistema permite:
-  ° Modificar nombre de Usuario
-  ° Modificar datos personales
-  ° Modificar tipo de contrato
-  ° Modificar credenciales
-  ° Confirmar edición
+  - Modificar nombre de usuario
+  - Modificar datos personales
+  - Modificar tipo de contrato
+  - Modificar credenciales
 end note
 
-note left of seleccionarUsuario
-  El sistema requiere:
-  ° Buscar Usuario por nombre
-  ° Seleccionar Usuario de la lista
+note left of SeleccionarUsuario
+  El sistema permite:
+  - Presentar lista de usuarios
+  - Solicitar usuario por nombre
+  - Solicitar usuario
+  - Cancelar
 end note
+
 
 @enduml
