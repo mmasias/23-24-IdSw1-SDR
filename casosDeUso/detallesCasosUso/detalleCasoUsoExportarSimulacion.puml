@@ -11,16 +11,16 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Exportar Proyecto - FISC
+title Detalle Caso de Uso Exportar Simulación - FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> exportar_proyecto 
+PÁGINA_PROYECTO -[#green]-> exportar_simulacion 
 note on link
   **Usuario solicita:**
-  - Exportar proyecto
+  - Exportar simulacion
 end note
 
-state exportar_proyecto {
+state exportar_simulacion {
   state 1 as " "
   state 2 as " "
   state 3 as " "
@@ -29,22 +29,22 @@ state exportar_proyecto {
   1 -[#green]-> 2
   note on link
       **Sistema requiere:**
-      - Proyecto
+      - Simulacion
   end note
   2 -[#green]-> 3
   note on link
     **Usuario Selecciona:**
-    - Proyecto
+    - simulacion
   end note
   3 -[#red]-> 1
   note on link
-    [Proyecto está vacío]
+    [Simulacion está vacía]
   end note
   3 -[#green]-> [*]
 }
 
-exportar_proyecto -[#green]-> :exportar_proyecto
+exportar_simulacion -[#green]-> :exportar_simulacion
 
-:exportar_proyecto -[#green]-> PÁGINA_PRINCIPAL
+:exportar_simulacion -[#green]-> PÁGINA_PROYECTO
 
 @enduml
