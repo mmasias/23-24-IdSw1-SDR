@@ -50,7 +50,7 @@
     - [Eliminar Servicio](/Caso_de_Uso/Prototipos/Pantallas/Servicios/Eliminar_Servicio.png)
     - [Listar Servicios](/Caso_de_Uso/Prototipos/Pantallas/Servicios/Listar_Servicios.png)
 - [General](/Caso_de_Uso/Prototipos/Pantallas/General)
-    - [Plantilla Base para Servicios Externos](/Caso_de_Uso/Prototipos/Pantallas/Plantilla_Base_Servicios_Externos.png)
+    - [Plantilla Base para Servicios Externos](/Caso_de_Uso/Prototipos/Pantallas/General/Plantilla_Base_Servicios_Externos.png)
     - [Toast Correcto](/Caso_de_Uso/Prototipos/Pantallas/General/Toast_Succesfull.svg)
     - [Toast Incorrecto](/Caso_de_Uso/Prototipos/Pantallas/General/Toast_Error.svg)
 ## [Sitemap](/Caso_de_Uso/Prototipos/Sitemap)
