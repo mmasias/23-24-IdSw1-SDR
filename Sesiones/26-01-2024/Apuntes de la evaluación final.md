@@ -6,3 +6,5 @@
 - Estructura del proyecto pasa a ser diagrama de casos de uso
 - Separar la estructura en diferentes diagramas
 - Poner los casos de uso en infinitivo (son acciones)
+- Extra: Corregir las faltas de ortografía
+  - Ejemplo: Cerar Sesion -> Cerrar Sesión
