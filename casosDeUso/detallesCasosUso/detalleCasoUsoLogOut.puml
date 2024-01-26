@@ -1,0 +1,48 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Inicio Log Out - FISC
+
+FISC -[#green]-> cerrar_sesión
+note on link
+  **Usuario solicita:**
+  - Log Out
+end note
+
+state cerrar_sesión{
+   state 1 as " "
+   state 2 as " "
+   state 3 as " "
+
+   [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema Requiere:**
+      - Guardar Cambios?
+  end note
+  2 -[#green]-> 3
+  note on link
+      **Usuario Aporta:**
+      - Si / No
+  end note
+  3 -[#green]-> [*]
+
+}
+
+
+cerrar_sesión -[#green]-> :log_out 
+
+
+:log_out -[#green]-> Inicio
+
+@enduml
