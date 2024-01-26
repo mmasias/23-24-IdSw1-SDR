@@ -5,7 +5,7 @@ title Caso de Uso: Ver Fichaje
 state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
 state VerFichaje as "Ver Fichaje"
 state MostrarFichaje as " "
-state ErrorVisualizacion as "Error en Visualización"
+state ErrorVisualizacion as " "
 
 [*] -d-> DASHBOARD_ABIERTO
 DASHBOARD_ABIERTO -d[#blue]-> VerFichaje : El usuario solicita ver fichaje
