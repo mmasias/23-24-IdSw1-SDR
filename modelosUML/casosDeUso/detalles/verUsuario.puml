@@ -8,12 +8,12 @@ state SeleccionarUsuario <<choice>>
 state VisualizarPerfil as " "
 
 
-[*] --> DASHBOARD_ABIERTO
-DASHBOARD_ABIERTO -[#blue]-> LeerUsuarios : El administrador solicita ver Usuarios
-LeerUsuarios -[#blue]-> SeleccionarUsuario : El sistema presenta lista de usuarios
-SeleccionarUsuario -[#blue]-> VisualizarPerfil : [Usuario seleccionado]
-VisualizarPerfil -[#blue]-> DASHBOARD_ABIERTO : El sistema muestra perfil del usuario
-SeleccionarUsuario -[#red]-> DASHBOARD_ABIERTO : [Visualización cancelada]
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> LeerUsuarios : El administrador solicita ver Usuarios
+LeerUsuarios -d[#blue]-> SeleccionarUsuario : El sistema presenta lista de usuarios
+SeleccionarUsuario -r[#blue]-> VisualizarPerfil : [Usuario seleccionado]
+VisualizarPerfil -d[#blue]-> DASHBOARD_ABIERTO : El sistema muestra perfil del usuario
+SeleccionarUsuario -l[#red]-> DASHBOARD_ABIERTO : [Visualización cancelada]
 
 note right of VisualizarPerfil
   El sistema muestra:
