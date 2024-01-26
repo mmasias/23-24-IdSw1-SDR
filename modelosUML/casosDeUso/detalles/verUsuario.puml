@@ -3,7 +3,8 @@ skin rose
 title Caso de Uso: Ver Usuario
 
 state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
-state LeerUsuarios as "Ver Usuarios"
+state LeerUsuarios as "Ver Usuarios" 
+  
 state SeleccionarUsuario <<choice>>
 state VisualizarPerfil as " "
 
