@@ -1,0 +1,44 @@
+@startuml
+object "gestorDeHorarios : David" as gestorDeHorarios {
+    rol = "Crear Horario"
+}
+
+object "aula1 : Aula" as aula1 {
+    numero = "-2.6"
+}
+object "aula2 : Aula" as aula2 {
+    numero = "0.12"
+}
+
+object "docente1 : Docente" as docente1 {
+    nombre = "Manuel Masias"
+}
+object "docente2 : Docente" as docente2 {
+    nombre = "Jorge Crespo"
+}
+
+object "asignatura1 : Asignatura" as asignatura1 {
+    nombre = "Programación I"
+}
+object "asignatura2 : Asignatura" as asignatura2 {
+    nombre = "Matemáticas II"
+}
+
+object "recibiendoAulas" as recibiendoAulas {
+}
+object "recibiendoDocentes" as recibiendoDocentes {
+}
+object "recibiendoAsignaturas" as recibiendoAsignaturas {
+}
+
+aula1 -r-> recibiendoAulas
+aula2 -r-> recibiendoAulas
+docente1 -r-> recibiendoDocentes
+docente2 -r-> recibiendoDocentes
+asignatura1 -r-> recibiendoAsignaturas
+asignatura2 -r-> recibiendoAsignaturas
+
+recibiendoAulas -d-> gestorDeHorarios
+recibiendoDocentes -d-> gestorDeHorarios
+recibiendoAsignaturas -d-> gestorDeHorarios
+@enduml
