@@ -27,6 +27,11 @@ note on link
   Importar Proyecto
   Nuevo Proyecto 
 end note 
+
+PáginaPrincipal -d-> PáginaPrincipal
+note on link
+  Exportar Proyecto
+end note 
  
 PáginaProyecto -d-> ConfiguraciónDeSimulación
 note on link
@@ -37,10 +42,6 @@ PáginaProyecto ---> Reporte
 note on link
   Ver Reporte
 end note 
-PáginaProyecto ---> PáginaProyecto
-note on link
-  Exportar Simulación
-end note
 
 ConfiguraciónDeSimulación -d-> Simulando
 note on link

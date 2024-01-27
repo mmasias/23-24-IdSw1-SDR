@@ -8,7 +8,7 @@ actor Usuario as user
 actor Usuario_no_registrado as user1
 
 rectangle "FISC Inicio" {
-    usecase "Iniciar Sesión con Usuario y Contraseña" as login
+    usecase "Login" as login
     usecase "Registrarse" as registro
 }
 

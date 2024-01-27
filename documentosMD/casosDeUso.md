@@ -84,11 +84,69 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 ## Detalles de los Casos de Uso
 
-#### - Detalle Caso Uso Inicial
+#### - Login
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoInicial.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoInicial.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoLogin.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoLogin.puml) |
+
+#### - Registrar Usuario
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.puml) |
+
+#### - Nuevo Proyecto
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevoProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevoProyecto.puml) |
+
+#### - Abrir Proyecto
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoAbrirProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoAbrirProyecto.puml) |
+
+#### - Importar Proyecto
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImportarProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImportarProyecto.puml) |
+
+#### - Exportar Proyecto
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.puml) |
+
+#### - Nueva Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulación.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulación.puml) |
+
+#### - Abrir Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoAbrirSimulación.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoAbrirSimulación.puml) |
+
+#### - Ver Reporte
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.puml) |
+
+#### - Importar Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulación.puml) |
+
+
+
+
 
 ---
 
@@ -96,4 +154,4 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 |                                                    |                                                    |
 | -------------------------------------------------- | -------------------------------------------------- |
-| ![](../imagenes/casosDeUso/diagramaDeContexto.svg) | [Código PUML](../casosDeUso/diagramaContexto.puml) |
+| ![](../imagenes/casosDeUso/diagramaContexto.svg) | [Código PUML](../casosDeUso/diagramaContexto.puml) |
