@@ -18,7 +18,7 @@
 
 #### - Inicio Sesión
 
-Los usuarios pueden registrarse o iniciar sesión. Incluye una opción para recuperar la cuenta en caso de olvido de datos y para recordar usuario
+Los usuarios pueden registrarse o iniciar sesión. 
 
 |                                               |                                                 |
 | --------------------------------------------- | ----------------------------------------------- |
@@ -144,7 +144,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulación.puml) |
 
+#### - Inicar Simulación
 
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detallesCasoUsoIniciarSimlación.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulación.puml) |
 
 
 

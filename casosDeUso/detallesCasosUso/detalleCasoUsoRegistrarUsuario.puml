@@ -50,8 +50,8 @@ state registrar_usuario {
   3 -[#green]-> [*]
 }
 
-registrar_usuario -[#green]-> :abrirPaginaLogin
+registrar_usuario -[#green]-> :registrar_usuario
 
-:abrirPaginaLogin -[#green]-> PAGINA_LOGIN
+:registrar_usuario-[#green]-> INICIO
 
 @enduml

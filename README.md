@@ -12,13 +12,12 @@
 
 ## Recursos Clave🔑
 
-- **[Modelo de Dominio:](/documentosMD/modeloDelDominio.md)** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
+
+- **[Información del cliente](/archivosPdf/reunionesPdf/):** Todas las reuniones relacionadas con el desarrollo de este proyecto.
+
+- **[Modelo de Dominio](/documentosMD/modeloDelDominio.md):** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
 
 - **[Casos de Uso](/documentosMD/casosDeUso.md):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
-
-- **[Reuniones:](/archivosPdf/reunionesPdf/)** Todas las reuniones relacionadas con el desarrollo de este proyecto se registran en la carpeta de reuniones.
-
-- **[Propuestas de Mejora](/propuestas/):** Explora propuestas innovadoras para mejorar la funcionalidad y eficiencia de FISC.
 
 - **[Informe Final](/archivosPdf/Reporte_FISC.pdf):** Informe final del proyecto.
 
