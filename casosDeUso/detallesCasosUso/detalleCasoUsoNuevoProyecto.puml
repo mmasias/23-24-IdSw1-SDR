@@ -11,39 +11,41 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Importar Proyecto - FISC
+title Detalle Caso de Uso Nuevo Proyecto - FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> importar_proyecto 
+PÁGINA_PRINCIPAL-[#green]-> nuevo_proyecto
 note on link
   **Usuario solicita:**
-  - Importar proyecto
+  - Nuevo Proyecto
 end note
 
-state importar_proyecto {
+state nuevo_proyecto{
   state 1 as " "
   state 2 as " "
   state 3 as " "
   
-  [*] -[#green]-> 1
+  [*] -[#green]->1
   1 -[#green]-> 2
   note on link
       **Sistema requiere:**
-      - Archivo de proyecto
+      - Nombre del proyecto
+      - Descripción del proyecto (opcional)
   end note
   2 -[#green]-> 3
   note on link
-    **Usuario Selecciona:**
-    - Archivo de proyecto
+    **Usuario aporta:**
+      - Nombre del proyecto
+      - Descripción del proyecto (opcional)
   end note
   3 -[#red]-> 1
   note on link
-    [Archivo inválido]
+    [nombre de proyecto existente]
   end note
   3 -[#green]-> [*]
 }
 
-importar_proyecto -[#green]-> :abrirPáginaProyecto
+nuevo_proyecto-[#green]-> :abrirPáginaProyecto
 
 :abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
 

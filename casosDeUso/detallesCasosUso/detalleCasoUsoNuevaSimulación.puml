@@ -1,0 +1,27 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Nueva Simulación - FISC
+
+
+PÁGINA_PROYECTO-[#green]-> nueva_simulación
+note on link
+  **Usuario solicita:**
+  - Nueva Simulación
+end note
+
+nueva_simulación -[#green]-> :abrirConfiguraciónDeSimulación
+
+:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
+
+@enduml

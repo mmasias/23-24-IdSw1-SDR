@@ -11,16 +11,16 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Importar Proyecto - FISC
+title Detalle Caso de Uso Abrir Simulación- FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> importar_proyecto 
+PÁGINA_PROYECTO -[#green]-> abrir_simulación
 note on link
   **Usuario solicita:**
-  - Importar proyecto
+  - Abrir simulación
 end note
 
-state importar_proyecto {
+state abrir_simulación{
   state 1 as " "
   state 2 as " "
   state 3 as " "
@@ -29,22 +29,19 @@ state importar_proyecto {
   1 -[#green]-> 2
   note on link
       **Sistema requiere:**
-      - Archivo de proyecto
+      - Archivo de simulación conocido
   end note
   2 -[#green]-> 3
   note on link
     **Usuario Selecciona:**
-    - Archivo de proyecto
+    - Archivo de simualción conocido
   end note
-  3 -[#red]-> 1
-  note on link
-    [Archivo inválido]
-  end note
+ 
   3 -[#green]-> [*]
 }
 
-importar_proyecto -[#green]-> :abrirPáginaProyecto
+abrir_simulación-[#green]-> :abrirConfiguraciónDeSimulación
 
-:abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
+:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
 
 @enduml

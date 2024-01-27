@@ -14,10 +14,10 @@ skinparam linetype polyline
 title Detalle Caso de Uso Importar Simulación - FISC
 
 
-ConfiguraciónDeSimulación -[#green]-> importar_simulacion 
+CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> importar_simulacion 
 note on link
   **Usuario solicita:**
-  - Importar simulacion
+  - Importar simulacion existente
 end note
 
 state importar_simulacion {
@@ -35,7 +35,11 @@ state importar_simulacion {
   note on link
     **Usuario Selecciona:**
     - Archivo de simulación
+
+    [se rellenan los parametros con los 
+     datos de la simulación importada]
   end note
+ 
   3 -[#red]-> 1
   note on link
     [Archivo inválido]
@@ -45,6 +49,6 @@ state importar_simulacion {
 
 importar_simulacion -[#green]-> :importar_simulacion
 
-:importar_simulacion -[#green]-> ConfiguraciónDeSimulación
+:importar_simulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
 
 @enduml
