@@ -1,0 +1,28 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Guardar Reporte - FISC
+
+
+REPORTE-[#green]-> :guardar_reporte
+note on link
+  **Usuario solicita:**
+  - Guardar reporte realizado
+end note
+
+:guardar_reporte-[#green]-> PÁGINA_PROYECTO
+note on link
+   [El reporte se guarda dentro del
+    sistema de la aplicación]
+end note
+@enduml

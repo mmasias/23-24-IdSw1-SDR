@@ -7,84 +7,84 @@ skinparam stateBorderColor #c90000
 skinparam linetype polyline
 skinparam arrowThickness 1
 
-[*] --> Inicio
+[*] --> INICIO
 
-Inicio -d-> FISC 
+INICIO-d-> FISC 
 note on link
   Login
 end note
-Inicio -d-> Inicio
+INICIO-d-> INICIO
 note on link
   Registrar Usuario
 end note
 
 State FISC {
-[*] --> PáginaPrincipal 
+[*] --> PÁGINA_PRINCIPAL
 
-PáginaPrincipal -d-> PáginaProyecto
+PÁGINA_PRINCIPAL-d-> PÁGINA_PROYECTO
 note on link
   Abrir Proyecto 
   Importar Proyecto
   Nuevo Proyecto 
 end note 
 
-PáginaPrincipal -d-> PáginaPrincipal
+PÁGINA_PRINCIPAL-d-> PÁGINA_PRINCIPAL
 note on link
   Exportar Proyecto
 end note 
  
-PáginaProyecto -d-> ConfiguraciónDeSimulación
+PÁGINA_PROYECTO-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Abrir Simulación
   Nueva Simulación
 end note 
-PáginaProyecto ---> Reporte
+PÁGINA_PROYECTO---> REPORTE
 note on link
   Ver Reporte
 end note 
 
-ConfiguraciónDeSimulación -d-> Simulando
+CONFIGURACIÓN_DE_SIMULACIÓN-d-> SIMULANDO
 note on link
   Iniciar Simulación
 end note 
-ConfiguraciónDeSimulación -d-> ConfiguraciónDeSimulación
+CONFIGURACIÓN_DE_SIMULACIÓN-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Importar Simulación
 end note  
 
-Simulando ---> ConfiguraciónDeSimulación
+SIMULANDO---> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Cancelar Simulación
 end note 
-Simulando ---> Simulando
+SIMULANDO---> SIMULANDO
 note on link
   Verificar Estado de Simulación
 end note 
-Simulando ---> Reporte
+SIMULANDO---> REPORTE
 note on link
   Verificar Estado de Simulación
 end note 
 
-Reporte -d-> Reporte
+REPORTE-d-> REPORTE
 note on link
   Exportar Reporte  
   Imprimir Reporte
 end note 
-Reporte -d-> PáginaProyecto
+REPORTE-d-> PÁGINA_PROYECTO
 note on link
-  Guardar
+  Guardar Reporte
 end note 
-Reporte -d-> ConfiguraciónDeSimulación
+REPORTE-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Editar Simulación
 end note 
 }
 
-Log ---> Log
+LOG---> LOG
 note on link
   Imprimir
 end note 
-FISC -d-> Log
+FISC -d-> LOG
 note on link
   Abrir Log
 end note 

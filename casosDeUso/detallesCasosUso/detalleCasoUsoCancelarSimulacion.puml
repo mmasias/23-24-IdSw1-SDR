@@ -14,12 +14,13 @@ skinparam linetype polyline
 title Detalle Caso de Uso Cancelar Simulación - FISC
 
 
-Simulando -[#green]-> :cancelar_simulación
+SIMULANDO-[#green]-> cancelar_simulación
 note on link
   **Usuario solicita:**
   - Cancelar simulación
 end note
 
-:cancelar_simulación -[#green]-> ConfiguraciónDeSimulación
+cancelar_simulación -[#green]-> :abrirConfiguraciónDeSimulación
+:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
 
 @enduml

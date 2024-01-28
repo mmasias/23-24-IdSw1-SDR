@@ -14,12 +14,12 @@ skinparam linetype polyline
 title Detalle Caso de Uso Exportar Reporte - FISC
 
 
-Reporte -[#green]-> :exportar_reporte 
+REPORTE-[#green]-> :exportar_reporte 
 note on link
   **Usuario solicita:**
   - Exportar reporte
 end note
   
-:exportar_reporte -[#green]-> Reporte
+:exportar_reporte -[#green]-> REPORTE
 
 @enduml

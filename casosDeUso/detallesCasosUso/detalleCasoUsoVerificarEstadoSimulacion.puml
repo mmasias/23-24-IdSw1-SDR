@@ -13,7 +13,7 @@ skinparam linetype polyline
 
 title Detalle Caso de Uso Verificar Estado de Simulación - FISC
 
-Simulando -[#green]-> :verificar_estado_simulacion
+SIMULANDO-[#green]-> :verificar_estado_simulacion
 note on link
   **Tiempo solicita:**
   - Verificar estado de simulación
@@ -26,7 +26,7 @@ note on link
     de la simulación]
 end note
 
-:actualizar_barra -[#green]-> Simulando
+:actualizar_barra -[#green]-> SIMULANDO
 
 
 :verificar_estado_simulacion -[#green]-> :generarReporte
@@ -35,6 +35,6 @@ note on link
   - [La simulación terminó]
 end note
 
-:generarReporte -[#green]-> Reporte
+:generarReporte -[#green]-> REPORTE
 
 @enduml

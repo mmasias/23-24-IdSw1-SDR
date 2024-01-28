@@ -84,6 +84,9 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 ## Detalles de los Casos de Uso
 
+<details>
+<summary>Detalle de Inicio</summary>
+
 #### - Login
 
 |                                                                        |                                                                          |
@@ -95,6 +98,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.puml) |
+
+</details>
+
+<details>
+<summary>Detalle de Página principal</summary>
 
 #### - Nuevo Proyecto
 
@@ -120,11 +128,16 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.puml) |
 
+</details>
+
+<details>
+<summary>Detalle de Página proyecto</summary>
+
 #### - Nueva Simulación
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulación.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulación.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulacion.puml) |
 
 #### - Abrir Simulación
 
@@ -138,6 +151,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.puml) |
 
+</details>
+
+<details>
+<summary>Detalle de Configuración de simulación</summary>
+
 #### - Importar Simulación
 
 |                                                                        |                                                                          |
@@ -148,13 +166,89 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detallesCasoUsoIniciarSimlación.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulación.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulación.puml) |
+
+</details>
+
+<details>
+<summary>Detalle de Simulando</summary>
+
+#### - Cancelar Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoCancelarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoCancelarSimulacion.puml) |
+
+#### - Verificar Estado de Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoVerificarEstadoSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoVerificarEstadoSimulacion.puml) |
+
+</details>
+
+<details>
+<summary>Detalle de Reporte</summary>
+
+#### - Editar Simulación
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoEditarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoEditarSimulacion.puml) |
+
+#### - Exportar Reporte
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoExportarReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoExportarReporte.puml) |
+
+#### - Imprimir Reporte
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImprimirReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImprimirReporte.puml) |
+
+#### - Guardar Reporte
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoGuardarReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoGuardarReporte.puml) |
+
+</details>
+
+<details>
+<summary>Detalle de Log</summary>
 
 
+#### - Imprimir Log
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImprimirLog.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImprimirLog.puml) |
+
+</details>
+
+<details>
+<summary>Detalle de FISC general</summary>
+
+#### - Abrir Log
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoAbrirLog.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoAbrirLog.puml) |
+
+
+#### - Log Out
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoLogOut.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoLogOut.puml) |
+
+</details>
 
 ---
 
-## Diagramas de Contexto
+## Diagrama de Contexto
 
 |                                                    |                                                    |
 | -------------------------------------------------- | -------------------------------------------------- |

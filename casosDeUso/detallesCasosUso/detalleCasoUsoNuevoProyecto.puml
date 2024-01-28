@@ -43,11 +43,6 @@ state nuevo_proyecto{
     [nombre de proyecto existente]
   end note
   3 -[#green]-> [*]
-   note on link
-     **Usuario solicita:**
-     - Crear nuevo Proyecto
-   end note
-
 }
 
 nuevo_proyecto-[#green]-> :crearNuevoProyecto

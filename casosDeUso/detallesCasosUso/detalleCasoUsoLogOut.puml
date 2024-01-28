@@ -11,7 +11,7 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Inicio Log Out - FISC
+title Detalle Caso de Uso Log Out - FISC
 
 FISC -[#green]-> cerrar_sesión
 note on link
@@ -40,9 +40,9 @@ state cerrar_sesión{
 }
 
 
-cerrar_sesión -[#green]-> :log_out 
+cerrar_sesión -[#green]-> :abrirInicio 
 
 
-:log_out -[#green]-> Inicio
+:abrirInicio -[#green]-> INICIO
 
 @enduml
