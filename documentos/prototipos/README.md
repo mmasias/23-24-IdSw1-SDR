@@ -66,6 +66,6 @@ Se presenta el mapa de navegación de las vistas por actores.
 ![Diagrama de Flujo Usuario](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png)
 
 
-###Administrador
+### Administrador
 
 ![Diagrama de Flujo Administrador](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png)
