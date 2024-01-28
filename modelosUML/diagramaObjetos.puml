@@ -19,24 +19,19 @@ object "simulación1 : Simulación" as simulación1 {
     fechaSimulación = "2023-11-03"
 }
 
-object "gráfica1 : Gráfica" as gráfica1 {
-    datos = "x, y"
-    tipoGráfica = "Curva de Calor"
-}
-
 object "log1 : Log" as log1 {
     acciones = ["Login", "Creación Proyecto", "Inicio Simulación"]
     fechaHora = "2023-11-03T10:00:00"
 }
 
 object "reporte1 : Reporte" as reporte1 {
-    contenido = "Contenido del reporte"
+    resultados = "Resultado del reporte"
     formato = "PDF"
+    gráficas = "Gráfica reporte"
 }
 
 usuario1 - proyecto1 : "realiza >"
 proyecto1 -- simulación1 : "contiene >"
-simulación1 -- gráfica1 : "genera >"
 simulación1 -- reporte1 : "produce >"
 log1 -- usuario1: "registra >"
 log1 -- proyecto1 : "registra >"
