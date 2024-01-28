@@ -2,7 +2,7 @@
 
 ---
 
-# TimeGuardian: Sistema de Gestión de Horarios Centralizado
+# - TimeGuardian -
 
 TimeGuardian es una herramienta diseñada para el cliente encargado de facilitar la organización y asignación de horarios de la universidad, para estudiantes, profesores y aulas. Este sistema centralizado permite al administrador de horarios: visualizar, elegir y asignar asignaturas o clases en un calendario interactivo, proporcionando una experiencia de usuario intuitiva y eficiente en la gestión del tiempo.🗓️
 
@@ -31,8 +31,8 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 ## Enlace➡️
 
 
-- [Modelo de dominio](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/README.md)
-- [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Casos%20de%20Uso)
+- [Modelo de dominio](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/ModelosUML.md)
+- [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Casos%20de%20uso.md)
 - [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
 - [Presentacion](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Presentaciones)
 

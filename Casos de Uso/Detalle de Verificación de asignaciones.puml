@@ -1,0 +1,54 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #e1bee7
+  BorderColor #6a0080
+}
+
+skinparam note {
+  BackgroundColor #fff9c4
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Verificación de Asignaciones - TimeGuardian
+
+INICIO -[#purple]-> verificar_asignaciones
+note on link
+  **Administrador escolar inicia:**
+  - Verificación de todas las asignaciones
+end note
+
+state verificar_asignaciones {
+  state "Revisar asignaciones de aulas" as A
+  state "Revisar asignaciones de docentes" as B
+  state "Confirmar coherencia de asignaciones" as C
+  state "Realizar ajustes si es necesario" as D
+
+  [*] -[#purple]-> A
+  A -[#purple]-> B
+  note on link
+      **Administrador revisa:**
+      - Aulas asignadas a cada clase
+  end note
+  B -[#purple]-> C
+  note on link
+    **Administrador verifica:**
+    - Docentes asignados a asignaturas
+  end note
+  C -[#purple]-> D
+  note on link
+    **Administrador asegura:**
+    - Sin conflictos de horarios o recursos
+  end note
+  D -[#green]-> [*]
+  note on link
+    [asignaciones verificadas y confirmadas]
+  end note
+}
+
+verificar_asignaciones -[#purple]-> :mostrarEstadoFinal
+
+:mostrarEstadoFinal -[#purple]-> ESTADO_FINAL_ASIGNACIONES
+
+@enduml

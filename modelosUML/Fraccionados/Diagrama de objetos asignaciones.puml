@@ -1,0 +1,69 @@
+@startuml
+title Diagrama de Objetos - Time Guardian (Enfoque en Asignaciones)
+
+object "gestorDeHorarios : David" as gestorDeHorarios {
+    rol = "Gestor de Asignaciones"
+}
+
+object "asignatura1 : Asignatura" as asignatura1 {
+    nombre = "Matemáticas"
+}
+object "asignatura2 : Asignatura" as asignatura2 {
+    nombre = "Programación I"
+}
+
+object "docente1 : Docente" as docente1 {
+    nombre = "Jorge Crespo"
+}
+object "docente2 : Docente" as docente2 {
+    nombre = "Manuel Masias"
+}
+
+object "aula1 : Aula" as aula1 {
+    numero = "-2.6"
+    disponible = Si
+}
+object "aula2 : Aula" as aula2 {
+    numero = "1.3"
+    disponible = Si
+}
+
+asignatura1 -r-> gestorDeHorarios : "Recibe >\n\n"
+asignatura2 -r-> gestorDeHorarios : "Recibe >\n\n"
+docente1 -r-> gestorDeHorarios : "Recibe >\n\n"
+docente2 -r-> gestorDeHorarios : "Recibe >\n\n"
+
+gestorDeHorarios -d-> aula1 : "Verifica >\n\n"
+gestorDeHorarios -d-> aula2 : "Verifica >\n\n"
+
+object "asignacionDocenteAsignatura : Asignacion" as asignacionDocenteAsignatura {
+    docente = "Manuel Masías"
+    asignatura = "Programación I"
+}
+gestorDeHorarios -r-> asignacionDocenteAsignatura : "Asigna >\n\n"
+
+object "asignacionAulaAsignatura : Asignacion" as asignacionAulaAsignatura {
+    asignatura = "Programación"
+    aula = "-2.6"
+}
+gestorDeHorarios -r-> asignacionAulaAsignatura : "Asigna >\n\n"
+
+note "Se reciben todas las \nasignaturas de cada grado" as nota1
+asignatura1 .r. nota1
+nota1 .r. asignatura2
+
+note "Se reciben todos los\ndocentes de cada grado" as nota2
+docente1 .r. nota2
+nota2 .r. docente2
+
+note "Verifica todas las\naulas de la universidad" as nota3
+aula1 .r. nota3
+nota3 .r. aula2
+
+note "Se asignan todas las asignaturas\na las aulas" as nota4
+asignacionAulaAsignatura .r. nota4
+
+note "Se asignan todos los docentes\na las asignaturas" as nota5
+asignacionDocenteAsignatura .r. nota5
+
+@enduml

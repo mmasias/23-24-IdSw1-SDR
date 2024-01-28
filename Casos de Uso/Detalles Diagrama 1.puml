@@ -1,0 +1,55 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #e6ee9c
+  BorderColor #004d40
+}
+
+skinparam note {
+  BackgroundColor #ffe0b2
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Administración de Horarios - Sistema TimeGuardian
+
+INICIO -[#green]-> iniciar_sesión
+note on link
+  **Administrador de horarios:**
+  - Inicia sesión en el sistema
+end note
+
+iniciar_sesión -[#green]-> mostrar_interfaz_principal
+note right of mostrar_interfaz_principal
+  Muestra la interfaz principal
+end note
+
+mostrar_interfaz_principal -[#green]-> seleccionar_visualización_asignaturas
+note on link
+  **Administrador selecciona:**
+  - Visualizar asignaturas ofrecidas para una carrera
+end note
+
+seleccionar_visualización_asignaturas -[#green]-> mostrar_asignaturas_ofrecidas
+note right of mostrar_asignaturas_ofrecidas
+  Muestra asignaturas para la carrera seleccionada
+end note
+
+mostrar_asignaturas_ofrecidas -[#green]-> arrastrar_soltar_asignaturas
+note on link
+  **Administrador realiza:**
+  - Arrastra y suelta asignaturas en el calendario
+end note
+
+arrastrar_soltar_asignaturas -[#green]-> guardar_cambios
+note on link
+  **Administrador:**
+  - Guarda cambios y actualiza horario académico
+end note
+
+guardar_cambios -[#green]-> [*]
+note right of guardar_cambios
+  Horario académico actualizado
+end note
+
+@enduml
