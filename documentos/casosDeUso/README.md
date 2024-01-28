@@ -1,5 +1,3 @@
-![image](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/assets/114565115/ddfb6a00-b9f0-48ec-9e75-6029f01f8980)# Documentación de Casos de Uso
-
 Este documento presenta los casos de uso identificados para nuestro proyecto, clasificados por actores y detallados con diagramas y códigos correspondientes. Nuestro enfoque principal es la gestión de fichajes y el seguimiento del tiempo.
 
 ## Índice
