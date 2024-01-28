@@ -11,13 +11,13 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Nueva Simulación - FISC
+title Detalle Caso de Uso Crear Simulación - FISC
 
 
 PAGINA_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
 note on link
   **Usuario solicita:**
-  - Nueva Simulación
+  - Crear Simulación
 end note
 
 :abrirConfiguracionDeSimulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACION

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="371px" preserveAspectRatio="none" style="width:379px;height:371px;background:#FFFFFF;" version="1.1" viewBox="0 0 379 371" width="379px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="361" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="351" x="10" y="22.9951">Detalle Caso de Uso Nueva Simulación - FISC</text><g id="PAGINA_PROYECTO"><rect fill="#FAF4B4" height="50" rx="12.5" ry="12.5" style="stroke:#C90000;stroke-width:0.5;" width="156" x="103" y="44.2969"/><line style="stroke:#C90000;stroke-width:0.5;" x1="103" x2="259" y1="70.5938" y2="70.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="113" y="62.292">PAGINA_PROYECTO</text></g><g id=":abrirConfiguracionDeSimulacion"><rect fill="#FAF4B4" height="50" rx="12.5" ry="12.5" style="stroke:#C90000;stroke-width:0.5;" width="244" x="59" y="204.2969"/><line style="stroke:#C90000;stroke-width:0.5;" x1="59" x2="303" y1="230.5938" y2="230.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224" x="69" y="222.292">:abrirConfiguracionDeSimulacion</text></g><g id="CONFIGURACIÓN_DE_SIMULACION"><rect fill="#FAF4B4" height="50" rx="12.5" ry="12.5" style="stroke:#C90000;stroke-width:0.5;" width="254" x="54" y="315.2969"/><line style="stroke:#C90000;stroke-width:0.5;" x1="54" x2="308" y1="341.5938" y2="341.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234" x="64" y="333.292">CONFIGURACIÓN_DE_SIMULACION</text></g><!--MD5=[c856844c98a2f6e3b2cf7519f6cef5bc]
+link PAGINA_PROYECTO to :abrirConfiguracionDeSimulacion--><g id="link_PAGINA_PROYECTO_:abrirConfiguracionDeSimulacion"><path d="M181,94.6369 C181,122.7869 181,169.0969 181,199.1469 " fill="none" id="PAGINA_PROYECTO-to-:abrirConfiguracionDeSimulacion" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="181,204.1869,185,195.1869,181,199.1869,177,195.1869,181,204.1869" style="stroke:#008000;stroke-width:1.0;"/><path d="M186,129.2969 L186,169.2969 L331,169.2969 L331,139.2969 L321,129.2969 L186,129.2969 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M321,129.2969 L321,139.2969 L331,139.2969 L321,129.2969 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="117" x="192" y="146.3638">Usuario solicita:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="192" y="161.4966">- Nueva Simulación</text></g><!--MD5=[f71d7c121721e96e30d39e3f83c708c9]
+link :abrirConfiguracionDeSimulacion to CONFIGURACIÓN_DE_SIMULACION--><g id="link_:abrirConfiguracionDeSimulacion_CONFIGURACIÓN_DE_SIMULACION"><path d="M181,254.4869 C181,270.8569 181,292.5769 181,309.9369 " fill="none" id=":abrirConfiguracionDeSimulacion-to-CONFIGURACIÓN_DE_SIMULACION" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="181,315.1769,185,306.1769,181,310.1769,177,306.1769,181,315.1769" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[b14929d13edb36d41bc4c69c84f0aaa5]
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Nueva Simulación - FISC
+
+
+PAGINA_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
+note on link
+  **Usuario solicita:**
+  - Nueva Simulación
+end note
+
+:abrirConfiguracionDeSimulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACION
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,3 +1,4 @@
+
 @startuml
 
 skinparam state {
@@ -11,16 +12,16 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Nuevo Proyecto - FISC
+title Detalle Caso de Uso Crear Proyecto - FISC
 
 
-PÁGINA_PRINCIPAL-[#green]-> nuevo_proyecto
+PÁGINA_PRINCIPAL-[#green]-> crear_proyecto
 note on link
   **Usuario solicita:**
-  - Nuevo Proyecto
+  - Crear Proyecto
 end note
 
-state nuevo_proyecto{
+state crear_proyecto{
   state 1 as " "
   state 2 as " "
   state 3 as " "
@@ -45,7 +46,7 @@ state nuevo_proyecto{
   3 -[#green]-> [*]
 }
 
-nuevo_proyecto-[#green]-> :crearNuevoProyecto
+crear_proyecto-[#green]-> :crearNuevoProyecto
 
 :crearNuevoProyecto -[#green]-> PÁGINA_PROYECTO
 

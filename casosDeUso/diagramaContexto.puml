@@ -25,7 +25,7 @@ PÁGINA_PRINCIPAL-d-> PÁGINA_PROYECTO
 note on link
   Abrir Proyecto 
   Importar Proyecto
-  Nuevo Proyecto 
+  Crear Proyecto 
 end note 
 
 PÁGINA_PRINCIPAL-d-> PÁGINA_PRINCIPAL
@@ -36,7 +36,7 @@ end note
 PÁGINA_PROYECTO-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Abrir Simulación
-  Nueva Simulación
+  Crear Simulación
 end note 
 PÁGINA_PROYECTO---> REPORTE
 note on link
