@@ -14,14 +14,12 @@ skinparam linetype polyline
 title Detalle Caso de Uso Nueva Simulación - FISC
 
 
-PÁGINA_PROYECTO-[#green]-> nueva_simulación
+PAGINA_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
 note on link
   **Usuario solicita:**
   - Nueva Simulación
 end note
 
-nueva_simulación -[#green]-> :abrirConfiguraciónDeSimulación
-
-:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
+:abrirConfiguracionDeSimulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACION
 
 @enduml

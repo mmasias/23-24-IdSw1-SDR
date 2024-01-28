@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Abrir Log - FISC
 
 
-Inicio -[#green]-> log_abierto 
+FISC -[#green]-> log_abierto 
 note on link
   **Usuario solicita:**
   - Abrir Log

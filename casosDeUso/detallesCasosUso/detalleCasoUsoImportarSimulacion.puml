@@ -29,15 +29,16 @@ state importar_simulacion {
   1 -[#green]-> 2
   note on link
       **Sistema requiere:**
-      - Archivo de simulación
+      - Archivo de reporte
   end note
   2 -[#green]-> 3
   note on link
     **Usuario Selecciona:**
-    - Archivo de simulación
+    - Archivo de reporte
 
-    [se rellenan los parametros con los 
-     datos de la simulación importada]
+    [se rellenan los parametros 
+     con los datos del reporte 
+     de simulación importada]
   end note
  
   3 -[#red]-> 1

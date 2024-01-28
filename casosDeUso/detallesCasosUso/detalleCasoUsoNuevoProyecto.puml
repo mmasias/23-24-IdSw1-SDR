@@ -43,10 +43,15 @@ state nuevo_proyecto{
     [nombre de proyecto existente]
   end note
   3 -[#green]-> [*]
+   note on link
+     **Usuario solicita:**
+     - Crear nuevo Proyecto
+   end note
+
 }
 
-nuevo_proyecto-[#green]-> :abrirPáginaProyecto
+nuevo_proyecto-[#green]-> :crearNuevoProyecto
 
-:abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
+:crearNuevoProyecto -[#green]-> PÁGINA_PROYECTO
 
 @enduml

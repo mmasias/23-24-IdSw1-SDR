@@ -11,18 +11,15 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Inicio Imprimir Log - FISC
+title Detalle Caso de Uso Exportar Reporte - FISC
 
-Log -[#green]-> :imprimir_log 
+
+Reporte -[#green]-> :exportar_reporte 
 note on link
   **Usuario solicita:**
-  - Imprimir Log
+  - Exportar reporte
 end note
-
-:imprimir_log -[#green]-> Log
-note on link
-      **Sistema Aporta:**
-      - Log.txt
-  end note
+  
+:exportar_reporte -[#green]-> Reporte
 
 @enduml

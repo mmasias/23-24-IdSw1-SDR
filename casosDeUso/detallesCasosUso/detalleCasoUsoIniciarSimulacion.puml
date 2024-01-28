@@ -14,13 +14,9 @@ skinparam linetype polyline
 title Detalle Caso de Uso Iniciar Simulación - FISC
 
 
-CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> iniciar_simulación 
-note on link
-  **Usuario solicita:**
-  - Iniciar simulación
-end note
+CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> configurando_simulación 
 
-state iniciar_simulación {
+state configurando_simulación {
   state 1 as " "
   state 2 as " "
   state 3 as " "
@@ -44,10 +40,14 @@ state iniciar_simulación {
     [formato de parámetros incorrecto]
   end note
   3 -[#green]-> [*]
+   note on link
+     **Usuario solicita:**
+     - Iniciar simulación
+   end note
 }
 
-iniciar_simulación -[#green]-> :abrirSimulando
+configurando_simulación -[#green]-> :iniciar_simulación
 
-:abrirSimulando-[#green]-> SIMULANDO
+:iniciar_simulación-[#green]-> SIMULANDO
 
 @enduml
