@@ -1,0 +1,40 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Verificar Estado de Simulación - FISC
+
+Simulando -[#green]-> :verificar_estado_simulacion
+note on link
+  **Tiempo solicita:**
+  - Verificar estado de simulación
+end note
+
+:verificar_estado_simulacion -[#green]-> :actualizar_barra
+note on link
+  **Simulación en Progreso**
+  - [Se estima el progreso
+    de la simulación]
+end note
+
+:actualizar_barra -[#green]-> Simulando
+
+
+:verificar_estado_simulacion -[#green]-> :generarReporte
+note on link
+  **Simulación Finalizada**
+  - [La simulación terminó]
+end note
+
+:generarReporte -[#green]-> Reporte
+
+@enduml
