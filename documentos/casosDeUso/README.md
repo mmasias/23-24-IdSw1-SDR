@@ -1,4 +1,4 @@
-# Documentación de Casos de Uso
+![image](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/assets/114565115/ddfb6a00-b9f0-48ec-9e75-6029f01f8980)# Documentación de Casos de Uso
 
 Este documento presenta los casos de uso identificados para nuestro proyecto, clasificados por actores y detallados con diagramas y códigos correspondientes. Nuestro enfoque principal es la gestión de fichajes y el seguimiento del tiempo.
 
@@ -100,7 +100,7 @@ Este documento presenta los casos de uso identificados para nuestro proyecto, cl
 
 |  |  |
 | -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
+| ![](../../imagenes/casosDeUso/detalles/darBajaUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
 
 </details>
 
