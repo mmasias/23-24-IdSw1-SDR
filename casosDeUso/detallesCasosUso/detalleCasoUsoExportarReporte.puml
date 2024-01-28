@@ -21,5 +21,9 @@ note on link
 end note
   
 :exportar_reporte -[#green]-> REPORTE
+note on link
+  **Sistema Aporta:**
+  - Archivo de reporte
+end note
 
 @enduml

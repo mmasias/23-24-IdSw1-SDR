@@ -46,5 +46,9 @@ state exportar_proyecto {
 exportar_proyecto -[#green]-> :exportar_proyecto
 
 :exportar_proyecto -[#green]-> PÁGINA_PRINCIPAL
+note on link
+  **Sistema aporta:**
+  - Archivo de proyecto
+end note
 
 @enduml

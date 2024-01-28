@@ -20,7 +20,29 @@ note on link
   - Cancelar simulación
 end note
 
-cancelar_simulación -[#green]-> :abrirConfiguraciónDeSimulación
-:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
+state cancelar_simulación{
+   state 1 as " "
+   state 2 as " "
+   state 3 as " "
+
+   [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema Requiere:**
+      - Estas Seguro?
+  end note
+  2 -[#green]-> 3
+  note on link
+      **Usuario Aporta:**
+      - Si / No
+  end note
+  3 -[#green]-> [*]
+
+}
+cancelar_simulación -[#green]-> :cancelar_simulación
+cancelar_simulación -[#green]-> :seguir_simulando
+:seguir_simulando -[#green]-> SIMULANDO
+
+:cancelar_simulación -[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
 
 @enduml

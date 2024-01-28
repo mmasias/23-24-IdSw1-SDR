@@ -14,11 +14,13 @@ skinparam linetype polyline
 title Detalle Caso de Uso Abrir Log - FISC
 
 
-FISC -[#green]-> log_abierto 
+FISC -[#green]-> :abrir_log 
 note on link
   **Usuario solicita:**
   - Abrir Log
 end note
+
+:abrir_log -[#green]-> log_abierto
 
 log_abierto -[#green]-> :cerrar_log
 note on link
@@ -26,6 +28,6 @@ note on link
   - Cerrar Log
 end note
 
-:cerrar_log -[#green]-> FISC
+:cerrar_log -u[#green]-> FISC
 
 @enduml

@@ -14,13 +14,12 @@ skinparam linetype polyline
 title Detalle Caso de Uso Editar Simulación - FISC
 
 
-REPORTE -[#green]-> editar_simulación
+REPORTE -[#green]-> :editar_simulacion 
 note on link
   **Usuario solicita:**
-  - Cancelar simulación
+  - Editar simulación
 end note
-
-editar_simulación-[#green]-> :abrirConfiguraciónDeSimulación
-:abrirConfiguraciónDeSimulación-[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
+  
+:editar_simulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
 
 @enduml
