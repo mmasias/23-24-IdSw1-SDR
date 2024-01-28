@@ -1,5 +1,5 @@
 @startuml
-title Diagrama de Contexto de la Aplicación FISC
+title Diagrama de Flujo de la Aplicación FISC
 
 start
 :Iniciar Aplicación;
