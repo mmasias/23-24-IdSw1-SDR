@@ -1,4 +1,4 @@
-# <img src="/propuestas/logo/VersionAvanzada.png" alt="FISC Logo" height="60"> - Proyecto FISC
+# <img src="/informaciónAdicional/logo/VersionAvanzada.png" alt="FISC Logo" height="60"> - Proyecto FISC
 
 ---
 
