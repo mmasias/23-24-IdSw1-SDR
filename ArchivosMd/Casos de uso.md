@@ -2,9 +2,9 @@
 
 ## Índice
 
-1. [Actores y Casos de Uso]()
+1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
 2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
-3. [Diagramas de Contexto](#diagramas-de-contexto)
+3. [Diagramas de Contexto](#diagrama-de-contexto)
 
 ## Actores y Casos de Uso
 
@@ -20,15 +20,14 @@
 
 #### - Inicio Sesión
 
-Los usuarios pueden registrarse o iniciar sesión. 
+Si el usuario ya esta registrado puede inicar sesión, si no podra registrarse.
 
 |                                               |                                                 |
 | --------------------------------------------- | ----------------------------------------------- |
-| ![]() | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.puml) |
 
 #### - Página Principal
 
-Permite al usuario crear, importar, exportar o abrir proyectos.
 
 |                                                        |                                                          |
 | ------------------------------------------------------ | -------------------------------------------------------- |
@@ -36,7 +35,6 @@ Permite al usuario crear, importar, exportar o abrir proyectos.
 
 #### - Página Proyecto
 
-Ofrece opciones para abrir o crear nuevas simulaciones y ver reportes de simulaciones existentes.
 
 |                                                       |                                                         |
 | ----------------------------------------------------- | ------------------------------------------------------- |
@@ -44,7 +42,6 @@ Ofrece opciones para abrir o crear nuevas simulaciones y ver reportes de simulac
 
 #### - Configuración de Simulación
 
-Permite importar configuraciones de simulación y empezar una nueva simulación.
 
 |                                                                  |                                                                    |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -52,7 +49,6 @@ Permite importar configuraciones de simulación y empezar una nueva simulación.
 
 #### - Simulando
 
-Muestra el estado de la simulación en curso con la opción de cancelar.
 
 |                                                  |                                                    |
 | ------------------------------------------------ | -------------------------------------------------- |
@@ -60,7 +56,6 @@ Muestra el estado de la simulación en curso con la opción de cancelar.
 
 #### - Reporte
 
-Permite editar simulaciones, exportar, imprimir y guardar reportes.
 
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
@@ -68,7 +63,6 @@ Permite editar simulaciones, exportar, imprimir y guardar reportes.
 
 #### - Log
 
-Accesible desde cualquier pantalla, muestra el registro detallado de las acciones realizadas en la aplicación.
 
 |                                            |                                              |
 | ------------------------------------------ | -------------------------------------------- |
@@ -76,7 +70,6 @@ Accesible desde cualquier pantalla, muestra el registro detallado de las accione
 
 #### - General
 
-Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 |                                                |                                                  |
 | ---------------------------------------------- | ------------------------------------------------ |
