@@ -1,0 +1,51 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Login - TimeGuardian
+
+INICIO -[#green]-> inicioDeSesión 
+note on link
+  **Usuario solicita:**
+  - Inicio de sesión
+end note
+
+state inicioDeSesión {
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema requiere:**
+      - Usuario/Correo
+      - Contraseña
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Usuario aporta:**
+    - Usuario/Correo
+    - Contraseña
+  end note
+  3 -[#red]-> 1
+  note on link
+    [usuario y contraseña inexistentes]
+  end note
+  3 -[#green]-> [*]
+}
+
+inicioDeSesión -[#green]-> CARGAR_PÁGINA_INICIO
+
+CARGAR_PÁGINA_INICIO-[#green]-> PáGINA_INICIO
+
+@enduml
