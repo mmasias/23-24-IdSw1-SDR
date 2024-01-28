@@ -7,10 +7,12 @@ title Casos de Uso
 Usuario --> (verFichajeDiario)
 Usuario --> (verInforme)
 
-Administrador --> (crearUsuarios)
+
+Administrador --> (Usuario)
+Administrador --> (AñadirUsuarios)
 Administrador --> (verUsuarios)
 Administrador --> (editarUsuarios)
 Administrador --> (bajaDeUsuarios)
-Administrador --> (verInforme)
+
 
 @enduml
