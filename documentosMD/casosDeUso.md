@@ -104,11 +104,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 <details>
 <summary>Detalle de Página principal</summary>
 
-#### - Nuevo Proyecto
+#### - Crear Proyecto
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevoProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevoProyecto.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoCrearProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoCrearProyecto.puml) |
 
 #### - Abrir Proyecto
 
@@ -133,11 +133,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 <details>
 <summary>Detalle de Página proyecto</summary>
 
-#### - Nueva Simulación
+#### - Crear Simulación
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoNuevaSimulacion.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoCrearSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoCrearSimulacion.puml) |
 
 #### - Abrir Simulación
 
