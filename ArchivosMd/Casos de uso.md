@@ -90,13 +90,13 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20inicio%20de%20sesi%C3%B3n.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Inicio%20de%20sesi%C3%B3n.puml) |
 
 #### - Registrar Usuario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Registro%20Usuario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20Registro%20usuario.puml) |
 
 #### - Nuevo Proyecto
 
