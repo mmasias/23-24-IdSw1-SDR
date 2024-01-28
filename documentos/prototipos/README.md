@@ -9,17 +9,17 @@ Este apartado presenta los prototipos de las interfaces de usuario, reflejando l
 ## Vistas Específicas
 Los prototipos de las vistas específicas ilustran la interfaz de usuario para distintas funcionalidades del sistema.
 
-###Login
+### Login
 
 
 
-###Ver Fichaje Diario
+### Ver Fichaje Diario
 
 ![Ver Fichaje Diario](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png)
 
 
 
-###Ver Informe
+### Ver Informe
 
 | Tipo de Informe | Imagen |
 | --- | --- |
@@ -30,7 +30,7 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 
 
 
-###Ver Usuarios
+### Ver Usuarios
 
 | Vista | Imagen |
 | --- | --- |
@@ -39,16 +39,16 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 
 
 
-###Crear Usuarios
+### Crear Usuarios
 
 ![Crear Usuario](../../imagenes/prototipos/usuarios/crearUsuario.png)
 
-###Editar Usuarios
+### Editar Usuarios
 
 ![Editar Usuario](../../imagenes/prototipos/usuarios/editarUsuario.png)
 
 
-###Baja de Usuarios
+### Baja de Usuarios
 
 | Paso | Imagen |
 | --- | --- |
@@ -61,7 +61,7 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 ## SiteMap por Actores
 Se presenta el mapa de navegación de las vistas por actores.
 
-###Usuario
+### Usuario
 
 ![Diagrama de Flujo Usuario](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png)
 
