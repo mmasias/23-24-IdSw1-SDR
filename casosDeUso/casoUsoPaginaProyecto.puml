@@ -8,7 +8,7 @@ actor Usuario as user
 
 rectangle "FISC Pagina Proyecto" {
     usecase "Abrir Simulacion" as abrirSimulacion
-    usecase "Nueva Simulacion" as nuevaSimulacion
+    usecase "Crear Simulacion" as nuevaSimulacion
     usecase "Ver Reporte" as verReporte
 }
 
