@@ -10,13 +10,12 @@ Este documento describe los objetos principales de nuestro dominio, que incluyen
 ## Diagrama de Clases
 El Diagrama de Clases ayuda a comprender las entidades del sistema y sus relaciones.
 
-<details>
-<summary>Ver Diagrama de Clases</summary>
+
 
 ![Diagrama de Clases](../../imagenes/modeloDelDominio/diagramaClases/mdd004.svg)
 - [Código PUML](../../modelosUML/modeloDominio/diagramaClases.puml)
 
-</details>
+
 
 -----
 
