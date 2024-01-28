@@ -1,0 +1,7 @@
+@startuml
+left to right direction
+actor "TimeGuardian" as A
+usecase "AsignaturaCreada" as UC1
+A --> UC1 : Nombre/Grado
+A --> UC1 : Importación externa
+@enduml
