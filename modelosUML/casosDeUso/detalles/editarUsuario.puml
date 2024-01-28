@@ -3,7 +3,7 @@ skin rose
 title Caso de Uso: Editar Usuario
 
 state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
-state ListaUsuarios as "Lista de Usuarios"
+state ListaUsuarios as "Ver usuarios"
 state SeleccionarUsuario <<choice>>
 state ModificarDetallesUsuario as "Modificar Detalles del Usuario"
 state ConfirmarCambios <<choice>>

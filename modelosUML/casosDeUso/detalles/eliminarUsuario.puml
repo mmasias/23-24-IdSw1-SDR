@@ -3,7 +3,7 @@ skin rose
 title Caso de Uso: Baja de Usuarios
 
 state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
-state ListaUsuariosBaja as "Lista de Usuarios para Baja"
+state ListaUsuariosBaja as "Ver usuarios"
 state SeleccionarUsuarioBaja <<choice>>
 state ConfirmarEliminarUsuario as "Confirmar Eliminación del Usuario"
 state BajaUsuarioFinalizada <<choice>>
