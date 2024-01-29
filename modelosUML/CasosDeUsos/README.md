@@ -134,6 +134,6 @@ En este apartado se mostrará
 
 </details>
 
-<br>
+## [Prototipos de Interfaz de Usuario](/imagenes/interfaces/README.md)
 
 [Regresar](/README.md)
