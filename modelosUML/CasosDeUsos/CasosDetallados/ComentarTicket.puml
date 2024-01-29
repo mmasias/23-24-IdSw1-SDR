@@ -5,19 +5,28 @@ title Caso de Uso: Comentar Ticket
 state DASHBOARD_ABIERTO
 state VER_TICKET
 state FILTRAR_TICKETS
+state OPEN_TICKET
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 note on link: **El usuario solicita** filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket
 VER_TICKET --> ComentarTicket
+ComentarTicket --> OPEN_TICKET
+OPEN_TICKET --> VER_TICKET
 
 state ComentarTicket {
 
   [*] -[#blue]-> comentarTicket
-  state "Hacer comentario a un ticket" as comentarTicket
+note on link
+  **El sistema muestra**: 
+  ° Campo de texto para comentar
+  **El usuario introduce**: 
+  ° Un comentario
+end note
+  state "Hacer" as comentarTicket
   comentarTicket -[#blue]-> confirmarComentario
-  state "Confirmar comentario a un ticket" as confirmarComentario
+  state "Confirmar" as confirmarComentario
   confirmarComentario -[#blue]-> [*]
   note on link: **El usuario solicita** comentar un ticket
     
@@ -26,14 +35,6 @@ state ComentarTicket {
     
 }
 
-note left of comentarTicket
-  **El sistema muestra**: 
-  ° Campo de texto para comentar
-end note
 
-note left of comentarTicket
-  **El usuario introduce**: 
-  ° Un comentario
-end note
 
 @enduml
