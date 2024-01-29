@@ -25,14 +25,14 @@ object "aula2 : Aula" as aula2 {
 }
 
 object "asignacionDocenteAsignatura : Asignacion" as asignacionDocenteAsignatura {
-    docente = ""
-    asignatura = ""
+    docente = "Manuel Masias"
+    asignatura = "Programación I"
 }
 gestorDeHorarios -r-> asignacionDocenteAsignatura : "Asigna >\n\n"
 
 object "asignacionAulaAsignatura : Asignacion" as asignacionAulaAsignatura {
-    asignatura = ""
-    aula = ""
+    asignatura = "Programación I"
+    aula = "-2.6"
 }
 gestorDeHorarios -r-> asignacionAulaAsignatura : "Asigna >\n\n"
 
