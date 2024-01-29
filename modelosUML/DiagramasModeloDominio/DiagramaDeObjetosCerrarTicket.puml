@@ -9,7 +9,7 @@ object "admin1 : admin" as usuario{
 
 }
 object "ticket1 : ticket" as ticket{
-    etiqueta:"Critica"
+    etiqueta:"Crítica"
     fecha:"12/01/2021-2:00PM"
     estado:"Resuelto"
 }

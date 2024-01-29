@@ -37,4 +37,9 @@ A continuación, se muestra la documentación que resulta fundamental para compr
 |![Imagen](/imagenes/modelosUML/DiagramaActicidad.svg)|[Código UML](/modelosUML/DiagramaActividades/DiagramaDeActividad.puml)|
 
 
+## [Prototipos de Interfaz de Usuario](/imagenes/interfaces/README.md)
+
+
+## [Glosario](/modelosUML/README.md)
+
 [Regresar](/README.md)
