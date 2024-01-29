@@ -2,18 +2,17 @@
 skin rose
 title Caso de Uso: Filtrar Tickets
 
-state DASHBOARD_ABIERTO
+state "DASHBOARD_ABIERTO" as DASHBOARD_ABIERTO2
 DASHBOARD_ABIERTO --> FiltrarTickets
-state OPEN_TICKETS
-DASHBOARD_ABIERTO--> OPEN_TICKETS
-FiltrarTickets --> OPEN_TICKETS
+FiltrarTickets --> DASHBOARD_ABIERTO2
+
 state FiltrarTickets {
 
 
   [*] -[#blue]-> verlistadoTickets
-  state "Ver listado de tickets" as verlistadoTickets
+  state "Ver" as verlistadoTickets
   verlistadoTickets -[#blue]-> confirmarFiltrado
-  state "Aplicar filtro" as confirmarFiltrado
+  state "Aplicar" as confirmarFiltrado
   confirmarFiltrado -[#blue]-> listadoFiltrado
   note on link 
   **El sistema permite**:
@@ -25,7 +24,7 @@ state FiltrarTickets {
    **El usuario introduce**:
   ° Propiedad de ticket para filtrar
 end note
-  state "Ver listado de tickets filtrados" as listadoFiltrado
+  state "Ver" as listadoFiltrado
   listadoFiltrado -[#blue]-> [*]
  
     

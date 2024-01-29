@@ -2,26 +2,25 @@
 skin rose
 title Caso de Uso: Crear Ticket
 
-state DASHBOARD_ABIERTO
-state OPEN_TICKETS 
+state "DASHBOARD_ABIERTO" as DASHBOARD_ABIERTO2
+
 DASHBOARD_ABIERTO --> CrearTicket
-note on link: **El usuario** solicita crear un ticket
-CrearTicket --> OPEN_TICKETS 
-OPEN_TICKETS --> DASHBOARD_ABIERTO 
+CrearTicket --> DASHBOARD_ABIERTO2
 
 
 state CrearTicket {
   [*] -[#blue]-> seleccionarOpcionCrear
-  state "Seleccionar opción 'Crear Ticket'" as seleccionarOpcionCrear
+  state "Seleccionar'" as seleccionarOpcionCrear
   seleccionarOpcionCrear -[#blue]-> ingresarDetallesTicket
 note on link
   **El sistema requiere**:
   ° Seleccionar la opción 'Crear Ticket' en la lista de ticket
 end note
-  state "Ingresar detalles del nuevo ticket" as ingresarDetallesTicket
+  state "Ingresar" as ingresarDetallesTicket
   ingresarDetallesTicket -[#blue]-> confirmarCreacionTicket
+  note on link: **El usuario** solicita crear un ticket
 
-  state "Confirmar creación del ticket" as confirmarCreacionTicket
+  state "Confirmar " as confirmarCreacionTicket
   confirmarCreacionTicket -[#blue]-> [*]
   note on link: **El usuario solicita** confirmar la creación
   
