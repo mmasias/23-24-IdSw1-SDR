@@ -3,7 +3,7 @@ skin rose
 title Caso de Uso: Consultar Historial
 
 state DASHBOARD_ABIERTO
-state OPEN_TICKET
+state "VER_TICKET" as VER_TICKET2
 
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
@@ -11,8 +11,8 @@ note on link: **El usuario solicita** filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket
 VER_TICKET --> ConsultarHistorial
-ConsultarHistorial --> OPEN_TICKET
-OPEN_TICKET --> VER_TICKET
+ConsultarHistorial --> VER_TICKET2
+
 
 
 state ConsultarHistorial {

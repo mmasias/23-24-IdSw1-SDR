@@ -3,7 +3,7 @@ skin rose
 title Caso de Uso: Modificar Ticket 
 
 state DASHBOARD_ABIERTO
-state VER_TICKET
+state "VER_TICKET" as VER_TICKET2
 state FILTRAR_TICKETS
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
@@ -11,8 +11,8 @@ note on link: **El usuario** solicita filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario** solicita ver un ticket
 VER_TICKET --> ModificarTicket
-ModificarTicket --> OPEN_TICKET
-OPEN_TICKET --> VER_TICKET
+ModificarTicket --> VER_TICKET2
+
 
 state ModificarTicket {
 
