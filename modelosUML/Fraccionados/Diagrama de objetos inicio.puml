@@ -26,10 +26,21 @@ object "asignatura2 : Asignatura" as asignatura2 {
 
 object "recibiendoAulas" as recibiendoAulas {
 }
+note right of recibiendoAulas
+  Se reciben todas las aulas
+end note
+
 object "recibiendoDocentes" as recibiendoDocentes {
 }
+note right of recibiendoDocentes
+  Se reciben todos los docentes
+end note
+
 object "recibiendoAsignaturas" as recibiendoAsignaturas {
 }
+note right of recibiendoAsignaturas
+  Se reciben todas las asignaturas
+end note
 
 aula1 -r-> recibiendoAulas
 aula2 -r-> recibiendoAulas
