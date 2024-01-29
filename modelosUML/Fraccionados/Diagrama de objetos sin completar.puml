@@ -1,5 +1,4 @@
 @startuml
-
 object "gestorDeHorarios : David" as gestorDeHorarios {
     rol = "Crear Horario"
 }
@@ -20,11 +19,9 @@ object "docente2 : Docente" as docente2 {
 
 object "aula1 : Aula" as aula1 {
     numero = "-2.6"
-    disponible = Si
 }
 object "aula2 : Aula" as aula2 {
     numero = "1.3"
-    disponible = Si
 }
 
 object "asignacionDocenteAsignatura : Asignacion" as asignacionDocenteAsignatura {
@@ -46,15 +43,15 @@ object "horario : Horario" as horario {
     asignatura = ""
 }
 
-note "Se reciben todas las \nasignaturas de cada grado" as nota1
+note "Todas las asignaturas\nrecibidas previamente" as nota1
 asignatura1 .r. nota1
 nota1 .r. asignatura2
 
-note "Se reciben todos los\ndocentes de cada grado" as nota2
+note "Todos los docentes\nrecibidos previamente" as nota2
 docente1 .r. nota2
 nota2 .r. docente2
 
-note "Verifica todas las\naulas de la universidad" as nota3
+note "Todas las aulas\nrecibidas previamente " as nota3
 aula1 .r. nota3
 nota3 .r. aula2
 
@@ -68,5 +65,4 @@ note "Se elige el día y las horas en \nen las que se va a impartir la asignatur
 note6 .r. horario
 
 gestorDeHorarios -u-> horario : "Crea >"
-
 @enduml
