@@ -11,24 +11,21 @@ note on link: **El usuario** solicita filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario** solicita ver un ticket
 VER_TICKET --> ModificarTicket
+ModificarTicket --> OPEN_TICKET
+OPEN_TICKET --> VER_TICKET
 
 state ModificarTicket {
 
   [*] -[#blue]-> modificarTicket
-  note on link: **El usuario** solicita modificar un ticket
-  state "Modificar propiedades del ticket" as modificarTicket
+  note on link 
+**El usuario** solicita modificar un ticket
+**El usuario** introduce los datos a modificar
+end note
+  state "Modificar" as modificarTicket
   modificarTicket -[#blue]-> confirmarCambios
-  state "Confirmar cambios del ticket" as confirmarCambios
-  confirmarCambios -[#blue]-> [*]
-  note on link: **El usuario** solicita cambiar un ticket
-  confirmarCambios -[#red]-> [*]
-  note on link: **El usuario** solicita cancelar el cambio
-    
-}
-
-
-note left of modificarTicket
-  **El sistema** permite modificar: 
+  state "Confirmar" as confirmarCambios
+note on link
+ **El sistema** permite modificar: 
   ° Estado
   ° Prioridad
   ° Titulo
@@ -37,8 +34,12 @@ note left of modificarTicket
   ° Archivos Adjuntos
 end note
 
-note right of modificarTicket
-  **El usuario** introduce los datos a modificar
-end note
+  confirmarCambios -[#blue]-> [*]
+  note on link: **El usuario** solicita cambiar un ticket
+  confirmarCambios -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar el cambio
+    
+}
+
 
 @enduml

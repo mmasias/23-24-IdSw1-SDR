@@ -3,6 +3,7 @@ skin rose
 title Caso de Uso: Consultar Historial
 
 state DASHBOARD_ABIERTO
+state OPEN_TICKET
 
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
@@ -10,18 +11,22 @@ note on link: **El usuario solicita** filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket
 VER_TICKET --> ConsultarHistorial
+ConsultarHistorial --> OPEN_TICKET
+OPEN_TICKET --> VER_TICKET
+
 
 state ConsultarHistorial {
   [*] -[#blue]-> visualizarHistorial
   note on link: **El usuario solicita** visualizar historial
-  state "Visualizar Historial" as visualizarHistorial
+  state "Visualizar" as visualizarHistorial
   visualizarHistorial -[#blue]-> [*]
-}
-
-note right of visualizarHistorial
+note on link
   **El sistema muestra**
   Todos los cambios que ha sufrido el ticket
 end note
+}
+
+
 
 
 @enduml

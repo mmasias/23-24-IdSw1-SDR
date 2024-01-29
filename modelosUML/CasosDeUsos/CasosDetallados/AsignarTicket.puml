@@ -5,37 +5,35 @@ title Caso de Uso: Asignar Ticket
 state DASHBOARD_ABIERTO
 state VER_TICKET
 state FILTRAR_TICKETS
-
+state OPEN_TICKET
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
-note on link: **El usuario solicita** filtrar por propiedad de ticket
+note on link: *El usuario solicita* filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
-note on link: **El usuario solicita** ver un ticket
+note on link: *El usuario solicita* ver un ticket
 VER_TICKET --> AsignarTicket
+AsignarTicket --> OPEN_TICKET
+OPEN_TICKET --> VER_TICKET
 
 state AsignarTicket {
 
   [*] -[#blue]-> ingresarVerTicket
-  note on link: **El usuario solicita** asignar responsable
-  state "Asignar Responsable" as ingresarVerTicket
+  note on link: *El usuario solicita* asignar responsable
+  state "Asignar " as ingresarVerTicket
   ingresarVerTicket -[#blue]-> confirmarAsignacion
-  state "Confirmación de asignación" as confirmarAsignacion
-  confirmarAsignacion -[#blue]-> [*]
-  note on link: **El usuario solicita** confirmar la asignación
-    
-  confirmarAsignacion -[#red]-> [*]
-  note on link: **El usuario solicita** cancelar la asignación
-    
-}
-
-note left of ingresarVerTicket
-  **El sistema muestra**: 
+note on link 
+*El usuario solicita*: 
+  ° Introducir desarrollador
+*El sistema muestra*: 
   ° Lista de desarrolladores
 end note
+  state "Confirmar" as confirmarAsignacion
+  confirmarAsignacion -[#blue]-> [*]
+  note on link: *El usuario solicita* confirmar la asignación
+    
+  confirmarAsignacion -[#red]-> [*]
+  note on link: *El usuario solicita* cancelar la asignación
 
-note left of ingresarVerTicket
-  **El usuario solicita**: 
-  ° Introducir desarrollador 
-end note
-
+    
+}
 @enduml
