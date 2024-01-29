@@ -31,22 +31,22 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 ## Enlaces Clave➡️
 
 
-- **[Reuniones con el cliente]():** Reuniones realizadas con el cliente a lo largo del proyecto.
+- **[Reuniones con el cliente](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones):** Reuniones realizadas con el cliente a lo largo del proyecto.
 
 - **[Modelo de Dominio]():** Conjunto de modelos expicativos de TimeGuardian.
     - Diagrama de Clases
     - Diagrama de Estados
     - Diagrama de Objetos
 
-- **[Casos de Uso]():** Practica que demuestra la funcionalidad de TimeGuardian en la creación de horarios.
+- **[Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Casos%20de%20uso.md):** Practica que demuestra la funcionalidad de TimeGuardian en la creación de horarios.
     - Actores y casos de uso
     - Detalles de los casos de uso
     - Diagrama de contexto
 
-- **[Interfaz FISC]():** MockUp de las diferentes pantallas que encontraremos en TimeGuardian.
+- **[Interfaz FISC](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Mockup.md):** MockUp de las diferentes pantallas que encontraremos en TimeGuardian.
     - Vista interfaz
 
-- **[Información Adicional]():** Información complementaria al proyecto, donde podemos encontrar el logo de la aplicación.
+- **[Información Adicional](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Logo/TimeGuardian%20Logo.png):** Información complementaria al proyecto, donde podemos encontrar el logo de la aplicación.
     - Logo de la Aplicación
 
 
