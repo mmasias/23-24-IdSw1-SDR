@@ -8,7 +8,7 @@ Usuario --> (verFichajeDiario)
 Usuario --> (verInforme)
 
 
-Administrador --> (Usuario)
+Administrador -up-|> Usuario
 Administrador --> (AñadirUsuarios)
 Administrador --> (verUsuarios)
 Administrador --> (editarUsuarios)
