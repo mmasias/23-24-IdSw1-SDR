@@ -28,12 +28,26 @@ También diseñado para la gestión eficiente de espacios físicos, en este caso
 Todos los cambios realizados en el sistema se guardan de manera segura y eficiente, asegurando que la información del horario esté actualizada y sea accesible para el administrador de horarios.
 
 
-## Enlace➡️
+## Enlaces Clave➡️
 
 
-- [Modelo de dominio](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/ModelosUML.md)
-- [Casos de Uso](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Casos%20de%20uso.md)
-- [Sesiones](https://github.com/hugofresno20/23-24-IdSw1-SDR/tree/main/Sesiones)
+- **[Reuniones con el cliente]():** Reuniones realizadas con el cliente a lo largo del proyecto.
+
+- **[Modelo de Dominio]():** Conjunto de modelos expicativos de TimeGuardian.
+    - Diagrama de Clases
+    - Diagrama de Estados
+    - Diagrama de Objetos
+
+- **[Casos de Uso]():** Practica que demuestra la funcionalidad de TimeGuardian en la creación de horarios.
+    - Actores y casos de uso
+    - Detalles de los casos de uso
+    - Diagrama de contexto
+
+- **[Interfaz FISC]():** MockUp de las diferentes pantallas que encontraremos en TimeGuardian.
+    - Vista interfaz
+
+- **[Información Adicional]():** Información complementaria al proyecto, donde podemos encontrar el logo de la aplicación.
+    - Logo de la Aplicación
 
 
 ---
