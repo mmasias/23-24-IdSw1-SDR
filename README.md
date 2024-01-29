@@ -43,7 +43,7 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
     - Detalles de los casos de uso
     - Diagrama de contexto
 
-- **[Interfaz FISC](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Mockup.md):** MockUp de las diferentes pantallas que encontraremos en TimeGuardian.
+- **[Interfaz](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/ArchivosMd/Mockup.md):** MockUp de las diferentes pantallas que encontraremos en TimeGuardian.
     - Vista interfaz
 
 - **[Información Adicional](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Logo/TimeGuardian%20Logo.png):** Información complementaria al proyecto, donde podemos encontrar el logo de la aplicación.
