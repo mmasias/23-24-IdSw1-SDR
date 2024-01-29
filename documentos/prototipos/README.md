@@ -11,7 +11,7 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 
 ### Login
 
-
+![Login](../../imagenes//prototipos/login/login.png)
 
 ### Ver Fichaje Diario
 
