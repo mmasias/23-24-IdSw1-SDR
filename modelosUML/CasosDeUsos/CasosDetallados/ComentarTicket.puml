@@ -5,15 +5,15 @@ title Caso de Uso: Comentar Ticket
 state DASHBOARD_ABIERTO
 state VER_TICKET
 state FILTRAR_TICKETS
-state OPEN_TICKET
+state "VER_TICKET" as OPEN_TICKET2
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 note on link: **El usuario solicita** filtrar por propiedad de ticket
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket
 VER_TICKET --> ComentarTicket
-ComentarTicket --> OPEN_TICKET
-OPEN_TICKET --> VER_TICKET
+ComentarTicket --> OPEN_TICKET2
+
 
 state ComentarTicket {
 
@@ -34,7 +34,5 @@ end note
   note on link: **El usuario** solicita cancelar la operación
     
 }
-
-
 
 @enduml

@@ -5,15 +5,15 @@ title Caso de Uso: Cerrar Ticket
 state DASHBOARD_ABIERTO
 state VER_TICKET
 state FILTRAR_TICKETS
-state OPEN_TICKET
+state "DASHBOARD_ABIERTO" as DASHBOARD_ABIERTO2
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 note on link: **El usuario solicita** filtrar por estado resuelto
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket resuelto
 VER_TICKET --> CerrarTicket
-CerrarTicket --> OPEN_TICKET
-OPEN_TICKET --> VER_TICKET
+CerrarTicket --> DASHBOARD_ABIERTO2
+
 
 state CerrarTicket {
 
@@ -32,12 +32,6 @@ end note
     
   confirmarCierre -[#red]-> [*]
   note on link: **El usuario** solicita cancelar la operación
-
-
-
-    
+   
 }
-
-
-
 @enduml
