@@ -1,4 +1,4 @@
-# Documentación TiCKET 📋
+# Modelo del Dominio - TiCKET 📋
 
 A continuación, se muestra la documentación que resulta fundamental para comprender el sistema TiCKET.
 
@@ -11,13 +11,13 @@ A continuación, se muestra la documentación que resulta fundamental para compr
 
 ## Diagrama de Objetos
 
-### Diagrama de Objetos (Crear Ticket)
+### Crear Ticket
 
 | Imagen | Código |
 |--------|--------|
 |![Imagen](/imagenes/modelosUML/DiagramaObjetosCrearTicket.svg)|[Código UML](/modelosUML/DiagramasModeloDominio/DiagramaDeObjetosCrearTicket.puml)|
 
-### Diagrama de Objetos (Cerrar Ticket)
+### Cerrar Ticket
 
 | Imagen | Código |
 |--------|--------|
