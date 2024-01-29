@@ -1,4 +1,4 @@
-@startuml
+@startuml eliminarUsuario
 skin rose
 title Caso de Uso: Baja de Usuarios
 
@@ -10,9 +10,9 @@ state BajaUsuarioFinalizada <<choice>>
 
 [*] -d-> DASHBOARD_ABIERTO
 DASHBOARD_ABIERTO -d[#blue]-> ListaUsuariosBaja : El sistema muestra la lista de Usuarios para baja
-ListaUsuariosBaja -d[#blue]-> SeleccionarUsuarioBaja : El usuario busca y selecciona usuario
+ListaUsuariosBaja -d[#blue]-> SeleccionarUsuarioBaja : El administrador busca y selecciona usuario
 SeleccionarUsuarioBaja -r[#blue]-> ConfirmarEliminarUsuario : [Usuario seleccionado para baja]
-ConfirmarEliminarUsuario -d[#blue]-> BajaUsuarioFinalizada : El usuario confirma la baja del usuario
+ConfirmarEliminarUsuario -d[#blue]-> BajaUsuarioFinalizada : El administrador confirma la baja del usuario
 BajaUsuarioFinalizada -r[#blue]-> DASHBOARD_ABIERTO : [Baja de usuario finalizada]
 SeleccionarUsuarioBaja -l[#red]-> DASHBOARD_ABIERTO : [Eliminación cancelada]
 ConfirmarEliminarUsuario -l[#red]-> SeleccionarUsuarioBaja : [Edición cancelada]

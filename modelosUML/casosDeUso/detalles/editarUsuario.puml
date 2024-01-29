@@ -1,4 +1,4 @@
-@startuml
+@startuml editarUsuario
 skin rose
 title Caso de Uso: Editar Usuario
 
@@ -12,7 +12,7 @@ state ConfirmarCambios <<choice>>
 DASHBOARD_ABIERTO -d[#blue]-> ListaUsuarios : El sistema muestra la lista de Usuarios
 ListaUsuarios -d[#blue]-> SeleccionarUsuario : El administrador introduce usuario
 SeleccionarUsuario -r[#blue]-> ModificarDetallesUsuario : [Usuario seleccionado]
-ModificarDetallesUsuario -d[#blue]-> ConfirmarCambios : El usuario introduce cambios
+ModificarDetallesUsuario -d[#blue]-> ConfirmarCambios : El administrador introduce cambios
 ConfirmarCambios -r[#blue]-> DASHBOARD_ABIERTO : [Cambios confirmados]
 ConfirmarCambios -l[#red]-> ModificarDetallesUsuario : [Edición cancelada]
 SeleccionarUsuario -l[#red]-> DASHBOARD_ABIERTO : [Edición cancelada]

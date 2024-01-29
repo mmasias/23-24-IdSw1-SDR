@@ -75,7 +75,7 @@ Este documento presenta los casos de uso identificados para nuestro proyecto, cl
 ---
 
 ### Baja de usuarios
-![](../../imagenes/casosDeUso/detalles/darBajaUsuario.svg)  
+![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg)  
 [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml)
 
 ---
