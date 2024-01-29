@@ -5,35 +5,39 @@ title Caso de Uso: Cerrar Ticket
 state DASHBOARD_ABIERTO
 state VER_TICKET
 state FILTRAR_TICKETS
+state OPEN_TICKET
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 note on link: **El usuario solicita** filtrar por estado resuelto
 FILTRAR_TICKETS --> VER_TICKET
 note on link: **El usuario solicita** ver un ticket resuelto
 VER_TICKET --> CerrarTicket
+CerrarTicket --> OPEN_TICKET
+OPEN_TICKET --> VER_TICKET
 
 state CerrarTicket {
 
   [*] -[#blue]-> ingresarVerTicket
-  state "Cambiar estado a cerrado" as ingresarVerTicket
+note on link
+**El sistema muestra**: 
+  ° Lista de estados
+  **El usuario solicita**: 
+  ° Cambiar el estado a cerrado
+end note
+  state "Cambiar" as ingresarVerTicket
   ingresarVerTicket -[#blue]-> confirmarCierre
-  state "Confirmar cierre de ticket" as confirmarCierre
+  state "Confirmar" as confirmarCierre
   confirmarCierre -[#blue]-> [*]
   note on link: **El usuario** solicita cerrar ticket
     
   confirmarCierre -[#red]-> [*]
   note on link: **El usuario** solicita cancelar la operación
+
+
+
     
 }
 
-note left of ingresarVerTicket
-  **El sistema muestra**: 
-  ° Lista de estados
-end note
 
-note left of ingresarVerTicket
-  **El usuario solicita**: 
-  ° Cambiar el estado a cerrado
-end note
 
 @enduml

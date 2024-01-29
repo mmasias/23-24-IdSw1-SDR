@@ -4,21 +4,25 @@ title Caso de Uso: Ver Ticket
 
 state DASHBOARD_ABIERTO
 state FILTRAR_TICKETS
+state OPEN_TICKETS
 
 DASHBOARD_ABIERTO --> FILTRAR_TICKETS
 FILTRAR_TICKETS --> VER_TICKET
+VER_TICKET --> OPEN_TICKETS
+OPEN_TICKETS --> FILTRAR_TICKETS
 
 state VER_TICKET {
-
-  [*] -[#blue]-> seleccionarOpcionVer
+[*] -[#blue]-> seleccionarOpcionVer
   note on link : **El usuario** solicita seleccionar un ticket
-  state "Seleccionar opción 'Ver Ticket'" as seleccionarOpcionVer
+  state "Seleccionar" as seleccionarOpcionVer
   seleccionarOpcionVer -[#blue]-> [*]
-}
 
-note left of seleccionarOpcionVer
+note on link 
   **El sistema muestra**: 
   ° El ticket seleccionado
 end note
+  
+}
+
 
 @enduml

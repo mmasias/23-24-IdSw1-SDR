@@ -12,7 +12,7 @@ Este repositorio contiene toda la documentación y recursos necesarios para el d
 
 -  [Modelo Del Dominio](/modelosUML/DiagramasModeloDominio/README.md)
 
-- [Actores y Caso De Uso](/modelosUML/CasosDeUsos/README.md)
+- [Caso De Uso](/modelosUML/CasosDeUsos/README.md)
 
 - [Prototipos de interfaz de usuario](/modelosUML/CasosDeUsos/README.md)
 

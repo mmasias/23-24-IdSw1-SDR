@@ -28,10 +28,10 @@ class informe{
 
 class proyecto
 
-usuario *-- rol
-usuario -- ticket
-ticket .. proyecto
-ticket *-- historial
+usuario -- rol
+ticket-- usuario
+ticket -- proyecto
+ticket -- historial
 
 ticket -d- informe : > permite generar
 
