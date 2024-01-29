@@ -2,7 +2,7 @@
 
 A continuación, se muestra la documentación que resulta fundamental para comprender el sistema TiCKET.
 
-## Modelo del Dominio
+## Diagrama de clases
 
 | Imagen | Código |
 |--------|--------|
@@ -22,20 +22,6 @@ A continuación, se muestra la documentación que resulta fundamental para compr
 | Imagen | Código |
 |--------|--------|
 |![Imagen](/imagenes/modelosUML/DiagramaObjetosCerrarTicket.svg)|[Código UML](/modelosUML/DiagramasModeloDominio/DiagramaDeObjetosCerrarTicket.puml)|
-
-## Diagrama de Contexto
-
-### Diagrama de Contexto (Admin)
-
-| Imagen | Código |
-|--------|--------|
-|![Imagen](/imagenes/modelosUML/DiagramaContextoAdmin.svg)|[Código UML](/modelosUML/DiagramaDeContexto/DiagramaDeContextoAdmin.puml)|
-
-### Diagrama de Contexto (Usuario)
-
-| Imagen | Código |
-|--------|--------|
-|![Imagen](/imagenes/modelosUML/DiagramaContextoUsuario.svg)|[Código UML](/modelosUML/DiagramaDeContexto/DiagramaDeContextoUsuario.puml)|
 
 ## Diagrama de Estados
 
