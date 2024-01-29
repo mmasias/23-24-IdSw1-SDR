@@ -3,13 +3,13 @@
 title Diagrama de Objetos Crear Ticket
 
 object "usuario1 : usuario" as usuario{
-    nombre:"Barbara"
+    nombre:"Bárbara"
     contraseña:"1234"
     correo:"barbara@alumnos.com"
 
 }
 object "ticket1 : ticket" as ticket{
-    etiqueta:"Critica"
+    etiqueta:"Crítica"
     fecha:"12/12/2020-12:00PM"
     estado:"Pendiente"
 }

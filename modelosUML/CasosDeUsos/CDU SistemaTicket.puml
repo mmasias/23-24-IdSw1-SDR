@@ -8,18 +8,17 @@ actor Administrador as Admin
 actor Desarrollador as Dev
 
 rectangle SistemaTicket {
-   Usuario -- (Ver Ticket)
-     Dev -- (Comentar Ticket)
-    Usuario -- (Crear Ticket)
-     Usuario -- (Filtrar Tickets)
-     JefeProyecto -- (Asignar Ticket)
-     JefeProyecto -- (Modificar Ticket)
-    Admin -- (Consultar Historial)
-     Admin -- (Exportar Informe)
-    Admin -- (Cerrar Ticket)
-Dev --|> Usuario
+Usuario -- (Ver Ticket)
+Dev -- (Comentar Ticket)
+Usuario -- (Crear Ticket)
+Usuario -- (Filtrar Tickets)
+JefeProyecto -- (Asignar Ticket)
+JefeProyecto -- (Modificar Ticket)
+Admin -- (Consultar Historial)
+Admin -- (Exportar Informe)
+Admin -- (Cerrar Ticket)
+Dev -l-|> Usuario
 JefeProyecto --|> Usuario
 Admin --|> JefeProyecto
 }
-
 @enduml
