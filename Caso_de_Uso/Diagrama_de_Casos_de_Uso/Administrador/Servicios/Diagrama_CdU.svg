@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="664px" preserveAspectRatio="none" style="width:360px;height:664px;background:#FFFFFF;" version="1.1" viewBox="0 0 360 664" width="360px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="342" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="332" x="10" y="24.5332">Estructura de los Casos de Uso (Administrador)</text><!--MD5=[3558f5497e9d89aef061cf9bb7df249a]
+cluster CRUDServicios--><g id="cluster_CRUDServicios"><path d="M158.5,44.6094 L269.5,44.6094 A3.75,3.75 0 0 1 272,47.1094 L279,68.2188 L337.5,68.2188 A2.5,2.5 0 0 1 340,70.7188 L340,336.1094 A2.5,2.5 0 0 1 337.5,338.6094 L158.5,338.6094 A2.5,2.5 0 0 1 156,336.1094 L156,47.1094 A2.5,2.5 0 0 1 158.5,44.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="156" x2="279" y1="68.2188" y2="68.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="160" y="61.1426">CRUD Servicios</text></g><!--MD5=[6a030e930e55ab3fed80196992fe8282]
+cluster CRUDPaquetes--><g id="cluster_CRUDPaquetes"><path d="M157.5,362.6094 L268.5,362.6094 A3.75,3.75 0 0 1 271,365.1094 L278,386.2188 L338.5,386.2188 A2.5,2.5 0 0 1 341,388.7188 L341,655.1094 A2.5,2.5 0 0 1 338.5,657.6094 L157.5,657.6094 A2.5,2.5 0 0 1 155,655.1094 L155,365.1094 A2.5,2.5 0 0 1 157.5,362.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="155" x2="278" y1="386.2188" y2="386.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="159" y="379.1426">CRUD Paquetes</text></g><g id="elem_Crear Servicio"><ellipse cx="247.8567" cy="97.6807" fill="#F1F1F1" rx="70.8567" ry="16.5713" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="199.8567" y="102.1973">Crear Servicio</text></g><g id="elem_Listar Servicios"><ellipse cx="248.0109" cy="166.6116" fill="#F1F1F1" rx="73.0109" ry="17.0022" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="197.0109" y="171.1282">Listar Servicios</text></g><g id="elem_Editar Servicio"><ellipse cx="248.2113" cy="235.7516" fill="#F1F1F1" rx="71.2113" ry="16.6423" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="199.7113" y="240.2682">Editar Servicio</text></g><g id="elem_Eliminar Servicio"><ellipse cx="247.9763" cy="304.7046" fill="#F1F1F1" rx="75.9763" ry="17.5953" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="193.0467" y="309.2051">Eliminar Servicio</text></g><g id="elem_Crear Paquete"><ellipse cx="247.9259" cy="415.3946" fill="#F1F1F1" rx="71.9259" ry="16.7852" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="198.4259" y="419.9112">Crear Paquete</text></g><g id="elem_Listar Paquete"><ellipse cx="248.0677" cy="484.8229" fill="#F1F1F1" rx="71.5677" ry="16.7135" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="199.0677" y="489.3395">Listar Paquete</text></g><g id="elem_Editar Paquete"><ellipse cx="247.7859" cy="553.4666" fill="#F1F1F1" rx="72.2859" ry="16.8572" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="197.7859" y="557.9832">Editar Paquete</text></g><g id="elem_Eliminar Paquete"><ellipse cx="248.1203" cy="623.4334" fill="#F1F1F1" rx="77.1203" ry="17.8241" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="192.2783" y="627.795">Eliminar Paquete</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="67.5" cy="330.1094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M67.5,338.1094 L67.5,365.1094 M54.5,346.1094 L80.5,346.1094 M67.5,365.1094 L54.5,380.1094 M67.5,365.1094 L80.5,380.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="24" y="396.1426">Administrador</text></g><!--MD5=[c3c47cad40e5695174e0e50470e08c10]
+link Administrador to Crear Servicio--><g id="link_Administrador_Crear Servicio"><path d="M81.91,321.4994 C104.33,256.0994 147,131.6094 147,131.6094 C147,131.6094 175.63,121.8794 202.25,112.8294 " fill="none" id="Administrador-to-Crear Servicio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="207.19,111.1494,197.3803,110.2716,202.4581,112.7648,199.965,117.8426,207.19,111.1494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5ef79b88bcd6df8fd01df01b07582278]
+link Administrador to Listar Servicios--><g id="link_Administrador_Listar Servicios"><path d="M87.9,321.3094 C111.15,274.2194 147,201.6094 147,201.6094 C147,201.6094 175.24,191.7294 201.7,182.4594 " fill="none" id="Administrador-to-Listar Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="206.61,180.7394,196.795,179.9238,201.8885,182.3848,199.4276,187.4783,206.61,180.7394" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e84ee6232aaaa04a6fe6bb5c48256d2b]
+link Administrador to Editar Servicio--><g id="link_Administrador_Editar Servicio"><path d="M102.25,321.4894 C123.52,296.8294 147,269.6094 147,269.6094 C147,269.6094 175.63,259.8794 202.25,250.8294 " fill="none" id="Administrador-to-Editar Servicio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="207.19,249.1494,197.3803,248.2716,202.4581,250.7648,199.965,255.8426,207.19,249.1494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[868a0cbea05833b562bab3bcd133c982]
+link Administrador to Eliminar Servicio--><g id="link_Administrador_Eliminar Servicio"><path d="M111.26,347.1994 C137.08,339.0894 170.12,328.7294 197.13,320.2494 " fill="none" id="Administrador-to-Eliminar Servicio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="202.1,318.6994,192.3147,317.5826,197.3301,320.1989,194.7139,325.2144,202.1,318.6994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c2f37c2b3424f647322ddcc3b45f7d4]
+link Administrador to Crear Paquete--><g id="link_Administrador_Crear Paquete"><path d="M111.26,373.7794 C137.47,381.8594 171.11,392.2294 198.35,400.6194 " fill="none" id="Administrador-to-Crear Paquete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="203.35,402.1594,195.9284,395.6848,198.572,400.6859,193.5709,403.3295,203.35,402.1594" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7a2bf7fd7722348faae9965f407bcb34]
+link Administrador to Listar Paquete--><g id="link_Administrador_Listar Paquete"><path d="M102.93,399.6494 C124.02,423.5594 147,449.6094 147,449.6094 C147,449.6094 176.02,459.7694 202.8,469.1394 " fill="none" id="Administrador-to-Listar Paquete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="207.76,470.8794,200.5712,464.1472,203.0369,469.2384,197.9457,471.7041,207.76,470.8794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a9d7abad8a4d656b57c3b3daebefe65c]
+link Administrador to Editar Paquete--><g id="link_Administrador_Editar Paquete"><path d="M87.9,399.6694 C111.15,446.4494 147,518.6094 147,518.6094 C147,518.6094 175.43,528.5594 201.98,537.8494 " fill="none" id="Administrador-to-Editar Paquete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="206.9,539.5794,199.7294,532.8279,202.1814,537.9257,197.0836,540.3777,206.9,539.5794" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f71c8a38419dd5fb211c82c893aaece2]
+link Administrador to Eliminar Paquete--><g id="link_Administrador_Eliminar Paquete"><path d="M81.99,399.6294 C104.44,464.5394 147,587.6094 147,587.6094 C147,587.6094 174.27,597.4294 200.33,606.8094 " fill="none" id="Administrador-to-Eliminar Paquete" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="205.17,608.5494,198.0672,601.7266,200.4681,606.8487,195.3461,609.2497,205.17,608.5494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[660db4ed88f0bed90a8835abf219130d]
+@startuml Diagrama_CdU
+
+title Estructura de los Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "CRUD Servicios" as CRUDServicios {
+    Administrador - -> (Crear Servicio)
+    Administrador - -> (Listar Servicios)
+    Administrador - -> (Editar Servicio)
+    Administrador - -> (Eliminar Servicio)
+}
+
+folder "CRUD Paquetes" as CRUDPaquetes {
+    Administrador - -> (Crear Paquete)
+    Administrador - -> (Listar Paquete)
+    Administrador - -> (Editar Paquete)
+    Administrador - -> (Eliminar Paquete)
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
