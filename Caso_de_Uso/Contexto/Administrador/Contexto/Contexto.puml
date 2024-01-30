@@ -9,32 +9,144 @@ skinparam {
 
 hide empty description
 
-[*] --> INICIAR_SESIÓN
-INICIAR_SESIÓN --> INICIO : Iniciar Sesión
+[*] --> INITIAL 
+INITIAL --> DASHBOARD_ABIERTO 
+note on link 
+Iniciar Sesión
+end note
+DASHBOARD_ABIERTO --> GESTIÓN_EGRESADOS_ABIERTO
+note on link 
+Listar Egresado
+end note  
+DASHBOARD_ABIERTO <-- GESTIÓN_EGRESADOS_ABIERTO
+note on link 
+Consultar Estadisticas
+end note  
+DASHBOARD_ABIERTO --> GESTIÓN_ADMINISTRADORES_ABIERTO
+note on link 
+Listar Administrador
+end note  
+DASHBOARD_ABIERTO <-- GESTIÓN_ADMINISTRADORES_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
+DASHBOARD_ABIERTO --> GESTIÓN_SERVICIOS_ABIERTO
+note on link 
+Listar Servicio
+end note  
+DASHBOARD_ABIERTO <-- GESTIÓN_SERVICIOS_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
+DASHBOARD_ABIERTO --> GESTIÓN_PAQUETES_ABIERTO
+note on link 
+Listar Paquetes
+end note  
+DASHBOARD_ABIERTO <-- GESTIÓN_PAQUETES_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
+DASHBOARD_ABIERTO --> CONFIGURACIÓN_ABIERTO
+note on link 
+Listar Datos Usuario
+end note  
+DASHBOARD_ABIERTO <-- CONFIGURACIÓN_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
+DASHBOARD_ABIERTO --> EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note  
+DASHBOARD_ABIERTO <-- EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
+DASHBOARD_ABIERTO --> SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+Realizar Petición
+end note  
+DASHBOARD_ABIERTO <-- SERVICIOS_ABIERTO
+note on link 
+Consultar Estadisticas
+end note
 
-INICIO -> GESTIÓN_EGRESADOS
-INICIO <- GESTIÓN_EGRESADOS
-INICIO -> ADMINISTRADORES
-INICIO <- ADMINISTRADORES
-INICIO -> GESTIÓN_SERVICIOS
-INICIO <- GESTIÓN_SERVICIOS
-INICIO -> GESTIÓN_PAQUETES
-INICIO <- GESTIÓN_PAQUETES
-INICIO -> CONFIGURACIÓN
-INICIO <- CONFIGURACIÓN
-INICIO -> EXPLORAR_SERVICIOS
-INICIO <- EXPLORAR_SERVICIOS
-INICIO -> SERVICIOS
-INICIO <- SERVICIOS
+GESTIÓN_EGRESADOS_ABIERTO --> GESTIÓN_EGRESADOS_ABIERTO
+note on link 
+Listar Egresado
+Crear Egresado
+Editar Egresado
+Eliminar Egresado
+end note
+GESTIÓN_ADMINISTRADORES_ABIERTO --> GESTIÓN_ADMINISTRADORES_ABIERTO
+note on link 
+Listar Administrador
+Crear Administrador
+Editar Administrador
+Eliminar Administrador
+end note
+GESTIÓN_SERVICIOS_ABIERTO --> GESTIÓN_SERVICIOS_ABIERTO
+note on link 
+Listar Servicio
+Crear Servicio
+Editar Servicio
+Eliminar Servicio
+end note
+GESTIÓN_PAQUETES_ABIERTO --> GESTIÓN_PAQUETES_ABIERTO
+note on link 
+Listar Paquetes
+Crear Paquetes
+Editar Paquetes
+Eliminar Paquetes
+end note
+CONFIGURACIÓN_ABIERTO --> CONFIGURACIÓN_ABIERTO
+note on link 
+Listar Datos Usuario
+Actualizar Datos Usuario
+end note
+EXPLORAR_SERVICIOS_ABIERTO --> EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Listar Servicio / Paquete
+Realizar Petición
+end note
+SERVICIOS_ABIERTO --> SERVICIOS_ABIERTO
+note on link 
+Listar Servicio / Paquete
+Realizar Petición
+end note
 
-INICIO --> [*] : Cerrar Sesión
-SERVICIOS --> [*] : Cerrar Sesión
-GESTIÓN_EGRESADOS --> [*] : Cerrar Sesión
-ADMINISTRADORES --> [*] : Cerrar Sesión
-GESTIÓN_SERVICIOS --> [*] : Cerrar Sesión
-GESTIÓN_PAQUETES --> [*] : Cerrar Sesión
-CONFIGURACIÓN --> [*] : Cerrar Sesión
-EXPLORAR_SERVICIOS --> [*] : Cerrar Sesión
-
+DASHBOARD_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note  
+SERVICIOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+GESTIÓN_EGRESADOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+GESTIÓN_ADMINISTRADORES_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+GESTIÓN_SERVICIOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+GESTIÓN_PAQUETES_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+CONFIGURACIÓN_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
+EXPLORAR_SERVICIOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note    
 
 @enduml

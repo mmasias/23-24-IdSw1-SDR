@@ -26,7 +26,7 @@
 
   - [Consultar Estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/)
 
-#### [Gestion Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios)
+#### [Gestión Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios)
 
   - [Crear Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Crear_Paquete/)
   
