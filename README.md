@@ -34,6 +34,17 @@ Es una plataforma que se encarga de conectar a estudiantes egresados de la red U
   - [Diagrama de Contexto](/Caso_de_Uso/Contexto/)
   - [Prototipos](/Caso_de_Uso/Prototipos/)
 
+## Sesiones
+
+  Aquí se encuentran los apuntes tomados en las sesiones con el cliente. A lo largo del proyecto se han tenido 4 sesiones con el grupo completo de las cuales se han tomado notas de 3, numerosas reuniones para resolver dudas puntuales con pocos miembros de grupo y una reunión final para presentar el proyecto. 
+  
+  A continuación se encuentran los apuntes tomados durante las sesiones:
+
+  - [Todas las sesiones](/Sesiones/)
+  - [Sesión del 19/10/2023](/Sesiones/19-10-2023)
+  - [Sesión del 07/11/2023](/Sesiones/07-11-2023)
+  - [Sesión del 21/11/2023](/Sesiones/21-11-2023)
+  - [Sesión final del 26/01/2024](/Sesiones/26-01-2024/Apuntes%20de%20la%20evaluación%20final.md)
 
  ## Glosario
   En este apartado se encuentra el glosario de términos que se han utilizado en el proyecto. Estos se encuentran descritos en el siguiente enlace:
