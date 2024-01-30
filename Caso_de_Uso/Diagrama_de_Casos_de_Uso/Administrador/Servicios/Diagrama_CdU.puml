@@ -1,4 +1,4 @@
-@startuml Estructura
+@startuml Diagrama_CdU
 
 title Estructura de los Casos de Uso (Administrador)
 
@@ -12,34 +12,11 @@ left to right direction
 
 actor Administrador
 
-Administrador --> (Consultar Estadísticas)
-
-folder "Manejo de Usuario" as cuentas {
-    Administrador --> (Actualización de Datos del Usuario)
-    Administrador --> (Listar Datos del Usuario)
-}
-
-folder "Ingreso a Plataforma" as ingreso {
-    Administrador --> (Iniciar Sesión)
-    Administrador --> (Cerrar Sesión)
-}
-
-folder "CRD Suscripciones" as CRDSuscripciones {
-    Administrador --> (Listar Servicios / Paquetes de Servicios)
-}
-
 folder "CRUD Servicios" as CRUDServicios {
     Administrador --> (Crear Servicio)
     Administrador --> (Listar Servicios)
     Administrador --> (Editar Servicio)
     Administrador --> (Eliminar Servicio)
-}
-
-folder "CRUD Egresados" as CRUDEgresados {
-    Administrador --> (Crear Egresado)
-    Administrador --> (Listar Egresado)
-    Administrador --> (Editar Egresado)
-    Administrador --> (Eliminar Egresado)
 }
 
 folder "CRUD Paquetes" as CRUDPaquetes {
@@ -48,14 +25,5 @@ folder "CRUD Paquetes" as CRUDPaquetes {
     Administrador --> (Editar Paquete)
     Administrador --> (Eliminar Paquete)
 }
-
-folder "CRUD Administradores" as CRUDAdministradores {
-    Administrador --> (Crear Administrador)
-    Administrador --> (Listar Administrador)
-    Administrador --> (Editar Administrador)
-    Administrador --> (Eliminar Administrador)
-}
-
-Administrador --> (Realizar Petición)
 
 @enduml

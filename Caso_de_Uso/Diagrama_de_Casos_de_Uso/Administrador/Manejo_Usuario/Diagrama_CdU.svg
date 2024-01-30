@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="414px" preserveAspectRatio="none" style="width:428px;height:414px;background:#FFFFFF;" version="1.1" viewBox="0 0 428 414" width="428px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="342" x="36" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="332" x="41" y="24.5332">Estructura de los Casos de Uso (Administrador)</text><!--MD5=[0da457cd346282cb9ffbbcbb0652be17]
+cluster cuentas--><g id="cluster_cuentas"><path d="M139.5,44.6094 L272.5,44.6094 A3.75,3.75 0 0 1 275,47.1094 L282,68.2188 L418.5,68.2188 A2.5,2.5 0 0 1 421,70.7188 L421,228.1094 A2.5,2.5 0 0 1 418.5,230.6094 L139.5,230.6094 A2.5,2.5 0 0 1 137,228.1094 L137,47.1094 A2.5,2.5 0 0 1 139.5,44.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="137" x2="282" y1="68.2188" y2="68.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="141" y="61.1426">Manejo de Usuario</text></g><!--MD5=[a86b8758458e11e030fd076d8ea1e0f1]
+cluster ingreso--><g id="cluster_ingreso"><path d="M195.5,254.6094 L340.5,254.6094 A3.75,3.75 0 0 1 343,257.1094 L350,278.2188 L362.5,278.2188 A2.5,2.5 0 0 1 365,280.7188 L365,405.1094 A2.5,2.5 0 0 1 362.5,407.6094 L195.5,407.6094 A2.5,2.5 0 0 1 193,405.1094 L193,257.1094 A2.5,2.5 0 0 1 195.5,254.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="193" x2="350" y1="278.2188" y2="278.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="197" y="271.1426">Ingreso a Plataforma</text></g><g id="elem_Actualización de Datos del Usuario"><ellipse cx="279.1384" cy="108.7371" fill="#F1F1F1" rx="126.1384" ry="27.6277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="170.1384" y="112.4656">Actualización de Datos del Usuario</text></g><g id="elem_Listar Datos del Usuario"><ellipse cx="279.13" cy="192.6354" fill="#F1F1F1" rx="95.63" ry="21.526" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="203.63" y="196.3639">Listar Datos del Usuario</text></g><g id="elem_Iniciar Sesión"><ellipse cx="278.7688" cy="306.7631" fill="#F1F1F1" rx="68.7688" ry="16.1538" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="233.7688" y="311.2797">Iniciar Sesión</text></g><g id="elem_Cerrar Sesión"><ellipse cx="279.1531" cy="374.54" fill="#F1F1F1" rx="70.1531" ry="16.4306" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="232.1531" y="379.0566">Cerrar Sesión</text></g><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="49.5" cy="219.1094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M49.5,227.1094 L49.5,254.1094 M36.5,235.1094 L62.5,235.1094 M49.5,254.1094 L36.5,269.1094 M49.5,254.1094 L62.5,269.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="6" y="285.1426">Administrador</text></g><!--MD5=[5806e705b525d5d406cb5815149d3ab6]
+link Administrador to Actualización de Datos del Usuario--><g id="link_Administrador_Actualización de Datos del Usuario"><path d="M82.43,210.5594 C104.16,183.9894 129,153.6094 129,153.6094 C129,153.6094 163.65,143.1394 199.54,132.3094 " fill="none" id="Administrador-to-Actualización de Datos del Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="204.37,130.8494,194.5985,129.6176,199.5828,132.2927,196.9077,137.277,204.37,130.8494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[369aa146724f41c27aef463534bdfb98]
+link Administrador to Listar Datos del Usuario--><g id="link_Administrador_Listar Datos del Usuario"><path d="M93.02,238.9594 C125.64,230.7794 171.33,219.3394 209.14,209.8594 " fill="none" id="Administrador-to-Listar Datos del Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="214.18,208.5994,204.4774,206.9084,209.3301,209.8154,206.4231,214.6682,214.18,208.5994" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[86e092906742a2dece3fbb8b4e11e9cf]
+link Administrador to Iniciar Sesión--><g id="link_Administrador_Iniciar Sesión"><path d="M93.02,260.2594 C130.69,269.6994 185.78,283.4994 226.04,293.5894 " fill="none" id="Administrador-to-Iniciar Sesión" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="231.38,294.9294,223.6231,288.8606,226.5301,293.7133,221.6774,296.6204,231.38,294.9294" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f551cdc4e6ffb60e1ebf0a4e22f92eb2]
+link Administrador to Cerrar Sesión--><g id="link_Administrador_Cerrar Sesión"><path d="M84.7,288.8194 C105.86,313.0794 129,339.6094 129,339.6094 C129,339.6094 181.29,351.8894 223.92,361.9094 " fill="none" id="Administrador-to-Cerrar Sesión" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="228.8,363.0494,220.9554,357.0944,223.9329,361.9042,219.1231,364.8817,228.8,363.0494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d50d186b18972fc2540d0b640b52d99]
+@startuml Estructura
+
+title Estructura de los Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "Manejo de Usuario" as cuentas {
+    Administrador - -> (Actualización de Datos del Usuario)
+    Administrador - -> (Listar Datos del Usuario)
+}
+
+folder "Ingreso a Plataforma" as ingreso {
+    Administrador - -> (Iniciar Sesión)
+    Administrador - -> (Cerrar Sesión)
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
