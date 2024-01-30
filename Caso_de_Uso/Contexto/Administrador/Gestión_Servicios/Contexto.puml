@@ -26,8 +26,8 @@ GESTIÓN_PAQUETES <- LISTAR_PAQUETE
 GESTIÓN_PAQUETES -> REALIZAR_PETICIÓN
 GESTIÓN_PAQUETES <- REALIZAR_PETICIÓN
 
-INICIO --> [*] : Cerar Sesión
-GESTIÓN_PAQUETES --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
+GESTIÓN_PAQUETES --> [*] : Cerrar Sesión
 
 
 @enduml

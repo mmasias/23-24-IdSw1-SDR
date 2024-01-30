@@ -1,5 +1,5 @@
 @startuml
-title Consultar Estadisticas
+title Consultar Estadísticas
 
 skinparam {
     NoteBackgroundColor #whiteSmoke
@@ -12,13 +12,13 @@ hide empty description
 
 state startState as "INICIO"
 
-startState --> Consultar_Estadisticas
+startState --> Consultar_Estadísticas
 note on link
     <b>Administrador Solicita</b>
-    * Consultar Estadisticas
+    * Consultar Estadísticas
 end note
 
-state Consultar_Estadisticas{
+state Consultar_Estadísticas{
 state 2 as " "
 state 3 as " "
 state 4 <<choice>>
@@ -32,7 +32,7 @@ note on link
 * Fecha de inicio
 * Fecha de fin
 <b>Sistema Permite</b>
-* Consultar estadisticas
+* Consultar estadísticas
 end note
 
 3 -down-> 4
@@ -46,13 +46,13 @@ end note
 4 -down-> [*]
 note on link
 <b>Sistema Muestra</b>
-* Estadisticas del servicio
+* Estadísticas del servicio
 end note
 
 4 -[#red]-> 2
 note on link
 <b>Sistema Muestra</b>
-* Mensaje de error al generar las estadisticas
+* Mensaje de error al generar las estadísticas
 end note
 
 }

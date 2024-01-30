@@ -11,7 +11,7 @@ skinparam {
 
 hide empty description
 
-state startState as "CONFIGURCION"
+state startState as "CONFIGURACIÓN"
 
 startState --> ListarDatosUsuario
 note on link

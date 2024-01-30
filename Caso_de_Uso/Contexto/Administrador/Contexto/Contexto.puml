@@ -27,14 +27,14 @@ INICIO <- EXPLORAR_SERVICIOS
 INICIO -> SERVICIOS
 INICIO <- SERVICIOS
 
-INICIO --> [*] : Cerar Sesión
-SERVICIOS --> [*] : Cerar Sesión
-GESTIÓN_EGRESADOS --> [*] : Cerar Sesión
-ADMINISTRADORES --> [*] : Cerar Sesión
-GESTIÓN_SERVICIOS --> [*] : Cerar Sesión
-GESTIÓN_PAQUETES --> [*] : Cerar Sesión
-CONFIGURACIÓN --> [*] : Cerar Sesión
-EXPLORAR_SERVICIOS --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
+SERVICIOS --> [*] : Cerrar Sesión
+GESTIÓN_EGRESADOS --> [*] : Cerrar Sesión
+ADMINISTRADORES --> [*] : Cerrar Sesión
+GESTIÓN_SERVICIOS --> [*] : Cerrar Sesión
+GESTIÓN_PAQUETES --> [*] : Cerrar Sesión
+CONFIGURACIÓN --> [*] : Cerrar Sesión
+EXPLORAR_SERVICIOS --> [*] : Cerrar Sesión
 
 
 @enduml

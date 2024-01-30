@@ -25,6 +25,6 @@ EXPLORAR_SERVICIOS -> REALIZAR_PETICIÓN
 EXPLORAR_SERVICIOS <- REALIZAR_PETICIÓN
 
 EXPLORAR_SERVICIOS -> [*] : Cerrar Sesión
-INICIO --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
 
 @enduml

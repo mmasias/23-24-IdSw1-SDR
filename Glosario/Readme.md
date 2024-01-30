@@ -2,7 +2,7 @@
 
 - Alumni (plataforma):
 
-    *Plataforma cuyo finalidad es centralizar el acceso a una serie de servicios que ofrece la universidad para sus graduados.*
+    *Plataforma cuya finalidad es centralizar el acceso a una serie de servicios que ofrece la universidad para sus graduados.*
 
 - Usuario:
 

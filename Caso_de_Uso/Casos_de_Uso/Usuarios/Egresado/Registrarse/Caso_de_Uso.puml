@@ -17,7 +17,7 @@ note on link
     <b>Ajeno al Sistema Solicita</b>
     * Registro en Plataforma
 end note
-S
+
 state RegistroEnPlataforma {
   state 2 as " "
   state 3 <<choice>>
@@ -61,7 +61,7 @@ state RegistroEnPlataforma {
   4 --> 6
   note on link
     <b>Sistema Muestra</b>
-    * Mensaje de Exito: Estudiante Registrado
+    * Mensaje de Éxito: Estudiante Registrado
     <b>Sistema Solicita</b>
     * Nombre
     * Apellido
@@ -89,7 +89,7 @@ state RegistroEnPlataforma {
   7 --> [*]
   note on link
     <b>Sistema Muestra</b>
-    * Mensaje de Exito: Egresado Registrado
+    * Mensaje de Éxito: Egresado Registrado
   end note
 
   7 -[#red]-> 8

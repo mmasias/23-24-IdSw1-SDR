@@ -24,6 +24,6 @@ INICIO <- SERVICIOS
 CONFIGURACIÓN -> [*] : Cerrar Sesión
 EXPLORAR_SERVICIOS -> [*] : Cerrar Sesión
 SERVICIOS -> [*] : Cerrar Sesión
-INICIO --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
 
 @enduml

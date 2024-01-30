@@ -16,7 +16,7 @@ actor Tiempo
 
 Tiempo --> (Eliminar Suscripción a Servicio / Paquete de Servicios)
 
-Administrador --> (Consultar Estadisticas)
+Administrador --> (Consultar Estadísticas)
 
 folder "Manejo de Usuario" as cuentas {
     Egresado --> (Actualización de Datos del Usuario)
@@ -72,7 +72,7 @@ folder "CRUD Administradores" as CRUDAdministradores {
 Administrador --> (Realizar Petición)
 Egresado --> (Realizar Petición)
 
-'(Consultar Estadisticas) --> (Realizar Petición) : <<include>>
+'(Consultar Estadísticas) --> (Realizar Petición) : <<include>>
 '(Eliminar Egresado) --> (Cancelación de Cuenta) : <<include>>
 '(Cancelación de Cuenta) --> (Cancelación de Suscripción a Servicio / Paquete de Servicios) : <<include>>
 '(Eliminar Paquete) --> (Listar Servicios) : <<include>>

@@ -1,8 +1,8 @@
 # Sesiones
 
-En el desarrollo de este Proyecto, hemos tenido una serie de sesiones con el cliente, en las cuales se han discutido los requerimientos del sistema, así como las funcionalidades que se desean implementar. A continuación se muestra un indice con las notas tomadas en cada sesión por cada miembro del equipo.
+En el desarrollo de este Proyecto, hemos tenido una serie de sesiones con el cliente, en las cuales se han discutido los requerimientos del sistema, así como las funcionalidades que se desean implementar. A continuación se muestra un índice con las notas tomadas en cada sesión por cada miembro del equipo.
 
-## Sesión 19/02/2023
+## Sesión 19/10/2023
 
 ### Notas
 
@@ -26,3 +26,10 @@ En el desarrollo de este Proyecto, hemos tenido una serie de sesiones con el cli
 
   * [Notas David Cuesta](/Sesiones/21-11-2023/Apuntes%20David%20Cuesta.md)
   * [Notas Diego Sainz](/Sesiones/21-11-2023/Apuntes%20Diego.md)
+
+  ## Sesión 26/01/2024
+
+### Notas
+
+  * [Notas David Cuesta](/Sesiones/26-01-2024/Apuntes%20de%20la%20evaluación%20final.md)
+
