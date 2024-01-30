@@ -7,8 +7,8 @@ state UsuarioAdministrador{
 Activo-->GestionandoAdministradores
 Activo-->GestionandoEgresados
 [*]-->Activo: necesita gestionar Alumni
-Activo-->gestionandoServicio
-Activo-->gestionandoPaquetes 
+Activo-->GestionandoServicio
+Activo-->GestionandoPaquetes 
 Activo --> Inactivo
 Inactivo --> Activo
 }

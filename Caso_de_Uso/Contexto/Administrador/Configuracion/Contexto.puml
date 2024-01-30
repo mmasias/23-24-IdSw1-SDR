@@ -22,7 +22,7 @@ CONFIGURACIÓN <- EDITAR_DATOS_USUARIO
 CONFIGURACIÓN -> REALIZAR_PETICIÓN
 CONFIGURACIÓN <- REALIZAR_PETICIÓN
 
-INICIO --> [*] : Cerar Sesión
-CONFIGURACIÓN --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
+CONFIGURACIÓN --> [*] : Cerrar Sesión
 
 @enduml

@@ -3,7 +3,7 @@
 ## [Diagrama de Estados de Administrador](/Modelo_de_Dominio/Diagramas_de_Estado/Administrador/)
 
 Partimos por crear un administrador. Una vez creado, necesita administrar la plataforma, para ello el administrador
-puede gestionar paquetes y servicios.
+puede gestionar paquetes, servicios y los usuarios.
 
 
 <div align="center">
@@ -13,12 +13,12 @@ puede gestionar paquetes y servicios.
 
 ## [Diagrama de Estados de Egresado](/Modelo_de_Dominio/Diagramas_de_Estado/Egresado/)
 
-Lo primero que hace el egresado, es registrarse en la plataforma, para ello se comprueban si cumple los requisitos,
+Lo primero que hace el egresado, es registrarse en la plataforma. Para ello, se comprueba si se cumplen los requisitos,
 en caso afirmativo, el egresado rellena un formulario con sus datos y, una vez enviado dicho formulario, pasa a ser un usuario de la
 plataforma.
     
-Una vez parte de la plataforma, el egresado puede suscribirse a paquetes o servicios, mientras sean de pago y si es asi, se procede a realizar el pago. 
-El usuario tambien puede darse de baja si asi lo desea. 
+Una vez parte de la plataforma, el egresado puede suscribirse a paquetes o servicios, mientras sean de pago y si es así, se procede a realizar el pago. 
+El usuario también puede darse de baja si así lo desea. 
 
 
 <div align="center">

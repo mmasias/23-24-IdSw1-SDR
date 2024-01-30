@@ -10,7 +10,7 @@ skinparam {
 
 hide empty description
 
-state startState as "CONFIGURCION"
+state startState as "CONFIGURACIÓN"
 
 startState --> ActualizarDatosUsuario
 note on link

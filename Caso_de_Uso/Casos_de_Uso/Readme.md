@@ -24,7 +24,7 @@
 
 ### [Administrador](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador)
 
-  - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/)
+  - [Consultar Estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/)
 
 #### [Gestion Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios)
 

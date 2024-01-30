@@ -12,7 +12,7 @@ left to right direction
 
 actor Administrador
 
-Administrador --> (Consultar Estadisticas)
+Administrador --> (Consultar Estadísticas)
 
 folder "Manejo de Usuario" as cuentas {
     Administrador --> (Actualización de Datos del Usuario)

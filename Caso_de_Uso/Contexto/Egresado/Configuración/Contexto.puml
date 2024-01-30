@@ -28,6 +28,6 @@ CONFIGURACIÓN -> REALIZAR_PETICIÓN
 CONFIGURACIÓN <- REALIZAR_PETICIÓN
 
 CONFIGURACIÓN -> [*] : Cerrar Sesión
-INICIO --> [*] : Cerar Sesión
+INICIO --> [*] : Cerrar Sesión
 
 @enduml
