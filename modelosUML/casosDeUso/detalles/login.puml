@@ -1,29 +1,24 @@
 @startuml
-
 skin rose
 title Caso de Uso: Iniciar Sesión
 
 state INICIO as "INICIO"
 state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state Validar <<choice>>
+state MostrarError as " "
 
-INICIO --> iniciar_sesión : el usuario solicita
+[*] --> INICIO
 
-state iniciar_sesión {
-  [*] -[#blue]-> formularioLogin : Usuario elige iniciar sesión
-  formularioLogin -[#blue]-> validación : Ingresar credenciales
-  validación -[#blue]-> DASHBOARD_ABIERTO : Credenciales correctas
-  validación -[#red]-> formularioLogin : Credenciales incorrectas
-}
+INICIO -d[#blue]-> Login : El sistema presenta formulario de inicio de sesión
+Login -d[#blue]-> Validar : El usuario introduce credenciales
+Validar -d[#blue]-> DASHBOARD_ABIERTO : [Credenciales correctas]
+Validar -r[#red]-> MostrarError : [Credenciales incorrectas]
+MostrarError -r[#red]-> INICIO : El sistema muestra error
 
-note left of formularioLogin
-  El sistema requiere:
-  - Ingresar nombre de usuario
-  - Ingresar contraseña
-end note
-
-note left of validación
-  El sistema valida:
-  - Autenticidad de las credenciales
+note left of Login
+  El sistema muestra campos para:
+  - Nombre de usuario
+  - Contraseña
 end note
 
 @enduml

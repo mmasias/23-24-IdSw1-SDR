@@ -2,35 +2,24 @@
 skin rose
 title Caso de Uso: Crear Usuario
 
-state DASHBOARD_ABIERTO
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state CrearUsuario as "Crear Usuario"
+state IngresarDetallesUsuario as " "
+state ConfirmarCreacionUsuario <<choice>>
 
-DASHBOARD_ABIERTO --> crearUsuario
+[*] --> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -[#blue]-> CrearUsuario : El sistema permite solicitar 'Crear Usuario'
+CrearUsuario -[#blue]-> IngresarDetallesUsuario : El administrador selecciona opción 'Crear Usuario'
+IngresarDetallesUsuario -[#blue]-> ConfirmarCreacionUsuario : El administrador introduce detalles
+ConfirmarCreacionUsuario -[#blue]-> DASHBOARD_ABIERTO : [Creación confirmada]
+ConfirmarCreacionUsuario -[#red]-> DASHBOARD_ABIERTO : [Creación cancelada]
 
-state crearUsuario {
-  [*] -[#blue]-> seleccionarOpcionCrear
-  state "Seleccionar opción 'Crear Usuario'" as seleccionarOpcionCrear
-  seleccionarOpcionCrear -[#blue]-> ingresarDetallesUsuario
-  state "Ingresar detalles del nuevo usuario" as ingresarDetallesUsuario
-  ingresarDetallesUsuario -[#blue]-> confirmarCreacionUsuario
-  state "Confirmar creación del usuario" as confirmarCreacionUsuario
-  confirmarCreacionUsuario -[#blue]-> [*]
-  note on link: El usuario confirma la creación
-  
-  ingresarDetallesUsuario -[#red]-> [*]
-  note on link: El usuario cancela la creación
-}
-
-note left of ingresarDetallesUsuario
+note right of IngresarDetallesUsuario
   El sistema permite:
-  ° Introducir nombre de Usuario
-  ° Introducir datos personales
-  ° Introducir credenciales
-  ° Introducir tipo de contrato
-end note
-
-note left of seleccionarOpcionCrear
-  El sistema requiere:
-  ° Seleccionar la opción 'Crear Usuario' en la lista de usuarios
+  - Introducir nombre de usuario
+  - Introducir datos personales
+  - Introducir credenciales
+  - Introducir tipo de contrato
 end note
 
 @enduml

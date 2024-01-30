@@ -9,20 +9,17 @@ Este apartado presenta los prototipos de las interfaces de usuario, reflejando l
 ## Vistas Específicas
 Los prototipos de las vistas específicas ilustran la interfaz de usuario para distintas funcionalidades del sistema.
 
-<details>
-<summary>Login</summary>
+### Login
 
-![Login](../../imagenes/prototipos/login/login.png)
-</details>
+![Login](../../imagenes//prototipos/login/login.png)
 
-<details>
-<summary>Ver Fichaje Diario</summary>
+### Ver Fichaje Diario
 
 ![Ver Fichaje Diario](../../imagenes/prototipos/fichajeDiario/verFichajeDiario.png)
-</details>
 
-<details>
-<summary>Ver Informe</summary>
+
+
+### Ver Informe
 
 | Tipo de Informe | Imagen |
 | --- | --- |
@@ -31,32 +28,27 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 | Informe Semanal | ![Informe Semanal](../../imagenes/prototipos/informe/semanal.png) |
 | Informe Mensual | ![Informe Mensual](../../imagenes/prototipos/informe/mensual.png) |
 
-</details>
 
-<details>
-<summary>Ver Usuarios</summary>
+
+### Ver Usuarios
 
 | Vista | Imagen |
 | --- | --- |
 | Vista Principal | ![Ver Usuarios](../../imagenes/prototipos/usuarios/verUsuarios(defaultAdmin).png) |
 | Opciones de Usuario | ![Opciones de Usuario](../../imagenes/prototipos/usuarios/editarDarDeBajaUsuarios(defaultAdmin).png) |
 
-</details>
 
-<details>
-<summary>Crear Usuarios</summary>
+
+### Crear Usuarios
 
 ![Crear Usuario](../../imagenes/prototipos/usuarios/crearUsuario.png)
-</details>
 
-<details>
-<summary>Editar Usuarios</summary>
+### Editar Usuarios
 
 ![Editar Usuario](../../imagenes/prototipos/usuarios/editarUsuario.png)
-</details>
 
-<details>
-<summary>Baja de Usuarios</summary>
+
+### Baja de Usuarios
 
 | Paso | Imagen |
 | --- | --- |
@@ -64,19 +56,16 @@ Los prototipos de las vistas específicas ilustran la interfaz de usuario para d
 | Formulario | ![Formulario Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios2.png) |
 | Confirmación | ![Confirmación Baja Usuarios](../../imagenes/prototipos/usuarios/eliminarUsuarios3.png) |
 
-</details>
+
 
 ## SiteMap por Actores
 Se presenta el mapa de navegación de las vistas por actores.
 
-<details>
-<summary>Usuario</summary>
+### Usuario
 
 ![Diagrama de Flujo Usuario](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoUsuario.png)
-</details>
 
-<details>
-<summary>Administrador</summary>
+
+### Administrador
 
 ![Diagrama de Flujo Administrador](../../imagenes/prototipos/diagramaFlujoAplicacion/DiagramaFlujoAdmin.png)
-</details>

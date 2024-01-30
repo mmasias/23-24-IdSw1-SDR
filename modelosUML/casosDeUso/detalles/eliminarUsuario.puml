@@ -1,33 +1,33 @@
-@startuml
+@startuml eliminarUsuario
 skin rose
 title Caso de Uso: Baja de Usuarios
 
-state DASHBOARD_ABIERTO
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state ListaUsuariosBaja as "Ver usuarios"
+state SeleccionarUsuarioBaja <<choice>>
+state ConfirmarEliminarUsuario as "Confirmar Eliminación del Usuario"
+state BajaUsuarioFinalizada <<choice>>
 
-DASHBOARD_ABIERTO --> bajaDeUsuario
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> ListaUsuariosBaja : El sistema muestra la lista de Usuarios para baja
+ListaUsuariosBaja -d[#blue]-> SeleccionarUsuarioBaja : El administrador busca y selecciona usuario
+SeleccionarUsuarioBaja -r[#blue]-> ConfirmarEliminarUsuario : [Usuario seleccionado para baja]
+ConfirmarEliminarUsuario -d[#blue]-> BajaUsuarioFinalizada : El administrador confirma la baja del usuario
+BajaUsuarioFinalizada -r[#blue]-> DASHBOARD_ABIERTO : [Baja de usuario finalizada]
+SeleccionarUsuarioBaja -l[#red]-> DASHBOARD_ABIERTO : [Eliminación cancelada]
+ConfirmarEliminarUsuario -l[#red]-> SeleccionarUsuarioBaja : [Edición cancelada]
 
-state bajaDeUsuario {
-  [*] -[#blue]-> seleccionarUsuario
-  state "Seleccionar usuario para dar de baja en el sistema" as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> confirmarEliminarUsuario
-  state "Confirmar la baja del usuario" as confirmarEliminarUsuario
-  confirmarEliminarUsuario -[#blue]-> [*]
-  note on link: El administrador confirma la baja del usuario
-  
-  seleccionarUsuario -[#red]-> [*]
-  note on link: El administrador cancela la eliminación
-}
-
-note left of confirmarEliminarUsuario
+note right of ConfirmarEliminarUsuario
   El sistema permite:
-  ° Confirmar la baja del usuario
-  ° Mostrar ventana con la lista de usuarios dados de baja
+  - Confirmar la baja del usuario
+  - Mostrar ventana con la lista de usuarios dados de baja
 end note
 
-note left of seleccionarUsuario
+note left of SeleccionarUsuarioBaja
   El sistema requiere:
-  ° Buscar Usuario por nombre
-  ° Seleccionar Usuario de la lista
+  - Buscar Usuario por nombre
+  - Seleccionar Usuario de la lista
 end note
 
 @enduml
+

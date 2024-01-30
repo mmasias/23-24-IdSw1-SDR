@@ -1,34 +1,35 @@
 @startuml
 skin rose
-title Caso de Uso: Leer Usuario
+title Caso de Uso: Ver Usuario
 
-state DASHBOARD_ABIERTO
-
-DASHBOARD_ABIERTO --> verUsuarios
-
-state verUsuarios {
-  [*] -[#blue]-> seleccionarUsuario
-  state "Seleccionar usuario para ver" as seleccionarUsuario
-  seleccionarUsuario -[#blue]-> visualizarPerfil
-  state "Visualizar perfil del usuario" as visualizarPerfil
-  visualizarPerfil -[#blue]-> [*]
-  note on link: Muestra datos personales y tipo de contrato
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state LeerUsuarios as "Ver Usuarios" 
   
-  seleccionarUsuario -[#red]-> [*]
-  note on link: El usuario cancela la visualización
-}
+state SeleccionarUsuario <<choice>>
+state VisualizarPerfil as " "
 
-note left of visualizarPerfil
+
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> LeerUsuarios : El administrador solicita ver Usuarios
+LeerUsuarios -d[#blue]-> SeleccionarUsuario : El sistema presenta lista de usuarios
+SeleccionarUsuario -r[#blue]-> VisualizarPerfil : [Usuario seleccionado]
+VisualizarPerfil -d[#blue]-> DASHBOARD_ABIERTO : El sistema muestra perfil del usuario
+SeleccionarUsuario -l[#red]-> DASHBOARD_ABIERTO : [Visualización cancelada]
+
+note right of VisualizarPerfil
+  El sistema muestra:
+  - Datos personales del usuario
+  - Tipos de contrato del usuario
+  - Opciones para editar, eliminar o añadir usuario
+end note
+
+note left of SeleccionarUsuario
   El sistema permite:
-  ° Mostrar datos personales
-  ° Mostrar tipo de contrato
-  ° Opción para editar, eliminar o añadir usuario
+  - Introducir el nombre de usuario
+  - Seleccionar usuario de la lista
+  - Cancelar búsqueda
 end note
 
-note left of seleccionarUsuario
-  El sistema requiere:
-  ° Buscar Usuario por nombre
-  ° Seleccionar Usuario de la lista
-end note
+
 
 @enduml

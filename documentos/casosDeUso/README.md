@@ -1,5 +1,3 @@
-# Documentación de Casos de Uso
-
 Este documento presenta los casos de uso identificados para nuestro proyecto, clasificados por actores y detallados con diagramas y códigos correspondientes. Nuestro enfoque principal es la gestión de fichajes y el seguimiento del tiempo.
 
 ## Índice
@@ -33,86 +31,58 @@ Este documento presenta los casos de uso identificados para nuestro proyecto, cl
 
 ## Detalles de los Casos de Uso
 
-### Login y Logout
-<details>
-<summary>Detalle de Login</summary>
+### Login
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Login](../../imagenes/casosDeUso/detalles/login.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/login.puml) |
-</details>
+![Diagrama de Casos de Uso](../../imagenes/casosDeUso/detalles/login.svg)  
+[Código PUML](../../modelosUML/casosDeUso/detalles/login.puml)
 
-<details>
-<summary>Detalle de Logout</summary>
+---
+### Logout
+![Diagrama de Casos de Uso](../../imagenes/casosDeUso/detalles/logout.svg)  
+[Código PUML](../../modelosUML/casosDeUso/detalles/logout.puml)
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Logout](../../imagenes/casosDeUso/detalles/logout.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/logout.puml) |
-</details>
+---
 
-### Casos de Uso para Usuario
-<details>
-<summary>Ver Fichaje</summary>
+### Ver Fichaje
+![Ver Fichaje](../../imagenes/casosDeUso/detalles/verFichajeV2.svg)  
+[Código PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml)
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Ver Fichaje](../../imagenes/casosDeUso/detalles/verFichajeV2.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verFichajeV2.puml) |
-</details>
+---
 
-<details>
-<summary>Ver Informe</summary>
+### Ver Informe
+![Ver Informe](../../imagenes/casosDeUso/detalles/verInformeV2.svg)  
+[Código PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml)
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Ver Informe](../../imagenes/casosDeUso/detalles/verInformeV2.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verInformeV2.puml) |
-</details>
+---
 
-### Casos de Uso para Administrador
-<details>
-<summary>Ver Usuario</summary>
+## Casos de Uso para Administrador
+### Ver Usuario
+![Ver Usuario](../../imagenes/casosDeUso/detalles/verUsuario.svg)  
+[Código PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) 
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Ver Usuario](../../imagenes/casosDeUso/detalles/verUsuario.svg) | [Código PUML](../../modelosUML/casosDeUso/detalles/verUsuario.puml) |
-</details>
+---
 
-<details>
-<summary>Editar usuario</summary>
- 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/editarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/editarUsuario.puml) |
+### Editar usuario
+![](../../imagenes/casosDeUso/detalles/editarUsuario.svg)  
+[Codigo PUML](../../modelosUML/casosDeUso/detalles/editarUsuario.puml) 
 
-</details>
+---
 
-<details>
-<summary>Añadir usuario</summary>
+### Añadir usuario
+![](../../imagenes/casosDeUso/detalles/crearUsuario.svg)  
+[Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml)
 
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/crearUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/crearUsuario.puml) |
+---
 
-</details>
+### Baja de usuarios
+![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg)  
+[Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml)
 
-<details>
+---
 
-<summary>Baja de usuarios</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/eliminarUsuario.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/eliminarUsuario.puml) |
-
-</details>
-
-<details>
-
-<summary>Ver Informe</summary>
-
-|  |  |
-| -- | -- |
-| ![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg) | [Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml) |
-
-</details>
+### Ver Informe
+![](../../imagenes/casosDeUso/detalles/verInformeAdmin.svg)  
+[Codigo PUML](../../modelosUML/casosDeUso/detalles/verInformeAdmin.puml)
 
 ---
 
@@ -120,21 +90,13 @@ Este documento presenta los casos de uso identificados para nuestro proyecto, cl
 Los siguientes diagramas ofrecen una visión general de las interacciones y la trazabilidad en nuestro sistema.
 
 ### Usuario
-<details>
-<summary>Diagrama de Contexto para Usuario</summary>
+![Contexto Usuario](../../imagenes/casosDeUso/diagramaContexto(usuario).svg)  
+[Código PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml)
 
-| Visualización | Código |
-| :---: | :---: |
-| ![Contexto Usuario](../../imagenes/casosDeUso/diagramaContexto(usuario).svg) | [Código PUML](../../modelosUML/casosDeUso/diagramaContexto(usuario).puml) |
-</details>
+---
 
 ### Administrador
-<details>
-<summary>Diagrama de Contexto para Administrador</summary>
-
-| Visualización | Código |
-| :---: | :---: |
-| ![Contexto Administrador](../../imagenes/casosDeUso/diagramaContexto(admin).svg) | [Código PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml) |
-</details>
+![Contexto Administrador](../../imagenes/casosDeUso/diagramaContexto(admin).svg)  
+[Código PUML](../../modelosUML/casosDeUso/diagramaContexto(admin).puml)
 
 ---
