@@ -1,0 +1,32 @@
+@startuml Diagrama_CdU
+
+title Estructura de los Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "CRUD Egresados" as CRUDEgresados {
+    Administrador --> (Crear Egresado)
+    Administrador --> (Listar Egresado)
+    Administrador --> (Editar Egresado)
+    Administrador --> (Eliminar Egresado)
+}
+
+
+
+folder "CRUD Administradores" as CRUDAdministradores {
+    Administrador --> (Crear Administrador)
+    Administrador --> (Listar Administrador)
+    Administrador --> (Editar Administrador)
+    Administrador --> (Eliminar Administrador)
+}
+
+
+@enduml
