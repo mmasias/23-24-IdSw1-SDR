@@ -9,21 +9,75 @@ skinparam {
 
 hide empty description
 
-[*] --> INICIAR_SESIÓN
-[*] --> REGISTRAR_EGRESADO
-INICIAR_SESIÓN --> INICIO : Iniciar Sesión
-REGISTRAR_EGRESADO --> INICIO : Registrar Egresado
+[*] --> INITIAL
+state 2 as " "
+INITIAL --> 2
+note on link 
+Iniciar Sesión
+Registrarse
+end note 
+2 --> DASHBOARD_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note
 
-INICIO -> EXPLORAR_SERVICIOS
-INICIO <- EXPLORAR_SERVICIOS
-INICIO -> CONFIGURACIÓN
-INICIO <- CONFIGURACIÓN
-INICIO -> SERVICIOS
-INICIO <- SERVICIOS
+DASHBOARD_ABIERTO --> EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note  
+DASHBOARD_ABIERTO <-- EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note  
+DASHBOARD_ABIERTO --> CONFIGURACIÓN_ABIERTO
+note on link 
+Listar Datos Usuario
+end note  
+DASHBOARD_ABIERTO <-- CONFIGURACIÓN_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note  
+DASHBOARD_ABIERTO --> SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+Realizar Petición
+end note  
+DASHBOARD_ABIERTO <-- SERVICIOS_ABIERTO
+note on link 
+Listar Servicios / Paquetes
+end note  
 
-CONFIGURACIÓN -> [*] : Cerrar Sesión
-EXPLORAR_SERVICIOS -> [*] : Cerrar Sesión
-SERVICIOS -> [*] : Cerrar Sesión
-INICIO --> [*] : Cerrar Sesión
+EXPLORAR_SERVICIOS_ABIERTO --> EXPLORAR_SERVICIOS_ABIERTO
+note on link 
+Realizar Petición
+Listar Servicios / Paquetes
+end note
+CONFIGURACIÓN_ABIERTO --> CONFIGURACIÓN_ABIERTO
+note on link 
+Listar Datos Usuario
+Actualizar Datos Usuario
+Cancelar Cuenta
+end note
+SERVICIOS_ABIERTO --> SERVICIOS_ABIERTO
+note on link 
+Realizar Petición+
+end note
+
+CONFIGURACIÓN_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note 
+EXPLORAR_SERVICIOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note  
+SERVICIOS_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note  
+DASHBOARD_ABIERTO --> [*]
+note on link 
+Cerrar Sesión
+end note  
 
 @enduml
