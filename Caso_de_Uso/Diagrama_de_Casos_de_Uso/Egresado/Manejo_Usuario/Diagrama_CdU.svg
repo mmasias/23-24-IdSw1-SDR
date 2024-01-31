@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="315px" preserveAspectRatio="none" style="width:402px;height:315px;background:#FFFFFF;" version="1.1" viewBox="0 0 402 315" width="402px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="307" x="40.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="297" x="45.5" y="24.5332">Estructura de los Casos de Uso(Egresado)</text><!--MD5=[0da457cd346282cb9ffbbcbb0652be17]
+cluster cuentas--><g id="cluster_cuentas"><path d="M113.5,44.6094 L246.5,44.6094 A3.75,3.75 0 0 1 249,47.1094 L256,68.2188 L392.5,68.2188 A2.5,2.5 0 0 1 395,70.7188 L395,306.1094 A2.5,2.5 0 0 1 392.5,308.6094 L113.5,308.6094 A2.5,2.5 0 0 1 111,306.1094 L111,47.1094 A2.5,2.5 0 0 1 113.5,44.6094 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="111" x2="256" y1="68.2188" y2="68.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="115" y="61.1426">Manejo de Usuario</text></g><g id="elem_Actualización de Datos del Usuario"><ellipse cx="253.1384" cy="108.7371" fill="#F1F1F1" rx="126.1384" ry="27.6277" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="144.1384" y="112.4656">Actualización de Datos del Usuario</text></g><g id="elem_Cancelación de Cuenta"><ellipse cx="252.813" cy="192.372" fill="#F1F1F1" rx="94.313" ry="21.2626" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="178.813" y="196.1005">Cancelación de Cuenta</text></g><g id="elem_Listar Datos del Usuario"><ellipse cx="253.13" cy="270.6354" fill="#F1F1F1" rx="95.63" ry="21.526" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="177.63" y="274.3639">Listar Datos del Usuario</text></g><!--MD5=[886f27c4ce1bf6d1eb714be2c81d3749]
+entity Egresado--><g id="elem_Egresado"><ellipse cx="36.5" cy="162.1094" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M36.5,170.1094 L36.5,197.1094 M23.5,178.1094 L49.5,178.1094 M36.5,197.1094 L23.5,212.1094 M36.5,197.1094 L49.5,212.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="6" y="228.1426">Egresado</text></g><!--MD5=[3022be293dde8ff5aec774ec42f5bb06]
+link Egresado to Actualización de Datos del Usuario--><g id="link_Egresado_Actualización de Datos del Usuario"><path d="M67.18,174.9394 C84.51,164.6194 103,153.6094 103,153.6094 C103,153.6094 137.65,143.1394 173.54,132.3094 " fill="none" id="Egresado-to-Actualización de Datos del Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="178.37,130.8494,168.5985,129.6176,173.5828,132.2927,170.9077,137.277,178.37,130.8494" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6fc14c47e73df4c791fb6589e5e9d7a3]
+link Egresado to Cancelación de Cuenta--><g id="link_Egresado_Cancelación de Cuenta"><path d="M67.33,192.6094 C89.83,192.6094 122.09,192.6094 153.36,192.6094 " fill="none" id="Egresado-to-Cancelación de Cuenta" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="158.37,192.6094,149.37,188.6094,153.37,192.6094,149.37,196.6094,158.37,192.6094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[49a8251de11ef2a363a66e948f2c3020]
+link Egresado to Listar Datos del Usuario--><g id="link_Egresado_Listar Datos del Usuario"><path d="M67.18,210.2794 C84.51,220.5994 103,231.6094 103,231.6094 C103,231.6094 145.29,242.6794 184.8,253.0194 " fill="none" id="Egresado-to-Listar Datos del Usuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="190.11,254.4094,182.4207,248.2551,185.2739,253.1397,180.3893,255.9929,190.11,254.4094" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b3602c58e6343bbb3827fe8340c4803d]
+@startuml Diagrama_CdU
+
+
+title Estructura de los Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+folder "Manejo de Usuario" as cuentas {
+    Egresado - -> (Actualización de Datos del Usuario)
+    Egresado - -> (Cancelación de Cuenta)
+    Egresado - -> (Listar Datos del Usuario)
+}
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: es
+Country: ES
+--></g></svg>
