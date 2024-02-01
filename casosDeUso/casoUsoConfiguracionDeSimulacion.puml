@@ -7,8 +7,8 @@ left to right direction
 actor Usuario as user
 
 rectangle "FISC Configuración de Simulación" {
-    usecase "Importar Simulacion" as importarSimulacion
-    usecase "Iniciar Simulacion" as iniciarSimulacion
+    usecase "Importar Simulación" as importarSimulacion
+    usecase "Iniciar Simulación" as iniciarSimulacion
 }
 
 user --> importarSimulacion : ""

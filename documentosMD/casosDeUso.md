@@ -160,7 +160,7 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImportarSimulación.puml) |
 
-#### - Inicar Simulación
+#### - Iniciar Simulación
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |

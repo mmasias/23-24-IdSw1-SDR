@@ -121,7 +121,7 @@ note on link
 end note 
 FISC --> [*]
 note on link
-  Log Out
+  Cerrar Sesión
 end note 
 
 @enduml
