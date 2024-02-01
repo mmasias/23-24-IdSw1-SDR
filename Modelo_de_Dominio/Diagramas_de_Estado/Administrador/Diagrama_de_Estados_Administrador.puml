@@ -1,0 +1,17 @@
+@startuml
+[*] --> UsuarioAdministrador: se crea administrador
+
+
+
+state UsuarioAdministrador{
+Activo-->GestionandoAdministradores
+Activo-->GestionandoEgresados
+[*]-->Activo: necesita gestionar Alumni
+Activo-->GestionandoServicio
+Activo-->GestionandoPaquetes 
+Activo --> Inactivo
+Inactivo --> Activo
+}
+
+
+@enduml

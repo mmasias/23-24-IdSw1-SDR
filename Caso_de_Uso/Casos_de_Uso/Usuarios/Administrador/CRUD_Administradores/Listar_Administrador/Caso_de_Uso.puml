@@ -1,0 +1,47 @@
+@startuml
+
+title Listar Administradores
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "GESTIÓN_ADMINISTRADORES"
+state endState as "GESTIÓN_ADMINISTRADORES"
+
+startState --> ListarAdministradores 
+note on link
+    <b>Administrador Solicita</b>
+    * Listar Administradores en Alumni
+end note
+
+ListarAdministradores --> endState
+
+state ListarAdministradores {
+    state 2 as " "
+    [*] --> [*] 
+    note on link
+        <b>Sistema Muestra</b>
+        * Administradores en Alumni
+    end note
+
+    [*] -[#red]-> 2
+    note on link
+        Error al listar Administradores en Alumni
+    end note
+
+    2 -[#red]-> [*]
+    note on link
+        <b>Sistema Muestra</b>
+        * Error al listar Administradores en Alumni
+    end note
+
+
+}
+
+@enduml

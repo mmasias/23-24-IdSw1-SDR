@@ -1,0 +1,28 @@
+'!theme amiga
+
+[*] --> RegistrandoseEnAlumni
+
+state RegistrandoseEnAlumni{
+[*]-->AjenoAlSistema
+State accion <<choice>>
+AjenoAlSistema --> accion : quiere formar parte de alumni
+accion --> [*] : no 
+accion --> IdentificandoUsuario : si
+State accion1 <<choice>>
+IdentificandoUsuario --> accion1 : cumple requisitos
+accion1 -->[*] : no
+accion1 -->RellenandoFormulario : si
+RellenandoFormulario --> UsuarioAlumni : Formulario enviado
+
+}
+RegistrandoseEnAlumni --> Alumni
+state Alumni{
+[*]-->NoSuscrito
+NoSuscrito--> Suscrito : se suscribe a un servicio
+Suscrito --> Suscrito : se suscribe a otro servicio
+NoSuscrito--> RealizandoPago : se suscribe a un paquete de pago
+Suscrito -->NoSuscrito: se desuscribe
+RealizandoPago --> NoSuscrito: deja de pagar
+NoSuscrito-->DadoDeBaja:se da de baja
+}
+@enduml

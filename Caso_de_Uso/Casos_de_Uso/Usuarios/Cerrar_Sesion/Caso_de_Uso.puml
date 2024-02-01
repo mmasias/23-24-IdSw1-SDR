@@ -1,0 +1,50 @@
+@startuml
+
+title Cerrar Sesión
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "ALUMNI"
+state endState as "ALUMNI"
+
+startState --> CerrarSesión
+note on link
+    <b>Usuario Solicita</b>
+    * Cerrar Sesión en Alumni
+end note
+
+CerrarSesión --> endState
+
+state CerrarSesión {
+state 2 as " "
+state 3 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Cerrar Sesión
+* Cancelar y volver a la pantalla anterior
+end note
+
+3 -down-> [*]
+note on link
+<b>Usuario Confirma Cerrar Sesión</b>
+end note
+
+3 -down-> endState
+note on link
+<b>Usuario Cancela Cerrar Sesión</b>
+end note
+
+}
+
+@enduml

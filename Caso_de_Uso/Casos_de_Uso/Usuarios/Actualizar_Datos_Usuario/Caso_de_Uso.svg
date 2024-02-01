@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1182px" preserveAspectRatio="none" style="width:558px;height:1182px;background:#FFFFFF;" version="1.1" viewBox="0 0 558 1182" width="558px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="205" x="166.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="195" x="171.5" y="24.9659">Actualizar datos del Usuario</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="212.5" y="47.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="217.5" y="72.4999">CONFIGURACIÓN</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="212.5" y="1136.1379"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="217.5" y="1161.5699">CONFIGURACIÓN</text><path d="M19.5,202.0679 L532.5,202.0679 A12.5,12.5 0 0 1 545,214.5679 L545,231.1358 L7,231.1358 L7,214.5679 A12.5,12.5 0 0 1 19.5,202.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="873.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="538" x="7" y="202.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="545" y1="231.1358" y2="231.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="197.5" y="222.0339">ActualizarDatosUsuario</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="120" y="299.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="143" y="324.5678"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="632.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="658.0678"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="155,930.1358,167,942.1358,155,954.1358,143,942.1358,155,930.1358" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="145" cy="252.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="155" cy="1055.1358" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="155.5" cy="1055.6358" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[1e308f09438486802560640bd58fabcf]
+link *start*ActualizarDatosUsuario to 2--><g id="link_*start*ActualizarDatosUsuario_2"><path d="M145,262.4458 C145,270.2358 145,281.7358 145,292.2658 " fill="none" id="*start*ActualizarDatosUsuario-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="145,297.1458,149,288.1458,145,292.1458,141,288.1458,145,297.1458" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M119.53,328.6258 C86.76,339.5458 34,357.1358 34,357.1358 C34,357.1358 34,607.1358 34,607.1358 C34,607.1358 36.02,616.1358 38.25,626.0358 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="39.31,630.7658,41.2294,621.1058,38.2087,625.8886,33.4259,622.8679,39.31,630.7658" style="stroke:#008000;stroke-width:1.0;"/><path d="M39,362.1358 L39,602.1358 L238,602.1358 L238,372.1358 L228,362.1358 L39,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M228,362.1358 L228,372.1358 L238,372.1358 L228,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="45" y="381.0328">Sistema Solicita</text><ellipse cx="50.5" cy="395.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="57" y="398.7389">Foto de perfil</text><ellipse cx="50.5" cy="412.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="57" y="416.4449">Nombre</text><ellipse cx="50.5" cy="430.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="57" y="434.1509">Apellido</text><ellipse cx="50.5" cy="448.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="57" y="451.8569">Fecha de nacimiento</text><ellipse cx="50.5" cy="465.8719" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="57" y="469.5629">Email</text><ellipse cx="50.5" cy="483.5779" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="57" y="487.2689">Contraseña</text><ellipse cx="50.5" cy="501.284" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="113" x="57" y="504.975">Usuario Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="57" y="522.681">- Dirección</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="57" y="540.387">- Teléfono</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="57" y="558.093">- Ocupación</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="108" x="45" y="575.799">Sistema Permite</text><ellipse cx="50.5" cy="589.814" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="57" y="593.505">Actualizar datos del Usuario</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M46.48,673.0658 C54.15,733.1858 77,912.1358 77,912.1358 C77,912.1358 118.03,927.3858 140.57,935.7758 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="145.23,937.5058,138.1891,930.6192,140.5437,935.7627,135.4001,938.1173,145.23,937.5058" style="stroke:#008000;stroke-width:1.0;"/><path d="M82,703.1358 L82,907.1358 L238,907.1358 L238,713.1358 L228,703.1358 L82,703.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M228,703.1358 L228,713.1358 L238,713.1358 L228,703.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="119" x="88" y="722.0328">Usuario introduce</text><ellipse cx="93.5" cy="736.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="100" y="739.7389">Foto de perfil</text><ellipse cx="93.5" cy="753.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="100" y="757.4449">Nombre</text><ellipse cx="93.5" cy="771.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="100" y="775.1509">Apellido</text><ellipse cx="93.5" cy="789.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="100" y="792.8569">Fecha de nacimiento</text><ellipse cx="93.5" cy="806.8719" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="100" y="810.5629">Email</text><ellipse cx="93.5" cy="824.5779" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="100" y="828.2689">Contraseña</text><ellipse cx="93.5" cy="842.284" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="113" x="100" y="845.975">Usuario Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="100" y="863.681">- Dirección</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="100" y="881.387">- Teléfono</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="100" y="899.093">- Ocupación</text></g><!--MD5=[0e67fbf66955179361fc177f04cd965b]
+link 4 to *end*ActualizarDatosUsuario--><g id="link_4_*end*ActualizarDatosUsuario"><path d="M155,954.5958 C155,974.5758 155,1015.8058 155,1038.4258 " fill="none" id="4-to-*end*ActualizarDatosUsuario" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="155,1043.2958,159,1034.2958,155,1038.2958,151,1034.2958,155,1043.2958" style="stroke:#008000;stroke-width:1.0;"/><path d="M160,977.1358 L160,1022.1358 L308,1022.1358 L308,987.1358 L298,977.1358 L160,977.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M298,977.1358 L298,987.1358 L308,987.1358 L298,977.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="166" y="996.0328">Sistema Muestra</text><ellipse cx="171.5" cy="1010.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="178" y="1013.7389">Cambios realizados</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M163.76,938.2458 C186.02,930.9158 243,912.1358 243,912.1358 C243,912.1358 243,357.1358 243,357.1358 C243,357.1358 205.11,342.8358 176.45,332.0058 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="171.91,330.2958,178.9255,337.2083,176.5899,332.0562,181.742,329.7205,171.91,330.2958" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M248,630.1358 L248,675.1358 L536,675.1358 L536,640.1358 L526,630.1358 L248,630.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M526,630.1358 L526,640.1358 L536,640.1358 L526,630.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="254" y="649.0328">Sistema Muestra</text><ellipse cx="259.5" cy="663.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="266" y="666.7389">Mensaje de error en los datos introducidos</text></g><!--MD5=[c62dad9d08e78822e4b0f8b7e446049a]
+link startState to ActualizarDatosUsuario--><g id="link_startState_ActualizarDatosUsuario"><path d="M276,87.3479 C276,109.1979 276,147.9879 276,195.2379 " fill="none" id="startState-to-ActualizarDatosUsuario" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="276,200.1379,280,191.1379,276,195.1379,272,191.1379,276,200.1379" style="stroke:#008000;stroke-width:1.0;"/><path d="M281,122.0679 L281,167.0679 L480,167.0679 L480,132.0679 L470,122.0679 L281,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M470,122.0679 L470,132.0679 L480,132.0679 L470,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="287" y="140.9649">Usuario Solicita</text><ellipse cx="292.5" cy="154.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="299" y="158.6709">Actualizar datos del Usuario</text></g><!--MD5=[c0e65463e2ca5abdb5f71c979e2708bf]
+link ActualizarDatosUsuario to endState--><g id="link_ActualizarDatosUsuario_endState"><path d="M276,1075.4379 C276,1097.2879 276,1115.7979 276,1129.4679 " fill="none" id="ActualizarDatosUsuario-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="276,1134.2679,280,1125.2679,276,1129.2679,272,1125.2679,276,1134.2679" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[a14c371d2402e48a61aa4e964401d90e]
+@startuml
+title Actualizar datos del Usuario
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "CONFIGURACIÓN"
+state endState as "CONFIGURACIÓN"
+
+startState - -> ActualizarDatosUsuario
+note on link
+    <b>Usuario Solicita</b>
+    * Actualizar datos del Usuario
+end note
+
+ActualizarDatosUsuario - -> endState
+
+state ActualizarDatosUsuario {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Foto de perfil
+* Nombre
+* Apellido
+* Fecha de nacimiento
+* Email
+* Contraseña
+* <b>Usuario Egresado</b>
+    - Dirección
+    - Teléfono
+    - Ocupación
+<b>Sistema Permite</b>
+* Actualizar datos del Usuario
+end note
+
+3 -down-> 4
+note on link
+<b>Usuario introduce</b>
+* Foto de perfil
+* Nombre
+* Apellido
+* Fecha de nacimiento
+* Email
+* Contraseña
+* <b>Usuario Egresado</b>
+    - Dirección
+    - Teléfono
+    - Ocupación
+end note
+
+4 -down-> [*]
+note on link
+<b>Sistema Muestra</b>
+* Cambios realizados
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error en los datos introducidos
+end note
+
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

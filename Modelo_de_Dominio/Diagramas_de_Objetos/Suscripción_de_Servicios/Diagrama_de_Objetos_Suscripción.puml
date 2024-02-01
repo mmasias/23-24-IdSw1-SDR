@@ -1,0 +1,47 @@
+@startuml Diagrama_de_Objetos_Suscripción
+title Diagrama de Objetos - Ejemplo de Suscripción
+
+skinparam backgroundColor white
+skinparam defaultFontName Arial
+hide circle
+
+class Suscripción
+{
+Precio Total: 10€
+Paquetes Suscritos: Paquete Deporte
+Servicios Suscritos: Chat
+}
+
+class "Chat:Servicio"
+{
+Descripción: Chat para comunicarse con otros alumni
+Precio: Gratis
+}
+
+
+class "Paquete Deporte:Paquete"
+{
+Descripción:Paquete para deportistas
+Servicios Incluidos: Reserva Pista y NewsLetter de Deporte
+Precio: 10€
+}
+
+class "Reserva Pista:Servicio"
+{
+Descripción: Permite Reservar las pistas de deporte
+Precio: 8€
+}
+class "NewsLetter de Deporte:Servicio"
+{
+Descripción: Obtenga las noticias del deporte
+Precio: 4€
+}
+
+Alumni -- "Suscripción"
+Suscripción -- "Paquete Deporte:Paquete"
+note left: El precio del paquete puede \nser inferior que todos los \nservicios que incluya
+
+"Paquete Deporte:Paquete"--"NewsLetter de Deporte:Servicio"
+"Paquete Deporte:Paquete"--"Reserva Pista:Servicio"
+Suscripción--"Chat:Servicio"
+@enduml

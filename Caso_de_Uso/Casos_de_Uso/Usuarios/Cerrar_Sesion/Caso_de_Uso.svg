@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="677px" preserveAspectRatio="none" style="width:568px;height:677px;background:#FFFFFF;" version="1.1" viewBox="0 0 568 677" width="568px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="102" x="226" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="231" y="24.9659">Cerrar Sesión</text><!--MD5=[c20227abbe6d251e160d2d995e485318]
+cluster CerrarSesión--><g id="cluster_CerrarSesión"><path d="M19.5,196.0679 L354.5,196.0679 A12.5,12.5 0 0 1 367,208.5679 L367,225.1358 L7,225.1358 L7,208.5679 A12.5,12.5 0 0 1 19.5,196.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="475" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="360" x="7" y="196.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="367" y1="225.1358" y2="225.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="143.5" y="215.0339">CerrarSesión</text></g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="41" y="323.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="64" y="348.4999"> </text><g id="elem_3"><polygon fill="#F1F1F1" points="66,496.0679,78,508.0679,66,520.0679,54,508.0679,66,496.0679" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="66" cy="252.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="66" cy="637.0679" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="66.5" cy="637.5679" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="326.5" y="47.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="331.5" y="72.4999">ALUMNI</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="475.5" y="617.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="480.5" y="642.4999">ALUMNI</text><!--MD5=[28dc98cee306d8255bbf7ac73d297b77]
+link startState to CerrarSesión--><g id="link_startState_CerrarSesión"><path d="M359,87.3079 C359,110.4329 359,150.4654 359,185.1604 C359,187.3289 359,189.4764 359,191.5977 C359,192.6584 359,193.7125 359,194.7593 C359,195.021 359,195.2823 359,195.5431 " fill="none" id="startState-to-CerrarSesión" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="359,195.5431,363,186.5431,359,190.5431,355,186.5431,359,195.5431" style="stroke:#008000;stroke-width:1.0;"/><path d="M364,122.0679 L364,167.0679 L539,167.0679 L539,132.0679 L529,122.0679 L364,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M529,122.0679 L529,132.0679 L539,132.0679 L529,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="370" y="140.9649">Usuario Solicita</text><ellipse cx="375.5" cy="154.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="382" y="158.6709">Cerrar Sesión en Alumni</text></g><!--MD5=[3ad1e8bb8a09a2e04efae249d8ed6bd1]
+link CerrarSesión to endState--><g id="link_CerrarSesión_endState"><path d="M367.1082,273.9029 C367.2263,274.2063 367.3454,274.5126 367.4657,274.8218 C367.7063,275.4402 367.9514,276.0702 368.2009,276.7115 C368.6998,277.9942 369.2165,279.3223 369.7502,280.6941 C371.8849,286.1814 374.2919,292.3685 376.9288,299.1467 C387.4763,326.2592 401.7025,362.8279 416.9,401.8929 C447.295,480.0229 481.575,568.1379 498.08,610.5579 " fill="none" id="CerrarSesión-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="499.87,615.1679,500.3404,605.3303,498.0598,610.5071,492.883,608.2266,499.87,615.1679" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[41d90ba12436df3dd4b456c15f13e127]
+link *start*CerrarSesión to 2--><g id="link_*start*CerrarSesión_2"><path d="M66,262.2579 C66,274.9179 66,298.2079 66,316.3779 " fill="none" id="*start*CerrarSesión-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="66,321.2979,70,312.2979,66,316.2979,62,312.2979,66,321.2979" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M66,363.4079 C66,395.2379 66,458.2179 66,489.1179 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="66,494.0379,70,485.0379,66,489.0379,62,485.0379,66,494.0379" style="stroke:#008000;stroke-width:1.0;"/><path d="M71,398.0679 L71,461.0679 L330,461.0679 L330,408.0679 L320,398.0679 L71,398.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M320,398.0679 L320,408.0679 L330,408.0679 L320,398.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="108" x="77" y="416.9649">Sistema Permite</text><ellipse cx="82.5" cy="430.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="89" y="434.6709">Cerrar Sesión</text><ellipse cx="82.5" cy="448.686" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="89" y="452.377">Cancelar y volver a la pantalla anterior</text></g><!--MD5=[3ba99c3b64e190de797123a10952f01b]
+link 3 to *end*CerrarSesión--><g id="link_3_*end*CerrarSesión"><path d="M65.21,519.8379 C64.32,531.9879 63,550.0679 63,550.0679 C63,550.0679 63,587.0679 63,587.0679 C63,587.0679 64.17,606.1079 65.04,620.4479 " fill="none" id="3-to-*end*CerrarSesión" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="65.33,625.1079,68.7559,615.8741,65.0154,620.1178,60.7717,616.3774,65.33,625.1079" style="stroke:#008000;stroke-width:1.0;"/><path d="M68,555.0679 L68,582.0679 L294,582.0679 L294,565.0679 L284,555.0679 L68,555.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M284,555.0679 L284,565.0679 L294,565.0679 L284,555.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="205" x="74" y="573.9649">Usuario Confirma Cerrar Sesión</text></g><!--MD5=[720097ad5a5b966c4f6076256936f456]
+link 3 to endState--><g id="link_3_endState"><path d="M75.88,510.7779 C120.74,518.5379 303,550.0679 303,550.0679 C303,550.0679 339,587.0679 339,587.0679 C339,587.0679 418.85,610.2179 468.78,624.6979 " fill="none" id="3-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="473.56,626.0779,466.04,619.7179,468.76,624.6779,463.8,627.3979,473.56,626.0779" style="stroke:#008000;stroke-width:1.0;"/><path d="M344,555.0679 L344,582.0679 L561,582.0679 L561,565.0679 L551,555.0679 L344,555.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M551,555.0679 L551,565.0679 L561,565.0679 L551,555.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="196" x="350" y="573.9649">Usuario Cancela Cerrar Sesión</text></g><!--MD5=[5b7c02e2328b8572336a7e46b0ed30f9]
+@startuml
+
+title Cerrar Sesión
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state startState as "ALUMNI"
+state endState as "ALUMNI"
+
+startState - -> CerrarSesión
+note on link
+    <b>Usuario Solicita</b>
+    * Cerrar Sesión en Alumni
+end note
+
+CerrarSesión - -> endState
+
+state CerrarSesión {
+state 2 as " "
+state 3 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Permite</b>
+* Cerrar Sesión
+* Cancelar y volver a la pantalla anterior
+end note
+
+3 -down-> [*]
+note on link
+<b>Usuario Confirma Cerrar Sesión</b>
+end note
+
+3 -down-> endState
+note on link
+<b>Usuario Cancela Cerrar Sesión</b>
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

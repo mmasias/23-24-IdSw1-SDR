@@ -1,0 +1,43 @@
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Listar Servicios / Paquetes de servicios
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+state endState as "ALUMNI"
+
+ALUMNI -down-> ListarServiciosYPaquetes
+note on link
+<b>Usuario solicita</b>
+Listar servicios y/o paquetes de servicios
+end note
+
+ListarServiciosYPaquetes -down-> endState
+
+state ListarServiciosYPaquetes{
+  state 1 as " "
+  [*] --> 1
+  1 --> ListaServiciosYPaquetes
+  note on link
+  <b>Sistema permite introducir</b>
+  Filtro de búsqueda
+  end note
+  ListaServiciosYPaquetes -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en caso de que el filtro no sea válido
+  end note
+  ListaServiciosYPaquetes --> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Listado de servicios y/o paquetes de servicios
+  end note
+}
+@enduml

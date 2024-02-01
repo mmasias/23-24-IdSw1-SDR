@@ -1,0 +1,11 @@
+[*] --> ServicioActivo : se crea un servicio
+
+
+State ServicioActivo{
+[*]-->Servicio
+Servicio-->AñadidoaPaquete :se añade el servicio a un paquete
+AñadidoaPaquete --> Servicio : se elimina el servicio del paquete
+}
+
+
+@enduml

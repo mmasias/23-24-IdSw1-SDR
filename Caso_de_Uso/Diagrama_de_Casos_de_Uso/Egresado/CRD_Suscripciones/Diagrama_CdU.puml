@@ -1,0 +1,22 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+folder "CRD Suscripciones" as CRDSuscripciones {
+    Egresado --> (Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+    Egresado --> (Listar Servicios / Paquetes de Servicios)
+}
+
+
+@enduml

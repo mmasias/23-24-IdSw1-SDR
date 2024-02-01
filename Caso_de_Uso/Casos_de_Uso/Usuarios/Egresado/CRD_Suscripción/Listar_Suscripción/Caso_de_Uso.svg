@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="698px" preserveAspectRatio="none" style="width:593px;height:698px;background:#FFFFFF;" version="1.1" viewBox="0 0 593 698" width="593px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="277" x="148" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="267" x="153" y="24.9659">Listar Servicios / Paquetes de servicios</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="261" y="652.1379"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="266" y="677.5699">ALUMNI</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="261" y="47.0679"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="55" x="266" y="72.4999">ALUMNI</text><path d="M19.5,202.0679 L567.5,202.0679 A12.5,12.5 0 0 1 580,214.5679 L580,231.1358 L7,231.1358 L7,214.5679 A12.5,12.5 0 0 1 19.5,202.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="389.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="573" x="7" y="202.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="580" y1="231.1358" y2="231.1358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="166" x="210.5" y="222.0339">ListarServiciosYPaquetes</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="108" y="299.1358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="4" x="131" y="324.5678"> </text><ellipse cx="133" cy="252.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="48" y="430.1358"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="160" x="53" y="455.5678">ListaServiciosYPaquetes</text><ellipse cx="133" cy="571.1358" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="133.5" cy="571.6358" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[aa72634e8b37f908867aadfc4d39a18b]
+link *start*ListarServiciosYPaquetes to 1--><g id="link_*start*ListarServiciosYPaquetes_1"><path d="M133,262.4458 C133,270.2358 133,281.7358 133,292.2658 " fill="none" id="*start*ListarServiciosYPaquetes-to-1" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="133,297.1458,137,288.1458,133,292.1458,129,288.1458,133,297.1458" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[8453806eb39a13a3e91584614bdb777f]
+link 1 to ListaServiciosYPaquetes--><g id="link_1_ListaServiciosYPaquetes"><path d="M107.76,328.2558 C73.91,339.1458 18,357.1358 18,357.1358 C18,357.1358 18,412.1358 18,412.1358 C18,412.1358 40.94,419.5158 66.33,427.6858 " fill="none" id="1-to-ListaServiciosYPaquetes" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="71.03,429.1958,63.6794,422.6408,66.2684,427.6704,61.2387,430.2594,71.03,429.1958" style="stroke:#008000;stroke-width:1.0;"/><path d="M23,362.1358 L23,407.1358 L222,407.1358 L222,372.1358 L212,362.1358 L23,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M212,362.1358 L212,372.1358 L222,372.1358 L212,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="178" x="29" y="381.0328">Sistema permite introducir</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="112" x="29" y="398.7389">Filtro de búsqueda</text></g><!--MD5=[238d63af5ef381959382cd04a743c83e]
+link ListaServiciosYPaquetes to 1--><g id="link_ListaServiciosYPaquetes_1"><path d="M182.48,429.6558 C205.12,420.7458 227,412.1358 227,412.1358 C227,412.1358 227,357.1358 227,357.1358 C227,357.1358 191.59,343.1958 164.24,332.4358 " fill="none" id="ListaServiciosYPaquetes-to-1" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="159.6,330.6058,166.5155,337.6184,164.2541,332.4332,169.4393,330.1718,159.6,330.6058" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M232,362.1358 L232,407.1358 L571,407.1358 L571,372.1358 L561,362.1358 L232,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M561,362.1358 L561,372.1358 L571,372.1358 L561,362.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="111" x="238" y="381.0328">Sistema muestra</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="318" x="238" y="398.7389">Mensaje de error en caso de que el filtro no sea válido</text></g><!--MD5=[2f745dc7cfc3d883d6da64878d2914c0]
+link ListaServiciosYPaquetes to *end*ListarServiciosYPaquetes--><g id="link_ListaServiciosYPaquetes_*end*ListarServiciosYPaquetes"><path d="M133,470.5158 C133,493.9358 133,532.8658 133,554.4758 " fill="none" id="ListaServiciosYPaquetes-to-*end*ListarServiciosYPaquetes" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="133,559.3258,137,550.3258,133,554.3258,129,550.3258,133,559.3258" style="stroke:#008000;stroke-width:1.0;"/><path d="M138,493.1358 L138,538.1358 L429,538.1358 L429,503.1358 L419,493.1358 L138,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M419,493.1358 L419,503.1358 L429,503.1358 L419,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="111" x="144" y="512.0328">Sistema muestra</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="270" x="144" y="529.7389">Listado de servicios y/o paquetes de servicios</text></g><!--MD5=[990ecc5435856062a988c0b0656bbc38]
+link ALUMNI to ListarServiciosYPaquetes--><g id="link_ALUMNI_ListarServiciosYPaquetes"><path d="M293.5,87.0979 C293.5,109.9179 293.5,150.7079 293.5,195.3179 " fill="none" id="ALUMNI-to-ListarServiciosYPaquetes" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="293.5,200.1179,297.5,191.1179,293.5,195.1179,289.5,191.1179,293.5,200.1179" style="stroke:#008000;stroke-width:1.0;"/><path d="M298.5,122.0679 L298.5,167.0679 L560.5,167.0679 L560.5,132.0679 L550.5,122.0679 L298.5,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M550.5,122.0679 L550.5,132.0679 L560.5,132.0679 L550.5,122.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="101" x="304.5" y="140.9649">Usuario solicita</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="241" x="304.5" y="158.6709">Listar servicios y/o paquetes de servicios</text></g><!--MD5=[820b284e832fffdf18732e724d780672]
+link ListarServiciosYPaquetes to endState--><g id="link_ListarServiciosYPaquetes_endState"><path d="M293.5,591.2879 C293.5,612.5779 293.5,631.6379 293.5,645.7879 " fill="none" id="ListarServiciosYPaquetes-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="293.5,650.4279,297.5,641.4279,293.5,645.4279,289.5,641.4279,293.5,650.4279" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[733ff8a8967cddf33336f970bc7c8d4b]
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Listar Servicios / Paquetes de servicios
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+state endState as "ALUMNI"
+
+ALUMNI -down-> ListarServiciosYPaquetes
+note on link
+<b>Usuario solicita</b>
+Listar servicios y/o paquetes de servicios
+end note
+
+ListarServiciosYPaquetes -down-> endState
+
+state ListarServiciosYPaquetes{
+  state 1 as " "
+  [*] - -> 1
+  1 - -> ListaServiciosYPaquetes
+  note on link
+  <b>Sistema permite introducir</b>
+  Filtro de búsqueda
+  end note
+  ListaServiciosYPaquetes -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en caso de que el filtro no sea válido
+  end note
+  ListaServiciosYPaquetes - -> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Listado de servicios y/o paquetes de servicios
+  end note
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

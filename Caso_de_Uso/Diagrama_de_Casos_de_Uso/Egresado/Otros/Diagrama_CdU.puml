@@ -1,0 +1,17 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+Egresado --> (Realizar Petición)
+
+@enduml

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="780px" preserveAspectRatio="none" style="width:1469px;height:780px;background:#FFFFFF;" version="1.1" viewBox="0 0 1469 780" width="1469px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="179" x="634.75" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="639.75" y="24.9659">Contexto Administrador</text><ellipse cx="731.25" cy="56.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="701.25" y="127.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="706.25" y="152.4999">INITIAL</text><ellipse cx="731.25" cy="764.1379" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="731.75" cy="764.6379" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><path d="M19.5,264.0679 L1443,264.0679 A12.5,12.5 0 0 1 1455.5,276.5679 L1455.5,293.1358 L7,293.1358 L7,276.5679 A12.5,12.5 0 0 1 19.5,264.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="393.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="1448.5" x="7" y="264.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="1455.5" y1="293.1358" y2="293.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="703.75" y="284.0339">ALUMNI</text><ellipse cx="636" cy="314.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="588.5" y="422.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="593.5" y="448.0678">DASHBOARD</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="19" y="586.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="24" y="611.5678">GESTIÓN_EGRESADOS</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="210" x="385" y="586.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="390" y="611.5678">GESTIÓN_ADMINISTRADORES</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="148" x="816" y="586.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="821" y="611.5678">GESTIÓN_SERVICIOS</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="147" x="1148.5" y="586.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1153.5" y="611.5678">GESTIÓN_PAQUETES</text><!--MD5=[80ed1e7dc5ea98cae66a17687b6a86b3]
+link *start*Alumni to DASHBOARD--><g id="link_*start*Alumni_DASHBOARD"><path d="M636,324.2358 C636,343.2158 636,387.6458 636,416.0858 " fill="none" id="*start*Alumni-to-DASHBOARD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="636,421.0758,640,412.0758,636,416.0758,632,412.0758,636,421.0758" style="stroke:#181818;stroke-width:1.0;"/><path d="M641,347.1358 L641,392.1358 L790,392.1358 L790,357.1358 L780,347.1358 L641,347.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M780,347.1358 L780,357.1358 L790,357.1358 L780,347.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="647" y="366.0328">consultar Estadísticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="647" y="383.7389">Realizar Petición</text></g><!--MD5=[06f76f9f09730989717e07f407a4a749]
+link DASHBOARD to GESTIÓN_EGRESADOS--><g id="link_DASHBOARD_GESTIÓN_EGRESADOS"><path d="M588.19,448.9158 C481.44,460.7058 233,488.1358 233,488.1358 C233,488.1358 191,543.1358 191,543.1358 C191,543.1358 158.87,564.5558 132.38,582.2158 " fill="none" id="DASHBOARD-to-GESTIÓN_EGRESADOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.43,584.8458,138.1399,583.1971,132.5946,582.0789,133.7128,576.5337,128.43,584.8458" style="stroke:#181818;stroke-width:1.0;"/><path d="M238,493.1358 L238,538.1358 L356,538.1358 L356,503.1358 L346,493.1358 L238,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M346,493.1358 L346,503.1358 L356,503.1358 L346,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="244" y="512.0328">Listar Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="244" y="529.7389">Realizar Petición</text></g><!--MD5=[877a874fe5d3d17be21245189237c707]
+reverse link DASHBOARD to GESTIÓN_EGRESADOS--><g id="link_DASHBOARD_GESTIÓN_EGRESADOS"><path d="M581.73,447.6158 C433.03,458.5358 30,488.1358 30,488.1358 C30,488.1358 30,543.1358 30,543.1358 C30,543.1358 56.9,567.6558 76.86,585.8558 " fill="none" id="DASHBOARD-backto-GESTIÓN_EGRESADOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="586.69,447.2558,577.4177,443.9355,581.7038,447.6273,578.012,451.9134,586.69,447.2558" style="stroke:#181818;stroke-width:1.0;"/><path d="M35,493.1358 L35,538.1358 L186,538.1358 L186,503.1358 L176,493.1358 L35,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M176,493.1358 L176,503.1358 L186,503.1358 L176,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="41" y="512.0328">Consultar Estadisticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="41" y="529.7389">Realizar Petición</text></g><!--MD5=[c946a9e0fa2a55bb411b70034556f7ec]
+link DASHBOARD to GESTIÓN_ADMINISTRADORES--><g id="link_DASHBOARD_GESTIÓN_ADMINISTRADORES"><path d="M598.09,463.0258 C574.65,475.0158 549,488.1358 549,488.1358 C549,488.1358 526,543.1358 526,543.1358 C526,543.1358 514.31,563.2758 504.25,580.5958 " fill="none" id="DASHBOARD-to-GESTIÓN_ADMINISTRADORES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="501.95,584.5458,509.9293,578.7725,504.4614,580.2223,503.0116,574.7544,501.95,584.5458" style="stroke:#181818;stroke-width:1.0;"/><path d="M554,493.1358 L554,538.1358 L697,538.1358 L697,503.1358 L687,493.1358 L554,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M687,493.1358 L687,503.1358 L697,503.1358 L687,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="560" y="512.0328">Listar Administrador</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="560" y="529.7389">Realizar Petición</text></g><!--MD5=[b47d1a4c785fcd3451f48ebc943e538b]
+reverse link DASHBOARD to GESTIÓN_ADMINISTRADORES--><g id="link_DASHBOARD_GESTIÓN_ADMINISTRADORES"><path d="M582.12,452.4858 C503.09,465.4658 365,488.1358 365,488.1358 C365,488.1358 365,543.1358 365,543.1358 C365,543.1358 414.13,567.5058 450.79,585.6858 " fill="none" id="DASHBOARD-backto-GESTIÓN_ADMINISTRADORES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="586.68,451.7358,577.1495,449.252,581.7465,452.5486,578.4499,457.1456,586.68,451.7358" style="stroke:#181818;stroke-width:1.0;"/><path d="M370,493.1358 L370,538.1358 L521,538.1358 L521,503.1358 L511,493.1358 L370,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M511,493.1358 L511,503.1358 L521,503.1358 L511,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="376" y="512.0328">Consultar Estadisticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="376" y="529.7389">Realizar Petición</text></g><!--MD5=[7a176483c8bdfc4573031338cb7e7697]
+link DASHBOARD to GESTIÓN_SERVICIOS--><g id="link_DASHBOARD_GESTIÓN_SERVICIOS"><path d="M683.91,452.1658 C756.5,465.0858 886,488.1358 886,488.1358 C886,488.1358 887.95,545.2558 889.13,579.6758 " fill="none" id="DASHBOARD-to-GESTIÓN_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="889.29,584.3058,892.9793,575.1741,889.1187,579.3088,884.984,575.4482,889.29,584.3058" style="stroke:#181818;stroke-width:1.0;"/><path d="M893,493.1358 L893,538.1358 L1011,538.1358 L1011,503.1358 L1001,493.1358 L893,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1001,493.1358 L1001,503.1358 L1011,503.1358 L1001,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="899" y="512.0328">Listar Servicio</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="899" y="529.7389">Realizar Petición</text></g><!--MD5=[9cce398f35a6b327834f123771a3fec0]
+reverse link DASHBOARD to GESTIÓN_SERVICIOS--><g id="link_DASHBOARD_GESTIÓN_SERVICIOS"><path d="M669.79,466.4158 C686.02,477.3658 702,488.1358 702,488.1358 C702,488.1358 725,543.1358 725,543.1358 C725,543.1358 790,561.1358 790,561.1358 C790,561.1358 819.06,573.9258 845.85,585.7058 " fill="none" id="DASHBOARD-backto-GESTIÓN_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="666.01,463.8758,671.2268,472.2296,670.1526,466.6757,675.7065,465.6014,666.01,463.8758" style="stroke:#181818;stroke-width:1.0;"/><path d="M730,493.1358 L730,538.1358 L881,538.1358 L881,503.1358 L871,493.1358 L730,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M871,493.1358 L871,503.1358 L881,503.1358 L871,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="736" y="512.0328">Consultar Estadisticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="736" y="529.7389">Realizar Petición</text></g><!--MD5=[4ddc762a7432f34447201ef2af6726e4]
+link DASHBOARD to GESTIÓN_PAQUETES--><g id="link_DASHBOARD_GESTIÓN_PAQUETES"><path d="M683.87,447.2758 C823.59,457.9058 1221,488.1358 1221,488.1358 C1221,488.1358 1221.49,545.2558 1221.78,579.6758 " fill="none" id="DASHBOARD-to-GESTIÓN_PAQUETES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1221.82,584.3058,1225.7427,575.2719,1221.7771,579.306,1217.743,575.3404,1221.82,584.3058" style="stroke:#181818;stroke-width:1.0;"/><path d="M1227,493.1358 L1227,538.1358 L1345,538.1358 L1345,503.1358 L1335,493.1358 L1227,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1335,493.1358 L1335,503.1358 L1345,503.1358 L1335,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="1233" y="512.0328">Listar Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1233" y="529.7389">Realizar Petición</text></g><!--MD5=[b0fff53457779cd50fb77b66bafb8c2d]
+reverse link DASHBOARD to GESTIÓN_PAQUETES--><g id="link_DASHBOARD_GESTIÓN_PAQUETES"><path d="M690.04,449.8958 C795.82,462.1558 1020,488.1358 1020,488.1358 C1020,488.1358 1060,543.1358 1060,543.1358 C1060,543.1358 1119,561.1358 1119,561.1358 C1119,561.1358 1148.93,573.9258 1176.52,585.7058 " fill="none" id="DASHBOARD-backto-GESTIÓN_PAQUETES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="685.36,449.3558,693.8427,454.3602,690.3271,449.9284,694.7589,446.4128,685.36,449.3558" style="stroke:#181818;stroke-width:1.0;"/><path d="M1065,493.1358 L1065,538.1358 L1216,538.1358 L1216,503.1358 L1206,493.1358 L1065,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1206,493.1358 L1206,503.1358 L1216,503.1358 L1206,493.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="1071" y="512.0328">Consultar Estadisticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1071" y="529.7389">Realizar Petición</text></g><!--MD5=[3cf5599dd911814b498cda2483b34115]
+link DASHBOARD to DASHBOARD--><g id="link_DASHBOARD_DASHBOARD"><path d="M683.98,429.3858 C694.15,430.7358 701.5,435.1458 701.5,442.6358 C701.5,448.4858 697.02,452.4558 690.2,454.5558 " fill="none" id="DASHBOARD-to-DASHBOARD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="685.46,455.5658,695.0967,457.599,690.3498,454.5221,693.4267,449.7752,685.46,455.5658" style="stroke:#181818;stroke-width:1.0;"/><path d="M706.5,420.1358 L706.5,465.1358 L857.5,465.1358 L857.5,430.1358 L847.5,420.1358 L706.5,420.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M847.5,420.1358 L847.5,430.1358 L857.5,430.1358 L847.5,420.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="712.5" y="439.0328">Consultar Estadisticas</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="712.5" y="456.7389">Realizar Petición</text></g><!--MD5=[95b1445b7d837765b7035b0a6715aece]
+link GESTIÓN_EGRESADOS to GESTIÓN_EGRESADOS--><g id="link_GESTIÓN_EGRESADOS_GESTIÓN_EGRESADOS"><path d="M177.16,591.0858 C187.87,593.6058 195,598.6258 195,606.1358 C195,612.1258 190.47,616.5258 183.22,619.3458 " fill="none" id="GESTIÓN_EGRESADOS-to-GESTIÓN_EGRESADOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="178.61,620.7458,188.3849,621.9509,183.3932,619.2895,186.0547,614.2978,178.61,620.7458" style="stroke:#181818;stroke-width:1.0;"/><path d="M200,566.1358 L200,646.1358 L328,646.1358 L328,576.1358 L318,566.1358 L200,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M318,566.1358 L318,576.1358 L328,576.1358 L318,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="206" y="585.0328">Listar Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="206" y="602.7389">Crear Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="206" y="620.4449">Editar Egresado</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="206" y="638.1509">Eliminar Egresado</text></g><!--MD5=[e5a9596ac5e458fd8174e3c99200666e]
+link GESTIÓN_ADMINISTRADORES to GESTIÓN_ADMINISTRADORES--><g id="link_GESTIÓN_ADMINISTRADORES_GESTIÓN_ADMINISTRADORES"><path d="M595.42,592.1858 C606.15,594.9458 613,599.5958 613,606.1358 C613,611.3458 608.65,615.3558 601.45,618.1658 " fill="none" id="GESTIÓN_ADMINISTRADORES-to-GESTIÓN_ADMINISTRADORES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="596.86,619.6258,606.6483,620.716,601.6258,618.1133,604.2284,613.0908,596.86,619.6258" style="stroke:#181818;stroke-width:1.0;"/><path d="M618,566.1358 L618,646.1358 L776,646.1358 L776,576.1358 L766,566.1358 L618,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M766,566.1358 L766,576.1358 L776,576.1358 L766,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="624" y="585.0328">Listar Administrador</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="624" y="602.7389">Crear Administrador</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="624" y="620.4449">Editar Administrador</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="624" y="638.1509">Eliminar Administrador</text></g><!--MD5=[9006aa4e7e56f2ca25ea5fd5cd3e575c]
+link GESTIÓN_SERVICIOS to GESTIÓN_SERVICIOS--><g id="link_GESTIÓN_SERVICIOS_GESTIÓN_SERVICIOS"><path d="M964.36,590.9058 C974.92,593.3758 982,598.4458 982,606.1358 C982,612.2658 977.5,616.7258 970.33,619.5358 " fill="none" id="GESTIÓN_SERVICIOS-to-GESTIÓN_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="965.81,620.9258,975.5849,622.1309,970.5932,619.4695,973.2547,614.4778,965.81,620.9258" style="stroke:#181818;stroke-width:1.0;"/><path d="M987,566.1358 L987,646.1358 L1105,646.1358 L1105,576.1358 L1095,566.1358 L987,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1095,566.1358 L1095,576.1358 L1105,576.1358 L1095,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="993" y="585.0328">Listar Servicio</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="993" y="602.7389">Crear Servicio</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="993" y="620.4449">Editar Servicio</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="993" y="638.1509">Eliminar Servicio</text></g><!--MD5=[2ca19845b3e3fe665e7700a09ed1f34b]
+link GESTIÓN_PAQUETES to GESTIÓN_PAQUETES--><g id="link_GESTIÓN_PAQUETES_GESTIÓN_PAQUETES"><path d="M1295.96,590.9058 C1306.45,593.3758 1313.5,598.4458 1313.5,606.1358 C1313.5,612.2658 1309.03,616.7258 1301.9,619.5358 " fill="none" id="GESTIÓN_PAQUETES-to-GESTIÓN_PAQUETES" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1297.4,620.9158,1307.1781,622.0942,1302.1792,619.4464,1304.827,614.4475,1297.4,620.9158" style="stroke:#181818;stroke-width:1.0;"/><path d="M1318.5,566.1358 L1318.5,646.1358 L1446.5,646.1358 L1446.5,576.1358 L1436.5,566.1358 L1318.5,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1436.5,566.1358 L1436.5,576.1358 L1446.5,576.1358 L1436.5,566.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="1324.5" y="585.0328">Listar Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1324.5" y="602.7389">Crear Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="1324.5" y="620.4449">Editar Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="1324.5" y="638.1509">Eliminar Paquetes</text></g><!--MD5=[06c3f2024f4ea60966e79307ee69ec5f]
+link *start to INITIAL--><g id="link_*start_INITIAL"><path d="M731.25,66.2579 C731.25,78.9179 731.25,102.2079 731.25,120.3779 " fill="none" id="*start-to-INITIAL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="731.25,125.2979,735.25,116.2979,731.25,120.2979,727.25,116.2979,731.25,125.2979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5563963b6eff4b13ffd230664b5db6c7]
+link INITIAL to Alumni--><g id="link_INITIAL_Alumni"><path d="M731.25,167.5579 C731.25,187.3879 731.25,220.3879 731.25,257.2079 " fill="none" id="INITIAL-to-Alumni" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="731.25,262.1179,735.25,253.1179,731.25,257.1179,727.25,253.1179,731.25,262.1179" style="stroke:#181818;stroke-width:1.0;"/><path d="M736.25,202.0679 L736.25,229.0679 L835.25,229.0679 L835.25,212.0679 L825.25,202.0679 L736.25,202.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M825.25,202.0679 L825.25,212.0679 L835.25,212.0679 L825.25,202.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="742.25" y="220.9649">Iniciar Sesión</text></g><!--MD5=[58c2ff39d5451b5af4d7cc6e6c959528]
+link Alumni to *end--><g id="link_Alumni_*end"><path d="M731.25,657.2479 C731.25,695.0479 731.25,728.6979 731.25,747.4579 " fill="none" id="Alumni-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="731.25,752.1579,735.25,743.1579,731.25,747.1579,727.25,743.1579,731.25,752.1579" style="stroke:#181818;stroke-width:1.0;"/><path d="M736.25,692.1379 L736.25,719.1379 L836.25,719.1379 L836.25,702.1379 L826.25,692.1379 L736.25,692.1379 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M826.25,692.1379 L826.25,702.1379 L836.25,702.1379 L826.25,692.1379 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="742.25" y="711.0349">Cerrar Sesión</text></g><!--MD5=[d0f3cc657c98980978b5b1177cb7ed65]
+@startuml Contexto
+title Contexto Administrador
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] - -> INITIAL 
+
+INITIAL - -> Alumni
+note on link 
+Iniciar Sesión
+end note
+Alumni - -> [*]
+note on link
+Cerrar Sesión
+end note
+
+state Alumni as "ALUMNI" {
+    [*] - -> DASHBOARD
+    note on link
+    consultar Estadísticas
+    Realizar Petición
+    end note
+
+    DASHBOARD - -> GESTIÓN_EGRESADOS
+    note on link 
+    Listar Egresado
+    Realizar Petición
+    end note  
+    DASHBOARD <- - GESTIÓN_EGRESADOS
+    note on link 
+    Consultar Estadisticas
+    Realizar Petición
+    end note  
+    DASHBOARD - -> GESTIÓN_ADMINISTRADORES
+    note on link 
+    Listar Administrador
+    Realizar Petición
+    end note  
+    DASHBOARD <- - GESTIÓN_ADMINISTRADORES
+    note on link 
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+    DASHBOARD - -> GESTIÓN_SERVICIOS
+    note on link 
+    Listar Servicio
+    Realizar Petición
+    end note  
+    DASHBOARD <- - GESTIÓN_SERVICIOS
+    note on link 
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+    DASHBOARD - -> GESTIÓN_PAQUETES
+    note on link 
+    Listar Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD <- - GESTIÓN_PAQUETES
+    note on link 
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+
+    DASHBOARD - -> DASHBOARD
+    note on link
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+
+    GESTIÓN_EGRESADOS - -> GESTIÓN_EGRESADOS
+    note on link 
+    Listar Egresado
+    Crear Egresado
+    Editar Egresado
+    Eliminar Egresado
+    end note
+    GESTIÓN_ADMINISTRADORES - -> GESTIÓN_ADMINISTRADORES
+    note on link 
+    Listar Administrador
+    Crear Administrador
+    Editar Administrador
+    Eliminar Administrador
+    end note
+    GESTIÓN_SERVICIOS - -> GESTIÓN_SERVICIOS
+    note on link 
+    Listar Servicio
+    Crear Servicio
+    Editar Servicio
+    Eliminar Servicio
+    end note
+    GESTIÓN_PAQUETES - -> GESTIÓN_PAQUETES
+    note on link 
+    Listar Paquetes
+    Crear Paquetes
+    Editar Paquetes
+    Eliminar Paquetes
+    end note
+    
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

@@ -1,0 +1,53 @@
+@startuml
+skinparam defaultFontName Arial
+skinparam NoteBackgroundColor #whiteSmoke
+skinparam ArrowColor #green
+skinparam Linetype polyline
+top to bottom direction
+
+hide empty description
+title Terminar Suscripción
+
+skinparam defaultFontName Arial
+top to bottom direction
+
+state endState as "DASHBOARD"
+
+DASHBOARD -down-> TerminarSuscripción
+note on link
+<b>Usuario solicita</b>
+Terminar una suscripción
+end note
+
+TerminarSuscripción -down-> endState
+
+state TerminarSuscripción{
+  state 1 as " "
+  state 2 as " "
+  state 3 <<choice>>
+  [*] --> 1
+  1 --> 2
+  note on link
+  <b>Sistema solicita</b>
+  Confirmar la terminación de la suscripción
+  a un servicio o paquete de servicios, se
+  informa de la fecha de terminación
+  end note
+  2 --> 3
+  note on link
+  <b>Usuario introduce</b>
+  Confimación de la terminación de la suscripción
+  end note
+  3 -[#red]-> 1
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de error en caso de no poder terminar la suscripción
+  end note
+  3 --> [*]
+  note on link
+  <b>Sistema muestra</b>
+  Mensaje de confirmación
+  end note
+}
+
+@enduml

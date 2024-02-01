@@ -1,25 +1,53 @@
-# Sesiones de requisitado
-
-Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de UNEATLANTICO.
-
-Se desarrolla, en un caso real, la disciplina de requisitado, que es la puerta de entrada al desarrollo de una solución basada en software. 
-
-> Se ha demostrado, empírica y académicamente, que un porcentaje no menor de proyectos de software que fracasan lo hacen porque está mal llevada esta fase.
-
-<div align=center>
-
-||
-|-|
-![](/imagenes/modelosUML/trabajoRepos.svg)
-
+<h1 align="center">Bienvenido a ALUMNI </h1>
+<div align="center">
+  <image src="./Imágenes/Logo.png" align="center">
 </div>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="empty" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+</p>
 
-## Algunas reglas
+## Descripción
 
-- Reuniones oficiales (en horas de clase)
-  - A estas debe asistir el 100% de los integrantes de los grupos.
-  - Si a las reuniones asiste menos del 80% del grupo, la reunión se cancela y el grupo se da por cerrado. La evaluación se realiza de la forma tradicional (examen parcial, examen final).
-- Reuniones extra: de acuerdo a lo pautado con el cliente.
-- Se recomienda utilizar el repo del coordinador del grupo y las herramientas de GitHub para gestionar las reuniones y comunicaciones con el cliente, haciendo racional uso de la trazabilidad.
-- Las imágenes, en la medida de lo posible en formato plantUML. 
-  - Todas las fuentes en la carpeta modelosUML y las imágenes exportadas, en formato svg.
+Es una plataforma que se encarga de conectar a estudiantes egresados de la red Uneatlantico con la universidad por medio de servicios que concentra la plataforma.
+
+## Modelo de Dominio
+  En este apartado se encuentra la esctructura de Alumni. Para describirla, se establecen una serie de objetos que se relacionan entre sí, para que el sistema funcione correctamente. 
+  
+  Las relaciones y el funcionamiento de estos se encuentran descritos en los siguientes diagramas:
+
+  - [Diagramas de Clases](/Modelo_de_Dominio/Diagramas_de_Clases/)
+  - [Diagramas de Estados](/Modelo_de_Dominio/Diagramas_de_Estado/)
+  - [Diagaramas de Objetos](/Modelo_de_Dominio/Diagramas_de_Objetos/)
+
+## Casos de Uso
+
+  Aquí se encuentran los casos de uso detallado mediantes diagramas de estados. Estos estan repartidos entre los actores del sistema. Los casos de uso se encuentran estructurados por actores, de tal forma que solo se muestran los casos de uso que le corresponden a cada actor. A su vez, cada caso de uso se encuentra relacionado con los prototipos que lo implementan. 
+  
+  Todo esto se encuentra descrito en los siguientes diagramas:
+
+  - [Actores](/Caso_de_Uso/Actores/)
+  - [Casos de Uso Detallados](/Caso_de_Uso/Casos_de_Uso/)
+  - [Diagrama Casos de Uso](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/)
+  - [Diagrama de Contexto](/Caso_de_Uso/Contexto/)
+  - [Prototipos](/Caso_de_Uso/Prototipos/)
+
+## Sesiones
+
+  Aquí se encuentran los apuntes tomados en las sesiones con el cliente. A lo largo del proyecto se han tenido 4 sesiones con el grupo completo de las cuales se han tomado notas de 3, numerosas reuniones para resolver dudas puntuales con pocos miembros de grupo y una reunión final para presentar el proyecto. 
+  
+  A continuación se encuentran los apuntes tomados durante las sesiones:
+
+  - [Todas las sesiones](/Sesiones/)
+  - [Sesión del 19/10/2023](/Sesiones/19-10-2023)
+  - [Sesión del 07/11/2023](/Sesiones/07-11-2023)
+  - [Sesión del 21/11/2023](/Sesiones/21-11-2023)
+  - [Sesión final del 26/01/2024](/Sesiones/26-01-2024/Apuntes%20de%20la%20evaluación%20final.md)
+
+ ## Glosario
+  En este apartado se encuentra el glosario de términos que se han utilizado en el proyecto. Estos se encuentran descritos en el siguiente enlace:
+
+  - [Glosario](/Glosario/)
+

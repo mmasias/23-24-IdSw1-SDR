@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="898px" preserveAspectRatio="none" style="width:535px;height:898px;background:#FFFFFF;" version="1.1" viewBox="0 0 535 898" width="535px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="102" x="206.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="211.5" y="24.9659">Iniciar Sesión</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="232" y="852.1379"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="237" y="877.5699">ALUMNI</text><ellipse cx="264.5" cy="56.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><path d="M19.5,181.0679 L509.5,181.0679 A12.5,12.5 0 0 1 522,193.5679 L522,210.1358 L7,210.1358 L7,193.5679 A12.5,12.5 0 0 1 19.5,181.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="610.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="515" x="7" y="181.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="522" y1="210.1358" y2="210.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="221" y="201.0339">IniciarSesión</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="109" y="278.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="132" y="303.5678"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="19" y="469.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="42" y="495.0678"> </text><g id="elem_4"><polygon fill="#F1F1F1" points="143,626.1358,155,638.1358,143,650.1358,131,638.1358,143,626.1358" style="stroke:#181818;stroke-width:0.5;"/></g><ellipse cx="134" cy="231.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="115" y="741.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="120" y="766.5678">INICIO</text><!--MD5=[a1a96358ec7b0fc84030231bbf435d3a]
+link *start*IniciarSesión to 2--><g id="link_*start*IniciarSesión_2"><path d="M134,241.4458 C134,249.2358 134,260.7358 134,271.2658 " fill="none" id="*start*IniciarSesión-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="134,276.1458,138,267.1458,134,271.1458,130,267.1458,134,276.1458" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M108.51,308.7558 C79.47,319.7258 36,336.1358 36,336.1358 C36,336.1358 36,444.1358 36,444.1358 C36,444.1358 37.62,453.1358 39.4,463.0358 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="40.25,467.7558,42.5902,458.189,39.3631,462.8351,34.7171,459.608,40.25,467.7558" style="stroke:#008000;stroke-width:1.0;"/><path d="M41,341.1358 L41,439.1358 L215,439.1358 L215,351.1358 L205,341.1358 L41,341.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M205,341.1358 L205,351.1358 L215,351.1358 L205,341.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="47" y="360.0328">Sistema Solicita</text><ellipse cx="52.5" cy="374.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="59" y="377.7389">Email</text><ellipse cx="52.5" cy="391.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="59" y="395.4449">Contraseña</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="108" x="47" y="413.1509">Sistema Permite</text><ellipse cx="52.5" cy="427.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="59" y="430.8569">Iniciar Sesión en Alumni</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M48.29,510.0358 C55.68,543.4158 70,608.1358 70,608.1358 C70,608.1358 107.33,622.9658 128.6,631.4158 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="133.22,633.2458,126.3306,626.2077,128.5727,631.4012,123.3792,633.6434,133.22,633.2458" style="stroke:#008000;stroke-width:1.0;"/><path d="M75,540.1358 L75,603.1358 L215,603.1358 L215,550.1358 L205,540.1358 L75,540.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M205,540.1358 L205,550.1358 L215,550.1358 L205,540.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="119" x="81" y="559.0328">Usuario introduce</text><ellipse cx="86.5" cy="573.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="93" y="576.7389">Email</text><ellipse cx="86.5" cy="590.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="93" y="594.4449">Contraseña</text></g><!--MD5=[c2a1291977e9a94aab45a8674c128810]
+link 4 to INICIO--><g id="link_4_INICIO"><path d="M143,650.7358 C143,669.9358 143,708.7358 143,734.5858 " fill="none" id="4-to-INICIO" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="143,739.3458,147,730.3458,143,734.3458,139,730.3458,143,739.3458" style="stroke:#008000;stroke-width:1.0;"/><path d="M148,673.1358 L148,718.1358 L353,718.1358 L353,683.1358 L343,673.1358 L148,673.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M343,673.1358 L343,683.1358 L353,683.1358 L343,673.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="154" y="692.0328">Sistema Muestra</text><ellipse cx="159.5" cy="706.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="172" x="166" y="709.7389">Pantalla de Inicio del Usuario</text></g><!--MD5=[d5d43b3f3dfddbfb6ca65af0419a6a54]
+link 4 to 2--><g id="link_4_2"><path d="M151.24,634.0358 C171.1,626.5558 220,608.1358 220,608.1358 C220,608.1358 220,336.1358 220,336.1358 C220,336.1358 189.75,323.1258 165.13,312.5258 " fill="none" id="4-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="160.73,310.6358,167.4185,317.8652,165.3235,312.6106,170.5781,310.5156,160.73,310.6358" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M225,467.1358 L225,512.1358 L513,512.1358 L513,477.1358 L503,467.1358 L225,467.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M503,467.1358 L503,477.1358 L513,477.1358 L503,467.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="231" y="486.0328">Sistema Muestra</text><ellipse cx="236.5" cy="500.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="243" y="503.7389">Mensaje de error en los datos introducidos</text></g><!--MD5=[0fc7956bfde7a84a782669c725f638cd]
+link *start to IniciarSesión--><g id="link_*start_IniciarSesión"><path d="M264.5,66.4079 C264.5,83.9979 264.5,124.7479 264.5,174.2679 " fill="none" id="*start-to-IniciarSesión" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="264.5,179.1479,268.5,170.1479,264.5,174.1479,260.5,170.1479,264.5,179.1479" style="stroke:#008000;stroke-width:1.0;"/><path d="M269.5,101.0679 L269.5,146.0679 L443.5,146.0679 L443.5,111.0679 L433.5,101.0679 L269.5,101.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M433.5,101.0679 L433.5,111.0679 L443.5,111.0679 L433.5,101.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="275.5" y="119.9649">Usuario Solicita</text><ellipse cx="281" cy="133.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="287.5" y="137.6709">Iniciar Sesión en Alumni</text></g><!--MD5=[9125751ad7a62b4724a4f4f540616870]
+link IniciarSesión to endState--><g id="link_IniciarSesión_endState"><path d="M264.5,791.5679 C264.5,812.9979 264.5,831.5479 264.5,845.3379 " fill="none" id="IniciarSesión-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="264.5,850.1979,268.5,841.1979,264.5,845.1979,260.5,841.1979,264.5,850.1979" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[741b4525232e6e6e480dd97d4623d323]
+@startuml
+
+title Iniciar Sesión
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state endState as "ALUMNI"
+
+[*] - -> IniciarSesión
+note on link
+    <b>Usuario Solicita</b>
+    * Iniciar Sesión en Alumni
+end note
+
+IniciarSesión - -> endState
+
+state IniciarSesión {
+state 2 as " "
+state 3 as " "
+state 4 <<choice>>
+
+[*] -down-> 2
+
+2 -down-> 3
+note on link
+<b>Sistema Solicita</b>
+* Email
+* Contraseña
+<b>Sistema Permite</b>
+* Iniciar Sesión en Alumni
+end note
+
+3 -down-> 4
+note on link
+<b>Usuario introduce</b>
+* Email
+* Contraseña
+end note
+
+4 -down-> INICIO
+note on link
+<b>Sistema Muestra</b>
+* Pantalla de Inicio del Usuario
+end note
+
+4 -[#red]-> 2
+note on link
+<b>Sistema Muestra</b>
+* Mensaje de error en los datos introducidos
+end note
+
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
