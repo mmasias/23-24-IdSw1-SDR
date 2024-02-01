@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1475px" preserveAspectRatio="none" style="width:1106px;height:1475px;background:#FFFFFF;" version="1.1" viewBox="0 0 1106 1475" width="1106px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="170" x="458" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="463" y="24.9659">Registro en Plataforma</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="65" x="517.5" y="1429.1379"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="522.5" y="1454.5699">ALUMNI</text><ellipse cx="550" cy="56.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><path d="M19.5,181.0679 L1080.5,181.0679 A12.5,12.5 0 0 1 1093,193.5679 L1093,210.1358 L7,210.1358 L7,193.5679 A12.5,12.5 0 0 1 19.5,181.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="1187.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="1086" x="7" y="181.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="1093" y1="210.1358" y2="210.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="477" y="201.0339">RegistroEnPlataforma</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="678" y="350.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="701" y="375.5678"> </text><g id="elem_3"><polygon fill="#F1F1F1" points="605,514.6358,617,526.6358,605,538.6358,593,526.6358,605,514.6358" style="stroke:#181818;stroke-width:0.5;"/></g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="394" y="627.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="417" y="652.5678"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="678" y="627.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="701" y="652.5678"> </text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="394" y="917.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="417" y="942.5678"> </text><g id="elem_7"><polygon fill="#F1F1F1" points="325,1187.6358,337,1199.6358,325,1211.6358,313,1199.6358,325,1187.6358" style="stroke:#181818;stroke-width:0.5;"/></g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="394" y="1318.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="417" y="1343.5678"> </text><ellipse cx="703" cy="231.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><ellipse cx="28" cy="1338.1358" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="28.5" cy="1338.6358" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[551396dde787568e645a798f318599ed]
+link *start*RegistroEnPlataforma to 2--><g id="link_*start*RegistroEnPlataforma_2"><path d="M703,241.5558 C703,262.3258 703,312.6658 703,343.5358 " fill="none" id="*start*RegistroEnPlataforma-to-2" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="703,348.3058,707,339.3058,703,343.3058,699,339.3058,703,348.3058" style="stroke:#008000;stroke-width:1.0;"/><path d="M708,264.1358 L708,327.1358 L866,327.1358 L866,274.1358 L856,264.1358 L708,264.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M856,264.1358 L856,274.1358 L866,274.1358 L856,264.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="714" y="283.0328">Sistema Solicita</text><ellipse cx="719.5" cy="297.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="726" y="300.7389">Carnet de Estudiante</text><ellipse cx="719.5" cy="314.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="726" y="318.4449">DNI/NIF/NIE</text></g><!--MD5=[eeb69082328d10abd3b14fdeede0d8a3]
+link 2 to 3--><g id="link_2_3"><path d="M677.65,382.4358 C653.24,393.3158 620,408.1358 620,408.1358 C620,408.1358 611.2,477.0458 607.08,509.3258 " fill="none" id="2-to-3" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="606.47,514.1158,611.5704,505.6905,607.099,509.1556,603.6339,504.6842,606.47,514.1158" style="stroke:#008000;stroke-width:1.0;"/><path d="M625,413.1358 L625,476.1358 L783,476.1358 L783,423.1358 L773,413.1358 L625,413.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M773,413.1358 L773,423.1358 L783,423.1358 L773,413.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="120" x="631" y="432.0328">Usuario Introduce</text><ellipse cx="636.5" cy="446.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="643" y="449.7389">Carnet de Estudiante</text><ellipse cx="636.5" cy="463.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="643" y="467.4449">DNI/NIF/NIE</text></g><!--MD5=[c24e363b82b23e873c94edca50a9731f]
+link 3 to 5--><g id="link_3_5"><path d="M605.14,538.9658 C605.41,561.3658 606,609.1358 606,609.1358 C606,609.1358 643.28,623.3558 671.62,634.1658 " fill="none" id="3-to-5" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="676.1,635.8758,669.1215,628.9259,671.4296,634.0905,666.265,636.3986,676.1,635.8758" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M611,577.1358 L611,604.1358 L783,604.1358 L783,587.1358 L773,577.1358 L611,577.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M773,577.1358 L773,587.1358 L783,587.1358 L773,577.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="617" y="596.0328">Estudiante no Registrado</text></g><!--MD5=[4d8a96d09d2f7e5fdd4fcd506871cbc1]
+link 5 to 2--><g id="link_5_2"><path d="M728.04,635.2358 C753.12,624.3158 788,609.1358 788,609.1358 C788,609.1358 788,408.1358 788,408.1358 C788,408.1358 758.1,395.1258 733.77,384.5258 " fill="none" id="5-to-2" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="729.43,382.6458,736.0995,389.8928,734.0183,384.6327,739.2784,382.5515,729.43,382.6458" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M793,504.1358 L793,549.1358 L1084,549.1358 L1084,514.1358 L1074,504.1358 L793,504.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1074,504.1358 L1074,514.1358 L1084,514.1358 L1074,504.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="799" y="523.0328">Sistema Muestra</text><ellipse cx="804.5" cy="537.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="258" x="811" y="540.7389">Mensaje de Error: Estudiante no Registrado</text></g><!--MD5=[b1f22f0c97e7f2b556a5a2d67c42ac53]
+link 3 to 4--><g id="link_3_4"><path d="M596.08,530.0258 C561.6,539.2758 439,572.1358 439,572.1358 C439,572.1358 431.69,599.1658 425.91,620.5558 " fill="none" id="3-to-4" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="424.65,625.2358,430.8733,617.6023,425.9632,620.4114,423.1541,615.5012,424.65,625.2358" style="stroke:#008000;stroke-width:1.0;"/><path d="M444,577.1358 L444,604.1358 L597,604.1358 L597,587.1358 L587,577.1358 L444,577.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M587,577.1358 L587,587.1358 L597,587.1358 L587,577.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="450" y="596.0328">Estudiante Registrado</text></g><!--MD5=[f13c3ab577a688343a149026a232f91b]
+link 4 to 6--><g id="link_4_6"><path d="M419,667.4758 C419,717.9958 419,853.9058 419,910.6758 " fill="none" id="4-to-6" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="419,915.3658,423,906.3658,419,910.3658,415,906.3658,419,915.3658" style="stroke:#008000;stroke-width:1.0;"/><path d="M424,690.1358 L424,894.1358 L696,894.1358 L696,700.1358 L686,690.1358 L424,690.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M686,690.1358 L686,700.1358 L696,700.1358 L686,690.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="430" y="709.0328">Sistema Muestra</text><ellipse cx="435.5" cy="723.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="442" y="726.7389">Mensaje de Éxito: Estudiante Registrado</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="103" x="430" y="744.4449">Sistema Solicita</text><ellipse cx="435.5" cy="758.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="442" y="762.1509">Nombre</text><ellipse cx="435.5" cy="776.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="442" y="779.8569">Apellido</text><ellipse cx="435.5" cy="793.8719" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="442" y="797.5629">Fecha de nacimiento</text><ellipse cx="435.5" cy="811.5779" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="442" y="815.2689">Email</text><ellipse cx="435.5" cy="829.284" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="442" y="832.975">Teléfono</text><ellipse cx="435.5" cy="846.99" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="442" y="850.681">Contraseña</text><ellipse cx="435.5" cy="864.696" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="442" y="868.387">Dirección</text><ellipse cx="435.5" cy="882.402" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="442" y="886.093">Ocupación</text></g><!--MD5=[2dfa168d6698efd82f568a8036f37f42]
+link 6 to 7--><g id="link_6_7"><path d="M393.66,949.0358 C368.29,959.9558 333,975.1358 333,975.1358 C333,975.1358 327.51,1128.3858 325.63,1181.0858 " fill="none" id="6-to-7" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="325.45,1186.0358,329.7813,1177.1905,325.6356,1181.0393,321.7868,1176.8936,325.45,1186.0358" style="stroke:#008000;stroke-width:1.0;"/><path d="M338,980.1358 L338,1149.1358 L494,1149.1358 L494,990.1358 L484,980.1358 L338,980.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M484,980.1358 L484,990.1358 L494,990.1358 L484,980.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="120" x="344" y="999.0328">Usuario Introduce</text><ellipse cx="349.5" cy="1013.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="356" y="1016.7389">Nombre</text><ellipse cx="349.5" cy="1030.7539" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="356" y="1034.4449">Apellido</text><ellipse cx="349.5" cy="1048.4599" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="356" y="1052.1509">Fecha de nacimiento</text><ellipse cx="349.5" cy="1066.1659" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32" x="356" y="1069.8569">Email</text><ellipse cx="349.5" cy="1083.8719" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="356" y="1087.5629">Teléfono</text><ellipse cx="349.5" cy="1101.5779" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="356" y="1105.2689">Contraseña</text><ellipse cx="349.5" cy="1119.284" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="356" y="1122.975">Dirección</text><ellipse cx="349.5" cy="1136.99" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="356" y="1140.681">Ocupación</text></g><!--MD5=[09e96f217a855a8e3d35b283e8945458]
+link 7 to *end*RegistroEnPlataforma--><g id="link_7_*end*RegistroEnPlataforma"><path d="M315.14,1202.2158 C265.8,1210.1458 48,1245.1358 48,1245.1358 C48,1245.1358 36.99,1295.7658 31.31,1321.9058 " fill="none" id="7-to-*end*RegistroEnPlataforma" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="30.31,1326.4958,36.1229,1318.5453,31.3674,1321.6089,28.3038,1316.8535,30.31,1326.4958" style="stroke:#008000;stroke-width:1.0;"/><path d="M53,1250.1358 L53,1295.1358 L317,1295.1358 L317,1260.1358 L307,1250.1358 L53,1250.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M307,1250.1358 L307,1260.1358 L317,1260.1358 L307,1250.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="59" y="1269.0328">Sistema Muestra</text><ellipse cx="64.5" cy="1283.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="71" y="1286.7389">Mensaje de Éxito: Egresado Registrado</text></g><!--MD5=[5ca979b543d038a4b12f05f8f6f2c83d]
+link 7 to 8--><g id="link_7_8"><path d="M325.11,1212.0458 C325.38,1238.1858 326,1300.1358 326,1300.1358 C326,1300.1358 360.62,1313.9058 387.61,1324.6458 " fill="none" id="7-to-8" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="392.18,1326.4658,385.2906,1319.4277,387.5327,1324.6212,382.3392,1326.8634,392.18,1326.4658" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M331,1259.1358 L331,1286.1358 L494,1286.1358 L494,1269.1358 L484,1259.1358 L331,1259.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M484,1259.1358 L484,1269.1358 L494,1269.1358 L484,1259.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="337" y="1278.0328">Error al introducir datos</text></g><!--MD5=[dfd4d3abcbc1ea6e869654a29eca52f3]
+link 8 to 6--><g id="link_8_6"><path d="M444.31,1325.4258 C467.75,1314.5858 499,1300.1358 499,1300.1358 C499,1300.1358 499,975.1358 499,975.1358 C499,975.1358 472.67,962.9558 450.22,952.5758 " fill="none" id="8-to-6" style="stroke:#FF0000;stroke-width:1.0;"/><polygon fill="#FF0000" points="445.69,950.4758,452.181,957.8831,450.2285,952.5738,455.5378,950.6214,445.69,950.4758" style="stroke:#FF0000;stroke-width:1.0;"/><path d="M504,1177.1358 L504,1222.1358 L786,1222.1358 L786,1187.1358 L776,1177.1358 L504,1177.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M776,1177.1358 L776,1187.1358 L786,1187.1358 L776,1177.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="110" x="510" y="1196.0328">Sistema Muestra</text><ellipse cx="515.5" cy="1210.0479" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="522" y="1213.7389">Mensaje de Error: Error al introducir datos</text></g><!--MD5=[beaeb33f63748c3f24f8209c8e2e401f]
+link *start to RegistroEnPlataforma--><g id="link_*start_RegistroEnPlataforma"><path d="M550,66.3879 C550,83.4179 550,122.5979 550,174.2479 " fill="none" id="*start-to-RegistroEnPlataforma" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="550,179.0979,554,170.0979,550,174.0979,546,170.0979,550,179.0979" style="stroke:#008000;stroke-width:1.0;"/><path d="M555,101.0679 L555,146.0679 L735,146.0679 L735,111.0679 L725,101.0679 L555,101.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M725,101.0679 L725,111.0679 L735,111.0679 L725,101.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="159" x="561" y="119.9649">Ajeno al Sistema Solicita</text><ellipse cx="566.5" cy="133.9799" fill="#000000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="573" y="137.6709">Registro en Plataforma</text></g><!--MD5=[8bfb589ff00caffc49cdb15deb775b61]
+link RegistroEnPlataforma to endState--><g id="link_RegistroEnPlataforma_endState"><path d="M550,1368.3479 C550,1390.4379 550,1408.8979 550,1422.4779 " fill="none" id="RegistroEnPlataforma-to-endState" style="stroke:#008000;stroke-width:1.0;"/><polygon fill="#008000" points="550,1427.2279,554,1418.2279,550,1422.2279,546,1418.2279,550,1427.2279" style="stroke:#008000;stroke-width:1.0;"/></g><!--MD5=[8b58a31391cb3d61c49f5146d2546128]
+@startuml
+title Registro en Plataforma
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    ArrowColor #green
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+state endState as "ALUMNI"
+
+[*] - -> RegistroEnPlataforma
+note on link
+    <b>Ajeno al Sistema Solicita</b>
+    * Registro en Plataforma
+end note
+
+RegistroEnPlataforma - -> endState
+
+state RegistroEnPlataforma {
+  state 2 as " "
+  state 3 <<choice>>
+  state 4 as " "
+  state 5 as " "
+  state 6 as " "
+  state 7 <<choice>>
+  state 8 as " "
+
+
+  [*] - -> 2
+  note on link
+    <b>Sistema Solicita</b>
+    * Carnet de Estudiante 
+    * DNI/NIF/NIE
+  end note
+
+  2 - -> 3
+  note on link
+    <b>Usuario Introduce</b>
+    * Carnet de Estudiante
+    * DNI/NIF/NIE
+  end note
+
+  3 -[#red]-> 5
+  note on link
+    Estudiante no Registrado
+  end note
+
+  5 -[#red]-> 2
+  note on link
+    <b>Sistema Muestra</b>
+    * Mensaje de Error: Estudiante no Registrado
+  end note
+
+  3 - -> 4
+  note on link
+    Estudiante Registrado
+  end note
+
+  4 - -> 6
+  note on link
+    <b>Sistema Muestra</b>
+    * Mensaje de Éxito: Estudiante Registrado
+    <b>Sistema Solicita</b>
+    * Nombre
+    * Apellido
+    * Fecha de nacimiento
+    * Email
+    * Teléfono
+    * Contraseña
+    * Dirección
+    * Ocupación
+  end note
+
+  6 - -> 7
+  note on link
+    <b>Usuario Introduce</b>
+    * Nombre
+    * Apellido
+    * Fecha de nacimiento
+    * Email
+    * Teléfono
+    * Contraseña
+    * Dirección
+    * Ocupación
+  end note
+
+  7 - -> [*]
+  note on link
+    <b>Sistema Muestra</b>
+    * Mensaje de Éxito: Egresado Registrado
+  end note
+
+  7 -[#red]-> 8
+  note on link
+    Error al introducir datos
+  end note
+
+  8 -[#red]-> 6
+  note on link
+    <b>Sistema Muestra</b>
+    * Mensaje de Error: Error al introducir datos
+  end note
+
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

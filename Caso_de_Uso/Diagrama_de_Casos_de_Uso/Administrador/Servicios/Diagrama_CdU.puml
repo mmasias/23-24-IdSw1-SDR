@@ -1,0 +1,29 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "CRUD Servicios" as CRUDServicios {
+    Administrador --> (Crear Servicio)
+    Administrador --> (Listar Servicios)
+    Administrador --> (Editar Servicio)
+    Administrador --> (Eliminar Servicio)
+}
+
+folder "CRUD Paquetes" as CRUDPaquetes {
+    Administrador --> (Crear Paquete)
+    Administrador --> (Listar Paquete)
+    Administrador --> (Editar Paquete)
+    Administrador --> (Eliminar Paquete)
+}
+
+@enduml

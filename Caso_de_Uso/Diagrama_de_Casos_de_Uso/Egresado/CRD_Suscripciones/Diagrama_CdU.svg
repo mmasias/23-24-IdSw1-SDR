@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="402px" preserveAspectRatio="none" style="width:584px;height:402px;background:#FFFFFF;" version="1.1" viewBox="0 0 584 402" width="584px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="176" x="197.395" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="202.395" y="24.9659">Casos de Uso(Egresado)</text><!--MD5=[a2e01a3d20edbfd1dfe88f1aa873f491]
+cluster CRDSuscripciones--><g id="cluster_CRDSuscripciones"><path d="M115.5,46.6699 L242.5,46.6699 A3.75,3.75 0 0 1 245,49.1699 L252,71.7378 L575.29,71.7378 A2.5,2.5 0 0 1 577.79,74.2378 L577.79,393.1699 A2.5,2.5 0 0 1 575.29,395.6699 L115.5,395.6699 A2.5,2.5 0 0 1 113,393.1699 L113,49.1699 A2.5,2.5 0 0 1 115.5,46.6699 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="113" x2="252" y1="71.7378" y2="71.7378"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="117" y="63.6358">CRD Suscripciones</text></g><g id="elem_Suscripción a Servicio / Paquete de Servicios"><ellipse cx="345.3948" cy="119.6729" fill="#F1F1F1" rx="165.1648" ry="35.433" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="196.3948" y="123.1048">Suscripción a Servicio / Paquete de Servicios</text></g><g id="elem_Cancelación de Suscripción a Servicio / Paquete de Servicios"><ellipse cx="345.3926" cy="235.6684" fill="#F1F1F1" rx="216.3926" ry="45.6785" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="404" x="143.3926" y="239.1004">Cancelación de Suscripción a Servicio / Paquete de Servicios</text></g><g id="elem_Listar Servicios / Paquetes de Servicios"><ellipse cx="345.3907" cy="347.668" fill="#F1F1F1" rx="146.6407" ry="31.7281" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="215.8907" y="351.1">Listar Servicios / Paquetes de Servicios</text></g><!--MD5=[886f27c4ce1bf6d1eb714be2c81d3749]
+entity Egresado--><g id="elem_Egresado"><ellipse cx="37.5" cy="204.6399" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M37.5,212.6399 L37.5,239.6399 M24.5,220.6399 L50.5,220.6399 M37.5,239.6399 L24.5,254.6399 M37.5,239.6399 L50.5,254.6399 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="6" y="271.1058">Egresado</text></g><!--MD5=[7d6c2f27233e1a683505a9751f2431e0]
+link Egresado to Suscripción a Servicio / Paquete de Servicios--><g id="link_Egresado_Suscripción a Servicio / Paquete de Servicios"><path d="M69.41,206.3799 C86.78,189.9299 105,172.6699 105,172.6699 C105,172.6699 163.82,159.6499 223.14,146.5099 " fill="none" id="Egresado-to-Suscripción a Servicio / Paquete de Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="227.78,145.4899,218.1321,143.5106,222.8961,146.5609,219.8457,151.3249,227.78,145.4899" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[173058fa2fc76ff4827fceec93daab69]
+link Egresado to Cancelación de Suscripción a Servicio / Paquete de Servicios--><g id="link_Egresado_Cancelación de Suscripción a Servicio / Paquete de Servicios"><path d="M69.23,235.6699 C83.51,235.6699 101.86,235.6699 122.29,235.6699 " fill="none" id="Egresado-to-Cancelación de Suscripción a Servicio / Paquete de Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="127.18,235.6699,118.18,231.6699,122.18,235.6699,118.18,239.6699,127.18,235.6699" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[58e4cf5416d9a429023adf5eec354dd0]
+link Egresado to Listar Servicios / Paquetes de Servicios--><g id="link_Egresado_Listar Servicios / Paquetes de Servicios"><path d="M69.41,264.9599 C86.78,281.4099 105,298.6699 105,298.6699 C105,298.6699 169.32,311.8299 231.28,324.5199 " fill="none" id="Egresado-to-Listar Servicios / Paquetes de Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="236.17,325.5199,228.1516,319.801,231.271,324.5201,226.5519,327.6395,236.17,325.5199" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1cf65304e6b8de9a6818313415e6d300]
+@startuml Diagrama_CdU
+
+title Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+folder "CRD Suscripciones" as CRDSuscripciones {
+    Egresado - -> (Suscripción a Servicio / Paquete de Servicios)
+    Egresado - -> (Cancelación de Suscripción a Servicio / Paquete de Servicios)
+    Egresado - -> (Listar Servicios / Paquetes de Servicios)
+}
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

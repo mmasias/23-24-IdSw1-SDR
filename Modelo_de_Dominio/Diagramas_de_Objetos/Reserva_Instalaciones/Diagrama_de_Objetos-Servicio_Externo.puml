@@ -9,7 +9,7 @@ class "INSTALACIONES : SERVICIO EXTERNO"
 {
     Nombre: "Instalaciones +"
     Precio: "13€"
-    Descripción: "Con este servicio podras\nalquilar instalaciones como las canchas \nde futbol"
+    Descripción: "Con este servicio podrás\nalquilar instalaciones como las canchas \nde fútbol"
     Url: "https://ejemplo.com"
 }
 
@@ -20,8 +20,8 @@ class "BEN : EGRESADO"
 }
 
 "INSTALACIONES : SERVICIO EXTERNO" -left- "ALUMNI"
-note left: La plataforma se comunica \ncon el servicio y pasa todos \nlos datos necesarios del egresado \npara iniciar sesion del egresado \nen el servicio
+note left: La plataforma se comunica \ncon el servicio y pasa todos \nlos datos necesarios del egresado \npara iniciar sesión del egresado \nen el servicio
 "ALUMNI" -- "BEN : EGRESADO" : comunica
-note right: Es el que usa el servicio\npara reservar la instalación \n\nSe da por echo todos los \ndatos que debería tener un \negresado  
+note right: Es el que usa el servicio\npara reservar la instalación. \n\nSe dan por echo todos los \ndatos que debería tener un \negresado  
 @enduml
 

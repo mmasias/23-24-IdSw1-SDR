@@ -11,12 +11,15 @@ skinparam {
 hide empty description
 
 state startState as "GESTIÓN_PAQUETES"
+state endState as "GESTIÓN_PAQUETES"
 
 startState --> EliminarPaquete
 note on link
     <b>Administrador Solicita</b>
-    * Elminar Paquete de Servicios
+    * Eliminar Paquete de Servicios
 end note
+
+EliminarPaquete --> endState
 
 state EliminarPaquete{
 state 2 as " "
@@ -33,7 +36,7 @@ end note
 
 3 -down-> 4
 note on link
-<b>Amdinistrador Introduce</b>
+<b>Administrador Introduce</b>
 * Nombre del Paquete
 end note
 

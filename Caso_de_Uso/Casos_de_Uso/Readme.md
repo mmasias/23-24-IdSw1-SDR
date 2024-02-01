@@ -14,9 +14,9 @@
 
 ### [Egresado](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado)
 
-  - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Registro_en_plataforma/)
+  - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Registrarse/)
 
-  - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Cancelación_de_Cuenta/)
+  - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Cancelar_Cuenta/)
 
   - [Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso//Usuarios/Egresado/CRD_Suscripción/Crear_Suscripción/)
 
@@ -24,9 +24,9 @@
 
 ### [Administrador](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador)
 
-  - [Consultar estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/)
+  - [Consultar Estadísticas](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/Consultar_Estadisticas/)
 
-#### [Gestion Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios)
+#### [Gestión Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios)
 
   - [Crear Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso/Usuarios/Administrador/CRUD_Paquetes_de_Servicios/Crear_Paquete/)
   

@@ -11,11 +11,15 @@ title Listar Servicios / Paquetes de servicios
 skinparam defaultFontName Arial
 top to bottom direction
 
-EXPLORAR_SERVICIOS -down-> ListarServiciosYPaquetes
+state endState as "ALUMNI"
+
+ALUMNI -down-> ListarServiciosYPaquetes
 note on link
 <b>Usuario solicita</b>
 Listar servicios y/o paquetes de servicios
 end note
+
+ListarServiciosYPaquetes -down-> endState
 
 state ListarServiciosYPaquetes{
   state 1 as " "

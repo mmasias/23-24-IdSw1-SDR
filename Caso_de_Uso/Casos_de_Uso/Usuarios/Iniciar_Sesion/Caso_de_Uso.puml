@@ -11,13 +11,15 @@ skinparam {
 
 hide empty description
 
-state INICIO
+state endState as "ALUMNI"
 
 [*] --> IniciarSesión
 note on link
     <b>Usuario Solicita</b>
     * Iniciar Sesión en Alumni
 end note
+
+IniciarSesión --> endState
 
 state IniciarSesión {
 state 2 as " "

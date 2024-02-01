@@ -12,12 +12,15 @@ skinparam {
 hide empty description
 
 state startState as "GESTIÓN_SERVICIOS"
+state endState as "GESTIÓN_SERVICIOS"
 
 startState --> CrearServicio
 note on link
     <b>Administrador Solicita</b>
     * Crear Servicio
 end note
+
+CrearServicio --> endState
 
 state CrearServicio {
 state 2 as " "
@@ -39,7 +42,7 @@ end note
 
 3 -down-> 4
 note on link
-<b>Amdinistrador Introduce</b>
+<b>Administrador Introduce</b>
 * Nombre
 * Precio
 * Url del Servicio

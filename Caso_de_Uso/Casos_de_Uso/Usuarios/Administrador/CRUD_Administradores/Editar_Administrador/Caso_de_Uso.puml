@@ -11,13 +11,16 @@ skinparam {
 
 hide empty description
 
-state startState as "ADMINISTRADORES"
+state startState as "GESTIÓN_ADMINISTRADORES"
+state endState as "GESTIÓN_ADMINISTRADORES"
 
 startState --> EditarAdministrador
 note on link
     <b>Administrador Solicita</b>
     * Editar datos del Administrador
 end note
+
+EditarAdministrador --> endState
 
 state EditarAdministrador {
 state 2 as " "

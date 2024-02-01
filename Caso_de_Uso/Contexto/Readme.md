@@ -1,24 +1,20 @@
 # Diagramas de Contexto
 
-## [Diagramas de Contexto del Administrador](/Caso_de_Uso/Contexto/Administrador/)
+## [Administrador](/Caso_de_Uso/Contexto/Administrador/)
 
-- [General](/Caso_de_Uso/Contexto/Administrador/Contexto/)
-- [Inicio](/Caso_de_Uso/Contexto/Administrador/Inicio/)
-- [Explorar Servicios](/Caso_de_Uso/Contexto/Administrador/Explorar_Servicios/)
-- [Configuración](/Caso_de_Uso/Contexto/Administrador/Configuracion/)
-- [Gestión Paquetes](/Caso_de_Uso/Contexto/Administrador/Gestión_Paquetes/)
-- [Gestión Servicios](/Caso_de_Uso/Contexto/Administrador/Gestión_Servicios/)
-- [Gestión Administradores](/Caso_de_Uso/Contexto/Administrador/Gestión_Administradores/)
-- [Gestión Egresados](/Caso_de_Uso/Contexto/Administrador/Gestión_Egresados/)
+### Gestión
 
-## [Diagramas de Contexto del Egresado](/Caso_de_Uso/Contexto/Egresado/)
+<div align="center">
+  <img src="./Administrador/Gestion/Contexto.svg" alt="Gestión">
+</div>
 
-- [General](/Caso_de_Uso/Contexto/Egresado/Contexto/)
-- [Inicio](/Caso_de_Uso/Contexto/Egresado/Inicio/)
-- [Explorar Servicios](/Caso_de_Uso/Contexto/Egresado/Explorar_Servicios/)
-- [Configuración](/Caso_de_Uso/Contexto/Egresado/Configuración/)
-- [Registro](/Caso_de_Uso/Contexto/Egresado/Registrar/)
+### Interacción General
 
-## [Diagramas de Contexto General](/Caso_de_Uso/Contexto/Servicios/)
+<div align="center">
+  <img src="./Administrador/Interaccion/Contexto.svg" alt="Interacción General">
+</div>
 
-- [Servicios](/Caso_de_Uso/Contexto/Servicios/)
+## [Egresado](/Caso_de_Uso/Contexto/Egresado/)
+<div align="center">
+  <img src="./Egresado/Contexto.svg" alt="Egresado">
+</div>

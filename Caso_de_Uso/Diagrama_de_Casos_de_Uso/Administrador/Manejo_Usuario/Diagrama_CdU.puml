@@ -1,0 +1,27 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+folder "Manejo de Usuario" as cuentas {
+    Administrador --> (Actualización de Datos del Usuario)
+    Administrador --> (Listar Datos del Usuario)
+}
+
+folder "Ingreso a Plataforma" as ingreso {
+    Administrador --> (Iniciar Sesión)
+    Administrador --> (Cerrar Sesión)
+}
+
+
+
+@enduml

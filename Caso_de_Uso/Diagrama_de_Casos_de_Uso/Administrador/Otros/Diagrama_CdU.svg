@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="267px" preserveAspectRatio="none" style="width:462px;height:267px;background:#FFFFFF;" version="1.1" viewBox="0 0 462 267" width="462px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="217" x="115.6407" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="207" x="120.6407" y="24.9659">Casos de Uso (Administrador)</text><!--MD5=[2e903384ba6a94be9c906ea46910cc3f]
+entity Administrador--><g id="elem_Administrador"><ellipse cx="54.5" cy="125.8679" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M54.5,133.8679 L54.5,160.8679 M41.5,141.8679 L67.5,141.8679 M54.5,160.8679 L41.5,175.8679 M54.5,160.8679 L67.5,175.8679 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="6" y="192.3339">Administrador</text></g><g id="elem_Consultar Estadísticas"><ellipse cx="309.6383" cy="67.8976" fill="#F1F1F1" rx="97.1483" ry="21.8297" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="232.6383" y="72.6305">Consultar Estadísticas</text></g><g id="elem_Listar Servicios / Paquetes de Servicios"><ellipse cx="309.6407" cy="156.8961" fill="#F1F1F1" rx="146.6407" ry="31.7281" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="259" x="180.1407" y="160.328">Listar Servicios / Paquetes de Servicios</text></g><g id="elem_Realizar Petición"><ellipse cx="309.6418" cy="242.8943" fill="#F1F1F1" rx="82.7318" ry="18.9464" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="251.1418" y="247.6272">Realizar Petición</text></g><!--MD5=[79ef10c45eb840b755a669a29cd1c2f9]
+link Administrador to Consultar Estadísticas--><g id="link_Administrador_Consultar Estadísticas"><path d="M103.28,135.1279 C131.99,122.0379 163,107.8979 163,107.8979 C163,107.8979 202.81,96.9679 240.8,86.5379 " fill="none" id="Administrador-to-Consultar Estadísticas" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="245.42,85.2679,235.6813,83.7988,240.5992,86.5944,237.8036,91.5122,245.42,85.2679" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[16828ee9522033f75a1005d28bf51339]
+link Administrador to Listar Servicios / Paquetes de Servicios--><g id="link_Administrador_Listar Servicios / Paquetes de Servicios"><path d="M103.41,156.8979 C118.99,156.8979 137.21,156.8979 156.24,156.8979 " fill="none" id="Administrador-to-Listar Servicios / Paquetes de Servicios" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="161.21,156.8979,152.21,152.8979,156.21,156.8979,152.21,160.8979,161.21,156.8979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d08544df0053c4cc895e366e4a0c15cf]
+link Administrador to Realizar Petición--><g id="link_Administrador_Realizar Petición"><path d="M103.28,178.6779 C131.99,191.7679 163,205.8979 163,205.8979 C163,205.8979 207.52,217.2079 247.33,227.3279 " fill="none" id="Administrador-to-Realizar Petición" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="251.7,228.4379,243.9599,222.3477,246.8535,227.2084,241.9927,230.102,251.7,228.4379" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[97083bc7600d5a84ed381168acc7b4af]
+@startuml Diagrama_CdU
+
+title Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+Administrador - -> (Consultar Estadísticas)
+Administrador - -> (Listar Servicios / Paquetes de Servicios)
+Administrador - -> (Realizar Petición)
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
