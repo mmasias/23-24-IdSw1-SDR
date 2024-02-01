@@ -1,0 +1,23 @@
+@startuml Diagrama_CdU
+
+
+title Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+folder "Manejo de Usuario" as cuentas {
+    Egresado --> (Actualización de Datos del Usuario)
+    Egresado --> (Cancelación de Cuenta)
+    Egresado --> (Listar Datos del Usuario)
+}
+
+
+@enduml

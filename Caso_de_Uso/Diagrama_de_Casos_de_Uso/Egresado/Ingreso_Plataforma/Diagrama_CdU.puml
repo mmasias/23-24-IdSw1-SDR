@@ -1,0 +1,23 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso(Egresado)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Egresado
+
+
+folder "Ingreso a Plataforma" as ingreso {
+    Egresado --> (Registro en Plataforma)
+    Egresado --> (Iniciar Sesión)
+    Egresado --> (Cerrar Sesión)
+}
+
+
+@enduml

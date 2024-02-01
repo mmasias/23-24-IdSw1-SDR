@@ -28,9 +28,9 @@ Es una plataforma que se encarga de conectar a estudiantes egresados de la red U
   
   Todo esto se encuentra descrito en los siguientes diagramas:
 
-  - [Diagramas de Actores](/Caso_de_Uso/Actores/)
-  - [Diagramas de Casos de Uso](/Caso_de_Uso/Casos_de_Uso/)
-  - [Estructura del Proyecto](/Caso_de_Uso/Estructura/)
+  - [Actores](/Caso_de_Uso/Actores/)
+  - [Casos de Uso Detallados](/Caso_de_Uso/Casos_de_Uso/)
+  - [Diagrama Casos de Uso](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/)
   - [Diagrama de Contexto](/Caso_de_Uso/Contexto/)
   - [Prototipos](/Caso_de_Uso/Prototipos/)
 
