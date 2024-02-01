@@ -7,15 +7,15 @@ left to right direction
 actor Usuario as user
 
 rectangle "FISC Reporte" {
-    usecase "Editar Simulacion" as editarSimulacion
-    usecase "Exportar Reporte" as exportarReporte
-    usecase "Imprimir Reporte" as imprimirReporte
+    usecase "Editar Simulación" as editarSimulación
     usecase "Guardar" as guardar
+    usecase "Imprimir Reporte" as imprimirReporte
+    usecase "Exportar Reporte" as exportarReporte
 }
 
-user --> editarSimulacion : ""
-user --> exportarReporte : ""
-user --> imprimirReporte : ""
+user --> editarSimulación : ""
 user --> guardar : ""
+user --> imprimirReporte : ""
+user --> exportarReporte : ""
 
 @enduml
