@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Exportar Proyecto - FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> exportar_proyecto 
+ESTADO_PRINCIPAL -[#green]-> exportar_proyecto 
 note on link
   **Usuario solicita:**
   - Exportar proyecto
@@ -45,7 +45,7 @@ state exportar_proyecto {
 
 exportar_proyecto -[#green]-> :exportar_proyecto
 
-:exportar_proyecto -[#green]-> PÁGINA_PRINCIPAL
+:exportar_proyecto -[#green]-> ESTADO_PRINCIPAL
 note on link
   **Sistema aporta:**
   - Archivo de proyecto

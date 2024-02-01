@@ -20,7 +20,7 @@ note on link
   - Guardar reporte realizado
 end note
 
-:guardar_reporte-[#green]-> PÁGINA_PROYECTO
+:guardar_reporte-[#green]-> ESTADO_PROYECTO
 note on link
    [El reporte se guarda dentro del
     sistema de la aplicación]

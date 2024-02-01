@@ -1,4 +1,3 @@
-
 @startuml
 
 skinparam state {
@@ -12,42 +11,15 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Crear Proyecto - FISC
+title Detalle Caso de Uso Crear Simulación - FISC
 
 
-PÁGINA_PRINCIPAL-[#green]-> crear_proyecto
+ESTADO_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
 note on link
   **Usuario solicita:**
-  - Crear Proyecto
+  - Crear Simulación
 end note
 
-state crear_proyecto{
-  state 1 as " "
-  state 2 as " "
-  state 3 as " "
-  
-  [*] -[#green]->1
-  1 -[#green]-> 2
-  note on link
-      **Sistema requiere:**
-      - Nombre del proyecto
-      - Descripción del proyecto (opcional)
-  end note
-  2 -[#green]-> 3
-  note on link
-    **Usuario aporta:**
-      - Nombre del proyecto
-      - Descripción del proyecto (opcional)
-  end note
-  3 -[#red]-> 1
-  note on link
-    [nombre de proyecto existente]
-  end note
-  3 -[#green]-> [*]
-}
-
-crear_proyecto-[#green]-> :crearNuevoProyecto
-
-:crearNuevoProyecto -[#green]-> PÁGINA_PROYECTO
+:abrirConfiguracionDeSimulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACION
 
 @enduml

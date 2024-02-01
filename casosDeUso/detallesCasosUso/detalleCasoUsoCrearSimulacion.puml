@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Crear Simulación - FISC
 
 
-PAGINA_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
+ESTADO_PROYECTO-[#green]-> :abrirConfiguracionDeSimulacion
 note on link
   **Usuario solicita:**
   - Crear Simulación
