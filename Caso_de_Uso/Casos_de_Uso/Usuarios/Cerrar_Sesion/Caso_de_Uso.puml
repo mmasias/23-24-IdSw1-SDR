@@ -11,13 +11,16 @@ skinparam {
 
 hide empty description
 
-state startState as "INICIO"
+state startState as "ALUMNI"
+state endState as "ALUMNI"
 
 startState --> CerrarSesión
 note on link
     <b>Usuario Solicita</b>
     * Cerrar Sesión en Alumni
 end note
+
+CerrarSesión --> endState
 
 state CerrarSesión {
 state 2 as " "
@@ -37,7 +40,7 @@ note on link
 <b>Usuario Confirma Cerrar Sesión</b>
 end note
 
-3 -down-> startState
+3 -down-> endState
 note on link
 <b>Usuario Cancela Cerrar Sesión</b>
 end note

@@ -14,9 +14,9 @@
 
 ### [Egresado](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado)
 
-  - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Registro_en_plataforma/)
+  - [Registro en Plataforma](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Registrarse/)
 
-  - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Cancelación_de_Cuenta/)
+  - [Cancelación de Cuenta](/Caso_de_Uso/Casos_de_Uso/Usuarios/Egresado/Cancelar_Cuenta/)
 
   - [Suscripción a Servicio / Paquete de Servicios](/Caso_de_Uso/Casos_de_Uso//Usuarios/Egresado/CRD_Suscripción/Crear_Suscripción/)
 

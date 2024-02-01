@@ -8,11 +8,15 @@ top to bottom direction
 hide empty description
 title Cancelación de cuenta
 
+state endState as "CONFIGURACIÓN"
+
 CONFIGURACIÓN -down-> CancelaciónDeCuenta
 note on link
 <b>Usuario solicita</b>
 Cancelar su cuenta
 end note
+
+CancelaciónDeCuenta -down-> endState
 
 state CancelaciónDeCuenta{
   state 1 as " "

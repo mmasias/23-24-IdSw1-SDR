@@ -9,12 +9,15 @@ skinparam {
 hide empty description
 
 state startState as "EXPLORAR_SERVICIOS"
+state endState as "EXPLORAR_SERVICIOS"
 
 startState --> CrearSuscripción
 note on link
     <b>Usuario Solicita</b>
     Suscribirse a un servicio o paquete de servicios
 end note
+
+CrearSuscripción --> endState
 
 state CrearSuscripción {
 state 2 as " "

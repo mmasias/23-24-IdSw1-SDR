@@ -1,4 +1,4 @@
-@startuml
+@startuml Caso_de_Uso
 title Consultar Estadísticas
 
 skinparam {
@@ -10,13 +10,16 @@ skinparam {
 
 hide empty description
 
-state startState as "INICIO"
+state startState as "DASHBOARD"
+state endState as "DASHBOARD"
 
 startState --> Consultar_Estadísticas
 note on link
     <b>Administrador Solicita</b>
     * Consultar Estadísticas
 end note
+
+Consultar_Estadísticas --> endState
 
 state Consultar_Estadísticas{
 state 2 as " "

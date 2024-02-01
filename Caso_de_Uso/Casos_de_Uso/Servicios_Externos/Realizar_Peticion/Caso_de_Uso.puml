@@ -10,9 +10,7 @@ hide empty description
 
 title Realizar Petición
 
-state startState as "INITIAL"
-
-startState --> RealizarPetición
+[*] --> RealizarPetición
 note on link
     <b>Usuario Solicita</b>
     Interactuar con un servicio externo

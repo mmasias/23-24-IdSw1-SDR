@@ -11,11 +11,15 @@ title Terminar Suscripción
 skinparam defaultFontName Arial
 top to bottom direction
 
-INICIO -down-> TerminarSuscripción
+state endState as "DASHBOARD"
+
+DASHBOARD -down-> TerminarSuscripción
 note on link
 <b>Usuario solicita</b>
 Terminar una suscripción
 end note
+
+TerminarSuscripción -down-> endState
 
 state TerminarSuscripción{
   state 1 as " "

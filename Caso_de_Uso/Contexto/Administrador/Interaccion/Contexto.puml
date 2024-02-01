@@ -58,6 +58,12 @@ state Alumni as "ALUMNI" {
     Realizar Petición
     end note
     
+    DASHBOARD --> DASHBOARD
+    note on link
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+
     CONFIGURACIÓN --> CONFIGURACIÓN
     note on link 
     Listar Datos Usuario

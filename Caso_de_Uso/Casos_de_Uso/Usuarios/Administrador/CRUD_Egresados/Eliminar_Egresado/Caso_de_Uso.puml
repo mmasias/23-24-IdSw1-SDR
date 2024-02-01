@@ -12,12 +12,15 @@ skinparam {
 hide empty description
 
 state startState as "GESTIÓN_EGRESADOS"
+state endState as "GESTIÓN_EGRESADOS"
 
 startState --> EliminarEgresado
 note on link
     <b>Administrador Solicita</b>
     * Eliminar Egresado
 end note
+
+EliminarEgresado --> endState
 
 state EliminarEgresado {
 state 2 as " "

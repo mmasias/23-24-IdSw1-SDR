@@ -10,13 +10,15 @@ skinparam {
 
 hide empty description
 
-
+state endState as "ALUMNI"
 
 [*] --> RegistroEnPlataforma
 note on link
     <b>Ajeno al Sistema Solicita</b>
     * Registro en Plataforma
 end note
+
+RegistroEnPlataforma --> endState
 
 state RegistroEnPlataforma {
   state 2 as " "

@@ -58,10 +58,17 @@ state Alumni as "ALUMNI" {
     Realizar Petición
     end note  
 
+    DASHBOARD --> DASHBOARD
+    note on link
+    Terminar Suscripción
+    Listar Servicios / Paquetes
+    end note
+
     EXPLORAR_SERVICIOS --> EXPLORAR_SERVICIOS
     note on link 
     Realizar Petición
     Listar Servicios / Paquetes
+    Crear Suscripción
     end note
     CONFIGURACIÓN --> CONFIGURACIÓN
     note on link 
