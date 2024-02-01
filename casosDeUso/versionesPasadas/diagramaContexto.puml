@@ -19,58 +19,30 @@ note on link
 end note
 
 State FISC {
-[*] --> ESTADO_PRINCIPAL
-note on link
-  Listar Proyectos  
-end note
+[*] --> PÁGINA_PRINCIPAL
 
-ESTADO_PRINCIPAL-d-> ESTADO_PROYECTO
+PÁGINA_PRINCIPAL-d-> PÁGINA_PROYECTO
 note on link
-  Abrir Proyecto  
-end note 
-ESTADO_PRINCIPAL-d-> ESTADO_PROYECTO
-note on link
+  Abrir Proyecto 
   Importar Proyecto
-end note 
-ESTADO_PRINCIPAL-d-> ESTADO_PROYECTO
-note on link
   Crear Proyecto 
 end note 
-ESTADO_PRINCIPAL-d-> ESTADO_PROYECTO
-note on link
-  Listar Simulaciones
-end note
-ESTADO_PRINCIPAL-d-> ESTADO_PRINCIPAL
+
+PÁGINA_PRINCIPAL-d-> PÁGINA_PRINCIPAL
 note on link
   Exportar Proyecto
 end note 
  
-ESTADO_PROYECTO-d-> ESTADO_PRINCIPAL
-note on link
-  Listar Proyectos
-end note 
-REPORTE-d-> ESTADO_PROYECTO
-note on link
-  Guardar Reporte
-  Listar Simulaciones
-end note   
-ESTADO_PROYECTO-d-> CONFIGURACIÓN_DE_SIMULACIÓN
+PÁGINA_PROYECTO-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
   Abrir Simulación
-end note 
-ESTADO_PROYECTO-d-> CONFIGURACIÓN_DE_SIMULACIÓN
-note on link
   Crear Simulación
 end note 
-ESTADO_PROYECTO---> REPORTE
+PÁGINA_PROYECTO---> REPORTE
 note on link
   Ver Reporte
 end note 
 
-CONFIGURACIÓN_DE_SIMULACIÓN-d-> ESTADO_PROYECTO
-note on link
-  Listar Simulaciones
-end note
 CONFIGURACIÓN_DE_SIMULACIÓN-d-> SIMULANDO
 note on link
   Iniciar Simulación
@@ -93,13 +65,14 @@ note on link
   Verificar Estado de Simulación
 end note 
 
-REPORTE--> REPORTE
+REPORTE-d-> REPORTE
 note on link
   Exportar Reporte  
-end note 
-REPORTE-d-> REPORTE
-note on link 
   Imprimir Reporte
+end note 
+REPORTE-d-> PÁGINA_PROYECTO
+note on link
+  Guardar Reporte
 end note 
 REPORTE-d-> CONFIGURACIÓN_DE_SIMULACIÓN
 note on link
@@ -114,10 +87,6 @@ end note
 FISC -d-> LOG
 note on link
   Abrir Log
-end note 
-LOG -d-> FISC
-note on link
-  Cerrar Log
 end note 
 FISC --> [*]
 note on link
