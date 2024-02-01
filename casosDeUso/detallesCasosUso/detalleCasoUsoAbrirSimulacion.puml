@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Abrir Simulación- FISC
 
 
-PÁGINA_PROYECTO -[#green]-> abrir_simulación
+ESTADO_PROYECTO -[#green]-> abrir_simulación
 note on link
   **Usuario solicita:**
   - Abrir simulación

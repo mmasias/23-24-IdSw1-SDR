@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Abrir Proyecto - FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> abrir_proyecto
+ESTADO_PRINCIPAL -[#green]-> abrir_proyecto
 note on link
   **Usuario solicita:**
   - Abrir proyecto
@@ -40,8 +40,8 @@ state abrir_proyecto{
   3 -[#green]-> [*]
 }
 
-abrir_proyecto-[#green]-> :abrirPáginaProyecto
+abrir_proyecto-[#green]-> :abrirEstadoProyecto
 
-:abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
+:abrirEstadoProyecto -[#green]-> ESTADO_PROYECTO
 
 @enduml
