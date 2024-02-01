@@ -1,0 +1,38 @@
+@startuml Modelo del dominio Ticket
+'https://plantuml.com/sequence-diagram
+title Modelo del dominio Ticket
+
+class usuario{ 
+    +usuario
+    +contraseña
+    +correo  
+}
+
+class rol{ 
+    +tipo
+}
+
+class ticket{
+    +etiqueta
+    +fecha
+    +estado 
+}
+
+class historial{ 
+    +fecha
+}
+
+class informe{ 
+    +descripcion
+}
+
+class proyecto
+
+usuario -- rol
+ticket-- usuario
+ticket -- proyecto
+ticket -- historial
+
+ticket -d- informe : > permite generar
+
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+skin rose
+title Caso de Uso: Modificar Ticket 
+
+state DASHBOARD_ABIERTO
+state "VER_TICKET" as VER_TICKET2
+state FILTRAR_TICKETS
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: **El usuario** solicita filtrar por propiedad de ticket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: **El usuario** solicita ver un ticket
+VER_TICKET --> ModificarTicket
+ModificarTicket --> VER_TICKET2
+
+
+state ModificarTicket {
+
+  [*] -[#blue]-> modificarTicket
+  note on link 
+**El usuario** solicita modificar un ticket
+**El usuario** introduce los datos a modificar
+end note
+  state "Modificar" as modificarTicket
+  modificarTicket -[#blue]-> confirmarCambios
+  state "Confirmar" as confirmarCambios
+note on link
+ **El sistema** permite modificar: 
+  ° Estado
+  ° Prioridad
+  ° Titulo
+  ° Descripción
+  ° Responsable
+  ° Archivos Adjuntos
+end note
+
+  confirmarCambios -[#blue]-> [*]
+  note on link: **El usuario** solicita cambiar un ticket
+  confirmarCambios -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar el cambio
+    
+}
+
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+
+[*] -->  CrearTicket
+
+CrearTicket -r-> Pendiente
+
+Pendiente -r-> Cerrado
+Pendiente -r-> EnProceso
+
+EnProceso -r-> Resuelto
+EnProceso -r-> EnProceso
+EnProceso --> EnEspera
+
+EnEspera --> EnProceso
+
+Resuelto -r-> EsperandoValidacion
+
+EsperandoValidacion -r-> Cerrado
+EsperandoValidacion -r-> EnProceso
+
+Cerrado -r-> [*]
+
+@enduml

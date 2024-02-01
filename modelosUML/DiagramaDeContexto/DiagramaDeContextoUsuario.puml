@@ -1,0 +1,34 @@
+@startuml Diagrama de Contexto (Usuario)
+
+skin rose
+skinparam note{
+  BackgroundColor white
+}
+title Diagrama de Contexto (Usuario)
+
+[*] -->  Inicial
+
+Inicial -d-> DASHBOARD_ABIERTO
+note on link: login
+
+DASHBOARD_ABIERTO -l-> CREACION_TICKET
+CREACION_TICKET -r-> DASHBOARD_ABIERTO
+note on link: crearTicket
+
+DASHBOARD_ABIERTO -r-> LISTA_TICKETS
+LISTA_TICKETS -l-> DASHBOARD_ABIERTO 
+note on link: filtrarTicket
+
+LISTA_TICKETS -d-> TICKET
+TICKET -u-> LISTA_TICKETS
+note on link: verTicket
+
+DASHBOARD_ABIERTO -d-> [*]
+note on link: logout
+
+CREACION_TICKET --> [*]
+
+LISTA_TICKETS -r-> [*]
+
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+skin rose
+title Caso de Uso: Crear Ticket
+
+state "DASHBOARD_ABIERTO" as DASHBOARD_ABIERTO2
+
+DASHBOARD_ABIERTO --> CrearTicket
+CrearTicket --> DASHBOARD_ABIERTO2
+
+
+state CrearTicket {
+  [*] -[#blue]-> seleccionarOpcionCrear
+  state "Seleccionar'" as seleccionarOpcionCrear
+  seleccionarOpcionCrear -[#blue]-> ingresarDetallesTicket
+note on link
+  **El sistema requiere**:
+  ° Seleccionar la opción 'Crear Ticket' en la lista de ticket
+end note
+  state "Ingresar" as ingresarDetallesTicket
+  ingresarDetallesTicket -[#blue]-> confirmarCreacionTicket
+  note on link: **El usuario** solicita crear un ticket
+
+  state "Confirmar " as confirmarCreacionTicket
+  confirmarCreacionTicket -[#blue]-> [*]
+  note on link: **El usuario solicita** confirmar la creación
+  
+  ingresarDetallesTicket -[#red]-> [*]
+  note on link: **El usuario solicita** cancelar la creación
+}
+@enduml

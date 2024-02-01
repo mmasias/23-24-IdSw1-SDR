@@ -1,0 +1,39 @@
+@startuml
+skin rose
+title Caso de Uso: Asignar Ticket
+
+state DASHBOARD_ABIERTO
+state VER_TICKET
+state FILTRAR_TICKETS
+state "VER_TICKET" as OPEN_TICKET2
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: **El usuario solicita** filtrar por propiedad de ticket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: **El usuario solicita** ver un ticket
+VER_TICKET --> AsignarTicket
+AsignarTicket --> OPEN_TICKET2
+
+
+state AsignarTicket {
+
+  [*] -[#blue]-> ingresarVerTicket
+  note on link: **El usuario solicita** asignar responsable
+  state "Asignar " as ingresarVerTicket
+  ingresarVerTicket -[#blue]-> confirmarAsignacion
+note on link 
+**El usuario solicita**: 
+  ° Introducir desarrollador
+**El sistema muestra**: 
+  ° Lista de desarrolladores
+end note
+  state "Confirmar" as confirmarAsignacion
+  confirmarAsignacion -[#blue]-> [*]
+  note on link: **El usuario solicita** confirmar la asignación
+    
+  confirmarAsignacion -[#red]-> [*]
+  note on link: **El usuario solicita** cancelar la asignación
+
+    
+}
+@enduml

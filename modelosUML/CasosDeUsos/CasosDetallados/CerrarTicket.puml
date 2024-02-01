@@ -1,0 +1,37 @@
+@startuml
+skin rose
+title Caso de Uso: Cerrar Ticket
+
+state DASHBOARD_ABIERTO
+state VER_TICKET
+state FILTRAR_TICKETS
+state "DASHBOARD_ABIERTO" as DASHBOARD_ABIERTO2
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: **El usuario solicita** filtrar por estado resuelto
+FILTRAR_TICKETS --> VER_TICKET
+note on link: **El usuario solicita** ver un ticket resuelto
+VER_TICKET --> CerrarTicket
+CerrarTicket --> DASHBOARD_ABIERTO2
+
+
+state CerrarTicket {
+
+  [*] -[#blue]-> ingresarVerTicket
+note on link
+**El sistema muestra**: 
+  ° Lista de estados
+  **El usuario solicita**: 
+  ° Cambiar el estado a cerrado
+end note
+  state "Cambiar" as ingresarVerTicket
+  ingresarVerTicket -[#blue]-> confirmarCierre
+  state "Confirmar" as confirmarCierre
+  confirmarCierre -[#blue]-> [*]
+  note on link: **El usuario** solicita cerrar ticket
+    
+  confirmarCierre -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar la operación
+   
+}
+@enduml

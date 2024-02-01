@@ -1,0 +1,37 @@
+@startuml
+skin rose
+title Caso de Uso: Comentar Ticket
+
+state DASHBOARD_ABIERTO
+state VER_TICKET
+state FILTRAR_TICKETS
+state "VER_TICKET" as OPEN_TICKET2
+
+DASHBOARD_ABIERTO --> FILTRAR_TICKETS
+note on link: **El usuario solicita** filtrar por propiedad de ticket
+FILTRAR_TICKETS --> VER_TICKET
+note on link: **El usuario solicita** ver un ticket
+VER_TICKET --> ComentarTicket
+ComentarTicket --> OPEN_TICKET2
+
+
+state ComentarTicket {
+
+  [*] -[#blue]-> comentarTicket
+note on link
+  **El sistema muestra**: 
+  ° Campo de texto para comentar
+  **El usuario introduce**: 
+  ° Un comentario
+end note
+  state "Hacer" as comentarTicket
+  comentarTicket -[#blue]-> confirmarComentario
+  state "Confirmar" as confirmarComentario
+  confirmarComentario -[#blue]-> [*]
+  note on link: **El usuario solicita** comentar un ticket
+    
+  confirmarComentario -[#red]-> [*]
+  note on link: **El usuario** solicita cancelar la operación
+    
+}
+@enduml

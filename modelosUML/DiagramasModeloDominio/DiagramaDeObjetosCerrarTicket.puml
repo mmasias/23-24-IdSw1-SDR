@@ -1,0 +1,18 @@
+@startuml
+
+title Diagrama de Objetos Cerrar Ticket
+
+object "admin1 : admin" as usuario{
+    nombre:"Gabriel"
+    contraseña:"4567"
+    correo:"gabriel@alumnos.com"
+
+}
+object "ticket1 : ticket" as ticket{
+    etiqueta:"Crítica"
+    fecha:"12/01/2021-2:00PM"
+    estado:"Resuelto"
+}
+usuario-- ticket: > cierra
+
+@enduml
