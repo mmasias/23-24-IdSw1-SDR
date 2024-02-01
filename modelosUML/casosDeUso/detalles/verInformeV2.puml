@@ -11,28 +11,33 @@ state verInforme {
   [*] -[#blue]-> inicioInforme
   state " " as inicioInforme
   inicioInforme -[#blue]-> mostrarInforme
-  state " " as mostrarInforme
-  mostrarInforme  -[#blue]-> [*]
-  
+  note on link: EL usuario selecciona tipo de informe y rango de fechas
   inicioInforme -[#red]-> [*]
   note on link: El usuario cancela el ver informe
+
+  state " " as mostrarInforme
+  mostrarInforme -[#blue]-> inicioInforme
+  note on link: El usuario repite la busqueda
+  mostrarInforme -[#blue]-> [*]
+  note on link: El usuario cierra el informe
+  
 }
 
-note left of mostrarInforme
+note left of inicioInforme
+  El sistema solicita:
+  ° Seleccionar Tipo de informe
+  ° Seleccionar Rango de fechas
   El sistema permite:
-  ° Confirmar descargar el informe
-  ° Volver a atrás
+  ° Realizar la busqueda
   ° Cancelar la busqueda
-  El sistema muestra si existe el informe
 end note
 
-note left of inicioInforme
-  El sistema requiere:
-  ° Tipo de informe
-  ° Rango de fechas
-  El sistema permite
-  ° Facilitar al cliente la busqueda
-  ° Cancelar la busqueda
+note bottom of mostrarInforme
+  El sistema permite:
+  ° Descargar el informe
+  ° Repetir la busqueda
+  ° Cerrar el informe
+  El sistema muestra si existe el informe
 end note
 
 @enduml

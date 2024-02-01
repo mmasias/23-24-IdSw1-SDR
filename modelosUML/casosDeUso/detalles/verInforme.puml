@@ -1,18 +1,26 @@
-@startuml descripción CDU informe
-
+@startuml
 skin rose
 title Caso de Uso: Ver Informe
-start
-  repeat :DASHBOARD_ABIERTO;
-  -> El sistema da la opción de ver un informe;
-  :INFORME;
-  backward:                  ;
-  -> El usuario puede volver a la vista inicial;
-  repeat while (¿Deseas ver informe?) is (no)
-    -> El usuario elige el tipo de informe;
-    :                 ;
-    -> El sistema le muestra el informe elegido por el usuario;
-    :MOSTRAR_INFORME;
-  stop
+
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state VerInforme as " "
+state SeleccionarInforme <<choice>>
+state MostrarInforme as "Ver Informe"
+state CancelarInforme as " "
+
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> VerInforme : El usuario solicita ver informe
+VerInforme -d[#blue]-> SeleccionarInforme : El sistema presenta opciones de informe
+SeleccionarInforme -d[#blue]-> MostrarInforme : El usuario introduce tipo y rango
+SeleccionarInforme -r[#red]-> CancelarInforme : [El usuario cancela]
+CancelarInforme -u[#red]-> DASHBOARD_ABIERTO : El sistema cancela y regresa
+MostrarInforme -d[#blue]-> DASHBOARD_ABIERTO : El usuario cierra informe
+
+note left of SeleccionarInforme
+  El sistema permite:
+  - Seleccionar tipo de informe
+  - Seleccionar rango de fechas
+  - Cancelar la selección
+end note
 
 @enduml

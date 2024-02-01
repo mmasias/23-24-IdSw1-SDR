@@ -1,26 +1,24 @@
 @startuml
-
 skin rose
 title Caso de Uso: Ver Fichaje
-state DASHBOARD_ABIERTO
 
-DASHBOARD_ABIERTO --> verFichaje
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
+state VerFichaje as "Ver Fichaje"
+state MostrarFichaje as " "
+state ErrorVisualizacion as " "
 
-state verFichaje {
-[*] -[#blue]-> mostrarFichaje
-state " " as mostrarFichaje
-mostrarFichaje -[#blue]-> [*]
+[*] -d-> DASHBOARD_ABIERTO
+DASHBOARD_ABIERTO -d[#blue]-> VerFichaje : El usuario solicita ver fichaje
+VerFichaje -d[#blue]-> MostrarFichaje : El sistema presenta fichaje
+MostrarFichaje -d[#blue]-> DASHBOARD_ABIERTO : El usuario finaliza visualización
+VerFichaje -r[#red]-> ErrorVisualizacion : [Error en la solicitud]
+ErrorVisualizacion -u[#red]-> DASHBOARD_ABIERTO : El sistema muestra error
 
-mostrarFichaje -[#red]-> [*]
-note on link: El usuario cancela el ver fichaje
-}
-
-note left of mostrarFichaje
-    El sistema permite:
-    - Visualizar las horas totales trabajadas
-    - Visualizar las horas restantes de la jornada laboral
-    - Visualizar el número total de fichajes diarios
-    - Descargar el informe
+note right of MostrarFichaje
+  El sistema muestra:
+  - Horas totales trabajadas
+  - Horas restantes de la jornada
+  - Fichajes diarios
 end note
 
 @enduml

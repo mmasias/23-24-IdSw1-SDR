@@ -1,26 +1,20 @@
 @startuml
-
 skin rose
 title Caso de Uso: Cerrar Sesión
 
-state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO" {
-  [*] --> cerrar_sesión : el usuario solicita
-}
-
+state DASHBOARD_ABIERTO as "DASHBOARD_ABIERTO"
 state INICIO as "INICIO"
+state ConfirmarCierre <<choice>>
+state CancelarCierre as " "
 
-DASHBOARD_ABIERTO --> INICIO
+[*] --> DASHBOARD_ABIERTO
 
-state cerrar_sesión {
-  [*] -[#blue]-> confirmación : Usuario elige cerrar sesión
-  confirmación -[#blue]-> INICIO : Confirmar
-  confirmación -[#red]-> DASHBOARD_ABIERTO : Cancelar
-}
+DASHBOARD_ABIERTO -d[#blue]-> Logout : El usuario solicita cerrar sesión
+Logout -d[#blue]-> ConfirmarCierre : El sistema presenta opciones para confirmar cierre de sesión
+ConfirmarCierre -d[#blue]-> INICIO : [Cierre confirmado]
+ConfirmarCierre -r[#red]-> CancelarCierre : [Cierre cancelado]
+CancelarCierre -r[#red]-> DASHBOARD_ABIERTO : El sistema cancela cierre
 
-note right of confirmación
-  El sistema permite:
-  - Confirmar cierre de sesión
-  - Cancelar y volver al dashboard
-end note
+
 
 @enduml
