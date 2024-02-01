@@ -1,0 +1,78 @@
+@startuml Contexto
+title Contexto Egresado
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] --> INITIAL
+INITIAL --> Alumni
+note on link 
+Iniciar Sesión
+Registrarse
+end note 
+Alumni --> [*]
+note on link
+Cerrar Sesión
+end note
+
+state Alumni as "ALUMNI" {
+    [*] --> DASHBOARD
+    note on link
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note
+
+    DASHBOARD --> EXPLORAR_SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD <-- EXPLORAR_SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD --> CONFIGURACIÓN
+    note on link 
+    Listar Datos Usuario
+    Realizar Petición
+    end note  
+    DASHBOARD <-- CONFIGURACIÓN
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD --> SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD <-- SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+
+    EXPLORAR_SERVICIOS --> EXPLORAR_SERVICIOS
+    note on link 
+    Realizar Petición
+    Listar Servicios / Paquetes
+    end note
+    CONFIGURACIÓN --> CONFIGURACIÓN
+    note on link 
+    Listar Datos Usuario
+    Actualizar Datos Usuario
+    Cancelar Cuenta
+    end note
+    SERVICIOS --> SERVICIOS
+    note on link 
+    Realizar Petición
+    end note
+} 
+
+@enduml

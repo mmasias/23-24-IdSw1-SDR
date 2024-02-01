@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="766px" preserveAspectRatio="none" style="width:1229px;height:766px;background:#FFFFFF;" version="1.1" viewBox="0 0 1229 766" width="1229px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="29.0679" id="_title" style="stroke:none;stroke-width:1.0;" width="142" x="533.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="538.5" y="24.9659">Contexto Egresado</text><ellipse cx="611.5" cy="56.0679" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="581.5" y="127.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="586.5" y="152.4999">INITIAL</text><ellipse cx="611.5" cy="750.1379" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="612" cy="750.6379" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><path d="M19.5,282.0679 L1203.5,282.0679 A12.5,12.5 0 0 1 1216,294.5679 L1216,311.1358 L7,311.1358 L7,294.5679 A12.5,12.5 0 0 1 19.5,282.0679 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="361.0679" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="1209" x="7" y="282.0679"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="1216" y1="311.1358" y2="311.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="584" y="302.0339">ALUMNI</text><ellipse cx="559" cy="332.1358" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="511.5" y="433.1358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="516.5" y="458.5678">DASHBOARD</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="19" y="580.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="24" y="606.0678">EXPLORAR_SERVICIOS</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="424.5" y="580.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="429.5" y="606.0678">CONFIGURACIÓN</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="902.5" y="580.6358"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="907.5" y="606.0678">SERVICIOS</text><!--MD5=[80ed1e7dc5ea98cae66a17687b6a86b3]
+link *start*Alumni to DASHBOARD--><g id="link_*start*Alumni_DASHBOARD"><path d="M559,342.4758 C559,360.3558 559,399.9958 559,426.3858 " fill="none" id="*start*Alumni-to-DASHBOARD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="559,431.2758,563,422.2758,559,426.2758,555,422.2758,559,431.2758" style="stroke:#181818;stroke-width:1.0;"/><path d="M564,365.1358 L564,410.1358 L740,410.1358 L740,375.1358 L730,365.1358 L564,365.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M730,365.1358 L730,375.1358 L740,375.1358 L730,365.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="570" y="384.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="570" y="401.7389">Realizar Petición</text></g><!--MD5=[32c88919d16ba5927ab528d95a6cb14d]
+link DASHBOARD to EXPLORAR_SERVICIOS--><g id="link_DASHBOARD_EXPLORAR_SERVICIOS"><path d="M511.27,460.1658 C428.25,470.6458 266,491.1358 266,491.1358 C266,491.1358 224,546.1358 224,546.1358 C224,546.1358 183.92,563.0158 148.8,577.8158 " fill="none" id="DASHBOARD-to-EXPLORAR_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="144.6,579.5858,154.4469,579.7799,149.2082,577.6455,151.3425,572.4068,144.6,579.5858" style="stroke:#181818;stroke-width:1.0;"/><path d="M271,496.1358 L271,541.1358 L447,541.1358 L447,506.1358 L437,496.1358 L271,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M437,496.1358 L437,506.1358 L447,506.1358 L437,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="277" y="515.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="277" y="532.7389">Realizar Petición</text></g><!--MD5=[dd2dcb00e452a5e703e3ba78b2ad64cf]
+reverse link DASHBOARD to EXPLORAR_SERVICIOS--><g id="link_DASHBOARD_EXPLORAR_SERVICIOS"><path d="M505.2,457.9558 C372.08,467.4058 38,491.1358 38,491.1358 C38,491.1358 38,546.1358 38,546.1358 C38,546.1358 58.8,564.9958 75.7,580.3258 " fill="none" id="DASHBOARD-backto-EXPLORAR_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="509.87,457.6258,500.6072,454.2791,504.8828,457.9831,501.1788,462.2587,509.87,457.6258" style="stroke:#181818;stroke-width:1.0;"/><path d="M43,496.1358 L43,541.1358 L219,541.1358 L219,506.1358 L209,496.1358 L43,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M209,496.1358 L209,506.1358 L219,506.1358 L209,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="49" y="515.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="49" y="532.7389">Realizar Petición</text></g><!--MD5=[7cae9b5798a55d6f83418a211846eb70]
+link DASHBOARD to CONFIGURACIÓN--><g id="link_DASHBOARD_CONFIGURACIÓN"><path d="M602.44,473.5058 C622.53,482.4558 642,491.1358 642,491.1358 C642,491.1358 642,546.1358 642,546.1358 C642,546.1358 592.8,563.2258 550.02,578.0858 " fill="none" id="DASHBOARD-to-CONFIGURACIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="545.46,579.6758,555.2743,580.5006,550.1831,578.0349,552.6488,572.9437,545.46,579.6758" style="stroke:#181818;stroke-width:1.0;"/><path d="M647,496.1358 L647,541.1358 L789,541.1358 L789,506.1358 L779,496.1358 L647,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M779,496.1358 L779,506.1358 L789,506.1358 L779,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="653" y="515.0328">Listar Datos Usuario</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="653" y="532.7389">Realizar Petición</text></g><!--MD5=[1e095cc5293d3c721a2bdf695703f74b]
+reverse link DASHBOARD to CONFIGURACIÓN--><g id="link_DASHBOARD_CONFIGURACIÓN"><path d="M505.12,473.4958 C480.19,482.4458 456,491.1358 456,491.1358 C456,491.1358 456,546.1358 456,546.1358 C456,546.1358 467.28,564.9958 476.45,580.3258 " fill="none" id="DASHBOARD-backto-CONFIGURACIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="509.69,471.8458,499.868,471.1191,504.9836,473.5339,502.5688,478.6494,509.69,471.8458" style="stroke:#181818;stroke-width:1.0;"/><path d="M461,496.1358 L461,541.1358 L637,541.1358 L637,506.1358 L627,496.1358 L461,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M627,496.1358 L627,506.1358 L637,506.1358 L627,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="467" y="515.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="467" y="532.7389">Realizar Petición</text></g><!--MD5=[7820c43a1beb09945b2afcd2f4f1c4c3]
+link DASHBOARD to SERVICIOS--><g id="link_DASHBOARD_SERVICIOS"><path d="M606.78,457.9258 C725.81,467.3558 1026,491.1358 1026,491.1358 C1026,491.1358 1026,546.1358 1026,546.1358 C1026,546.1358 1000.92,562.3058 978.33,576.8558 " fill="none" id="DASHBOARD-to-SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="974.24,579.5058,983.97,577.9803,978.4394,576.7919,979.6278,571.2613,974.24,579.5058" style="stroke:#181818;stroke-width:1.0;"/><path d="M1031,496.1358 L1031,541.1358 L1207,541.1358 L1207,506.1358 L1197,496.1358 L1031,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1197,496.1358 L1197,506.1358 L1207,506.1358 L1197,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="1037" y="515.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1037" y="532.7389">Realizar Petición</text></g><!--MD5=[c1fdba3d8c420396c01bd7c9b50e82e2]
+reverse link DASHBOARD to SERVICIOS--><g id="link_DASHBOARD_SERVICIOS"><path d="M613.05,462.5058 C683.55,473.4158 798,491.1358 798,491.1358 C798,491.1358 840,546.1358 840,546.1358 C840,546.1358 876.07,564.8758 905.52,580.1658 " fill="none" id="DASHBOARD-backto-SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="608.29,461.7658,616.5632,467.1095,613.2299,462.539,617.8003,459.2057,608.29,461.7658" style="stroke:#181818;stroke-width:1.0;"/><path d="M845,496.1358 L845,541.1358 L1021,541.1358 L1021,506.1358 L1011,496.1358 L845,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1011,496.1358 L1011,506.1358 L1021,506.1358 L1011,496.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="851" y="515.0328">Listar Servicios / Paquetes</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="851" y="532.7389">Realizar Petición</text></g><!--MD5=[25db80d4a06b6a0347c544f028d58385]
+link EXPLORAR_SERVICIOS to EXPLORAR_SERVICIOS--><g id="link_EXPLORAR_SERVICIOS_EXPLORAR_SERVICIOS"><path d="M175.35,586.9958 C185.94,589.2858 193,593.8258 193,600.6358 C193,606.0558 188.52,610.0458 181.34,612.6058 " fill="none" id="EXPLORAR_SERVICIOS-to-EXPLORAR_SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="176.8,613.8658,186.5438,615.3007,181.6162,612.5225,184.3944,607.5948,176.8,613.8658" style="stroke:#181818;stroke-width:1.0;"/><path d="M198,578.1358 L198,623.1358 L374,623.1358 L374,588.1358 L364,578.1358 L198,578.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M364,578.1358 L364,588.1358 L374,588.1358 L364,578.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="204" y="597.0328">Realizar Petición</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="204" y="614.7389">Listar Servicios / Paquetes</text></g><!--MD5=[3f78e76ef453f16d960b33123f35b7ff]
+link CONFIGURACIÓN to CONFIGURACIÓN--><g id="link_CONFIGURACIÓN_CONFIGURACIÓN"><path d="M551.9,586.4058 C562.33,588.4458 569.5,593.1858 569.5,600.6358 C569.5,606.5658 564.95,610.7858 557.82,613.2858 " fill="none" id="CONFIGURACIÓN-to-CONFIGURACIÓN" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="553.36,614.4758,563.0862,616.0254,558.1916,613.1893,561.0277,608.2948,553.36,614.4758" style="stroke:#181818;stroke-width:1.0;"/><path d="M574.5,569.1358 L574.5,632.1358 L741.5,632.1358 L741.5,579.1358 L731.5,569.1358 L574.5,569.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M731.5,569.1358 L731.5,579.1358 L741.5,579.1358 L731.5,569.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="580.5" y="588.0328">Listar Datos Usuario</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="580.5" y="605.7389">Actualizar Datos Usuario</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="580.5" y="623.4449">Cancelar Cuenta</text></g><!--MD5=[d5b37b2e2d08a4c6818671524b21dafd]
+link SERVICIOS to SERVICIOS--><g id="link_SERVICIOS_SERVICIOS"><path d="M983.73,585.4758 C993.9,586.5358 1001.5,591.5858 1001.5,600.6358 C1001.5,607.7058 996.86,612.3358 989.99,614.5258 " fill="none" id="SERVICIOS-to-SERVICIOS" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="985.22,615.4958,994.8381,617.6154,990.119,614.496,993.2384,609.777,985.22,615.4958" style="stroke:#181818;stroke-width:1.0;"/><path d="M1006.5,587.1358 L1006.5,614.1358 L1124.5,614.1358 L1124.5,597.1358 L1114.5,587.1358 L1006.5,587.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M1114.5,587.1358 L1114.5,597.1358 L1124.5,597.1358 L1114.5,587.1358 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="1012.5" y="606.0328">Realizar Petición</text></g><!--MD5=[06c3f2024f4ea60966e79307ee69ec5f]
+link *start to INITIAL--><g id="link_*start_INITIAL"><path d="M611.5,66.2579 C611.5,78.9179 611.5,102.2079 611.5,120.3779 " fill="none" id="*start-to-INITIAL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="611.5,125.2979,615.5,116.2979,611.5,120.2979,607.5,116.2979,611.5,125.2979" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5563963b6eff4b13ffd230664b5db6c7]
+link INITIAL to Alumni--><g id="link_INITIAL_Alumni"><path d="M611.5,167.2079 C611.5,190.1979 611.5,231.2179 611.5,275.4779 " fill="none" id="INITIAL-to-Alumni" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="611.5,280.2279,615.5,271.2279,611.5,275.2279,607.5,271.2279,611.5,280.2279" style="stroke:#181818;stroke-width:1.0;"/><path d="M616.5,202.0679 L616.5,247.0679 L715.5,247.0679 L715.5,212.0679 L705.5,202.0679 L616.5,202.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M705.5,202.0679 L705.5,212.0679 L715.5,212.0679 L705.5,202.0679 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="622.5" y="220.9649">Iniciar Sesión</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="622.5" y="238.6709">Registrarse</text></g><!--MD5=[58c2ff39d5451b5af4d7cc6e6c959528]
+link Alumni to *end--><g id="link_Alumni_*end"><path d="M611.5,643.6279 C611.5,681.1179 611.5,714.9279 611.5,733.6779 " fill="none" id="Alumni-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="611.5,738.3779,615.5,729.3779,611.5,733.3779,607.5,729.3779,611.5,738.3779" style="stroke:#181818;stroke-width:1.0;"/><path d="M616.5,678.1379 L616.5,705.1379 L716.5,705.1379 L716.5,688.1379 L706.5,678.1379 L616.5,678.1379 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><path d="M706.5,678.1379 L706.5,688.1379 L716.5,688.1379 L706.5,678.1379 " fill="#F5F5F5" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="622.5" y="697.0349">Cerrar Sesión</text></g><!--MD5=[6ff1461d71eb1460f97b1ecbf26bcc71]
+@startuml Contexto
+title Contexto Egresado
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+hide empty description
+
+[*] - -> INITIAL
+INITIAL - -> Alumni
+note on link 
+Iniciar Sesión
+Registrarse
+end note 
+Alumni - -> [*]
+note on link
+Cerrar Sesión
+end note
+
+state Alumni as "ALUMNI" {
+    [*] - -> DASHBOARD
+    note on link
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note
+
+    DASHBOARD - -> EXPLORAR_SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD <- - EXPLORAR_SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD - -> CONFIGURACIÓN
+    note on link 
+    Listar Datos Usuario
+    Realizar Petición
+    end note  
+    DASHBOARD <- - CONFIGURACIÓN
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD - -> SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+    DASHBOARD <- - SERVICIOS
+    note on link 
+    Listar Servicios / Paquetes
+    Realizar Petición
+    end note  
+
+    EXPLORAR_SERVICIOS - -> EXPLORAR_SERVICIOS
+    note on link 
+    Realizar Petición
+    Listar Servicios / Paquetes
+    end note
+    CONFIGURACIÓN - -> CONFIGURACIÓN
+    note on link 
+    Listar Datos Usuario
+    Actualizar Datos Usuario
+    Cancelar Cuenta
+    end note
+    SERVICIOS - -> SERVICIOS
+    note on link 
+    Realizar Petición
+    end note
+} 
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
