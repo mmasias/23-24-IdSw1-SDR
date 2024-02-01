@@ -1,0 +1,19 @@
+@startuml Diagrama_CdU
+
+title Casos de Uso (Administrador)
+
+skinparam {
+    NoteBackgroundColor #whiteSmoke
+    NoteBorderColor #green
+    linetype polyline
+}
+
+left to right direction
+
+actor Administrador
+
+Administrador --> (Consultar Estadísticas)
+Administrador --> (Listar Servicios / Paquetes de Servicios)
+Administrador --> (Realizar Petición)
+
+@enduml

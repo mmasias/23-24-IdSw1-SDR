@@ -1,6 +1,6 @@
 @startuml Diagrama_CdU
 
-title Estructura de los Casos de Uso (Administrador)
+title Casos de Uso (Administrador)
 
 skinparam {
     NoteBackgroundColor #whiteSmoke

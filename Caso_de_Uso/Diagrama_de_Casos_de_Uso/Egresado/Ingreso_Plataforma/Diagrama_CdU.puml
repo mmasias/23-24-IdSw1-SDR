@@ -1,6 +1,6 @@
 @startuml Diagrama_CdU
 
-title Estructura de los Casos de Uso(Egresado)
+title Casos de Uso(Egresado)
 
 skinparam {
     NoteBackgroundColor #whiteSmoke

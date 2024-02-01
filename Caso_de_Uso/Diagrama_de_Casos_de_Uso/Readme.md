@@ -1,24 +1,26 @@
-# Estructura de los Casos de Uso
+# Diagramas Casos de Uso
 
-## [Estructura General](./General)
+## Administrador
 
-<div align="center">
-  <image src= "./General/Estructura.svg">
-</div>
+|                                      Manejo Usuario                                      |                                      Servicios                                      |
+| :--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Administrador/Manejo_Usuario/Diagrama_CdU.svg) | ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Administrador/Servicios/Diagrama_CdU.svg) |
 
-## [Estructura del Administrador](./Administrador)
+|                                      Usuarios                                      |                                      Otros                                      |
+| :--------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Administrador/Usuarios/Diagrama_CdU.svg) | ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Administrador/Otros/Diagrama_CdU.svg) |
 
-<div align="center">
-  <image src= "./Administrador/Estructura.svg">
-</div>
+## Egresado
 
-## [Estructura del Egresado](./Egresado)
+|                                   Manejo Usuario                                    |                                   Ingreso Plataforma                                    |
+| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+| ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Egresado/Manejo_Usuario/Diagrama_CdU.svg) | ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Egresado/Ingreso_Plataforma/Diagrama_CdU.svg) |
 
-<div align="center">
-  <image src= "./Egresado/Estructura.svg">
-</div>
+|                                     Suscripciones                                      |                                   Otros                                    |
+| :------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Egresado/CRD_Suscripciones/Diagrama_CdU.svg) | ![](/Caso_de_Uso/Diagrama_de_Casos_de_Uso/Egresado/Otros/Diagrama_CdU.svg) |
 
-## [Estructura del Tiempo](./Tiempo)
+## Tiempo
 
 <div align="center">
   <image src= "./Tiempo/Estructura.svg">
