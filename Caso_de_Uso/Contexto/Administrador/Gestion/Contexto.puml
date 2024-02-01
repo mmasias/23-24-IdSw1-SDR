@@ -68,6 +68,12 @@ state Alumni as "ALUMNI" {
     Realizar Petición
     end note
 
+    DASHBOARD --> DASHBOARD
+    note on link
+    Consultar Estadisticas
+    Realizar Petición
+    end note
+
     GESTIÓN_EGRESADOS --> GESTIÓN_EGRESADOS
     note on link 
     Listar Egresado
