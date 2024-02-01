@@ -5,6 +5,8 @@
 1. [Actores y Casos de Uso](#actores-y-casos-de-uso)
 2. [Detalles de los Casos de Uso](#detalles-de-los-casos-de-uso)
 3. [Diagrama de Contexto](#diagrama-de-contexto)
+4. [Prototipo interfaz FISC](#prototipo-interfaz-fisc)
+5. [Mapa de flujo pantallas](#mapa-de-flujo-pantallas)
 
 ## Actores y Casos de Uso
 
@@ -24,21 +26,21 @@ Los usuarios pueden registrarse o iniciar sesión.
 | --------------------------------------------- | ----------------------------------------------- |
 | ![](../imagenes/casosDeUso/casoUsoInicio.svg) | [Código PUML](../casosDeUso/casoUsoInicio.puml) |
 
-#### - Página Principal
+#### - Estado Principal
 
 Permite al usuario crear, importar, exportar o abrir proyectos.
 
 |                                                        |                                                          |
 | ------------------------------------------------------ | -------------------------------------------------------- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaPrincipal.svg) | [Código PUML](../casosDeUso/casoUsoPaginaPrincipal.puml) |
+| ![](../imagenes/casosDeUso/casoUsoEstadoPrincipal.svg) | [Código PUML](../casosDeUso/casoUsoEstadoPrincipal.puml) |
 
-#### - Página Proyecto
+#### - Estado Proyecto
 
 Ofrece opciones para abrir o crear nuevas simulaciones y ver reportes de simulaciones existentes.
 
 |                                                       |                                                         |
 | ----------------------------------------------------- | ------------------------------------------------------- |
-| ![](../imagenes/casosDeUso/casoUsoPaginaProyecto.svg) | [Código PUML](../casosDeUso/casoUsoPaginaProyecto.puml) |
+| ![](../imagenes/casosDeUso/casoUsoEstadoProyecto.svg) | [Código PUML](../casosDeUso/casoUsoEstadoProyecto.puml) |
 
 #### - Configuración de Simulación
 
@@ -84,9 +86,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 ## Detalles de los Casos de Uso
 
-<details>
-<summary>Detalle de Inicio</summary>
-
 #### - Login
 
 |                                                                        |                                                                          |
@@ -99,10 +98,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoRegistrarUsuario.puml) |
 
-</details>
+#### - Listar Proyectos
 
-<details>
-<summary>Detalle de Página principal</summary>
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoListarProyectos.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoListarProyectos.puml) |
 
 #### - Crear Proyecto
 
@@ -128,10 +128,12 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoExportarProyecto.puml) |
 
-</details>
+#### - Listar Simulaciones
 
-<details>
-<summary>Detalle de Página proyecto</summary>
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoListarSimulaciones.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoListarSimulaciones.puml) |
+
 
 #### - Crear Simulación
 
@@ -151,10 +153,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoVerReporte.puml) |
 
-</details>
-
-<details>
-<summary>Detalle de Configuración de simulación</summary>
 
 #### - Importar Simulación
 
@@ -168,10 +166,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSimulación.puml) |
 
-</details>
-
-<details>
-<summary>Detalle de Simulando</summary>
 
 #### - Cancelar Simulación
 
@@ -185,10 +179,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoVerificarEstadoSimulacion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoVerificarEstadoSimulacion.puml) |
 
-</details>
-
-<details>
-<summary>Detalle de Reporte</summary>
 
 #### - Editar Simulación
 
@@ -214,11 +204,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoGuardarReporte.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoGuardarReporte.puml) |
 
-</details>
-
-<details>
-<summary>Detalle de Log</summary>
-
 
 #### - Imprimir Log
 
@@ -226,10 +211,6 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoImprimirLog.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoImprimirLog.puml) |
 
-</details>
-
-<details>
-<summary>Detalle de FISC general</summary>
 
 #### - Abrir Log
 
@@ -238,13 +219,18 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 | ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoAbrirLog.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoAbrirLog.puml) |
 
 
-#### - Log Out
+#### - Cerrar Log
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoLogOut.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoLogOut.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoCerrarLog.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoCerrarLog.puml) |
 
-</details>
+
+#### - Cerrar Sesión
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoCerrarSesion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoCerrarSesion.puml) |
 
 ---
 
@@ -253,3 +239,55 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 |                                                    |                                                    |
 | -------------------------------------------------- | -------------------------------------------------- |
 | ![](../imagenes/casosDeUso/diagramaContexto.svg) | [Código PUML](../casosDeUso/diagramaContexto.puml) |
+
+---
+
+## Prototipo interfaz FISC
+Cada una de las pantallas que implementan las funcionalidades de la aplicación.
+
+### Pantalla inicio
+
+![](../imagenes/interfazFISC/INICIO.png)
+
+### Pantalla carga
+
+![](../imagenes/interfazFISC/CARGA.png)
+
+### Pantalla principal
+
+![](../imagenes/interfazFISC/PÁGINA_PRINCIPAL.png)
+
+### Pantalla Nuevo proyecto
+
+![](../imagenes/interfazFISC/NUEVO_PROYECTO.png)
+
+### Pantalla proyecto vacío
+
+![](../imagenes/interfazFISC/PROYECTO_VACÍO.png)
+
+### Pantalla proyecto con simulaciones realizadas 
+
+![](../imagenes/interfazFISC/PÁGINA_PROYECTO.png)
+
+### Pantalla de configuración de simulación
+
+![](../imagenes/interfazFISC/PÁGINA_SIMULACIÓN.png)
+
+### Pantalla de simulando
+
+![](../imagenes/interfazFISC/PÁGINA_CONSOLA.png)
+
+### Pantalla de reporte
+
+![](../imagenes/interfazFISC/PÁGINA_REPORTE.png)
+
+### Pantalla log
+
+![](../imagenes/interfazFISC/PANTALLA_LOG.png)
+
+---
+
+## Mapa de flujo pantallas
+Mapa de navegación de la aplicación.
+
+![](../imagenes/interfazFISC/mapaFlujoInterfaz.png)

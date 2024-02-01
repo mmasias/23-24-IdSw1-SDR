@@ -1,0 +1,35 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Listar Simulaciones- FISC
+
+ESTADO_PRINCIPAL-[#green]-> :listar_simulaciones
+note on link
+  **Sisteme requiere:**
+  - Listar Simulaciones
+end note
+CONFIGURACIÓN_DE_SIMUALCIÓN-[#green]-> :listar_simulaciones
+note on link
+  **Sisteme requiere:**
+  - Listar Simulaciones
+end note
+REPORTE-[#green]-> :listar_simulaciones
+note on link
+  **Sisteme requiere:**
+  - Guardar Reporte
+  - Listar Simulaciones
+end note
+
+:listar_simulaciones-[#green]-> ESTADO_PROYECTO
+
+@enduml

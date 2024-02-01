@@ -11,12 +11,12 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Log Out - FISC
+title Detalle Caso de Uso Cerrar Sesión - FISC
 
 FISC -[#green]-> cerrar_sesión
 note on link
   **Usuario solicita:**
-  - Log Out
+  - Cerrar sesión
 end note
 
 state cerrar_sesión{

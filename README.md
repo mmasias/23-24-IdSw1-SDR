@@ -12,35 +12,12 @@
 
 ## Recursos Clave🔑
 
+- **[Modelo de Dominio](/documentosMD/modeloDelDominio.md):** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
+
+- **[Casos de Uso](/documentosMD/casosDeUso.md):** Ejemplos prácticos y gráficos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
 
 - **[Información del cliente](/archivosPdf/reunionesPdf/):** Todas las reuniones relacionadas con el desarrollo de este proyecto.
 
-- **[Modelo de Dominio](/documentosMD/modeloDelDominio.md):** Puedes consultar el modelo de dominio de la aplicación FISC aqui.
-    - Diagrama de Clases
-    - Diagrama de Estados
-    - Diagrama de Objetos
-
-- **[Casos de Uso](/documentosMD/casosDeUso.md):** Ejemplos prácticos que demuestran la aplicación del proyecto FISC en la evaluación térmica del hormigón.
-    - Actores y casos de uso
-    - Detalles de los casos de uso
-    - Diagrama de contexto
-
-- **[Interfaz FISC](/documentosMD/interfazFISC.md):** Vistas de las diferentes pantallas de la aplicación.
-    - Vista interfaz
-    - Mapa de flujo pantallas
-
 - **[Información Adicional](/documentosMD/informacionAdicional.md):** Información complementaria al proyecto.
-    - Diagrama de Flujo
-    - Logo de la Aplicación
 
 - **[Informe Final](/archivosPdf/Reporte_FISC.pdf):** Informe final del proyecto.
-
----
-
-## Equipo de Colaboradores👩‍💻
-
-- Guzmán G. Riancho
-- Sergio Moro
-- Marcos de Blas
-- Rodrigo Villa
-- Federico Bolaños

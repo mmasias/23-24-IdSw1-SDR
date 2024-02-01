@@ -20,9 +20,14 @@ note on link
   - Guardar reporte realizado
 end note
 
-:guardar_reporte-[#green]-> ESTADO_PROYECTO
+:guardar_reporte-[#green]-> :listar_simulaciones
 note on link
    [El reporte se guarda dentro del
-    sistema de la aplicación]
+   sistema de la aplicación]
+
+  **Sistema Requiere:**
+  - Listar Simulaciones
 end note
+
+:listar_simulaciones-[#green]-> ESTADO_PROYECTO
 @enduml

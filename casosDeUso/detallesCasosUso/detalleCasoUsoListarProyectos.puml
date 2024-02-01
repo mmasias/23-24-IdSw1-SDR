@@ -1,0 +1,30 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Listar Proyectos - FISC
+
+
+INICIO-[#green]-> :listar_proyectos
+note on link
+  **Sisteme requiere:**
+  - Listar Proyectos
+end note
+ESTADO_PROYECTO-[#green]-> :listar_proyectos
+note on link
+  **Sisteme requiere:**
+  - Listar Proyectos
+end note
+
+:listar_proyectos-[#green]-> ESTADO_PRINCIPAL
+
+@enduml

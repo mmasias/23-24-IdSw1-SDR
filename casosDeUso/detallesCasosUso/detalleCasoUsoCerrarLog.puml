@@ -11,18 +11,19 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Abrir Log - FISC
+title Detalle Caso de Uso Cerrar Log - FISC
 
 
-FISC-[#green]-> :abrir_log
+LOG-[#green]-> :cerrar_log
 note on link
   **Usuario solicita:**
-  - Abrir log
+  - Cerrar log
 end note
 
-:abrir_log-[#green]-> LOG
+:cerrar_log-[#green]-> FISC
 note on link
-   [El sistema abre una ventana 
-    flotante con el log]
+   [El sistema cierra el log y devuelve 
+   al usuario a la pantalla de FISC
+   en la que se encontraba]
 end note
 @enduml

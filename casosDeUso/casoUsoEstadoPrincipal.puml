@@ -1,19 +1,21 @@
 @startuml
 
-title Caso de Uso Página Principal - FISC
+title Caso de Uso Estado Principal - FISC
 
 left to right direction
 
 actor Usuario as user
 
-rectangle "FISC Página Principal" {
+rectangle "FISC Estado Principal" {
     
+usecase "Listar Proyectos" as listar
     usecase "Importar Proyecto" as importar
     usecase "Abrir Proyecto" as abrir
     usecase "Crear Proyecto" as nuevo
     usecase "Exportar Proyecto" as exportar
 }
 
+user --> listar: ""
 user --> importar : ""
 user --> abrir : ""
 user --> nuevo : ""

@@ -32,9 +32,10 @@ class Reporte {
     - gráficas
 }
 
-Usuario -- Proyecto : "realiza"
+
 Proyecto  -- Simulación : "contiene"
 Simulación -- Reporte : "produce"
+Proyecto -- Usuario : "realizado por"
 Usuario -- Log : "registra"
 Proyecto -- Log : "registra"
 
