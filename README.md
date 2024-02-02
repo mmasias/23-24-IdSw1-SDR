@@ -1,25 +1,20 @@
-# Sesiones de requisitado
+# Proyecto Ingeniería de Software
 
-Este es el repositorio de las sesiones de requisitado de la asignatura de Ingeniería del Software I de UNEATLANTICO.
+### Joseph Alemany (Cliente)
 
-Se desarrolla, en un caso real, la disciplina de requisitado, que es la puerta de entrada al desarrollo de una solución basada en software. 
+---
 
-> Se ha demostrado, empírica y académicamente, que un porcentaje no menor de proyectos de software que fracasan lo hacen porque está mal llevada esta fase.
+<img src="LOGO_APP.svg" width=40% align=right>
 
-<div align=center>
+## Descripción
 
-||
-|-|
-![](/imagenes/modelosUML/trabajoRepos.svg)
+- Se desarrolla el modelo del dominio de una problemática propuesta por un cliente, la cual es, poder manejar las reservas de la cancha de padel de la universidad europea del atlantico que sea de facil uso para gestionar las reservas, hacer seguimiento del mismo, realizar cobros de estas reservas e informar al usuario su tiempo limite de uso en las canchas de padel, ademas que todos los usarios deberan pertenecer al mismo dominio.
 
-</div>
+## Recursos clave
+- [Modelo de Dominio](ModeloDeDominio)
+- [Casos de Uso](CasosDeUso)
+- [Prototipos de interfaz](https://www.figma.com/file/MpId1d2MqM2VkYzj57Lq8v/MockUp?type=design&node-id=0%3A1&mode=design&t=yik5d5ON9Fbw465y-1) (ver en figma)
 
-## Algunas reglas
+---
 
-- Reuniones oficiales (en horas de clase)
-  - A estas debe asistir el 100% de los integrantes de los grupos.
-  - Si a las reuniones asiste menos del 80% del grupo, la reunión se cancela y el grupo se da por cerrado. La evaluación se realiza de la forma tradicional (examen parcial, examen final).
-- Reuniones extra: de acuerdo a lo pautado con el cliente.
-- Se recomienda utilizar el repo del coordinador del grupo y las herramientas de GitHub para gestionar las reuniones y comunicaciones con el cliente, haciendo racional uso de la trazabilidad.
-- Las imágenes, en la medida de lo posible en formato plantUML. 
-  - Todas las fuentes en la carpeta modelosUML y las imágenes exportadas, en formato svg.
+![Imagen](imagenes/Prototipos.png)
