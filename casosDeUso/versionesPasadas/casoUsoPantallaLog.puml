@@ -1,0 +1,17 @@
+@startuml
+
+title Caso de Uso LOG - FISC
+
+left to right direction
+
+actor Usuario as user
+
+
+rectangle "FISC LOG" {
+    usecase "Imprimir" as imprimirLog
+
+}
+
+user --> imprimirLog: "Puede"
+
+@enduml

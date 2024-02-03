@@ -1,0 +1,22 @@
+@startuml
+
+title Caso de Uso Estado Proyecto - FISC
+
+left to right direction
+
+actor Usuario as user
+
+rectangle "FISC Estado Proyecto" {
+    usecase "Listar Simulaciones" as listarSimulacion
+    usecase "Abrir Simulación" as abrirSimulacion
+    usecase "Crear Simulación" as nuevaSimulacion
+    usecase "Ver Reporte" as verReporte
+}
+
+user --> listarSimulacion : ""
+user --> abrirSimulacion : ""
+user --> nuevaSimulacion : ""
+user --> verReporte : ""
+
+@enduml
+

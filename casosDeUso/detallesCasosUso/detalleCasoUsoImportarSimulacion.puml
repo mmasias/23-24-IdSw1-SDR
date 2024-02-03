@@ -1,0 +1,55 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Importar Simulación - FISC
+
+
+CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> importar_simulacion 
+note on link
+  **Usuario solicita:**
+  - Importar simulacion existente
+end note
+
+state importar_simulacion {
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema requiere:**
+      - Archivo de reporte
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Usuario Selecciona:**
+    - Archivo de reporte
+
+    [se rellenan los parametros 
+     con los datos del reporte 
+     de simulación importada]
+  end note
+ 
+  3 -[#red]-> 1
+  note on link
+    [Archivo inválido]
+  end note
+  3 -[#green]-> [*]
+}
+
+importar_simulacion -[#green]-> :importar_simulacion
+
+:importar_simulacion -[#green]-> CONFIGURACIÓN_DE_SIMULACIÓN
+
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+
+title Diagrama de Objetos del Estado Generando Reporte - Simulación en Aplicación FISC
+
+object "usuario1 : Usuario" as usuario1 {
+    nombre = "Jorge"
+    id = 1
+}
+
+object "proyecto1 : Proyecto" as proyecto1 {
+    nombre = "Proyecto X"
+}
+
+object "simulación1 : Simulación" as simulación1 {
+    tipologíaElemento = "BIDIMENSIONAL"
+    material = material1
+    agresiónTérmica = agresiónTérmica1
+    gráficaReacción = gráfica1
+    fechaSimulación = "2023-11-03"
+}
+
+object "log1 : Log" as log1 {
+    acciones = ["Login", "Creación Proyecto", "Inicio Simulación"]
+    fechaHora = "2023-11-03T10:00:00"
+}
+
+object "reporte1 : Reporte" as reporte1 {
+    resultados = "Resultado del reporte"
+    formato = "PDF"
+    gráficas = "Gráfica reporte"
+}
+
+usuario1 - proyecto1 : "realiza >"
+proyecto1 -- simulación1 : "contiene >"
+simulación1 -- reporte1 : "produce >"
+log1 -- usuario1: "registra >"
+log1 -- proyecto1 : "registra >"
+
+@enduml

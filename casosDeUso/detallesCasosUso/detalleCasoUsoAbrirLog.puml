@@ -1,0 +1,28 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Abrir Log - FISC
+
+
+FISC-[#green]-> :abrir_log
+note on link
+  **Usuario solicita:**
+  - Abrir log
+end note
+
+:abrir_log-[#green]-> LOG
+note on link
+   [El sistema abre una ventana 
+    flotante con el log]
+end note
+@enduml

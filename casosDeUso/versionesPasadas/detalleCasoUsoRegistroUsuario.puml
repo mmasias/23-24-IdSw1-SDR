@@ -1,0 +1,57 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Registo de Usuario - FISC
+
+
+INICIO -[#green]-> registrar_usuario 
+note on link
+  **Usuario solicita:**
+  - Registrar Usuario
+end note
+
+state registrar_usuario {
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema requiere:**
+      - Nombre
+      - Correo Electrónico
+      - Usuario
+      - Contraseña
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Usuario aporta:**
+    - Nombre
+    - Correo Electrónico
+    - Usuario
+    - Contraseña
+  end note
+  3 -[#red]-> 1
+  note on link
+    [Usuario no disponible]
+    [Correo ya existente]
+  end note
+  3 -[#green]-> [*]
+}
+
+registrar_usuario -[#green]-> :abrirPaginaLogin
+
+:abrirPaginaLogin -[#green]-> PAGINA_LOGIN
+
+@enduml

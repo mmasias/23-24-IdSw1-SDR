@@ -1,0 +1,24 @@
+@startuml
+title Caso de Uso Project_List - FISC
+
+left to right direction
+
+actor Usuario as user
+
+
+rectangle "Project_List" {
+    usecase "Borrar Proyecto" as borrar
+    usecase "Exportar Proyecto" as exportar
+    usecase "Editar Proyecto" as editar
+    usecase "Crear Proyecto" as crear
+    usecase "Importar Proyecto" as importar
+    usecase "Abrir Proyecto" as abrir
+}
+
+user --> borrar
+user --> exportar
+user --> editar
+user --> crear
+user --> importar
+user --> abrir
+@enduml
