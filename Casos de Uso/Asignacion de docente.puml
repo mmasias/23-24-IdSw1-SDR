@@ -1,0 +1,10 @@
+@startuml
+actor "Gestor de Horarios" as A
+
+usecase "Asignacion de docentes" as UC1
+usecase "No asignado" as UC2
+
+A --> UC1 : Asigna DocenteAsignatura
+A --> UC2 : Descarta DocenteAsignatura
+
+@enduml

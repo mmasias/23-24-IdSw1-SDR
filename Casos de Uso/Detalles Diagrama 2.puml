@@ -1,0 +1,26 @@
+@startuml
+
+skinparam state {
+    BackgroundColor #fff3e0
+    BorderColor #d32f2f
+}
+
+skinparam note {
+    BackgroundColor #e1bee7
+}
+
+title Caso de Uso - Sistema TimeGuardian
+
+[*] --> sistema_timeguardian: Iniciar
+state sistema_timeguardian {
+    [*] --> detección_conflictos_horario: Detectar conflictos de horario
+
+    state detección_conflictos_horario {
+        [*] --> detecta_notifica_conflictos: Notificar conflictos
+        detecta_notifica_conflictos --> [*]
+    }
+
+    detección_conflictos_horario --> [*]
+}
+
+@enduml

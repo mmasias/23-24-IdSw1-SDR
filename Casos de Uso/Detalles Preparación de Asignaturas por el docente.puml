@@ -1,0 +1,54 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #ffcc80
+  BorderColor #bf360c
+}
+
+skinparam note {
+  BackgroundColor #c8e6c9
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Preparación de Asignaturas por el Docente - TimeGuardian
+
+INICIO -[#red]-> preparar_asignatura
+note on link
+  **Docente inicia:**
+  - Preparación de la asignatura
+end note
+
+state preparar_asignatura {
+  state "Definir objetivos de la asignatura" as A
+  state "Elaborar contenido y materiales de la asignatura" as B
+  state "Organizar actividades para la asignatura" as C
+  state "Revisar y ajustar el plan de la asignatura" as D
+
+  [*] -[#red]-> A
+  A -[#red]-> B
+  note on link
+      **Docente determina:**
+      - Metas y resultados esperados para la asignatura
+  end note
+  B -[#red]-> C
+  note on link
+    **Docente prepara:**
+    - Diapositivas, lecturas, ejercicios para la asignatura
+  end note
+  C -[#red]-> D
+  note on link
+    **Docente planifica:**
+    - Actividades interactivas y evaluaciones para la asignatura
+  end note
+  D -[#green]-> [*]
+  note on link
+    [plan de la asignatura finalizado]
+  end note
+}
+
+preparar_asignatura -[#red]-> :listoParaEnseñarAsignatura
+
+:listoParaEnseñarAsignatura -[#red]-> ASIGNATURA_LISTA
+
+@enduml

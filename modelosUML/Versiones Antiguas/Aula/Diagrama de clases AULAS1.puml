@@ -1,0 +1,35 @@
+@startuml
+
+class GestionAulas {
+    - aulas 
+    + iniciarRecuentoAulas()
+    + verificarDisponibilidad()
+    + asignarAulas()
+}
+
+class Aula {
+    - numero
+    - tipo
+    - disponible
+    - capacidad
+    + verificarDisponibilidad()
+}
+
+class AulasOrdenadores {
+    - numeroOrdenadores
+}
+
+class AulasNormales {
+}
+
+class ConflictoAula {
+    - detalles
+    + notificarConflicto()
+}
+
+GestionAulas --> Aula : gestiona
+Aula <|-- AulasOrdenadores
+Aula <|-- AulasNormales
+GestionAulas --> ConflictoAula : verifica
+
+@enduml

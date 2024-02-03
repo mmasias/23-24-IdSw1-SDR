@@ -1,0 +1,7 @@
+@startuml
+left to right direction
+actor "TimeGuardian" as A
+usecase "DocenteAsignatura" as UC1
+A --> UC1 : Docente asignado
+A --> UC1 : Asignatura asignada
+@enduml

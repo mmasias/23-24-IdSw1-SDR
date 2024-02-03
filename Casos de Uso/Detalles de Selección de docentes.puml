@@ -1,0 +1,54 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #fff59d
+  BorderColor #f57f17
+}
+
+skinparam note {
+  BackgroundColor #b2dfdb
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Selección de Docentes para Asignaturas - TimeGuardian
+
+INICIO -[#orange]-> selección_para_asignatura
+note on link
+  **Coordinador académico inicia:**
+  - Asignación de docentes a asignaturas
+end note
+
+state selección_para_asignatura {
+  state "Identificar asignaturas disponibles" as A
+  state "Evaluar perfiles docentes" as B
+  state "Asignar docentes a asignaturas" as C
+  state "Confirmar asignaciones" as D
+
+  [*] -[#orange]-> A
+  A -[#orange]-> B
+  note on link
+      **Coordinador identifica:**
+      - Asignaturas que requieren docentes
+  end note
+  B -[#orange]-> C
+  note on link
+    **Coordinador evalúa:**
+    - Experiencia y especialización de docentes
+  end note
+  C -[#orange]-> D
+  note on link
+    **Coordinador asigna:**
+    - Docentes a asignaturas específicas
+  end note
+  D -[#green]-> [*]
+  note on link
+    [asignaciones completadas]
+  end note
+}
+
+selección_para_asignatura -[#orange]-> :mostrarAsignacionesFinalizadas
+
+:mostrarAsignacionesFinalizadas -[#orange]-> ASIGNACIONES_COMPLETADAS
+
+@enduml

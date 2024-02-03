@@ -1,0 +1,68 @@
+@startuml
+object "gestorDeHorarios : David" as gestorDeHorarios {
+    rol = "Crear Horario"
+}
+
+object "asignatura1 : Asignatura" as asignatura1 {
+    nombre = "Matemáticas"
+}
+object "asignatura2 : Asignatura" as asignatura2 {
+    nombre = "Programación I"
+}
+
+object "docente1 : Docente" as docente1 {
+    nombre = "Jorge Crespo"
+}
+object "docente2 : Docente" as docente2 {
+    nombre = "Manuel Masias"
+}
+
+object "aula1 : Aula" as aula1 {
+    numero = "-2.6"
+}
+object "aula2 : Aula" as aula2 {
+    numero = "1.3"
+}
+
+object "asignacionDocenteAsignatura : Asignacion" as asignacionDocenteAsignatura {
+    docente = "Manuel Masias"
+    asignatura = "Programación I"
+}
+gestorDeHorarios -r-> asignacionDocenteAsignatura : "Asigna >\n\n"
+
+object "asignacionAulaAsignatura : Asignacion" as asignacionAulaAsignatura {
+    asignatura = "Programación I"
+    aula = "-2.6"
+}
+gestorDeHorarios -r-> asignacionAulaAsignatura : "Asigna >\n\n"
+
+object "horario : Horario" as horario {
+    dia = ""
+    horaInicio = ""
+    horaFin = ""
+    asignatura = ""
+}
+
+note "Todas las asignaturas\nrecibidas previamente" as nota1
+asignatura1 .r. nota1
+nota1 .r. asignatura2
+
+note "Todos los docentes\nrecibidos previamente" as nota2
+docente1 .r. nota2
+nota2 .r. docente2
+
+note "Todas las aulas\nrecibidas previamente " as nota3
+aula1 .r. nota3
+nota3 .r. aula2
+
+note "Se asignan todas las asignaturas\na las aulas" as nota4
+asignacionAulaAsignatura .r. nota4
+
+note "Se asignan todos los docentes\na las asignaturas" as nota5
+asignacionDocenteAsignatura .r. nota5
+
+note "Se elige el día y las horas en \nen las que se va a impartir la asignatura" as note6
+note6 .r. horario
+
+gestorDeHorarios -u-> horario : "Crea >"
+@enduml
