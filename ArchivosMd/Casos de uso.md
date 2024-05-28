@@ -20,7 +20,7 @@ Si el usuario ya esta registrado puede inicar sesión, si no podra registrarse.
 
 |                                               |                                                 |
 | --------------------------------------------- | ----------------------------------------------- |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.puml) |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20inicio.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20inicio.puml) |
 
 #### - Pagina principal
 
