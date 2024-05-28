@@ -8,11 +8,11 @@ actor Usuario as user
 actor Usuario_no_registrado as user1
 
 rectangle "FISC Inicio" {
-    usecase "Login" as login
+    usecase "Iniciar Sesión" as iniciosesion
     usecase "Registrarse" as registro
 }
 
-user --> login : ""
+user --> iniciosesion : ""
 user1 --> registro : ""
 
 @enduml
