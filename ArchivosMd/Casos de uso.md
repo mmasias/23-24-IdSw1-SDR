@@ -34,13 +34,13 @@ Despues de iniciar sesión se muestra la interfaz principal.
 | ------------------------------------------------------ | -------------------------------------------------------- |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20Pagina%20principal.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20Pagina%20Principal.puml) |
 
-#### - Cración de horario
+#### - Gestion de Horarios
 
-Crea el horario.
+Gestiona el horario.
 
 |                                                       |                                                         |
 | ----------------------------------------------------- | ------------------------------------------------------- |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/creacion%20del%20horario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Creacion%20del%20horario.puml) |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20Gestion%20de%20horarios.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/caso%20de%20uso%20Gestion%20Horarios.puml) |
 
 #### - Creación del horario de una clase
 
