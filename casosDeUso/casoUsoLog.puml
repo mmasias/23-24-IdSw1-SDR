@@ -8,8 +8,10 @@ actor Usuario as user
 
 rectangle "FISC Log" {
     usecase "Imprimir Log" as imprimirLog
+    usecase "Cerrar Log" as cerrarLog
 }
 
 user --> imprimirLog : ""
+user --> cerrarLog : ""
 
 @enduml
