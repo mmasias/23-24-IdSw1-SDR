@@ -74,7 +74,7 @@ Al realizar los cambios, el sistema los guarda y actualiza la información.
 | ------------------------------------------ | -------------------------------------------- |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%204.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%204.puml) |
 
-#### - Docente Creado
+#### - Creación docente
 
 Se registrara el nombre y apellido del docente o se importara de una fuente externa.
 
@@ -82,7 +82,7 @@ Se registrara el nombre y apellido del docente o se importara de una fuente exte
 | ---------------------------------------------- | ------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DocenteCreado.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DocenteCreado.puml) |
 
-#### - Asignatura creada
+#### - Creación asignatura
 
 Se crea la asignatura con el nombre y su respectivo grado o se importa de una fuente externa.
 
@@ -230,11 +230,11 @@ Docente revisa asignaturas.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Diagrama%204.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Diagrama%204.puml) |
 
-#### - 
+#### - Creación docente
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteCreado.puml) |
 
 #### - Asignación de docente
 
@@ -254,16 +254,33 @@ Docente revisa asignaturas.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Asignacion%20de%20docentes%20a%20cursos.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Asignacion%20de%20docentes%20a%20cursos.puml) |
 
+#### - Creación asignatura
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Creaci%C3%B3n%20de%20asignatura.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Creaci%C3%B3n%20de%20asignatura.puml) |
+
 #### - Selección docente
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20de%20Selecci%C3%B3n%20de%20docentes.puml) |
 
-#### - Verificación asignatura
+#### - Asignación docente asignatura
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20DocenteAsignatura.puml) |
+
+#### - Verificación asignaturas
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Verificaci%C3%B3n%20de%20asignaciones.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Verificaci%C3%B3n%20de%20asignaciones.puml) |
+
+#### - Verificación docente
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalle%20de%20Verificar%20Docente.puml) |
 
 #### - Programación turnos
 
@@ -276,16 +293,6 @@ Docente revisa asignaturas.
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Detalles%20Preparaci%C3%B3n%20de%20Asignaturas%20por%20el%20docente.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Detalles%20Preparaci%C3%B3n%20de%20Asignaturas%20por%20el%20docente.puml) |
-
-#### - Abrir Simulación
-
-|                                                                        |                                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
-
-
-                                                                     |                                                                          |
-
 
 
 ---
