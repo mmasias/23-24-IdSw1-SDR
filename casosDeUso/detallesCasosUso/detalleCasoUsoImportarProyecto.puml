@@ -14,7 +14,7 @@ skinparam linetype polyline
 title Detalle Caso de Uso Importar Proyecto - FISC
 
 
-PÁGINA_PRINCIPAL -[#green]-> importar_proyecto 
+ESTADO_PRINCIPAL -[#green]-> importar_proyecto 
 note on link
   **Usuario solicita:**
   - Importar proyecto
@@ -43,8 +43,8 @@ state importar_proyecto {
   3 -[#green]-> [*]
 }
 
-importar_proyecto -[#green]-> :abrirPáginaProyecto
+importar_proyecto -[#green]-> :abrirEstadoProyecto
 
-:abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
+:abrirEstadoProyecto -[#green]-> ESTADO_PROYECTO
 
 @enduml

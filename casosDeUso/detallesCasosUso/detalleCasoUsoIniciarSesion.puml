@@ -11,7 +11,7 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Login - FISC
+title Detalle Caso de Uso Iniciar Sesión - FISC
 
 
 INICIO -[#green]-> iniciar_sesión 
@@ -45,8 +45,8 @@ state iniciar_sesión {
   3 -[#green]-> [*]
 }
 
-iniciar_sesión -[#green]-> :abrirPáginaPrincipal
+iniciar_sesión -[#green]-> :abrirEstadoPrincipal
 
-:abrirPáginaPrincipal -[#green]-> PÁGINA_PRINCIPAL
+:abrirEstadoPrincipal -[#green]-> ESTADO_PRINCIPAL
 
 @enduml

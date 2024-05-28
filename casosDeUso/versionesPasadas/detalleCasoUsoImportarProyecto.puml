@@ -11,16 +11,16 @@ skinparam note {
 
 skinparam linetype polyline
 
-title Detalle Caso de Uso Ver Reporte - FISC
+title Detalle Caso de Uso Importar Proyecto - FISC
 
 
-ESTADO_PROYECTO-[#green]-> ver_reporte
+PÁGINA_PRINCIPAL -[#green]-> importar_proyecto 
 note on link
   **Usuario solicita:**
-  - Ver reporte 
+  - Importar proyecto
 end note
 
-state ver_reporte{
+state importar_proyecto {
   state 1 as " "
   state 2 as " "
   state 3 as " "
@@ -29,18 +29,22 @@ state ver_reporte{
   1 -[#green]-> 2
   note on link
       **Sistema requiere:**
-      - Selección de reporte
+      - Archivo de proyecto
   end note
   2 -[#green]-> 3
   note on link
-    **Usuario selecciona:**
-    - Reporte
+    **Usuario Selecciona:**
+    - Archivo de proyecto
+  end note
+  3 -[#red]-> 1
+  note on link
+    [Archivo inválido]
   end note
   3 -[#green]-> [*]
 }
 
-ver_reporte -[#green]-> :abrirReporte
+importar_proyecto -[#green]-> :abrirPáginaProyecto
 
-:abrirReporte-[#green]-> REPORTE
+:abrirPáginaProyecto -[#green]-> PÁGINA_PROYECTO
 
 @enduml

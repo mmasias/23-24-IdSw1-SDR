@@ -15,17 +15,17 @@ title Detalle Caso de Uso Listar Simulaciones- FISC
 
 ESTADO_PRINCIPAL-[#green]-> :listar_simulaciones
 note on link
-  **Sisteme requiere:**
+  **Sistema requiere:**
   - Listar Simulaciones
 end note
-CONFIGURACIÓN_DE_SIMUALCIÓN-[#green]-> :listar_simulaciones
+CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> :listar_simulaciones
 note on link
-  **Sisteme requiere:**
+  **Sistema requiere:**
   - Listar Simulaciones
 end note
 REPORTE-[#green]-> :listar_simulaciones
 note on link
-  **Sisteme requiere:**
+  **Sistema requiere:**
   - Guardar Reporte
   - Listar Simulaciones
 end note
