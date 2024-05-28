@@ -86,11 +86,11 @@ Incluye opciones para acceder al log y cerrar la sesión en la aplicación.
 
 ## Detalles de los Casos de Uso
 
-#### - Login
+#### - Iniciar Sesión
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoLogin.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoLogin.puml) |
+| ![](../imagenes/casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSesion.svg) | [Código PUML](../casosDeUso/detallesCasosUso/detalleCasoUsoIniciarSesion.puml) |
 
 #### - Registrar Usuario
 
