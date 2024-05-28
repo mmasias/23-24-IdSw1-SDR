@@ -1,9 +1,0 @@
-@startuml
-actor "Gestor de Horarios" as A
-usecase "Asignación de Aulas" as UC1
-A --> UC1 : Asigna Aulas
-<<<<<<< HEAD
-
-=======
->>>>>>> fernando.william
-@enduml
