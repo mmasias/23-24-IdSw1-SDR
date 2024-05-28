@@ -33,7 +33,7 @@ class Reporte {
 }
 
 
-Proyecto  -- Simulación : "contiene"
+Proyecto  - Simulación : "contiene"
 Simulación -- Reporte : "produce"
 Proyecto -- Usuario : "realizado por"
 Usuario -- Log : "registra"
