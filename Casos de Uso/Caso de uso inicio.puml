@@ -1,12 +1,12 @@
 @startuml
-title Caso de Uso Inicio - Time Guardian
+title Caso de Uso - Inicio
 
 left to right direction
 
 actor Usuario_registrado as user
 actor Usuario_sin_registro as user1
 
-rectangle "Time Guardian Inicio" {
+rectangle "Inicio" {
     usecase "Login" as login
     usecase "Registrarse" as registro
 }
