@@ -26,13 +26,13 @@ Si el usuario ya esta registrado puede inicar sesión, si no podra registrarse.
 | --------------------------------------------- | ----------------------------------------------- |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20inicio%20o%20registro.puml) |
 
-#### - Administrador de horarios
+#### - Pagina principal
 
-Despues de iniciar sesión se muestra la interfaz principal y se muestran las asignaturas del grado elegido.
+Despues de iniciar sesión se muestra la interfaz principal.
 
 |                                                        |                                                          |
 | ------------------------------------------------------ | -------------------------------------------------------- |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Diagrama%201.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Diagrama%201.puml) |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/Caso%20de%20uso%20Pagina%20principal.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/Caso%20de%20uso%20Pagina%20Principal.puml) |
 
 #### - Cración de horario
 
