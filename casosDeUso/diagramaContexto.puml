@@ -11,7 +11,7 @@ skinparam arrowThickness 1
 
 INICIO-d-> FISC 
 note on link
-  Login
+  Iniciar Sesión
 end note
 INICIO-d-> INICIO
 note on link
