@@ -1,0 +1,45 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Organizar Horarios - TimeGuardian
+
+PÁGINA_PRINCIPAL -[#green]-> OrganizarHorarios
+note on link
+  **Usuario selecciona:**
+  - Organizar horarios
+end note
+
+state OrganizarHorarios {
+  state "Seleccionar Horario a Modificar" as Seleccionar
+  state "Modificar Datos del Horario" as Modificar
+  state "Guardar Cambios" as Guardar
+  
+  [*] -[#green]-> Seleccionar
+  note on link
+    **Usuario elige:**
+    - Horario a organizar
+  end note
+  Seleccionar -[#green]-> Modificar
+  note on link
+    **Usuario modifica:**
+    - Cambios en el horario seleccionado
+  end note
+  Modificar -[#green]-> Guardar
+  note on link
+    **Sistema guarda:**
+    - Los cambios realizados
+  end note
+  Guardar -[#green]-> [*]
+}
+
+OrganizarHorarios -[#green]-> GESTIONAR_HORARIOS
+@enduml

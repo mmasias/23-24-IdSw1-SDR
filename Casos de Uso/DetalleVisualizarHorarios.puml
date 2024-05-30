@@ -1,0 +1,35 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Visualizar Horarios - TimeGuardian
+
+PÁGINA_PRINCIPAL -[#green]-> VisualizarHorarios
+note on link
+  **Usuario selecciona:**
+  - Visualizar horarios
+end note
+
+state VisualizarHorarios {
+  state "Cargar Horarios" as Cargar
+  state "Mostrar Horarios" as Mostrar
+  
+  [*] -[#green]-> Cargar
+  Cargar -[#green]-> Mostrar
+  note on link
+    **Sistema carga:**
+    - Lista de horarios disponibles
+  end note
+  Mostrar -[#green]-> [*]
+}
+
+VisualizarHorarios -[#green]-> GESTIONAR_HORARIOS
+@enduml

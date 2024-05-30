@@ -1,0 +1,46 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Asignar Docente a Asignatura - TimeGuardian
+
+GESTIONAR_HORARIOS-[#green]-> AsignacionDocenteAsignatura
+note on link
+  **Usuario selecciona:**
+  - Asignar docente a asignatura
+end note
+
+state AsignacionDocenteAsignatura {
+  state "Seleccionar Asignatura" as SeleccionarAsignatura
+  state "Elegir Docente" as ElegirDocente
+  state "Confirmar Asignación" as Confirmar
+  
+
+  [*] -[#green]-> SeleccionarAsignatura
+note on link
+**Cargar Asignaturas:**
+    - Cargan todas las asignaturas de la base de datos
+end note
+  SeleccionarAsignatura -[#green]-> ElegirDocente
+  note on link
+    **Cargar Docentes:**
+    - Cargan todos los docentes de la base de datos
+  end note
+  ElegirDocente -[#green]-> Confirmar
+  note on link
+    **Sistema guarda:**
+    - Asignación del docente a la asignatura
+  end note
+  Confirmar -[#green]-> [*]
+}
+
+AsignacionDocenteAsignatura -[#green]-> ASIGNAR_DOCENTE_ASIGNATURA
+@enduml
