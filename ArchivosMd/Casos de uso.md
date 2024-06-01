@@ -87,37 +87,61 @@ Al realizar los cambios, el sistema los guarda y actualiza la información.
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DestalleRegistroUsuario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleRegiatroUsuario.puml) |
 
-#### - Administrador de horarios
+#### - Crear Horario
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleCrearNuevoHorario.svg) | [Código PUML]() |
+
+#### - Visualizar Horario
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleVisualizarHorario.svg) | [Código PUML]() |
+
+#### - Organizar Horario
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleOrganizarHorarios.svg) | [Código PUML]() |
+
+#### - Asignar Docente Asignatura
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarDocenteAsignatura.svg) | [Código PUML]() |
+
+#### - Asignar Aula Asignatura
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![]() | [Código PUML]() |
 
-#### - Creación del horario
+#### - Configurar Horario Aula
+
+|                                                                        |                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarAula.svg) | [Código PUML]() |
+
+#### - Editar Horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![]() | [Código PUML]() |
 
-#### - Creación de horario de una clase
+#### - Asignar Horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![]() | [Código PUML]() |
 
-#### - Detección de conflictos
+#### - Confirmar Horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![]() | [Código PUML]() |
 
-#### - Identificación de cambios
-
-|                                                                        |                                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
-
-#### - Guardar cambios
+#### - Guardar y Salir
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
