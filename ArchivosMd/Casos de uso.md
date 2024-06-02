@@ -91,37 +91,37 @@ Al realizar los cambios, el sistema los guarda y actualiza la información.
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleCrearNuevoHorario.svg) | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleCrearNuevoHorario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetallaCrearNuevoHorario.puml) |
 
 #### - Visualizar Horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleVisualizarHorario.svg) | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleVisualizarHorario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleVisualizarHorarios.puml) |
 
 #### - Organizar Horario
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleOrganizarHorarios.svg) | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleOrganizarHorarios.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleOrganizarHorarios.puml) |
 
 #### - Asignar Docente Asignatura
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarDocenteAsignatura.svg) | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleGestionarHorario.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleGestionarHorario.puml) |
 
 #### - Asignar Aula Asignatura
 
-|                                                                        |                                                                          |
+|                                                                        |                                                                        |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![]() | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarDocenteAsignatura.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleAsignarDocenteAsignatura.puml  ) |
 
 #### - Configurar Horario Aula
 
 |                                                                        |                                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarAula.svg) | [Código PUML]() |
+| ![](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/imagenes/Casos%20de%20Uso/DetalleAsignarAula.svg) | [Código PUML](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/Casos%20de%20Uso/DetalleAsignarAula.puml) |
 
 #### - Editar Horario
 
