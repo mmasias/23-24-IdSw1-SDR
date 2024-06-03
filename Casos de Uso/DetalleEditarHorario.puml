@@ -1,0 +1,46 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Editar Horario - TimeGuardian
+
+CONFIGURAR_HORARIO-[#green]-> EditarHorario
+note on link
+  **Usuario selecciona:**
+  - Editar horario existente
+end note
+
+state EditarHorario {
+  state "Seleccionar Horario Existente" as Seleccionar
+  state "Modificar Datos del Horario" as Modificar
+  state "Guardar Cambios" as Guardar
+  
+  [*] -[#green]-> Seleccionar
+  note on link
+    **Usuario elige:**
+    - Un horario existente para editar
+  end note
+  Seleccionar -[#green]-> Modificar
+  note on link
+    **Usuario modifica:**
+    - Elementos del horario seleccionado (horas, días,etc.)
+  end note
+  Modificar -[#green]-> Guardar
+  note on link
+    **Sistema guarda:**
+    - Cambios realizados en el horario
+  end note
+  Guardar -[#green]-> [*]
+  note right: Fin de la edición
+}
+
+EditarHorario -[#green]-> CONFIGURACION_HORARIO
+@enduml
