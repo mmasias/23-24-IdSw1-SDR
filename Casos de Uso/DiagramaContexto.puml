@@ -58,7 +58,7 @@ end note
 
 HorarioFinalizado -d-> PaginaPrincipal
 note on link
-  Guardar y Salir
+  Guardar
 end note
 }
 
