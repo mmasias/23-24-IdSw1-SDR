@@ -1,0 +1,17 @@
+@startuml
+
+title Caso de Uso Configuración de Simulación - FISC
+
+left to right direction
+
+actor Usuario as user
+
+rectangle "FISC Configuración de Simulación" {
+    usecase "Importar Simulación" as importarSimulacion
+    usecase "Iniciar Simulación" as iniciarSimulacion
+}
+
+user --> importarSimulacion : ""
+user --> iniciarSimulacion : ""
+
+@enduml

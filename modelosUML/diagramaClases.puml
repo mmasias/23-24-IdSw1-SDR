@@ -1,0 +1,42 @@
+@startuml
+
+title Diagrama de Clases - Aplicación FISC
+
+class Usuario {
+    - nombre
+    - id
+}
+
+class Proyecto {
+    - nombre
+}
+
+class Simulación {
+    - tipologíaElemento
+    - material
+    - localización
+    - agresiónTérmica
+    - gráficaReacción
+    - fechaSimulación
+}
+
+class Log {
+    - acciones
+    - fechaHora
+    - detalles
+}
+
+class Reporte {
+    - resultados
+    - formato
+    - gráficas
+}
+
+
+Proyecto  - Simulación : "contiene"
+Simulación -- Reporte : "produce"
+Proyecto -- Usuario : "realizado por"
+Usuario -- Log : "registra"
+Proyecto -- Log : "registra"
+
+@enduml

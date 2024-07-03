@@ -1,0 +1,28 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Imprimir Log - FISC
+
+LOG -[#green]-> :imprimir_log 
+note on link
+  **Usuario solicita:**
+  - Imprimir Log
+end note
+
+:imprimir_log -[#green]-> LOG
+note on link
+      **Sistema Aporta:**
+      - Log.txt
+  end note
+
+@enduml

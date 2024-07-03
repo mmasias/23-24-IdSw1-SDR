@@ -1,0 +1,53 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Detalle Caso de Uso Iniciar Simulación - FISC
+
+
+CONFIGURACIÓN_DE_SIMULACIÓN-[#green]-> configurando_simulación 
+
+state configurando_simulación {
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Sistema requiere:**
+      - Nombre de la simulación
+      - Parámetros introducidos correctamente
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Usuario aporta:**
+      - Nombre de la simulación
+      - Parámetros 
+  end note
+  3 -[#red]-> 1
+  note on link
+    [parametros vacíos]
+    [formato de parámetros incorrecto]
+  end note
+  3 -[#green]-> [*]
+   note on link
+     **Usuario solicita:**
+     - Iniciar simulación
+   end note
+}
+
+configurando_simulación -[#green]-> :iniciar_simulación
+
+:iniciar_simulación-[#green]-> SIMULANDO
+
+@enduml

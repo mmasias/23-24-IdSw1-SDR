@@ -1,0 +1,18 @@
+@startuml
+
+title Caso de Uso Inicio - FISC
+
+left to right direction
+
+actor Usuario as user
+actor Usuario_no_registrado as user1
+
+rectangle "FISC Inicio" {
+    usecase "Iniciar Sesión" as iniciosesion
+    usecase "Registrarse" as registro
+}
+
+user --> iniciosesion : ""
+user1 --> registro : ""
+
+@enduml
