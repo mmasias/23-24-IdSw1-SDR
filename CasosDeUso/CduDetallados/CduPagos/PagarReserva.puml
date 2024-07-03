@@ -1,0 +1,50 @@
+@startuml
+
+[*] --> MetodoDePago
+MetodoDePago --> PagarConBonos
+note left of PagarConBonos
+Este es el CDU de 
+**PagarConBonos**
+end note
+
+MetodoDePago --> PagarConTarjeta
+note on link
+ El usuario escoge que 
+ método de pago usar
+ 
+ **Método de Pago: Tarjeta**
+end note
+
+PagarConTarjeta --> RealizarPago
+note on link
+**Datos De Pago:**
+  - Número de Tarjeta
+  - Nombre del Titular
+  - Fecha de Caducidad
+  - Código de Seguridad
+
+ El **sistema** efectua el pago
+ con el TPV virtual
+end note
+
+RealizarPago ---> ConfirmarReserva 
+note on link
+  El **sistema** muestra un mensaje 
+  de confirmación al **usuario**
+end note
+
+RealizarPago --[#red]-> NotificarPagoFallido 
+note on link
+ El **sistema** muestra un 
+ mensaje de error al **usuario**
+end note
+
+NotificarPagoFallido --[#red]-> [*]
+
+ConfirmarReserva ---> [*]
+note on link
+ El **sistema** añade la reserva
+ a la cuenta del **usuario**
+end note
+
+@enduml

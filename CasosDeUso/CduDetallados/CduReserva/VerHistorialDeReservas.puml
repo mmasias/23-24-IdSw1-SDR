@@ -1,0 +1,22 @@
+@startuml
+title Ver Historial de Reservas
+
+[*] --> CargarHistorial
+note on link
+ El **sistema** recupera todas las 
+ reservas previas asociadas al **usuario**.
+
+ si el **usuario** es **administrador** se le 
+ permite ver todas las reservas.
+end note
+
+CargarHistorial --> MostrarHistorial
+note on link
+ El **sistema** le muestra al **usuario** 
+ todas sus reservas pasadas con 
+ todos sus datos asociados.
+end note
+
+MostrarHistorial --> [*]
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+title Realizar Reserva
+
+[*] --> VerificarUltimaReserva
+note on link
+El **sistema** verifica que el 
+**usuario** no tengo otra 
+reserva en los próximos 7 días.
+end note
+
+VerificarUltimaReserva --> SeleccionarPista
+note on link
+El **sistema** muestra las canchas disponibles.
+end note
+SeleccionarPista --> ElegirFechaHora
+note on link
+El **sistema** muestra los horarios disponibles.
+end note
+ElegirFechaHora --> ConfirmacionReserva
+note on link
+ El **usuario** confirma los detalles 
+ de la reserva y el **sistema** verifica
+ la disponibilidad de la cancha y que 
+ todos los datos sean correctos.
+end note
+
+ConfirmacionReserva --> ReservaConfirmada
+note on link
+El **sistema** confirma la 
+reserva al **usuario**.
+end note
+ReservaConfirmada --> [*]
+VerificarUltimaReserva -[#red]> [*]
+
+@enduml

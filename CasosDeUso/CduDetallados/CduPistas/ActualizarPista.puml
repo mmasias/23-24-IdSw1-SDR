@@ -1,0 +1,38 @@
+@startuml 
+[*] --> UsuarioSolicitaPista
+UsuarioSolicitaPista --> SistemaMuestraPista
+note on link
+    El **Administrador** selecciona la pista que desea ver
+end note
+SistemaMuestraPista --> UsuarioIntroduceModificaciones
+note on link
+    El sistema muestra la pista
+    al **Administrador**
+end note
+SistemaMuestraPista -[#red]> [*]
+note on link
+    La **pista** no se puede
+    mostrar ya que se ha 
+    producido un error
+end note
+UsuarioIntroduceModificaciones --> SistemaModificaPista
+note on link
+    El **Administrador** introduce 
+    las modificaciones 
+    necesarias
+end note
+SistemaModificaPista --> SistemaMuestraPistaModificada
+note on link
+    El **sistema** modifica 
+    la pista
+end note
+SistemaModificaPista --> [*]
+note on link
+    El **sistema** no puede 
+    modificar la pista ya que
+    se ha producido un error
+end note
+
+SistemaMuestraPistaModificada ---> [*]
+
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+
+[*] --> MetodoDePago
+note on link
+ El usuario escoge que 
+ método de pago usar
+ 
+ **Método de Pago: Bono**
+end note
+
+MetodoDePago --> RealizarPago
+note on link
+El **sistema** verifica que el **usuario**
+tenga Bonos para realizar el pago y 
+el **sistema** los descuenta de su cuenta
+end note
+
+RealizarPago --> ConfirmarReserva  
+note on link
+    El **sistema** muestra 
+    un mensaje de confirmación 
+    al **usuario**
+end note
+
+RealizarPago -[#red]-> NotificarPagoFallido  
+note on link
+ El **sistema** muestra un 
+ mensaje de error al usuario, 
+end note
+
+RealizarPago -[#red]-> NotificarFondosInsuficientes 
+note on link
+    El **sistema** muestra un 
+    mensaje de error al **usuario**, 
+    indicando que no tiene
+    suficientes fondos
+end note
+
+NotificarPagoFallido -[#red]-> [*]
+
+NotificarFondosInsuficientes -[#red]-> [*]
+
+ConfirmarReserva --> [*]
+note on link
+    El **sistema** añade la reserva
+    a la cuenta del **usuario**
+
+end note
+
+@enduml

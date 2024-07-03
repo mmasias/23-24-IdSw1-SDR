@@ -1,0 +1,20 @@
+@startuml 
+[*] --> UsuarioSolicitaPistas
+UsuarioSolicitaPistas -d-> SistemaMuestraPistas
+note on link
+    El **usuario** solicita las pistas al **sistema**
+end note
+
+SistemaMuestraPistas -[#red]---> [*]
+note on link
+    El **sistema** no puede mostrar
+    las pistas al usuario
+end note
+
+SistemaMuestraPistas --> [*]
+note on link
+    El **sistema** muestra las pistas
+    al usuario
+end note
+
+@enduml

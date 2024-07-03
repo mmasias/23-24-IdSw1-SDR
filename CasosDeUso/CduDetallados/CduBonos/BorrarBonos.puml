@@ -1,0 +1,35 @@
+@startuml
+title Borrar Bonos (Admin)
+
+[*] --> Inicio
+note right on link
+El **administrador** empieza desde la 
+página de inicio de la aplicación
+end note
+
+Inicio --> ListaDeBonos
+
+ListaDeBonos --> ConfirmarBorrado 
+note right on link
+El **administrador** accede a la lista de bonos
+y selecciona un bono para borrar
+end note
+
+ConfirmarBorrado --> BonoBorrado
+note right on link
+El **administrador** confirma la eliminación
+del bono seleccionado
+end note
+
+BonoBorrado --> ListaDeBonos
+note right on link
+El **administrador** elige borrar otro bono
+end note
+
+BonoBorrado --> [*] 
+note right on link
+El **administrador** finaliza el proceso de
+borrado de bonos
+end note
+
+@enduml

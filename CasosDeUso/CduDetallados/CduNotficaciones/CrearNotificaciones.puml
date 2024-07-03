@@ -1,0 +1,37 @@
+@startuml
+
+[*] --> CrearNotificacion
+note on link
+ El **administrador** accede a la opción 
+ de crear una nueva notificación
+
+ El **sistema** muestra un formulario para crear
+una nueva notificación
+end note
+
+CrearNotificacion --> SeleccionarDestinatario
+note on link
+ El **administrador** selecciona el destinatario 
+ de la notificación
+end note
+
+SeleccionarDestinatario --> IngresarContenido
+note on link
+ El **administrador** ingresa el contenido 
+ de la notificación
+end note
+
+IngresarContenido --> ConfirmarContenido 
+note on link
+ El **administrador** confirma el contenido 
+ de la notificación
+end note
+
+ConfirmarContenido --> [*]
+note on link
+ El **sistema** muestra al administrador 
+ una confirmación del contenido 
+ de la notificación
+end note
+
+@enduml

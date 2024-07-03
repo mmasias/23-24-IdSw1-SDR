@@ -1,0 +1,46 @@
+@startuml
+
+[*] --> ComprarBonos
+note on link
+ El **usuario** accede a la opción 
+ de comprar bonos en el **sistema**
+end note
+
+ComprarBonos --> SeleccionarCantidad
+note on link
+ El **usuario** elige la cantidad 
+ de bonos que desea comprar
+end note
+
+SeleccionarCantidad --> RealizarPago
+note on link
+ El **sistema** procesa el pago 
+ de los bonos seleccionados
+end note
+
+RealizarPago --> ConfirmarCompra
+note on link
+    El **sistema** confirma la compra 
+    de los bonos al **usuario**
+end note
+
+ConfirmarCompra --> MostrarConfirmacion
+note  on  link
+    El **sistema** muestra un mensaje 
+    de confirmación y se añaade los
+    bonos a la cuenta del **usuario**
+end note
+
+RealizarPago -[#red]-> NotificarFalloPago
+note on link
+    El **sistema** notifica al 
+    **usuario** que el pago no 
+    se ha podido realizar
+    debido a un error
+end note
+
+NotificarFalloPago -[#red]> [*]
+
+MostrarConfirmacion ---> [*]
+
+@enduml

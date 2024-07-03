@@ -1,0 +1,38 @@
+@startuml
+
+[*] --> VerNotificaciones
+note on link
+ El **usuario** accede a la opción 
+ de ver sus notificaciones
+
+ El **sistema** muestra las notificaciones
+end note
+
+VerNotificaciones --> SeleccionarNotificacion
+note on link
+ El **usuario** selecciona la notificación 
+ que desea leer
+end note
+
+SeleccionarNotificacion --> LeerNotificacion
+note on link
+ El **sistema** muestra el contenido 
+ de la notificación seleccionada
+end note
+
+LeerNotificacion --> ConfirmarLectura 
+note on link
+ El **usuario** confirma que ha leído 
+ la notificación
+end note
+
+ConfirmarLectura --> MostrarConfirmacion
+note on link
+ El **sistema** muestra una confirmación 
+ al **usuario** de que la notificación 
+ ha sido marcada como leída
+end note
+
+MostrarConfirmacion --> [*]
+
+@enduml

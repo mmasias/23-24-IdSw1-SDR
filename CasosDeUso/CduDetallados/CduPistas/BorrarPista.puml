@@ -1,0 +1,33 @@
+@startuml 
+[*] --> UsuarioSolicitaPista
+UsuarioSolicitaPista --> SistemaMuestraPista
+note on link
+    El **adminsitrador** solicita una pista
+end note
+SistemaMuestraPista --> UsuarioSolicitaBorrarPista
+note on link
+    El **sistema** muestra la pista
+    al **administrador**
+end note
+SistemaMuestraPista -[#red]> [*]
+note on link
+    El **sistema** no encuentra la pista
+end note
+UsuarioSolicitaBorrarPista --> SistemaBorraPista
+note on link
+    El **administrador** solicita
+    borrar la pista
+end note
+SistemaBorraPista -[#red]-> [*]
+note on link
+    El **sistema** no puede 
+    eliminar la pista
+end note
+
+
+SistemaBorraPista ----> [*]
+note on link
+    El **sistema** borra la pista
+end note
+
+@enduml

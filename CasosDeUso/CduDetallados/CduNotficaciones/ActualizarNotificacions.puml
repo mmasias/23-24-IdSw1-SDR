@@ -1,0 +1,46 @@
+@startuml
+
+[*] --> VerNotificaciones
+note on link
+ El **administrador** accede a la opción 
+ de ver sus notificaciones
+
+ El **sistema** muestra las notificaciones
+end note
+
+VerNotificaciones --> SeleccionarNotificacion
+note on link
+ El **administrador** selecciona la notificación 
+ que desea actualizar
+end note
+
+SeleccionarNotificacion --> ActualizarEstado
+note on link
+ El **sistema** actualiza el estado 
+ de la notificación seleccionada
+end note
+
+ActualizarEstado --> ConfirmarActualizacion
+note on link
+ El **sistema** actualiza el estado 
+ de la notificación
+end note
+
+ActualizarEstado --> [*]
+note on link
+**Error de Actualización:**
+el **sistema** le muestra un error al 
+**administrador** si no se puede actualizar 
+la notificación y se le recomienda intentarlo 
+más tarde
+end note
+
+ConfirmarActualizacion ---> MostrarConfirmacion
+note on link
+El **sistema** muestra al 
+**administrador** una confirmación 
+de la actualización de la notificación
+end note
+
+MostrarConfirmacion --> [*]
+@enduml
