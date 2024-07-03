@@ -4,7 +4,18 @@
 
 ## Descripción📝
 
-**FISC** es un proyecto de simulación y análisis térmico desarrollado por **Jorge Crespo** para ayudar en la evaluación del comportamiento del hormigón frente a agresiones térmicas. Este repositorio contiene modelos, propuestas, registros de reuniones y otros recursos relacionados con el proyecto FISC.
+<div align=center>
+
+| |Grupo|Estadísticas|Entrega oficial|
+|-|-|:-:|:-:|
+1|[FISC](https://github.com/guzmangrianchoUNEAT/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/guzmangrianchoUNEAT/23-24-IdSw1-SDR/graphs/contributors)|[🏴](https://github.com/mmasias/23-24-IdSw1-SDR/tree/a5d1c3a06afa3f9791f1907b96bc9891cee340c1)
+2|[Control de asistencia](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/VeronikaEspa/23-24-IdSw1-SDR/graphs/contributors)|[🏁](https://github.com/mmasias/23-24-IdSw1-SDR/tree/Grupo2-pyClara)
+3|[Booking UNEAT](https://github.com/pablarce/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/pablarce/23-24-IdSw1-SDR/graphs/contributors)|[🏴](https://github.com/mmasias/23-24-IdSw1-SDR/tree/191069718f4462d98a98a60c3f38013316b54afc)
+4|[TiCKET](https://github.com/MRSergio21/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/MRSergio21/23-24-IdSw1-SDR/graphs/contributors)|[🏁](https://github.com/mmasias/23-24-IdSw1-SDR/tree/Grupo4-pySalvador)
+5|[TimeGuardian](https://github.com/hugofresno20/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/hugofresno20/23-24-IdSw1-SDR/graphs/contributors)|[🏴](https://github.com/mmasias/23-24-IdSw1-SDR/tree/d5fad64ba8b2df9254a534d512484498d1b51d64)
+6|[Alumni](https://github.com/jramsgz/23-24-IdSw1-SDR/blob/main/README.md)|[👁️📒](https://github.com/jramsgz/23-24-IdSw1-SDR/graphs/contributors)|[🏁](https://github.com/mmasias/23-24-IdSw1-SDR/tree/Grupo6-pyJesus)
+
+</div>
 
 > Este repositorio es un recurso colaborativo para el desarrollo y la documentación de FISC.
 
