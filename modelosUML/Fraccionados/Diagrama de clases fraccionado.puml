@@ -1,0 +1,40 @@
+@startuml
+
+class GestorDeHorarios {
+    - horarios
+}
+
+class Docente {
+    - nombre
+    - apellido
+}
+
+class Asignatura {
+    - nombre
+    - id
+}
+
+class Aula {
+    - numero
+}
+
+class Horario {
+    - dia
+    - asignatura
+    - aula
+    - horaInicio
+    - horaFin
+}
+
+class AsignacionDocenteAsignatura {
+    - docente
+    - asignatura
+}
+
+class AsignacionAula {
+    - asignatura
+    - aula
+}
+
+
+@enduml

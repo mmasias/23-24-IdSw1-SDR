@@ -1,0 +1,46 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Asignar Aula a Asignatura - TimeGuardian
+
+ASIGNAR_DOCENTE_ASIGNATURA-[#green]-> AsignacionAula
+note on link
+  **Usuario selecciona:**
+  - Asignar aula a asignatura
+end note
+
+state AsignacionAula {
+  state "Seleccionar Asignatura" as SeleccionarAsignatura
+  state "Elegir Aula" as ElegirAula
+  state "Confirmar Asignación" as Confirmar
+  
+  [*] -[#green]-> SeleccionarAsignatura
+note on link 
+**Cargar Aulas**
+ - Cargar todas las asignaturas de la base de datos
+end note
+
+  SeleccionarAsignatura -[#green]-> ElegirAula
+  note on link
+    **Cargar Aulas:**
+    - Cargar todas las aulas de la base de datos
+  end note
+  ElegirAula -[#green]-> Confirmar
+  note on link
+    **Sistema guarda:**
+    - Asignación del aula
+  end note
+  Confirmar -[#green]-> [*]
+}
+
+AsignacionAula -[#green]-> ASIGNAR_AULA
+@enduml
