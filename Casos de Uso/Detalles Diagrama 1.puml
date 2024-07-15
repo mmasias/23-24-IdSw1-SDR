@@ -1,55 +1,54 @@
 @startuml
 
 skinparam state {
-  BackgroundColor #e6ee9c
-  BorderColor #004d40
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-  BackgroundColor #ffe0b2
+  BackgroundColor #f5f5f5
 }
 
 skinparam linetype polyline
 
 title Caso de Uso Administración de Horarios - Sistema TimeGuardian
 
-INICIO -[#green]-> iniciar_sesión
+[*] -[#green]-> iniciar_sesion
 note on link
   **Administrador de horarios:**
   - Inicia sesión en el sistema
 end note
 
-iniciar_sesión -[#green]-> mostrar_interfaz_principal
-note right of mostrar_interfaz_principal
-  Muestra la interfaz principal
-end note
+state iniciar_sesion {
+  state "Mostrar la interfaz principal" as state1
+  state "Seleccionar visualización de asignaturas" as state2
+  state "Mostrar asignaturas ofrecidas" as state3
+  state "Arrastrar y soltar asignaturas" as state4
+  state "Guardar cambios" as state5
+  
+  [*] -[#green]-> state1
+  state1 -[#green]-> state2
+  note on link
+    **Administrador selecciona:**
+    - Visualizar asignaturas ofrecidas para una carrera
+  end note
+  state2 -[#green]-> state3
+  note on link
+    Muestra asignaturas para la carrera seleccionada
+  end note
+  state3 -[#green]-> state4
+  note on link
+    **Administrador realiza:**
+    - Arrastra y suelta asignaturas en el calendario
+  end note
+  state4 -[#green]-> state5
+  note on link
+    - Guarda cambios y actualiza horario académico
+    - Horario académico actualizado
+  end note
+  state5 -[#green]-> [*]
+}
 
-mostrar_interfaz_principal -[#green]-> seleccionar_visualización_asignaturas
-note on link
-  **Administrador selecciona:**
-  - Visualizar asignaturas ofrecidas para una carrera
-end note
-
-seleccionar_visualización_asignaturas -[#green]-> mostrar_asignaturas_ofrecidas
-note right of mostrar_asignaturas_ofrecidas
-  Muestra asignaturas para la carrera seleccionada
-end note
-
-mostrar_asignaturas_ofrecidas -[#green]-> arrastrar_soltar_asignaturas
-note on link
-  **Administrador realiza:**
-  - Arrastra y suelta asignaturas en el calendario
-end note
-
-arrastrar_soltar_asignaturas -[#green]-> guardar_cambios
-note on link
-  **Administrador:**
-  - Guarda cambios y actualiza horario académico
-end note
-
-guardar_cambios -[#green]-> [*]
-note right of guardar_cambios
-  Horario académico actualizado
-end note
+iniciar_sesion -[#green]-> MOSTRAR_HORARIO_ACTUALIZADO
 
 @enduml

@@ -1,43 +1,46 @@
 @startuml
-
 skinparam state {
-  BackgroundColor #e6ee9c
-  BorderColor #004d40
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-  BackgroundColor #ffe0b2
+  BackgroundColor #f5f5f5
 }
 
 skinparam linetype polyline
 
-title Caso de Uso - Asignación de Docente a Asignatura
+title Caso de Uso Asignar Docente a Asignatura - TimeGuardian
 
-[*] -[#green]-> inicio
-note right of inicio
-  **Coordinador académico inicia:**
-  - Proceso de asignar docente a asignatura
-end note
-
-inicio -[#green]-> seleccionar_docente
-note right of seleccionar_docente
-  Seleccionar docente para la asignatura
-end note
-
-seleccionar_docente -[#green]-> evaluar_compatibilidad
+GESTIONAR_HORARIOS-[#green]-> AsignacionDocenteAsignatura
 note on link
-  **Coordinador evalúa:**
-  - Compatibilidad del docente con la asignatura
+  **Usuario selecciona:**
+  - Asignar docente a asignatura
 end note
 
-evaluar_compatibilidad -[#green]-> confirmar_asignación
-note right of confirmar_asignación
-  Confirmar asignación del docente a la asignatura
-end note
+state AsignacionDocenteAsignatura {
+  state "Seleccionar Asignatura" as SeleccionarAsignatura
+  state "Elegir Docente" as ElegirDocente
+  state "Confirmar Asignación" as Confirmar
+  
 
-confirmar_asignación -[#green]-> [*]
-note right of confirmar_asignación
-  Docente asignado a la asignatura exitosamente
+  [*] -[#green]-> SeleccionarAsignatura
+note on link
+**Cargar Asignaturas:**
+    - Cargan todas las asignaturas de la base de datos
 end note
+  SeleccionarAsignatura -[#green]-> ElegirDocente
+  note on link
+    **Cargar Docentes:**
+    - Cargan todos los docentes de la base de datos
+  end note
+  ElegirDocente -[#green]-> Confirmar
+  note on link
+    **Sistema guarda:**
+    - Asignación del docente a la asignatura
+  end note
+  Confirmar -[#green]-> [*]
+}
 
+AsignacionDocenteAsignatura -[#green]-> ASIGNAR_DOCENTE_ASIGNATURA
 @enduml

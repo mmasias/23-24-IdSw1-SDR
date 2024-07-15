@@ -19,30 +19,30 @@ note on link
 end note
 
 state registroDeUsuario{
-  state "Ingresar datos" as A
-  state "Validar información" as B
-  state "Crear cuenta" as C
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
   
-  [*] -[#orange]-> A
-  A -[#orange]-> B
+  [*] -[#orange]-> 1
+  1 -[#orange]-> 2
   note on link
       **Usuario debe proporcionar:**
       - Nombre
       - Email
       - Contraseña
   end note
-  B -[#orange]-> C
+  2 -[#orange]-> 3
   note on link
     **Sistema verifica:**
     - Email sin registro previo
     - Usuario sin registro previo
     - Contraseña segura
   end note
-  C -[#red]-> A
+  3 -[#red]-> 1
   note on link
     [información inválida o incompleta]
   end note
-  C -[#orange]-> [*]
+  3 -[#orange]-> [*]
 }
 
 registroDeUsuario-[#orange]-> abrirPáginaInicio

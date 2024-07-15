@@ -1,21 +1,16 @@
 @startuml
-actor "Administrador de horarios" as A
-participant "Sistema TimeGuardian" as S
+title Caso de Uso - Administrador de Horarios
 
-A -> S : Inicia sesión en el sistema
-activate S
-S --> A : Muestra la interfaz principal
-deactivate S
-activate A
-A -> S : Selecciona la opción para visualizar las asignaturas ofrecidas para una carrera específica
-deactivate A
-activate S
-S --> A : Muestra las asignaturas ofrecidas para la carrera seleccionada
-deactivate S
-activate A
-A -> S : Arrastra y suelta las asignaturas en el calendario
-deactivate A
-activate S
-S --> A : Guarda los cambios y actualiza el horario académico de los estudiantes
-deactivate S
+left to right direction
+actor Usuario as cust
+
+rectangle "Administrador" {
+    usecase "Visualizar horarios" as OP1
+    usecase "Organizar horarios" as OP2
+usecase "Crear nuevo horario" as OP3
+}
+
+cust --> OP1
+cust --> OP2
+cust -->OP3
 @enduml

@@ -1,26 +1,26 @@
 @startuml
 
 skinparam state {
-    BackgroundColor #fff3e0
-    BorderColor #d32f2f
+  BackgroundColor #faf4b4
+  BorderColor #c90000
 }
 
 skinparam note {
-    BackgroundColor #e1bee7
+  BackgroundColor #f5f5f5
 }
+
+skinparam linetype polyline
 
 title Caso de Uso - Sistema TimeGuardian
 
-[*] --> sistema_timeguardian: Iniciar
+[*] -[#c90000]-> sistema_timeguardian
+
 state sistema_timeguardian {
-    [*] --> detección_conflictos_horario: Detectar conflictos de horario
-
-    state detección_conflictos_horario {
-        [*] --> detecta_notifica_conflictos: Notificar conflictos
-        detecta_notifica_conflictos --> [*]
-    }
-
-    detección_conflictos_horario --> [*]
+  [*] -[#c90000]-> detección_conflictos_horario
+  state "Detectar conflictos de horario" as detección_conflictos_horario
+  detección_conflictos_horario -[#c90000]-> detecta_notifica_conflictos
+  state "Notificar conflictos" as detecta_notifica_conflictos
+  detecta_notifica_conflictos -[#c90000]-> [*]
 }
 
 @enduml

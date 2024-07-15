@@ -1,5 +1,6 @@
 @startuml
-actor "Gestor de Horarios" as A
-usecase "Creación del Horario" as UC3
-A --> UC3 : Crea Horario
+actor "Gestor de Horarios" as User
+rectangle "Creación del Horario" as CreacionDelHorario
+
+User -> CreacionDelHorario : Crea Horario
 @enduml

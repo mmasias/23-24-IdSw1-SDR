@@ -1,10 +1,11 @@
 @startuml
-actor "Gestor de Horarios" as A
+title Caso de Uso - Asignar Docente Asignatura
+left to right direction
+actor Usuario as cust
 
-usecase "Asignacion de docentes" as UC1
-usecase "No asignado" as UC2
+rectangle "Asignar Docente Asignatura" {
+    usecase "Asignar Aula a Asignatura" as OP1
+}
 
-A --> UC1 : Asigna DocenteAsignatura
-A --> UC2 : Descarta DocenteAsignatura
-
+cust --> OP1
 @enduml
