@@ -1,7 +1,3 @@
-
-
----
-
 # - TimeGuardian -
 
 TimeGuardian es una herramienta diseñada para el cliente encargado de facilitar la organización y asignación de horarios de la universidad, para estudiantes, profesores y aulas. Este sistema centralizado permite al administrador de horarios: visualizar, elegir y asignar asignaturas o clases en un calendario interactivo, proporcionando una experiencia de usuario intuitiva y eficiente en la gestión del tiempo.🗓️
@@ -48,6 +44,3 @@ Todos los cambios realizados en el sistema se guardan de manera segura y eficien
 
 - **[Información Adicional](https://github.com/FernandoWilliam26/23-24-IdSw1-SDR/blob/main/Logo/TimeGuardian%20Logo.png):** Información complementaria al proyecto, donde podemos encontrar el logo de la aplicación.
     - Logo de la Aplicación
-
-
----
