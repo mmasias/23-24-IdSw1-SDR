@@ -1,0 +1,40 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso - Verificación de Docente
+
+[*] -[#green]-> inicio
+note on link
+  **Coordinador académico inicia:**
+  - Proceso de verificación de docente
+end note
+
+state inicio {
+  state "Revisar documentación y credenciales del docente" as state1
+  state "Confirmar verificación" as state2
+  
+  [*] -[#green]-> state1
+  state1 -[#green]-> state2
+  note on link
+    Revisar documentación y credenciales del docente
+  end note
+  state2 -[#green]-> [*]
+  note on link
+    Docente verificado exitosamente
+    Confirmar la verificación del docente
+  end note
+}
+
+@enduml
+
+

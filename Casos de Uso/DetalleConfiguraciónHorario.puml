@@ -1,0 +1,43 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Configurar Horario Aula - TimeGuardian
+
+ASIGNAR_AULA -[#green]-> ConfiguracionHorario 
+note on link
+  **Usuario selecciona:**
+  - Configurar horario
+end note
+
+state ConfiguracionHorario {
+  state 1 as "Cargar Horarios"
+  state 2 as "Recibir horarios"
+  state 3 as "Modificar Horarios"
+  
+  [*] -[#green]-> 1
+  1 -[#green]-> 2
+  note on link
+      **Cargar Horarios**
+      - Carga los horarios del sistema
+  end note
+  2 -[#green]-> 3
+  note on link
+    **Modificar Horarios**
+    - Modifica horas de las asignaturas
+  end note
+  3 -[#green]-> [*]
+}
+
+ConfiguracionHorario -[#green]-> CONFIGURAR_HORARIO
+
+@enduml

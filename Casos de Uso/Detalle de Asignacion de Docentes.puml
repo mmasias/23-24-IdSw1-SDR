@@ -1,0 +1,47 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Asignación de Docentes
+
+[*] -[#green]-> inicio
+note on link
+  **Administrador inicia:**
+  - Proceso de asignación de docentes
+end note
+
+state inicio {
+  state "Revisar disponibilidad de docentes" as state1
+  state "Evaluar perfiles de docentes" as state2
+  state "Asignar docentes" as state3
+  state "Confirmar asignaciones" as state4
+  
+  [*] -[#green]-> state1
+  note right of state1
+    **Administrador evalúa:**
+    - Perfiles y especializaciones de docentes
+  end note
+  state1 -[#green]-> state2
+  state2 -[#green]-> state3
+  note right of state3
+    Asignar docentes a cursos o asignaturas
+  end note
+  state3 -[#green]-> state4
+  note right of state4
+    **Administrador confirma:**
+    - Asignaciones de docentes
+    - Proceso completado
+  end note
+  state4 -[#green]-> [*]
+}
+
+inicio -[#green]-> PAGINA_PRINCIPAL
+@enduml

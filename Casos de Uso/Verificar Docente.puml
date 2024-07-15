@@ -1,0 +1,10 @@
+@startuml
+actor "Verificar Docente" as A
+
+usecase "Asignacion de docente" as UC1
+usecase "Verificacion completa" as UC2
+
+A --> UC1 : Estan todos ocupados
+A --> UC2 : Hay Docentes disponibles
+
+@enduml

@@ -1,0 +1,51 @@
+@startuml
+skinparam state {
+  BackgroundColor #e6ee9c
+  BorderColor #6a1b9a
+}
+
+skinparam note {
+  BackgroundColor #ffe0b2
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Registro - TimeGuardian
+
+INICIO -[#orange]-> registroDeUsuario
+note on link
+  **Usuario solicita:**
+  - Registrarse
+end note
+
+state registroDeUsuario{
+  state 1 as " "
+  state 2 as " "
+  state 3 as " "
+  
+  [*] -[#orange]-> 1
+  1 -[#orange]-> 2
+  note on link
+      **Usuario debe proporcionar:**
+      - Nombre
+      - Email
+      - Contraseña
+  end note
+  2 -[#orange]-> 3
+  note on link
+    **Sistema verifica:**
+    - Email sin registro previo
+    - Usuario sin registro previo
+    - Contraseña segura
+  end note
+  3 -[#red]-> 1
+  note on link
+    [información inválida o incompleta]
+  end note
+  3 -[#orange]-> [*]
+}
+
+registroDeUsuario-[#orange]-> abrirPáginaInicio
+
+abrirPáginaInicio-[#orange]-> PÁGINA_HOME
+@enduml

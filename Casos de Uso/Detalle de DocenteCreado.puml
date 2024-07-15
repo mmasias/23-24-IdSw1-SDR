@@ -1,0 +1,47 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso - Creación de Perfil de Docente
+
+[*] -[#green]-> inicio
+note on link
+  **Administrador del sistema inicia:**
+  - Proceso de creación de perfil de docente
+end note
+
+state inicio {
+  state "Ingresar datos personales del docente" as state1
+  state "Verificar la precisión de la información" as state2
+  state "Confirmar creación" as state3
+  
+  [*] -[#green]-> state1
+  note right of state1
+    Incluye:
+    - Nombre
+    - Apellido
+  end note
+  state1 -[#green]-> state2
+  note right of state2
+    Verificar la precisión de la información
+  end note
+  state2 -[#green]-> state3
+  note right of state3
+    Perfil de docente creado exitosamente
+  end note
+  state3 -[#green]-> [*]
+}
+
+inicio -[#green]-> PAGINA_PRINCIPAL
+@enduml
+
+
+

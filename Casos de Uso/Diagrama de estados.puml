@@ -1,0 +1,24 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #e6ee9c
+  BorderColor #004d40
+}
+
+title Diagrama de Estados del Proceso de Creación de Horario
+
+[*] --> HorarioNoCreado : Iniciar
+
+state HorarioNoCreado {
+    [*] --> Creando : Iniciar
+}
+
+state Creando {
+    [*] --> HorarioFinalizado : Finalizar
+}
+
+state HorarioFinalizado {
+    [*] --> [*]
+}
+
+@enduml

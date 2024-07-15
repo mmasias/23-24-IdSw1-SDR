@@ -1,0 +1,5 @@
+@startuml
+actor "Gestor de Horarios" as A
+usecase "Selección de Docentes" as UC2
+A --> UC2 : Selecciona Docentes
+@enduml

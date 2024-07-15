@@ -1,0 +1,42 @@
+@startuml
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso Crear un Nuevo Horario - TimeGuardian
+
+PÁGINA_PRINCIPAL -[#green]-> CrearNuevoHorario
+note on link
+  **Usuario selecciona:**
+  - Crear un nuevo horario
+end note
+
+state CrearNuevoHorario {
+  state "Cargar Asignatura" as Cargar
+  state "Cargar Horario Vacio" as Ingresar
+  state "Guardar Horario" as Guardar
+  
+  [*] -[#green]-> Cargar
+  Cargar -[#green]-> Ingresar
+  note on link
+    **Usuario ingresa:**
+    - Datos del nuevo horario
+  end note
+  Ingresar -[#green]-> Guardar
+  note on link
+    **Sistema guarda:**
+    - El nuevo horario creado con asignaturas ya asignadas
+  end note
+  Guardar -[#green]-> [*]
+}
+
+CrearNuevoHorario -[#green]-> PAGINA_PRINCIPAL
+@enduml
+

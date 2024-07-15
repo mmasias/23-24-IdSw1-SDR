@@ -1,0 +1,46 @@
+@startuml
+
+skinparam state {
+  BackgroundColor #faf4b4
+  BorderColor #c90000
+}
+
+skinparam note {
+  BackgroundColor #f5f5f5
+}
+
+skinparam linetype polyline
+
+title Caso de Uso - Creación de Asignatura
+
+[*] -[#green]-> inicio
+note on link
+  **Coordinador académico inicia:**
+  - Proceso de creación de asignatura
+end note
+
+state inicio {
+  state " " as state1
+  state " " as state2
+  state " " as state3
+  
+  [*] -[#green]-> state1
+  note right of state1
+    **Coordinador define:**
+    - Contenidos y evaluaciones de la asignatura
+  end note
+  state1 -[#green]-> state2
+  note right of state2
+    **Coordinador confirma:**
+    - Creación de la asignatura
+  end note
+  state2 -[#green]-> state3
+  note right of state3
+    Asignatura creada y lista para ser incluida en el programa académico
+  end note
+  state3 -[#green]-> [*]
+}
+
+@enduml
+
+

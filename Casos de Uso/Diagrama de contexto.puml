@@ -1,0 +1,72 @@
+@startuml
+
+skinparam noteBackgroundColor #f5f5f5
+skinparam noteBorderColor #c90000
+skinparam arrowColor #218c00
+skinparam stateBackgroundColor #faf4b4
+skinparam stateBorderColor #c90000
+skinparam linetype polyline
+skinparam arrowThickness 1
+
+title Diagrama de Contexto
+
+[*] --> Inicio
+
+Inicio -d-> TimeGuardian
+note on link
+  Login
+end note
+Inicio -d-> Inicio
+note on link
+  Registrar Usuario
+end note
+
+State TimeGuardian {
+[*] --> PaginaPrincipal
+
+PaginaPrincipal -d-> GestionHorarios
+note on link
+  Visualizar Horarios
+  Organizar Horarios
+end note
+PaginaPrincipal -d-> PaginaPrincipal
+note on link
+  Crear Nuevo Horario
+end note
+
+GestionHorarios -d-> AsignacionDocenteAsignatura
+note on link
+  Asignar Docente a Asignatura
+end note
+
+AsignacionDocenteAsignatura -d-> AsignacionAula
+note on link
+  Asignar Aula a Asignatura
+end note
+
+AsignacionAula -d-> ConfiguracionHorario
+note on link
+  Configurar Horario Aula
+end note
+
+ConfiguracionHorario -d-> HorarioFinalizado
+note on link
+  Asignar Horario
+  Confirmar Horario
+end note
+ConfiguracionHorario -d-> ConfiguracionHorario
+note on link
+  Editar Horario
+end note
+
+HorarioFinalizado -d-> PaginaPrincipal
+note on link
+  Guardar
+end note
+}
+
+TimeGuardian --> [*]
+note on link
+  Log Out
+end note
+@enduml

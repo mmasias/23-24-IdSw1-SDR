@@ -1,0 +1,10 @@
+@startuml
+title Preparación de Clases por Parte del Docente
+
+entity Docente
+entity Asignatura
+
+Docente --|> Asignatura: revisarAsignaturas()
+
+
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+actor "Gestor de Horarios" as User
+rectangle "Creación del Horario" as CreacionDelHorario
+
+User -> CreacionDelHorario : Crea Horario
+@enduml

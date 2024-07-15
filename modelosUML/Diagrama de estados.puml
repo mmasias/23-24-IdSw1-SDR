@@ -1,0 +1,9 @@
+@startuml
+title Diagrama de Estados - Time Guardian
+
+[*] --> HorarioNoCreado: Iniciar
+HorarioNoCreado--> Creando
+Creando -->Creando
+Creando --> HorarioFinalizado
+HorarioFinalizado--> [*]: Finalizar
+@enduml
